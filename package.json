@@ -13,6 +13,7 @@
     "typecheck": "pnpm -r typecheck",
     "lint": "eslint .",
     "test": "vitest run",
+    "ingest": "tsx scripts/ingest.mts",
     "schema:types": "tsx scripts/schema-codegen.mts",
     "schema:validate": "tsx scripts/schema-validate.mts",
     "provenance:check": "node scripts/provenance-check.mjs",
@@ -29,6 +30,7 @@
     "vitest": "^5.0.5"
   },
   "dependencies": {
+    "@weekly/pipeline": "workspace:*",
     "@weekly/schema": "workspace:*"
   }
 }

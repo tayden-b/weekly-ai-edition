@@ -34,6 +34,27 @@ scripts/            dispatch.mjs, validate-dag.mjs, gate scripts (no deps)
 
 Deterministic stages are pure functions — test them with `vitest` against `packages/pipeline/testdata/` + adapter `__fixtures__/`. No network in tests, ever. `pnpm edition:build --week <id>` (lands with I1) runs the chain over `data/raw/` cache; LLM-stage fields are filled through the session `llm()` seam and recorded for replay (see P4's format).
 
+## The ingest cache (`data/raw/`)
+
+`pnpm ingest` (P3, `scripts/ingest.mts`) runs every `enabled` adapter in `config/sources.yaml` in parallel and writes the daily raw cache — `.github/workflows/ingest-daily.yml` does this at 06:00 ET and commits the result to `main` (git-as-CMS, ADR-0001).
+
+```
+data/raw/<YYYY-MM-DD>/<source-id>.json   one file per enabled sources.yaml entry:
+                                        { adapter, source, fetched_at, items }
+                                        — items are AdapterRawItem (RawItem +
+                                        adapter id), i.e. exactly what P1's
+                                        normalize consumes. Read the files
+                                        directly; no re-stamping needed.
+data/raw/<YYYY-MM-DD>/manifest.json     the run's provenance record: per-source
+                                        { source, adapter, ok, count, error? },
+                                        the fetch window, ran_at, and totals.
+```
+
+- Files are keyed by the **entry id** (`pr-newswire.json`), not the adapter id — adapters like `press-wire-rss` run one instance per config entry, so the entry id is the unique name. The adapter id is inside each file + the manifest.
+- **Failure isolation:** a throwing factory or `fetch()` becomes that source's `ok: false` manifest row + an empty `items` file; the run never fails (PLAN §5.1). A blocked feed that degrades internally lands as `ok: true, count: 0`. Disabled entries are skipped entirely.
+- **Re-runs:** same `--date` → same file names and content shape, every file rewritten wholesale (stale records can't survive into a later build). A re-run is a no-diff unless publishers added or retracted items.
+- Flags: `--date YYYY-MM-DD` (default: today UTC) · `--days N` (window lookback, default 7 — the edition's Sat→Fri coverage, so a missed day leaves no gap) · `--config`/`--markets`/`--out` path overrides.
+
 ## What a passing PR looks like
 
 - `pnpm check` green on a clean clone; CI job `ci` green.
