@@ -1,0 +1,160 @@
+{
+  "$comment": "P2 rank-stage fixtures. `sources` is a sources.yaml-shaped entry list (exercising meta.weight + meta.publisher + *_feed provenance); `clusters` are ItemCluster-shaped — `items` in P1 member order and the test sets `item = items[0]` (the earliest-published representative). The test injects reference instant 2026-10-28T12:00:00Z via opts.now.",
+  "sources": [
+    {
+      "id": "techcrunch-ai",
+      "pages": ["launches"],
+      "tier": "primary",
+      "adapter": "newsroom-rss",
+      "endpoint": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "kind": "rss",
+      "license": "fixture",
+      "rate_limit": "fixture",
+      "enabled": true,
+      "meta": { "publisher": "TechCrunch", "weight": 1.0 }
+    },
+    {
+      "id": "theverge-ai",
+      "pages": ["launches"],
+      "tier": "primary",
+      "adapter": "newsroom-rss",
+      "endpoint": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "kind": "atom",
+      "license": "fixture",
+      "rate_limit": "fixture",
+      "enabled": true,
+      "meta": { "publisher": "The Verge", "weight": 0.9 }
+    },
+    {
+      "id": "ft-headlines",
+      "pages": ["funding", "deals"],
+      "tier": "secondary",
+      "adapter": "press-wire-rss",
+      "endpoint": "https://www.ft.com/rss/home",
+      "kind": "rss",
+      "license": "fixture",
+      "rate_limit": "fixture",
+      "enabled": true,
+      "meta": { "publisher": "Financial Times", "weight": 0.6 }
+    },
+    {
+      "id": "reddit-machinelearning",
+      "pages": ["discourse"],
+      "tier": "primary",
+      "adapter": "reddit-json",
+      "endpoint": "https://www.reddit.com/r/MachineLearning/top.json",
+      "kind": "json-api",
+      "license": "fixture",
+      "rate_limit": "fixture",
+      "enabled": true,
+      "meta": { "publisher": "r/MachineLearning", "weight": 0.7 }
+    },
+    {
+      "id": "sec-edgar-fts",
+      "pages": ["funding", "deals"],
+      "tier": "primary",
+      "adapter": "sec-edgar",
+      "endpoint": "https://efts.sec.gov/LATEST/search-index",
+      "kind": "json-api",
+      "license": "fixture",
+      "rate_limit": "fixture",
+      "enabled": true,
+      "meta": { "publisher": "SEC EDGAR" }
+    }
+  ],
+  "clusters": [
+    {
+      "id": "https://techcrunch.com/2026/10/28/openai-gpt-7/",
+      "$comment": "multi-source + fresh + high engagement — should top the ranking",
+      "items": [
+        {
+          "adapter": "newsroom-rss",
+          "headline": "OpenAI launches GPT-7",
+          "canonical_url": "https://techcrunch.com/2026/10/28/openai-gpt-7/",
+          "publisher": "TechCrunch",
+          "published_at": "2026-10-28T09:00:00.000Z",
+          "fetched_at": "2026-10-28T12:00:00.000Z",
+          "excerpt": "OpenAI announced GPT-7 today.",
+          "source_ids": { "rss_guid": "tc-9", "newsroom_feed": "techcrunch-ai" },
+          "title_key": "openai launches gpt 7"
+        },
+        {
+          "adapter": "newsroom-rss",
+          "headline": "OpenAI's GPT-7 arrives",
+          "canonical_url": "https://www.theverge.com/2026/10/28/openai-gpt-7",
+          "publisher": "The Verge",
+          "published_at": "2026-10-28T10:30:00.000Z",
+          "fetched_at": "2026-10-28T12:00:00.000Z",
+          "excerpt": "GPT-7 arrives.",
+          "source_ids": { "rss_guid": "v-4", "newsroom_feed": "theverge-ai" },
+          "title_key": "openai s gpt 7 arrives"
+        },
+        {
+          "adapter": "hn-algolia",
+          "headline": "OpenAI launches GPT-7",
+          "canonical_url": "https://news.ycombinator.com/item?id=42318971",
+          "publisher": "Hacker News",
+          "published_at": "2026-10-28T11:00:00.000Z",
+          "fetched_at": "2026-10-28T12:00:00.000Z",
+          "excerpt": "OpenAI launches GPT-7",
+          "source_ids": { "hn_object_id": "42318971" },
+          "hn_points": 900,
+          "hn_comments": 420,
+          "title_key": "openai launches gpt 7"
+        }
+      ]
+    },
+    {
+      "id": "https://reddit.com/r/MachineLearning/comments/abc123/x",
+      "$comment": "single source, moderate engagement, medium weight — engagement lifts it",
+      "items": [
+        {
+          "adapter": "reddit-json",
+          "headline": "[D] GPT-7 discussion thread",
+          "canonical_url": "https://reddit.com/r/MachineLearning/comments/abc123/x",
+          "publisher": "r/MachineLearning",
+          "published_at": "2026-10-28T06:00:00.000Z",
+          "fetched_at": "2026-10-28T12:00:00.000Z",
+          "excerpt": "Discussion of GPT-7.",
+          "source_ids": { "reddit_feed": "reddit-machinelearning", "reddit_id": "abc123" },
+          "reddit_score": 260,
+          "title_key": "d gpt 7 discussion thread"
+        }
+      ]
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/123/0001234567-26-000123-index.htm",
+      "$comment": "single authoritative source, yesterday, no engagement — publisher-name weight resolution (no *_feed key)",
+      "items": [
+        {
+          "adapter": "sec-edgar",
+          "headline": "Form D — Acme AI Inc.",
+          "canonical_url": "https://www.sec.gov/Archives/edgar/data/123/0001234567-26-000123-index.htm",
+          "publisher": "SEC EDGAR",
+          "published_at": "2026-10-27T20:00:00.000Z",
+          "fetched_at": "2026-10-28T12:00:00.000Z",
+          "excerpt": "Acme AI Inc. filed a Form D.",
+          "source_ids": { "edgar_accession": "0001234567-26-000123" },
+          "title_key": "form d acme ai inc"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/acme-ai-40m",
+      "$comment": "single secondary (0.6-weight) source, ~7 days stale — must rank last",
+      "items": [
+        {
+          "adapter": "press-wire-rss",
+          "headline": "Acme AI raises $40M",
+          "canonical_url": "https://www.ft.com/content/acme-ai-40m",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-21T15:00:00.000Z",
+          "fetched_at": "2026-10-28T12:00:00.000Z",
+          "excerpt": "Acme AI raised $40M.",
+          "source_ids": { "feed": "ft-headlines" },
+          "title_key": "acme ai raises 40m"
+        }
+      ]
+    }
+  ]
+}

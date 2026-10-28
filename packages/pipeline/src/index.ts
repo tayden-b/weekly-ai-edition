@@ -112,6 +112,21 @@ export {
   SIMHASH_SHINGLE,
 } from "./stages/dedupe.js";
 
+// P2 — rank stage (PLAN §5.2)
+export {
+  configuredWeight,
+  DEFAULT_PUBLISHER_WEIGHT,
+  ENGAGEMENT_FIELDS,
+  ENGAGEMENT_SATURATION,
+  rank,
+  type RankedCluster,
+  type RankOptions,
+  RECENCY_HALF_LIFE_DAYS,
+  RECENCY_UNPARSEABLE,
+  type ScoreBreakdown,
+  type WeightLookup,
+} from "./stages/rank.js";
+
 // A4 — SEC EDGAR adapter (Form D / S-1 / 8-K; funding + deals pages)
 export {
   createSecEdgarAdapter,

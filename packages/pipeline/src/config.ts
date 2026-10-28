@@ -59,7 +59,12 @@ export interface SourceEntry {
   enabled: boolean;
   /** data | link — whether extracted values or only the link are stored. */
   mode?: SourceMode;
-  /** Adapter-specific config (repo lists, orgs, subreddits, filter terms). */
+  /**
+   * Adapter-specific config (repo lists, orgs, subreddits, filter terms).
+   * Conventions: `meta.publisher` = curated display name stamped on
+   * `RawItem.publisher`; `meta.weight` = non-negative rank-stage publisher
+   * weight (P2, default 1.0).
+   */
   meta?: Record<string, unknown>;
 }
 
@@ -115,6 +120,16 @@ export function parseSourcesConfig(text: string): SourceEntry[] {
     if (typeof e.enabled !== "boolean") issues.push(`${at}.enabled must be a boolean`);
     if (e.mode !== undefined && e.mode !== "data" && e.mode !== "link") {
       issues.push(`${at}.mode must be data|link`);
+    }
+    if (e.meta !== undefined) {
+      if (typeof e.meta !== "object" || e.meta === null || Array.isArray(e.meta)) {
+        issues.push(`${at}.meta must be a mapping`);
+      } else {
+        const w = (e.meta as Record<string, unknown>).weight;
+        if (w !== undefined && (typeof w !== "number" || !Number.isFinite(w) || w < 0)) {
+          issues.push(`${at}.meta.weight must be a non-negative number`);
+        }
+      }
     }
   }
   if (issues.length > 0) throw new ConfigValidationError("sources.yaml", issues);
