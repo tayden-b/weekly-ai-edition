@@ -1,0 +1,451 @@
+# plan/dag.yaml — the build DAG / state machine (PLAN.md §7.2).
+# dispatch.mjs promotes a `status:blocked` issue to `devin:ready` when every
+# depends_on issue is closed. `status: deferred` items (T3) are never promoted
+# and are not required for completion. `issue` is written back when B0 creates
+# the issues; S1's issue is also created by B0 — the separate `v1-complete`
+# issue is opened by dispatch once every item is closed, carrying the S1 brief.
+version: 1
+items:
+  - id: B0
+    title: "Bootstrap — repo plumbing, orchestration, and the full issue set"
+    wave: 0
+    issue: 1
+    depends_on: []
+    brief: plan/issues/B0.md
+    acceptance:
+      - "`pnpm install && pnpm check` passes on a clean clone."
+      - "CI job `ci` is green on the PR; Vercel preview deploys `apps/web`."
+      - "Branch protection active with auto-merge; the B0 PR merges via auto-merge once checks pass."
+      - "`plan/dag.yaml` validates (`scripts/validate-dag.mjs`: unique ids, acyclic, deps resolve, briefs exist) as part of `pnpm check`."
+      - "All dag items exist as issues with correct labels; C1–C5 are `devin:ready`."
+      - "`workflow_dispatch` of `dispatch.yml` runs green and changes nothing."
+  - id: C1
+    title: "PRD.md + ARCHITECTURE.md + ADRs extracted from PLAN/DESIGN"
+    wave: 1
+    issue: null
+    depends_on: [B0]
+    brief: plan/issues/C1.md
+    acceptance:
+      - "`PRD.md` covers PLAN §1–§4 faithfully, with no requirement added or dropped."
+      - "`ARCHITECTURE.md` covers PLAN §5 (layout, sources table, stages, provenance gates) faithfully."
+      - "One ADR per locked §7/§8 decision not covered by ADR-0001/0002, in the established format."
+      - "No contradiction with PLAN.md or DESIGN.md anywhere in the docs."
+      - "`pnpm check` green."
+  - id: C2
+    title: "edition.schema.json + TS types + validator + fixture issue 2026-W44"
+    wave: 1
+    issue: null
+    depends_on: [B0]
+    brief: plan/issues/C2.md
+    acceptance:
+      - "`edition.schema.json` covers all 11 template pages in fixed order with DESIGN §3 max-items caps enforced."
+      - "Every item requires `sources[]` with url/publisher/published_at/fetched_at/adapter; zero-source items fail validation."
+      - "Numeric fields on money/performance/markets pages require `evidence {source_index, quote}`."
+      - "Generated/hand-synced TS types + `validateEdition` exported from `@weekly/schema`; sync enforced by a test."
+      - "`fixtures/2026-w44/` hand-built edition using real public URLs validates and covers every page type."
+      - "`pnpm schema:validate` is a real check wired into `pnpm check`."
+  - id: C3
+    title: "STYLE.md + drafting rubric + 50-item labelled classification set"
+    wave: 1
+    issue: null
+    depends_on: [B0]
+    brief: plan/issues/C3.md
+    acceptance:
+      - "`STYLE.md` covers voice, one-liners, Briefing, takes, discourse framing, per-page rules, banned patterns, and the cover prompt constraints."
+      - "Drafting rubric exists and every criterion is mechanically checkable."
+      - "≥ 50 labelled items with real public URLs covering every page type + `unsorted`, each with expected page + company tags."
+      - "`packages/pipeline/prompts/` contains versioned classify + draft prompt skeletons."
+      - "`pnpm check` green."
+  - id: C4
+    title: "packages/ui tokens + primitives + /kitchen-sink"
+    wave: 1
+    issue: null
+    depends_on: [B0]
+    brief: plan/issues/C4.md
+    acceptance:
+      - "All DESIGN §1 tokens (colour both schemes, type scale, space, motion) exported from `@weekly/ui` as TS + CSS custom properties."
+      - "All 18 primitives from DESIGN §4 implemented to spec."
+      - "`/kitchen-sink` route renders the C2 fixture in light + dark, screenshots on the PR."
+      - "Fonts self-hosted, subset, `font-display: swap`; no external font CDN at runtime."
+      - "Zero hex/rgb literals outside token definitions (enforced by lint or grep test)."
+      - "`pnpm check` green."
+  - id: C5
+    title: "Source-adapter interface + RawItem type + test harness + config"
+    wave: 1
+    issue: null
+    depends_on: [B0]
+    brief: plan/issues/C5.md
+    acceptance:
+      - "`RawItem` type + `fetch(window)`/`health()` adapter interface exported from `@weekly/pipeline`."
+      - "Deterministic adapter test harness (fixtures, no network) shipped and used by a reference adapter."
+      - "`config/sources.yaml` encodes the full §5.1 source table with licence notes; `config/companies.yaml` + `config/markets.json` exist."
+      - "UA convention documented and constant exported for adapters."
+      - "`excerpt` ≤ 300 chars enforced by code + test."
+      - "`pnpm check` green."
+  - id: V1
+    title: "Mobile deck renderer (swipe cards, DESIGN §2.1)"
+    wave: 2
+    issue: null
+    depends_on: [C2, C4]
+    brief: plan/issues/V1.md
+    acceptance:
+      - "`/{issue}` renders the fixture edition as full-viewport swipeable cards in fixed template order at 390×844."
+      - "Card anatomy matches DESIGN §2.1 exactly: progress segments, masthead, kicker (accent on cover only), item lists, footer."
+      - "Swipe + tap zones work; card-internal vertical scroll works; no auto-advance."
+      - "Motion spec honoured (240ms translate-only; reduced-motion cut)."
+      - "Cards are `role=\"region\"` with page names; progress uses `aria-valuenow`; fully keyboard operable."
+      - "`pnpm check` green."
+  - id: V2
+    title: "Desktop front page renderer (DESIGN §2.2)"
+    wave: 2
+    issue: null
+    depends_on: [C2, C4]
+    brief: plan/issues/V2.md
+    acceptance:
+      - "`/{issue}` renders the complete §2.2 layout at ≥768px in fixed template order."
+      - "Grid spans match §2.2 exactly (cover 1–8/9–12, briefing 3–10, markets 1–7/8–12, most-covered 4–9 boxed)."
+      - "Sticky top bar + `j/k`/arrow section jumping + `?` shortcuts sheet work."
+      - "Client JS limited to sticky bar, keyboard nav, chart hydration."
+      - "Density target: whole issue readable in ~4 minutes of scrolling; no sidebars/feeds."
+      - "`pnpm check` green."
+  - id: V3
+    title: "Per-page routes + OG image generation"
+    wave: 2
+    issue: null
+    depends_on: [C2, C4]
+    brief: plan/issues/V3.md
+    acceptance:
+      - "`/2026-w44/{1..11}` each render their page standalone with correct content + navigation links."
+      - "OG image per page generated at 1200×630 matching the §1.5.5 template."
+      - "Issue root + every page route carry correct OG/Twitter metadata."
+      - "Out-of-range page numbers 404."
+      - "`pnpm check` + `pnpm build` green."
+  - id: V4
+    title: "Archive + /brand + /issues"
+    wave: 2
+    issue: null
+    depends_on: [C2, C4]
+    brief: plan/issues/V4.md
+    acceptance:
+      - "`/` serves the latest edition's full experience."
+      - "`/issues` lists every edition in `editions/` reverse-chronologically — simple list, no calendar."
+      - "`/brand` renders masthead, token swatches with hex, and the type specimen to spec."
+      - "Edition discovery is filesystem-based at build time; adding a file changes the listing."
+      - "`pnpm check` + `pnpm build` green."
+  - id: A1
+    title: "Adapter: lab blogs RSS/Atom"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/A1.md
+    acceptance:
+      - "Adapter implements `fetch(window)`/`health()` per the C5 interface."
+      - "Every lab in the §5.1 row represented in `config/sources.yaml` (feed or documented sitemap fallback)."
+      - "Licence note covers terms, rate limits, and exactly what we store per lab."
+      - "Recorded fixture + deterministic harness test, no network in tests."
+      - "Stores headline, canonical URL, publisher, published_at, fetched_at, ≤300-char excerpt, source ids — never bodies."
+      - "Adapter failure degrades the page, never the run."
+      - "`pnpm check` green."
+  - id: A2
+    title: "Adapter: HN Algolia"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/A2.md
+    acceptance:
+      - "Adapter implements the C5 interface; registered in `config/sources.yaml`."
+      - "Both front-page and Show HN covered; AI filter terms documented + configurable."
+      - "`objectID`, points, comment count captured per item."
+      - "Licence/rate-limit note present; ≤300-char excerpts; no bodies."
+      - "Deterministic fixture test, no network in tests; failure degrades gracefully."
+      - "`pnpm check` green."
+  - id: A3
+    title: "Adapter: newsroom RSS set"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/A3.md
+    acceptance:
+      - "Adapter covers the §5.1 newsroom set (or documents which feeds are unavailable/blocked and why)."
+      - "Headline+link+excerpt only — never article bodies."
+      - "Fixtures + harness tests deterministic, no network."
+      - "Failure of one feed degrades its page, not the run."
+      - "`pnpm check` green."
+  - id: A4
+    title: "Adapter: SEC EDGAR (Form D / S-1 / 8-K)"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/A4.md
+    acceptance:
+      - "Adapter implements the C5 interface; EDGAR UA rules honoured."
+      - "Form D / S-1 / 8-K coverage via full-text search (and feed endpoints where they fit)."
+      - "Accession number → canonical URL mapping correct."
+      - "Licence/access-rate note present; deterministic fixture tests."
+      - "`pnpm check` green."
+  - id: A5
+    title: "Adapter: press-wire RSS (funding + M&A filters)"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/A5.md
+    acceptance:
+      - "The §5.1 wire + funding-feed set covered (or gaps documented per feed)."
+      - "Funding/M&A filters are config-driven and demonstrated on fixtures."
+      - "Licence notes per source; ≤300-char excerpts; no bodies."
+      - "Deterministic tests; graceful per-feed failure."
+      - "`pnpm check` green."
+  - id: A6
+    title: "Adapter: Product Hunt + GitHub Releases + HF Hub"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/A6.md
+    acceptance:
+      - "All three adapters implement the C5 interface and are registered in config."
+      - "Flagship OSS repo list + lab org list live in config, not code."
+      - "PH adapter is disabled without a token and never breaks the run; no secret is committed or required."
+      - "Fixtures + deterministic tests per adapter."
+      - "`pnpm check` green."
+  - id: A7
+    title: "Adapter: benchmark publishers"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/A7.md
+    acceptance:
+      - "Every §5.1 benchmark publisher represented with an explicit data-vs-link decision + licence note."
+      - "arXiv adapter covers lab-org papers in-window."
+      - "Where data is stored, it's the publisher's own numbers with URL + timestamp."
+      - "Deterministic fixtures/tests; graceful failure."
+      - "`pnpm check` green."
+  - id: A8
+    title: "Adapter: market data (weekly close)"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/A8.md
+    acceptance:
+      - "Adapter implements the C5 interface; basket read from `config/markets.json`."
+      - "Weekly close + week-over-week delta per ticker captured as numbers destined for `evidence` spans."
+      - "Licence note per candidate provider; redistribution posture stated."
+      - "Deterministic fixtures/tests; provider failure degrades page only."
+      - "`pnpm check` green."
+  - id: A9
+    title: "Adapter: Reddit public JSON"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/A9.md
+    acceptance:
+      - "Adapter implements the C5 interface for all three subreddits; registered in config."
+      - "Score + comment count captured for rank/discourse use."
+      - "Licence + rate-limit note present; ≤300-char excerpts."
+      - "Deterministic tests; graceful failure."
+      - "`pnpm check` green."
+  - id: A10
+    title: "Adapter: distribute.software (secondary)"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/A10.md
+    acceptance:
+      - "Adapter implements the C5 interface; registered as secondary tier in config."
+      - "Endpoint coverage documented (what exists, what's used)."
+      - "Licence note present; items store canonical URLs + ≤300-char excerpts."
+      - "Deterministic tests; graceful failure."
+      - "`pnpm check` green."
+  - id: P1
+    title: "Pipeline: normalize + dedupe stages"
+    wave: 2
+    issue: null
+    depends_on: [C5]
+    brief: plan/issues/P1.md
+    acceptance:
+      - "`normalize` produces canonical URL, publisher, ISO timestamps; tracking params stripped — covered by tests."
+      - "`dedupe` merges same-story items across sources into clusters preserving every source link."
+      - "Near-duplicate titles (SimHash) dedupe deterministically; threshold configurable."
+      - "Stages are pure functions — no I/O, fully test-covered on fixtures."
+      - "`pnpm check` green."
+  - id: P2
+    title: "Pipeline: rank stage"
+    wave: 2
+    issue: null
+    depends_on: [P1]
+    brief: plan/issues/P2.md
+    acceptance:
+      - "Score formula = source count × publisher weight × recency × engagement, each factor documented + normalized."
+      - "Publisher weights come from config, not code."
+      - "Missing engagement is neutral; ties break deterministically."
+      - "Per-item score breakdown emitted for auditability."
+      - "`pnpm check` green."
+  - id: P3
+    title: "Daily ingest cache workflow"
+    wave: 2
+    issue: null
+    depends_on: [A1, A2, A3, P1]
+    brief: plan/issues/P3.md
+    acceptance:
+      - "Daily 06:00 ET workflow runs all enabled adapters in parallel and commits `data/raw/<date>/` + `manifest.json`."
+      - "Any single adapter failure is caught, logged to the manifest, and never fails the run."
+      - "Cache layout + re-run semantics documented."
+      - "`pnpm check` green."
+  - id: P4
+    title: "Classifier + company tagging (≥90% on C3 set)"
+    wave: 3
+    issue: null
+    depends_on: [C3, P1]
+    brief: plan/issues/P4.md
+    acceptance:
+      - "Classify stage emits page label + confidence + company slugs via the `llm()` seam."
+      - "Confidence < 0.7 → `unsorted`; unknown companies → `unsorted` (no auto-add) — tested."
+      - "≥ 90% measured accuracy on the C3 labelled set, recorded in the PR."
+      - "Replay implementation makes classification deterministic in tests/CI."
+      - "`prompts/classify.prompt.md` versioned and referenced by the stage."
+      - "`pnpm check` green."
+  - id: P5
+    title: "Extraction with evidence spans"
+    wave: 3
+    issue: null
+    depends_on: [P4]
+    brief: plan/issues/P5.md
+    acceptance:
+      - "Extract produces structured money/deal/performance/markets fields via regexes + `llm()` seam."
+      - "Every extracted field carries `evidence {source_index, quote}`; quote-in-expert containment enforced in code — violations are dropped and logged, never shipped."
+      - "`prompts/extract.prompt.md` versioned."
+      - "Deterministic replay in tests/CI."
+      - "`pnpm check` green."
+  - id: P6
+    title: "Drafter: one-liners + Briefing (passes rubric)"
+    wave: 3
+    issue: null
+    depends_on: [C3, P5]
+    brief: plan/issues/P6.md
+    acceptance:
+      - "Draft produces STYLE.md-conformant one-liners + a 5–7-sentence Briefing with no links, from classified items only."
+      - "Mechanical constraints enforced in code (sentence count, no links, length caps, funding format)."
+      - "`prompts/draft.prompt.md` versioned; STYLE.md consumed, not duplicated."
+      - "Rubric pass recorded in the PR."
+      - "Sentence→item mapping preserved for P7 entailment."
+      - "`pnpm check` green."
+  - id: P7
+    title: "Verify stage (PLAN §5.3) + provenance.json"
+    wave: 3
+    issue: null
+    depends_on: [P6, C2]
+    brief: plan/issues/P7.md
+    acceptance:
+      - "All four deterministic §5.3 checks implemented and enforced; briefings go through the recorded entailment seam."
+      - "`provenance.json` per edition lists adapter runs, counts, failures, cache hashes."
+      - "`scripts/provenance-check.mjs` is the real gate in `pnpm check` (stub removed)."
+      - "Each adversarial fixture fails loudly; clean fixture passes."
+      - "`pnpm check` green."
+  - id: T1
+    title: "Agent twin: .md/.json per issue + Accept: text/markdown"
+    wave: 3
+    issue: null
+    depends_on: [C2, V1, V2]
+    brief: plan/issues/T1.md
+    acceptance:
+      - "`/{issue}.md` serves YAML frontmatter + full briefing + all items, no nav chrome."
+      - "`/{issue}.json` serves the exact edition object as `application/json`."
+      - "`Accept: text/markdown` on `/{issue}` returns the Markdown twin."
+      - "Twins are build-generated from `editions/<week>.json` — content provably identical."
+      - "`pnpm check` + `pnpm build` green."
+  - id: T2
+    title: "llms.txt, llms-full.txt, RSS + JSON feeds"
+    wave: 3
+    issue: null
+    depends_on: [C2, V1, V2]
+    brief: plan/issues/T2.md
+    acceptance:
+      - "`/llms.txt` + `/llms-full.txt` follow the llmstxt convention and cover latest-issue content."
+      - "`/feed.xml` + `/feed.json` are valid feeds with one entry per edition."
+      - "Feed `<link rel=\"alternate\">` tags present in the site head."
+      - "All four artifacts regenerate from `editions/` at build time."
+      - "`pnpm check` + `pnpm build` green."
+  - id: T3
+    title: "Cover-image generation step (deferred post-v1)"
+    wave: 3
+    issue: null
+    status: deferred
+    depends_on: [C3, P7]
+    brief: plan/issues/T3.md
+    acceptance:
+      - "Generation prompt + constraints sourced from STYLE.md (single source of truth)."
+      - "`editions/<week>/cover.jpg` 2000×2500 + 2400×1350 crop produced by the pipeline."
+      - "Imagery is muted abstract/material — no people, products, or article photos."
+      - "Served asset ≤ 180KB AVIF."
+      - "Typographic fallback remains when no cover exists."
+  - id: I1
+    title: "End-to-end: pnpm edition:build --week 2026-W44 → valid edition → preview"
+    wave: 4
+    issue: null
+    depends_on: [P1, P2, P3, P4, P5, P6, P7, V1, V2, V3, V4, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10]
+    brief: plan/issues/I1.md
+    acceptance:
+      - "`pnpm edition:build --week 2026-W44` runs the full chain and emits `editions/2026-w44.json`."
+      - "Emitted edition passes schema validation and all §5.3 provenance gates."
+      - "Preview deploy renders the edition in both renderers; screenshots attached."
+      - "Re-running on the same inputs is deterministic."
+      - "`pnpm check` green."
+  - id: I2
+    title: "Weekly Edition automation (cron → PR → Sunday auto-publish)"
+    wave: 4
+    issue: null
+    depends_on: [I1]
+    brief: plan/issues/I2.md
+    acceptance:
+      - "Weekly Saturday 06:00 ET automation exists and produces an edition PR end-to-end on a manual trigger."
+      - "Sunday 17:00 ET publish mechanism documented (auto-merge on green)."
+      - "Session prompt versioned in repo."
+      - "No secrets required beyond GITHUB_TOKEN/Devin automation internals."
+      - "`pnpm check` green."
+  - id: I3
+    title: "Production deploy on *.vercel.app + analytics + security headers"
+    wave: 4
+    issue: null
+    depends_on: [V4, I1]
+    brief: plan/issues/I3.md
+    acceptance:
+      - "Production deploy live on `*.vercel.app` serving the latest edition; URL documented."
+      - "Security headers configured and verified on the live URL."
+      - "Keyless analytics wired (or documented fallback)."
+      - "`robots.txt` + `sitemap.xml` served."
+      - "`pnpm check` green."
+  - id: I4
+    title: "Design QA pass over every page, both renderers, vs DESIGN.md"
+    wave: 4
+    issue: null
+    depends_on: [V1, V2, V3, V4]
+    brief: plan/issues/I4.md
+    acceptance:
+      - "Every page audited at 390×844 and 1440×900, light + dark, against DESIGN.md."
+      - "All §6 don'ts verified absent; token/scale/motion rules verified present."
+      - "Drift fixed or filed as `plan-defect` issues with the narrowest reading applied."
+      - "QA table + screenshots attached to the PR."
+      - "`pnpm check` green."
+  - id: I5
+    title: "A11y + perf budgets enforced in CI"
+    wave: 4
+    issue: null
+    depends_on: [V1, V2]
+    brief: plan/issues/I5.md
+    acceptance:
+      - "Playwright smoke suite runs in CI against the built app covering deck + front page + keyboard nav."
+      - "Lighthouse budgets (perf ≥95, a11y 100, mobile deck) enforced in CI."
+      - "Automated a11y scan finds zero critical/serious violations on main routes."
+      - "Asset budgets enforced (cover ≤180KB, font-display: swap, client-JS allowlist)."
+      - "`pnpm check` green."
+  - id: S1
+    title: "Ship v1 — first real edition, publish, flip public, V1-REPORT"
+    wave: 5
+    issue: null
+    depends_on: [I1, I2, I3, I4, I5]
+    brief: plan/issues/S1.md
+    acceptance:
+      - "First real edition produced from live sources and published on the production URL, both renderers clean."
+      - "Repo flipped public."
+      - "Agent-twin test run: fresh session given only the issue URL summarizes the week correctly; result documented."
+      - "`plan/V1-REPORT.md` written: shipped / degraded / costs / known gaps / 5 follow-ups."
+      - "Comment on the `v1-complete` issue starting with `@tayden-b` + the report's summary."
