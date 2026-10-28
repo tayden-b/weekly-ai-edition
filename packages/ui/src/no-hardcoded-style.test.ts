@@ -65,3 +65,31 @@ describe("no hardcoded style literals", () => {
     expect(offenders).toEqual([]);
   });
 });
+
+/* DESIGN §5: "--ink-3 is never used for text under 14px." Mechanically: a
+ * `color: var(--ink-3)` declaration must sit in a block that also sets
+ * font-size to a ≥14px step (--t-base or larger, or ≥14px). Blocks that set
+ * no font-size inherit whatever the parent is — the safe rule is they may
+ * not use ink-3 at all (add an explicit ≥14px font-size to be allowlisted).
+ * Strokes/fills/backgrounds on non-text are untouched — only `color:`. */
+const INK3_TEXT_OK =
+  /font-size:\s*(?:var\(--t-(?:base|lg|xl|2xl|3xl)\)|(?:1[4-9]|[2-9]\d)(?:\.\d+)?px);/;
+
+describe("ink-3 contrast floor (DESIGN §5)", () => {
+  it("never colours text under 14px with --ink-3", () => {
+    const offenders: string[] = [];
+    for (const file of walk(repoRoot)) {
+      if (extname(file) !== ".css") continue;
+      const rel = relative(repoRoot, file).split("\\").join("/");
+      const text = readFileSync(file, "utf8");
+      for (const m of text.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
+        const [, selector, body] = m;
+        if (!/color:\s*var\(--ink-3\)/.test(body!)) continue;
+        if (!INK3_TEXT_OK.test(body!)) {
+          offenders.push(`${rel}: ${selector!.trim()}`);
+        }
+      }
+    }
+    expect(offenders).toEqual([]);
+  });
+});

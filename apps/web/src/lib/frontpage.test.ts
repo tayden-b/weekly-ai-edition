@@ -1,12 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { rawEdition } from "./fixture";
-import {
-  assembleFrontPage,
-  getEdition,
-  NAV_SECTIONS,
-  shortDate,
-} from "./frontpage";
+import { assembleFrontPage, NAV_SECTIONS, shortDate } from "./frontpage";
 
 const view = assembleFrontPage(rawEdition);
 
@@ -113,14 +108,6 @@ describe("assembleFrontPage (DESIGN §2.2)", () => {
       "back-page",
     ]);
     expect(view.navSections).toBe(NAV_SECTIONS);
-  });
-});
-
-describe("getEdition", () => {
-  it("returns the fixture for its id, null otherwise", () => {
-    expect(getEdition("2026-w44")).toBe(rawEdition);
-    expect(getEdition("2026-w45")).toBeNull();
-    expect(getEdition("bogus")).toBeNull();
   });
 });
 
