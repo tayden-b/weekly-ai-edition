@@ -1,0 +1,13 @@
+{
+  "_comment": "Recorded 2026-10-28: the endpoint's real Akamai 403.",
+  "responses": [
+    {
+      "url": "https://www.globenewswire.com/RssFeed/subjectcode/1000-Productivity/Releases",
+      "status": 403,
+      "headers": {
+        "content-type": "text/html"
+      },
+      "body": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;globenewswire&#46;com&#47;RssFeed&#47;subjectcode&#47;1000&#45;Productivity&#47;Releases\" on this server.<P>\nReference&#32;&#35;18&#46;88f23517&#46;1793210518&#46;5929630\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;88f23517&#46;1793210518&#46;5929630</P>\n</BODY>\n</HTML>\n"
+    }
+  ]
+}

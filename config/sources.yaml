@@ -479,67 +479,164 @@ sources:
       # on the filer title/summary (same interim list as sec-edgar-fts).
       ai_terms: ["artificial intelligence", "machine learning", "large language model", "generative ai", "foundation model", "ai"]
   # --- press wires + funding feeds (adapter A5: press-wires.ts) ------------
+  # Filter strategy (A5): filters live here in config, never in code.
+  # meta.filter_groups is an AND-of-ORs keyword filter over headline+summary —
+  # an item survives iff EVERY group has >=1 word-boundary, case-insensitive
+  # hit. The firehose wires carry {ai, funding_ma} = PLAN's "'artificial
+  # intelligence' + 'funding' filters". Feeds already scoped to funding or to
+  # AI by the publisher (TechCrunch funding, Crunchbase News, Guardian AI)
+  # carry only the complementary group or none. Term lists derive from the
+  # page taxonomy (C3); this is a recall filter — classify (P4) decides
+  # page/unsorted downstream. YAML anchors share the lists across wires.
   - id: pr-newswire
     pages: [funding, deals]
     tier: primary
     adapter: press-wire-rss
     endpoint: https://www.prnewswire.com/rss/news-releases-list.rss
     kind: rss
-    license: "Press-release wire RSS; headline+link+≤300-char excerpt (release body never stored). AI+funding filter in meta."
+    license: "Press-release wire RSS (verified 200, 2026-10); press releases are licensed for headline+link+≤300-char excerpt redistribution — release body never stored."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
     meta:
-      filter_terms: [artificial intelligence, AI, funding, round, acquisition, merger]
+      publisher: PR Newswire
+      filter_groups:
+        ai: &press-wire-ai-terms
+          - AI
+          - artificial intelligence
+          - machine learning
+          - deep learning
+          - neural network
+          - LLM
+          - large language model
+          - foundation model
+          - generative AI
+          - AI agent
+          - agentic
+          - OpenAI
+          - ChatGPT
+          - Anthropic
+          - Claude
+          - DeepMind
+          - Gemini
+          - Llama
+          - Mistral
+          - DeepSeek
+          - xAI
+          - Grok
+          - Copilot
+          - Perplexity
+          - Hugging Face
+          - Sora
+          - GPT
+          - NVIDIA
+          - AI chip
+          - AI startup
+          - AI funding
+        funding_ma: &press-wire-funding-terms
+          - funding
+          - fundraiser
+          - fundraising
+          - raise
+          - raises
+          - raised
+          - funding round
+          - seed round
+          - seed funding
+          - pre-seed
+          - Series A
+          - Series B
+          - Series C
+          - Series D
+          - Series E
+          - Series F
+          - venture capital
+          - valuation
+          - valued
+          - IPO
+          - initial public offering
+          - acquisition
+          - acquire
+          - acquires
+          - acquired
+          - merger
+          - merges
+          - buyout
+          - takeover
+          - stake
+          - investment
+          - invests
+          - investor
+          - backed
+          - backing
   - id: business-wire
     pages: [funding, deals]
     tier: primary
     adapter: press-wire-rss
-    endpoint: https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVpRXQ==
+    endpoint: https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpQWg==
     kind: rss
-    license: "Press-release wire RSS; headline+link+≤300-char excerpt only."
+    license: "Business Wire Technology subject feed (verified 200, 2026-10 — the previous home-feed key returns a dead-channel stub; the M&A subject feed ?rss=G1QFDERJXkJeEFtRWA== is the fallback). Press releases redistribute as headline+link+≤300-char excerpt only."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
     meta:
-      filter_terms: [artificial intelligence, AI, funding, round, acquisition, merger]
+      publisher: Business Wire
+      filter_groups:
+        ai: *press-wire-ai-terms
+        funding_ma: *press-wire-funding-terms
   - id: globenewswire
     pages: [funding, deals]
     tier: primary
     adapter: press-wire-rss
     endpoint: https://www.globenewswire.com/RssFeed/subjectcode/1000-Productivity/Releases
     kind: rss
-    license: "Subject-code RSS; headline+link+≤300-char excerpt only. 403s to datacenter UAs seen 2026-10 — A5 re-verifies."
+    license: "Subject-code RSS; headline+link+≤300-char excerpt only. Re-verified 2026-10: 403s from datacenter IPs regardless of UA (Akamai edge) — kept enabled, degrades to health() until a permitted egress exists."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
     meta:
-      filter_terms: [artificial intelligence, AI, funding, round, acquisition, merger]
+      publisher: GlobeNewswire
+      filter_groups:
+        ai: *press-wire-ai-terms
+        funding_ma: *press-wire-funding-terms
   - id: techcrunch-funding
     pages: [funding]
     tier: primary
     adapter: press-wire-rss
     endpoint: https://techcrunch.com/tag/funding/feed/
     kind: rss
-    license: "Public RSS; headline, link, timestamps, ≤300-char excerpt only."
+    license: "Public RSS (verified 200, 2026-10); headline, link, timestamps, ≤300-char excerpt only."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: TechCrunch
+      filter_groups:
+        ai: *press-wire-ai-terms
   - id: axios-pro-rata
     pages: [funding]
     tier: primary
     adapter: press-wire-rss
-    endpoint: https://www.axios.com/pro/pro-rata/feed
+    endpoint: https://www.axios.com/feeds/feed.rss
     kind: rss
     mode: link
-    license: "Pro Rata deal-news feed; 403 to datacenter UAs (verified 2026-10) — A5 re-verifies, link-mode fallback."
+    license: "Re-verified 2026-10: /pro/pro-rata/feed is Cloudflare-gated (403 to datacenter IPs); Pro Rata deal items flow through the main feed, so the endpoint points there. Link-mode — headline+link only."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: Axios
+      filter_groups:
+        ai: *press-wire-ai-terms
+        funding_ma: *press-wire-funding-terms
   - id: crunchbase-news
     pages: [funding]
     tier: primary
     adapter: press-wire-rss
     endpoint: https://news.crunchbase.com/feed/
     kind: rss
-    license: "Crunchbase *News* RSS only — never the database (§5.1). Headline, link, ≤300-char excerpt."
+    license: "Crunchbase *News* RSS only — never the database (§5.1). Verified 200, 2026-10. Headline, link, ≤300-char excerpt."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: Crunchbase News
+      filter_groups:
+        ai: *press-wire-ai-terms
   # --- corroboration headlines (tier: secondary) ----------------------------
   - id: ft-headlines
     pages: [funding, deals]
@@ -548,27 +645,39 @@ sources:
     endpoint: https://www.ft.com/rss/home
     kind: rss
     mode: link
-    license: "FT RSS headline+link corroboration only (§5.1)."
+    license: "FT RSS headline+link corroboration only (§5.1). Verified 200, 2026-10."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: Financial Times
+      filter_groups:
+        ai: *press-wire-ai-terms
+        funding_ma: *press-wire-funding-terms
   - id: guardian-ai
     pages: [funding, deals, discourse]
     tier: secondary
     adapter: press-wire-rss
     endpoint: https://www.theguardian.com/technology/artificialintelligenceai/rss
     kind: rss
-    license: "Guardian open licence RSS; headline, link, timestamps, ≤300-char excerpt."
+    license: "Guardian open licence RSS (verified 200, 2026-10); headline, link, timestamps, ≤300-char excerpt. Topic feed — no filter_groups."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: The Guardian
   - id: nyt-tech
     pages: [funding, deals]
     tier: secondary
     adapter: press-wire-rss
     endpoint: https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
     kind: rss
-    license: "NYT public RSS headline+link corroboration only (§5.1)."
+    license: "NYT public RSS headline+link corroboration only (§5.1). Verified 200, 2026-10; description standfirst ≤300 chars."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: The New York Times
+      filter_groups:
+        ai: *press-wire-ai-terms
+        funding_ma: *press-wire-funding-terms
 
   # =========================================================================
   # Markets (adapter A8: markets.ts) — provider order per PLAN §5.1
