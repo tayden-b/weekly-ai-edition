@@ -1,0 +1,72 @@
+{
+  "responses": [
+    {
+      "url_contains": "author=meta-llama",
+      "status": 200,
+      "headers": { "content-type": "application/json" },
+      "body": [
+        {
+          "id": "meta-llama/Llama-Guard-5-4B",
+          "author": null,
+          "createdAt": "2026-01-13T11:12:00.000Z",
+          "pipeline_tag": "text-classification",
+          "library_name": "transformers",
+          "private": false,
+          "downloads": 12034,
+          "likes": 210,
+          "tags": ["llama", "safety", "safetensors"]
+        },
+        {
+          "id": "meta-llama/Llama-Next-Preview",
+          "author": null,
+          "createdAt": "2026-02-01T00:00:00.000Z",
+          "pipeline_tag": "text-generation",
+          "private": false
+        },
+        {
+          "id": "meta-llama/Internal-Unreleased-Weights",
+          "author": null,
+          "createdAt": "2026-01-13T00:00:00.000Z",
+          "pipeline_tag": null,
+          "private": true
+        }
+      ]
+    },
+    {
+      "url_contains": "author=google",
+      "status": 200,
+      "headers": { "content-type": "application/json" },
+      "body": [
+        {
+          "id": "google/gemma-4-9b-it",
+          "author": null,
+          "createdAt": "2026-01-11T16:40:00.000Z",
+          "pipeline_tag": "image-text-to-text",
+          "library_name": "transformers",
+          "private": false,
+          "tags": ["gemma", "multimodal"]
+        },
+        {
+          "id": "google/no-createdat-model",
+          "author": null,
+          "pipeline_tag": "text-generation",
+          "private": false
+        }
+      ]
+    },
+    {
+      "url_contains": "models?limit=1",
+      "status": 200,
+      "headers": { "content-type": "application/json" },
+      "body": [
+        {
+          "id": "acme/seed-model",
+          "author": "acme",
+          "createdAt": "2026-01-01T00:00:00.000Z",
+          "pipeline_tag": "text-generation",
+          "private": false
+        }
+      ]
+    }
+  ]
+}
