@@ -37,7 +37,7 @@
               "publisher": "AI Lately",
               "published_at": "2026-10-27T16:07:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "OpenAI launched a new AI model today. It is called GPT-6.1 Terra. OpenAI says Terra costs half as much as its last computer-use model and its bigger sibling, Sol. The price now sits at one dollar per million input tokens."
             },
             {
@@ -45,7 +45,7 @@
               "publisher": "Third Run Time",
               "published_at": "2026-10-26T17:00:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "OpenAI announces three big science discoveries and a new way to work with academics."
             }
           ]
@@ -62,7 +62,7 @@
               "publisher": "The Morning Build",
               "published_at": "2026-10-28T00:00:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "DeepMind announced Genie 4, a multimodal world model that natively generates audio, ambient sound, and interactive dialogue, can be steered in real time via natural language, and is being rolled out as a research preview to trusted testers."
             }
           ]
@@ -79,7 +79,7 @@
               "publisher": "Creati AI",
               "published_at": "2026-10-27T19:20:54Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "Meta has published Muse Spark Open, an open-weight multimodal model designed for long-running coding agents. The mixture-of-experts system combines text, images, audio, and video with approximately 816 billion total parameters, 42 billion active for each token."
             }
           ]
@@ -136,7 +136,7 @@
               "publisher": "AI Atlas",
               "published_at": "2026-10-26T17:19:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "OpenAI reports that it scores 50.3% on Terminal-Bench 4.0 at max effort, against a published 21.5% for its predecessor. All of OpenAI's figures are company-reported, and no independent evaluation had been published by the end of Monday."
             }
           ],
@@ -281,7 +281,7 @@
               "publisher": "SiliconReport",
               "published_at": "2026-10-27T00:00:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "Oct 27 Anthropic discloses $131.7 billion in cash and investments."
             },
             {
@@ -289,7 +289,7 @@
               "publisher": "The Morning Build",
               "published_at": "2026-10-28T00:00:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "The Morning Build for October 28, 2026: Google's Genie 4 Launches, Anthropic Files to Go Public, and Delaware's AI-Run Company Plan."
             }
           ],
@@ -313,7 +313,7 @@
               "publisher": "Business Wire",
               "published_at": "2026-10-27T13:07:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "press-wire",
+              "adapter": "press-wire-rss",
               "excerpt": "Innovation X, a late-stage venture capital firm investing in privately held technology leaders, today announced that it co-led Tenstorrent's $1.5 billion Series E financing at a $6.2 billion post-money valuation."
             }
           ],
@@ -336,7 +336,7 @@
               "publisher": "SiliconReport",
               "published_at": "2026-10-27T00:00:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "Oct 27 General Compute raises $100 million Series A at $800 million valuation."
             }
           ],
@@ -360,7 +360,7 @@
               "publisher": "Funding Index",
               "published_at": "2026-10-27T00:00:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "Hyphenate raises $45M Series A, Oct 27, 2026. AI apps. Led by Nexus Venture Partners. Hyphenate develops autonomous AI agent systems for enterprise financial operations."
             }
           ],
@@ -384,7 +384,7 @@
               "publisher": "Funding Index",
               "published_at": "2026-10-27T00:00:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "Infisical raises $40M Series B, Oct 27, 2026. Security. Led by Elad Gil. Infisical provides secrets management infrastructure to secure enterprise systems and AI agents."
             }
           ],
@@ -414,7 +414,7 @@
               "publisher": "PR Newswire",
               "published_at": "2026-10-27T11:00:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "press-wire",
+              "adapter": "press-wire-rss",
               "excerpt": "Guidewire announced today that it entered into a definitive agreement to acquire Hyperexponential Ltd for a base purchase price of $1.7 billion in cash, subject to adjustments, and up to an additional $400 million in contingent consideration."
             }
           ],
@@ -438,7 +438,7 @@
               "publisher": "GlobeNewswire",
               "published_at": "2026-10-28T13:00:00Z",
               "fetched_at": "2026-10-28T14:00:00Z",
-              "adapter": "press-wire",
+              "adapter": "press-wire-rss",
               "excerpt": "RapidCanvas, a managed AI execution company, today announced it has acquired Entytle, the company that pioneered the Autonomous Aftermarket for B2B OEMs. Financial terms were not disclosed."
             }
           ]
@@ -453,7 +453,7 @@
           "publisher": "Exa Markets",
           "published_at": "2026-10-27T12:00:00Z",
           "fetched_at": "2026-10-28T09:00:00Z",
-          "adapter": "market-data",
+          "adapter": "markets",
           "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
         },
         {
@@ -461,7 +461,7 @@
           "publisher": "Exa Markets",
           "published_at": "2026-10-27T12:00:00Z",
           "fetched_at": "2026-10-28T09:00:00Z",
-          "adapter": "market-data",
+          "adapter": "markets",
           "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
         },
         {
@@ -469,7 +469,7 @@
           "publisher": "Exa Markets",
           "published_at": "2026-10-27T12:00:00Z",
           "fetched_at": "2026-10-28T09:00:00Z",
-          "adapter": "market-data",
+          "adapter": "markets",
           "excerpt": "US:GOOGL — raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
         },
         {
@@ -477,7 +477,7 @@
           "publisher": "Exa Markets",
           "published_at": "2026-10-27T12:00:00Z",
           "fetched_at": "2026-10-28T09:00:00Z",
-          "adapter": "market-data",
+          "adapter": "markets",
           "excerpt": "US:META — raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
         },
         {
@@ -493,7 +493,7 @@
           "publisher": "Exa Markets",
           "published_at": "2026-10-27T12:00:00Z",
           "fetched_at": "2026-10-28T09:00:00Z",
-          "adapter": "market-data",
+          "adapter": "markets",
           "excerpt": "US:AMD — raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
         },
         {
@@ -501,7 +501,7 @@
           "publisher": "Exa Markets",
           "published_at": "2026-10-27T12:00:00Z",
           "fetched_at": "2026-10-28T09:00:00Z",
-          "adapter": "market-data",
+          "adapter": "markets",
           "excerpt": "US:TSM — raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
         },
         {
@@ -509,7 +509,7 @@
           "publisher": "Exa Markets",
           "published_at": "2026-10-27T12:00:00Z",
           "fetched_at": "2026-10-28T09:00:00Z",
-          "adapter": "market-data",
+          "adapter": "markets",
           "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
         },
         {
@@ -517,7 +517,7 @@
           "publisher": "Exa Markets",
           "published_at": "2026-10-27T12:00:00Z",
           "fetched_at": "2026-10-28T09:00:00Z",
-          "adapter": "market-data",
+          "adapter": "markets",
           "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
         }
       ],
@@ -646,7 +646,7 @@
               "publisher": "AI Atlas",
               "published_at": "2026-10-26T17:19:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "OpenAI announced on 26 October that its models found sub-exponential algorithms for a hard class of logic puzzles, which would make the Exponential Time Hypothesis false, and The Information reports that Anthropic claimed its own refutation hours later."
             },
             {
@@ -654,7 +654,7 @@
               "publisher": "Third Run Time",
               "published_at": "2026-10-26T17:00:00Z",
               "fetched_at": "2026-10-28T09:00:00Z",
-              "adapter": "aggregator",
+              "adapter": "newsroom-rss",
               "excerpt": "OpenAI announces three big science discoveries and a new way to work with academics. The Verge covered the announcement of three results in maths, computer science and physics."
             }
           ]
