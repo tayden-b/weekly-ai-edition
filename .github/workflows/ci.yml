@@ -39,3 +39,4 @@ jobs:
           name: lighthouse-report
           path: apps/web/.lhci/
           if-no-files-found: ignore
+          include-hidden-files: true
