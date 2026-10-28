@@ -10,7 +10,7 @@
  * lookback, default 7) · `--config <path>` · `--markets <path>` ·
  * `--out <dir>` (paths default to the repo's config/ + data/raw/).
  */
-import { join } from "node:path";
+import { join, resolve } from "node:path";
 
 import {
   INGEST_DEFAULT_DAYS,
@@ -36,9 +36,10 @@ if (!Number.isInteger(days) || days < 1) {
   process.exit(1);
 }
 
-const entries = loadSourcesConfig(join(ROOT, arg("--config") ?? "config/sources.yaml"));
-const markets = loadMarketsConfig(join(ROOT, arg("--markets") ?? "config/markets.json"));
-const outDir = join(ROOT, arg("--out") ?? "data/raw");
+// resolve() honors absolute paths — flags may be repo-relative or absolute.
+const entries = loadSourcesConfig(resolve(ROOT, arg("--config") ?? "config/sources.yaml"));
+const markets = loadMarketsConfig(resolve(ROOT, arg("--markets") ?? "config/markets.json"));
+const outDir = resolve(ROOT, arg("--out") ?? "data/raw");
 
 const window = ingestWindowForDate(date, days);
 console.log(

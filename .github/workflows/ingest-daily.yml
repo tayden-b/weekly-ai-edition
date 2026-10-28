@@ -11,6 +11,13 @@ on:
 permissions:
   contents: write # the run commits data/raw/ back to main (git-as-CMS, ADR-0001)
 
+# one ingest at a time — a dispatch overlapping the cron run queues instead of
+# racing the commit-back to main (the pull --rebase would cover it, but a
+# queued re-run is cleaner than a resolved race).
+concurrency:
+  group: ingest-daily
+  cancel-in-progress: false
+
 jobs:
   ingest:
     name: ingest
