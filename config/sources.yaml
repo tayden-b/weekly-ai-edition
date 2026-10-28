@@ -300,8 +300,84 @@ sources:
     meta:
       endpoints: [search, search_by_date]
       tags: [front_page, show_hn]
-      # AI filter terms — the taxonomy lands with C3; A2 fills this list from it.
-      ai_terms: []
+      # AI filter terms (A2) — derived from the page taxonomy (C3: the page
+      # types ARE the taxonomy: models, performance, launches, funding, deals,
+      # markets, discourse). Matched on word boundaries, case-insensitive, over
+      # hit title + story_text. Kept in sync with HN_AI_TERMS in
+      # packages/pipeline/src/sources/hn.ts by test — edit both together.
+      ai_terms:
+        # umbrella
+        - AI
+        - artificial intelligence
+        - machine learning
+        - deep learning
+        - neural net
+        - generative AI
+        - GenAI
+        # models & techniques
+        - LLM
+        - large language model
+        - foundation model
+        - reasoning model
+        - diffusion
+        - transformer
+        - multimodal
+        - embedding
+        - fine-tuning
+        - fine-tune
+        - RLHF
+        - RAG
+        - inference
+        - context window
+        - text-to-image
+        - text-to-video
+        - text-to-speech
+        - speech-to-text
+        # agents & tooling
+        - AI agent
+        - agent
+        - agentic
+        - agents
+        - coding agent
+        - vibe coding
+        - MCP
+        - model context protocol
+        - prompt engineering
+        # labs & flagship products (taxonomy companies)
+        - OpenAI
+        - ChatGPT
+        - GPT
+        - Anthropic
+        - Claude
+        - DeepMind
+        - Gemini
+        - Llama
+        - Mistral
+        - DeepSeek
+        - Qwen
+        - xAI
+        - Grok
+        - Copilot
+        - Perplexity
+        - Midjourney
+        - Stable Diffusion
+        - Stability AI
+        - Cohere
+        - Hugging Face
+        - Sora
+        - Kimi
+        - Moonshot
+        - Cursor
+        - vLLM
+        - llama.cpp
+        - Ollama
+        - LangChain
+        # markets & compute side of AI
+        - NVIDIA
+        - GPU cluster
+        - AI chip
+        - AI startup
+        - AI funding
   - id: product-hunt
     pages: [launches]
     tier: primary

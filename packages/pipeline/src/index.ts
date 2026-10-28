@@ -125,3 +125,13 @@ export {
   SEC_EDGAR_ADAPTER_ID,
   type SecEdgarAdapterOptions,
 } from "./sources/sec-edgar.js";
+
+// A2 — HN Algolia (Launches + Discourse)
+export {
+  compileAiTermMatcher,
+  createHnAlgoliaAdapter,
+  HN_ADAPTER_ID,
+  HN_AI_TERMS,
+  HN_API_BASE,
+  type HnAdapterOptions,
+} from "./sources/hn.js";
