@@ -1,32 +1,57 @@
 /**
- * @weekly/ui — design tokens and primitives from DESIGN.md.
- *
- * C4 lands the full token set (colour, type scale, space, motion) and the
- * component primitives (Masthead, Deck, FrontPage, ...). Until then this
- * exports the locked colour tokens so nothing hardcodes a colour elsewhere.
+ * @weekly/ui — design tokens (DESIGN §1) and the §4 primitives.
+ * Stylesheets: `@weekly/ui/tokens.css` (custom properties, both schemes),
+ * `@weekly/ui/fonts.css` (@font-face), `@weekly/ui/components.css` (the .w-*
+ * classes below). apps/web imports all three once.
  */
 
-export const colors = {
-  light: {
-    paper: "#F4F3EF",
-    paper2: "#ECEBE6",
-    ink: "#111111",
-    ink2: "#5C5C58",
-    ink3: "#A3A29D",
-    rule: "#D9D8D2",
-    accent: "#D9281C",
-    up: "#1F7A3A",
-    down: "#B3261E",
-  },
-  dark: {
-    paper: "#121212",
-    paper2: "#1B1B1B",
-    ink: "#F1F0EC",
-    ink2: "#A8A7A2",
-    ink3: "#6B6A66",
-    rule: "#2A2A2A",
-    accent: "#FF4A3D",
-  },
-} as const;
+export {
+  colors,
+  type ColorScheme,
+  type ColorToken,
+  fonts,
+  type FontRole,
+  typeScale,
+  type TypeToken,
+  leading,
+  measure,
+  space,
+  type SpaceStep,
+  grid,
+  radius,
+  motion,
+} from "./tokens";
+export {
+  type SourceView,
+  type ItemView,
+  type IssueMetaView,
+  type TickerView,
+  type ChartSeriesView,
+  type CoveredRowView,
+  type AgentLink,
+} from "./types";
 
-export type ColorScheme = keyof typeof colors;
+export { Rule } from "./components/Rule";
+export { Kicker } from "./components/Kicker";
+export { IssueMeta } from "./components/IssueMeta";
+export { Masthead } from "./components/Masthead";
+export { SectionHead } from "./components/SectionHead";
+export { Item } from "./components/Item";
+export { ItemList } from "./components/ItemList";
+export { Pill } from "./components/Pill";
+export { MonoTable, type MonoTableColumn } from "./components/MonoTable";
+export { TrendDelta } from "./components/TrendDelta";
+export { ProgressSegments } from "./components/ProgressSegments";
+export { DeckCard } from "./components/DeckCard";
+export { Deck } from "./components/Deck";
+export {
+  FrontPage,
+  type FrontPageCover,
+  type FrontPageSection,
+  type FrontPageMarkets,
+  type FrontPageBackPage,
+} from "./components/FrontPage";
+export { CoverImage } from "./components/CoverImage";
+export { LineChart } from "./components/LineChart";
+export { AgentAccess } from "./components/AgentAccess";
+export { OgCard } from "./components/OgCard";
