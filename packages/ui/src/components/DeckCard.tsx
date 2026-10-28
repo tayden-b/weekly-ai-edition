@@ -16,6 +16,7 @@ export function DeckCard({
   title,
   children,
   footer,
+  active = true,
 }: {
   meta: IssueMetaView & { siteName?: string };
   /** Page name shown as the kicker and the region's accessible name. */
@@ -25,9 +26,21 @@ export function DeckCard({
   children: ReactNode;
   /** e.g. "12 sources · 3/11" — a small helper builds it. */
   footer?: ReactNode;
+  /**
+   * V1: false on off-screen cards — they leave the a11y tree and the tab
+   * order (aria-hidden + inert) so only the current card is perceivable.
+   */
+  active?: boolean;
 }) {
   return (
-    <section className="w-deck-card" role="region" aria-label={kicker}>
+    <section
+      className="w-deck-card"
+      role="region"
+      aria-label={kicker}
+      aria-hidden={!active}
+      inert={!active}
+      tabIndex={-1}
+    >
       <div className="w-deck-card__masthead">
         <Masthead
           variant="compact"

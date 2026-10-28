@@ -58,7 +58,7 @@ export interface FixtureEdition {
 
 const raw = rawJson as unknown as Edition;
 
-/** The C2 fixture as the canonical Edition (V2's route consumes this). */
+/** The C2 fixture as the canonical Edition (V1's deck + V2's route consume this). */
 export const rawEdition: Edition = raw;
 
 const MONTHS = [
