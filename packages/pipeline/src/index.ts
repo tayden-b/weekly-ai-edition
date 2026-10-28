@@ -155,6 +155,28 @@ export {
   type PressWireOptions,
 } from "./sources/press-wires.js";
 
+// A6 — Product Hunt + GitHub Releases + HF Hub adapters
+export {
+  createGitHubReleasesAdapter,
+  GITHUB_RELEASES_ADAPTER_ID,
+  type GitHubReleasesAdapterOptions,
+  repoFromReleasesEndpoint,
+} from "./sources/github-releases.js";
+export {
+  createHfHubAdapter,
+  HF_HUB_ADAPTER_ID,
+  HF_HUB_API_ENDPOINT,
+  type HfHubAdapterOptions,
+} from "./sources/hf-hub.js";
+export {
+  createProductHuntAdapter,
+  PRODUCT_HUNT_ADAPTER_ID,
+  PRODUCT_HUNT_DEFAULT_TOPICS,
+  PRODUCT_HUNT_ENDPOINT,
+  PRODUCT_HUNT_TOKEN_ENV,
+  type ProductHuntAdapterOptions,
+} from "./sources/product-hunt.js";
+
 // A8 — market data adapter (weekly close of the markets.json basket)
 export {
   createMarketsAdapter,
