@@ -579,7 +579,8 @@ sources:
     adapter: markets
     endpoint: https://stooq.com/q/d/l/
     kind: csv
-    license: "Stooq free CSV, no key; weekly-close aggregates. Redistribution posture documented in A8 licence note."
+    mode: link
+    license: "A8 finding (2026-10-28): ToS §5.3 bars redistribution without Stooq consent (stooq.com/terms) — DOUBTFUL → links-only. JS PoW-wall to datacenter IPs. Numbers still captured for provenance; flip mode once consent/licensed feed exists."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
     meta:
@@ -590,7 +591,7 @@ sources:
     adapter: markets
     endpoint: https://www.alphavantage.co/query
     kind: json-api
-    license: "Fallback #2 — needs a free API key; no secrets exist, so disabled until one is provided (A8)."
+    license: "Fallback #2 — ToS: personal, non-commercial only; third-party display needs a commercial agreement (A8). Needs a free key — disabled (no-secrets rule)."
     rate_limit: "25 req/day free tier"
     enabled: false
   - id: finnhub
@@ -599,7 +600,7 @@ sources:
     adapter: markets
     endpoint: https://finnhub.io/api/v1/stock/candle
     kind: json-api
-    license: "Fallback #3 — needs a free API key; disabled until provided (A8)."
+    license: "Fallback #3 — free tier is non-commercial and restricts redistribution (A8). Needs a free key — disabled (no-secrets rule)."
     rate_limit: "30 req/s free tier (with key)"
     enabled: false
   - id: twelve-data
@@ -608,7 +609,7 @@ sources:
     adapter: markets
     endpoint: https://api.twelvedata.com/time_series
     kind: json-api
-    license: "Fallback #4 — needs a free API key; disabled until provided (A8)."
+    license: "Fallback #4 — individual plans are internal-use only; redistribution needs a paid add-on (A8). Needs a free key — disabled (no-secrets rule)."
     rate_limit: "8 req/min free tier (with key)"
     enabled: false
 

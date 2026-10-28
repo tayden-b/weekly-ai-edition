@@ -135,3 +135,14 @@ export {
   HN_API_BASE,
   type HnAdapterOptions,
 } from "./sources/hn.js";
+
+// A8 — market data adapter (weekly close of the markets.json basket)
+export {
+  createMarketsAdapter,
+  MARKETS_ADAPTER_ID,
+  MARKETS_PUBLISHER,
+  type MarketCsvSlice,
+  type MarketsAdapterOptions,
+  parseWeeklyBars,
+  STOOQ_WEEKLY_PROVIDER,
+} from "./sources/markets.js";
