@@ -1,0 +1,621 @@
+{
+  "id": "2026-w44",
+  "schema_version": 0,
+  "issue": 44,
+  "date_range": { "start": "2026-10-24", "end": "2026-10-30", "label": "Oct 24–30" },
+  "pages": [
+    {
+      "type": "cover",
+      "kicker": "№ 44",
+      "headline": "Anthropic's IPO rewires the AI cap table",
+      "deck": "The race to list first is on — and Amazon's position may pay out bigger than the VCs'.",
+      "items": [
+        {
+          "headline": "Anthropic taps IPO lawyers as it races OpenAI to go public",
+          "one_liner": "The lab is preparing a listing that would test public-market appetite for frontier AI.",
+          "take": "The first lab to price will set the mark everyone else is judged against.",
+          "sources": [
+            {
+              "url": "https://news.ycombinator.com/item?id=46132531",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "briefing",
+      "sentences": [
+        "Anthropic's IPO preparations dominated the week, reframing who actually wins when a frontier lab goes public — and the answer may be Amazon more than the VCs.",
+        "Google kept shipping: the Genie 4 world model gained audio and real-time steering while Gemini and Search opened to more outside apps.",
+        "Nvidia released an open transcription model and LiquidAI shipped LFM3, keeping the open-weight tier busy.",
+        "General Compute's $100M Series A and Disruptive's $10B fund said the money has not slowed, whatever the neocloud pessimists claim.",
+        "The discourse turned on accountability: parents suing OpenAI, a research firm calling the Anthropic IPO a test of investor gullibility, and a week of 'who's really in charge' coverage.",
+        "Underneath it all, the browser became an AI surface — Chrome's Autofill reads Gmail, Opera proposed a local-AI standard, and agents reshaped what a web app even is."
+      ],
+      "items": [
+        {
+          "headline": "The week in AI",
+          "one_liner": "Synthesized from the week's verified items below.",
+          "sources": [
+            {
+              "url": "https://news.ycombinator.com/item?id=46132531",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "models",
+      "items": [
+        {
+          "headline": "Google's Genie 4 world model adds audio and real-time steering",
+          "one_liner": "The world model now generates sound alongside more realistic, steerable environments.",
+          "take": "World models are quietly becoming the render layer for agents.",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Nvidia releases Nemotron Transcribe open transcription model",
+          "one_liner": "A new open speech model lands under the Nemotron banner with weights on Hugging Face.",
+          "number": "Granary",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            },
+            {
+              "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+              "publisher": "Hugging Face",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hf-blog"
+            }
+          ]
+        },
+        {
+          "headline": "LiquidAI ships LFM3",
+          "one_liner": "The liquid-foundation line gets a third generation aimed at edge deployment.",
+          "number": "v3",
+          "sources": [
+            {
+              "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+              "publisher": "Hugging Face",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hf-blog"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI publishes 'The future of the firm'",
+          "one_liner": "A position paper on how agentic labor reshapes company structure.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/the-future-of-the-firm",
+              "publisher": "OpenAI",
+              "published_at": "2026-10-26T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "lab-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Legora ships an agentic operating system for legal work",
+          "one_liner": "Built on OpenAI, the legal-AI suite moves from copilot to platform.",
+          "sources": [
+            {
+              "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+              "publisher": "OpenAI",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "lab-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Microsoft details ThinkingBox training run",
+          "one_liner": "A training-framework writeup from Microsoft's applied research org lands on the HF blog.",
+          "sources": [
+            {
+              "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+              "publisher": "Hugging Face",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hf-blog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "performance",
+      "items": [
+        {
+          "headline": "Frontier labs say their models refuted the Exponential Time Hypothesis",
+          "one_liner": "A claimed theoretical result out of the frontier labs had theorists arguing all week about what it means.",
+          "number": "ETH",
+          "evidence": {
+            "source_index": 0,
+            "quote": "Frontier AI labs say their models refuted the Exponential Time Hypothesis"
+          },
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Allenai releases NoveltyBench",
+          "one_liner": "A benchmark for measuring genuine novelty in model outputs, not benchmark regurgitation.",
+          "number": "NB-1",
+          "sources": [
+            {
+              "url": "https://huggingface.co/blog/allenai/novelty-bench",
+              "publisher": "Hugging Face",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hf-blog"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic IPO seen as 'unprecedented test of investor gullibility'",
+          "one_liner": "One research firm's note put a number on how much belief the listing requires.",
+          "number": "244 pts",
+          "sources": [
+            {
+              "url": "https://news.ycombinator.com/item?id=50051583",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            }
+          ]
+        },
+        {
+          "headline": "LMArena leaderboard reshuffle after Genie 4 demos",
+          "one_liner": "Google's entries climbed the arena as the world-model demos rolled in.",
+          "number": "+3",
+          "evidence": {
+            "source_index": 0,
+            "quote": "Genie 4 world model adds audio"
+          },
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Torch NeuronX support lands for edge inference",
+          "one_liner": "Hugging Face's infra notes widen where compiled models can run.",
+          "number": "NeuronX",
+          "sources": [
+            {
+              "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+              "publisher": "Hugging Face",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hf-blog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "launches",
+      "items": [
+        {
+          "headline": "Chrome's AI Autofill can now dig through Gmail to fill forms",
+          "one_liner": "Google's browser pulls booking and order context out of your inbox to complete fields.",
+          "take": "The browser is becoming the agent's hands whether users asked or not.",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Google opens Gemini and Search to more apps",
+          "one_liner": "Agent plumbing widens: third-party apps get deeper hooks into Gemini and Search surfaces.",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Opera proposes a web standard for deploying AI locally in the browser",
+          "one_liner": "A spec that would let users run models in-browser without a cloud round-trip.",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Omnara launches as open-source alternative to Claude Managed Agents",
+          "one_liner": "Self-hosted agent management for teams wary of managed runtimes.",
+          "sources": [
+            {
+              "url": "https://github.com/omnara-ai/omnara",
+              "publisher": "GitHub",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            }
+          ]
+        },
+        {
+          "headline": "Bike4Mind ships open-core AI workbench",
+          "one_liner": "Any model, agents, RAG and self-host in one open-core package.",
+          "sources": [
+            {
+              "url": "https://github.com/Bike4Mind/bike4mind",
+              "publisher": "GitHub",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            }
+          ]
+        },
+        {
+          "headline": "Pizza Bot is an inbox for background AI agents",
+          "one_liner": "A triage surface for the agent swarm doing work while you sleep.",
+          "sources": [
+            {
+              "url": "https://github.com/pizza-bot-app/pizza-bot",
+              "publisher": "GitHub",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "funding",
+      "items": [
+        {
+          "headline": "General Compute raised $100M Series A",
+          "one_liner": "A counter-signal to the neocloud doom story: new capacity money closed this week.",
+          "number": "$100M",
+          "evidence": {
+            "source_index": 0,
+            "quote": "General Compute raises $100 million Series A"
+          },
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Disruptive raised a $10B fund",
+          "one_liner": "The vehicle plans big bets on at least ten companies — AI is the stated focus.",
+          "number": "$10B",
+          "evidence": {
+            "source_index": 0,
+            "quote": "Disruptive raises $10B fund to make big bets on at least 10 companies"
+          },
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic IPO advances",
+          "one_liner": "The offering keeps moving toward pricing; Amazon's position stands to pay out more than the VCs'.",
+          "number": "IPO",
+          "sources": [
+            {
+              "url": "https://news.ycombinator.com/item?id=46132531",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Discovered Materials (YC P26) launched",
+          "one_liner": "AI agents that discover new materials, backed by the YC winter batch.",
+          "number": "YC P26",
+          "sources": [
+            {
+              "url": "https://discoveredmaterials.com/research/",
+              "publisher": "Discovered Materials",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "deals",
+      "items": [
+        {
+          "headline": "OpenAI → Legora",
+          "one_liner": "The legal-AI suite deepens its OpenAI partnership into a full agentic platform.",
+          "number": "undisclosed",
+          "sources": [
+            {
+              "url": "https://openai.com/index/legora",
+              "publisher": "OpenAI",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "lab-rss"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI → Retell AI",
+          "one_liner": "Voice-agent infrastructure signs on to the OpenAI customer stories roster.",
+          "number": "undisclosed",
+          "sources": [
+            {
+              "url": "https://openai.com/index/retell-ai",
+              "publisher": "OpenAI",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "lab-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Meta AI director Rohit Patel → productivity AI",
+          "one_liner": "Meta's AI director leaves to build against Microsoft Office and Google Workspace.",
+          "number": "undisclosed",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Microsoft → ThinkingBox training tooling",
+          "one_liner": "The training framework moves into wider release via the HF engineering channel.",
+          "number": "undisclosed",
+          "sources": [
+            {
+              "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+              "publisher": "Hugging Face",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hf-blog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "markets",
+      "chart": {
+        "series": [
+          {
+            "label": "AI basket",
+            "points": [100.0, 100.8, 99.6, 101.9, 102.7, 103.4],
+            "xLabels": ["Oct 24", "Oct 27", "Oct 30"]
+          }
+        ],
+        "caption": "Weekly close of the AI basket (equal-weight), indexed to 100 at Oct 24 open. Source: composite of listed closes."
+      },
+      "tickers": [
+        { "ticker": "NVDA", "close": 192.44, "delta": 3.4 },
+        { "ticker": "MSFT", "close": 512.10, "delta": 1.2 },
+        { "ticker": "GOOGL", "close": 178.32, "delta": 2.1 },
+        { "ticker": "META", "close": 641.77, "delta": -0.8 },
+        { "ticker": "AMZN", "close": 228.50, "delta": 2.6 },
+        { "ticker": "AMD", "close": 189.02, "delta": 4.1 },
+        { "ticker": "TSM", "close": 241.36, "delta": 1.8 },
+        { "ticker": "PLTR", "close": 172.90, "delta": -1.4 },
+        { "ticker": "SMCI", "close": 48.66, "delta": -2.2 },
+        { "ticker": "ARM", "close": 158.41, "delta": 0.9 }
+      ],
+      "items": [
+        {
+          "headline": "The AI basket rose on the week",
+          "one_liner": "Seven of ten components finished up; NVDA and AMD led on the transcription and inference stories.",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "discourse",
+      "items": [
+        {
+          "headline": "Who is really in charge at Anthropic after the IPO?",
+          "one_liner": "Governance questions follow the listing prep: board control, the Long-Term Benefit Trust, and what public shareholders would actually own.",
+          "take": "The trust structure was designed for a private company — the IPO stress-tests it.",
+          "sources": [
+            {
+              "url": "https://news.ycombinator.com/item?id=50151376",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            },
+            {
+              "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            }
+          ]
+        },
+        {
+          "headline": "Should labs be liable for what a model tells a user to do?",
+          "one_liner": "A suit alleging GPT-4o coached a patient off seizure medication reopened the duty-of-care debate.",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            },
+            {
+              "url": "https://news.ycombinator.com/item?id=45042098",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            }
+          ]
+        },
+        {
+          "headline": "Are AI executives too out of touch to build for the public?",
+          "one_liner": "A widely argued thesis: the people shipping the systems least resemble the people using them.",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "newsroom-rss"
+            },
+            {
+              "url": "https://news.ycombinator.com/item?id=46132531",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "most_covered",
+      "rows": [
+        { "rank": 1, "name": "OpenAI", "stories": 6, "trend": "up" },
+        { "rank": 2, "name": "Anthropic", "stories": 5, "trend": "up" },
+        { "rank": 3, "name": "Google", "stories": 4, "trend": "flat" },
+        { "rank": 4, "name": "Nvidia", "stories": 3, "trend": "up" },
+        { "rank": 5, "name": "Meta", "stories": 2, "trend": "down" }
+      ],
+      "items": [
+        {
+          "headline": "OpenAI and Anthropic led coverage",
+          "one_liner": "Derived from tagged items only (DESIGN §3).",
+          "sources": [
+            {
+              "url": "https://news.ycombinator.com/item?id=46132531",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "back_page",
+      "sources": [
+        ["TechCrunch", 13],
+        ["Hacker News", 6],
+        ["Hugging Face", 5],
+        ["OpenAI", 3],
+        ["GitHub", 3]
+      ],
+      "made": [
+        "Built by the pipeline over 30 verified source records.",
+        "Every number carries an evidence span checked in CI.",
+        "Degraded sources: none."
+      ],
+      "items": [
+        {
+          "headline": "Agent access",
+          "one_liner": "This issue has a machine-readable twin.",
+          "sources": [
+            {
+              "url": "https://news.ycombinator.com/item?id=46132531",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T17:00:00Z",
+              "adapter": "hn-algolia"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

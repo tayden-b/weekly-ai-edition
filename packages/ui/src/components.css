@@ -1,0 +1,687 @@
+/*
+ * @weekly/ui components.css — styles for the §4 primitives.
+ * Every visual value comes from tokens.css custom properties; the only
+ * literals are layout mechanics (grid spans, tracking, widths).
+ * All classes are namespaced `.w-*`.
+ */
+
+/* ---------- base helpers ---------- */
+
+.w-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.w-mono-link {
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+  color: var(--ink);
+  text-decoration: none;
+}
+.w-mono-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---------- Rule ---------- */
+
+.w-rule {
+  border: 0;
+  margin: 0;
+}
+.w-rule--hairline {
+  border-top: 1px solid var(--rule);
+}
+.w-rule--section {
+  border-top: 2px solid var(--ink);
+}
+
+/* ---------- Kicker ---------- */
+
+.w-kicker {
+  font-size: var(--t-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.w-kicker--accent {
+  color: var(--accent);
+}
+
+/* ---------- IssueMeta ---------- */
+
+.w-issue-meta {
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.w-issue-meta__no {
+  font-family: var(--font-mono);
+}
+
+/* ---------- Masthead ---------- */
+
+.w-masthead__wordmark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: var(--leading-display);
+}
+.w-masthead--band {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+.w-masthead__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.w-masthead__nav {
+  display: flex;
+  gap: var(--space-24);
+}
+.w-masthead__nav a {
+  color: var(--ink-2);
+  text-decoration: none;
+}
+.w-masthead__nav a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.w-masthead--band .w-masthead__wordmark {
+  font-size: var(--t-2xl);
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+.w-masthead__tagline {
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  text-align: center;
+}
+.w-masthead--compact {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-16);
+}
+.w-masthead__wordmark--compact {
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+}
+
+/* ---------- SectionHead ---------- */
+
+.w-section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-8) var(--space-24);
+}
+.w-section-head__title {
+  font-family: var(--font-display);
+  font-size: var(--t-xl);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  line-height: var(--leading-display);
+}
+.w-section-head__aside {
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+.w-section-head .w-rule--section {
+  flex-basis: 100%;
+  margin-top: var(--space-8);
+}
+
+/* ---------- Item / ItemList ---------- */
+
+.w-item {
+  display: flex;
+  gap: var(--space-16);
+  padding: var(--space-16) 0;
+}
+.w-item__main {
+  min-width: 0;
+}
+.w-item__headline {
+  font-family: var(--font-display);
+  font-size: var(--t-lg);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: var(--leading-display);
+}
+.w-item__one-liner {
+  margin-top: var(--space-8);
+  font-size: var(--t-base);
+  line-height: var(--leading-text);
+  max-width: var(--measure);
+}
+.w-item__take {
+  color: var(--ink-2);
+}
+.w-item__source {
+  margin-top: var(--space-8);
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+.w-item__number {
+  font-family: var(--font-mono);
+  font-size: var(--t-base);
+  line-height: var(--leading-mono);
+  text-align: right;
+  margin-left: auto;
+  white-space: nowrap;
+}
+.w-item-list .w-item + .w-item {
+  border-top: 1px solid var(--rule);
+}
+
+/* ---------- Pill ---------- */
+
+.w-pill {
+  display: inline-block;
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-pill);
+  padding: var(--space-4) var(--space-12);
+}
+
+/* ---------- MonoTable ---------- */
+
+.w-mono-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+  line-height: var(--leading-mono);
+}
+.w-mono-table th {
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  font-weight: 500;
+  text-align: left;
+  padding: var(--space-8) var(--space-12);
+  border-bottom: 1px solid var(--ink);
+}
+.w-mono-table td {
+  padding: var(--space-8) var(--space-12);
+  border-bottom: 1px solid var(--rule);
+}
+.w-mono-table th.w-num,
+.w-mono-table td.w-num {
+  text-align: right;
+}
+.w-mono-table--boxed {
+  border: 1px solid var(--ink);
+}
+.w-mono-table--boxed td,
+.w-mono-table--boxed th {
+  border-right: 1px solid var(--rule);
+}
+.w-mono-table--boxed td:last-child,
+.w-mono-table--boxed th:last-child {
+  border-right: 0;
+}
+.w-mono-table__caption {
+  caption-side: bottom;
+  font-family: var(--font-text);
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+  text-align: left;
+  padding-top: var(--space-8);
+}
+
+/* ---------- TrendDelta ---------- */
+
+.w-trend {
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+  white-space: nowrap;
+}
+.w-trend__arrow {
+  margin-right: var(--space-4);
+  font-size: 0.85em;
+}
+.w-trend--up {
+  color: var(--up);
+}
+.w-trend--down {
+  color: var(--down);
+}
+.w-trend--flat {
+  color: var(--ink-2);
+}
+
+/* ---------- ProgressSegments ---------- */
+
+.w-progress {
+  display: flex;
+  gap: var(--space-4);
+}
+.w-progress__seg {
+  flex: 1;
+  height: 2px;
+  background: var(--rule);
+  transition: background var(--dur-fill) linear;
+}
+.w-progress__seg--filled {
+  background: var(--ink);
+}
+
+/* ---------- Deck / DeckCard ---------- */
+
+.w-deck {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.w-deck::-webkit-scrollbar {
+  display: none;
+}
+.w-deck-card {
+  flex: 0 0 100%;
+  min-width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-16) var(--page-pad);
+  background: var(--paper);
+}
+.w-deck-card__masthead {
+  margin-bottom: var(--space-24);
+}
+.w-deck-card__title {
+  font-family: var(--font-display);
+  font-size: var(--t-xl);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: var(--leading-display);
+  margin-top: var(--space-12);
+  max-width: var(--measure-display);
+}
+.w-deck-card__body {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: var(--space-16);
+}
+.w-deck-card__footer {
+  padding-top: var(--space-12);
+  border-top: 1px solid var(--rule);
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-16);
+}
+
+/* ---------- CoverImage ---------- */
+
+.w-cover {
+  margin: 0;
+  overflow: hidden;
+  border-radius: var(--radius-image);
+  background: var(--paper-2);
+}
+.w-cover--4x5 {
+  aspect-ratio: 4 / 5;
+}
+.w-cover--16x9 {
+  aspect-ratio: 16 / 9;
+}
+.w-cover__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.w-cover__fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.w-cover__no {
+  font-family: var(--font-display);
+  font-size: var(--t-3xl);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--ink-3);
+}
+
+/* ---------- LineChart ---------- */
+
+.w-chart {
+  margin: 0;
+  background: var(--paper-2);
+  padding: var(--space-16);
+}
+.w-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.w-chart__grid {
+  stroke: var(--rule);
+  stroke-width: 1;
+}
+.w-chart__line {
+  stroke: var(--ink);
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+}
+.w-chart__line--tint {
+  stroke: var(--ink-3);
+}
+.w-chart__tick,
+.w-chart__xlabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  fill: var(--ink-2);
+}
+
+/* ---------- AgentAccess ---------- */
+
+.w-agent-access__heading {
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+.w-agent-access__list {
+  list-style: none;
+  margin: var(--space-12) 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+.w-agent-access__handoff {
+  margin-top: var(--space-16);
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+}
+.w-agent-access__handoff a {
+  color: var(--ink);
+}
+
+/* ---------- OgCard (1200×630 template) ---------- */
+
+.w-og {
+  width: 1200px;
+  height: 630px;
+  background: var(--paper);
+  color: var(--ink);
+  padding: var(--space-64);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform-origin: top left;
+}
+.w-og__wordmark {
+  font-family: var(--font-display);
+  font-size: var(--t-lg);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.w-og__headline {
+  font-family: var(--font-display);
+  font-size: var(--t-2xl);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: var(--leading-display);
+  max-width: var(--measure-display);
+  margin-top: var(--space-16);
+}
+
+/* ---------- FrontPage (§2.2, ≥768px) ---------- */
+
+.w-frontpage {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--page-pad);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: var(--gutter);
+  row-gap: var(--space-64);
+  padding-bottom: var(--space-64);
+}
+.w-frontpage > .w-masthead {
+  grid-column: 1 / -1;
+}
+.w-fp__cover {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+.w-fp__cover .w-cover {
+  grid-column: 1 / 9;
+}
+.w-fp__cover-stack {
+  grid-column: 9 / 13;
+  align-self: center;
+}
+.w-fp__headline {
+  font-family: var(--font-display);
+  font-size: var(--t-3xl);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: var(--leading-display);
+  margin-top: var(--space-12);
+}
+.w-fp__deck {
+  margin-top: var(--space-16);
+  font-size: var(--t-lg);
+  color: var(--ink-2);
+  line-height: var(--leading-text);
+}
+.w-fp__briefing {
+  grid-column: 3 / 11;
+  padding: var(--space-32) 0;
+}
+.w-fp__briefing .w-rule--hairline:first-child {
+  margin-bottom: var(--space-32);
+}
+.w-fp__briefing .w-rule--hairline:last-child {
+  margin-top: var(--space-32);
+}
+.w-fp__lead {
+  font-family: var(--font-display);
+  font-size: var(--t-2xl);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: var(--leading-display);
+}
+.w-fp__briefing-sentence {
+  margin-top: var(--space-16);
+  font-size: var(--t-lg);
+  line-height: var(--leading-text);
+  max-width: var(--measure);
+}
+.w-fp__section {
+  grid-column: 1 / -1;
+}
+.w-fp__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: var(--gutter);
+  row-gap: var(--space-24);
+  margin-top: var(--space-24);
+}
+.w-fp__items .w-item {
+  flex-direction: column;
+  padding: 0;
+}
+.w-fp__items .w-item:nth-child(3n + 2),
+.w-fp__items .w-item:nth-child(3n) {
+  border-left: 1px solid var(--rule);
+  padding-left: var(--gutter);
+}
+.w-fp__markets {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: subgrid;
+  row-gap: var(--space-24);
+}
+.w-fp__markets .w-section-head {
+  grid-column: 1 / -1;
+}
+.w-fp__markets-chart {
+  grid-column: 1 / 8;
+}
+.w-fp__markets-table {
+  grid-column: 8 / 13;
+}
+.w-fp__markets-caption {
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+  margin-top: var(--space-8);
+}
+.w-fp__most-covered {
+  grid-column: 4 / 10;
+}
+.w-fp__most-covered .w-mono-table {
+  margin-top: var(--space-24);
+}
+.w-fp__covered-name {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+.w-fp__covered-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: grayscale(1) contrast(1.4);
+}
+.w-fp__backpage {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: subgrid;
+  row-gap: var(--space-32);
+}
+.w-fp__backpage .w-rule {
+  grid-column: 1 / -1;
+}
+.w-fp__sources-col,
+.w-fp__made-col,
+.w-fp__backpage .w-agent-access {
+  grid-column: span 4;
+}
+.w-fp__copyright {
+  grid-column: 1 / -1;
+}
+.w-fp__backpage-head {
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  margin-bottom: var(--space-12);
+}
+.w-fp__sources {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+}
+.w-fp__sources li {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--rule);
+}
+.w-fp__made-line {
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+  line-height: var(--leading-text);
+  margin-top: var(--space-8);
+}
+.w-fp__copyright {
+  font-size: var(--t-xs);
+  color: var(--ink-3);
+}
+
+/* Narrow viewport: front-page blocks stack single-column (the deck owns mobile). */
+@media (max-width: 767px) {
+  .w-frontpage {
+    row-gap: var(--space-48);
+  }
+  .w-fp__cover .w-cover,
+  .w-fp__cover-stack,
+  .w-fp__briefing,
+  .w-fp__markets-chart,
+  .w-fp__markets-table,
+  .w-fp__most-covered {
+    grid-column: 1 / -1;
+  }
+  .w-fp__items {
+    grid-template-columns: 1fr;
+  }
+  .w-fp__items .w-item:nth-child(3n + 2),
+  .w-fp__items .w-item:nth-child(3n) {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .w-fp__items .w-item + .w-item {
+    border-top: 1px solid var(--rule);
+    padding-top: var(--space-16);
+  }
+  .w-fp__sources-col,
+  .w-fp__made-col,
+  .w-fp__backpage .w-agent-access {
+    grid-column: 1 / -1;
+  }
+}
+
+/* §1.4 — reduced motion: instant cut, no animation anywhere. */
+@media (prefers-reduced-motion: reduce) {
+  .w-progress__seg {
+    transition: none;
+  }
+}
+
+/* ---------- Kitchen-sink demo helpers ---------- */
+
+.w-swatch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--space-12);
+}
+.w-swatch {
+  border: 1px solid var(--rule);
+}
+.w-swatch__chip {
+  height: var(--space-48);
+}
+.w-swatch__name {
+  font-family: var(--font-mono);
+  font-size: var(--t-xs);
+  padding: var(--space-4) var(--space-8);
+  color: var(--ink-2);
+}

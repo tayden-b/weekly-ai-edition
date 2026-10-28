@@ -6,6 +6,12 @@
     "plugins": [{ "name": "next" }],
     "incremental": true
   },
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "src/**/*.ts", "src/**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "../../fixtures/**/*.json"
+  ],
   "exclude": ["node_modules"]
 }
