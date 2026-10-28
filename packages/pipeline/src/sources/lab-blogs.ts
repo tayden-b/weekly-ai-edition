@@ -101,11 +101,11 @@ function decodeEntities(s: string): string {
     const next = out.replace(/&(#x?[0-9a-fA-F]+|[a-zA-Z]+);/g, (all, ent: string) => {
       if (ent.startsWith("#x") || ent.startsWith("#X")) {
         const cp = Number.parseInt(ent.slice(2), 16);
-        return Number.isFinite(cp) ? String.fromCodePoint(cp) : all;
+        return cp >= 0 && cp <= 0x10ffff ? String.fromCodePoint(cp) : all;
       }
       if (ent.startsWith("#")) {
         const cp = Number.parseInt(ent.slice(1), 10);
-        return Number.isFinite(cp) ? String.fromCodePoint(cp) : all;
+        return cp >= 0 && cp <= 0x10ffff ? String.fromCodePoint(cp) : all;
       }
       return ENTITIES[ent] ?? all;
     });
@@ -210,14 +210,17 @@ function firstTag(block: string, names: string[]): string | undefined {
 }
 
 /** Atom-style `<link href="…">`: prefer rel="alternate" or no rel. */
+const ATTR = (tag: string, name: string): string | undefined =>
+  new RegExp(`\\b${name}\\s*=\\s*["']([^"']*)["']`).exec(tag)?.[1];
+
 function linkHref(block: string): string | undefined {
   const links = [...block.matchAll(/<link\b[^>]*>/g)].map((m) => m[0]);
-  const relOf = (l: string) => /\brel="([^"]*)"/.exec(l)?.[1];
+  const relOf = (l: string) => ATTR(l, "rel");
   const pick =
     links.find((l) => relOf(l) === "alternate") ??
     links.find((l) => relOf(l) === undefined) ??
     links[0];
-  return pick ? /\bhref="([^"]*)"/.exec(pick)?.[1] : undefined;
+  return pick ? ATTR(pick, "href") : undefined;
 }
 
 function absolutize(href: string, origin: string): string | undefined {
@@ -259,7 +262,8 @@ function parseFeedXml(body: string, origin: string): DraftItem[] {
     const publishedAt = parseLabDate(
       cleanText(firstTag(block, ["published", "updated", "pubDate", "dc:date"])),
     );
-    const excerpt = cleanText(firstTag(block, ["summary", "content"])) || headline;
+    // never `content` — Atom's body element is off-limits like RSS content:encoded
+    const excerpt = cleanText(firstTag(block, ["summary", "description"])) || headline;
     const id = cleanText(firstTag(block, ["id"]));
     if (!headline || !url) continue;
     drafts.push({
@@ -336,9 +340,9 @@ function anchorsOf(body: string): Anchor[] {
   const out: Anchor[] = [];
   for (const m of body.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/g)) {
     const attrs = m[1]!;
-    const href = /\bhref="([^"]*)"/.exec(attrs)?.[1];
+    const href = ATTR(attrs, "href");
     if (!href) continue;
-    const ariaLabel = /\baria-label="([^"]*)"/.exec(attrs)?.[1];
+    const ariaLabel = ATTR(attrs, "aria-label");
     out.push({
       href,
       inner: m[2]!,
@@ -518,7 +522,9 @@ function isWrapped(p: unknown): p is WrappedPayload {
 /**
  * Attribute a bare fixture body to its source: the endpoint hostname appears
  * all over a real response body (canonical links, locs, hrefs), so the source
- * whose hostname occurs most wins. Returns undefined on a clean miss.
+ * whose hostname occurs most wins. Returns undefined on a clean miss. Callers
+ * that already know the source should pass the `{source, body}` envelope — a
+ * body dominated by another lab's host can otherwise misattribute.
  */
 function detectSourceId(body: string, entries: SourceEntry[]): string | undefined {
   let bestId: string | undefined;
