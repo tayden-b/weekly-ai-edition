@@ -1,0 +1,13 @@
+{
+  "_comment": "Synthetic but format-faithful: the endpoint 403s to datacenter IPs (Akamai, verified 2026-10).",
+  "responses": [
+    {
+      "url": "https://www.globenewswire.com/RssFeed/subjectcode/1000-Productivity/Releases",
+      "status": 200,
+      "headers": {
+        "content-type": "application/rss+xml"
+      },
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\"><channel>\n<title>GlobeNewswire - Productivity</title>\n<link>https://www.globenewswire.com/</link>\n<description>GlobeNewswire news releases with subject code 1000-Productivity</description>\n<language>en-us</language>\n<pubDate>Wed, 28 Oct 2026 18:00:00 GMT</pubDate>\n<item>\n<title>NeuralForge AI to Be Acquired by Calderon Systems in $480M All-Stock Transaction</title>\n<link>https://www.globenewswire.com/news-release/2026/10/28/NeuralForge-AI-to-Be-Acquired-by-Calderon-Systems.html</link>\n<guid isPermaLink=\"true\">https://www.globenewswire.com/news-release/2026/10/28/NeuralForge-AI-to-Be-Acquired-by-Calderon-Systems.html</guid>\n<pubDate>Wed, 28 Oct 2026 15:12:00 GMT</pubDate>\n<description><![CDATA[Calderon Systems today announced it has entered into a definitive agreement to acquire NeuralForge AI, the machine learning platform for semiconductor yield optimization, in an all-stock transaction valued at approximately $480 million.]]></description>\n</item>\n<item>\n<title>BrightGrocer Reports Third Quarter Comparable Store Sales</title>\n<link>https://www.globenewswire.com/news-release/2026/10/28/BrightGrocer-Q3-Results.html</link>\n<guid isPermaLink=\"true\">https://www.globenewswire.com/news-release/2026/10/28/BrightGrocer-Q3-Results.html</guid>\n<pubDate>Wed, 28 Oct 2026 14:01:00 GMT</pubDate>\n<description><![CDATA[BrightGrocer Inc. today reported third quarter comparable store sales growth of 2.1% and reaffirmed full-year guidance.]]></description>\n</item>\n</channel></rss>"
+    }
+  ]
+}

@@ -144,3 +144,13 @@ export {
   type NewsroomFeed,
   newsroomFeedsFromSources,
 } from "./sources/newsrooms.js";
+
+// A5 — press-wire RSS: Money + Deals wires, funding feeds, corroboration
+export {
+  createPressWireAdapter,
+  htmlToPlainText,
+  parseWireFeed,
+  PRESS_WIRE_ADAPTER_ID,
+  pressWireAdapterFromEntry,
+  type PressWireOptions,
+} from "./sources/press-wires.js";
