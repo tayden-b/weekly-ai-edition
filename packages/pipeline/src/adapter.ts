@@ -95,6 +95,13 @@ export interface RawItem {
    * practice but the record itself may be empty when a source has no ids.
    */
   source_ids: Record<string, string>;
+  /**
+   * Publisher-assigned section/category labels, verbatim (RSS `<category>`,
+   * Atom `<category term>`). Item-level metadata like the engagement fields,
+   * not part of the EditionSource mapping. Downstream (classify, P4) uses
+   * them to flag opinion-ish items for Discourse and section filters.
+   */
+  categories?: string[];
   hn_comments?: number;
   hn_points?: number;
   reddit_score?: number;
@@ -250,6 +257,12 @@ export function validateRawItem(value: unknown): RawItem {
   } else {
     for (const [k, sv] of Object.entries(v.source_ids)) {
       if (typeof sv !== "string") fail(`source_ids.${k}`, "must be a string");
+    }
+  }
+
+  if (v.categories !== undefined) {
+    if (!Array.isArray(v.categories) || v.categories.some((c) => typeof c !== "string" || c === "")) {
+      fail("categories", "must be an array of non-empty strings when present");
     }
   }
 
