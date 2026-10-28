@@ -136,6 +136,47 @@ export {
   type HnAdapterOptions,
 } from "./sources/hn.js";
 
+// A3 — newsroom RSS set (Launches / Deals / Discourse, PLAN §5.1)
+export {
+  createNewsroomAdapter,
+  NEWSROOM_ADAPTER_ID,
+  type NewsroomAdapterOptions,
+  type NewsroomFeed,
+  newsroomFeedsFromSources,
+} from "./sources/newsrooms.js";
+
+// A5 — press-wire RSS: Money + Deals wires, funding feeds, corroboration
+export {
+  createPressWireAdapter,
+  htmlToPlainText,
+  parseWireFeed,
+  PRESS_WIRE_ADAPTER_ID,
+  pressWireAdapterFromEntry,
+  type PressWireOptions,
+} from "./sources/press-wires.js";
+
+// A6 — Product Hunt + GitHub Releases + HF Hub adapters
+export {
+  createGitHubReleasesAdapter,
+  GITHUB_RELEASES_ADAPTER_ID,
+  type GitHubReleasesAdapterOptions,
+  repoFromReleasesEndpoint,
+} from "./sources/github-releases.js";
+export {
+  createHfHubAdapter,
+  HF_HUB_ADAPTER_ID,
+  HF_HUB_API_ENDPOINT,
+  type HfHubAdapterOptions,
+} from "./sources/hf-hub.js";
+export {
+  createProductHuntAdapter,
+  PRODUCT_HUNT_ADAPTER_ID,
+  PRODUCT_HUNT_DEFAULT_TOPICS,
+  PRODUCT_HUNT_ENDPOINT,
+  PRODUCT_HUNT_TOKEN_ENV,
+  type ProductHuntAdapterOptions,
+} from "./sources/product-hunt.js";
+
 // A7 — benchmark publishers (Performance, PLAN §5.1)
 export {
   BENCHMARK_SOURCES,
