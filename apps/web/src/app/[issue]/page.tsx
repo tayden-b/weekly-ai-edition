@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 
 import { FrontPage } from "@weekly/ui";
 
-import { rawEdition } from "../../lib/fixture";
-import { assembleFrontPage, getEdition } from "../../lib/frontpage";
+import { getEdition, listEditions } from "../../lib/editions";
+import { assembleFrontPage } from "../../lib/frontpage";
 import { site } from "../../lib/site";
 import { FrontPageChrome } from "./FrontPageChrome";
 
@@ -12,7 +12,7 @@ export const dynamicParams = false;
 export const dynamic = "force-static";
 
 export function generateStaticParams() {
-  return [{ issue: rawEdition.id }];
+  return listEditions().map((edition) => ({ issue: edition.id }));
 }
 
 export async function generateMetadata({
