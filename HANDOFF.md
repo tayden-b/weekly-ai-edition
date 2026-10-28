@@ -22,4 +22,4 @@ This repository is built end to end by Devin Cloud agents with no human in the l
 
 ## Owner contact
 
-Only the Supervisor may escalate, only by labelling an issue `needs-human`, and only after three retries. Escalations are delivered by automation email; do not look for other channels.
+Only the Supervisor may escalate, only by labelling an issue `needs-human`, and only after three retries. Escalations and the v1 completion report are delivered by @-mentioning `tayden-b` in the relevant GitHub issue (GitHub emails him). Do not look for other channels.
