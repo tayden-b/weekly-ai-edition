@@ -9,7 +9,14 @@ import "@weekly/ui/fonts.css";
 import "@weekly/ui/components.css";
 import "./globals.css";
 
+const baseUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "http://localhost:3000";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(baseUrl),
   title: "The Weekly AI Edition",
   description:
     "The only AI news product you finish. One link a week, swiped like a magazine, with a machine-readable twin for agents.",

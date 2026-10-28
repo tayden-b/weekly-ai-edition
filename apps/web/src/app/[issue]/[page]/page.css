@@ -1,0 +1,92 @@
+/*
+ * V3 standalone page (`/{issue}/{n}`) — deck-card anatomy on the paper
+ * ground: masthead row, kicker, title, body, source-count footer, then a
+ * prev/next nav row. All values are token vars (DESIGN §1); the class names
+ * reused from .w-deck-card* keep it visually identical to a deck card.
+ */
+
+.w-sp {
+  min-height: 100dvh;
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: var(--space-16) var(--page-pad) var(--space-48);
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+}
+
+.w-sp__body {
+  flex: 1;
+  margin-top: var(--space-24);
+}
+
+.w-sp__cover .w-cover {
+  max-width: 20ch;
+}
+
+.w-sp__deck {
+  margin-top: var(--space-16);
+  font-size: var(--t-lg);
+  color: var(--ink-2);
+}
+
+.w-sp__briefing p + p {
+  margin-top: var(--space-12);
+}
+
+.w-sp__caption {
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+  margin: var(--space-8) 0 var(--space-24);
+}
+
+.w-sp__colhead {
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  margin: var(--space-24) 0 var(--space-8);
+}
+
+.w-sp__sources {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+}
+
+.w-sp__sources li {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.w-sp__made {
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+  line-height: var(--leading-text);
+}
+
+.w-sp__copyright {
+  margin-top: var(--space-24);
+  font-size: var(--t-xs);
+  color: var(--ink-3);
+}
+
+.w-sp__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-16);
+  margin-top: var(--space-16);
+}
+
+.w-sp__nav-side {
+  flex: 1;
+}
+
+.w-sp__nav-side--right {
+  text-align: right;
+}

@@ -42,6 +42,10 @@ export interface FixturePage {
   sources?: [string, number][];
   made?: string[];
   items?: FixtureItem[];
+  /** Fetched source records backing this page (page-level + per-item). */
+  sourceCount?: number;
+  /** Unique publishers of page-level sources — the Markets caption. */
+  sourcePublishers?: string[];
 }
 
 export interface FixtureEdition {
@@ -132,6 +136,19 @@ function mapPage(page: EditionPage): FixturePage {
       (c): [string, number] => [c.publisher, c.count],
     );
     out.made = [page.how_made];
+    out.sourceCount = page.sources_total;
+  }
+  const itemSources = (out.items ?? []).reduce(
+    (n, it) => n + it.sources.length,
+    0,
+  );
+  if ("sources" in page && page.sources) {
+    out.sourceCount = page.sources.length + itemSources;
+    out.sourcePublishers = [
+      ...new Set(page.sources.map((s) => s.publisher)),
+    ];
+  } else if (itemSources > 0) {
+    out.sourceCount = itemSources;
   }
   return out;
 }
