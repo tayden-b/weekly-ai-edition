@@ -1,0 +1,43 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-deepmind-blog",
+  "fetched_at": "2026-10-28T19:44:16.751Z",
+  "items": [
+    {
+      "headline": "Gemini 4 Carbon: Our next frontier model",
+      "canonical_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.787Z",
+      "excerpt": "Gemini 4 Carbon: Our next frontier model",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Genie 4: A new generation of world simulation",
+      "canonical_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-10-27T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.787Z",
+      "excerpt": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Beyond tree cover: mapping the world’s forest types",
+      "canonical_url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-10-22T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.787Z",
+      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

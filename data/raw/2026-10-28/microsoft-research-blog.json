@@ -1,0 +1,19 @@
+{
+  "adapter": "lab-blogs",
+  "source": "microsoft-research-blog",
+  "fetched_at": "2026-10-28T19:44:16.751Z",
+  "items": [
+    {
+      "headline": "Flint-interactive: A language for creating interactive data visualizations",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/",
+      "publisher": "Microsoft Research",
+      "published_at": "2026-10-22T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.791Z",
+      "excerpt": "Flint-interactive gives AI agents a language for creating interactive visualizations. Click a chart, filter data, highlight related content, and explore beyond the view the author originally chose. The post Flint-interactive: A language for creating interactive data visualizations appeared first on",
+      "source_ids": {
+        "guid": "https://www.microsoft.com/en-us/research/?p=1190353"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

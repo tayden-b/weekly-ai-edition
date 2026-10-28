@@ -251,3 +251,19 @@ export {
   type LabBlogsAdapterOptions,
   type SourceRunReport,
 } from "./sources/lab-blogs.js";
+
+// P3 — ingest orchestrator: config → parallel adapter runs → data/raw cache
+export {
+  INGEST_DEFAULT_DAYS,
+  type IngestDeps,
+  type IngestManifest,
+  type IngestRun,
+  type IngestSourceFile,
+  type IngestSourceRecord,
+  ingestWindowForDate,
+  manifestFor,
+  type RunIngestOptions,
+  runIngest,
+  sourceAdapterFromEntry,
+  writeIngestCache,
+} from "./ingest.js";

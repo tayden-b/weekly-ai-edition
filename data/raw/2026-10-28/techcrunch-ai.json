@@ -1,0 +1,410 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "techcrunch-ai",
+  "fetched_at": "2026-10-28T19:44:16.751Z",
+  "items": [
+    {
+      "headline": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "canonical_url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T19:19:58.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182643",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+      "canonical_url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T19:05:46.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?post_type=tc_video&#038;p=3182776",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "Startups",
+        "CTO",
+        "cybersecurity",
+        "Equity Video",
+        "php",
+        "wiz"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+      "canonical_url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T18:50:39.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3182774",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "Startups",
+        "cybersecurity",
+        "Equity podcast",
+        "php",
+        "wiz"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "canonical_url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T17:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182578",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Chrome",
+        "Google",
+        "In Brief"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "canonical_url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T17:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182509",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "gemini",
+        "Google",
+        "Google Search"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI execs may be too out of touch to build for the general public",
+      "canonical_url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T15:53:52.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182042",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Social",
+        "Marissa Mayer"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+      "canonical_url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T15:41:18.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "South Korea’s financial institutions have been hit by another wave of cyberattacks, highlighting the growing risk of AI-driven hacking in Asia.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182513",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "CrowdStrike",
+        "cybersecurity"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "canonical_url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T15:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182159",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "TC",
+        "In Brief",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "7 days until TechCrunch Founder Summit: Save up to $100 on your pass before doors open",
+      "canonical_url": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T13:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "In just 7 days, TechCrunch Founder Summit takes over Boston’s SoWa Power Station on November 4. Your chance to save up to $100 on tickets is running out, and the opportunity to learn and connect directly with experienced founders, investors, and startup leaders is almost here.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182455",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Biotech & Health",
+        "Climate",
+        "Fintech",
+        "Fundraising",
+        "Startups",
+        "Venture",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+      "canonical_url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T01:15:28.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182406",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "Venture",
+        "Amazon",
+        "Anthropic",
+        "Google",
+        "IPO"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "canonical_url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-27T23:34:27.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182387",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "ChatGPT",
+        "OpenAI",
+        "OpenAI Files"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The data center boom has an upside: innovation for the US grid",
+      "canonical_url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-27T22:55:41.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3181301",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "data centers",
+        "TechCrunch Disrupt",
+        "Veir"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "canonical_url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-27T21:44:34.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182297",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Fintech",
+        "Security",
+        "agentic payments",
+        "Bank of America",
+        "Banking",
+        "cybersecurity"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Who’s really in charge at Anthropic after the IPO?",
+      "canonical_url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-27T21:38:28.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182153",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "IPO"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "canonical_url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-27T18:55:35.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182189",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "Venture",
+        "disruptive",
+        "In Brief"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "canonical_url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-27T17:08:08.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182002",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Exclusive",
+        "MIT",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "canonical_url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-27T16:30:57.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182045",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Media & Entertainment",
+        "Genie",
+        "Google",
+        "google deepmind",
+        "world models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "canonical_url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-27T14:59:09.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182018",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "Enterprise AI",
+        "Exclusive",
+        "Meta",
+        "meta superintelligence labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Japan internet giant GMO says hackers posted stolen customer data",
+      "canonical_url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-27T13:32:57.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3182015",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "CrowdStrike",
+        "cybersecurity",
+        "GMO Internet",
+        "Japan",
+        "security",
+        "south korea"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+      "canonical_url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-27T13:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.016Z",
+      "excerpt": "The new standard, WebAI, is designed to work with a variety of AI models.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3181922",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "TC",
+        "Opera"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

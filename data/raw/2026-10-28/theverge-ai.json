@@ -1,0 +1,209 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "theverge-ai",
+  "fetched_at": "2026-10-28T19:44:16.751Z",
+  "items": [
+    {
+      "headline": "Microsoft is ending Copilot support on smart TVs",
+      "canonical_url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "publisher": "The Verge",
+      "published_at": "2026-10-28T18:36:26.000Z",
+      "fetched_at": "2026-10-28T19:44:17.023Z",
+      "excerpt": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1021143",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Gadgets",
+        "Microsoft",
+        "News",
+        "Tech",
+        "TVs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+      "canonical_url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+      "publisher": "The Verge",
+      "published_at": "2026-10-28T17:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.023Z",
+      "excerpt": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced autofill will use",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1020626",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Chrome",
+        "Google",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta says it’ll probably delay its controversial new business terms again",
+      "canonical_url": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+      "publisher": "The Verge",
+      "published_at": "2026-10-28T16:15:30.000Z",
+      "fetched_at": "2026-10-28T19:44:17.023Z",
+      "excerpt": "Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does \"not plan to make policy changes without a full consultation with",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1020769",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Meta",
+        "News",
+        "Policy",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "xAI is buying out homeowners who promise not to sue over data center noise",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+      "publisher": "The Verge",
+      "published_at": "2026-10-28T14:44:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.023Z",
+      "excerpt": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven neighborhood",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1020596",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Elon Musk",
+        "News",
+        "Tech",
+        "xAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Voters in Texas agree: They hate data centers",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+      "publisher": "The Verge",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.023Z",
+      "excerpt": "Ask Texas NAACP president Gary Bledsoe what it's been like to see data center developers descend upon Austin and its surrounding suburbs and he can rattle off project after project facing opposition from locals. There's the fight in Taylor over plans to build a data center at a site that's supposed",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1018676",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Energy",
+        "Environment",
+        "Policy",
+        "Politics",
+        "Report",
+        "Science"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta quietly launched an ‘AI pet journal’ app",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
+      "publisher": "The Verge",
+      "published_at": "2026-10-28T11:27:30.000Z",
+      "fetched_at": "2026-10-28T19:44:17.023Z",
+      "excerpt": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\"",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1020410",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Meta",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "publisher": "The Verge",
+      "published_at": "2026-10-27T20:48:58.000Z",
+      "fetched_at": "2026-10-28T19:44:17.023Z",
+      "excerpt": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1019921",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "OpenAI",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "VisionQuest is what happens when AI really goes rogue",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+      "publisher": "The Verge",
+      "published_at": "2026-10-27T17:30:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.023Z",
+      "excerpt": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1017064",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Comics",
+        "Disney",
+        "Entertainment",
+        "Marvel",
+        "OpenAI",
+        "Streaming",
+        "TV Shows"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "publisher": "The Verge",
+      "published_at": "2026-10-27T16:51:22.000Z",
+      "fetched_at": "2026-10-28T19:44:17.023Z",
+      "excerpt": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1019470",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Policy",
+        "Report"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "publisher": "The Verge",
+      "published_at": "2026-10-27T16:14:18.000Z",
+      "fetched_at": "2026-10-28T19:44:17.023Z",
+      "excerpt": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1019551",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "Tech",
+        "Web"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

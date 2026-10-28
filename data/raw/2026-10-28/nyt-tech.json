@@ -1,0 +1,72 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "nyt-tech",
+  "fetched_at": "2026-10-28T19:44:16.751Z",
+  "items": [
+    {
+      "headline": "Anthropic S-1 Reveals Rapid Growth Ahead of Blockbuster IPO",
+      "canonical_url": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-26T18:08:07.000Z",
+      "fetched_at": "2026-10-28T19:44:16.814Z",
+      "excerpt": "Anthropic S-1 Reveals Rapid Growth Ahead of Blockbuster IPO",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "The Key Numbers From Anthropic’s IPO Filing",
+      "canonical_url": "https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-26T20:21:29.000Z",
+      "fetched_at": "2026-10-28T19:44:16.814Z",
+      "excerpt": "The Key Numbers From Anthropic’s IPO Filing",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Anthropic’s IPO S-1 Spells Out a Future of Promise and Peril",
+      "canonical_url": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-s1-dario-amodei.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-26T19:36:41.000Z",
+      "fetched_at": "2026-10-28T19:44:16.814Z",
+      "excerpt": "The A.I. company took great pains to describe the many benefits that can come from using its Claude chatbot and technology, but also offered up a heavy dose of gloom.",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-s1-dario-amodei.html"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Meet Anthropic’s Seven Founders as the A.I. Firm Prepares for an IPO",
+      "canonical_url": "https://www.nytimes.com/2026/10/26/technology/anthropic-founders.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-26T15:24:56.000Z",
+      "fetched_at": "2026-10-28T19:44:16.814Z",
+      "excerpt": "Former OpenAI employees started the company in 2021 after disagreements over how to safely build artificial intelligence. An I.P.O. could make them billionaires.",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/10/26/technology/anthropic-founders.html"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "What’s Riding on Anthropic Going Public? Nearly Everything.",
+      "canonical_url": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-26T18:44:19.000Z",
+      "fetched_at": "2026-10-28T19:44:16.814Z",
+      "excerpt": "Anthropic sits atop a pyramid of business partners and suppliers, making it a barometer of the broader economy. Its initial public offering will have widespread implications.",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

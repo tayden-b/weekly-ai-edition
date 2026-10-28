@@ -1,0 +1,21 @@
+{
+  "adapter": "sec-edgar",
+  "source": "sec-edgar-current-feed",
+  "fetched_at": "2026-10-28T19:44:16.751Z",
+  "items": [
+    {
+      "headline": "D — AI Legal Support LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2162585/000216258526000001/0002162585-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-10-28T17:43:56.000Z",
+      "fetched_at": "2026-10-28T19:44:17.268Z",
+      "excerpt": "Filed: 2026-10-28 AccNo: 0002162585-26-000001 Size: 5 KB",
+      "source_ids": {
+        "edgar_accession": "0002162585-26-000001",
+        "edgar_cik": "0002162585",
+        "edgar_form": "D"
+      },
+      "adapter": "sec-edgar"
+    }
+  ]
+}

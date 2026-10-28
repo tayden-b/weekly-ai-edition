@@ -1,0 +1,142 @@
+{
+  "adapter": "distribute-software",
+  "source": "distribute-releases",
+  "fetched_at": "2026-10-28T19:44:16.751Z",
+  "items": [
+    {
+      "headline": "Gemini 4 Carbon: Our next frontier model",
+      "canonical_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-10-28T17:00:58.000Z",
+      "fetched_at": "2026-10-28T19:44:17.313Z",
+      "excerpt": "Gemini 4 Carbon: Our next frontier model",
+      "source_ids": {
+        "distribute_id": "release-1074",
+        "distribute_url": "https://distribute.software/companies/google",
+        "distribute_source": "lab",
+        "distribute_companies": "google"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone",
+      "canonical_url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+      "publisher": "Meta",
+      "published_at": "2026-10-28T00:00:03.000Z",
+      "fetched_at": "2026-10-28T19:44:17.313Z",
+      "excerpt": "Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone",
+      "source_ids": {
+        "distribute_id": "release-1026",
+        "distribute_url": "https://distribute.software/companies/meta",
+        "distribute_source": "lab",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Genie 4: A new generation of world simulation",
+      "canonical_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-10-27T16:01:38.000Z",
+      "fetched_at": "2026-10-28T19:44:17.313Z",
+      "excerpt": "Genie 4: A new generation of world simulation",
+      "source_ids": {
+        "distribute_id": "release-1019",
+        "distribute_url": "https://distribute.software/companies/google",
+        "distribute_source": "lab",
+        "distribute_companies": "google"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "canonical_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "publisher": "OpenAI",
+      "published_at": "2026-10-26T13:45:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.313Z",
+      "excerpt": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "source_ids": {
+        "distribute_id": "release-1014",
+        "distribute_url": "https://distribute.software/companies/openai",
+        "distribute_source": "lab",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Introducing GPT-6.1 Terra",
+      "canonical_url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "publisher": "OpenAI",
+      "published_at": "2026-10-26T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.313Z",
+      "excerpt": "Introducing GPT-6.1 Terra",
+      "source_ids": {
+        "distribute_id": "release-1013",
+        "distribute_url": "https://distribute.software/companies/openai",
+        "distribute_source": "lab",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Kimi K3.1 Pro",
+      "canonical_url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+      "publisher": "Kimi (Moonshot AI)",
+      "published_at": "2026-10-24T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.313Z",
+      "excerpt": "Kimi K3.1 Pro",
+      "source_ids": {
+        "distribute_id": "release-1072",
+        "distribute_url": "https://distribute.software/companies/moonshot",
+        "distribute_source": "lab",
+        "distribute_companies": "moonshot"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Securing our frontier model training environment",
+      "canonical_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "publisher": "OpenAI",
+      "published_at": "2026-10-23T10:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.313Z",
+      "excerpt": "Securing our frontier model training environment",
+      "source_ids": {
+        "distribute_id": "release-945",
+        "distribute_url": "https://distribute.software/companies/openai",
+        "distribute_source": "lab",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "MiniMax M3.1 released on Hugging Face",
+      "canonical_url": "https://huggingface.co/models?author=MiniMaxAI&search=MiniMax-M3.1",
+      "publisher": "MiniMax",
+      "published_at": "2026-10-23T01:15:13.879Z",
+      "fetched_at": "2026-10-28T19:44:17.313Z",
+      "excerpt": "MiniMax M3.1 released on Hugging Face",
+      "source_ids": {
+        "distribute_id": "release-941",
+        "distribute_url": "https://distribute.software/companies/minimax",
+        "distribute_source": "lab",
+        "distribute_companies": "minimax"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Introducing MiniMax Code Mini App",
+      "canonical_url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
+      "publisher": "MiniMax",
+      "published_at": "2026-10-22T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:17.313Z",
+      "excerpt": "Introducing MiniMax Code Mini App",
+      "source_ids": {
+        "distribute_id": "release-1071",
+        "distribute_url": "https://distribute.software/companies/minimax",
+        "distribute_source": "lab",
+        "distribute_companies": "minimax"
+      },
+      "adapter": "distribute-software"
+    }
+  ]
+}
