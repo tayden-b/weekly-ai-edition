@@ -271,7 +271,7 @@ export function createRedditAdapter(opts: RedditAdapterOptions): SourceAdapter {
         if (child.kind !== "t3" || child.data === undefined) continue;
         const item = postToItem(child.data, opts, fetchedAt);
         if (item === null) continue;
-        const key = item.source_ids.reddit_id ?? item.canonical_url;
+        const key = item.source_ids.reddit_id || item.canonical_url;
         if (seen.has(key)) continue;
         seen.add(key);
         items.push(item);
