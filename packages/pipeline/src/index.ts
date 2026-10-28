@@ -227,4 +227,3 @@ export {
   arxivIdOf,
   createArxivAdapter,
 } from "./sources/arxiv.js";
->>>>>>> 4cd60e6e79d748a0d361dbe22636a3becb46e7b4
