@@ -1,0 +1,55 @@
+{
+  "$comment": "P1 normalize-stage fixtures — AdapterRawItem records as P3 would emit them. Expected values live in raw-items.expected.json so the test can diff field-for-field.",
+  "items": [
+    {
+      "adapter": "fixture",
+      "headline": "OpenAI ships GPT-6",
+      "canonical_url": "HTTPS://OpenAI.com:443/news/gpt-6/?utm_source=twitter&utm_medium=social&fbclid=abc123&b=2&a=1#comments",
+      "publisher": " openai   blog ",
+      "published_at": "Tue, 28 Oct 2026 09:00:00 GMT",
+      "fetched_at": "2026-10-28T11:00:00.000Z",
+      "excerpt": "OpenAI announced GPT-6 today.",
+      "source_ids": { "fixture_id": "tracked" }
+    },
+    {
+      "adapter": "newsroom-rss",
+      "headline": "OpenAI launches GPT-6 with 2M context",
+      "canonical_url": "https://amp.theverge.com/2026/10/28/openai-gpt-6/amp/",
+      "publisher": "the verge",
+      "published_at": "2026-10-28T09:30:00Z",
+      "fetched_at": "2026-10-28T12:00:00Z",
+      "excerpt": "The Verge reports on GPT-6.",
+      "source_ids": { "rss_guid": "amp-1", "newsroom_feed": "theverge-ai" }
+    },
+    {
+      "adapter": "press-wire-rss",
+      "headline": "Acme AI raises $40M Series B",
+      "canonical_url": "https://feedproxy.example.com/~r/wire/~3/x/?url=https%3A%2F%2Fwww.prnewswire.com%2Freleases%2Facme-40m.html%3Futm_source%3Dwire",
+      "publisher": "PR  Newswire",
+      "published_at": "2026-10-28T10:00:00Z",
+      "fetched_at": "2026-10-28T12:00:00Z",
+      "excerpt": "Acme AI raised a $40M Series B.",
+      "source_ids": { "wire_id": "w-9" }
+    },
+    {
+      "adapter": "fixture",
+      "headline": "Index page story",
+      "canonical_url": "https://example.com/news/index.html?utm_campaign=x",
+      "publisher": "Bloomberg News",
+      "published_at": "2026-10-28T08:00:00Z",
+      "fetched_at": "2026-10-28T09:00:00Z",
+      "excerpt": "A story on an index page.",
+      "source_ids": { "fixture_id": "index-1" }
+    },
+    {
+      "adapter": "fixture",
+      "headline": "Root amp page",
+      "canonical_url": "https://example.com/amp",
+      "publisher": "Reuters",
+      "published_at": "not-a-date",
+      "fetched_at": "2026-10-28T09:00:00Z",
+      "excerpt": "An amp-root story.",
+      "source_ids": { "fixture_id": "root-amp" }
+    }
+  ]
+}

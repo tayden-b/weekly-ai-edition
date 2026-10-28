@@ -3,7 +3,8 @@
  * → draft → verify → emit → validate (PLAN.md §5.2).
  *
  * C5 lands the adapter interface and `RawItem`; A1–A10 the adapters;
- * P1–P7 the stages. Until then this exports the canonical stage order.
+ * P1 the normalize + dedupe stages; P2–P7 the rest. `PIPELINE_STAGES`
+ * keeps the canonical order.
  */
 
 export const PIPELINE_STAGES = [
@@ -81,6 +82,35 @@ export {
   FIXTURE_ADAPTER_ID,
   type FixtureAdapterOptions,
 } from "./sources/fixture.js";
+
+// P1 — normalize + dedupe stages (PLAN §5.2)
+export {
+  type AdapterRawItem,
+  canonicalizeUrl,
+  type NormalizeOptions,
+  type NormalizedItem,
+  normalize,
+  normalizeItem,
+  normalizePublisher,
+  normalizeTimestamp,
+  publisherKey,
+  titleKey,
+  TRACKING_PARAM_PREFIXES,
+  TRACKING_PARAMS,
+  UNWRAP_PARAMS,
+} from "./stages/normalize.js";
+export {
+  type ClusterSource,
+  clusterSources,
+  dedupe,
+  type DedupeOptions,
+  DEFAULT_SIMHASH_THRESHOLD,
+  hammingDistance,
+  type ItemCluster,
+  simhash,
+  SIMHASH_BITS,
+  SIMHASH_SHINGLE,
+} from "./stages/dedupe.js";
 
 // A4 — SEC EDGAR adapter (Form D / S-1 / 8-K; funding + deals pages)
 export {

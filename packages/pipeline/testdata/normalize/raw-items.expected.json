@@ -1,0 +1,35 @@
+{
+  "$comment": "Expected NormalizedItem field values for testdata/normalize/raw-items.json under publishers=[OpenAI Blog, The Verge, TechCrunch, PR Newswire, Reuters].",
+  "items": [
+    {
+      "canonical_url": "https://openai.com/news/gpt-6?a=1&b=2",
+      "publisher": "OpenAI Blog",
+      "published_at": "2026-10-28T09:00:00.000Z",
+      "title_key": "openai ships gpt 6"
+    },
+    {
+      "canonical_url": "https://theverge.com/2026/10/28/openai-gpt-6",
+      "publisher": "The Verge",
+      "published_at": "2026-10-28T09:30:00.000Z",
+      "title_key": "openai launches gpt 6 with 2m context"
+    },
+    {
+      "canonical_url": "https://www.prnewswire.com/releases/acme-40m.html",
+      "publisher": "PR Newswire",
+      "published_at": "2026-10-28T10:00:00.000Z",
+      "title_key": "acme ai raises 40m series b"
+    },
+    {
+      "canonical_url": "https://example.com/news",
+      "publisher": "Bloomberg News",
+      "published_at": "2026-10-28T08:00:00.000Z",
+      "title_key": "index page story"
+    },
+    {
+      "canonical_url": "https://example.com/",
+      "publisher": "Reuters",
+      "published_at": "not-a-date",
+      "title_key": "root amp page"
+    }
+  ]
+}
