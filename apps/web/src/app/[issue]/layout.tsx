@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
+import { feedLinkTypes } from "../../lib/feeds";
 import { getEdition } from "../../lib/pages";
 import { site } from "../../lib/site";
 
@@ -25,7 +26,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    alternates: { canonical: `/${ed.id}` },
+    alternates: { canonical: `/${ed.id}`, types: feedLinkTypes },
     openGraph: {
       title,
       description,

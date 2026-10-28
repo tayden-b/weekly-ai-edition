@@ -3,23 +3,23 @@ import type { ReactNode } from "react";
 
 import { colors } from "@weekly/ui";
 
+import { feedLinkTypes } from "../lib/feeds";
+import { siteUrl } from "../lib/site";
+
 /* Order matters: tokens → fonts → component styles → app globals. */
 import "@weekly/ui/tokens.css";
 import "@weekly/ui/fonts.css";
 import "@weekly/ui/components.css";
 import "./globals.css";
 
-const baseUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
-  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-  : process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : "http://localhost:3000";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(baseUrl),
+  metadataBase: new URL(siteUrl()),
   title: "The Weekly AI Edition",
   description:
     "The only AI news product you finish. One link a week, swiped like a magazine, with a machine-readable twin for agents.",
+  alternates: {
+    types: feedLinkTypes,
+  },
 };
 
 export const viewport: Viewport = {
