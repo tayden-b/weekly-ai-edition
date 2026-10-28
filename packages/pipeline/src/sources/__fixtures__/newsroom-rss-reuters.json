@@ -1,0 +1,12 @@
+{
+  "responses": [
+    {
+      "url": "https://www.reuters.com/technology/",
+      "status": 401,
+      "headers": {
+        "content-type": "text/html;charset=utf-8"
+      },
+      "body": "<html lang=\"en\"><head><title>reuters.com</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script data-cfasync=\"false\">var dd={'rt':'i','cid':'AHrlqAAAAAMAnA3Jig0GGXIAjOhAAg==','hsh':'2013457ADA70C67D6A4123E0A76873','b':1396754,'s':43909,'e':'218a2d38f102f8a79b52e516d1245e3659d29aa34b4d9a40846fd616e3d475e2b887935d737098ac216a42d1abfd9378','qp':'','host':'geo.captcha-delivery.com','cookie':'KcsF55W6a_5H8s3Ixw5JjYpoRGj004QXa32lbyHylJCezvLX~CAmeWBOflzx8mDrDKbxff6wAQw9Ysbcg5ev9TnnvHxrBOIYMcUKKCgKavcwBukr5Jltsjr842yrYQLl'}</script><script data-cfasync=\"false\" src=\"https://ct.captcha-delivery.com/i.js\"></script></body></html>"
+    }
+  ]
+}

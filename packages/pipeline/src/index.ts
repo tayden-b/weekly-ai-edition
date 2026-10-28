@@ -135,3 +135,12 @@ export {
   HN_API_BASE,
   type HnAdapterOptions,
 } from "./sources/hn.js";
+
+// A3 — newsroom RSS set (Launches / Deals / Discourse, PLAN §5.1)
+export {
+  createNewsroomAdapter,
+  NEWSROOM_ADAPTER_ID,
+  type NewsroomAdapterOptions,
+  type NewsroomFeed,
+  newsroomFeedsFromSources,
+} from "./sources/newsrooms.js";
