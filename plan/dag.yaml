@@ -1,4 +1,5 @@
 # plan/dag.yaml — the build DAG / state machine (PLAN.md §7.2).
+# Spec documents that cite this file: PRD.md, ARCHITECTURE.md, docs/adr/.
 # dispatch.mjs promotes a `status:blocked` issue to `devin:ready` when every
 # depends_on issue is closed. `status: deferred` items (T3) are never promoted
 # and are not required for completion. `issue` is written back when B0 creates
