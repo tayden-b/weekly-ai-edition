@@ -57,7 +57,7 @@ data/raw/<YYYY-MM-DD>/manifest.json     the run's provenance record: per-source
 
 ## What a passing PR looks like
 
-- `pnpm check` green on a clean clone; CI job `ci` green.
+- `pnpm check` green on a clean clone; CI job `ci` green — it also builds the app and runs the I5 gates: `pnpm test:e2e` (Playwright smoke + axe over the main routes) and `pnpm lhci` (Lighthouse budgets + §5 scores on the mobile deck).
 - Every acceptance criterion in your issue's brief is met — walk them one by one in the PR body.
 - UI changes: screenshots at **390×844 and 1440×900**, light and dark, on the Vercel preview link.
 - Pipeline changes: fixture-based tests; provenance rules untouched.

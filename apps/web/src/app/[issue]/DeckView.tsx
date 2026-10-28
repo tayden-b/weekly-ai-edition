@@ -307,6 +307,10 @@ export function DeckView({
 
   return (
     <div className="dv-root">
+      {/* The compact masthead is not a heading — the deck still needs one h1. */}
+      <h1 className="dv-sr-only">
+        {siteName} — № {meta.issue} ({meta.dateRange})
+      </h1>
       <div className="dv-progress">
         <ProgressSegments
           total={cards.length}

@@ -13,6 +13,8 @@
     "typecheck": "pnpm -r typecheck",
     "lint": "eslint .",
     "test": "vitest run",
+    "test:e2e": "pnpm --filter @weekly/web test:e2e",
+    "lhci": "node scripts/lhci.mjs",
     "ingest": "tsx scripts/ingest.mts",
     "classify:harness": "tsx scripts/classify-harness.mts",
     "schema:types": "tsx scripts/schema-codegen.mts",

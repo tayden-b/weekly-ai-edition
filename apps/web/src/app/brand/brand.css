@@ -50,7 +50,8 @@
 .v4-scheme-name {
   font-family: var(--font-mono);
   font-size: var(--t-xs);
-  color: var(--ink-3);
+  /* §5: --ink-3 is never used for text under 14px. */
+  color: var(--ink-2);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: var(--space-12);
@@ -127,7 +128,8 @@
 .v4-type-stack {
   font-family: var(--font-mono);
   font-size: var(--t-xs);
-  color: var(--ink-3);
+  /* §5: --ink-3 is never used for text under 14px. */
+  color: var(--ink-2);
   margin-top: var(--space-8);
 }
 
@@ -163,7 +165,8 @@
 }
 
 .v4-scale-token span {
-  color: var(--ink-3);
+  /* §5: --ink-3 is never used for text under 14px. */
+  color: var(--ink-2);
   margin-left: var(--space-8);
 }
 
@@ -250,13 +253,15 @@
 
 .v4-rules li::before {
   content: "— ";
-  color: var(--ink-3);
+  /* §5: --ink-3 is never used for text under 14px. */
+  color: var(--ink-2);
 }
 
 .v4-brand-foot {
   font-family: var(--font-mono);
   font-size: var(--t-xs);
-  color: var(--ink-3);
+  /* §5: --ink-3 is never used for text under 14px. */
+  color: var(--ink-2);
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }

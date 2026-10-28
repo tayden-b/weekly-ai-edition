@@ -20,3 +20,23 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
+      # I5 (DESIGN §5 / PLAN §7.2): the a11y + perf gates live inside the
+      # required `ci` check — a separate job would not gate merges until
+      # branch protection is updated by an admin, which a Builder session
+      # cannot do. Sequential steps keep failure attribution sharp.
+      - name: Build app for e2e + Lighthouse
+        run: pnpm build
+      - name: Install Playwright Chromium
+        run: pnpm --filter @weekly/web exec playwright install --with-deps chromium
+      - name: Playwright smoke + axe
+        run: pnpm test:e2e
+      - name: Lighthouse budgets (perf ≥95, a11y 100)
+        run: pnpm lhci
+      - name: Upload Lighthouse report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-report
+          path: apps/web/.lhci/
+          if-no-files-found: ignore
+          include-hidden-files: true
