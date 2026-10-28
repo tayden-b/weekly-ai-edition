@@ -1,0 +1,76 @@
+/* DESIGN.md paper/ink tokens, inlined until packages/ui lands the real set (C4). */
+:root {
+  --paper: #f4f3ef;
+  --paper-2: #ecebe6;
+  --ink: #111111;
+  --ink-2: #5c5c58;
+  --ink-3: #a3a29d;
+  --rule: #d9d8d2;
+  --accent: #d9281c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #121212;
+    --paper-2: #1b1b1b;
+    --ink: #f1f0ec;
+    --ink-2: #a8a7a2;
+    --ink-3: #6b6a66;
+    --rule: #2a2a2a;
+    --accent: #ff4a3d;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Inter", system-ui, -apple-system, "Helvetica Neue", sans-serif;
+}
+
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 96px 32px;
+}
+
+.kicker {
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 24px;
+}
+
+.wordmark {
+  font-family: "Inter Tight", "Inter", "Helvetica Neue", sans-serif;
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.tagline {
+  margin-top: 16px;
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+.rule {
+  border: 0;
+  border-top: 2px solid var(--ink);
+  margin: 48px 0 16px;
+}
+
+.meta {
+  font-size: 0.8125rem;
+  color: var(--ink-2);
+}

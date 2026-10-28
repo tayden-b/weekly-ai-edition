@@ -1,0 +1,29 @@
+{
+  "name": "weekly-ai-edition",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@11.24.0",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @weekly/web dev",
+    "build": "pnpm -r --if-present build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "schema:validate": "node scripts/schema-validate.mjs",
+    "provenance:check": "node scripts/provenance-check.mjs",
+    "dag:validate": "node scripts/validate-dag.mjs",
+    "check": "pnpm typecheck && pnpm lint && pnpm test && pnpm schema:validate && pnpm provenance:check && pnpm dag:validate"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vitest": "^5.0.5"
+  }
+}
