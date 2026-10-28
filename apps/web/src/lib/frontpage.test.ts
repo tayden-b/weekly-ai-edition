@@ -1,0 +1,132 @@
+import { describe, expect, it } from "vitest";
+
+import { rawEdition } from "./fixture";
+import {
+  assembleFrontPage,
+  getEdition,
+  NAV_SECTIONS,
+  shortDate,
+} from "./frontpage";
+
+const view = assembleFrontPage(rawEdition);
+
+describe("assembleFrontPage (DESIGN §2.2)", () => {
+  it("renders the six section bands in fixed template order", () => {
+    expect(view.sections.map((s) => s.id)).toEqual([
+      "models",
+      "performance",
+      "launches",
+      "funding",
+      "deals",
+      "discourse",
+    ]);
+    expect(view.sections.map((s) => s.title)).toEqual([
+      "Models & Releases",
+      "Performance",
+      "Launches",
+      "Funding",
+      "Deals",
+      "Discourse",
+    ]);
+  });
+
+  it("builds the cover with the one red № kicker", () => {
+    expect(view.cover.kicker).toBe("№ 1");
+    expect(view.cover.headline).toBe(rawEdition.pages[0].headline);
+    expect(view.meta).toEqual({ issue: 1, dateRange: "Oct 24–30" });
+  });
+
+  it("carries the briefing sentences verbatim", () => {
+    expect(view.briefing).toEqual(rawEdition.pages[1].sentences);
+    expect(view.briefing.length).toBeGreaterThanOrEqual(5);
+    expect(view.briefing.length).toBeLessThanOrEqual(7);
+  });
+
+  it("maps markets chart + tickers with a data-source caption", () => {
+    expect(view.markets?.series[0]?.points).toEqual([100, 101.5, 103]);
+    expect(view.markets?.series[0]?.xLabels).toEqual([
+      "Oct 23",
+      "Oct 26",
+      "Oct 27",
+    ]);
+    expect(view.markets?.tickers[0]).toEqual({
+      ticker: "NVDA",
+      close: 217.94,
+      delta: 3.31,
+    });
+    expect(view.markets?.caption).toBe("Data: Exa Markets · CBC Globe");
+  });
+
+  it("puts the amount in the mono slot; deals without one say undisclosed", () => {
+    const funding = view.sections.find((s) => s.id === "funding");
+    const deals = view.sections.find((s) => s.id === "deals");
+    expect(funding?.items[1]?.number).toBe("$1.5B");
+    expect(deals?.items[0]?.number).toBe("$1.7B");
+    expect(deals?.items[1]?.headline).toBe("RapidCanvas → Entytle");
+    expect(deals?.items[1]?.number).toBe("undisclosed");
+  });
+
+  it("keeps performance numbers in mono", () => {
+    const perf = view.sections.find((s) => s.id === "performance");
+    expect(perf?.items[0]?.number).toBe("50.3%");
+  });
+
+  it("assembles the back page: source counts, agent links, copyright line", () => {
+    expect(view.backPage.sources).toContainEqual(["Exa Markets", 8]);
+    expect(view.backPage.links?.map((l) => l.href)).toEqual([
+      "/2026-w44.md",
+      "/2026-w44.json",
+      "/llms.txt",
+      "/feed.xml",
+    ]);
+    expect(view.backPage.links?.map((l) => l.label)).toEqual([
+      "2026-w44.md",
+      "2026-w44.json",
+      "llms.txt",
+      "feed.xml",
+    ]);
+    expect(view.backPage.copyright).toBe(
+      "© 2026 The Weekly AI Edition. Code MIT · Content CC BY-NC with sources attributed.",
+    );
+  });
+
+  it("ranks most-covered entries by position", () => {
+    expect(view.mostCovered).toHaveLength(5);
+    expect(view.mostCovered[0]).toEqual({
+      rank: 1,
+      name: "OpenAI",
+      stories: 3,
+      trend: "up",
+    });
+  });
+
+  it("lists the nine nav/jump sections in page order", () => {
+    expect(NAV_SECTIONS.map((s) => s.id)).toEqual([
+      "models",
+      "performance",
+      "launches",
+      "funding",
+      "deals",
+      "discourse",
+      "markets",
+      "most-covered",
+      "back-page",
+    ]);
+    expect(view.navSections).toBe(NAV_SECTIONS);
+  });
+});
+
+describe("getEdition", () => {
+  it("returns the fixture for its id, null otherwise", () => {
+    expect(getEdition("2026-w44")).toBe(rawEdition);
+    expect(getEdition("2026-w45")).toBeNull();
+    expect(getEdition("bogus")).toBeNull();
+  });
+});
+
+describe("shortDate", () => {
+  it("formats ISO dates for chart axes", () => {
+    expect(shortDate("2026-10-23")).toBe("Oct 23");
+    expect(shortDate("2026-01-05")).toBe("Jan 5");
+  });
+});

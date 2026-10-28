@@ -1,4 +1,5 @@
 import type {
+  AgentLink,
   ChartSeriesView,
   CoveredRowView,
   IssueMetaView,
@@ -41,6 +42,8 @@ export interface FrontPageBackPage {
   /** "How this issue was made" — ~3 lines. */
   madeLines: string[];
   issueId: string;
+  /** Agent links from the edition's `agent_links`; defaults derive from issueId. */
+  links?: AgentLink[];
   copyright: string;
 }
 
@@ -79,7 +82,7 @@ export function FrontPage({
         {...(tagline ? { tagline } : {})}
       />
 
-      <div className="w-fp__cover">
+      <div className="w-fp__cover" id="cover">
         <CoverImage
           aspect="4:5"
           issueNo={meta.issue}
@@ -92,7 +95,7 @@ export function FrontPage({
         </div>
       </div>
 
-      <div className="w-fp__briefing">
+      <div className="w-fp__briefing" id="briefing">
         <hr className="w-rule w-rule--hairline" />
         <p className="w-fp__lead">{briefing[0]}</p>
         {briefing.slice(1).map((s, i) => (
@@ -170,7 +173,7 @@ export function FrontPage({
         </section>
       ) : null}
 
-      <footer className="w-fp__backpage">
+      <footer className="w-fp__backpage" id="back-page">
         <hr className="w-rule w-rule--section" />
         <div className="w-fp__sources-col">
           <p className="w-fp__backpage-head">Sources</p>
@@ -191,7 +194,10 @@ export function FrontPage({
             </p>
           ))}
         </div>
-        <AgentAccess issueId={backPage.issueId} />
+        <AgentAccess
+          issueId={backPage.issueId}
+          {...(backPage.links ? { links: backPage.links } : {})}
+        />
         <p className="w-fp__copyright">{backPage.copyright}</p>
       </footer>
     </div>

@@ -54,6 +54,9 @@ export interface FixtureEdition {
 
 const raw = rawJson as unknown as Edition;
 
+/** The C2 fixture as the canonical Edition (V2's route consumes this). */
+export const rawEdition: Edition = raw;
+
 const MONTHS = [
   "Jan",
   "Feb",
@@ -69,7 +72,7 @@ const MONTHS = [
   "Dec",
 ] as const;
 
-function dateRangeLabel(start: string, end: string): string {
+export function dateRangeLabel(start: string, end: string): string {
   const [, sm, sd] = start.split("-").map(Number);
   const [, em, ed] = end.split("-").map(Number);
   const smon = MONTHS[sm! - 1] ?? "";

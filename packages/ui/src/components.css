@@ -627,6 +627,128 @@
   color: var(--ink-3);
 }
 
+/* Jump targets sit clear of the sticky bar when scrolled to (V2 §2.2). */
+.w-fp__cover,
+.w-fp__briefing,
+.w-fp__section,
+.w-fp__markets,
+.w-fp__most-covered,
+.w-fp__backpage {
+  scroll-margin-top: var(--space-48);
+}
+
+/* ---------- Sticky bar + keyboard sheet (V2 §2.2/§5) ---------- */
+
+/* The one client island on the front page: a thin bar that slides in once
+ * the masthead band scrolls out of view — wordmark · issue · section links. */
+.w-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-24);
+  padding: var(--space-8) var(--page-pad);
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+  transform: translateY(-100%);
+  transition: transform var(--dur-page) var(--ease-page);
+}
+.w-topbar[data-show] {
+  transform: translateY(0);
+}
+.w-topbar__wordmark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.w-topbar__wordmark:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.w-topbar__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4) var(--space-16);
+  margin-left: auto;
+}
+.w-topbar__nav a {
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.w-topbar__nav a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* `?` shortcuts sheet — full paper cover, centred panel, no translucency. */
+.w-keysheet {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  background: var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--page-pad);
+}
+.w-keysheet__panel {
+  width: min(480px, 100%);
+}
+.w-keysheet__title {
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  margin-bottom: var(--space-8);
+}
+.w-keysheet__list {
+  margin: var(--space-24) 0 0;
+}
+.w-keysheet__row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-24);
+  padding: var(--space-8) 0;
+  border-bottom: 1px solid var(--rule);
+}
+.w-keysheet__row dd {
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+}
+.w-keysheet__key {
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+  border-bottom: 1px solid var(--ink);
+  padding: 0 var(--space-4);
+}
+.w-keysheet__close {
+  margin-top: var(--space-24);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .w-topbar__nav {
+    display: none;
+  }
+}
+
 /* Narrow viewport: front-page blocks stack single-column (the deck owns mobile). */
 @media (max-width: 767px) {
   .w-frontpage {
