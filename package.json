@@ -13,7 +13,8 @@
     "typecheck": "pnpm -r typecheck",
     "lint": "eslint .",
     "test": "vitest run",
-    "schema:validate": "node scripts/schema-validate.mjs",
+    "schema:types": "tsx scripts/schema-codegen.mts",
+    "schema:validate": "tsx scripts/schema-validate.mts",
     "provenance:check": "node scripts/provenance-check.mjs",
     "dag:validate": "node scripts/validate-dag.mjs",
     "check": "pnpm typecheck && pnpm lint && pnpm test && pnpm schema:validate && pnpm provenance:check && pnpm dag:validate"
@@ -22,8 +23,12 @@
     "@eslint/js": "^10.0.1",
     "eslint": "^10.13.0",
     "globals": "^17.13.0",
+    "tsx": "^4.23.15",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.72.1",
     "vitest": "^5.0.5"
+  },
+  "dependencies": {
+    "@weekly/schema": "workspace:*"
   }
 }
