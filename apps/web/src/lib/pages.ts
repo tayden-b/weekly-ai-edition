@@ -1,14 +1,22 @@
 /**
  * V3 page helpers — names, titles and OG copy for the per-page routes
- * (`/{issue}/{n}`). Pure functions over the fixture edition; the routes and
+ * (`/{issue}/{n}`). Pure functions over the editions on disk; the routes and
  * metadata image generators share them.
  */
+import { editionView, getEdition as getCanonicalEdition, listEditions } from "./editions";
 import type { FixtureEdition, FixturePage } from "./fixture";
-import { edition } from "./fixture";
 
-/** Only the fixture edition exists until the pipeline lands (I1). */
+/** One edition by week id, mapped to view props, or undefined. */
 export function getEdition(issueId: string): FixtureEdition | undefined {
-  return issueId.toLowerCase() === edition.id ? edition : undefined;
+  const canonical = getCanonicalEdition(issueId.toLowerCase());
+  return canonical ? editionView(canonical) : undefined;
+}
+
+/** Static params for `/{issue}/{n}`: every page of every edition on disk. */
+export function allPageParams(): { issue: string; page: string }[] {
+  return listEditions().flatMap((ed) =>
+    ed.pages.map((_, i) => ({ issue: ed.id, page: String(i + 1) })),
+  );
 }
 
 /**

@@ -13,9 +13,9 @@ import {
 } from "@weekly/ui";
 import type { ItemView } from "@weekly/ui";
 
-import { edition } from "../../../lib/fixture";
 import type { FixtureEdition, FixturePage } from "../../../lib/fixture";
 import {
+  allPageParams,
   getEdition,
   ogFields,
   pageHref,
@@ -28,10 +28,7 @@ import { site } from "../../../lib/site";
 import "./page.css";
 
 export function generateStaticParams() {
-  return edition.pages.map((_, i) => ({
-    issue: edition.id,
-    page: String(i + 1),
-  }));
+  return allPageParams();
 }
 
 export async function generateMetadata({
