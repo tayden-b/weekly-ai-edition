@@ -185,3 +185,12 @@ export {
   type RedditAdapterOptions,
   subredditFromEndpoint,
 } from "./sources/reddit-json.js";
+
+// A10 — distribute.software adapter (secondary; models + launches pages)
+export {
+  createDistributeAdapter,
+  DISTRIBUTE_ADAPTER_ID,
+  DISTRIBUTE_DEFAULT_LIMIT,
+  DISTRIBUTE_PUBLISHER,
+  type DistributeAdapterOptions,
+} from "./sources/distribute.js";

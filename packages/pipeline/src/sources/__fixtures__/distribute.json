@@ -1,0 +1,154 @@
+{
+  "responses": [
+    {
+      "url_contains": "/api/v1/releases",
+      "status": 200,
+      "body": {
+        "releases": [
+          {
+            "id": "release-1074",
+            "type": "release",
+            "title": "Gemini 4 Carbon: Our next frontier model",
+            "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+            "date": "2026-10-28",
+            "publishedAt": "2026-10-28T17:00:58.000Z",
+            "source": "lab",
+            "outlet": "Google DeepMind",
+            "companies": [
+              "google"
+            ],
+            "lab": "google",
+            "siteUrl": "https://distribute.software/companies/google"
+          },
+          {
+            "id": "release-1019",
+            "type": "release",
+            "title": "Genie 4: A new generation of world simulation",
+            "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+            "date": "2026-10-27",
+            "publishedAt": "2026-10-27T16:01:38.000Z",
+            "source": "lab",
+            "outlet": "Google DeepMind",
+            "companies": [
+              "google"
+            ],
+            "lab": "google",
+            "siteUrl": "https://distribute.software/companies/google"
+          },
+          {
+            "id": "release-1014",
+            "type": "release",
+            "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+            "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+            "date": "2026-10-26",
+            "publishedAt": "2026-10-26T13:45:00.000Z",
+            "source": "lab",
+            "outlet": "OpenAI",
+            "companies": [
+              "openai"
+            ],
+            "lab": "openai",
+            "siteUrl": "https://distribute.software/companies/openai"
+          },
+          {
+            "id": "release-1072",
+            "type": "release",
+            "title": "Kimi K3.1 Pro",
+            "url": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+            "date": "2026-10-24",
+            "publishedAt": "2026-10-24T00:00:00.000Z",
+            "source": "lab",
+            "outlet": "Kimi (Moonshot AI)",
+            "companies": [
+              "moonshot"
+            ],
+            "lab": "moonshot",
+            "siteUrl": "https://distribute.software/companies/moonshot"
+          },
+          {
+            "id": "release-834",
+            "type": "release",
+            "title": "Introducing Web Search API via AI Gateway",
+            "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+            "date": "2026-10-02",
+            "publishedAt": "2026-10-02T13:28:10.000Z",
+            "source": "lab",
+            "outlet": "Cloudflare",
+            "companies": [
+              "cloudflare"
+            ],
+            "lab": "cloudflare",
+            "siteUrl": "https://distribute.software/companies/cloudflare"
+          }
+        ]
+      }
+    },
+    {
+      "url_contains": "/api/v1/stories",
+      "status": 200,
+      "body": {
+        "stories": [
+          {
+            "id": "story-25507",
+            "type": "story",
+            "title": "Apple Unveils Its First Touch-Screen MacBook Pro",
+            "url": "https://www.nytimes.com/2026/10/28/technology/apple-touch-screen-macbook-pro.html",
+            "date": "2026-10-28",
+            "publishedAt": "2026-10-28T17:19:33.000Z",
+            "source": "media",
+            "outlet": "The New York Times",
+            "companies": [
+              "apple"
+            ],
+            "siteUrl": "https://distribute.software/stories/25507"
+          },
+          {
+            "id": "story-25509",
+            "type": "story",
+            "title": "MacBook Pro with PROLED XDR Display and Touch",
+            "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+            "date": "2026-10-28",
+            "publishedAt": "2026-10-28T17:10:37.000Z",
+            "source": "hn",
+            "outlet": "Hacker News",
+            "score": 159,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50276940",
+            "companies": [
+              "apple"
+            ],
+            "siteUrl": "https://distribute.software/stories/25509"
+          },
+          {
+            "id": "story-25506",
+            "type": "story",
+            "title": "Gemini 4 Carbon",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+            "date": "2026-10-28",
+            "publishedAt": "2026-10-28T17:01:23.000Z",
+            "source": "hn",
+            "outlet": "Hacker News",
+            "score": 265,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50276792",
+            "companies": [
+              "google"
+            ],
+            "lab": "google",
+            "siteUrl": "https://distribute.software/stories/25506"
+          },
+          {
+            "id": "story-25504",
+            "type": "story",
+            "title": "AI agents need middle managers too",
+            "url": "https://www.ft.com/content/b25a880c-cd64-49d1-ba5f-7d077eb1adac",
+            "date": "2026-10-28",
+            "publishedAt": "2026-10-28T15:00:59.000Z",
+            "source": "media",
+            "outlet": "Financial Times",
+            "companies": [],
+            "siteUrl": "https://distribute.software/stories/25504"
+          }
+        ]
+      }
+    }
+  ]
+}
