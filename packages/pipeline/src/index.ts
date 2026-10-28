@@ -195,6 +195,17 @@ export {
   type DistributeAdapterOptions,
 } from "./sources/distribute.js";
 
+// A8 — market data adapter (weekly close of the markets.json basket)
+export {
+  createMarketsAdapter,
+  MARKETS_ADAPTER_ID,
+  MARKETS_PUBLISHER,
+  type MarketCsvSlice,
+  type MarketsAdapterOptions,
+  parseWeeklyBars,
+  STOOQ_WEEKLY_PROVIDER,
+} from "./sources/markets.js";
+
 // A7 — benchmark publishers (Performance, PLAN §5.1)
 export {
   BENCHMARK_SOURCES,
