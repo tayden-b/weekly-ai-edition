@@ -205,3 +205,26 @@ export {
   parseWeeklyBars,
   STOOQ_WEEKLY_PROVIDER,
 } from "./sources/markets.js";
+
+// A7 — benchmark publishers (Performance, PLAN §5.1)
+export {
+  BENCHMARK_SOURCES,
+  BENCHMARKS_ADAPTER_ID,
+  type BenchmarkSourceSpec,
+  type BenchmarksAdapterOptions,
+  createBenchmarksAdapter,
+  linkModeItem,
+  mapSwebenchPage,
+} from "./sources/benchmarks.js";
+
+// A7 — arXiv lab-org papers (Performance, PLAN §5.1)
+export {
+  ARXIV_ADAPTER_ID,
+  ARXIV_API_BASE,
+  ARXIV_CATEGORIES,
+  ARXIV_SEARCH_ORGS,
+  type ArxivAdapterOptions,
+  arxivIdOf,
+  createArxivAdapter,
+} from "./sources/arxiv.js";
+>>>>>>> 4cd60e6e79d748a0d361dbe22636a3becb46e7b4

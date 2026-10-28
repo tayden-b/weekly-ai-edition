@@ -1,0 +1,121 @@
+{
+  "responses": [
+    {
+      "url_contains": "datasets-server.huggingface.co/rows",
+      "status": 200,
+      "headers": { "content-type": "application/json" },
+      "body": {
+        "features": [
+          { "name": "model_name" },
+          { "name": "organization" },
+          { "name": "license" },
+          { "name": "rating" },
+          { "name": "rating_lower" },
+          { "name": "rating_upper" },
+          { "name": "variance" },
+          { "name": "vote_count" },
+          { "name": "rank" },
+          { "name": "category" },
+          { "name": "leaderboard_publish_date" }
+        ],
+        "rows": [
+          {
+            "row_idx": 0,
+            "row": {
+              "model_name": "GPT-6 (High)",
+              "organization": "openai",
+              "license": "Proprietary",
+              "rating": 1540.124,
+              "rating_lower": 1533.05,
+              "rating_upper": 1547.2,
+              "variance": 7.11,
+              "vote_count": 18234,
+              "rank": 1,
+              "category": "overall",
+              "leaderboard_publish_date": "2026-01-14"
+            }
+          },
+          {
+            "row_idx": 1,
+            "row": {
+              "model_name": "Claude Opus 5.5 (High)",
+              "organization": "anthropic",
+              "license": "Proprietary",
+              "rating": 1521.87,
+              "rating_lower": 1514.9,
+              "rating_upper": 1528.84,
+              "variance": 6.95,
+              "vote_count": 20112,
+              "rank": 2,
+              "category": "overall",
+              "leaderboard_publish_date": "2026-01-14"
+            }
+          },
+          {
+            "row_idx": 2,
+            "row": {
+              "model_name": "Gemini 3.5 Pro",
+              "organization": "google",
+              "license": "Proprietary",
+              "rating": 1501.33,
+              "rating_lower": 1495.0,
+              "rating_upper": 1507.66,
+              "variance": 6.33,
+              "vote_count": 15477,
+              "rank": 3,
+              "category": "overall",
+              "leaderboard_publish_date": "2026-01-08"
+            }
+          },
+          {
+            "row_idx": 3,
+            "row": {
+              "model_name": "",
+              "organization": "test",
+              "rank": 99,
+              "category": "overall",
+              "leaderboard_publish_date": "2026-01-14"
+            }
+          }
+        ],
+        "num_rows_total": 214
+      }
+    },
+    {
+      "url_contains": "www.swebench.com",
+      "status": 200,
+      "headers": { "content-type": "text/html" },
+      "body": "<!DOCTYPE html><html><head><title>SWE-bench</title></head><body><script id=\"leaderboard-data\" type=\"application/json\">[{\"name\":\"Multilingual\",\"results\":[{\"name\":\"Gemini 3 Flash\",\"resolved\":11.7,\"date\":\"2026-01-14\",\"folder\":\"20260114_mini-v2.0.0_gemini-3-flash\",\"agent\":\"mini-SWE-agent\",\"model_org\":\"Google DeepMind\",\"checked\":true,\"warning\":null}]},{\"name\":\"Verified\",\"results\":[{\"name\":\"GPT-6x Codex\",\"resolved\":68.4,\"date\":\"2026-01-14\",\"folder\":\"20260114_sweagent_gpt6x\",\"agent\":\"SWE-agent\",\"agent_org\":\"SWE-bench\",\"model_display\":\"GPT-6x Codex\",\"model_org\":\"OpenAI\",\"model_release_date\":20260105,\"checked\":true,\"warning\":null},{\"name\":\"Claude 5.5 (High)\",\"resolved\":71.8,\"date\":\"2026-01-13\",\"folder\":\"20260113_mini-v2.4.2_claude-5-5-high\",\"agent\":\"mini-SWE-agent\",\"model_org\":\"Anthropic\",\"model_release_date\":20251211,\"checked\":true,\"warning\":null},{\"name\":\"GPT-5\",\"resolved\":65.0,\"date\":\"2025-10-10\",\"folder\":\"20251010_oldsub_gpt5\",\"agent\":\"SWE-agent\",\"model_org\":\"OpenAI\",\"model_release_date\":20250807,\"checked\":true,\"warning\":null},{\"name\":\"Dateless Entry\",\"resolved\":10.0,\"date\":null,\"folder\":\"nodate_x\",\"agent\":\"test\",\"model_org\":\"test\",\"checked\":false,\"warning\":\"unverified\"}]},{\"name\":\"Lite\",\"results\":[{\"name\":\"Gemini 3.5 Flash\",\"resolved\":59.2,\"date\":\"2026-01-15\",\"folder\":\"20260115_mini-v2.5.0_gemini-3-5-flash\",\"agent\":\"mini-SWE-agent\",\"model_org\":\"Google DeepMind\",\"model_release_date\":20260110,\"checked\":true,\"warning\":null}]}]</script></body></html>"
+    },
+    {
+      "url_contains": "epoch.ai/data/benchmark_data.zip",
+      "status": 200,
+      "headers": { "content-type": "application/json" },
+      "body": {
+        "files": {
+          "README.md": "## Licensing\nEpoch AI's data is free to use, distribute, and reproduce provided the source and authors are credited under the Creative Commons Attribution license (CC-BY-4.0).\n",
+          "gpqa_diamond.csv": "Model version,mean_score,Best score (across scorers),Release date,Organization,Country,Training compute (FLOP),Training compute notes,stderr,Log viewer,Logs,Started at,id\ngpt-6.1-terra_max,0.9431818181818182,0.9431818181818182,2026-01-14,OpenAI,United States of America,,,0.0149,,,2026-01-14T20:00:37.000Z,5Jm2Rvv9sNx7M8nodinFAp\ndeepseek-v4.1-flash_max,0.9318181818181818,0.9318181818181818,2025-10-17,DeepSeek,China,,,0.0157,,,2025-10-19T22:38:32.000Z,ZK85PJtsCSeQJgV8dA4R4G\nno-dates-row,0.5,0.5,,,,,,,,,,nodates1\n",
+          "swe_bench_verified.csv": "Model version,mean_score,Best score (across scorers),Release date,Organization,Country,Training compute (FLOP),Training compute notes,stderr,Log viewer,Logs,Started at,id\ngemini-3.5-flash_high,0.7933884297520661,0.7933884297520661,2026-01-10,Google DeepMind,United States of America,,,0.0184,,,2026-01-14T10:22:55.000Z,dwRzFGTghYEy4HNZajJXoc\nrelease-date-only,0.61,0.61,2026-01-13,Meta AI,United States of America,,,,,,reldate1\n"
+        }
+      }
+    },
+    {
+      "url_contains": "artificialanalysis.ai/models",
+      "status": 200,
+      "headers": { "content-type": "text/html", "last-modified": "Tue, 13 Jan 2026 10:00:00 GMT" },
+      "body": "<!DOCTYPE html><html><head><title>Comparison of AI Models across Intelligence, Performance, and Price | Artificial Analysis</title><meta name=\"description\" content=\"Comparison and analysis of AI models across key performance metrics including quality, price, output speed, latency, context window & others.\"></head><body><h1>Artificial Analysis</h1></body></html>"
+    },
+    {
+      "url_contains": "huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "status": 200,
+      "headers": { "content-type": "text/html" },
+      "body": "<!DOCTYPE html><html><head><title>Open LLM Leaderboard - a Hugging Face Space by open-llm-leaderboard</title><meta name=\"description\" content=\"This app lets you explore an interactive leaderboard of open-source large language models and see how they perform on a range of tests.\"></head><body></body></html>"
+    },
+    {
+      "url_contains": "arcprize.org/leaderboard",
+      "status": 200,
+      "headers": { "content-type": "text/html" },
+      "body": "<!DOCTYPE html><html><head><title>ARC Prize - Leaderboard</title><meta name=\"description\" content=\"The ARC-AGI Leaderboard.\"></head><body></body></html>"
+    }
+  ]
+}

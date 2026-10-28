@@ -211,35 +211,48 @@ sources:
   # =========================================================================
   # Performance (adapter A7: benchmarks.ts + arxiv.ts)
   # mode: data = publisher's own numbers stored; link = headline+link only.
+  # Per-publisher ToS findings verified 2026-10 (see A7 PR table):
+  #   LMArena        → DATA via publisher's own CC-BY-4.0 HF dataset (site gated)
+  #   Artificial Analysis → LINK (free API needs account key; no secrets exist)
+  #   HF Open LLM Leaderboard → LINK (hub API 401s; v2 leaderboard frozen 2025-03)
+  #   SWE-bench      → DATA via the leaderboard page's embedded dataset JSON
+  #   ARC Prize      → LINK (public JSON exists but ToS bars data mining/scrapers)
+  #   Epoch AI       → DATA via benchmark_data.zip CSV bundle (CC-BY-4.0)
+  #   arXiv          → DATA via the sanctioned export API
   # =========================================================================
   - id: lmarena-leaderboard
     pages: [performance]
     tier: primary
     adapter: benchmarks
-    endpoint: https://lmarena.ai/leaderboard
+    endpoint: https://datasets-server.huggingface.co/rows
     kind: json-api
-    mode: link
-    license: "Cloudflare-gated to datacenter UAs (verified 2026-10); link-only unless A7 finds a stable data endpoint."
-    rate_limit: "≤1 req/s courtesy"
+    mode: data
+    license: "lmarena.ai 403s datacenter UAs (Cloudflare, verified 2026-10); LMArena instead publishes the leaderboard itself as CC-BY-4.0 HF dataset 'lmarena-ai/leaderboard-dataset' — read via public datasets-server rows API. Store model, org, rating, rank, vote_count, leaderboard_publish_date; attribute LMArena."
+    rate_limit: "HF datasets-server; ≤1 req/s courtesy"
     enabled: true
+    meta:
+      hf_dataset: lmarena-ai/leaderboard-dataset
+      config: text
+      split: latest
+      canonical_url: https://lmarena.ai/leaderboard
   - id: artificial-analysis
     pages: [performance]
     tier: primary
     adapter: benchmarks
-    endpoint: https://artificialanalysis.ai/
-    kind: json-api
-    mode: data
-    license: "Publishes public model intelligence data; store reported values + URL. A7 confirms endpoint."
+    endpoint: https://artificialanalysis.ai/models
+    kind: html-index
+    mode: link
+    license: "Free data API exists (api.artificialanalysis.ai) but requires an x-api-key from account signup — no secrets exist in this build, so headline+link only (A7 verified 2026-10). Flip to data if a key is ever provided."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
   - id: hf-open-llm-leaderboard
     pages: [performance]
     tier: primary
     adapter: benchmarks
-    endpoint: https://huggingface.co/api/leaderboards
-    kind: json-api
+    endpoint: https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard
+    kind: html-index
     mode: link
-    license: "HF leaderboard API; v1 retired — A7 verifies current endpoint, link-mode until confirmed."
+    license: "huggingface.co/api/leaderboards 401s (auth required) and the v2 leaderboard is frozen — open-llm-leaderboard/contents parquet last modified 2025-03 (verified 2026-10). Link-mode until a live HF leaderboard API exists."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
   - id: swe-bench
@@ -248,10 +261,12 @@ sources:
     adapter: benchmarks
     endpoint: https://www.swebench.com/
     kind: html-index
-    mode: link
-    license: "Leaderboard site; results also in swebench/experiments repo. Link-mode until A7 confirms data path."
+    mode: data
+    license: "Leaderboard page embeds the full dataset as <script id=\"leaderboard-data\"> JSON — the publisher's displayed numbers (resolved %, submission date, model/org, submission folder); robots.txt declares no content-signal restrictions (verified 2026-10). One static GET, no API limit. Site data lags the experiments repo by ~weeks — the adapter records what the leaderboard displays. Store reported fields + URL."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      splits: [verified, lite]
   - id: arc-prize-leaderboard
     pages: [performance]
     tier: primary
@@ -259,17 +274,17 @@ sources:
     endpoint: https://arcprize.org/leaderboard
     kind: html-index
     mode: link
-    license: "Leaderboard page; no documented data API. Link-mode."
+    license: "A public JSON data layer exists (/media/data/{evaluations,models}.json) but the site ToS bars 'any data mining, robots, or similar data gathering and extraction tools' — doubtful per §9, so headline+link only (A7 verified 2026-10)."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
   - id: epoch-ai-data
     pages: [performance]
     tier: primary
     adapter: benchmarks
-    endpoint: https://epoch.ai/data
-    kind: html-index
-    mode: link
-    license: "Publishes datasets/CSV downloads; per-dataset terms vary — link-mode until A7 confirms."
+    endpoint: https://epoch.ai/data/benchmark_data.zip
+    kind: csv
+    mode: data
+    license: "Benchmark bundle zip of per-benchmark CSVs; bundle README grants CC-BY-4.0 — 'free to use, distribute, and reproduce provided the source and authors are credited'. Store model, mean_score, org, dates + eval id; attribute Epoch AI."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
   - id: arxiv-lab-papers
@@ -279,11 +294,12 @@ sources:
     endpoint: https://export.arxiv.org/api/query
     kind: atom
     mode: data
-    license: "arXiv API ToU: free for non-commercial, identify via UA, bulk via Kaggle. Abstract excerpt ≤300 chars."
+    license: "arXiv export API is the sanctioned machine path (robots.txt Disallow:/ covers HTML crawl, not this API). ToU: free non-commercial, identify via UA, bulk via Kaggle. all:'<org>'+category query is a recall filter — papers by OR about each lab; attribution is P4's job. Abstract excerpt ≤300 chars."
     rate_limit: "≤1 req / 3s (arXiv ToU)"
     enabled: true
     meta:
       search_orgs: [OpenAI, Anthropic, "Google DeepMind", "Meta AI", "Microsoft Research", "DeepSeek", "Mistral AI", "Qwen"]
+      categories: [cs.AI, cs.CL, cs.CV, cs.LG, stat.ML]
 
   # =========================================================================
   # Launches — HN Algolia (A2), Product Hunt (A6), newsrooms (A3)
