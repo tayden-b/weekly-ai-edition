@@ -59,7 +59,7 @@ export interface RedditAdapterOptions {
   publisher?: string;
   /** Query params merged into the request URL (entry `meta.params`, e.g. `{t: "week"}`). */
   params?: Record<string, string>;
-  /** `limit` listing param (default 25); a `limit` in `params` wins. */
+  /** `limit` listing param (default 25); entry `meta.limit`, a `limit` in `params` wins. */
   limit?: number;
 }
 
@@ -82,6 +82,7 @@ export function redditAdapterFromEntry(entry: SourceEntry): SourceAdapter | null
     endpoint: entry.endpoint,
     ...(typeof meta.publisher === "string" ? { publisher: meta.publisher } : {}),
     ...(typeof meta.subreddit === "string" ? { subreddit: meta.subreddit } : {}),
+    ...(typeof meta.limit === "number" ? { limit: meta.limit } : {}),
     params,
   });
 }

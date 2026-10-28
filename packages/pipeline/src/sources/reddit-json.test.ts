@@ -153,6 +153,28 @@ describe("reddit-json config wiring", () => {
     expect(requested).toContain("limit=25");
   });
 
+  it("meta.limit overrides the default listing size; params.limit wins over both", async () => {
+    const fixtureDoc = loadAdapterFixture(fixture("localllama"));
+    const urls: string[] = [];
+    const spy: Fetcher = async (url, init) => {
+      urls.push(typeof url === "string" ? url : url instanceof URL ? url.toString() : url.url);
+      return replayFetcher(fixtureDoc)(url, init);
+    };
+    const ctx = { fetch: spy, now: () => FIXTURE_NOW };
+
+    const entry = sources.find((e) => e.id === "reddit-localllama")!;
+    const limited = redditAdapterFromEntry({ ...entry, meta: { ...entry.meta, limit: 5 } })!;
+    await limited.fetch(WINDOW, ctx);
+    expect(urls[0]).toContain("limit=5");
+
+    const paramsWin = redditAdapterFromEntry({
+      ...entry,
+      meta: { ...entry.meta, limit: 5, params: { t: "week", limit: 3 } },
+    })!;
+    await paramsWin.fetch(WINDOW, ctx);
+    expect(urls[1]).toContain("limit=3");
+  });
+
   it("sends the declared project UA", async () => {
     const fixtureDoc = loadAdapterFixture(fixture("localllama"));
     let ua = "";
