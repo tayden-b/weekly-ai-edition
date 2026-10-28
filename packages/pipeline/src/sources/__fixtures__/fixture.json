@@ -1,0 +1,31 @@
+{
+  "responses": [
+    {
+      "url": "https://fixtures.weekly-ai-edition.invalid/v1/items",
+      "status": 200,
+      "headers": { "content-type": "application/json" },
+      "body": {
+        "items": [
+          {
+            "id": "fx-001",
+            "headline": "Fixture Labs releases Bench-2, a reference model for adapter tests",
+            "url": "https://example.com/fixture-labs/bench-2",
+            "publisher": "Fixture Labs Blog",
+            "published_at": "2026-01-10T14:00:00Z",
+            "excerpt": "Fixture Labs announced Bench-2 on its blog, describing it as a reference item used to prove the adapter contract end to end without any network access.",
+            "hn_points": 128,
+            "hn_comments": 42
+          },
+          {
+            "id": "fx-002",
+            "headline": "Fixture digest: the week in placeholder AI news",
+            "url": "https://example.com/fixture-digest/w02",
+            "publisher": "Fixture Digest",
+            "published_at": "2026-01-11T09:30:00Z",
+            "excerpt": "This item's recorded excerpt is intentionally far longer than the three-hundred-character cap that the RawItem contract enforces, so that the fixture exercises the toExcerpt truncation path — the stored excerpt must be cut at a word boundary and still validate as a faithful publisher substring.\n\nAnything after this sentence would exceed the cap and must not appear verbatim."
+          }
+        ]
+      }
+    }
+  ]
+}
