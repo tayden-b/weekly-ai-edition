@@ -7,6 +7,9 @@
  * Validity is enforced by `pnpm schema:validate` (the check gate); the viewer
  * trusts the contract like every other consumer.
  */
+import { existsSync, readFileSync } from "node:fs";
+import path from "node:path";
+
 import type { Edition } from "@weekly/schema";
 
 import { mapEdition, type FixtureEdition } from "./fixture";
@@ -15,6 +18,14 @@ const EDITION_FILES = import.meta.glob("../../../../editions/*.json", {
   eager: true,
   import: "default",
 }) as Record<string, unknown>;
+
+/**
+ * `process.cwd()` is `apps/web` under next dev/build and `pnpm --filter`, but
+ * the repo root under root `pnpm test` — the editions dir is whichever exists.
+ */
+const EDITIONS_DIR = ["../../editions", "editions"]
+  .map((dir) => path.resolve(process.cwd(), dir))
+  .find((dir) => existsSync(dir));
 
 const WEEK_ID_RE = /^(\d{4})-w(\d{2})$/;
 
@@ -44,6 +55,21 @@ export function latestEdition(): Edition | undefined {
 export function getEdition(id: string): Edition | undefined {
   if (!isEditionId(id)) return undefined;
   return listEditions().find((edition) => edition.id === id);
+}
+
+/**
+ * The edition file's exact bytes for `/{issue}.json` — serving them verbatim
+ * makes the twin provably identical to `editions/<week>.json` (T1). Read at
+ * call time; callers that prerender (the force-static route handler) bake the
+ * bytes in at build.
+ */
+export function getEditionRaw(id: string): string | undefined {
+  if (!isEditionId(id) || !EDITIONS_DIR) return undefined;
+  try {
+    return readFileSync(path.join(EDITIONS_DIR, `${id}.json`), "utf8");
+  } catch {
+    return undefined;
+  }
 }
 
 /** Canonical `Edition` → the view props the @weekly/ui renderers consume. */

@@ -797,8 +797,8 @@
       ],
       "how_made": "Ingested via deterministic RSS/API adapters, normalized, deduplicated, classified, ranked, extracted, and drafted by the Weekly AI Edition pipeline, then verified. Every item carries at least one fetched source record; every number carries an evidence quote from the stored excerpt.",
       "agent_links": {
-        "markdown": "/2026-w44.md",
-        "json": "/2026-w44.json",
+        "markdown": "/2026-w45.md",
+        "json": "/2026-w45.json",
         "llms_txt": "/llms.txt",
         "feed": "/feed.xml"
       },
