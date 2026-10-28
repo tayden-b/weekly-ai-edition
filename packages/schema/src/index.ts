@@ -1,9 +1,10 @@
 /**
  * @weekly/schema — the edition contract.
  *
- * C2 lands `edition.schema.json`, the generated TS types, and the validator.
- * Until then this module carries the week-id helpers every other package
- * already needs, so interfaces do not drift.
+ * `edition.schema.json` is the source of truth; `edition.types.ts` is
+ * generated from it (`pnpm schema:types`, sync checked by a test);
+ * `validateEdition` is the deterministic validator behind
+ * `pnpm schema:validate`.
  */
 
 /** ISO-8601-ish week id used for routes, file names, and edition ids: `2026-w44`. */
@@ -19,4 +20,41 @@ export function isEditionWeekId(value: string): value is EditionWeekId {
 }
 
 /** Version marker for the edition schema. Bump when the contract changes. */
-export const EDITION_SCHEMA_VERSION = 0;
+export const EDITION_SCHEMA_VERSION = 1;
+
+export type {
+  Edition,
+  EditionAgentLinks,
+  EditionBackPage,
+  EditionBriefingPage,
+  EditionChartPoint,
+  EditionCoverPage,
+  EditionDealsPage,
+  EditionDiscoursePage,
+  EditionEvidence,
+  EditionFundingPage,
+  EditionItem,
+  EditionItemDeal,
+  EditionItemDiscourse,
+  EditionItemFunding,
+  EditionItemNumbered,
+  EditionLaunchesPage,
+  EditionMarketsChart,
+  EditionMarketsPage,
+  EditionModelsPage,
+  EditionMostCoveredEntry,
+  EditionMostCoveredPage,
+  EditionPerformancePage,
+  EditionSource,
+  EditionSourceCount,
+  EditionTicker,
+  Slug,
+} from "./edition.types.js";
+
+import type { Edition } from "./edition.types.js";
+
+/** Union of the 11 page types, in fixed template order. */
+export type EditionPage = Edition["pages"][number];
+
+export { assertEdition, validateEdition } from "./validate.js";
+export type { EditionValidationResult } from "./validate.js";

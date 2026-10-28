@@ -1,0 +1,388 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://weekly-ai-edition.dev/schema/edition.schema.json",
+  "title": "Edition",
+  "description": "The weekly edition object — the single contract between pipeline, viewers, and CI (PLAN §3 template, §4 agent twin, §5.3 provenance gates, DESIGN §3 per-page rules). `pages` is a fixed-order tuple of exactly 11 pages. Item `companies` are slug strings; membership in `config/companies.yaml` is checked by the verify stage (P7), not by this schema — the schema only constrains the slug shape.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "schema_version", "issue_number", "date_start", "date_end", "pages"],
+  "properties": {
+    "id": { "$ref": "#/definitions/week_id" },
+    "schema_version": { "type": "integer", "const": 1 },
+    "issue_number": { "type": "integer", "minimum": 1, "description": "Sequential issue count shown as the cover's №." },
+    "date_start": { "type": "string", "format": "date", "description": "Saturday of the covered week (YYYY-MM-DD)." },
+    "date_end": { "type": "string", "format": "date", "description": "Friday of the covered week (YYYY-MM-DD)." },
+    "pages": {
+      "type": "array",
+      "minItems": 11,
+      "maxItems": 11,
+      "additionalItems": false,
+      "description": "Fixed template order (PLAN §3): cover, briefing, models, performance, launches, funding, deals, markets, discourse, most_covered, back_page.",
+      "items": [
+        { "$ref": "#/definitions/cover_page" },
+        { "$ref": "#/definitions/briefing_page" },
+        { "$ref": "#/definitions/models_page" },
+        { "$ref": "#/definitions/performance_page" },
+        { "$ref": "#/definitions/launches_page" },
+        { "$ref": "#/definitions/funding_page" },
+        { "$ref": "#/definitions/deals_page" },
+        { "$ref": "#/definitions/markets_page" },
+        { "$ref": "#/definitions/discourse_page" },
+        { "$ref": "#/definitions/most_covered_page" },
+        { "$ref": "#/definitions/back_page" }
+      ]
+    }
+  },
+  "definitions": {
+    "week_id": {
+      "type": "string",
+      "title": "EditionWeekId",
+      "pattern": "^\\d{4}-w(0[1-9]|[1-4][0-9]|5[0-3])$",
+      "description": "ISO-ish week id used for routes, file names, and edition ids: `2026-w44`."
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "source": {
+      "type": "object",
+      "title": "EditionSource",
+      "description": "A fetched, verified source record (PLAN §5.1). `excerpt` (≤300 chars) is the stored raw excerpt the evidence quotes are re-checked against (§5.3). `adapter` is the adapter id from `config/sources.yaml` (C5). `url` here is the canonical URL — the field C5's `RawItem.canonical_url` maps onto.",
+      "additionalProperties": false,
+      "required": ["url", "publisher", "published_at", "fetched_at", "adapter", "excerpt"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "publisher": { "type": "string", "minLength": 1 },
+        "published_at": { "type": "string", "format": "date-time" },
+        "fetched_at": { "type": "string", "format": "date-time" },
+        "adapter": { "$ref": "#/definitions/slug" },
+        "excerpt": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "source_ids": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "Source-specific ids (HN objectID, EDGAR accession, PH post id) for provenance."
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "title": "EditionEvidence",
+      "description": "Required on every numeric claim on money/performance/markets pages (§5.3). `source_index` indexes the owning item's `sources` array (or the markets page's `sources`); `quote` must appear verbatim in that source's `excerpt` — bounds and quote containment are checked by `validateEdition`'s semantic pass and re-checked by P7.",
+      "additionalProperties": false,
+      "required": ["source_index", "quote"],
+      "properties": {
+        "source_index": { "type": "integer", "minimum": 0 },
+        "quote": { "type": "string", "minLength": 1, "maxLength": 300 }
+      }
+    },
+    "item_fields": {
+      "type": "object",
+      "description": "Shared field documentation; not a standalone schema. Item = headline · one_liner · optional take · optional number (mono) · optional company slugs · sources[] (≥1) · optional evidence."
+    },
+    "cover_page": {
+      "type": "object",
+      "title": "EditionCoverPage",
+      "additionalProperties": false,
+      "required": ["type", "headline"],
+      "properties": {
+        "type": { "const": "cover" },
+        "headline": { "type": "string", "minLength": 1, "description": "The week's single most important item." },
+        "deck": { "type": "string", "description": "Optional standfirst under the headline." },
+        "image": { "type": "string", "description": "Cover image path, e.g. editions/2026-w44/cover.jpg (typographic-only issues may omit)." }
+      }
+    },
+    "briefing_page": {
+      "type": "object",
+      "title": "EditionBriefingPage",
+      "additionalProperties": false,
+      "required": ["type", "sentences"],
+      "properties": {
+        "type": { "const": "briefing" },
+        "sentences": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 7,
+          "description": "5–7 sentences (DESIGN §3); no links inside.",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "not": { "pattern": "https?://" }
+          }
+        }
+      }
+    },
+    "item": {
+      "type": "object",
+      "title": "EditionItem",
+      "description": "Standard page item (models, launches).",
+      "additionalProperties": false,
+      "required": ["headline", "one_liner", "sources"],
+      "properties": {
+        "headline": { "type": "string", "minLength": 1 },
+        "one_liner": { "type": "string", "minLength": 1 },
+        "take": { "type": "string", "description": "Optional italic take after an em-dash." },
+        "number": { "type": "string", "description": "Optional mono number (version, score, delta)." },
+        "companies": { "type": "array", "items": { "$ref": "#/definitions/slug" }, "uniqueItems": true },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/source" } },
+        "evidence": { "$ref": "#/definitions/evidence" }
+      }
+    },
+    "item_numbered": {
+      "type": "object",
+      "title": "EditionItemNumbered",
+      "description": "Performance item — always carries a number in mono, and that number always carries evidence (DESIGN §3 + PLAN §5.3).",
+      "additionalProperties": false,
+      "required": ["headline", "one_liner", "number", "sources", "evidence"],
+      "properties": {
+        "headline": { "type": "string", "minLength": 1 },
+        "one_liner": { "type": "string", "minLength": 1 },
+        "take": { "type": "string" },
+        "number": { "type": "string", "minLength": 1 },
+        "companies": { "type": "array", "items": { "$ref": "#/definitions/slug" }, "uniqueItems": true },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/source" } },
+        "evidence": { "$ref": "#/definitions/evidence" }
+      }
+    },
+    "item_funding": {
+      "type": "object",
+      "title": "EditionItemFunding",
+      "description": "Funding item — `Company raised $Xm Stage led by Lead`; the amount is a numeric claim so `evidence` is required (§5.3). IPOs/offerings carry the disclosed figure in `number`.",
+      "additionalProperties": false,
+      "required": ["headline", "one_liner", "amount", "sources", "evidence"],
+      "properties": {
+        "headline": { "type": "string", "minLength": 1 },
+        "one_liner": { "type": "string", "minLength": 1 },
+        "take": { "type": "string" },
+        "amount": { "type": "string", "minLength": 1, "description": "Mono amount, e.g. \"$1.5B\" — or the disclosed figure for IPOs/offerings." },
+        "stage": { "type": "string", "description": "e.g. \"Series E\", \"seed\", \"IPO\"." },
+        "lead": { "type": "string", "description": "Lead investor(s)." },
+        "number": { "type": "string" },
+        "companies": { "type": "array", "items": { "$ref": "#/definitions/slug" }, "uniqueItems": true },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/source" } },
+        "evidence": { "$ref": "#/definitions/evidence" }
+      }
+    },
+    "item_deal": {
+      "type": "object",
+      "title": "EditionItemDeal",
+      "description": "Deals item — acquirer → target; `amount` when public, otherwise omitted (the renderer writes \"undisclosed\"). A present `amount` requires `evidence` (§5.3).",
+      "additionalProperties": false,
+      "required": ["headline", "one_liner", "acquirer", "target", "sources"],
+      "if": {
+        "properties": { "amount": { "type": "string" } },
+        "required": ["amount"]
+      },
+      "then": {
+        "properties": { "evidence": { "$ref": "#/definitions/evidence" } },
+        "required": ["evidence"]
+      },
+      "properties": {
+        "headline": { "type": "string", "minLength": 1 },
+        "one_liner": { "type": "string", "minLength": 1 },
+        "take": { "type": "string" },
+        "acquirer": { "type": "string", "minLength": 1 },
+        "target": { "type": "string", "minLength": 1 },
+        "amount": { "type": "string", "minLength": 1 },
+        "number": { "type": "string" },
+        "companies": { "type": "array", "items": { "$ref": "#/definitions/slug" }, "uniqueItems": true },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/source" } },
+        "evidence": { "$ref": "#/definitions/evidence" }
+      }
+    },
+    "item_discourse": {
+      "type": "object",
+      "title": "EditionItemDiscourse",
+      "description": "Discourse item — framed as a question, ≥2 sources from ≥2 distinct publishers (sources count is schema-enforced; publisher distinctness is a verify-time rule).",
+      "additionalProperties": false,
+      "required": ["headline", "one_liner", "sources"],
+      "properties": {
+        "headline": { "type": "string", "minLength": 1, "pattern": "\\?$", "description": "Framed as a question (DESIGN §3)." },
+        "one_liner": { "type": "string", "minLength": 1 },
+        "take": { "type": "string" },
+        "companies": { "type": "array", "items": { "$ref": "#/definitions/slug" }, "uniqueItems": true },
+        "sources": { "type": "array", "minItems": 2, "items": { "$ref": "#/definitions/source" } },
+        "evidence": { "$ref": "#/definitions/evidence" }
+      }
+    },
+    "models_page": {
+      "type": "object",
+      "title": "EditionModelsPage",
+      "additionalProperties": false,
+      "required": ["type", "items"],
+      "properties": {
+        "type": { "const": "models" },
+        "items": { "type": "array", "minItems": 1, "maxItems": 6, "items": { "$ref": "#/definitions/item" } }
+      }
+    },
+    "performance_page": {
+      "type": "object",
+      "title": "EditionPerformancePage",
+      "additionalProperties": false,
+      "required": ["type", "items"],
+      "properties": {
+        "type": { "const": "performance" },
+        "items": { "type": "array", "minItems": 1, "maxItems": 5, "items": { "$ref": "#/definitions/item_numbered" } }
+      }
+    },
+    "launches_page": {
+      "type": "object",
+      "title": "EditionLaunchesPage",
+      "additionalProperties": false,
+      "required": ["type", "items"],
+      "properties": {
+        "type": { "const": "launches" },
+        "items": { "type": "array", "minItems": 1, "maxItems": 6, "items": { "$ref": "#/definitions/item" } }
+      }
+    },
+    "funding_page": {
+      "type": "object",
+      "title": "EditionFundingPage",
+      "additionalProperties": false,
+      "required": ["type", "items"],
+      "properties": {
+        "type": { "const": "funding" },
+        "items": { "type": "array", "minItems": 1, "maxItems": 6, "items": { "$ref": "#/definitions/item_funding" } }
+      }
+    },
+    "deals_page": {
+      "type": "object",
+      "title": "EditionDealsPage",
+      "additionalProperties": false,
+      "required": ["type", "items"],
+      "properties": {
+        "type": { "const": "deals" },
+        "items": { "type": "array", "minItems": 1, "maxItems": 4, "items": { "$ref": "#/definitions/item_deal" } }
+      }
+    },
+    "discourse_page": {
+      "type": "object",
+      "title": "EditionDiscoursePage",
+      "additionalProperties": false,
+      "required": ["type", "items"],
+      "properties": {
+        "type": { "const": "discourse" },
+        "items": { "type": "array", "minItems": 1, "maxItems": 3, "items": { "$ref": "#/definitions/item_discourse" } }
+      }
+    },
+    "markets_page": {
+      "type": "object",
+      "title": "EditionMarketsPage",
+      "description": "1 chart + ≤10 tickers (DESIGN §3). `sources` lives at page level because the whole page is one dataset; every ticker's numbers still carry `evidence` keyed into it.",
+      "additionalProperties": false,
+      "required": ["type", "chart", "tickers", "sources"],
+      "properties": {
+        "type": { "const": "markets" },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/source" } },
+        "chart": {
+          "type": "object",
+          "title": "EditionMarketsChart",
+          "additionalProperties": false,
+          "required": ["title", "unit", "series"],
+          "properties": {
+            "title": { "type": "string", "minLength": 1 },
+            "unit": { "type": "string", "enum": ["index", "percent", "usd"] },
+            "series": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "object",
+                "title": "EditionChartPoint",
+                "additionalProperties": false,
+                "required": ["date", "value"],
+                "properties": {
+                  "date": { "type": "string", "format": "date" },
+                  "value": { "type": "number" }
+                }
+              }
+            }
+          }
+        },
+        "tickers": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10,
+          "items": {
+            "type": "object",
+            "title": "EditionTicker",
+            "additionalProperties": false,
+            "required": ["ticker", "name", "close", "change_pct", "direction", "evidence"],
+            "properties": {
+              "ticker": { "type": "string", "minLength": 1 },
+              "name": { "type": "string", "minLength": 1 },
+              "close": { "type": "number" },
+              "change_pct": { "type": "number", "description": "Week-over-week % change." },
+              "direction": { "type": "string", "enum": ["up", "down", "flat"] },
+              "evidence": { "$ref": "#/definitions/evidence" }
+            }
+          }
+        }
+      }
+    },
+    "most_covered_page": {
+      "type": "object",
+      "title": "EditionMostCoveredPage",
+      "description": "Derived from our own tagged items only — entries are ordered by story count (position = rank).",
+      "additionalProperties": false,
+      "required": ["type", "entries"],
+      "properties": {
+        "type": { "const": "most_covered" },
+        "entries": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "title": "EditionMostCoveredEntry",
+            "additionalProperties": false,
+            "required": ["company", "name", "stories", "trend"],
+            "properties": {
+              "company": { "$ref": "#/definitions/slug" },
+              "name": { "type": "string", "minLength": 1 },
+              "stories": { "type": "integer", "minimum": 1 },
+              "trend": { "type": "string", "enum": ["up", "down", "flat"] }
+            }
+          }
+        }
+      }
+    },
+    "back_page": {
+      "type": "object",
+      "title": "EditionBackPage",
+      "description": "Agent-access block always present (DESIGN §3).",
+      "additionalProperties": false,
+      "required": ["type", "sources_total", "source_counts", "how_made", "agent_links"],
+      "properties": {
+        "type": { "const": "back_page" },
+        "sources_total": { "type": "integer", "minimum": 0 },
+        "source_counts": {
+          "type": "array",
+          "description": "Count by outlet, for the mono table.",
+          "items": {
+            "type": "object",
+            "title": "EditionSourceCount",
+            "additionalProperties": false,
+            "required": ["publisher", "count"],
+            "properties": {
+              "publisher": { "type": "string", "minLength": 1 },
+              "count": { "type": "integer", "minimum": 1 }
+            }
+          }
+        },
+        "how_made": { "type": "string", "minLength": 1, "description": "Three-line 'how this issue was made' copy." },
+        "agent_links": {
+          "type": "object",
+          "title": "EditionAgentLinks",
+          "additionalProperties": false,
+          "required": ["markdown", "json", "llms_txt", "feed"],
+          "properties": {
+            "markdown": { "type": "string", "minLength": 1, "description": "e.g. /2026-w44.md" },
+            "json": { "type": "string", "minLength": 1, "description": "e.g. /2026-w44.json" },
+            "llms_txt": { "type": "string", "minLength": 1 },
+            "feed": { "type": "string", "minLength": 1 }
+          }
+        },
+        "colophon": { "type": "string" }
+      }
+    }
+  }
+}
