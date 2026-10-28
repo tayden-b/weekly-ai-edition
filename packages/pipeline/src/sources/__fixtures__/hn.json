@@ -1,0 +1,121 @@
+{
+  "responses": [
+    {
+      "url_contains": "tags=front_page",
+      "status": 200,
+      "headers": { "content-type": "application/json" },
+      "body": {
+        "hits": [
+          {
+            "created_at": "2026-01-14T09:12:00.000Z",
+            "title": "OpenAI releases GPT-6 with month-long context window",
+            "url": "https://openai.com/news/gpt-6",
+            "author": "samaltman",
+            "points": 1321,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 804,
+            "objectID": "90001",
+            "_tags": ["story", "front_page", "author_samaltman", "story_90001"],
+            "_highlightResult": {}
+          },
+          {
+            "created_at": "2026-01-14T11:45:00.000Z",
+            "title": "Ask HN: Best standing desk for a home office?",
+            "url": null,
+            "author": "deskseeker",
+            "points": 87,
+            "story_text": "Looking for recommendations on a sturdy standing desk.",
+            "comment_text": null,
+            "num_comments": 203,
+            "objectID": "90002",
+            "_tags": ["story", "front_page", "author_deskseeker", "story_90002"],
+            "_highlightResult": {}
+          },
+          {
+            "created_at": "2026-01-13T22:03:00.000Z",
+            "title": "Show HN: Tiny LLM inference engine in 500 lines of C",
+            "url": null,
+            "author": "miniml",
+            "points": 456,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 178,
+            "objectID": "90003",
+            "_tags": ["show_hn", "front_page", "author_miniml", "story_90003"],
+            "_highlightResult": {}
+          }
+        ],
+        "nbHits": 3,
+        "page": 0,
+        "nbPages": 1,
+        "hitsPerPage": 50
+      }
+    },
+    {
+      "url_contains": "tags=show_hn",
+      "status": 200,
+      "headers": { "content-type": "application/json" },
+      "body": {
+        "hits": [
+          {
+            "created_at": "2026-01-14T16:30:00.000Z",
+            "title": "Show HN: Agentic code review for your monorepo",
+            "url": "https://example.com/agent-review",
+            "author": "revbot",
+            "points": 64,
+            "story_text": "<p>We built an AI agent that reviews pull requests against your repo&#x27;s own conventions. It runs entirely on your CI workers and never sends code out.</p><p>Feedback welcome — <a href=\"https://example.com/agent-review/docs\">docs here</a>.</p>",
+            "comment_text": null,
+            "num_comments": 41,
+            "objectID": "90010",
+            "_tags": ["show_hn", "author_revbot", "story_90010"],
+            "_highlightResult": {}
+          },
+          {
+            "created_at": "2026-01-14T15:02:00.000Z",
+            "title": "Show HN: Self-hosted recipe manager",
+            "url": "https://example.com/recipes",
+            "author": "homecook",
+            "points": 23,
+            "story_text": "A simple app to store and scale family recipes.",
+            "comment_text": null,
+            "num_comments": 12,
+            "objectID": "90011",
+            "_tags": ["show_hn", "author_homecook", "story_90011"],
+            "_highlightResult": {}
+          },
+          {
+            "created_at": "2026-01-13T22:03:00.000Z",
+            "title": "Show HN: Tiny LLM inference engine in 500 lines of C",
+            "url": null,
+            "author": "miniml",
+            "points": 456,
+            "story_text": null,
+            "comment_text": null,
+            "num_comments": 178,
+            "objectID": "90003",
+            "_tags": ["show_hn", "author_miniml", "story_90003"],
+            "_highlightResult": {}
+          },
+          {
+            "created_at": "2025-11-02T08:00:00.000Z",
+            "title": "Show HN: RAG over your org's wiki in an afternoon",
+            "url": "https://example.com/wiki-rag",
+            "author": "wikirag",
+            "points": 19,
+            "story_text": "Old launch kept around to prove window filtering.",
+            "comment_text": null,
+            "num_comments": 7,
+            "objectID": "90012",
+            "_tags": ["show_hn", "author_wikirag", "story_90012"],
+            "_highlightResult": {}
+          }
+        ],
+        "nbHits": 4,
+        "page": 0,
+        "nbPages": 1,
+        "hitsPerPage": 200
+      }
+    }
+  ]
+}
