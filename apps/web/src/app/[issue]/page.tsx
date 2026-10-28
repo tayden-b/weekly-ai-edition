@@ -6,7 +6,10 @@ import { FrontPage } from "@weekly/ui";
 import { getEdition, listEditions } from "../../lib/editions";
 import { assembleFrontPage } from "../../lib/frontpage";
 import { site } from "../../lib/site";
+import { DeckView } from "./DeckView";
 import { FrontPageChrome } from "./FrontPageChrome";
+
+import "./deck.css";
 
 export const dynamicParams = false;
 export const dynamic = "force-static";
@@ -30,6 +33,11 @@ export async function generateMetadata({
   };
 }
 
+/**
+ * `/{issue}` is the whole experience on one route (DESIGN §2): the §2.1
+ * swipe deck below 768px, the §2.2 newspaper front page at 768px and up.
+ * Both render server-side; `deck.css` toggles which is visible.
+ */
 export default async function IssuePage({
   params,
 }: {
@@ -43,24 +51,29 @@ export default async function IssuePage({
 
   return (
     <>
-      <FrontPageChrome
-        siteName={site.name}
-        meta={view.meta}
-        sections={view.navSections}
-      />
-      <main>
-        <FrontPage
+      <div className="issue-split__frontpage">
+        <FrontPageChrome
           siteName={site.name}
-          tagline={site.tagline}
           meta={view.meta}
-          cover={view.cover}
-          briefing={view.briefing}
-          sections={view.sections}
-          {...(view.markets ? { markets: view.markets } : {})}
-          mostCovered={view.mostCovered}
-          backPage={view.backPage}
+          sections={view.navSections}
         />
-      </main>
+        <main>
+          <FrontPage
+            siteName={site.name}
+            tagline={site.tagline}
+            meta={view.meta}
+            cover={view.cover}
+            briefing={view.briefing}
+            sections={view.sections}
+            {...(view.markets ? { markets: view.markets } : {})}
+            mostCovered={view.mostCovered}
+            backPage={view.backPage}
+          />
+        </main>
+      </div>
+      <div className="issue-split__deck">
+        <DeckView edition={ed} siteName={site.name} />
+      </div>
     </>
   );
 }

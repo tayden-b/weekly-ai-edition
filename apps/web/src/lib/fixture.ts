@@ -42,10 +42,6 @@ export interface FixturePage {
   sources?: [string, number][];
   made?: string[];
   items?: FixtureItem[];
-  /** Fetched source records backing this page (page-level + per-item). */
-  sourceCount?: number;
-  /** Unique publishers of page-level sources — the Markets caption. */
-  sourcePublishers?: string[];
 }
 
 export interface FixtureEdition {
@@ -58,7 +54,7 @@ export interface FixtureEdition {
 
 const raw = rawJson as unknown as Edition;
 
-/** The C2 fixture as the canonical Edition (V2's route consumes this). */
+/** The C2 fixture as the canonical Edition (V1's deck + V2's route consume this). */
 export const rawEdition: Edition = raw;
 
 const MONTHS = [
@@ -136,39 +132,21 @@ function mapPage(page: EditionPage): FixturePage {
       (c): [string, number] => [c.publisher, c.count],
     );
     out.made = [page.how_made];
-    out.sourceCount = page.sources_total;
-  }
-  const itemSources = (out.items ?? []).reduce(
-    (n, it) => n + it.sources.length,
-    0,
-  );
-  if ("sources" in page && page.sources) {
-    out.sourceCount = page.sources.length + itemSources;
-    out.sourcePublishers = [
-      ...new Set(page.sources.map((s) => s.publisher)),
-    ];
-  } else if (itemSources > 0) {
-    out.sourceCount = itemSources;
   }
   return out;
 }
 
-/** Maps a canonical `Edition` (schema) onto the view props primitives consume. */
-export function mapEdition(source: Edition): FixtureEdition {
-  return {
-    id: source.id,
-    schema_version: source.schema_version,
-    issue: source.issue_number,
-    date_range: {
-      start: source.date_start,
-      end: source.date_end,
-      label: dateRangeLabel(source.date_start, source.date_end),
-    },
-    pages: source.pages.map(mapPage),
-  };
-}
-
-export const edition: FixtureEdition = mapEdition(raw);
+export const edition: FixtureEdition = {
+  id: raw.id,
+  schema_version: raw.schema_version,
+  issue: raw.issue_number,
+  date_range: {
+    start: raw.date_start,
+    end: raw.date_end,
+    label: dateRangeLabel(raw.date_start, raw.date_end),
+  },
+  pages: raw.pages.map(mapPage),
+};
 
 export function pageOfType(type: string): FixturePage | undefined {
   return edition.pages.find((p) => p.type === type);
