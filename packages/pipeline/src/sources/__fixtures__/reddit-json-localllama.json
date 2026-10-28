@@ -1,0 +1,132 @@
+{
+  "responses": [
+    {
+      "url_contains": "/r/LocalLLaMA/top.json",
+      "headers": { "content-type": "application/json" },
+      "body": {
+        "kind": "Listing",
+        "data": {
+          "after": "t3_1xgy5ic",
+          "dist": 5,
+          "modhash": "",
+          "children": [
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xer30z",
+                "name": "t3_1xer30z",
+                "subreddit": "LocalLLaMA",
+                "subreddit_name_prefixed": "r/LocalLLaMA",
+                "title": "OpenAI and Anthropic blocked the reverse engineering of smart TVs spying on us",
+                "permalink": "/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/",
+                "url": "https://x.com/AbhinavXJ/status/2113590263373508704",
+                "is_self": false,
+                "selftext": "",
+                "score": 2874,
+                "ups": 2987,
+                "downs": 113,
+                "upvote_ratio": 0.96,
+                "num_comments": 412,
+                "created_utc": 1792896678.0,
+                "link_flair_text": "News",
+                "stickied": false,
+                "over_18": false,
+                "author": "lightharted"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xhep6w",
+                "name": "t3_1xhep6w",
+                "subreddit": "LocalLLaMA",
+                "subreddit_name_prefixed": "r/LocalLLaMA",
+                "title": "Dirt cheap GPUs coming next year",
+                "permalink": "/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/",
+                "url": "https://x.com/thdxr/status/2115165365630026178",
+                "is_self": false,
+                "selftext": "",
+                "score": 1893,
+                "ups": 1951,
+                "downs": 58,
+                "upvote_ratio": 0.94,
+                "num_comments": 267,
+                "created_utc": 1793162081.0,
+                "link_flair_text": "News",
+                "stickied": false,
+                "over_18": false,
+                "author": "HealthyEffortless"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xgy5ic",
+                "name": "t3_1xgy5ic",
+                "subreddit": "LocalLLaMA",
+                "subreddit_name_prefixed": "r/LocalLLaMA",
+                "title": "I am a King, but local 😂",
+                "permalink": "/r/LocalLLaMA/comments/1xgy5ic/i_am_a_king_but_local/",
+                "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgy5ic/i_am_a_king_but_local/",
+                "is_self": true,
+                "selftext": "I am feeling like a mighty local King spinning two Strata engines with 70tps each whole day and using 12M tokens a day. Also me scrolling twitter and stumbling upon a post saying that you cannot run frontier models locally.",
+                "score": 1451,
+                "ups": 1520,
+                "downs": 69,
+                "upvote_ratio": 0.93,
+                "num_comments": 198,
+                "created_utc": 1793120466.0,
+                "link_flair_text": "Meme",
+                "stickied": false,
+                "over_18": false,
+                "author": "local_king"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xk99zz",
+                "name": "t3_1xk99zz",
+                "subreddit": "LocalLLaMA",
+                "subreddit_name_prefixed": "r/LocalLLaMA",
+                "title": "Monthly 'What are you running locally?' megathread",
+                "permalink": "/r/LocalLLaMA/comments/1xk99zz/monthly_what_are_you_running_locally_megathread/",
+                "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk99zz/monthly_what_are_you_running_locally_megathread/",
+                "is_self": true,
+                "selftext": "[removed]",
+                "score": 64,
+                "num_comments": 88,
+                "created_utc": 1793181600.0,
+                "link_flair_text": null,
+                "stickied": true,
+                "over_18": false,
+                "author": "AutoModerator"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xa11aa",
+                "name": "t3_1xa11aa",
+                "subreddit": "LocalLLaMA",
+                "subreddit_name_prefixed": "r/LocalLLaMA",
+                "title": "Out-of-window: last month's hardware deals roundup",
+                "permalink": "/r/LocalLLaMA/comments/1xa11aa/outofwindow_last_months_hardware_deals_roundup/",
+                "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xa11aa/outofwindow_last_months_hardware_deals_roundup/",
+                "is_self": true,
+                "selftext": "Roundup from early October — outside this week's window, kept in the fixture to exercise the fetch window filter.",
+                "score": 320,
+                "num_comments": 45,
+                "created_utc": 1791806400.0,
+                "link_flair_text": "Discussion",
+                "stickied": false,
+                "over_18": false,
+                "author": "deals_bunny"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

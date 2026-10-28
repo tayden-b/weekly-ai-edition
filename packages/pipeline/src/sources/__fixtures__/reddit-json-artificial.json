@@ -1,0 +1,90 @@
+{
+  "responses": [
+    {
+      "url_contains": "/r/artificial/top.json",
+      "headers": { "content-type": "application/json" },
+      "body": {
+        "kind": "Listing",
+        "data": {
+          "after": null,
+          "dist": 3,
+          "modhash": "",
+          "children": [
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xhn4pk",
+                "name": "t3_1xhn4pk",
+                "subreddit": "artificial",
+                "subreddit_name_prefixed": "r/artificial",
+                "title": "EU opens consultation on the next wave of AI Act enforcement guidelines",
+                "permalink": "/r/artificial/comments/1xhn4pk/eu_opens_consultation_on_the_next_wave_of_ai/",
+                "url": "https://digital-strategy.ec.europa.eu/en/consultations/ai-act",
+                "is_self": false,
+                "selftext": "",
+                "score": 2310,
+                "ups": 2445,
+                "downs": 135,
+                "upvote_ratio": 0.94,
+                "num_comments": 518,
+                "created_utc": 1793131200.0,
+                "link_flair_text": "News",
+                "stickied": false,
+                "over_18": false,
+                "author": "policy_watcher"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xf88mc",
+                "name": "t3_1xf88mc",
+                "subreddit": "artificial",
+                "subreddit_name_prefixed": "r/artificial",
+                "title": "Debate thread: does the new benchmark suite measure reasoning or memorization?",
+                "permalink": "/r/artificial/comments/1xf88mc/debate_thread_does_the_new_benchmark_suite/",
+                "url": "https://www.reddit.com/r/artificial/comments/1xf88mc/debate_thread_does_the_new_benchmark_suite/",
+                "is_self": true,
+                "selftext": "Every frontier lab reported a leap on the new suite this week. Is it actually measuring reasoning generalization, or did the test set leak into training corpora? Argue both sides.",
+                "score": 1644,
+                "ups": 1810,
+                "downs": 166,
+                "upvote_ratio": 0.88,
+                "num_comments": 742,
+                "created_utc": 1793044800.0,
+                "link_flair_text": "Discussion",
+                "stickied": false,
+                "over_18": false,
+                "author": "bench_skeptic"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xgq2dt",
+                "name": "t3_1xgq2dt",
+                "subreddit": "artificial",
+                "subreddit_name_prefixed": "r/artificial",
+                "title": "OpenAI and Anthropic blocked the reverse engineering of smart TVs spying on us",
+                "permalink": "/r/artificial/comments/1xgq2dt/openai_and_anthropic_blocked_the_reverse/",
+                "url": "https://x.com/AbhinavXJ/status/2113590263373508704",
+                "is_self": false,
+                "selftext": "",
+                "score": 987,
+                "ups": 1050,
+                "downs": 63,
+                "upvote_ratio": 0.91,
+                "num_comments": 129,
+                "created_utc": 1792980000.0,
+                "link_flair_text": "News",
+                "stickied": false,
+                "over_18": false,
+                "author": "crossposter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

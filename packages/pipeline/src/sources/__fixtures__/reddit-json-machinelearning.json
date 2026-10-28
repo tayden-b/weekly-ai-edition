@@ -1,0 +1,166 @@
+{
+  "responses": [
+    {
+      "url_contains": "/r/MachineLearning/top.json",
+      "headers": { "content-type": "application/json" },
+      "body": {
+        "kind": "Listing",
+        "data": {
+          "after": "t3_1xeu2z1",
+          "dist": 6,
+          "modhash": "",
+          "children": [
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xh2wzt",
+                "name": "t3_1xh2wzt",
+                "subreddit": "MachineLearning",
+                "subreddit_name_prefixed": "r/MachineLearning",
+                "title": "The Paper Reviewing Process is Now in Critical Condition [D]",
+                "permalink": "/r/MachineLearning/comments/1xh2wzt/the_paper_reviewing_process_is_now_in_critical/",
+                "url": "https://www.reddit.com/r/MachineLearning/comments/1xh2wzt/the_paper_reviewing_process_is_now_in_critical/",
+                "is_self": true,
+                "selftext": "TL;DR: AI written reviews, and AI-writing in papers. I was going to give this a title \"An Obituary of the Review Process\", but in the interest of precision: the process is in critical condition, not dead yet. Reviews are arriving obviously LLM-written, and a non-trivial share of submissions read like they were drafted end-to-end by a model.",
+                "score": 3421,
+                "ups": 3512,
+                "downs": 91,
+                "upvote_ratio": 0.97,
+                "num_comments": 689,
+                "created_utc": 1793130931.0,
+                "link_flair_text": "Discussion",
+                "stickied": false,
+                "over_18": false,
+                "author": "dsmirza"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xe9uoh",
+                "name": "t3_1xe9uoh",
+                "subreddit": "MachineLearning",
+                "subreddit_name_prefixed": "r/MachineLearning",
+                "title": "Increasing number of UG authors in A* conferences with no supervisor [D]",
+                "permalink": "/r/MachineLearning/comments/1xe9uoh/increasing_number_of_ug_authors_in_a_conferences/",
+                "url": "https://www.reddit.com/r/MachineLearning/comments/1xe9uoh/increasing_number_of_ug_authors_in_a_conferences/",
+                "is_self": true,
+                "selftext": "What do you all think about this? It seems increasingly common for undergraduate students to conduct research and publish at A* conferences without a faculty supervisor listed.",
+                "score": 1204,
+                "ups": 1290,
+                "downs": 86,
+                "upvote_ratio": 0.91,
+                "num_comments": 301,
+                "created_utc": 1792851487.0,
+                "link_flair_text": "Discussion",
+                "stickied": false,
+                "over_18": false,
+                "author": "Invariant_n_Cauchy"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xd7bsu",
+                "name": "t3_1xd7bsu",
+                "subreddit": "MachineLearning",
+                "subreddit_name_prefixed": "r/MachineLearning",
+                "title": "I just came across Next-Concept Modeling and the idea is fascinating[R]",
+                "permalink": "/r/MachineLearning/comments/1xd7bsu/i_just_came_across_nextconcept_modeling_and_the/",
+                "url": "https://arxiv.org/abs/2610.14162",
+                "is_self": false,
+                "selftext": "",
+                "score": 978,
+                "ups": 1042,
+                "downs": 64,
+                "upvote_ratio": 0.92,
+                "num_comments": 154,
+                "created_utc": 1792740252.0,
+                "link_flair_text": "Research",
+                "stickied": false,
+                "over_18": false,
+                "author": "papertrail99"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xdhf7r",
+                "name": "t3_1xdhf7r",
+                "subreddit": "MachineLearning",
+                "subreddit_name_prefixed": "r/MachineLearning",
+                "title": "[R] The Hive Mind is a Single Reinforcement Learning Agent: Deriving the Exact Equivalence Between Swarm Behaviour and a Centralized Policy",
+                "permalink": "/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/",
+                "url": "https://www.reddit.com/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/",
+                "is_self": true,
+                "selftext": "TL;DR We prove a mathematical equivalence between collective decision-making via local imitation (such as honey bees choosing a nest site) and a single centralized reinforcement learning agent.",
+                "score": 1766,
+                "ups": 1831,
+                "downs": 65,
+                "upvote_ratio": 0.95,
+                "num_comments": 233,
+                "created_utc": 1792769843.0,
+                "link_flair_text": "Research",
+                "stickied": false,
+                "over_18": false,
+                "author": "swarm_theorist"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xeu2z1",
+                "name": "t3_1xeu2z1",
+                "subreddit": "MachineLearning",
+                "subreddit_name_prefixed": "r/MachineLearning",
+                "title": "ICLR 2027 is still handing out desk rejects [N]",
+                "permalink": "/r/MachineLearning/comments/1xeu2z1/iclr_2027_is_still_handing_out_desk_rejects_n/",
+                "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu2z1/iclr_2027_is_still_handing_out_desk_rejects_n/",
+                "is_self": true,
+                "selftext": "",
+                "score": 855,
+                "ups": 901,
+                "downs": 46,
+                "upvote_ratio": 0.93,
+                "num_comments": 187,
+                "created_utc": 1792906536.0,
+                "link_flair_text": "News",
+                "stickied": false,
+                "over_18": false,
+                "author": "Temporary_Switch_339"
+              }
+            },
+            {
+              "kind": "t3",
+              "data": {
+                "id": "1xzzzzn",
+                "name": "t3_1xzzzzn",
+                "subreddit": "MachineLearning",
+                "subreddit_name_prefixed": "r/MachineLearning",
+                "title": "Downvoted poster: claims attention is overrated",
+                "permalink": "/r/MachineLearning/comments/1xzzzzn/downvoted_poster_claims_attention_is_overrated/",
+                "url": "https://www.reddit.com/r/MachineLearning/comments/1xzzzzn/downvoted_poster_claims_attention_is_overrated/",
+                "is_self": true,
+                "selftext": "Negative-score exercise post — reddit_score must be omitted per the non-negative engagement-field contract.",
+                "score": -37,
+                "num_comments": 12,
+                "created_utc": 1793174400.0,
+                "link_flair_text": "Discussion",
+                "stickied": false,
+                "over_18": false,
+                "author": "hot_take_haver"
+              }
+            },
+            {
+              "kind": "t1",
+              "data": {
+                "id": "lll111",
+                "body": "a stray comment child — skipped, listings only carry t3"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

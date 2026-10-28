@@ -177,6 +177,15 @@ export {
   type ProductHuntAdapterOptions,
 } from "./sources/product-hunt.js";
 
+// A9 — Reddit public listing JSON (discourse page)
+export {
+  createRedditAdapter,
+  REDDIT_ADAPTER_ID,
+  redditAdapterFromEntry,
+  type RedditAdapterOptions,
+  subredditFromEndpoint,
+} from "./sources/reddit-json.js";
+
 // A10 — distribute.software adapter (secondary; models + launches pages)
 export {
   createDistributeAdapter,
