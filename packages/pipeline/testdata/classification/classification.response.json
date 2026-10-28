@@ -1,0 +1,516 @@
+{
+  "prompt_version": 1,
+  "items": [
+    {
+      "id": "models-001",
+      "page": "models",
+      "confidence": 0.99,
+      "company_slugs": ["openai"],
+      "rationale": "flagship model release from the vendor"
+    },
+    {
+      "id": "models-002",
+      "page": "models",
+      "confidence": 0.98,
+      "company_slugs": ["openai"],
+      "rationale": "minor model revision shipped by the vendor"
+    },
+    {
+      "id": "models-003",
+      "page": "models",
+      "confidence": 0.97,
+      "company_slugs": ["anthropic"],
+      "rationale": "next-generation Claude model family announced"
+    },
+    {
+      "id": "models-004",
+      "page": "models",
+      "confidence": 0.97,
+      "company_slugs": ["anthropic"],
+      "rationale": "update to the largest Claude model"
+    },
+    {
+      "id": "models-005",
+      "page": "models",
+      "confidence": 0.97,
+      "company_slugs": ["alphabet"],
+      "rationale": "next-generation Gemini model announced"
+    },
+    {
+      "id": "models-006",
+      "page": "models",
+      "confidence": 0.95,
+      "company_slugs": ["google-deepmind", "alphabet"],
+      "rationale": "DeepMind's Gemini-series model announcement"
+    },
+    {
+      "id": "models-007",
+      "page": "models",
+      "confidence": 0.97,
+      "company_slugs": ["meta-ai", "meta"],
+      "rationale": "open-weight Llama model family release"
+    },
+    {
+      "id": "models-008",
+      "page": "models",
+      "confidence": 0.97,
+      "company_slugs": ["mistral-ai"],
+      "rationale": "flagship open-weight model announced"
+    },
+    {
+      "id": "models-009",
+      "page": "models",
+      "confidence": 0.95,
+      "company_slugs": ["xai"],
+      "rationale": "mid-cycle Grok model update"
+    },
+    {
+      "id": "models-010",
+      "page": "models",
+      "confidence": 0.95,
+      "company_slugs": ["moonshot-ai"],
+      "rationale": "open-weight frontier model release"
+    },
+    {
+      "id": "models-011",
+      "page": "models",
+      "confidence": 0.9,
+      "company_slugs": ["alibaba-qwen"],
+      "rationale": "new model weights published on the Hub by the Qwen org"
+    },
+    {
+      "id": "models-012",
+      "page": "models",
+      "confidence": 0.95,
+      "company_slugs": ["deepseek"],
+      "rationale": "v4 model release on the API changelog"
+    },
+    {
+      "id": "models-013",
+      "page": "models",
+      "confidence": 0.92,
+      "company_slugs": [],
+      "rationale": "flagship OSS inference-engine release tag"
+    },
+    {
+      "id": "models-014",
+      "page": "models",
+      "confidence": 0.85,
+      "company_slugs": ["figure"],
+      "rationale": "updated vision-language-action model release"
+    },
+    {
+      "id": "performance-001",
+      "page": "performance",
+      "confidence": 0.95,
+      "company_slugs": ["openai"],
+      "rationale": "landmark benchmark score on ARC-AGI"
+    },
+    {
+      "id": "performance-002",
+      "page": "performance",
+      "confidence": 0.85,
+      "company_slugs": [],
+      "rationale": "next-generation interactive reasoning benchmark launched"
+    },
+    {
+      "id": "performance-003",
+      "page": "performance",
+      "confidence": 0.92,
+      "company_slugs": ["openai"],
+      "rationale": "model results published on ARC-AGI-3"
+    },
+    {
+      "id": "performance-004",
+      "page": "performance",
+      "confidence": 0.9,
+      "company_slugs": [],
+      "rationale": "eval-methodology flaw reported (git-history leakage)"
+    },
+    {
+      "id": "performance-005",
+      "page": "performance",
+      "confidence": 0.9,
+      "company_slugs": [],
+      "rationale": "eval-methodology result on benchmark-passing patches"
+    },
+    {
+      "id": "performance-006",
+      "page": "performance",
+      "confidence": 0.85,
+      "company_slugs": ["openai"],
+      "rationale": "vendor stops reporting a benchmark — leaderboard move"
+    },
+    {
+      "id": "performance-007",
+      "page": "performance",
+      "confidence": 0.85,
+      "company_slugs": [],
+      "rationale": "eval study measuring task-length capability growth"
+    },
+    {
+      "id": "launches-001",
+      "page": "launches",
+      "confidence": 0.97,
+      "company_slugs": ["openai"],
+      "rationale": "agent product shipped to subscribers"
+    },
+    {
+      "id": "launches-002",
+      "page": "launches",
+      "confidence": 0.9,
+      "company_slugs": ["openai"],
+      "rationale": "video model plus a new consumer app shipped"
+    },
+    {
+      "id": "launches-003",
+      "page": "launches",
+      "confidence": 0.95,
+      "company_slugs": ["anysphere"],
+      "rationale": "major product version shipped to users"
+    },
+    {
+      "id": "launches-004",
+      "page": "launches",
+      "confidence": 0.9,
+      "company_slugs": ["alphabet"],
+      "rationale": "product rebranding shipped to users"
+    },
+    {
+      "id": "launches-005",
+      "page": "launches",
+      "confidence": 0.92,
+      "company_slugs": ["alphabet"],
+      "rationale": "feature expanded to 50+ languages"
+    },
+    {
+      "id": "launches-006",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": ["openai", "broadcom"],
+      "rationale": "custom silicon product unveiled with the fabricating partner"
+    },
+    {
+      "id": "launches-007",
+      "page": "launches",
+      "confidence": 0.95,
+      "company_slugs": ["anthropic"],
+      "rationale": "new product capability shipped across apps and API"
+    },
+    {
+      "id": "launches-008",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": ["deepseek"],
+      "rationale": "open-source inference framework shipped"
+    },
+    {
+      "id": "funding-001",
+      "page": "funding",
+      "confidence": 0.99,
+      "company_slugs": ["anthropic"],
+      "rationale": "Series F round raised"
+    },
+    {
+      "id": "funding-002",
+      "page": "funding",
+      "confidence": 0.99,
+      "company_slugs": ["anthropic"],
+      "rationale": "Series G round raised"
+    },
+    {
+      "id": "funding-003",
+      "page": "funding",
+      "confidence": 0.98,
+      "company_slugs": ["anthropic"],
+      "rationale": "Series H round raised"
+    },
+    {
+      "id": "funding-004",
+      "page": "funding",
+      "confidence": 0.97,
+      "company_slugs": ["openai"],
+      "rationale": "record private round closed"
+    },
+    {
+      "id": "funding-005",
+      "page": "funding",
+      "confidence": 0.95,
+      "company_slugs": ["openai", "softbank"],
+      "rationale": "SoftBank-led private round"
+    },
+    {
+      "id": "funding-006",
+      "page": "funding",
+      "confidence": 0.95,
+      "company_slugs": ["thinking-machines"],
+      "rationale": "early-stage round at reported valuation"
+    },
+    {
+      "id": "funding-007",
+      "page": "funding",
+      "confidence": 0.92,
+      "company_slugs": ["mistral-ai", "asml"],
+      "rationale": "capital raise with strategic investor partnership"
+    },
+    {
+      "id": "funding-008",
+      "page": "funding",
+      "confidence": 0.95,
+      "company_slugs": ["figure", "openai"],
+      "rationale": "round raised alongside an OpenAI collaboration"
+    },
+    {
+      "id": "funding-009",
+      "page": "funding",
+      "confidence": 0.97,
+      "company_slugs": ["xai"],
+      "rationale": "Series E round announced"
+    },
+    {
+      "id": "funding-010",
+      "page": "funding",
+      "confidence": 0.9,
+      "company_slugs": ["coreweave", "nvidia"],
+      "rationale": "public offering anchored by Nvidia"
+    },
+    {
+      "id": "deals-001",
+      "page": "deals",
+      "confidence": 0.9,
+      "company_slugs": ["spacex", "anysphere", "openai"],
+      "rationale": "SpaceX acquired the Cursor maker; OpenAI's response is the news"
+    },
+    {
+      "id": "deals-002",
+      "page": "deals",
+      "confidence": 0.95,
+      "company_slugs": ["nvidia", "hugging-face"],
+      "rationale": "reported $13B acquisition"
+    },
+    {
+      "id": "deals-003",
+      "page": "deals",
+      "confidence": 0.95,
+      "company_slugs": ["nvidia", "arm", "softbank"],
+      "rationale": "$40B acquisition announcement (Arm sold by SoftBank)"
+    },
+    {
+      "id": "deals-004",
+      "page": "deals",
+      "confidence": 0.95,
+      "company_slugs": ["cognition", "windsurf"],
+      "rationale": "acquisition of Windsurf announced"
+    },
+    {
+      "id": "deals-005",
+      "page": "deals",
+      "confidence": 0.9,
+      "company_slugs": ["softbank", "openai", "oracle"],
+      "rationale": "multi-party AI data-center joint venture"
+    },
+    {
+      "id": "deals-006",
+      "page": "deals",
+      "confidence": 0.95,
+      "company_slugs": ["amd", "openai"],
+      "rationale": "major GPU supply partnership with equity warrant"
+    },
+    {
+      "id": "markets-001",
+      "page": "markets",
+      "confidence": 0.95,
+      "company_slugs": ["nvidia"],
+      "rationale": "record one-day market-cap loss on an AI basket name"
+    },
+    {
+      "id": "markets-002",
+      "page": "markets",
+      "confidence": 0.8,
+      "company_slugs": ["oracle"],
+      "rationale": "record single-day gain on AI cloud backlog"
+    },
+    {
+      "id": "markets-003",
+      "page": "markets",
+      "confidence": 0.8,
+      "company_slugs": ["oracle"],
+      "rationale": "public-market move on an AI pure play"
+    },
+    {
+      "id": "markets-004",
+      "page": "markets",
+      "confidence": 0.9,
+      "company_slugs": ["amd", "intel"],
+      "rationale": "market-cap crossover between listed chip names"
+    },
+    {
+      "id": "markets-005",
+      "page": "markets",
+      "confidence": 0.95,
+      "company_slugs": ["nvidia"],
+      "rationale": "record valuation on the AI basket leader"
+    },
+    {
+      "id": "discourse-001",
+      "page": "discourse",
+      "confidence": 0.9,
+      "company_slugs": [],
+      "rationale": "widely argued AI forecast with prominent counter-arguments"
+    },
+    {
+      "id": "discourse-002",
+      "page": "discourse",
+      "confidence": 0.9,
+      "company_slugs": ["apple"],
+      "rationale": "research paper igniting a field-wide reasoning debate"
+    },
+    {
+      "id": "discourse-003",
+      "page": "discourse",
+      "confidence": 0.92,
+      "company_slugs": ["cloudflare", "perplexity"],
+      "rationale": "contested crawling accusation between two companies"
+    },
+    {
+      "id": "discourse-004",
+      "page": "discourse",
+      "confidence": 0.85,
+      "company_slugs": ["anthropic"],
+      "rationale": "landmark copyright settlement fight approved"
+    },
+    {
+      "id": "discourse-005",
+      "page": "discourse",
+      "confidence": 0.9,
+      "company_slugs": [],
+      "rationale": "viral critique — one side of the week's big industry argument"
+    },
+    {
+      "id": "discourse-006",
+      "page": "discourse",
+      "confidence": 0.75,
+      "company_slugs": [],
+      "rationale": "contested bubble-size claim carried across press"
+    },
+    {
+      "id": "discourse-007",
+      "page": "discourse",
+      "confidence": 0.85,
+      "company_slugs": ["anthropic"],
+      "rationale": "developer anger over obscured agent actions"
+    },
+    {
+      "id": "discourse-008",
+      "page": "discourse",
+      "confidence": 0.85,
+      "company_slugs": ["xai"],
+      "rationale": "bias controversy over Grok consulting Musk's posts"
+    },
+    {
+      "id": "discourse-009",
+      "page": "discourse",
+      "confidence": 0.75,
+      "company_slugs": [],
+      "rationale": "contested workforce-replacement estimate"
+    },
+    {
+      "id": "discourse-010",
+      "page": "discourse",
+      "confidence": 0.85,
+      "company_slugs": ["nvidia", "arm"],
+      "rationale": "regulatory lawsuit over the chip acquisition"
+    },
+    {
+      "id": "unsorted-001",
+      "page": "unsorted",
+      "confidence": 0.95,
+      "company_slugs": [],
+      "rationale": "non-AI software release"
+    },
+    {
+      "id": "unsorted-002",
+      "page": "unsorted",
+      "confidence": 0.95,
+      "company_slugs": [],
+      "rationale": "database release, not AI news"
+    },
+    {
+      "id": "unsorted-003",
+      "page": "unsorted",
+      "confidence": 0.95,
+      "company_slugs": [],
+      "rationale": "language release, not AI news"
+    },
+    {
+      "id": "unsorted-004",
+      "page": "unsorted",
+      "confidence": 0.85,
+      "company_slugs": ["framework"],
+      "rationale": "non-AI hardware funding round"
+    },
+    {
+      "id": "unsorted-005",
+      "page": "unsorted",
+      "confidence": 0.85,
+      "company_slugs": ["nike"],
+      "rationale": "index event on a non-AI, non-basket name"
+    },
+    {
+      "id": "unsorted-006",
+      "page": "unsorted",
+      "confidence": 0.9,
+      "company_slugs": [],
+      "rationale": "celebrity quip, no news substance"
+    },
+    {
+      "id": "unsorted-007",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "policy announcement without a live two-sided debate"
+    },
+    {
+      "id": "unsorted-008",
+      "page": "unsorted",
+      "confidence": 0.95,
+      "company_slugs": [],
+      "rationale": "cloud infrastructure release, not AI news"
+    },
+    {
+      "id": "unsorted-009",
+      "page": "unsorted",
+      "confidence": 0.85,
+      "company_slugs": ["apple"],
+      "rationale": "market milestone on a name outside the AI basket"
+    },
+    {
+      "id": "unsorted-010",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": ["tesla"],
+      "rationale": "non-basket stock story with opinion framing"
+    },
+    {
+      "id": "unsorted-011",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": ["broadcom", "vmware"],
+      "rationale": "enterprise-software acquisition, not an AI deal"
+    },
+    {
+      "id": "unsorted-012",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": ["tsmc"],
+      "rationale": "semiconductor fab JV, not AI news"
+    },
+    {
+      "id": "unsorted-013",
+      "page": "unsorted",
+      "confidence": 0.95,
+      "company_slugs": [],
+      "rationale": "community discussion question, not a reportable item"
+    }
+  ]
+}

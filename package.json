@@ -14,6 +14,7 @@
     "lint": "eslint .",
     "test": "vitest run",
     "ingest": "tsx scripts/ingest.mts",
+    "classify:harness": "tsx scripts/classify-harness.mts",
     "schema:types": "tsx scripts/schema-codegen.mts",
     "schema:validate": "tsx scripts/schema-validate.mts",
     "provenance:check": "node scripts/provenance-check.mjs",

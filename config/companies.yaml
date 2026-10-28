@@ -119,3 +119,92 @@ companies:
     name: Hugging Face
     aliases: [HF]
     domain: huggingface.co
+
+  # --- AI-week actors tagged by the classification set (P4 coverage) --------
+  # The C3 labelled set classifies stories about these companies; per
+  # testdata/classification/README.md the registry must cover its slug union.
+  # Note `google`/`alibaba`/`mistral`/`moonshot` are NOT separate entries —
+  # they resolve to alphabet/alibaba-qwen/mistral-ai/moonshot-ai through
+  # aliases at classify time (one canonical slug per entity).
+  - slug: apple
+    name: Apple
+    aliases: [AAPL]
+    domain: apple.com
+    ticker: AAPL
+  - slug: anysphere
+    name: Anysphere (Cursor)
+    aliases: [Cursor]
+    domain: cursor.com
+  - slug: asml
+    name: ASML
+    aliases: []
+    domain: asml.com
+    ticker: ASML
+  - slug: cloudflare
+    name: Cloudflare
+    aliases: [NET]
+    domain: cloudflare.com
+    ticker: NET
+  - slug: cognition
+    name: Cognition AI
+    aliases: [Devin, Cognition]
+    domain: cognition.ai
+  - slug: coreweave
+    name: CoreWeave
+    aliases: []
+    domain: coreweave.com
+    ticker: CRWV
+  - slug: figure
+    name: Figure AI
+    aliases: [Figure]
+    domain: figure.ai
+  - slug: framework
+    name: Framework Computer
+    aliases: [Framework]
+    domain: frame.work
+  - slug: intel
+    name: Intel
+    aliases: [INTC]
+    domain: intel.com
+    ticker: INTC
+  - slug: nike
+    name: Nike
+    aliases: [NKE]
+    domain: nike.com
+    ticker: NKE
+  - slug: oracle
+    name: Oracle
+    aliases: [ORCL]
+    domain: oracle.com
+    ticker: ORCL
+  - slug: perplexity
+    name: Perplexity AI
+    aliases: [Perplexity]
+    domain: perplexity.ai
+  - slug: softbank
+    name: SoftBank Group
+    aliases: [SoftBank, SFTBY]
+    domain: group.softbank
+    ticker: 9984.T
+  - slug: spacex
+    name: SpaceX
+    aliases: []
+    domain: spacex.com
+  - slug: tesla
+    name: Tesla
+    aliases: [TSLA]
+    domain: tesla.com
+    ticker: TSLA
+  - slug: thinking-machines
+    name: Thinking Machines Lab
+    aliases: ["Thinking Machines", TML]
+    domain: thinkingmachines.ai
+  - slug: vmware
+    name: VMware
+    aliases: []
+    domain: vmware.com
+    ticker: AVGO
+  - slug: windsurf
+    name: Windsurf
+    aliases: [Codeium, "Windsurf Editor"]
+    domain: windsurf.com

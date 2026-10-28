@@ -46,9 +46,11 @@ cover, briefing, most_covered, back_page are never valid labels:
 1. Classify by substance, not by the presence of the word "AI".
 2. Emit `confidence` in [0, 1]. If confidence < 0.7, the label **must** be
    `unsorted` (the stage also enforces this in code).
-3. `company_slugs` ⊆ `{{COMPANIES_YAML}}` slugs. Tag every registry company the
-   item is materially about; omit everyone else. If an item's substance is a
-   company absent from the registry, label it `unsorted` — never mint a slug.
+3. `company_slugs` ⊆ the registry slugs listed under `## Company registry`.
+   Tag every registry company the item is materially about; omit everyone
+   else. If an item's substance is a company absent from the registry, label
+   it `unsorted` — never mint a slug. Emit slugs, names, or aliases — the
+   stage resolves them to canonical slugs.
 4. `discourse` requires a contested public debate; expect ≥ 2 publishers in the
    cluster. A lone press release or settled announcement is not discourse.
 5. `markets` is only for listed basket names / AI pure plays.
@@ -63,7 +65,7 @@ cover, briefing, most_covered, back_page are never valid labels:
   "week": "{{WEEK_ID}}",
   "prompt_version": 1,
   "style_rev": "{{STYLE_MD_GIT_SHA}}",
-  "companies": "{{COMPANIES_YAML}}",
+  "companies": [{ "slug": "openai", "name": "OpenAI", "aliases": [] }],
   "items": [
     {
       "id": "cl-0001",
@@ -78,6 +80,10 @@ cover, briefing, most_covered, back_page are never valid labels:
   ]
 }
 ```
+
+`id` is the cluster's own id — echo it verbatim. `companies` is the registry
+projected to `slug`/`name`/`aliases`; `source_count` + `publishers` carry the
+cluster's distinct-publisher count (the discourse corroboration signal).
 
 ## Response format (`classification.response.json`)
 
@@ -98,6 +104,10 @@ cover, briefing, most_covered, back_page are never valid labels:
 
 Every request `id` appears exactly once in `items`; no extras, no drops.
 Temperature 0; output is only this JSON object.
+
+## Company registry
+
+{{COMPANIES_YAML}}
 
 ## Input
 

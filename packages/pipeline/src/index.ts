@@ -127,6 +127,48 @@ export {
   type WeightLookup,
 } from "./stages/rank.js";
 
+// P4 — classify stage (PLAN §5.2; judgement via the llm() seam)
+export {
+  applyClassification,
+  buildClassificationRequest,
+  buildCompanyResolver,
+  type ClassificationCompanyRef,
+  ClassificationContractError,
+  type ClassificationRequest,
+  type ClassificationRequestItem,
+  type ClassificationResponse,
+  type ClassifiedCluster,
+  type ClassifiedItem,
+  classify,
+  CLASSIFY_CONFIDENCE_THRESHOLD,
+  CLASSIFY_PAGE_IDS,
+  CLASSIFY_PROMPT_VERSION,
+  type ClassifyOptions,
+  type ClassifyPage,
+  clusterPublishers,
+  companyKey,
+  type ItemClassification,
+  type ItemPage,
+  renderClassifyPrompt,
+  resolveCompanySlug,
+  UNSORTED,
+} from "./stages/classify.js";
+
+// P4 — the llm() seam: session hand-off files + deterministic replay (PLAN §8)
+export {
+  CLASSIFY_PROMPT_PATH,
+  classificationPaths,
+  createReplayLlm,
+  createReplayLlmFromFile,
+  createSessionLlm,
+  type Llm,
+  readClassificationResponse,
+  SESSION_LLM_POLL_MS,
+  SESSION_LLM_TIMEOUT_MS,
+  type SessionLlmOptions,
+  writeClassificationRequest,
+} from "./llm.js";
+
 // A4 — SEC EDGAR adapter (Form D / S-1 / 8-K; funding + deals pages)
 export {
   createSecEdgarAdapter,
