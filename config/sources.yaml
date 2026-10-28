@@ -388,42 +388,51 @@ sources:
     rate_limit: "PH API limits; disabled by default"
     enabled: false
   # --- newsroom RSS (adapter A3: newsrooms.ts); headline+link only everywhere
+  # Live-verified 2026-10-28 with the project UA — see PR/issue A3 notes.
   - id: techcrunch-ai
     pages: [launches, deals, discourse]
     tier: primary
     adapter: newsroom-rss
     endpoint: https://techcrunch.com/category/artificial-intelligence/feed/
     kind: rss
-    license: "Public RSS; headline, link, timestamps, ≤300-char excerpt only — never bodies."
+    license: "Public RSS (HTTP 200, verified 2026-10-28). Store headline, link, timestamps, feed categories, ≤300-char excerpt — never bodies."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "TechCrunch"
   - id: theverge-ai
     pages: [launches, deals, discourse]
     tier: primary
     adapter: newsroom-rss
     endpoint: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
-    kind: rss
-    license: "Public RSS; headline, link, timestamps, ≤300-char excerpt only — never bodies."
+    kind: atom
+    license: "Public Atom feed (HTTP 200, verified 2026-10-28; entry is Atom, not RSS). Store headline, link, timestamps, category terms, ≤300-char excerpt — never bodies."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "The Verge"
   - id: ars-ai
     pages: [launches, deals, discourse]
     tier: primary
     adapter: newsroom-rss
     endpoint: https://arstechnica.com/tag/artificial-intelligence/feed/
     kind: rss
-    license: "Public RSS; headline, link, timestamps, ≤300-char excerpt only — never bodies."
+    license: "Public RSS (HTTP 200, verified 2026-10-28). Store headline, link, timestamps, feed categories, ≤300-char excerpt — never bodies."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Ars Technica"
   - id: mit-tr-ai
     pages: [launches, deals, discourse]
     tier: primary
     adapter: newsroom-rss
     endpoint: https://www.technologyreview.com/topic/artificial-intelligence/feed/
     kind: rss
-    license: "Public topic RSS; headline, link, timestamps, ≤300-char excerpt only."
+    license: "Public topic RSS (HTTP 200, verified 2026-10-28; some items ship empty descriptions — excerpt falls back to headline). Headline, link, timestamps, categories, ≤300-char excerpt only."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "MIT Technology Review"
   - id: reuters-tech
     pages: [launches, deals, discourse]
     tier: primary
@@ -431,19 +440,22 @@ sources:
     endpoint: https://www.reuters.com/technology/
     kind: html-index
     mode: link
-    license: "Public RSS retired; index-page headlines + links only (A3 verifies what is reachable)."
+    license: "No public RSS: feeds.reuters.com retired (NXDOMAIN), Reuters Agency + arc outboundfeeds 404. Index page returns HTTP 401 DataDome JS challenge to datacenter UAs (verified 2026-10-28). Stays enabled — adapter degrades gracefully and emits JSON-LD headlines+links only if reachable."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Reuters"
   - id: bloomberg-tech
     pages: [launches, deals, discourse]
     tier: primary
     adapter: newsroom-rss
-    endpoint: https://www.bloomberg.com/technology
-    kind: html-index
-    mode: link
-    license: "Paywalled, no public RSS; headline+link discovery only — never bodies (§5.1)."
+    endpoint: https://www.bloomberg.com/feeds/technology/news.rss
+    kind: rss
+    license: "Public RSS at feeds/technology/news.rss (HTTP 200, verified 2026-10-28; feeds.bloomberg.com 301s here; www.bloomberg.com/technology itself 403s). Headline, link, timestamps, ≤300-char excerpt only — never bodies (§5.1)."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Bloomberg"
 
   # =========================================================================
   # Funding + Deals — SEC EDGAR (A4), press wires (A5)
