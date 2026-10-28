@@ -1,0 +1,31 @@
+{
+  "basket": [
+    { "ticker": "NVDA", "name": "NVIDIA", "role": "core" },
+    { "ticker": "MSFT", "name": "Microsoft", "role": "core" },
+    { "ticker": "GOOGL", "name": "Alphabet", "role": "core" },
+    { "ticker": "META", "name": "Meta", "role": "core" },
+    { "ticker": "AMZN", "name": "Amazon", "role": "core" },
+    { "ticker": "AMD", "name": "AMD", "role": "core" },
+    { "ticker": "TSM", "name": "TSMC", "role": "core" },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "role": "pure-play",
+      "rationale": "Custom AI accelerators (XPU) + datacenter networking — the cleanest public proxy for hyperscaler AI capex beyond NVIDIA."
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "role": "pure-play",
+      "rationale": "Pure-play AI software demand signal — counterweights the basket's hardware tilt on the application side."
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm",
+      "role": "pure-play",
+      "rationale": "The CPU IP layer under nearly every AI device and an increasing share of AI datacenter silicon (Neoverse)."
+    }
+  ],
+  "provider": "stooq-weekly",
+  "provider_priority": ["stooq-weekly", "alpha-vantage", "finnhub", "twelve-data"]
+}

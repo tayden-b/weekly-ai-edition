@@ -1,0 +1,121 @@
+# config/companies.yaml — the company registry (PLAN §5.3).
+#
+# Company tags on edition items MUST resolve to a slug here; an unknown
+# company goes to `unsorted`, never auto-added. Seed set: the Markets
+# basket + the major AI labs + their parents.
+#
+# Entry schema (enforced by packages/pipeline/src/config.ts):
+#   slug     lowercase slug — the tag value, e.g. "openai"
+#   name     display name
+#   aliases  other names/spans that map to this slug (optional)
+#   domain   primary domain (optional; aids entity resolution)
+#   ticker   public ticker if listed (optional; labs under parents carry the
+#            parent's ticker so Markets ↔ lab linkage is explicit)
+
+companies:
+  # --- Markets basket -------------------------------------------------------
+  - slug: nvidia
+    name: NVIDIA
+    aliases: [NVDA]
+    domain: nvidia.com
+    ticker: NVDA
+  - slug: microsoft
+    name: Microsoft
+    aliases: [MSFT]
+    domain: microsoft.com
+    ticker: MSFT
+  - slug: alphabet
+    name: Alphabet (Google)
+    aliases: [Google, Alphabet, GOOGL, GOOG]
+    domain: abc.xyz
+    ticker: GOOGL
+  - slug: meta
+    name: Meta
+    aliases: [Facebook, META]
+    domain: meta.com
+    ticker: META
+  - slug: amazon
+    name: Amazon
+    aliases: [AMZN, AWS]
+    domain: amazon.com
+    ticker: AMZN
+  - slug: amd
+    name: AMD
+    aliases: ["Advanced Micro Devices"]
+    domain: amd.com
+    ticker: AMD
+  - slug: tsmc
+    name: TSMC
+    aliases: [TSM, "Taiwan Semiconductor"]
+    domain: tsmc.com
+    ticker: TSM
+  - slug: broadcom
+    name: Broadcom
+    aliases: [AVGO]
+    domain: broadcom.com
+    ticker: AVGO
+  - slug: palantir
+    name: Palantir
+    aliases: [PLTR]
+    domain: palantir.com
+    ticker: PLTR
+  - slug: arm
+    name: Arm
+    aliases: [ARM, "Arm Holdings"]
+    domain: arm.com
+    ticker: ARM
+
+  # --- Major AI labs (private unless noted; parent ticker where owned) -----
+  - slug: openai
+    name: OpenAI
+    aliases: []
+    domain: openai.com
+  - slug: anthropic
+    name: Anthropic
+    aliases: []
+    domain: anthropic.com
+  - slug: google-deepmind
+    name: Google DeepMind
+    aliases: [DeepMind]
+    domain: deepmind.google
+    ticker: GOOGL
+  - slug: meta-ai
+    name: Meta AI
+    aliases: [FAIR, Llama]
+    domain: ai.meta.com
+    ticker: META
+  - slug: mistral-ai
+    name: Mistral AI
+    aliases: [Mistral]
+    domain: mistral.ai
+  - slug: xai
+    name: xAI
+    aliases: [Grok, "X.AI"]
+    domain: x.ai
+  - slug: microsoft-research
+    name: Microsoft Research
+    aliases: [MSR]
+    domain: microsoft.com
+    ticker: MSFT
+  - slug: amazon-science
+    name: Amazon Science
+    aliases: ["Amazon AI"]
+    domain: amazon.science
+    ticker: AMZN
+  - slug: moonshot-ai
+    name: Moonshot AI
+    aliases: [Kimi, Moonshot]
+    domain: moonshot.ai
+  - slug: deepseek
+    name: DeepSeek
+    aliases: ["High-Flyer AI"]
+    domain: deepseek.com
+  - slug: alibaba-qwen
+    name: Alibaba Qwen
+    aliases: [Qwen, Tongyi, Alibaba]
+    domain: qwen.ai
+    ticker: BABA
+  - slug: hugging-face
+    name: Hugging Face
+    aliases: [HF]
+    domain: huggingface.co

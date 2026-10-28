@@ -1,0 +1,585 @@
+# config/sources.yaml — the PLAN §5.1 verified-source table as data.
+#
+# ONE ENTRY PER PUBLISHER SOURCE. A-items (adapters) add entries, never
+# reshape this schema. If a field is missing for a source, the narrowest
+# sane value goes in `meta`, not a new top-level field.
+#
+# Entry schema (enforced by packages/pipeline/src/config.ts):
+#   id         unique slug, e.g. "openai-news"
+#   pages      template pages this source feeds (slugs: models, performance,
+#              launches, funding, deals, markets, discourse; derived pages —
+#              cover, briefing, most_covered, back_page — take no sources)
+#   tier       primary | secondary   (secondary = corroboration only)
+#   adapter    adapter implementation id → src/sources/<adapter>.ts
+#   endpoint   feed/API/index URL the adapter fetches
+#   kind       rss | atom | json-api | graphql | csv | sitemap | html-index
+#   license    licence/ToS note: posture + exactly what we store
+#   rate_limit courtesy limit the adapter honours
+#   enabled    ingest may use it (false = documented-off, never a failure)
+#   mode       data | link  (optional; "link" = headline+link only, ToS-doubtful)
+#   meta       adapter-specific config: repos, orgs, subreddits, filter terms
+#
+# Universal storage rule (§5.1): headline, canonical URL, publisher,
+# published_at, fetched_at, excerpt ≤300 chars, source ids — NEVER bodies.
+# UA: weekly-ai-edition/<ver> (+https://github.com/tayden-b/weekly-ai-edition).
+
+sources:
+  # =========================================================================
+  # Models & Releases — lab blogs (adapter A1: lab-blogs.ts)
+  # Where no feed exists the entry records the sitemap/html-index decision.
+  # =========================================================================
+  - id: openai-news
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://openai.com/news/rss.xml
+    kind: rss
+    license: "Public blog RSS. Store headline, link, timestamps, ≤300-char excerpt."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: anthropic-news
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://www.anthropic.com/sitemap.xml
+    kind: sitemap
+    license: "No public RSS found (verified 2026-10); sitemap discovery, headline+link only."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: google-deepmind-blog
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://deepmind.google/blog/rss.xml
+    kind: rss
+    license: "Public blog RSS. Headline, link, timestamps, ≤300-char excerpt."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: google-ai-blog
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://blog.google/innovation-and-ai/technology/ai/rss/
+    kind: rss
+    license: "Public Google AI blog RSS. Headline, link, timestamps, ≤300-char excerpt."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: meta-ai-blog
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://ai.meta.com/blog/
+    kind: html-index
+    license: "No public RSS (verified 2026-10); blog index page discovery, headline+link only."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: mistral-news
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://mistral.ai/sitemap.xml
+    kind: sitemap
+    license: "No public RSS found; sitemap discovery, headline+link only."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: xai-news
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://x.ai/news
+    kind: html-index
+    license: "No RSS/sitemap reachable (Cloudflare-gated 2026-10); index page, headline+link only."
+    rate_limit: "≤1 req/s courtesy; back off on 403"
+    enabled: true
+  - id: microsoft-research-blog
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://www.microsoft.com/en-us/research/feed/
+    kind: rss
+    license: "Public research feed. Headline, link, timestamps, ≤300-char excerpt."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: amazon-science-blog
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://www.amazon.science/index.rss
+    kind: rss
+    license: "Public Amazon Science RSS. Headline, link, timestamps, ≤300-char excerpt."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: moonshot-news
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://www.moonshot.cn/news
+    kind: html-index
+    license: "No RSS; news index page (CN site, EN content at moonshot.ai redirects). Headline+link only."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: deepseek-news
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://api-docs.deepseek.com/news/
+    kind: json-api
+    license: "Date-stamped public news JSON (e.g. news250825.json). Headline, link, timestamps."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      url_pattern: "news{yymmdd}.json"
+  - id: qwen-blog
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://qwenlm.github.io/blog/
+    kind: html-index
+    license: "No RSS/Atom found (verified 2026-10); GitHub Pages blog index, headline+link only."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: huggingface-blog
+    pages: [models]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://huggingface.co/blog/feed.xml
+    kind: rss
+    license: "Public HF blog RSS. Headline, link, timestamps, ≤300-char excerpt."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+
+  # --- HF Hub model repos (adapter A6: hf-hub.ts) --------------------------
+  - id: hf-hub-models
+    pages: [models]
+    tier: primary
+    adapter: hf-hub
+    endpoint: https://huggingface.co/api/models
+    kind: json-api
+    license: "Public HF Hub API. Store model id, author, createdAt — no weights/configs."
+    rate_limit: "HF API courtesy; paginate gently, ≤1 req/s"
+    enabled: true
+    meta:
+      orgs: [meta-llama, google, microsoft, mistralai, Qwen, deepseek-ai, moonshotai, xai-org, openai, amazon, NVIDIA]
+
+  # --- GitHub Releases, flagship OSS (adapter A6: github-releases.ts) ------
+  - id: gh-vllm
+    pages: [models]
+    tier: primary
+    adapter: github-releases
+    endpoint: https://api.github.com/repos/vllm-project/vllm/releases
+    kind: json-api
+    license: "GitHub REST, unauthenticated rate limits apply. Store tag, notes excerpt ≤300."
+    rate_limit: "60 req/hr unauthenticated; conditional requests via ETag"
+    enabled: true
+  - id: gh-llama-cpp
+    pages: [models]
+    tier: primary
+    adapter: github-releases
+    endpoint: https://api.github.com/repos/ggml-org/llama.cpp/releases
+    kind: json-api
+    license: "GitHub REST, unauthenticated rate limits apply. Store tag, notes excerpt ≤300."
+    rate_limit: "60 req/hr unauthenticated; conditional requests via ETag"
+    enabled: true
+  - id: gh-ollama
+    pages: [models]
+    tier: primary
+    adapter: github-releases
+    endpoint: https://api.github.com/repos/ollama/ollama/releases
+    kind: json-api
+    license: "GitHub REST, unauthenticated rate limits apply. Store tag, notes excerpt ≤300."
+    rate_limit: "60 req/hr unauthenticated; conditional requests via ETag"
+    enabled: true
+  - id: gh-langchain
+    pages: [models]
+    tier: primary
+    adapter: github-releases
+    endpoint: https://api.github.com/repos/langchain-ai/langchain/releases
+    kind: json-api
+    license: "GitHub REST, unauthenticated rate limits apply. Store tag, notes excerpt ≤300."
+    rate_limit: "60 req/hr unauthenticated; conditional requests via ETag"
+    enabled: true
+  - id: gh-transformers
+    pages: [models]
+    tier: primary
+    adapter: github-releases
+    endpoint: https://api.github.com/repos/huggingface/transformers/releases
+    kind: json-api
+    license: "GitHub REST, unauthenticated rate limits apply. Store tag, notes excerpt ≤300."
+    rate_limit: "60 req/hr unauthenticated; conditional requests via ETag"
+    enabled: true
+
+  # =========================================================================
+  # Performance (adapter A7: benchmarks.ts + arxiv.ts)
+  # mode: data = publisher's own numbers stored; link = headline+link only.
+  # =========================================================================
+  - id: lmarena-leaderboard
+    pages: [performance]
+    tier: primary
+    adapter: benchmarks
+    endpoint: https://lmarena.ai/leaderboard
+    kind: json-api
+    mode: link
+    license: "Cloudflare-gated to datacenter UAs (verified 2026-10); link-only unless A7 finds a stable data endpoint."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: artificial-analysis
+    pages: [performance]
+    tier: primary
+    adapter: benchmarks
+    endpoint: https://artificialanalysis.ai/
+    kind: json-api
+    mode: data
+    license: "Publishes public model intelligence data; store reported values + URL. A7 confirms endpoint."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: hf-open-llm-leaderboard
+    pages: [performance]
+    tier: primary
+    adapter: benchmarks
+    endpoint: https://huggingface.co/api/leaderboards
+    kind: json-api
+    mode: link
+    license: "HF leaderboard API; v1 retired — A7 verifies current endpoint, link-mode until confirmed."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: swe-bench
+    pages: [performance]
+    tier: primary
+    adapter: benchmarks
+    endpoint: https://www.swebench.com/
+    kind: html-index
+    mode: link
+    license: "Leaderboard site; results also in swebench/experiments repo. Link-mode until A7 confirms data path."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: arc-prize-leaderboard
+    pages: [performance]
+    tier: primary
+    adapter: benchmarks
+    endpoint: https://arcprize.org/leaderboard
+    kind: html-index
+    mode: link
+    license: "Leaderboard page; no documented data API. Link-mode."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: epoch-ai-data
+    pages: [performance]
+    tier: primary
+    adapter: benchmarks
+    endpoint: https://epoch.ai/data
+    kind: html-index
+    mode: link
+    license: "Publishes datasets/CSV downloads; per-dataset terms vary — link-mode until A7 confirms."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: arxiv-lab-papers
+    pages: [performance]
+    tier: primary
+    adapter: arxiv
+    endpoint: https://export.arxiv.org/api/query
+    kind: atom
+    mode: data
+    license: "arXiv API ToU: free for non-commercial, identify via UA, bulk via Kaggle. Abstract excerpt ≤300 chars."
+    rate_limit: "≤1 req / 3s (arXiv ToU)"
+    enabled: true
+    meta:
+      search_orgs: [OpenAI, Anthropic, "Google DeepMind", "Meta AI", "Microsoft Research", "DeepSeek", "Mistral AI", "Qwen"]
+
+  # =========================================================================
+  # Launches — HN Algolia (A2), Product Hunt (A6), newsrooms (A3)
+  # =========================================================================
+  - id: hn-algolia
+    pages: [launches, discourse]
+    tier: primary
+    adapter: hn-algolia
+    endpoint: https://hn.algolia.com/api/v1/search
+    kind: json-api
+    license: "HN Algolia API, free, no key. Store objectID, title, url, points, num_comments."
+    rate_limit: "Algolia free tier; ≤1 req/s courtesy"
+    enabled: true
+    meta:
+      endpoints: [search, search_by_date]
+      tags: [front_page, show_hn]
+      # AI filter terms — the taxonomy lands with C3; A2 fills this list from it.
+      ai_terms: []
+  - id: product-hunt
+    pages: [launches]
+    tier: primary
+    adapter: product-hunt
+    endpoint: https://api.producthunt.com/v2/api/graphql
+    kind: graphql
+    license: "PH GraphQL API needs a free token. No secrets exist — DISABLED until PRODUCT_HUNT_TOKEN is provided via env (A6)."
+    rate_limit: "PH API limits; disabled by default"
+    enabled: false
+  # --- newsroom RSS (adapter A3: newsrooms.ts); headline+link only everywhere
+  - id: techcrunch-ai
+    pages: [launches, deals, discourse]
+    tier: primary
+    adapter: newsroom-rss
+    endpoint: https://techcrunch.com/category/artificial-intelligence/feed/
+    kind: rss
+    license: "Public RSS; headline, link, timestamps, ≤300-char excerpt only — never bodies."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: theverge-ai
+    pages: [launches, deals, discourse]
+    tier: primary
+    adapter: newsroom-rss
+    endpoint: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    kind: rss
+    license: "Public RSS; headline, link, timestamps, ≤300-char excerpt only — never bodies."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: ars-ai
+    pages: [launches, deals, discourse]
+    tier: primary
+    adapter: newsroom-rss
+    endpoint: https://arstechnica.com/tag/artificial-intelligence/feed/
+    kind: rss
+    license: "Public RSS; headline, link, timestamps, ≤300-char excerpt only — never bodies."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: mit-tr-ai
+    pages: [launches, deals, discourse]
+    tier: primary
+    adapter: newsroom-rss
+    endpoint: https://www.technologyreview.com/topic/artificial-intelligence/feed/
+    kind: rss
+    license: "Public topic RSS; headline, link, timestamps, ≤300-char excerpt only."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: reuters-tech
+    pages: [launches, deals, discourse]
+    tier: primary
+    adapter: newsroom-rss
+    endpoint: https://www.reuters.com/technology/
+    kind: html-index
+    mode: link
+    license: "Public RSS retired; index-page headlines + links only (A3 verifies what is reachable)."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: bloomberg-tech
+    pages: [launches, deals, discourse]
+    tier: primary
+    adapter: newsroom-rss
+    endpoint: https://www.bloomberg.com/technology
+    kind: html-index
+    mode: link
+    license: "Paywalled, no public RSS; headline+link discovery only — never bodies (§5.1)."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+
+  # =========================================================================
+  # Funding + Deals — SEC EDGAR (A4), press wires (A5)
+  # =========================================================================
+  - id: sec-edgar-fts
+    pages: [funding, deals]
+    tier: primary
+    adapter: sec-edgar
+    endpoint: https://efts.sec.gov/LATEST/search-index
+    kind: json-api
+    license: "Official SEC data, public domain. Fair-access rules: declared UA 'Name email', ≤10 req/s. Store accession no., form, filer."
+    rate_limit: "≤10 req/s (SEC fair access)"
+    enabled: true
+    meta:
+      forms: [D, S-1, 8-K]
+      # A4: 8-K Item 1.01/2.01 for Deals; full-text search over filing text.
+      items_8k: ["1.01", "2.01"]
+  - id: sec-edgar-current-feed
+    pages: [funding, deals]
+    tier: primary
+    adapter: sec-edgar
+    endpoint: https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=D&dateb=&owner=include&count=40&output=atom
+    kind: atom
+    license: "Official SEC current-filings Atom feed. Same fair-access UA + rate rules as efts."
+    rate_limit: "≤10 req/s (SEC fair access)"
+    enabled: true
+  # --- press wires + funding feeds (adapter A5: press-wires.ts) ------------
+  - id: pr-newswire
+    pages: [funding, deals]
+    tier: primary
+    adapter: press-wire-rss
+    endpoint: https://www.prnewswire.com/rss/news-releases-list.rss
+    kind: rss
+    license: "Press-release wire RSS; headline+link+≤300-char excerpt (release body never stored). AI+funding filter in meta."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      filter_terms: [artificial intelligence, AI, funding, round, acquisition, merger]
+  - id: business-wire
+    pages: [funding, deals]
+    tier: primary
+    adapter: press-wire-rss
+    endpoint: https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVpRXQ==
+    kind: rss
+    license: "Press-release wire RSS; headline+link+≤300-char excerpt only."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      filter_terms: [artificial intelligence, AI, funding, round, acquisition, merger]
+  - id: globenewswire
+    pages: [funding, deals]
+    tier: primary
+    adapter: press-wire-rss
+    endpoint: https://www.globenewswire.com/RssFeed/subjectcode/1000-Productivity/Releases
+    kind: rss
+    license: "Subject-code RSS; headline+link+≤300-char excerpt only. 403s to datacenter UAs seen 2026-10 — A5 re-verifies."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      filter_terms: [artificial intelligence, AI, funding, round, acquisition, merger]
+  - id: techcrunch-funding
+    pages: [funding]
+    tier: primary
+    adapter: press-wire-rss
+    endpoint: https://techcrunch.com/tag/funding/feed/
+    kind: rss
+    license: "Public RSS; headline, link, timestamps, ≤300-char excerpt only."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: axios-pro-rata
+    pages: [funding]
+    tier: primary
+    adapter: press-wire-rss
+    endpoint: https://www.axios.com/pro/pro-rata/feed
+    kind: rss
+    mode: link
+    license: "Pro Rata deal-news feed; 403 to datacenter UAs (verified 2026-10) — A5 re-verifies, link-mode fallback."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: crunchbase-news
+    pages: [funding]
+    tier: primary
+    adapter: press-wire-rss
+    endpoint: https://news.crunchbase.com/feed/
+    kind: rss
+    license: "Crunchbase *News* RSS only — never the database (§5.1). Headline, link, ≤300-char excerpt."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  # --- corroboration headlines (tier: secondary) ----------------------------
+  - id: ft-headlines
+    pages: [funding, deals]
+    tier: secondary
+    adapter: press-wire-rss
+    endpoint: https://www.ft.com/rss/home
+    kind: rss
+    mode: link
+    license: "FT RSS headline+link corroboration only (§5.1)."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: guardian-ai
+    pages: [funding, deals, discourse]
+    tier: secondary
+    adapter: press-wire-rss
+    endpoint: https://www.theguardian.com/technology/artificialintelligenceai/rss
+    kind: rss
+    license: "Guardian open licence RSS; headline, link, timestamps, ≤300-char excerpt."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: nyt-tech
+    pages: [funding, deals]
+    tier: secondary
+    adapter: press-wire-rss
+    endpoint: https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+    kind: rss
+    license: "NYT public RSS headline+link corroboration only (§5.1)."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+
+  # =========================================================================
+  # Markets (adapter A8: markets.ts) — provider order per PLAN §5.1
+  # =========================================================================
+  - id: stooq-weekly
+    pages: [markets]
+    tier: primary
+    adapter: markets
+    endpoint: https://stooq.com/q/d/l/
+    kind: csv
+    license: "Stooq free CSV, no key; weekly-close aggregates. Redistribution posture documented in A8 licence note."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      params: { i: w }
+  - id: alpha-vantage
+    pages: [markets]
+    tier: primary
+    adapter: markets
+    endpoint: https://www.alphavantage.co/query
+    kind: json-api
+    license: "Fallback #2 — needs a free API key; no secrets exist, so disabled until one is provided (A8)."
+    rate_limit: "25 req/day free tier"
+    enabled: false
+  - id: finnhub
+    pages: [markets]
+    tier: primary
+    adapter: markets
+    endpoint: https://finnhub.io/api/v1/stock/candle
+    kind: json-api
+    license: "Fallback #3 — needs a free API key; disabled until provided (A8)."
+    rate_limit: "30 req/s free tier (with key)"
+    enabled: false
+  - id: twelve-data
+    pages: [markets]
+    tier: primary
+    adapter: markets
+    endpoint: https://api.twelvedata.com/time_series
+    kind: json-api
+    license: "Fallback #4 — needs a free API key; disabled until provided (A8)."
+    rate_limit: "8 req/min free tier (with key)"
+    enabled: false
+
+  # =========================================================================
+  # Discourse — Reddit public JSON (adapter A9: reddit.ts)
+  # =========================================================================
+  - id: reddit-machinelearning
+    pages: [discourse]
+    tier: primary
+    adapter: reddit-json
+    endpoint: https://www.reddit.com/r/MachineLearning/top.json
+    kind: json-api
+    license: "Reddit public JSON listing; declared UA required; store post id, score, num_comments, permalink — never comment bodies."
+    rate_limit: "Reddit courtesy; cache; ≤1 req/s"
+    enabled: true
+    meta: { params: { t: week } }
+  - id: reddit-localllama
+    pages: [discourse]
+    tier: primary
+    adapter: reddit-json
+    endpoint: https://www.reddit.com/r/LocalLLaMA/top.json
+    kind: json-api
+    license: "Reddit public JSON listing; declared UA required; post id, score, num_comments, permalink only."
+    rate_limit: "Reddit courtesy; cache; ≤1 req/s"
+    enabled: true
+    meta: { params: { t: week } }
+  - id: reddit-artificial
+    pages: [discourse]
+    tier: primary
+    adapter: reddit-json
+    endpoint: https://www.reddit.com/r/artificial/top.json
+    kind: json-api
+    license: "Reddit public JSON listing; declared UA required; post id, score, num_comments, permalink only."
+    rate_limit: "Reddit courtesy; cache; ≤1 req/s"
+    enabled: true
+    meta: { params: { t: week } }
+
+  # =========================================================================
+  # Secondary — distribute.software (adapter A10: distribute.ts)
+  # =========================================================================
+  - id: distribute-releases
+    pages: [models]
+    tier: secondary
+    adapter: distribute-software
+    endpoint: https://distribute.software/api/v1/releases
+    kind: json-api
+    license: "Downstream consumer; canonical outbound URL where they link out. Corroboration/ranking only, never sole source."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+  - id: distribute-stories
+    pages: [launches]
+    tier: secondary
+    adapter: distribute-software
+    endpoint: https://distribute.software/api/v1/stories
+    kind: json-api
+    license: "Downstream consumer; canonical outbound URL where they link out. Secondary tier only."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
