@@ -385,6 +385,9 @@ sources:
       forms: [D, S-1, 8-K]
       # A4: 8-K Item 1.01/2.01 for Deals; full-text search over filing text.
       items_8k: ["1.01", "2.01"]
+      # AI filter terms — OR'd into the FTS `q`. Interim list until the C3
+      # taxonomy lands; same key as hn-algolia.meta.ai_terms (A2 shares it).
+      ai_terms: ["artificial intelligence", "machine learning", "large language model", "generative ai", "foundation model", "ai"]
   - id: sec-edgar-current-feed
     pages: [funding, deals]
     tier: primary
@@ -394,6 +397,11 @@ sources:
     license: "Official SEC current-filings Atom feed. Same fair-access UA + rate rules as efts."
     rate_limit: "≤10 req/s (SEC fair access)"
     enabled: true
+    meta:
+      forms: [D]
+      # The feed has no server-side query — the adapter word-matches these
+      # on the filer title/summary (same interim list as sec-edgar-fts).
+      ai_terms: ["artificial intelligence", "machine learning", "large language model", "generative ai", "foundation model", "ai"]
   # --- press wires + funding feeds (adapter A5: press-wires.ts) ------------
   - id: pr-newswire
     pages: [funding, deals]
