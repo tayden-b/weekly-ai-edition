@@ -81,3 +81,17 @@ export {
   FIXTURE_ADAPTER_ID,
   type FixtureAdapterOptions,
 } from "./sources/fixture.js";
+
+// A4 — SEC EDGAR adapter (Form D / S-1 / 8-K; funding + deals pages)
+export {
+  createSecEdgarAdapter,
+  DEFAULT_EDGAR_AI_TERMS,
+  DEFAULT_EDGAR_FORMS,
+  EDGAR_CONTACT,
+  EDGAR_PUBLISHER,
+  EDGAR_USER_AGENT,
+  edgarIndexUrl,
+  edgarUserAgent,
+  SEC_EDGAR_ADAPTER_ID,
+  type SecEdgarAdapterOptions,
+} from "./sources/sec-edgar.js";
