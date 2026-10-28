@@ -124,6 +124,7 @@ describe("§4 primitives render", () => {
           sources: [["Example Daily", 3]],
           madeLines: ["Made by agents."],
           issueId: "2026-w44",
+          links: [{ label: "custom.md", href: "/custom.md" }],
           copyright: "© 2026",
         }}
       />,
@@ -139,6 +140,29 @@ describe("§4 primitives render", () => {
       expect(out).toContain(cls);
     }
     expect(out).toContain("Most Covered");
+  });
+
+  it("FrontPage exposes jump-target ids and back-page agent links (V2)", () => {
+    const out = html(
+      <FrontPage
+        siteName="The Weekly AI Edition"
+        meta={meta}
+        cover={{ kicker: "№ 44", headline: "Big week", deck: "The deck." }}
+        briefing={["Lead."]}
+        sections={[]}
+        backPage={{
+          sources: [],
+          madeLines: [],
+          issueId: "2026-w44",
+          links: [{ label: "twin.md", href: "/2026-w44.md" }],
+          copyright: "© 2026",
+        }}
+      />,
+    );
+    for (const id of ["cover", "briefing", "back-page"]) {
+      expect(out).toContain(`id="${id}"`);
+    }
+    expect(out).toContain('href="/2026-w44.md"');
   });
 
   it("CoverImage typographic fallback + img", () => {
