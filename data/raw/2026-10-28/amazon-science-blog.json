@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "amazon-science-blog",
+  "fetched_at": "2026-10-28T19:44:16.751Z",
+  "items": [
+    {
+      "headline": "Better speech synthesis for audiobooks",
+      "canonical_url": "https://www.amazon.science/blog/better-speech-synthesis-for-audiobooks",
+      "publisher": "Amazon Science",
+      "published_at": "2026-10-23T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.792Z",
+      "excerpt": "“Controllable text to speech” makes speech more expressive, character voices more distinct and consistent.",
+      "source_ids": {
+        "guid": "https://www.amazon.science/blog/better-speech-synthesis-for-audiobooks"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "The science behind TorchNeuron, Amazon’s new PyTorch backend for AWS Trainium chips",
+      "canonical_url": "https://www.amazon.science/blog/the-science-behind-torchneuron-amazons-new-pytorch-backend-for-aws-trainium-chips",
+      "publisher": "Amazon Science",
+      "published_at": "2026-10-22T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.792Z",
+      "excerpt": "Runtime optimizations and a thorough evaluation process driven by agentic AI help ensure that models written in PyTorch will execute efficiently and reliably on Trainium systems.",
+      "source_ids": {
+        "guid": "https://www.amazon.science/blog/the-science-behind-torchneuron-amazons-new-pytorch-backend-for-aws-trainium-chips"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "adapter": "lab-blogs",
+  "source": "huggingface-blog",
+  "fetched_at": "2026-10-28T19:44:16.751Z",
+  "items": [
+    {
+      "headline": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "canonical_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.795Z",
+      "excerpt": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Build specialized multimodal models with LFM3",
+      "canonical_url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-27T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.795Z",
+      "excerpt": "Build specialized multimodal models with LFM3",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/LiquidAI/lfm3"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Can we trust LLMs to judge whether a research idea is novel?",
+      "canonical_url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-27T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.795Z",
+      "excerpt": "Can we trust LLMs to judge whether a research idea is novel?",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/allenai/novelty-bench"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Does Your Model Run on AWS Trainium? Look It Up",
+      "canonical_url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-23T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.795Z",
+      "excerpt": "Does Your Model Run on AWS Trainium? Look It Up",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/torch-neuronx-model-support"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "canonical_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-22T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.795Z",
+      "excerpt": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Ensemble forecasting with IBM Granite time-series models",
+      "canonical_url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-22T00:00:00.000Z",
+      "fetched_at": "2026-10-28T19:44:16.795Z",
+      "excerpt": "Ensemble forecasting with IBM Granite time-series models",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
