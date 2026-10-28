@@ -194,3 +194,25 @@ export {
   DISTRIBUTE_PUBLISHER,
   type DistributeAdapterOptions,
 } from "./sources/distribute.js";
+
+// A7 — benchmark publishers (Performance, PLAN §5.1)
+export {
+  BENCHMARK_SOURCES,
+  BENCHMARKS_ADAPTER_ID,
+  type BenchmarkSourceSpec,
+  type BenchmarksAdapterOptions,
+  createBenchmarksAdapter,
+  linkModeItem,
+  mapSwebenchPage,
+} from "./sources/benchmarks.js";
+
+// A7 — arXiv lab-org papers (Performance, PLAN §5.1)
+export {
+  ARXIV_ADAPTER_ID,
+  ARXIV_API_BASE,
+  ARXIV_CATEGORIES,
+  ARXIV_SEARCH_ORGS,
+  type ArxivAdapterOptions,
+  arxivIdOf,
+  createArxivAdapter,
+} from "./sources/arxiv.js";
