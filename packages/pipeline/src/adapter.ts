@@ -67,6 +67,8 @@ export interface RawItemEngagement {
   hn_points?: number;
   /** Reddit score (A9). */
   reddit_score?: number;
+  /** Reddit comment count (A9). */
+  reddit_comments?: number;
 }
 
 /**
@@ -96,6 +98,7 @@ export interface RawItem {
   hn_comments?: number;
   hn_points?: number;
   reddit_score?: number;
+  reddit_comments?: number;
 }
 
 /** Fetch window (inclusive bounds) passed to every adapter. */
@@ -250,7 +253,7 @@ export function validateRawItem(value: unknown): RawItem {
     }
   }
 
-  for (const field of ["hn_comments", "hn_points", "reddit_score"] as const) {
+  for (const field of ["hn_comments", "hn_points", "reddit_score", "reddit_comments"] as const) {
     const n = v[field];
     if (n !== undefined && (typeof n !== "number" || !Number.isFinite(n) || n < 0)) {
       fail(field, "must be a non-negative finite number when present");

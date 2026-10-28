@@ -135,3 +135,12 @@ export {
   HN_API_BASE,
   type HnAdapterOptions,
 } from "./sources/hn.js";
+
+// A9 — Reddit public listing JSON (discourse page)
+export {
+  createRedditAdapter,
+  REDDIT_ADAPTER_ID,
+  redditAdapterFromEntry,
+  type RedditAdapterOptions,
+  subredditFromEndpoint,
+} from "./sources/reddit-json.js";
