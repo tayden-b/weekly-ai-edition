@@ -1,0 +1,51 @@
+{
+  "responses": [
+    {
+      "url_contains": "api/graphql",
+      "status": 200,
+      "headers": { "content-type": "application/json" },
+      "body": {
+        "data": {
+          "posts": {
+            "pageInfo": { "hasNextPage": false, "endCursor": "NTA=" },
+            "edges": [
+              {
+                "node": {
+                  "id": "904101",
+                  "name": "Benchline AI",
+                  "tagline": "Evals for coding agents that run against your real repo",
+                  "createdAt": "2026-01-13T08:01:00.000Z",
+                  "url": "https://www.producthunt.com/posts/benchline-ai",
+                  "slug": "benchline-ai",
+                  "votesCount": 412
+                }
+              },
+              {
+                "node": {
+                  "id": "904102",
+                  "name": "Outlinr",
+                  "tagline": "Turns meeting transcripts into agent task lists",
+                  "createdAt": "2026-02-01T00:00:00.000Z",
+                  "url": "https://www.producthunt.com/posts/outlinr",
+                  "slug": "outlinr",
+                  "votesCount": 87
+                }
+              },
+              {
+                "node": {
+                  "id": 904103,
+                  "name": "Slugette",
+                  "tagline": null,
+                  "createdAt": "2026-01-14T19:45:00.000Z",
+                  "url": null,
+                  "slug": "slugette",
+                  "votesCount": 12
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

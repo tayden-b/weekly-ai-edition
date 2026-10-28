@@ -384,9 +384,11 @@ sources:
     adapter: product-hunt
     endpoint: https://api.producthunt.com/v2/api/graphql
     kind: graphql
-    license: "PH GraphQL API needs a free token. No secrets exist — DISABLED until PRODUCT_HUNT_TOKEN is provided via env (A6)."
+    license: "PH GraphQL API needs a free token. No secrets exist — DISABLED until PRODUCT_HUNT_TOKEN is provided via env (A6). Activates only when the env var is present; token is never committed."
     rate_limit: "PH API limits; disabled by default"
     enabled: false
+    meta:
+      topics: [artificial-intelligence]
   # --- newsroom RSS (adapter A3: newsrooms.ts); headline+link only everywhere
   - id: techcrunch-ai
     pages: [launches, deals, discourse]

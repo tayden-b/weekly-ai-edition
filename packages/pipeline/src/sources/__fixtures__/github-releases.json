@@ -1,0 +1,51 @@
+{
+  "responses": [
+    {
+      "url_contains": "api.github.com/repos/fixture-oss/launchbox/releases",
+      "status": 200,
+      "headers": { "content-type": "application/json" },
+      "body": [
+        {
+          "tag_name": "v2.4.0",
+          "name": "Launchbox v2.4.0 — speculative decode rewrite",
+          "html_url": "https://github.com/fixture-oss/launchbox/releases/tag/v2.4.0",
+          "published_at": "2026-01-12T18:30:00Z",
+          "created_at": "2026-01-12T18:20:00Z",
+          "draft": false,
+          "prerelease": false,
+          "body": "Launchbox v2.4.0 lands the speculative-decode rewrite: draft/target verify is now fused into the sampler loop, cutting decode latency ~30% on A100 and H100. This release also fixes the tokenizer round-trip regression from v2.3.2, bumps the minimum CUDA to 12.4, and adds per-request KV-cache offload hints. Full notes in the changelog; docker images are published as fixture-oss/launchbox:v2.4.0. Upgrade requires no config changes.\n\n## Highlights\n\n- Fused speculative decode in the sampler loop\n- Tokenizer round-trip regression fixed\n- CUDA 12.4 minimum\n\nAnything past this point only exists to push the recorded body well beyond the excerpt cap so truncation is exercised."
+        },
+        {
+          "tag_name": "v2.5.0-rc.1",
+          "name": "Launchbox v2.5.0-rc.1",
+          "html_url": "https://github.com/fixture-oss/launchbox/releases/tag/v2.5.0-rc.1",
+          "published_at": "2026-01-14T09:00:00Z",
+          "created_at": "2026-01-14T08:45:00Z",
+          "draft": false,
+          "prerelease": true,
+          "body": "Release candidate for v2.5.0: paged attention v2 behind the PAGED_ATTN flag."
+        },
+        {
+          "tag_name": "v2.6.0-wip",
+          "name": null,
+          "html_url": "https://github.com/fixture-oss/launchbox/releases/tag/untagged-wip",
+          "published_at": null,
+          "created_at": "2026-01-14T10:00:00Z",
+          "draft": true,
+          "prerelease": false,
+          "body": "Draft notes that must never surface."
+        },
+        {
+          "tag_name": "v2.9.0",
+          "name": "",
+          "html_url": "https://github.com/fixture-oss/launchbox/releases/tag/v2.9.0",
+          "published_at": null,
+          "created_at": "2026-02-01T00:00:00Z",
+          "draft": false,
+          "prerelease": false,
+          "body": ""
+        }
+      ]
+    }
+  ]
+}
