@@ -162,9 +162,13 @@ const HTML_ENTITIES: Record<string, string> = {
   gt: ">",
   quot: '"',
   apos: "'",
-  "#x27": "'",
-  "#39": "'",
+  x27: "'",
+  "39": "'",
+  "039": "'",
   nbsp: " ",
+  mdash: "—",
+  ndash: "–",
+  hellip: "…",
 };
 
 /**
@@ -175,7 +179,10 @@ function hnTextToPlain(text: string): string {
   return text
     .replace(/<a\s+[^>]*href="([^"]*)"[^>]*>.*?<\/a>/gis, "$1")
     .replace(/<[^>]+>/g, " ")
-    .replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, e: string) => HTML_ENTITIES[e.toLowerCase()] ?? m);
+    .replace(
+      /&(#x?[0-9a-f]+|[a-z]+);/gi,
+      (m, e: string) => HTML_ENTITIES[e.toLowerCase().replace(/^#/, "")] ?? m,
+    );
 }
 
 // ---------------------------------------------------------------------------
