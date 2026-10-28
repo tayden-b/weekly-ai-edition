@@ -22,7 +22,7 @@ items:
   - id: C1
     title: "PRD.md + ARCHITECTURE.md + ADRs extracted from PLAN/DESIGN"
     wave: 1
-    issue: null
+    issue: 2
     depends_on: [B0]
     brief: plan/issues/C1.md
     acceptance:
@@ -34,7 +34,7 @@ items:
   - id: C2
     title: "edition.schema.json + TS types + validator + fixture issue 2026-W44"
     wave: 1
-    issue: null
+    issue: 3
     depends_on: [B0]
     brief: plan/issues/C2.md
     acceptance:
@@ -47,7 +47,7 @@ items:
   - id: C3
     title: "STYLE.md + drafting rubric + 50-item labelled classification set"
     wave: 1
-    issue: null
+    issue: 4
     depends_on: [B0]
     brief: plan/issues/C3.md
     acceptance:
@@ -59,7 +59,7 @@ items:
   - id: C4
     title: "packages/ui tokens + primitives + /kitchen-sink"
     wave: 1
-    issue: null
+    issue: 5
     depends_on: [B0]
     brief: plan/issues/C4.md
     acceptance:
@@ -72,7 +72,7 @@ items:
   - id: C5
     title: "Source-adapter interface + RawItem type + test harness + config"
     wave: 1
-    issue: null
+    issue: 6
     depends_on: [B0]
     brief: plan/issues/C5.md
     acceptance:
@@ -85,7 +85,7 @@ items:
   - id: V1
     title: "Mobile deck renderer (swipe cards, DESIGN §2.1)"
     wave: 2
-    issue: null
+    issue: 7
     depends_on: [C2, C4]
     brief: plan/issues/V1.md
     acceptance:
@@ -98,7 +98,7 @@ items:
   - id: V2
     title: "Desktop front page renderer (DESIGN §2.2)"
     wave: 2
-    issue: null
+    issue: 8
     depends_on: [C2, C4]
     brief: plan/issues/V2.md
     acceptance:
@@ -111,7 +111,7 @@ items:
   - id: V3
     title: "Per-page routes + OG image generation"
     wave: 2
-    issue: null
+    issue: 9
     depends_on: [C2, C4]
     brief: plan/issues/V3.md
     acceptance:
@@ -123,7 +123,7 @@ items:
   - id: V4
     title: "Archive + /brand + /issues"
     wave: 2
-    issue: null
+    issue: 10
     depends_on: [C2, C4]
     brief: plan/issues/V4.md
     acceptance:
@@ -135,7 +135,7 @@ items:
   - id: A1
     title: "Adapter: lab blogs RSS/Atom"
     wave: 2
-    issue: null
+    issue: 11
     depends_on: [C5]
     brief: plan/issues/A1.md
     acceptance:
@@ -149,7 +149,7 @@ items:
   - id: A2
     title: "Adapter: HN Algolia"
     wave: 2
-    issue: null
+    issue: 12
     depends_on: [C5]
     brief: plan/issues/A2.md
     acceptance:
@@ -162,7 +162,7 @@ items:
   - id: A3
     title: "Adapter: newsroom RSS set"
     wave: 2
-    issue: null
+    issue: 13
     depends_on: [C5]
     brief: plan/issues/A3.md
     acceptance:
@@ -174,7 +174,7 @@ items:
   - id: A4
     title: "Adapter: SEC EDGAR (Form D / S-1 / 8-K)"
     wave: 2
-    issue: null
+    issue: 14
     depends_on: [C5]
     brief: plan/issues/A4.md
     acceptance:
@@ -186,7 +186,7 @@ items:
   - id: A5
     title: "Adapter: press-wire RSS (funding + M&A filters)"
     wave: 2
-    issue: null
+    issue: 15
     depends_on: [C5]
     brief: plan/issues/A5.md
     acceptance:
@@ -198,7 +198,7 @@ items:
   - id: A6
     title: "Adapter: Product Hunt + GitHub Releases + HF Hub"
     wave: 2
-    issue: null
+    issue: 16
     depends_on: [C5]
     brief: plan/issues/A6.md
     acceptance:
@@ -210,7 +210,7 @@ items:
   - id: A7
     title: "Adapter: benchmark publishers"
     wave: 2
-    issue: null
+    issue: 17
     depends_on: [C5]
     brief: plan/issues/A7.md
     acceptance:
@@ -222,7 +222,7 @@ items:
   - id: A8
     title: "Adapter: market data (weekly close)"
     wave: 2
-    issue: null
+    issue: 18
     depends_on: [C5]
     brief: plan/issues/A8.md
     acceptance:
@@ -234,7 +234,7 @@ items:
   - id: A9
     title: "Adapter: Reddit public JSON"
     wave: 2
-    issue: null
+    issue: 19
     depends_on: [C5]
     brief: plan/issues/A9.md
     acceptance:
@@ -246,7 +246,7 @@ items:
   - id: A10
     title: "Adapter: distribute.software (secondary)"
     wave: 2
-    issue: null
+    issue: 20
     depends_on: [C5]
     brief: plan/issues/A10.md
     acceptance:
@@ -258,7 +258,7 @@ items:
   - id: P1
     title: "Pipeline: normalize + dedupe stages"
     wave: 2
-    issue: null
+    issue: 21
     depends_on: [C5]
     brief: plan/issues/P1.md
     acceptance:
@@ -270,7 +270,7 @@ items:
   - id: P2
     title: "Pipeline: rank stage"
     wave: 2
-    issue: null
+    issue: 22
     depends_on: [P1]
     brief: plan/issues/P2.md
     acceptance:
@@ -282,7 +282,7 @@ items:
   - id: P3
     title: "Daily ingest cache workflow"
     wave: 2
-    issue: null
+    issue: 23
     depends_on: [A1, A2, A3, P1]
     brief: plan/issues/P3.md
     acceptance:
@@ -293,7 +293,7 @@ items:
   - id: P4
     title: "Classifier + company tagging (≥90% on C3 set)"
     wave: 3
-    issue: null
+    issue: 24
     depends_on: [C3, P1]
     brief: plan/issues/P4.md
     acceptance:
@@ -306,7 +306,7 @@ items:
   - id: P5
     title: "Extraction with evidence spans"
     wave: 3
-    issue: null
+    issue: 25
     depends_on: [P4]
     brief: plan/issues/P5.md
     acceptance:
@@ -318,7 +318,7 @@ items:
   - id: P6
     title: "Drafter: one-liners + Briefing (passes rubric)"
     wave: 3
-    issue: null
+    issue: 26
     depends_on: [C3, P5]
     brief: plan/issues/P6.md
     acceptance:
@@ -331,7 +331,7 @@ items:
   - id: P7
     title: "Verify stage (PLAN §5.3) + provenance.json"
     wave: 3
-    issue: null
+    issue: 27
     depends_on: [P6, C2]
     brief: plan/issues/P7.md
     acceptance:
@@ -343,7 +343,7 @@ items:
   - id: T1
     title: "Agent twin: .md/.json per issue + Accept: text/markdown"
     wave: 3
-    issue: null
+    issue: 28
     depends_on: [C2, V1, V2]
     brief: plan/issues/T1.md
     acceptance:
@@ -355,7 +355,7 @@ items:
   - id: T2
     title: "llms.txt, llms-full.txt, RSS + JSON feeds"
     wave: 3
-    issue: null
+    issue: 29
     depends_on: [C2, V1, V2]
     brief: plan/issues/T2.md
     acceptance:
@@ -367,7 +367,7 @@ items:
   - id: T3
     title: "Cover-image generation step (deferred post-v1)"
     wave: 3
-    issue: null
+    issue: 30
     status: deferred
     depends_on: [C3, P7]
     brief: plan/issues/T3.md
@@ -380,7 +380,7 @@ items:
   - id: I1
     title: "End-to-end: pnpm edition:build --week 2026-W44 → valid edition → preview"
     wave: 4
-    issue: null
+    issue: 31
     depends_on: [P1, P2, P3, P4, P5, P6, P7, V1, V2, V3, V4, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10]
     brief: plan/issues/I1.md
     acceptance:
@@ -392,7 +392,7 @@ items:
   - id: I2
     title: "Weekly Edition automation (cron → PR → Sunday auto-publish)"
     wave: 4
-    issue: null
+    issue: 32
     depends_on: [I1]
     brief: plan/issues/I2.md
     acceptance:
@@ -404,7 +404,7 @@ items:
   - id: I3
     title: "Production deploy on *.vercel.app + analytics + security headers"
     wave: 4
-    issue: null
+    issue: 33
     depends_on: [V4, I1]
     brief: plan/issues/I3.md
     acceptance:
@@ -416,7 +416,7 @@ items:
   - id: I4
     title: "Design QA pass over every page, both renderers, vs DESIGN.md"
     wave: 4
-    issue: null
+    issue: 34
     depends_on: [V1, V2, V3, V4]
     brief: plan/issues/I4.md
     acceptance:
@@ -428,7 +428,7 @@ items:
   - id: I5
     title: "A11y + perf budgets enforced in CI"
     wave: 4
-    issue: null
+    issue: 35
     depends_on: [V1, V2]
     brief: plan/issues/I5.md
     acceptance:
@@ -440,7 +440,7 @@ items:
   - id: S1
     title: "Ship v1 — first real edition, publish, flip public, V1-REPORT"
     wave: 5
-    issue: null
+    issue: 36
     depends_on: [I1, I2, I3, I4, I5]
     brief: plan/issues/S1.md
     acceptance:

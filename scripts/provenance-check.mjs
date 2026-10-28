@@ -2,7 +2,7 @@
 /**
  * Stub for `pnpm provenance:check`.
  *
- * TODO(P7): enforce the PLAN.md §5.3 gates — every item carries sources[],
+ * TODO(#27 / P7): enforce the PLAN.md §5.3 gates — every item carries sources[],
  * every number carries an evidence span quoted from a stored excerpt,
  * company tags resolve in config/companies.yaml, discourse items have
  * ≥ 2 publishers, and provenance.json exists per edition. Until then this
