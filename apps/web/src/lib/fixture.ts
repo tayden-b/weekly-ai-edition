@@ -136,17 +136,22 @@ function mapPage(page: EditionPage): FixturePage {
   return out;
 }
 
-export const edition: FixtureEdition = {
-  id: raw.id,
-  schema_version: raw.schema_version,
-  issue: raw.issue_number,
-  date_range: {
-    start: raw.date_start,
-    end: raw.date_end,
-    label: dateRangeLabel(raw.date_start, raw.date_end),
-  },
-  pages: raw.pages.map(mapPage),
-};
+/** Maps a canonical `Edition` (schema) onto the view props primitives consume. */
+export function mapEdition(source: Edition): FixtureEdition {
+  return {
+    id: source.id,
+    schema_version: source.schema_version,
+    issue: source.issue_number,
+    date_range: {
+      start: source.date_start,
+      end: source.date_end,
+      label: dateRangeLabel(source.date_start, source.date_end),
+    },
+    pages: source.pages.map(mapPage),
+  };
+}
+
+export const edition: FixtureEdition = mapEdition(raw);
 
 export function pageOfType(type: string): FixturePage | undefined {
   return edition.pages.find((p) => p.type === type);

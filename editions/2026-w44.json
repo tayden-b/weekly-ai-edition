@@ -1,0 +1,808 @@
+{
+  "id": "2026-w44",
+  "schema_version": 1,
+  "issue_number": 1,
+  "date_start": "2026-10-24",
+  "date_end": "2026-10-30",
+  "pages": [
+    {
+      "type": "cover",
+      "headline": "Two labs claim the death of the Exponential Time Hypothesis",
+      "deck": "OpenAI, then Anthropic hours later, say their models produced sub-exponential algorithms for a hard class of logic problems. Outside reviewers are now checking the proofs."
+    },
+    {
+      "type": "briefing",
+      "sentences": [
+        "Anthropic filed to go public, disclosing $131.7 billion in cash and investments, and chip stocks rallied for a third consecutive session on the news.",
+        "OpenAI released GPT-6.1 Terra, a mid-tier computer-use model priced at half its predecessor, and said its models produced three mathematical results including a claimed refutation of the Exponential Time Hypothesis.",
+        "Within hours, Anthropic claimed a refutation of its own, leaving outside shepherds to decide whether either proof survives review.",
+        "Google DeepMind previewed Genie 4, a world model that generates interactive scenes with sound, while Meta open-sourced the 816-billion-parameter Muse Spark Open for agentic coding.",
+        "The money kept moving: Tenstorrent raised a $1.5 billion Series E at a $6.2 billion valuation, and Guidewire agreed to acquire hyperexponential for $1.7 billion in cash.",
+        "Underneath the rally, investors kept debating whether debt-funded AI capital expenditure can pay for itself."
+      ]
+    },
+    {
+      "type": "models",
+      "items": [
+        {
+          "headline": "GPT-6.1 Terra",
+          "one_liner": "OpenAI's mid-tier computer-use model lands at $1 per million input tokens — half the price of GPT-5.6 Terra and more than three times faster.",
+          "take": "The price cut, not the benchmark, is the story.",
+          "companies": [
+            "openai"
+          ],
+          "sources": [
+            {
+              "url": "https://ailately.com/rn/2026-10-27-12",
+              "publisher": "AI Lately",
+              "published_at": "2026-10-27T16:07:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "OpenAI launched a new AI model today. It is called GPT-6.1 Terra. OpenAI says Terra costs half as much as its last computer-use model and its bigger sibling, Sol. The price now sits at one dollar per million input tokens."
+            },
+            {
+              "url": "https://www.thirdruntime.com/?date=2026-10-26",
+              "publisher": "Third Run Time",
+              "published_at": "2026-10-26T17:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "OpenAI announces three big science discoveries and a new way to work with academics."
+            }
+          ]
+        },
+        {
+          "headline": "Genie 4",
+          "one_liner": "Google DeepMind's world model generates interactive scenes with native audio and real-time steering, in research preview for trusted testers.",
+          "companies": [
+            "google"
+          ],
+          "sources": [
+            {
+              "url": "https://themorningbuild.com/digest/2026-10-28/",
+              "publisher": "The Morning Build",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "DeepMind announced Genie 4, a multimodal world model that natively generates audio, ambient sound, and interactive dialogue, can be steered in real time via natural language, and is being rolled out as a research preview to trusted testers."
+            }
+          ]
+        },
+        {
+          "headline": "Muse Spark Open",
+          "one_liner": "Meta's 816-billion-parameter open-weight MoE targets long-running coding agents, with 42 billion parameters active per token and a one-million-token context.",
+          "companies": [
+            "meta"
+          ],
+          "sources": [
+            {
+              "url": "https://creati.ai/ai-news/2026-10-27/meta-releases-muse-spark-open-an-816b-parameter-open-weight-model-for-multimodal-coding-agents/",
+              "publisher": "Creati AI",
+              "published_at": "2026-10-27T19:20:54Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Meta has published Muse Spark Open, an open-weight multimodal model designed for long-running coding agents. The mixture-of-experts system combines text, images, audio, and video with approximately 816 billion total parameters, 42 billion active for each token."
+            }
+          ]
+        },
+        {
+          "headline": "MAI Image 2.7",
+          "one_liner": "Microsoft AI's latest image editing model debuts at No. 3 on Arena Edit and No. 2 on Artificial Analysis's image editing leaderboard.",
+          "companies": [
+            "microsoft"
+          ],
+          "sources": [
+            {
+              "url": "https://microsoft.ai/news/mai-image-2-7-debut/",
+              "publisher": "Microsoft AI",
+              "published_at": "2026-10-27T15:10:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "lab-blogs",
+              "excerpt": "MAI Image 2.7, our latest image editing model, launches with even stronger control for edits that are hardest to get right. It launches in preview at No. 3 on Arena Edit, making Microsoft AI the No. 2 lab, and No. 2 on Artificial Analysis's image editing leaderboard."
+            }
+          ]
+        },
+        {
+          "headline": "Liquid AI LFM3",
+          "one_liner": "Six compact models — language, vision, speech, structured decisions — built to run enterprise agents on company-controlled hardware.",
+          "companies": [
+            "liquid-ai"
+          ],
+          "sources": [
+            {
+              "url": "https://venturebeat.com/technology/liquid-ais-new-lfm3-models-put-browser-agents-voice-commands-and-image-recognition-onto-enterprise-controlled-devices",
+              "publisher": "VentureBeat",
+              "published_at": "2026-10-27T19:37:51Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Liquid AI is introducing LFM3, a family of compact AI models designed to move more enterprise work onto company-controlled hardware. The October 27 release includes six models spanning language, vision, speech and structured decisions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "performance",
+      "items": [
+        {
+          "headline": "GPT-6.1 Terra on Terminal-Bench 4.0",
+          "one_liner": "Company-reported score more than doubles its predecessor; no independent evaluation had been published by Monday night.",
+          "number": "50.3%",
+          "companies": [
+            "openai"
+          ],
+          "sources": [
+            {
+              "url": "https://atlas.prashish.com/weeks/2026-10-26",
+              "publisher": "AI Atlas",
+              "published_at": "2026-10-26T17:19:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "OpenAI reports that it scores 50.3% on Terminal-Bench 4.0 at max effort, against a published 21.5% for its predecessor. All of OpenAI's figures are company-reported, and no independent evaluation had been published by the end of Monday."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "scores 50.3% on Terminal-Bench 4.0 at max effort"
+          }
+        },
+        {
+          "headline": "MAI Image 2.7 on Arena Edit",
+          "one_liner": "Microsoft's image editor debuts third on Arena Edit, making Microsoft AI the No. 2 lab on the board.",
+          "number": "#3",
+          "companies": [
+            "microsoft"
+          ],
+          "sources": [
+            {
+              "url": "https://microsoft.ai/news/mai-image-2-7-debut/",
+              "publisher": "Microsoft AI",
+              "published_at": "2026-10-27T15:10:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "lab-blogs",
+              "excerpt": "MAI Image 2.7, our latest image editing model, launches with even stronger control for edits that are hardest to get right. It launches in preview at No. 3 on Arena Edit, making Microsoft AI the No. 2 lab, and No. 2 on Artificial Analysis's image editing leaderboard."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "launches in preview at No. 3 on Arena Edit"
+          }
+        },
+        {
+          "headline": "LFM3-1.7B on WebArena-Verified",
+          "one_liner": "Liquid's smallest text model claims browser-agent results above substantially larger rivals on selected tool-use tasks.",
+          "number": "38.42",
+          "companies": [
+            "liquid-ai"
+          ],
+          "sources": [
+            {
+              "url": "https://venturebeat.com/technology/liquid-ais-new-lfm3-models-put-browser-agents-voice-commands-and-image-recognition-onto-enterprise-controlled-devices",
+              "publisher": "VentureBeat",
+              "published_at": "2026-10-27T19:37:51Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "In Liquid's tests, LFM3-1.7B scores 38.42 on WebArena-Verified, compared with 28.94 for Qwen3.5-9B and 3.02 for Liquid's previous LFM2.5-2.6B. On AutomationBench's public evaluation, it scores 41.29."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "LFM3-1.7B scores 38.42 on WebArena-Verified"
+          }
+        }
+      ]
+    },
+    {
+      "type": "launches",
+      "items": [
+        {
+          "headline": "Claude Duet",
+          "one_liner": "A proactive Anthropic agent that understands what needs your attention — 322 votes on Product Hunt this week.",
+          "companies": [
+            "anthropic"
+          ],
+          "sources": [
+            {
+              "url": "https://launchindex.ai/month/2026-10",
+              "publisher": "Launch Index",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "product-hunt",
+              "excerpt": "Claude Duet — Proactive agent that understands what needs your attention — 322 votes."
+            }
+          ]
+        },
+        {
+          "headline": "1Password for Agents",
+          "one_liner": "Lets AI agents sign in for you without ever seeing your passwords.",
+          "companies": [
+            "1password"
+          ],
+          "sources": [
+            {
+              "url": "https://launchindex.ai/day/2026-10-24",
+              "publisher": "Launch Index",
+              "published_at": "2026-10-24T00:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "product-hunt",
+              "excerpt": "1Password for Agents — Let AI agents sign in for you without seeing your passwords — 138 votes."
+            }
+          ]
+        },
+        {
+          "headline": "Mistral Voxtral 3",
+          "one_liner": "Mistral's speech models for transcription, text-to-speech, and agents ship on Product Hunt.",
+          "companies": [
+            "mistral"
+          ],
+          "sources": [
+            {
+              "url": "https://launchindex.ai/day/2026-10-22",
+              "publisher": "Launch Index",
+              "published_at": "2026-10-22T00:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "product-hunt",
+              "excerpt": "Mistral Voxtral 3 — Mistral's speech models for transcription, TTS and agents — 213 votes."
+            }
+          ]
+        },
+        {
+          "headline": "ElevenLabs Realtime Translation",
+          "one_liner": "Turns live speech into translated audio as people talk.",
+          "companies": [
+            "elevenlabs"
+          ],
+          "sources": [
+            {
+              "url": "https://launchindex.ai/day/2026-10-22",
+              "publisher": "Launch Index",
+              "published_at": "2026-10-22T00:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "product-hunt",
+              "excerpt": "ElevenLabs Realtime Translation — Turn live speech into translated audio as people talk — 100 votes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "funding",
+      "items": [
+        {
+          "headline": "Anthropic files to go public",
+          "one_liner": "The filing discloses $131.7 billion in cash and investments; the paperwork alone was enough to lift AI stocks for a third straight session.",
+          "amount": "$131.7B",
+          "stage": "IPO filing",
+          "companies": [
+            "anthropic"
+          ],
+          "sources": [
+            {
+              "url": "https://www.siliconreport.com/capital/archive/2026-10",
+              "publisher": "SiliconReport",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Oct 27 Anthropic discloses $131.7 billion in cash and investments."
+            },
+            {
+              "url": "https://themorningbuild.com/digest/2026-10-28/",
+              "publisher": "The Morning Build",
+              "published_at": "2026-10-28T00:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "The Morning Build for October 28, 2026: Google's Genie 4 Launches, Anthropic Files to Go Public, and Delaware's AI-Run Company Plan."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "Anthropic discloses $131.7 billion in cash and investments"
+          }
+        },
+        {
+          "headline": "Tenstorrent raised $1.5B Series E",
+          "one_liner": "Jim Keller's RISC-V AI compute company reaches a $6.2 billion valuation as it scales Galaxy server production and IP licensing.",
+          "amount": "$1.5B",
+          "stage": "Series E",
+          "lead": "Innovation X",
+          "companies": [
+            "tenstorrent"
+          ],
+          "sources": [
+            {
+              "url": "https://www.businesswire.com/news/home/20261027228454/en/Innovation-X-Co-Leads-Tenstorrents-%241.5-Billion-Series-E-at-a-%246.2-Billion-Valuation",
+              "publisher": "Business Wire",
+              "published_at": "2026-10-27T13:07:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "press-wire-rss",
+              "excerpt": "Innovation X, a late-stage venture capital firm investing in privately held technology leaders, today announced that it co-led Tenstorrent's $1.5 billion Series E financing at a $6.2 billion post-money valuation."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "co-led Tenstorrent's $1.5 billion Series E financing at a $6.2 billion post-money valuation"
+          }
+        },
+        {
+          "headline": "General Compute raised $100M Series A",
+          "one_liner": "Specialized cloud infrastructure and chips for AI inference, at an $800 million valuation.",
+          "amount": "$100M",
+          "stage": "Series A",
+          "companies": [
+            "general-compute"
+          ],
+          "sources": [
+            {
+              "url": "https://www.siliconreport.com/capital/archive/2026-10",
+              "publisher": "SiliconReport",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Oct 27 General Compute raises $100 million Series A at $800 million valuation."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "General Compute raises $100 million Series A"
+          }
+        },
+        {
+          "headline": "Hyphenate raised $45M Series A",
+          "one_liner": "Autonomous AI agent systems for enterprise financial operations.",
+          "amount": "$45M",
+          "stage": "Series A",
+          "lead": "Nexus Venture Partners",
+          "companies": [
+            "hyphenate"
+          ],
+          "sources": [
+            {
+              "url": "https://funding.fru.dev/months/2026-10",
+              "publisher": "Funding Index",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Hyphenate raises $45M Series A, Oct 27, 2026. AI apps. Led by Nexus Venture Partners. Hyphenate develops autonomous AI agent systems for enterprise financial operations."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "Hyphenate raises $45M Series A"
+          }
+        },
+        {
+          "headline": "Infisical raised $40M Series B",
+          "one_liner": "Secrets-management infrastructure for enterprise systems and AI agents, at a $600 million valuation.",
+          "amount": "$40M",
+          "stage": "Series B",
+          "lead": "Elad Gil",
+          "companies": [
+            "infisical"
+          ],
+          "sources": [
+            {
+              "url": "https://funding.fru.dev/months/2026-10",
+              "publisher": "Funding Index",
+              "published_at": "2026-10-27T00:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Infisical raises $40M Series B, Oct 27, 2026. Security. Led by Elad Gil. Infisical provides secrets management infrastructure to secure enterprise systems and AI agents."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "Infisical raises $40M Series B"
+          }
+        }
+      ]
+    },
+    {
+      "type": "deals",
+      "items": [
+        {
+          "headline": "Guidewire → hyperexponential",
+          "one_liner": "The P&C insurer platform buys the London-based agentic underwriting specialist, setting up an 'agentic underwriting' push across commercial lines.",
+          "acquirer": "Guidewire",
+          "target": "hyperexponential",
+          "amount": "$1.7B",
+          "companies": [
+            "guidewire",
+            "hyperexponential"
+          ],
+          "sources": [
+            {
+              "url": "https://www.prnewswire.com/news-releases/guidewire-signs-definitive-agreement-to-acquire-hyperexponential-302920513.html",
+              "publisher": "PR Newswire",
+              "published_at": "2026-10-27T11:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "press-wire-rss",
+              "excerpt": "Guidewire announced today that it entered into a definitive agreement to acquire Hyperexponential Ltd for a base purchase price of $1.7 billion in cash, subject to adjustments, and up to an additional $400 million in contingent consideration."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "base purchase price of $1.7 billion in cash"
+          }
+        },
+        {
+          "headline": "RapidCanvas → Entytle",
+          "one_liner": "The managed AI-execution company absorbs the Autonomous Aftermarket pioneer and its Insyghts platform, a week after closing a $29M Series B.",
+          "acquirer": "RapidCanvas",
+          "target": "Entytle",
+          "companies": [
+            "rapidcanvas",
+            "entytle"
+          ],
+          "sources": [
+            {
+              "url": "https://www.globenewswire.com/news-release/2026/10/28/3390266/0/en/rapidcanvas-acquires-entytle-to-bring-ai-driven-execution-to-the-industrial-aftermarket.html",
+              "publisher": "GlobeNewswire",
+              "published_at": "2026-10-28T13:00:00Z",
+              "fetched_at": "2026-10-28T14:00:00Z",
+              "adapter": "press-wire-rss",
+              "excerpt": "RapidCanvas, a managed AI execution company, today announced it has acquired Entytle, the company that pioneered the Autonomous Aftermarket for B2B OEMs. Financial terms were not disclosed."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "markets",
+      "sources": [
+        {
+          "url": "https://exa.ai/library/markets/stock/NVDA?date=2026-10-27&view=series&from=2026-10-19",
+          "publisher": "Exa Markets",
+          "published_at": "2026-10-27T12:00:00Z",
+          "fetched_at": "2026-10-28T09:00:00Z",
+          "adapter": "markets",
+          "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        },
+        {
+          "url": "https://exa.ai/library/markets/stock/MSFT?date=2026-10-27&view=series&from=2026-10-19",
+          "publisher": "Exa Markets",
+          "published_at": "2026-10-27T12:00:00Z",
+          "fetched_at": "2026-10-28T09:00:00Z",
+          "adapter": "markets",
+          "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        },
+        {
+          "url": "https://exa.ai/library/markets/stock/GOOGL?date=2026-10-27&view=series&from=2026-10-19",
+          "publisher": "Exa Markets",
+          "published_at": "2026-10-27T12:00:00Z",
+          "fetched_at": "2026-10-28T09:00:00Z",
+          "adapter": "markets",
+          "excerpt": "US:GOOGL — raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+        },
+        {
+          "url": "https://exa.ai/library/markets/stock/META?date=2026-10-27&view=series&from=2026-10-19",
+          "publisher": "Exa Markets",
+          "published_at": "2026-10-27T12:00:00Z",
+          "fetched_at": "2026-10-28T09:00:00Z",
+          "adapter": "markets",
+          "excerpt": "US:META — raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+        },
+        {
+          "url": "https://cbcglobe.com/en/articles/2026/10/27/breaking-tesla-surges-4-and-amd-over-5-on-nyse-nvidia-and-mi-4ca4b69e",
+          "publisher": "CBC Globe",
+          "published_at": "2026-10-27T22:13:40Z",
+          "fetched_at": "2026-10-28T09:00:00Z",
+          "adapter": "newsroom-rss",
+          "excerpt": "AMD closed at $560.26, up $28.98 (5.45%) from the previous session. Meta closed at $620.19, down $10.37 (1.64%) from the previous session. Alphabet Class A finished trading at $320.58, up $3.78 (1.19%)."
+        },
+        {
+          "url": "https://exa.ai/library/markets/stock/AMD?date=2026-10-27&view=series&from=2026-10-19",
+          "publisher": "Exa Markets",
+          "published_at": "2026-10-27T12:00:00Z",
+          "fetched_at": "2026-10-28T09:00:00Z",
+          "adapter": "markets",
+          "excerpt": "US:AMD — raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+        },
+        {
+          "url": "https://exa.ai/library/markets/stock/TSM?date=2026-10-27&view=series&from=2026-10-19",
+          "publisher": "Exa Markets",
+          "published_at": "2026-10-27T12:00:00Z",
+          "fetched_at": "2026-10-28T09:00:00Z",
+          "adapter": "markets",
+          "excerpt": "US:TSM — raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+        },
+        {
+          "url": "https://exa.ai/library/markets/stock/AMZN?date=2026-10-27&view=series&from=2026-10-19",
+          "publisher": "Exa Markets",
+          "published_at": "2026-10-27T12:00:00Z",
+          "fetched_at": "2026-10-28T09:00:00Z",
+          "adapter": "markets",
+          "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        },
+        {
+          "url": "https://exa.ai/library/markets/stock/ARM?date=2026-10-27&view=series&from=2026-10-19",
+          "publisher": "Exa Markets",
+          "published_at": "2026-10-27T12:00:00Z",
+          "fetched_at": "2026-10-28T09:00:00Z",
+          "adapter": "markets",
+          "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        }
+      ],
+      "chart": {
+        "title": "AI basket index, week to date",
+        "unit": "index",
+        "series": [
+          {
+            "date": "2026-10-23",
+            "value": 100
+          },
+          {
+            "date": "2026-10-26",
+            "value": 101.5
+          },
+          {
+            "date": "2026-10-27",
+            "value": 103
+          }
+        ]
+      },
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "close": 217.94,
+          "change_pct": 3.31,
+          "direction": "up",
+          "evidence": {
+            "source_index": 0,
+            "quote": "2026-10-27 USD 217.94"
+          }
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "close": 531.33,
+          "change_pct": 1.3,
+          "direction": "up",
+          "evidence": {
+            "source_index": 1,
+            "quote": "2026-10-27 USD 531.33"
+          }
+        },
+        {
+          "ticker": "GOOGL",
+          "name": "Alphabet",
+          "close": 320.58,
+          "change_pct": 0.12,
+          "direction": "flat",
+          "evidence": {
+            "source_index": 2,
+            "quote": "2026-10-27 USD 320.58"
+          }
+        },
+        {
+          "ticker": "META",
+          "name": "Meta Platforms",
+          "close": 620.19,
+          "change_pct": -3.49,
+          "direction": "down",
+          "evidence": {
+            "source_index": 3,
+            "quote": "2026-10-27 USD 620.19"
+          }
+        },
+        {
+          "ticker": "AMD",
+          "name": "AMD",
+          "close": 560.26,
+          "change_pct": 8.41,
+          "direction": "up",
+          "evidence": {
+            "source_index": 4,
+            "quote": "AMD closed at $560.26, up $28.98 (5.45%)"
+          }
+        },
+        {
+          "ticker": "TSM",
+          "name": "TSMC",
+          "close": 436.87,
+          "change_pct": 4.39,
+          "direction": "up",
+          "evidence": {
+            "source_index": 6,
+            "quote": "2026-10-27 USD 436.87"
+          }
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon",
+          "close": 253.1,
+          "change_pct": 2.06,
+          "direction": "up",
+          "evidence": {
+            "source_index": 7,
+            "quote": "2026-10-27 USD 253.10"
+          }
+        },
+        {
+          "ticker": "ARM",
+          "name": "Arm Holdings",
+          "close": 226.6,
+          "change_pct": 7.73,
+          "direction": "up",
+          "evidence": {
+            "source_index": 8,
+            "quote": "2026-10-27 USD 226.60"
+          }
+        }
+      ]
+    },
+    {
+      "type": "discourse",
+      "items": [
+        {
+          "headline": "Did two frontier labs just refute the Exponential Time Hypothesis — or can nobody actually check the proofs?",
+          "one_liner": "OpenAI says its models found sub-exponential algorithms for a hard class of logic puzzles; Anthropic reportedly claimed its own refutation hours later. Outside shepherds are organising expert groups to verify each result.",
+          "companies": [
+            "openai",
+            "anthropic"
+          ],
+          "sources": [
+            {
+              "url": "https://atlas.prashish.com/weeks/2026-10-26",
+              "publisher": "AI Atlas",
+              "published_at": "2026-10-26T17:19:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "OpenAI announced on 26 October that its models found sub-exponential algorithms for a hard class of logic puzzles, which would make the Exponential Time Hypothesis false, and The Information reports that Anthropic claimed its own refutation hours later."
+            },
+            {
+              "url": "https://www.thirdruntime.com/?date=2026-10-26",
+              "publisher": "Third Run Time",
+              "published_at": "2026-10-26T17:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "OpenAI announces three big science discoveries and a new way to work with academics. The Verge covered the announcement of three results in maths, computer science and physics."
+            }
+          ]
+        },
+        {
+          "headline": "Can debt-funded AI capital expenditure pay for itself?",
+          "one_liner": "Relief rally or reckoning: Anthropic's IPO paperwork lifted chip stocks all week, while investors keep asking whether borrowing-fuelled data-centre spend earns its cost of capital.",
+          "companies": [
+            "anthropic",
+            "meta"
+          ],
+          "sources": [
+            {
+              "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-muted-oil-095309821.html",
+              "publisher": "Reuters",
+              "published_at": "2026-10-27T20:22:16Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "An AI-fueled tech rally sent US stocks to a higher close on Tuesday. The buzz surrounding details of Anthropic's impending initial public offering helped boost chip stocks for the third consecutive session. Growing concerns over the viability of debt-funded spending have weighed on the AI trade."
+            },
+            {
+              "url": "https://apnews.com/article/stocks-markets-ai-earnings-oil-e11a2240fc3283c4507d44b9833f30a2",
+              "publisher": "Associated Press",
+              "published_at": "2026-10-27T07:10:58Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Stocks in the artificial-intelligence industry led Wall Street higher on Tuesday. AI stocks rose to another winning day after swerving for weeks on worries about whether their boom is under threat because of how expensive they have become."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "most_covered",
+      "entries": [
+        {
+          "company": "openai",
+          "name": "OpenAI",
+          "stories": 3,
+          "trend": "up"
+        },
+        {
+          "company": "anthropic",
+          "name": "Anthropic",
+          "stories": 3,
+          "trend": "up"
+        },
+        {
+          "company": "liquid-ai",
+          "name": "Liquid AI",
+          "stories": 2,
+          "trend": "up"
+        },
+        {
+          "company": "meta",
+          "name": "Meta",
+          "stories": 2,
+          "trend": "down"
+        },
+        {
+          "company": "google",
+          "name": "Google",
+          "stories": 1,
+          "trend": "flat"
+        }
+      ]
+    },
+    {
+      "type": "back_page",
+      "sources_total": 34,
+      "source_counts": [
+        {
+          "publisher": "Exa Markets",
+          "count": 8
+        },
+        {
+          "publisher": "Launch Index",
+          "count": 4
+        },
+        {
+          "publisher": "Third Run Time",
+          "count": 2
+        },
+        {
+          "publisher": "The Morning Build",
+          "count": 2
+        },
+        {
+          "publisher": "Microsoft AI",
+          "count": 2
+        },
+        {
+          "publisher": "VentureBeat",
+          "count": 2
+        },
+        {
+          "publisher": "AI Atlas",
+          "count": 2
+        },
+        {
+          "publisher": "SiliconReport",
+          "count": 2
+        },
+        {
+          "publisher": "Funding Index",
+          "count": 2
+        },
+        {
+          "publisher": "AI Lately",
+          "count": 1
+        },
+        {
+          "publisher": "Creati AI",
+          "count": 1
+        },
+        {
+          "publisher": "Business Wire",
+          "count": 1
+        },
+        {
+          "publisher": "PR Newswire",
+          "count": 1
+        },
+        {
+          "publisher": "GlobeNewswire",
+          "count": 1
+        },
+        {
+          "publisher": "CBC Globe",
+          "count": 1
+        },
+        {
+          "publisher": "Reuters",
+          "count": 1
+        },
+        {
+          "publisher": "Associated Press",
+          "count": 1
+        }
+      ],
+      "how_made": "Ingested via deterministic RSS/API adapters, normalized, deduplicated, classified, ranked, extracted, and drafted by the Weekly AI Edition pipeline, then verified. Every item carries at least one fetched source record; every number carries an evidence quote from the stored excerpt.",
+      "agent_links": {
+        "markdown": "/2026-w44.md",
+        "json": "/2026-w44.json",
+        "llms_txt": "/llms.txt",
+        "feed": "/feed.xml"
+      },
+      "colophon": "Code MIT · Content CC BY-NC with sources attributed."
+    }
+  ]
+}
