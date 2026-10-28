@@ -212,7 +212,7 @@ function PageBody({
       );
     default:
       return page.items?.length ? (
-        <ItemList items={page.items as ItemView[]} />
+        <ItemList items={page.items as ItemView[]} headlineAs="h2" />
       ) : null;
   }
 }

@@ -25,7 +25,7 @@ Reference board (what each contributes, and only that):
 --ink-2:        #5C5C58   /* secondary text, captions, metadata */
 --ink-3:        #A3A29D   /* tertiary, disabled, placeholder */
 --rule:         #D9D8D2   /* hairlines */
---accent:       #D9281C   /* red: live/top signals ONLY */
+--accent:       #D02318   /* red: live/top signals ONLY — deepened from #D9281C for ≥4.5:1 on --paper (§5) */
 --up:           #1F7A3A   /* trend up (Markets, Most Covered) */
 --down:         #B3261E   /* trend down */
 

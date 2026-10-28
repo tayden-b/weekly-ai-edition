@@ -4,6 +4,10 @@ out/
 dist/
 coverage/
 *.tsbuildinfo
+test-results/
+playwright-report/
+.lhci/
+.lighthouseci/
 .env
 .env.*
 !.env.example

@@ -370,7 +370,9 @@
   font-size: var(--t-3xl);
   font-weight: 700;
   letter-spacing: -0.03em;
-  color: var(--ink-3);
+  /* §5: --ink-3 under the 3:1 large-text floor — --ink-2 is the lightest
+     compliant token on the cover ground. */
+  color: var(--ink-2);
 }
 
 /* ---------- LineChart ---------- */
@@ -624,7 +626,8 @@
 }
 .w-fp__copyright {
   font-size: var(--t-xs);
-  color: var(--ink-3);
+  /* §5: --ink-3 is never used for text under 14px. */
+  color: var(--ink-2);
 }
 
 /* Jump targets sit clear of the sticky bar when scrolled to (V2 §2.2). */

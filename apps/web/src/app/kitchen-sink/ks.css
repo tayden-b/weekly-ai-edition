@@ -25,7 +25,8 @@
 .ks-label {
   font-family: var(--font-mono);
   font-size: var(--t-xs);
-  color: var(--ink-3);
+  /* §5: --ink-3 is never used for text under 14px. */
+  color: var(--ink-2);
 }
 
 .ks-row {

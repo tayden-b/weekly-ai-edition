@@ -71,9 +71,9 @@ export default async function IssuePage({
           />
         </main>
       </div>
-      <div className="issue-split__deck">
+      <main className="issue-split__deck">
         <DeckView edition={ed} siteName={site.name} />
-      </div>
+      </main>
     </>
   );
 }

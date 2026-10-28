@@ -14,7 +14,7 @@ export const colors = {
     ink2: "#5C5C58",
     ink3: "#A3A29D",
     rule: "#D9D8D2",
-    accent: "#D9281C",
+    accent: "#D02318",
     up: "#1F7A3A",
     down: "#B3261E",
   },

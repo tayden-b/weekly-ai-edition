@@ -1,0 +1,22 @@
+{
+  "ci": {
+    "collect": {
+      "url": ["http://localhost:3000/2026-w44"],
+      "startServerCommand": "pnpm start",
+      "startServerReadyPattern": "Ready in",
+      "startServerReadyTimeout": 60000,
+      "numberOfRuns": 3,
+      "settings": {
+        "chromeFlags": "--no-sandbox --disable-dev-shm-usage --headless=new",
+        "formFactor": "mobile"
+      }
+    },
+    "assert": {
+      "budgetsFile": "./budget.json"
+    },
+    "upload": {
+      "target": "filesystem",
+      "outputDir": ".lhci"
+    }
+  }
+}

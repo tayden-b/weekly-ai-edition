@@ -21,11 +21,18 @@ function sourceLine(item: ItemView): string {
  * em-dash) / source line (--t-sm --ink-2). Optional mono `number` block for
  * Performance/Funding formats (right-aligned on desktop, DESIGN §3).
  */
-export function Item({ item }: { item: ItemView }) {
+export function Item({
+  item,
+  headlineAs: HeadlineTag = "h3",
+}: {
+  item: ItemView;
+  /** Headline level — h3 under card/section h2s, h2 under a standalone page h1. */
+  headlineAs?: "h2" | "h3";
+}) {
   return (
     <article className="w-item">
       <div className="w-item__main">
-        <h3 className="w-item__headline">{item.headline}</h3>
+        <HeadlineTag className="w-item__headline">{item.headline}</HeadlineTag>
         <p className="w-item__one-liner">
           {item.one_liner}
           {item.take ? (
