@@ -1,0 +1,1169 @@
+{
+  "week": "labeled-set",
+  "prompt_version": 1,
+  "style_rev": "25e18d610b9cbdca74cd2956c508c775737ad3de",
+  "companies": [
+    {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "aliases": [
+        "NVDA"
+      ]
+    },
+    {
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "aliases": [
+        "MSFT"
+      ]
+    },
+    {
+      "slug": "alphabet",
+      "name": "Alphabet (Google)",
+      "aliases": [
+        "Google",
+        "Alphabet",
+        "GOOGL",
+        "GOOG"
+      ]
+    },
+    {
+      "slug": "meta",
+      "name": "Meta",
+      "aliases": [
+        "Facebook",
+        "META"
+      ]
+    },
+    {
+      "slug": "amazon",
+      "name": "Amazon",
+      "aliases": [
+        "AMZN",
+        "AWS"
+      ]
+    },
+    {
+      "slug": "amd",
+      "name": "AMD",
+      "aliases": [
+        "Advanced Micro Devices"
+      ]
+    },
+    {
+      "slug": "tsmc",
+      "name": "TSMC",
+      "aliases": [
+        "TSM",
+        "Taiwan Semiconductor"
+      ]
+    },
+    {
+      "slug": "broadcom",
+      "name": "Broadcom",
+      "aliases": [
+        "AVGO"
+      ]
+    },
+    {
+      "slug": "palantir",
+      "name": "Palantir",
+      "aliases": [
+        "PLTR"
+      ]
+    },
+    {
+      "slug": "arm",
+      "name": "Arm",
+      "aliases": [
+        "ARM",
+        "Arm Holdings"
+      ]
+    },
+    {
+      "slug": "openai",
+      "name": "OpenAI",
+      "aliases": []
+    },
+    {
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "aliases": []
+    },
+    {
+      "slug": "google-deepmind",
+      "name": "Google DeepMind",
+      "aliases": [
+        "DeepMind"
+      ]
+    },
+    {
+      "slug": "meta-ai",
+      "name": "Meta AI",
+      "aliases": [
+        "FAIR",
+        "Llama"
+      ]
+    },
+    {
+      "slug": "mistral-ai",
+      "name": "Mistral AI",
+      "aliases": [
+        "Mistral"
+      ]
+    },
+    {
+      "slug": "xai",
+      "name": "xAI",
+      "aliases": [
+        "Grok",
+        "X.AI"
+      ]
+    },
+    {
+      "slug": "microsoft-research",
+      "name": "Microsoft Research",
+      "aliases": [
+        "MSR"
+      ]
+    },
+    {
+      "slug": "amazon-science",
+      "name": "Amazon Science",
+      "aliases": [
+        "Amazon AI"
+      ]
+    },
+    {
+      "slug": "moonshot-ai",
+      "name": "Moonshot AI",
+      "aliases": [
+        "Kimi",
+        "Moonshot"
+      ]
+    },
+    {
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "aliases": [
+        "High-Flyer AI"
+      ]
+    },
+    {
+      "slug": "alibaba-qwen",
+      "name": "Alibaba Qwen",
+      "aliases": [
+        "Qwen",
+        "Tongyi",
+        "Alibaba"
+      ]
+    },
+    {
+      "slug": "hugging-face",
+      "name": "Hugging Face",
+      "aliases": [
+        "HF"
+      ]
+    },
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "aliases": [
+        "AAPL"
+      ]
+    },
+    {
+      "slug": "anysphere",
+      "name": "Anysphere (Cursor)",
+      "aliases": [
+        "Cursor"
+      ]
+    },
+    {
+      "slug": "asml",
+      "name": "ASML",
+      "aliases": []
+    },
+    {
+      "slug": "cloudflare",
+      "name": "Cloudflare",
+      "aliases": [
+        "NET"
+      ]
+    },
+    {
+      "slug": "cognition",
+      "name": "Cognition AI",
+      "aliases": [
+        "Devin",
+        "Cognition"
+      ]
+    },
+    {
+      "slug": "coreweave",
+      "name": "CoreWeave",
+      "aliases": []
+    },
+    {
+      "slug": "figure",
+      "name": "Figure AI",
+      "aliases": [
+        "Figure"
+      ]
+    },
+    {
+      "slug": "framework",
+      "name": "Framework Computer",
+      "aliases": [
+        "Framework"
+      ]
+    },
+    {
+      "slug": "intel",
+      "name": "Intel",
+      "aliases": [
+        "INTC"
+      ]
+    },
+    {
+      "slug": "nike",
+      "name": "Nike",
+      "aliases": [
+        "NKE"
+      ]
+    },
+    {
+      "slug": "oracle",
+      "name": "Oracle",
+      "aliases": [
+        "ORCL"
+      ]
+    },
+    {
+      "slug": "perplexity",
+      "name": "Perplexity AI",
+      "aliases": [
+        "Perplexity"
+      ]
+    },
+    {
+      "slug": "softbank",
+      "name": "SoftBank Group",
+      "aliases": [
+        "SoftBank",
+        "SFTBY"
+      ]
+    },
+    {
+      "slug": "spacex",
+      "name": "SpaceX",
+      "aliases": []
+    },
+    {
+      "slug": "tesla",
+      "name": "Tesla",
+      "aliases": [
+        "TSLA"
+      ]
+    },
+    {
+      "slug": "thinking-machines",
+      "name": "Thinking Machines Lab",
+      "aliases": [
+        "Thinking Machines",
+        "TML"
+      ]
+    },
+    {
+      "slug": "vmware",
+      "name": "VMware",
+      "aliases": []
+    },
+    {
+      "slug": "windsurf",
+      "name": "Windsurf",
+      "aliases": [
+        "Codeium",
+        "Windsurf Editor"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "models-001",
+      "headline": "GPT-5",
+      "publisher": "OpenAI",
+      "canonical_url": "https://openai.com/gpt-5/",
+      "published_at": "2025-08-07",
+      "excerpt": "OpenAI's flagship model release page for GPT-5, with unified reasoning and non-reasoning variants across ChatGPT and the API.",
+      "source_count": 1,
+      "publishers": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "models-002",
+      "headline": "GPT-5.6",
+      "publisher": "OpenAI",
+      "canonical_url": "https://openai.com/index/gpt-5-6/",
+      "published_at": "2026-07-09",
+      "excerpt": "OpenAI ships GPT-5.6, the next minor revision of the GPT-5 family.",
+      "source_count": 1,
+      "publishers": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "models-003",
+      "headline": "Claude Fable 5",
+      "publisher": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "published_at": "2026-06-09",
+      "excerpt": "Anthropic announces Claude Fable 5 and Mythos 5, the next generation of the Claude model family.",
+      "source_count": 1,
+      "publishers": [
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "models-004",
+      "headline": "Claude Opus 4.6",
+      "publisher": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "published_at": "2026-02-05",
+      "excerpt": "Anthropic releases Claude Opus 4.6, an update to its largest Claude model.",
+      "source_count": 1,
+      "publishers": [
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "models-005",
+      "headline": "Gemini 3",
+      "publisher": "Google",
+      "canonical_url": "https://blog.google/products/gemini/gemini-3/",
+      "published_at": "2025-11-18",
+      "excerpt": "Google introduces Gemini 3, its next-generation model, rolling out across Search and the Gemini app.",
+      "source_count": 1,
+      "publishers": [
+        "Google"
+      ]
+    },
+    {
+      "id": "models-006",
+      "headline": "Gemini 4 Argon",
+      "publisher": "Google",
+      "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "published_at": "2026-09-30",
+      "excerpt": "Google DeepMind's announcement of Gemini 4 Argon in the Gemini model series.",
+      "source_count": 1,
+      "publishers": [
+        "Google"
+      ]
+    },
+    {
+      "id": "models-007",
+      "headline": "The Llama 4 herd",
+      "publisher": "Meta AI",
+      "canonical_url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "published_at": "2025-04-05",
+      "excerpt": "Meta releases the Llama 4 family of open-weight multimodal models, including Scout and Maverick.",
+      "source_count": 1,
+      "publishers": [
+        "Meta AI"
+      ]
+    },
+    {
+      "id": "models-008",
+      "headline": "Mistral Large 4",
+      "publisher": "Mistral AI",
+      "canonical_url": "https://mistral.ai/news/mistral-large-4/",
+      "published_at": "2026-10-06",
+      "excerpt": "Mistral AI announces Mistral Large 4, its flagship open-weight model.",
+      "source_count": 1,
+      "publishers": [
+        "Mistral AI"
+      ]
+    },
+    {
+      "id": "models-009",
+      "headline": "Grok 4.5",
+      "publisher": "xAI",
+      "canonical_url": "https://x.ai/news/grok-4-5",
+      "published_at": "2026-07-08",
+      "excerpt": "xAI releases Grok 4.5, a mid-cycle update to its Grok 4 model.",
+      "source_count": 1,
+      "publishers": [
+        "xAI"
+      ]
+    },
+    {
+      "id": "models-010",
+      "headline": "Kimi K3: Open Frontier Intelligence",
+      "publisher": "Moonshot AI",
+      "canonical_url": "https://www.kimi.com/blog/kimi-k3",
+      "published_at": "2026-07-16",
+      "excerpt": "Moonshot AI releases Kimi K3, an open-weight frontier model.",
+      "source_count": 1,
+      "publishers": [
+        "Moonshot AI"
+      ]
+    },
+    {
+      "id": "models-011",
+      "headline": "Qwen 3.8 27B",
+      "publisher": "Hugging Face",
+      "canonical_url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "published_at": "2026-08-14",
+      "excerpt": "New Qwen 3.8 27B FP8 model repository published on the Hugging Face Hub by the Qwen org.",
+      "source_count": 1,
+      "publishers": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "models-012",
+      "headline": "DeepSeek v4",
+      "publisher": "DeepSeek",
+      "canonical_url": "https://api-docs.deepseek.com/news/news260424",
+      "published_at": "2026-04-24",
+      "excerpt": "DeepSeek announces the v4 model release on its API changelog.",
+      "source_count": 1,
+      "publishers": [
+        "DeepSeek"
+      ]
+    },
+    {
+      "id": "models-013",
+      "headline": "vLLM v0.32.0 release",
+      "publisher": "GitHub",
+      "canonical_url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+      "published_at": "2026-10-18",
+      "excerpt": "GitHub release tag for vLLM v0.32.0, the open-source LLM inference engine — a flagship OSS release per PLAN §5.1.",
+      "source_count": 1,
+      "publishers": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "models-014",
+      "headline": "Figure AI — Helix 2.5 robot: zero-shot home generalization",
+      "publisher": "Figure AI",
+      "canonical_url": "https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization",
+      "published_at": "2026-09-17",
+      "excerpt": "Figure ships Helix 2.5, an updated vision-language-action model for its humanoid robot.",
+      "source_count": 1,
+      "publishers": [
+        "Figure AI"
+      ]
+    },
+    {
+      "id": "performance-001",
+      "headline": "OpenAI o3 breakthrough high score on ARC-AGI-PUB",
+      "publisher": "ARC Prize",
+      "canonical_url": "https://arcprize.org/blog/oai-o3-pub-breakthrough",
+      "published_at": "2024-12-20",
+      "excerpt": "ARC Prize reports OpenAI o3's high score on the ARC-AGI public eval — a landmark benchmark result.",
+      "source_count": 1,
+      "publishers": [
+        "ARC Prize"
+      ]
+    },
+    {
+      "id": "performance-002",
+      "headline": "ARC-AGI-3",
+      "publisher": "ARC Prize",
+      "canonical_url": "https://arcprize.org/arc-agi/3",
+      "published_at": "2026-03-25",
+      "excerpt": "ARC Prize launches ARC-AGI-3, the next interactive reasoning benchmark in the ARC-AGI series.",
+      "source_count": 1,
+      "publishers": [
+        "ARC Prize"
+      ]
+    },
+    {
+      "id": "performance-003",
+      "headline": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+      "publisher": "ARC Prize",
+      "canonical_url": "https://arcprize.org/blog/astra",
+      "published_at": "2026-09-03",
+      "excerpt": "ARC Prize publishes GPT-6 Astra results on ARC-AGI-3.",
+      "source_count": 1,
+      "publishers": [
+        "ARC Prize"
+      ]
+    },
+    {
+      "id": "performance-004",
+      "headline": "Top model scores may be skewed by Git history leaks in SWE-bench",
+      "publisher": "GitHub",
+      "canonical_url": "https://github.com/SWE-bench/SWE-bench/issues/465",
+      "published_at": "2025-09-11",
+      "excerpt": "Issue on the SWE-bench tracker reporting that benchmark scores may be inflated by git-history leakage — eval-methodology news.",
+      "source_count": 1,
+      "publishers": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "performance-005",
+      "headline": "Many SWE-bench-passing PRs would not be merged",
+      "publisher": "METR",
+      "canonical_url": "https://metr.org/notes/2026-03-10-many-swe-bench-passing-prs-would-not-be-merged-into-main/",
+      "published_at": "2026-03-11",
+      "excerpt": "METR finds many benchmark-passing patches would fail human review — a notable eval methodology result.",
+      "source_count": 1,
+      "publishers": [
+        "METR"
+      ]
+    },
+    {
+      "id": "performance-006",
+      "headline": "SWE-bench Verified no longer measures frontier coding capabilities",
+      "publisher": "OpenAI",
+      "canonical_url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+      "published_at": "2026-04-26",
+      "excerpt": "OpenAI explains why it stopped reporting SWE-bench Verified — a leaderboard/benchmark-move story.",
+      "source_count": 1,
+      "publishers": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "performance-007",
+      "headline": "Measuring AI ability to complete long tasks",
+      "publisher": "METR",
+      "canonical_url": "https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/",
+      "published_at": "2025-03-19",
+      "excerpt": "METR's task-length study finds the length of tasks models can complete doubles roughly every seven months.",
+      "source_count": 1,
+      "publishers": [
+        "METR"
+      ]
+    },
+    {
+      "id": "launches-001",
+      "headline": "ChatGPT agent: bridging research and action",
+      "publisher": "OpenAI",
+      "canonical_url": "https://openai.com/index/introducing-chatgpt-agent/",
+      "published_at": "2025-07-17",
+      "excerpt": "OpenAI ships the ChatGPT agent product — a tool-using mode that can browse and act, available to subscribers.",
+      "source_count": 1,
+      "publishers": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "launches-002",
+      "headline": "Sora 2",
+      "publisher": "OpenAI",
+      "canonical_url": "https://openai.com/index/sora-2/",
+      "published_at": "2025-09-30",
+      "excerpt": "OpenAI ships Sora 2 — the video model plus a new Sora social app.",
+      "source_count": 1,
+      "publishers": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "launches-003",
+      "headline": "Cursor 2.0",
+      "publisher": "Cursor",
+      "canonical_url": "https://cursor.com/blog/2-0",
+      "published_at": "2025-10-29",
+      "excerpt": "Anysphere ships Cursor 2.0 with its Composer model and a redesigned agent interface.",
+      "source_count": 1,
+      "publishers": [
+        "Cursor"
+      ]
+    },
+    {
+      "id": "launches-004",
+      "headline": "NotebookLM is now Gemini Notebook",
+      "publisher": "Google",
+      "canonical_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "published_at": "2026-07-16",
+      "excerpt": "Google rebrands NotebookLM to Gemini Notebook — a product change shipped to users.",
+      "source_count": 1,
+      "publishers": [
+        "Google"
+      ]
+    },
+    {
+      "id": "launches-005",
+      "headline": "NotebookLM Audio Overviews are now available in over 50 languages",
+      "publisher": "Google",
+      "canonical_url": "https://blog.google/technology/google-labs/notebooklm-audio-overviews-50-languages/",
+      "published_at": "2025-04-30",
+      "excerpt": "Google expands NotebookLM's Audio Overviews feature to more than 50 languages.",
+      "source_count": 1,
+      "publishers": [
+        "Google"
+      ]
+    },
+    {
+      "id": "launches-006",
+      "headline": "OpenAI unveils its first custom chip, built by Broadcom",
+      "publisher": "TechCrunch",
+      "canonical_url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "published_at": "2026-06-24",
+      "excerpt": "TechCrunch covers OpenAI unveiling its first custom silicon, fabricated with Broadcom.",
+      "source_count": 1,
+      "publishers": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "launches-007",
+      "headline": "Introducing Agent Skills",
+      "publisher": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/skills",
+      "published_at": "2025-10-16",
+      "excerpt": "Anthropic ships Agent Skills — packaged instruction folders Claude can load, across apps and API.",
+      "source_count": 1,
+      "publishers": [
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "launches-008",
+      "headline": "DeepInfer: high-performance inference framework for DeepSeek models",
+      "publisher": "GitHub",
+      "canonical_url": "https://github.com/deepseek-ai/DeepInfer",
+      "published_at": "2026-10-20",
+      "excerpt": "DeepSeek open-sources DeepInfer, an inference framework for its model family.",
+      "source_count": 1,
+      "publishers": [
+        "GitHub"
+      ]
+    },
+    {
+      "id": "funding-001",
+      "headline": "Anthropic raises $13B Series F",
+      "publisher": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation",
+      "published_at": "2025-09-02",
+      "excerpt": "Anthropic raises $13B in Series F funding at a $183B post-money valuation, led by Iconiq.",
+      "source_count": 1,
+      "publishers": [
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "funding-002",
+      "headline": "Anthropic raises $30B in Series G funding at $380B post-money valuation",
+      "publisher": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+      "published_at": "2026-02-12",
+      "excerpt": "Anthropic's Series G round brings in $30B at a $380B post-money valuation.",
+      "source_count": 1,
+      "publishers": [
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "funding-003",
+      "headline": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "publisher": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/series-h",
+      "published_at": "2026-05-28",
+      "excerpt": "Anthropic announces its Series H round: $65B raised at a $965B post-money valuation.",
+      "source_count": 1,
+      "publishers": [
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "funding-004",
+      "headline": "OpenAI raises $110B in one of the largest private funding rounds in history",
+      "publisher": "TechCrunch",
+      "canonical_url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
+      "published_at": "2026-02-27",
+      "excerpt": "TechCrunch reports OpenAI closed a $110B round on a $730B pre-money valuation.",
+      "source_count": 1,
+      "publishers": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "funding-005",
+      "headline": "OpenAI raises $40B at $300B post-money valuation",
+      "publisher": "TechCrunch",
+      "canonical_url": "https://techcrunch.com/2025/03/31/openai-raises-40b-at-300b-post-money-valuation/",
+      "published_at": "2025-03-31",
+      "excerpt": "TechCrunch reports OpenAI's $40B SoftBank-led round at a $300B post-money valuation.",
+      "source_count": 1,
+      "publishers": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "funding-006",
+      "headline": "Mira Murati's AI startup Thinking Machines valued at $12B in early-stage funding",
+      "publisher": "Reuters",
+      "canonical_url": "https://www.reuters.com/technology/mira-muratis-ai-startup-thinking-machines-raises-2-billion-a16z-led-round-2025-07-15/",
+      "published_at": "2025-07-15",
+      "excerpt": "Reuters reports Thinking Machines Lab raised $2B in an a16z-led early-stage round at a $12B valuation.",
+      "source_count": 1,
+      "publishers": [
+        "Reuters"
+      ]
+    },
+    {
+      "id": "funding-007",
+      "headline": "Mistral AI raises €1.7B, partners with ASML",
+      "publisher": "Mistral AI",
+      "canonical_url": "https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai",
+      "published_at": "2025-09-09",
+      "excerpt": "Mistral AI announces a €1.7B raise alongside a strategic partnership with ASML.",
+      "source_count": 1,
+      "publishers": [
+        "Mistral AI"
+      ]
+    },
+    {
+      "id": "funding-008",
+      "headline": "Figure raises $675M at $2.6B valuation; signs collaboration agreement with OpenAI",
+      "publisher": "PR Newswire",
+      "canonical_url": "https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html",
+      "published_at": "2024-02-29",
+      "excerpt": "Figure AI's press release: $675M raised at a $2.6B valuation, plus an OpenAI collaboration agreement.",
+      "source_count": 1,
+      "publishers": [
+        "PR Newswire"
+      ]
+    },
+    {
+      "id": "funding-009",
+      "headline": "xAI raises $20B Series E",
+      "publisher": "xAI",
+      "canonical_url": "https://x.ai/news/series-e",
+      "published_at": "2026-01-06",
+      "excerpt": "xAI announces its $20B Series E funding round.",
+      "source_count": 1,
+      "publishers": [
+        "xAI"
+      ]
+    },
+    {
+      "id": "funding-010",
+      "headline": "Nvidia to anchor CoreWeave IPO at $40 a share",
+      "publisher": "CNBC",
+      "canonical_url": "https://www.cnbc.com/2025/03/27/nvidia-to-anchor-coreweave-ipo-at-40-a-share-source-says.html",
+      "published_at": "2025-03-27",
+      "excerpt": "CNBC reports Nvidia anchored CoreWeave's IPO at $40 per share with up to a $250M purchase — a public offering.",
+      "source_count": 1,
+      "publishers": [
+        "CNBC"
+      ]
+    },
+    {
+      "id": "deals-001",
+      "headline": "Our decision on Cursor following its acquisition by SpaceX",
+      "publisher": "OpenAI",
+      "canonical_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "published_at": "2026-08-29",
+      "excerpt": "OpenAI's statement on Cursor after SpaceX acquired the coding tool maker.",
+      "source_count": 1,
+      "publishers": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "deals-002",
+      "headline": "Nvidia agrees to acquire Hugging Face for $13B",
+      "publisher": "Business Insider",
+      "canonical_url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "published_at": "2026-08-27",
+      "excerpt": "Business Insider reports Nvidia agreed to acquire Hugging Face for $13B.",
+      "source_count": 1,
+      "publishers": [
+        "Business Insider"
+      ]
+    },
+    {
+      "id": "deals-003",
+      "headline": "Nvidia to acquire Arm for $40B",
+      "publisher": "NVIDIA",
+      "canonical_url": "https://nvidianews.nvidia.com/news/nvidia-to-acquire-arm-for-40-billion-creating-worlds-premier-computing-company-for-the-age-of-ai",
+      "published_at": "2020-09-13",
+      "excerpt": "Nvidia's press release announcing the $40B acquisition of Arm from SoftBank (later abandoned).",
+      "source_count": 1,
+      "publishers": [
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "deals-004",
+      "headline": "Cognition (Devin AI) to acquire Windsurf",
+      "publisher": "Cognition",
+      "canonical_url": "https://cognition.ai/blog/windsurf",
+      "published_at": "2025-07-14",
+      "excerpt": "Cognition announces it will acquire Windsurf after the coding startup's OpenAI deal collapsed.",
+      "source_count": 1,
+      "publishers": [
+        "Cognition"
+      ]
+    },
+    {
+      "id": "deals-005",
+      "headline": "Stargate Project: SoftBank, OpenAI, Oracle, MGX to build data centers",
+      "publisher": "Associated Press",
+      "canonical_url": "https://apnews.com/article/trump-ai-openai-oracle-softbank-son-altman-ellison-be261f8a8ee07a0623d4170397348c41",
+      "published_at": "2025-01-21",
+      "excerpt": "AP covers the Stargate joint venture: SoftBank, OpenAI, Oracle and MGX commit to US AI data centers.",
+      "source_count": 1,
+      "publishers": [
+        "Associated Press"
+      ]
+    },
+    {
+      "id": "deals-006",
+      "headline": "AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs",
+      "publisher": "AMD",
+      "canonical_url": "https://www.amd.com/en/newsroom/press-releases/2025-10-6-amd-and-openai-announce-strategic-partnership-to-d.html",
+      "published_at": "2025-10-06",
+      "excerpt": "AMD's press release on the OpenAI partnership: 6 GW of AMD Instinct GPUs plus a warrant for up to 160M AMD shares.",
+      "source_count": 1,
+      "publishers": [
+        "AMD"
+      ]
+    },
+    {
+      "id": "markets-001",
+      "headline": "Nvidia sheds almost $600B in market cap, biggest drop ever",
+      "publisher": "CNBC",
+      "canonical_url": "https://www.cnbc.com/2025/01/27/nvidia-sheds-almost-600-billion-in-market-cap-biggest-drop-ever.html",
+      "published_at": "2025-01-27",
+      "excerpt": "CNBC reports Nvidia's ~$600B one-day market-cap loss after the DeepSeek-driven AI selloff.",
+      "source_count": 1,
+      "publishers": [
+        "CNBC"
+      ]
+    },
+    {
+      "id": "markets-002",
+      "headline": "Oracle stock gains 36% to post best day since 1992, adding $244B in value",
+      "publisher": "CNBC",
+      "canonical_url": "https://www.cnbc.com/2025/09/10/oracle-stock-cloud-backlog-ai.html",
+      "published_at": "2025-09-10",
+      "excerpt": "CNBC reports Oracle's 36% single-day gain on AI cloud backlog — the stock's best day since 1992.",
+      "source_count": 1,
+      "publishers": [
+        "CNBC"
+      ]
+    },
+    {
+      "id": "markets-003",
+      "headline": "Oracle's stock slides 11% on revenue miss",
+      "publisher": "CNBC",
+      "canonical_url": "https://www.cnbc.com/2025/12/10/oracle-orcl-q2-earnings-report-2026.html",
+      "published_at": "2025-12-10",
+      "excerpt": "CNBC reports Oracle shares fell 11% after a quarterly revenue miss.",
+      "source_count": 1,
+      "publishers": [
+        "CNBC"
+      ]
+    },
+    {
+      "id": "markets-004",
+      "headline": "AMD passes Intel in market cap",
+      "publisher": "CNBC",
+      "canonical_url": "https://www.cnbc.com/2022/07/29/amd-passes-intel-in-market-cap.html",
+      "published_at": "2022-08-01",
+      "excerpt": "CNBC reports AMD's market capitalization overtaking Intel's for the first time.",
+      "source_count": 1,
+      "publishers": [
+        "CNBC"
+      ]
+    },
+    {
+      "id": "markets-005",
+      "headline": "Nvidia sets new record with nearly $5.3T value after AI darling surges 4%",
+      "publisher": "Forbes",
+      "canonical_url": "https://www.forbes.com/sites/antoniopequenoiv/2026/04/27/nvidia-sets-new-record-with-nearly-53-trillion-value-after-ai-darling-surges-4/",
+      "published_at": "2026-04-27",
+      "excerpt": "Forbes reports Nvidia's new record valuation near $5.3T after a 4% single-day gain.",
+      "source_count": 1,
+      "publishers": [
+        "Forbes"
+      ]
+    },
+    {
+      "id": "discourse-001",
+      "headline": "AI 2027",
+      "publisher": "AI 2027",
+      "canonical_url": "https://ai-2027.com/",
+      "published_at": "2025-04-03",
+      "excerpt": "The AI 2027 scenario forecast by Daniel Kokotajlo's team — the season's most argued-about prediction, with prominent counter-arguments (e.g. Marcus).",
+      "source_count": 1,
+      "publishers": [
+        "AI 2027"
+      ]
+    },
+    {
+      "id": "discourse-002",
+      "headline": "The Illusion of Thinking: strengths and limitations of reasoning models",
+      "publisher": "Apple Machine Learning Research",
+      "canonical_url": "https://machinelearning.apple.com/research/illusion-of-thinking",
+      "published_at": "2025-06-06",
+      "excerpt": "Apple's paper arguing reasoning models collapse on complex problems — ignited a field-wide debate with prominent rebuttals.",
+      "source_count": 1,
+      "publishers": [
+        "Apple Machine Learning Research"
+      ]
+    },
+    {
+      "id": "discourse-003",
+      "headline": "Perplexity is using stealth, undeclared crawlers to evade no-crawl directives",
+      "publisher": "Cloudflare",
+      "canonical_url": "https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/",
+      "published_at": "2025-08-04",
+      "excerpt": "Cloudflare's accusation that Perplexity evades no-crawl directives — contested by Perplexity.",
+      "source_count": 1,
+      "publishers": [
+        "Cloudflare"
+      ]
+    },
+    {
+      "id": "discourse-004",
+      "headline": "US judge approves $1.5B Anthropic copyright settlement with authors",
+      "publisher": "Reuters",
+      "canonical_url": "https://www.reuters.com/sustainability/boards-policy-regulation/us-judge-approves-15-billion-anthropic-copyright-settlement-with-authors-2025-09-25/",
+      "published_at": "2025-09-25",
+      "excerpt": "Reuters reports court approval of Anthropic's $1.5B settlement with authors — a landmark in the AI copyright fight.",
+      "source_count": 1,
+      "publishers": [
+        "Reuters"
+      ]
+    },
+    {
+      "id": "discourse-005",
+      "headline": "The Hater's Guide to the AI Bubble",
+      "publisher": "Where's Your Ed At",
+      "canonical_url": "https://www.wheresyoured.at/the-haters-gui/",
+      "published_at": "2025-07-22",
+      "excerpt": "Ed Zitron's viral case that AI is an unsustainable bubble — one side of the week's biggest industry argument.",
+      "source_count": 1,
+      "publishers": [
+        "Where's Your Ed At"
+      ]
+    },
+    {
+      "id": "discourse-006",
+      "headline": "The AI bubble is 17 times the size of the dot-com frenzy and four times subprime",
+      "publisher": "Morningstar",
+      "canonical_url": "https://www.morningstar.com/news/marketwatch/20251003175/the-ai-bubble-is-17-times-the-size-of-the-dot-com-frenzy-and-four-times-subprime-this-analyst-argues",
+      "published_at": "2025-10-06",
+      "excerpt": "MarketWatch/Morningstar carries an analyst's bubble-size argument — contested across finance and AI press.",
+      "source_count": 1,
+      "publishers": [
+        "Morningstar"
+      ]
+    },
+    {
+      "id": "discourse-007",
+      "headline": "Anthropic tries to hide Claude's AI actions. Devs hate it",
+      "publisher": "The Register",
+      "canonical_url": "https://www.theregister.com/2026/02/16/anthropic_claude_ai_edits/",
+      "published_at": "2026-02-16",
+      "excerpt": "The Register covers developer anger over Anthropic obscuring Claude's tool actions — a transparency controversy.",
+      "source_count": 1,
+      "publishers": [
+        "The Register"
+      ]
+    },
+    {
+      "id": "discourse-008",
+      "headline": "Grok: searching X for \"From:Elonmusk (Israel or Palestine or Hamas or Gaza)\"",
+      "publisher": "Simon Willison",
+      "canonical_url": "https://simonwillison.net/2025/Jul/11/grok-musk/",
+      "published_at": "2025-07-11",
+      "excerpt": "Simon Willison documents Grok appearing to consult Elon Musk's posts on contested topics — a bias controversy.",
+      "source_count": 1,
+      "publishers": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "id": "discourse-009",
+      "headline": "MIT study finds AI can replace 11.7% of US workforce",
+      "publisher": "CNBC",
+      "canonical_url": "https://www.cnbc.com/2025/11/26/mit-study-finds-ai-can-already-replace-11point7percent-of-us-workforce.html",
+      "published_at": "2025-11-26",
+      "excerpt": "CNBC reports MIT's estimate that current AI can perform work equivalent to 11.7% of US jobs — a flashpoint in the jobs debate.",
+      "source_count": 1,
+      "publishers": [
+        "CNBC"
+      ]
+    },
+    {
+      "id": "discourse-010",
+      "headline": "FTC sues to block Nvidia's $40B acquisition of Arm",
+      "publisher": "CNBC",
+      "canonical_url": "https://www.cnbc.com/2021/12/02/ftc-sues-to-block-nvidias-40-billion-acquisition-of-arm.html",
+      "published_at": "2021-12-02",
+      "excerpt": "CNBC reports the FTC's suit to block the Nvidia–Arm deal — a regulatory fight over the biggest chip acquisition.",
+      "source_count": 1,
+      "publishers": [
+        "CNBC"
+      ]
+    },
+    {
+      "id": "unsorted-001",
+      "headline": "React 19",
+      "publisher": "React",
+      "canonical_url": "https://react.dev/blog/2024/12/05/react-19",
+      "published_at": "2024-12-05",
+      "excerpt": "The stable React 19 release — a major version bump of a non-AI software project.",
+      "source_count": 1,
+      "publishers": [
+        "React"
+      ]
+    },
+    {
+      "id": "unsorted-002",
+      "headline": "PostgreSQL 18 released",
+      "publisher": "PostgreSQL",
+      "canonical_url": "https://www.postgresql.org/about/news/postgresql-18-released-3142/",
+      "published_at": "2025-09-25",
+      "excerpt": "PostgreSQL 18 ships — a database release, not AI news.",
+      "source_count": 1,
+      "publishers": [
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "unsorted-003",
+      "headline": "Python 3.14.0 released",
+      "publisher": "Python",
+      "canonical_url": "https://www.python.org/downloads/release/python-3140/",
+      "published_at": "2025-10-07",
+      "excerpt": "The final Python 3.14 release — a language release, not AI news.",
+      "source_count": 1,
+      "publishers": [
+        "Python"
+      ]
+    },
+    {
+      "id": "unsorted-004",
+      "headline": "Framework raises $18M Series A",
+      "publisher": "Framework",
+      "canonical_url": "https://frame.work/blog/frameworks-series-a-and-the-years-ahead",
+      "published_at": "2021-07-15",
+      "excerpt": "Framework Computer's Series A announcement — a non-AI hardware funding round.",
+      "source_count": 1,
+      "publishers": [
+        "Framework"
+      ]
+    },
+    {
+      "id": "unsorted-005",
+      "headline": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
+      "publisher": "Fortune",
+      "canonical_url": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/",
+      "published_at": "2026-09-08",
+      "excerpt": "Fortune reports Nike leaving the S&P 100 — a market event on a non-AI, non-basket name.",
+      "source_count": 1,
+      "publishers": [
+        "Fortune"
+      ]
+    },
+    {
+      "id": "unsorted-006",
+      "headline": "Steve Wozniak cheered after telling students they have AI — actual intelligence",
+      "publisher": "Business Insider",
+      "canonical_url": "https://www.businessinsider.com/steve-wozniak-apple-ai-graduation-speech-2026-5",
+      "published_at": "2026-05-15",
+      "excerpt": "Business Insider covers a Wozniak graduation-speech quip about 'AI' — celebrity opinion, no news substance.",
+      "source_count": 1,
+      "publishers": [
+        "Business Insider"
+      ]
+    },
+    {
+      "id": "unsorted-007",
+      "headline": "US AI Action Plan",
+      "publisher": "The White House",
+      "canonical_url": "https://www.ai.gov/action-plan",
+      "published_at": "2025-07-23",
+      "excerpt": "The White House AI Action Plan document — a policy announcement without a live two-sided debate in v1's taxonomy.",
+      "source_count": 1,
+      "publishers": [
+        "The White House"
+      ]
+    },
+    {
+      "id": "unsorted-008",
+      "headline": "Kubernetes v1.34 release",
+      "publisher": "Kubernetes",
+      "canonical_url": "https://kubernetes.io/blog/2025/08/27/kubernetes-v1-34-release/",
+      "published_at": "2025-08-27",
+      "excerpt": "The Kubernetes 1.34 release notes — cloud infrastructure, not AI news.",
+      "source_count": 1,
+      "publishers": [
+        "Kubernetes"
+      ]
+    },
+    {
+      "id": "unsorted-009",
+      "headline": "Apple becomes first US company to reach a $2T market cap",
+      "publisher": "CNBC",
+      "canonical_url": "https://www.cnbc.com/2020/08/19/apple-reaches-2-trillion-market-cap.html",
+      "published_at": "2020-08-19",
+      "excerpt": "CNBC reports Apple's $2T market-cap milestone — a market event on a name outside the AI basket.",
+      "source_count": 1,
+      "publishers": [
+        "CNBC"
+      ]
+    },
+    {
+      "id": "unsorted-010",
+      "headline": "Tesla stock surges on Elon's lies despite disastrous earnings",
+      "publisher": "Electrek",
+      "canonical_url": "https://electrek.co/2025/04/23/tesla-tsla-stock-surges-elon-lies-despite-disastrous-earnings/",
+      "published_at": "2025-04-23",
+      "excerpt": "Electrek's editorial on a Tesla stock move — a non-basket stock story with opinion framing.",
+      "source_count": 1,
+      "publishers": [
+        "Electrek"
+      ]
+    },
+    {
+      "id": "unsorted-011",
+      "headline": "Broadcom to buy VMware for $61B",
+      "publisher": "Reuters",
+      "canonical_url": "https://www.reuters.com/markets/us/chipmaker-broadcom-buy-vmware-61-bln-deal-2022-05-26/",
+      "published_at": "2022-05-26",
+      "excerpt": "Reuters reports Broadcom's $61B acquisition of VMware — an enterprise software deal, not an AI deal.",
+      "source_count": 1,
+      "publishers": [
+        "Reuters"
+      ]
+    },
+    {
+      "id": "unsorted-012",
+      "headline": "TSMC, Bosch, Infineon and NXP to jointly build semiconductor fab in Europe",
+      "publisher": "TSMC",
+      "canonical_url": "https://pr.tsmc.com/english/news/3049",
+      "published_at": "2023-08-08",
+      "excerpt": "TSMC's press release on the European fab JV for automotive/industrial chips — semis news, not AI news.",
+      "source_count": 1,
+      "publishers": [
+        "TSMC"
+      ]
+    },
+    {
+      "id": "unsorted-013",
+      "headline": "Ask HN: Will something replace transformers and GPUs in the next 10 years?",
+      "publisher": "Hacker News",
+      "canonical_url": "https://news.ycombinator.com/item?id=44202671",
+      "published_at": "2025-06-06",
+      "excerpt": "An Ask HN discussion question — community speculation, not a reportable item.",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    }
+  ]
+}
