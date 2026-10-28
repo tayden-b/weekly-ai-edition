@@ -17,7 +17,10 @@
 #   rate_limit courtesy limit the adapter honours
 #   enabled    ingest may use it (false = documented-off, never a failure)
 #   mode       data | link  (optional; "link" = headline+link only, ToS-doubtful)
-#   meta       adapter-specific config: repos, orgs, subreddits, filter terms
+#   meta       adapter-specific config: repos, orgs, subreddits, filter terms;
+#              meta.publisher = curated publisher display name (stamped on
+#              RawItem.publisher); meta.weight = rank-stage publisher weight
+#              (P2, default 1.0; secondary corroboration ~0.6)
 #
 # Universal storage rule (§5.1): headline, canonical URL, publisher,
 # published_at, fetched_at, excerpt ≤300 chars, source ids — NEVER bodies.
@@ -708,6 +711,7 @@ sources:
     enabled: true
     meta:
       publisher: Financial Times
+      weight: 0.6
       filter_groups:
         ai: *press-wire-ai-terms
         funding_ma: *press-wire-funding-terms
@@ -722,6 +726,7 @@ sources:
     enabled: true
     meta:
       publisher: The Guardian
+      weight: 0.6
   - id: nyt-tech
     pages: [funding, deals]
     tier: secondary
@@ -733,6 +738,7 @@ sources:
     enabled: true
     meta:
       publisher: The New York Times
+      weight: 0.6
       filter_groups:
         ai: *press-wire-ai-terms
         funding_ma: *press-wire-funding-terms
@@ -826,6 +832,7 @@ sources:
     license: "Downstream consumer; canonical outbound URL where they link out. Corroboration/ranking only, never sole source."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta: { weight: 0.6 }
   - id: distribute-stories
     pages: [launches]
     tier: secondary
@@ -835,3 +842,4 @@ sources:
     license: "Downstream consumer; canonical outbound URL where they link out. Secondary tier only."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta: { weight: 0.6 }

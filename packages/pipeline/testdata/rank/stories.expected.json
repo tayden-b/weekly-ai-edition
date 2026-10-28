@@ -1,0 +1,9 @@
+{
+  "$comment": "Expected rank order for stories.json against the injected reference instant 2026-10-28T12:00:00Z. Factor-level expectations are asserted numerically in rank.test.ts.",
+  "order": [
+    "https://techcrunch.com/2026/10/28/openai-gpt-7/",
+    "https://reddit.com/r/MachineLearning/comments/abc123/x",
+    "https://www.sec.gov/Archives/edgar/data/123/0001234567-26-000123-index.htm",
+    "https://www.ft.com/content/acme-ai-40m"
+  ]
+}
