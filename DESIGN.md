@@ -1,4 +1,3 @@
----
 # DESIGN.md — Weekly AI Edition
 
 ## 0. Direction: "Broadsheet, redrawn"

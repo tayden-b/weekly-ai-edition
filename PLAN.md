@@ -1,4 +1,3 @@
----
 # Weekly AI Edition — Build Plan
 
 ## 1. Thesis
