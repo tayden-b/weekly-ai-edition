@@ -136,6 +136,25 @@ export {
   type HnAdapterOptions,
 } from "./sources/hn.js";
 
+// A3 — newsroom RSS set (Launches / Deals / Discourse, PLAN §5.1)
+export {
+  createNewsroomAdapter,
+  NEWSROOM_ADAPTER_ID,
+  type NewsroomAdapterOptions,
+  type NewsroomFeed,
+  newsroomFeedsFromSources,
+} from "./sources/newsrooms.js";
+
+// A5 — press-wire RSS: Money + Deals wires, funding feeds, corroboration
+export {
+  createPressWireAdapter,
+  htmlToPlainText,
+  parseWireFeed,
+  PRESS_WIRE_ADAPTER_ID,
+  pressWireAdapterFromEntry,
+  type PressWireOptions,
+} from "./sources/press-wires.js";
+
 // A8 — market data adapter (weekly close of the markets.json basket)
 export {
   createMarketsAdapter,
