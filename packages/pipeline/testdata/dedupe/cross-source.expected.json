@@ -1,0 +1,19 @@
+{
+  "$comment": "Expected partition for testdata/dedupe/cross-source.json at the default threshold: story A collapses 4 records into 3 members (TC dup merge + shared-URL HN union + Verge SimHash union); EDGAR is a singleton. Cluster order: representative published_at asc (EDGAR first).",
+  "clusters": [
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1999999/000199999926000001/0001999999-26-000001-index.htm",
+      "members": [
+        { "adapter": "sec-edgar", "publisher": "SEC EDGAR", "url": "https://www.sec.gov/Archives/edgar/data/1999999/000199999926000001/0001999999-26-000001-index.htm" }
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/openai-gpt-6",
+      "members": [
+        { "adapter": "newsroom-rss", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/10/28/openai-gpt-6" },
+        { "adapter": "newsroom-rss", "publisher": "The Verge", "url": "https://theverge.com/2026/10/28/openai-gpt-6-launch" },
+        { "adapter": "hn-algolia", "publisher": "Hacker News", "url": "https://techcrunch.com/2026/10/28/openai-gpt-6" }
+      ]
+    }
+  ]
+}

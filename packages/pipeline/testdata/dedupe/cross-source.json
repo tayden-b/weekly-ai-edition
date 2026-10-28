@@ -1,0 +1,62 @@
+{
+  "$comment": "P1 dedupe-stage fixtures — NormalizedItem records (post-normalize shape). Story A: one launch reported by TechCrunch + The Verge + an HN link to the TC URL + a duplicate fetch of the TC item. Story B: unrelated EDGAR item. Expected partition in cross-source.expected.json.",
+  "items": [
+    {
+      "adapter": "hn-algolia",
+      "headline": "OpenAI launches GPT-6 with 2M context",
+      "canonical_url": "https://techcrunch.com/2026/10/28/openai-gpt-6",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-28T10:05:00.000Z",
+      "fetched_at": "2026-10-28T12:00:00.000Z",
+      "excerpt": "OpenAI launches GPT-6 with 2M context (techcrunch.com)",
+      "source_ids": { "hn_object_id": "4242" },
+      "hn_points": 512,
+      "hn_comments": 340,
+      "title_key": "openai launches gpt 6 with 2m context"
+    },
+    {
+      "adapter": "newsroom-rss",
+      "headline": "OpenAI launches GPT-6 with 2M-token context",
+      "canonical_url": "https://techcrunch.com/2026/10/28/openai-gpt-6",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T09:45:00.000Z",
+      "fetched_at": "2026-10-28T11:00:00.000Z",
+      "excerpt": "OpenAI today launched GPT-6, its largest model, with a 2M-token context window.",
+      "source_ids": { "rss_guid": "tc-1", "newsroom_feed": "techcrunch-ai" },
+      "title_key": "openai launches gpt 6 with 2m token context"
+    },
+    {
+      "adapter": "newsroom-rss",
+      "headline": "OpenAI launches GPT-6 with 2M-token context",
+      "canonical_url": "https://techcrunch.com/2026/10/28/openai-gpt-6",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-28T09:50:00.000Z",
+      "fetched_at": "2026-10-28T13:00:00.000Z",
+      "excerpt": "OpenAI launched GPT-6.",
+      "source_ids": { "rss_guid": "tc-1", "newsroom_feed": "techcrunch-launches" },
+      "title_key": "openai launches gpt 6 with 2m token context"
+    },
+    {
+      "adapter": "newsroom-rss",
+      "headline": "OpenAI launches GPT-6 with 2M context window",
+      "canonical_url": "https://theverge.com/2026/10/28/openai-gpt-6-launch",
+      "publisher": "The Verge",
+      "published_at": "2026-10-28T10:00:00.000Z",
+      "fetched_at": "2026-10-28T12:00:00.000Z",
+      "excerpt": "The Verge: GPT-6 arrives with a 2M context window.",
+      "source_ids": { "rss_guid": "v-7", "newsroom_feed": "theverge-ai" },
+      "title_key": "openai launches gpt 6 with 2m context window"
+    },
+    {
+      "adapter": "sec-edgar",
+      "headline": "Form D — Acme AI (40M Series B)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1999999/000199999926000001/0001999999-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-10-28T08:00:00.000Z",
+      "fetched_at": "2026-10-28T12:00:00.000Z",
+      "excerpt": "Form D filing by Acme AI; $40,000,000 offered.",
+      "source_ids": { "edgar_accession": "0001999999-26-000001", "edgar_cik": "1999999", "edgar_form": "D" },
+      "title_key": "form d acme ai 40m series b"
+    }
+  ]
+}
