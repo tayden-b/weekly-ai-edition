@@ -37,24 +37,31 @@ sources:
     license: "Public blog RSS. Store headline, link, timestamps, ≤300-char excerpt."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "OpenAI"
   - id: anthropic-news
     pages: [models]
     tier: primary
     adapter: lab-blogs
     endpoint: https://www.anthropic.com/sitemap.xml
     kind: sitemap
-    license: "No public RSS found (verified 2026-10); sitemap discovery, headline+link only."
+    license: "No public RSS (verified 2026-10); sitemap urlset discovery scoped to /news/ + /research/, headline+link only, published_at = lastmod."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Anthropic"
+      include_paths: ["/news/", "/research/"]
   - id: google-deepmind-blog
     pages: [models]
     tier: primary
     adapter: lab-blogs
     endpoint: https://deepmind.google/blog/rss.xml
     kind: rss
-    license: "Public blog RSS. Headline, link, timestamps, ≤300-char excerpt."
+    license: "Public blog RSS. Headline, link, timestamps, ≤300-char excerpt (items carry no description — excerpt falls back to headline)."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Google DeepMind"
   - id: google-ai-blog
     pages: [models]
     tier: primary
@@ -64,89 +71,110 @@ sources:
     license: "Public Google AI blog RSS. Headline, link, timestamps, ≤300-char excerpt."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Google AI"
   - id: meta-ai-blog
     pages: [models]
     tier: primary
     adapter: lab-blogs
     endpoint: https://ai.meta.com/blog/
     kind: html-index
-    license: "No public RSS (verified 2026-10); blog index page discovery, headline+link only."
+    license: "No public RSS (verified 2026-10); blog index page cards (aria-label title + date) discovery, headline+link only."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Meta AI"
   - id: mistral-news
     pages: [models]
     tier: primary
     adapter: lab-blogs
     endpoint: https://mistral.ai/sitemap.xml
     kind: sitemap
-    license: "No public RSS found; sitemap discovery, headline+link only."
+    license: "No public RSS (verified 2026-10); sitemapindex → child urlset scoped to /news/, headline+link only, published_at = lastmod."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Mistral AI"
+      include_paths: ["/news/"]
   - id: xai-news
     pages: [models]
     tier: primary
     adapter: lab-blogs
     endpoint: https://x.ai/news
     kind: html-index
-    license: "No RSS/sitemap reachable (Cloudflare-gated 2026-10); index page, headline+link only."
+    license: "No RSS/sitemap; index-page cards (h3+p+date). Live endpoint is Cloudflare-gated (HTTP 403 verified 2026-10) — fetch degrades; parser proven on archived markup. Headline+link only."
     rate_limit: "≤1 req/s courtesy; back off on 403"
     enabled: true
+    meta:
+      publisher: "xAI"
   - id: microsoft-research-blog
     pages: [models]
     tier: primary
     adapter: lab-blogs
     endpoint: https://www.microsoft.com/en-us/research/feed/
     kind: rss
-    license: "Public research feed. Headline, link, timestamps, ≤300-char excerpt."
+    license: "Public research feed. Headline, link, timestamps, ≤300-char excerpt (never content:encoded bodies)."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Microsoft Research"
   - id: amazon-science-blog
     pages: [models]
     tier: primary
     adapter: lab-blogs
     endpoint: https://www.amazon.science/index.rss
     kind: rss
-    license: "Public Amazon Science RSS. Headline, link, timestamps, ≤300-char excerpt."
+    license: "Public Amazon Science RSS. Headline, link, timestamps, ≤300-char excerpt (never content:encoded bodies)."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Amazon Science"
   - id: moonshot-news
     pages: [models]
     tier: primary
     adapter: lab-blogs
-    endpoint: https://www.moonshot.cn/news
+    endpoint: https://www.kimi.com/en/blog/
     kind: html-index
-    license: "No RSS; news index page (CN site, EN content at moonshot.ai redirects). Headline+link only."
+    license: "No RSS (verified 2026-10); moonshot.cn/news is a JS shell, so the EN Kimi research blog index (SSR cards, aria-label + ISO date) is the scrape target. Headline+link only."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Moonshot AI (Kimi)"
   - id: deepseek-news
     pages: [models]
     tier: primary
     adapter: lab-blogs
     endpoint: https://api-docs.deepseek.com/news/
-    kind: json-api
-    license: "Date-stamped public news JSON (e.g. news250825.json). Headline, link, timestamps."
+    kind: html-index
+    license: "No RSS (verified 2026-10); API docs site's /news/* pages carry a full sidebar of dated post links (Title YYYY/MM/DD). Headline+link only."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
     meta:
-      url_pattern: "news{yymmdd}.json"
+      publisher: "DeepSeek"
+      follow_first: "^/news/news\\d+$"
   - id: qwen-blog
     pages: [models]
     tier: primary
     adapter: lab-blogs
-    endpoint: https://qwenlm.github.io/blog/
-    kind: html-index
-    license: "No RSS/Atom found (verified 2026-10); GitHub Pages blog index, headline+link only."
+    endpoint: https://qwenlm.github.io/en/sitemap.xml
+    kind: sitemap
+    license: "No RSS/Atom (verified 2026-10); qwen.ai is an SPA, so the qwenlm.github.io EN sitemap urlset scoped to /blog/ is used. Headline+link only, published_at = lastmod."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Alibaba Qwen"
+      include_paths: ["/blog/"]
   - id: huggingface-blog
     pages: [models]
     tier: primary
     adapter: lab-blogs
     endpoint: https://huggingface.co/blog/feed.xml
     kind: rss
-    license: "Public HF blog RSS. Headline, link, timestamps, ≤300-char excerpt."
+    license: "Public HF blog RSS. Headline, link, timestamps, ≤300-char excerpt (items carry no description — excerpt falls back to headline)."
     rate_limit: "≤1 req/s courtesy"
     enabled: true
+    meta:
+      publisher: "Hugging Face"
 
   # --- HF Hub model repos (adapter A6: hf-hub.ts) --------------------------
   - id: hf-hub-models

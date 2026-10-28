@@ -216,3 +216,12 @@ export {
   arxivIdOf,
   createArxivAdapter,
 } from "./sources/arxiv.js";
+
+// A1 — lab blogs (Models & Releases row, §5.1)
+export {
+  createLabBlogsAdapter,
+  LAB_BLOGS_ADAPTER_ID,
+  type LabBlogsAdapter,
+  type LabBlogsAdapterOptions,
+  type SourceRunReport,
+} from "./sources/lab-blogs.js";
