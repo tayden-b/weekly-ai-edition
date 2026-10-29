@@ -2,72 +2,160 @@
   "prompt_version": 1,
   "items": [
     {
+      "id": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "fields": [
+        {
+          "field": "metric_name",
+          "value": "Artificial Analysis Intelligence Index",
+          "source_index": 0,
+          "quote": "Artificial Analysis Intelligence Index v5"
+        },
+        {
+          "field": "metric_value",
+          "value": "#1",
+          "source_index": 0,
+          "quote": "new #1 on"
+        }
+      ]
+    },
+    {
+      "id": "https://surgehq.ai/blog/dayjob-tax",
+      "fields": []
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "fields": [
+        {
+          "field": "stage",
+          "value": "S-1",
+          "source_index": 0,
+          "quote": "The Anthropic S-1 seems to have provided t"
+        }
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029062593/en/Rockmont-Partners-backs-Veriv-as-verification-pioneers-join-its-board?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "fields": []
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/anthropic-ipo-may-spark-ai-rally-as-short-bets-on-tech-pile-up",
+      "fields": []
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/microsoft-kicks-off-first-us-high-grade-bond-sale-since-2017",
+      "fields": []
+    },
+    {
       "id": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14",
       "fields": [
         {
           "field": "target",
           "value": "Globalstar",
           "source_index": 0,
-          "quote": "Amazon to buy satellite firm Globalstar in $11"
+          "quote": "satellite firm Globalstar"
         }
       ]
     },
     {
-      "id": "https://www.bloomberg.com/news/articles/2026-10-28/doj-inquires-about-nvidia-s-hugging-face-deal-reuters-says",
-      "fields": []
-    },
-    {
-      "id": "http://www.businesswire.com/news/home/20261028683272/en/IREN-and-Wingspire-Equipment-Finance-Complete-363-Million-Financing-for-High-Density-AI-Compute-Assets?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "id": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion",
       "fields": [
         {
-          "field": "lead_investor",
-          "value": "Wingspire Equipment Finance",
+          "field": "metric_name",
+          "value": "Azure's quarterly revenue",
           "source_index": 0,
-          "quote": "tustin, calif. & sydney--(business wire)--wingspire equipment finance and iren limited (nasdaq: iren) (\u201ciren\u201d) announced the clos"
+          "quote": "Azure's quarterly revenue in dollars"
         }
       ]
     },
     {
-      "id": "https://www.globenewswire.com/news-release/2026/10/28/3390266/0/en/rapidcanvas-acquires-entytle-to-bring-ai-driven-execution-to-the-industrial-aftermarket.html",
+      "id": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
+      "fields": [
+        {
+          "field": "metric_name",
+          "value": "revenue from commercial arrangements with OpenAI",
+          "source_index": 0,
+          "quote": "revenue from commercial arrangements with OpenAI"
+        },
+        {
+          "field": "metric_value",
+          "value": "$10 billion",
+          "source_index": 0,
+          "quote": "$10 billion"
+        }
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/microsoft-reports-quarterly-cloud-sales-that-beat-estimates",
       "fields": []
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/alphabet-reports-disappointing-revenue-income-shares-drop",
+      "fields": [
+        {
+          "field": "metric_name",
+          "value": "Alphabet Inc.\u2019s shares",
+          "source_index": 0,
+          "quote": "Alphabet Inc.\u2019s shares fell more than 13%"
+        },
+        {
+          "field": "metric_value",
+          "value": "13%",
+          "source_index": 0,
+          "quote": "more than 13%"
+        }
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/oracle-projects-30-billion-free-cash-flow-in-fiscal-2029",
+      "fields": []
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/anthropic-said-to-pick-jpmorgan-to-lead-ipo-video",
+      "fields": []
+    },
+    {
+      "id": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+      "fields": [
+        {
+          "field": "metric_name",
+          "value": "Artificial Analysis Intelligence Index",
+          "source_index": 0,
+          "quote": "Artificial Analysis Intelligence Index v5"
+        }
+      ]
     },
     {
       "id": "http://www.businesswire.com/news/home/20261028117784/en/Hummingbird-Acquires-Quantimon-to-Bring-Machine-Learning-to-AML-Transaction-Monitoring-for-the-Agentic-Era?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-      "fields": []
+      "fields": [
+        {
+          "field": "acquirer",
+          "value": "Hummingbird",
+          "source_index": 0,
+          "quote": "Hummingbird, the AI-powered orchestration platform"
+        }
+      ]
+    },
+    {
+      "id": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "fields": [
+        {
+          "field": "stage",
+          "value": "I.P.O.",
+          "source_index": 0,
+          "quote": "An I.P.O. could"
+        }
+      ]
     },
     {
       "id": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more",
       "fields": []
     },
     {
-      "id": "https://cbcglobe.com/en/articles/2026/10/27/breaking-tesla-surges-4-and-amd-over-5-on-nyse-nvidia-and-mi-4ca4b69e",
-      "fields": [
-        {
-          "field": "change_pct",
-          "value": 5.45,
-          "source_index": 0,
-          "quote": "98 (5.45%) from the previous session"
-        }
-      ]
+      "id": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "fields": []
     },
     {
       "id": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo",
-      "fields": []
-    },
-    {
-      "id": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "fields": []
-    },
-    {
-      "id": "http://www.businesswire.com/news/home/20261027051586/en/Ridgeview-Partners-Completes-Acquisition-of-Pinewood-Technologies-Group?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-      "fields": []
-    },
-    {
-      "id": "http://www.businesswire.com/news/home/20261027636043/en/CoStar-Group-to-Acquire-Vexcel-Adding-the-World%E2%80%99s-Largest-Survey-Grade-High-Resolution-Aerial-Imagery-Program-to-Power-Richer-Search-and-Discovery-Across-CoStar-with-Tens-of-Billions-of-New-AI-Derived-Data-Fields?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-      "fields": []
-    },
-    {
-      "id": "https://www.llmverifications.com/",
       "fields": []
     },
     {
@@ -75,151 +163,11 @@
       "fields": []
     },
     {
-      "id": "https://microsoft.ai/news/mai-image-2-7-debut",
-      "fields": [
-        {
-          "field": "metric_name",
-          "value": "Arena Edit",
-          "source_index": 0,
-          "quote": "3 on Arena Edit, making Microsoft AI the No"
-        },
-        {
-          "field": "metric_name",
-          "value": "Arena Edit",
-          "source_index": 0,
-          "quote": "Arena Edit"
-        },
-        {
-          "field": "metric_value",
-          "value": "No. 3",
-          "source_index": 0,
-          "quote": "No. 3 on Arena Edit"
-        }
-      ]
-    },
-    {
-      "id": "https://www.businesswire.com/news/home/20261027228454/en/Innovation-X-Co-Leads-Tenstorrents-%241.5-Billion-Series-E-at-a-%246.2-Billion-Valuation",
+      "id": "https://www.axios.com/2026/10/27/anthropic-ipo-meta-spacex-ai-deals",
       "fields": []
     },
     {
-      "id": "https://exa.ai/library/markets/stock/AMD?date=2026-10-27&from=2026-10-19&view=series",
-      "fields": [
-        {
-          "field": "ticker",
-          "value": "AMD",
-          "source_index": 0,
-          "quote": "US:AMD \u2014 raw closing price series"
-        },
-        {
-          "field": "close",
-          "value": 560.26,
-          "source_index": 0,
-          "quote": "2026-10-27 USD 560.26"
-        }
-      ]
-    },
-    {
-      "id": "https://exa.ai/library/markets/stock/AMZN?date=2026-10-27&from=2026-10-19&view=series",
-      "fields": [
-        {
-          "field": "ticker",
-          "value": "AMZN",
-          "source_index": 0,
-          "quote": "US:AMZN \u2014 raw closing price series"
-        },
-        {
-          "field": "close",
-          "value": 253.1,
-          "source_index": 0,
-          "quote": "2026-10-27 USD 253.10"
-        }
-      ]
-    },
-    {
-      "id": "https://exa.ai/library/markets/stock/GOOGL?date=2026-10-27&from=2026-10-19&view=series",
-      "fields": [
-        {
-          "field": "ticker",
-          "value": "GOOGL",
-          "source_index": 0,
-          "quote": "US:GOOGL \u2014 raw closing price series"
-        },
-        {
-          "field": "close",
-          "value": 320.58,
-          "source_index": 0,
-          "quote": "2026-10-27 USD 320.58"
-        }
-      ]
-    },
-    {
-      "id": "https://exa.ai/library/markets/stock/META?date=2026-10-27&from=2026-10-19&view=series",
-      "fields": [
-        {
-          "field": "ticker",
-          "value": "META",
-          "source_index": 0,
-          "quote": "US:META \u2014 raw closing price series"
-        },
-        {
-          "field": "close",
-          "value": 620.19,
-          "source_index": 0,
-          "quote": "2026-10-27 USD 620.19"
-        }
-      ]
-    },
-    {
-      "id": "https://exa.ai/library/markets/stock/MSFT?date=2026-10-27&from=2026-10-19&view=series",
-      "fields": [
-        {
-          "field": "ticker",
-          "value": "MSFT",
-          "source_index": 0,
-          "quote": "US:MSFT \u2014 raw closing price series"
-        },
-        {
-          "field": "close",
-          "value": 531.33,
-          "source_index": 0,
-          "quote": "2026-10-27 USD 531.33"
-        }
-      ]
-    },
-    {
-      "id": "https://exa.ai/library/markets/stock/TSM?date=2026-10-27&from=2026-10-19&view=series",
-      "fields": [
-        {
-          "field": "ticker",
-          "value": "TSM",
-          "source_index": 0,
-          "quote": "US:TSM \u2014 raw closing price series"
-        },
-        {
-          "field": "close",
-          "value": 436.87,
-          "source_index": 0,
-          "quote": "2026-10-27 USD 436.87"
-        }
-      ]
-    },
-    {
-      "id": "https://www.prnewswire.com/news-releases/guidewire-signs-definitive-agreement-to-acquire-hyperexponential-302920513.html",
-      "fields": [
-        {
-          "field": "acquirer",
-          "value": "Guidewire",
-          "source_index": 0,
-          "quote": "Guidewire announced today"
-        }
-      ]
-    },
-    {
-      "id": "https://openai.com/index/retell-ai",
-      "fields": []
-    },
-    {
-      "id": "https://www.siliconreport.com/capital/archive/2026-10",
+      "id": "https://arxiv.org/abs/2610.36405",
       "fields": []
     },
     {
@@ -227,7 +175,15 @@
       "fields": []
     },
     {
+      "id": "https://humansignal.com/taste-index",
+      "fields": []
+    },
+    {
       "id": "https://news.crunchbase.com/public/anthropic-ipo-filing-ai-earnings-growth-risks",
+      "fields": []
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/28/google-alphabet-q3-earnings-report",
       "fields": []
     },
     {
@@ -235,7 +191,19 @@
       "fields": []
     },
     {
-      "id": "https://twitter.com/FangcunLeap/status/2114719692137136245",
+      "id": "https://www.theguardian.com/technology/2026/oct/28/microsoft-earnings",
+      "fields": []
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35671",
+      "fields": []
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/28/technology/alphabet-earnings-google-ai.html",
+      "fields": []
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/28/technology/microsoft-earnings-ai.html",
       "fields": []
     },
     {
@@ -243,18 +211,7 @@
       "fields": []
     },
     {
-      "id": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
-      "fields": [
-        {
-          "field": "stage",
-          "value": "S-1",
-          "source_index": 0,
-          "quote": "S-1; filed by Anthropic, PBC"
-        }
-      ]
-    },
-    {
-      "id": "https://www.ft.com/content/e2aafede-771a-4fd0-b9fb-67c0bbb828ed",
+      "id": "https://www.ft.com/content/e9827543-51c9-451b-b180-e7e2276aa957",
       "fields": []
     },
     {
@@ -262,7 +219,50 @@
       "fields": []
     },
     {
+      "id": "https://www.ft.com/content/d144a865-285a-490e-be11-f924ada8cbc7",
+      "fields": []
+    },
+    {
+      "id": "https://www.ft.com/content/0b7db9a1-8279-4025-8c2a-44a1010828f4",
+      "fields": []
+    },
+    {
+      "id": "https://www.theguardian.com/global/2026/oct/26/anthropic-accelerates-ai",
+      "fields": []
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34080",
+      "fields": [
+        {
+          "field": "metric_name",
+          "value": "Literature and Linguistics Analysis Benchmark",
+          "source_index": 0,
+          "quote": "the Literature and Linguistics Analysis Benchmark (LALA)"
+        }
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/69a623e0-8605-4b1d-b147-770649efb53a",
+      "fields": []
+    },
+    {
+      "id": "https://www.ft.com/content/d1dca5d1-467f-4311-a004-82bb1ef761e0",
+      "fields": []
+    },
+    {
       "id": "https://www.ft.com/content/65a113b4-2a45-49cf-9e68-93f42151166e",
+      "fields": []
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
+      "fields": []
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.33949",
+      "fields": []
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/26/meta-plans-95bn-stock-offering-to-help-cover-ai-expansion",
       "fields": []
     },
     {
@@ -280,6 +280,245 @@
     {
       "id": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
       "fields": []
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50219762",
+      "fields": []
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.33509",
+      "fields": [
+        {
+          "field": "metric_name",
+          "value": "SecPRBench",
+          "source_index": 0,
+          "quote": "we present SecPRBench"
+        }
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261021024495/en/Xsolla-Acquires-GamePix-to-Build-a-Complete-Platform-for-Web-and-AI-Created-Video-Games?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "fields": [
+        {
+          "field": "acquirer",
+          "value": "Xsolla",
+          "source_index": 0,
+          "quote": "Xsolla, a global commerce company"
+        }
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029104545/en/Opentrons-Announces-40M-Series-E-Round-to-Standardize-AI-Driven-Science-on-Its-Robots?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "fields": [
+        {
+          "field": "lead_investor",
+          "value": "Avego",
+          "source_index": 0,
+          "quote": "led by healthcare investor Avego"
+        }
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029417588/en/TrashLab-Raises-12M-to-Scale-the-AI-Native-Operating-System-for-Waste-Haulers?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "fields": [
+        {
+          "field": "lead_investor",
+          "value": "Ventana",
+          "source_index": 0,
+          "quote": "led by early-growth equity firm Ventana"
+        }
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+      "fields": [
+        {
+          "field": "acquirer",
+          "value": "Deepgram",
+          "source_index": 0,
+          "quote": "Deepgram said that"
+        },
+        {
+          "field": "target",
+          "value": "Pipecat",
+          "source_index": 0,
+          "quote": "keep Pipecat open source"
+        }
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/ai-assistant-startup-wabi-raises-55-million-at-1-25-billion-value",
+      "fields": []
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028655033/en/FuriosaAI-Secures-620-Million-Series-D-to-Meet-Surging-Enterprise-AI-Inference-Demand-and-Accelerate-Next-Gen-Silicon?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "fields": []
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/furiosaai-quadruples-valuation-to-2-9-billion-in-nvidia-chase",
+      "fields": []
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+      "fields": [
+        {
+          "field": "target",
+          "value": "Lumentum Holdings Inc.",
+          "source_index": 0,
+          "quote": "maker Lumentum Holdings Inc."
+        }
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028683272/en/IREN-and-Wingspire-Equipment-Finance-Complete-363-Million-Financing-for-High-Density-AI-Compute-Assets?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "fields": []
+    },
+    {
+      "id": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "fields": []
+    },
+    {
+      "id": "https://www.ft.com/content/e2aafede-771a-4fd0-b9fb-67c0bbb828ed",
+      "fields": [
+        {
+          "field": "acquirer",
+          "value": "TPG",
+          "source_index": 0,
+          "quote": "TPG pursues"
+        },
+        {
+          "field": "target",
+          "value": "Ark",
+          "source_index": 0,
+          "quote": "UK data centre group Ark"
+        }
+      ]
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/AMD?date=2026-10-27&from=2026-10-19&view=series",
+      "fields": [
+        {
+          "field": "ticker",
+          "value": "AMD",
+          "source_index": 0,
+          "quote": "US:AMD"
+        },
+        {
+          "field": "close",
+          "value": "560.26",
+          "source_index": 0,
+          "quote": "2026-10-27 USD 560.26"
+        },
+        {
+          "field": "ticker",
+          "value": "ARM",
+          "source_index": 1,
+          "quote": "US:ARM"
+        },
+        {
+          "field": "close",
+          "value": "226.60",
+          "source_index": 1,
+          "quote": "2026-10-27 USD 226.60"
+        }
+      ]
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/AMZN?date=2026-10-27&from=2026-10-19&view=series",
+      "fields": [
+        {
+          "field": "ticker",
+          "value": "AMZN",
+          "source_index": 0,
+          "quote": "US:AMZN"
+        },
+        {
+          "field": "close",
+          "value": "253.10",
+          "source_index": 0,
+          "quote": "2026-10-27 USD 253.10"
+        }
+      ]
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/GOOGL?date=2026-10-27&from=2026-10-19&view=series",
+      "fields": [
+        {
+          "field": "ticker",
+          "value": "GOOGL",
+          "source_index": 0,
+          "quote": "US:GOOGL"
+        },
+        {
+          "field": "close",
+          "value": "320.58",
+          "source_index": 0,
+          "quote": "2026-10-27 USD 320.58"
+        }
+      ]
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/META?date=2026-10-27&from=2026-10-19&view=series",
+      "fields": [
+        {
+          "field": "ticker",
+          "value": "META",
+          "source_index": 0,
+          "quote": "US:META"
+        },
+        {
+          "field": "close",
+          "value": "620.19",
+          "source_index": 0,
+          "quote": "2026-10-27 USD 620.19"
+        },
+        {
+          "field": "ticker",
+          "value": "NVDA",
+          "source_index": 1,
+          "quote": "US:NVDA"
+        },
+        {
+          "field": "close",
+          "value": "217.94",
+          "source_index": 1,
+          "quote": "2026-10-27 USD 217.94"
+        }
+      ]
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/MSFT?date=2026-10-27&from=2026-10-19&view=series",
+      "fields": [
+        {
+          "field": "ticker",
+          "value": "MSFT",
+          "source_index": 0,
+          "quote": "US:MSFT"
+        },
+        {
+          "field": "close",
+          "value": "531.33",
+          "source_index": 0,
+          "quote": "2026-10-27 USD 531.33"
+        }
+      ]
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/TSM?date=2026-10-27&from=2026-10-19&view=series",
+      "fields": [
+        {
+          "field": "ticker",
+          "value": "TSM",
+          "source_index": 0,
+          "quote": "US:TSM"
+        },
+        {
+          "field": "close",
+          "value": "436.87",
+          "source_index": 0,
+          "quote": "2026-10-27 USD 436.87"
+        }
+      ]
     }
   ]
 }

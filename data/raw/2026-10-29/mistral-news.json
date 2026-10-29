@@ -1,0 +1,115 @@
+{
+  "adapter": "lab-blogs",
+  "source": "mistral-news",
+  "fetched_at": "2026-10-29T13:43:56.458Z",
+  "items": [
+    {
+      "headline": "News",
+      "canonical_url": "https://mistral.ai/fr/news/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-26T16:11:42.612Z",
+      "fetched_at": "2026-10-29T13:43:56.486Z",
+      "excerpt": "News",
+      "source_ids": {
+        "slug": "news"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Timestral",
+      "canonical_url": "https://mistral.ai/fr/news/timestral/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-26T16:11:42.612Z",
+      "fetched_at": "2026-10-29T13:43:56.486Z",
+      "excerpt": "Timestral",
+      "source_ids": {
+        "slug": "timestral"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Voxtral 3",
+      "canonical_url": "https://mistral.ai/fr/news/voxtral-3/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-26T13:56:04.729Z",
+      "fetched_at": "2026-10-29T13:43:56.486Z",
+      "excerpt": "Voxtral 3",
+      "source_ids": {
+        "slug": "voxtral-3"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "News",
+      "canonical_url": "https://mistral.ai/it/news/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-26T16:11:42.612Z",
+      "fetched_at": "2026-10-29T13:43:56.486Z",
+      "excerpt": "News",
+      "source_ids": {
+        "slug": "news"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Timestral",
+      "canonical_url": "https://mistral.ai/it/news/timestral/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-26T16:11:42.612Z",
+      "fetched_at": "2026-10-29T13:43:56.486Z",
+      "excerpt": "Timestral",
+      "source_ids": {
+        "slug": "timestral"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Voxtral 3",
+      "canonical_url": "https://mistral.ai/it/news/voxtral-3/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-26T13:56:04.729Z",
+      "fetched_at": "2026-10-29T13:43:56.486Z",
+      "excerpt": "Voxtral 3",
+      "source_ids": {
+        "slug": "voxtral-3"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "News",
+      "canonical_url": "https://mistral.ai/news/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-26T16:11:42.612Z",
+      "fetched_at": "2026-10-29T13:43:56.486Z",
+      "excerpt": "News",
+      "source_ids": {
+        "slug": "news"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Timestral",
+      "canonical_url": "https://mistral.ai/news/timestral/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-26T16:11:42.612Z",
+      "fetched_at": "2026-10-29T13:43:56.486Z",
+      "excerpt": "Timestral",
+      "source_ids": {
+        "slug": "timestral"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Voxtral 3",
+      "canonical_url": "https://mistral.ai/news/voxtral-3/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-26T13:56:04.729Z",
+      "fetched_at": "2026-10-29T13:43:56.486Z",
+      "excerpt": "Voxtral 3",
+      "source_ids": {
+        "slug": "voxtral-3"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

@@ -7,32 +7,36 @@
   "pages": [
     {
       "type": "cover",
-      "headline": "Google ships Gemini 4 Carbon",
-      "deck": "Google's Gemini 4 Carbon is the week's flagship model release — reasoning upgrades aimed at the agent workload."
+      "headline": "Gemini 4 Carbon",
+      "deck": "Gemini 4 Carbon is Google's new flagship model, aimed at agentic and coding workloads."
     },
     {
       "type": "briefing",
       "sentences": [
-        "Anthropic filed its S-1 to go public on Tuesday, the first IPO prospectus from a frontier model lab, and the week's coverage framed both its rapid growth and its unusually long risk register.",
-        "The filing headlined a week of AI dealmaking that also saw Foundry Robotics raise $100 million and compute provider IREN close a $363 million financing for high-density AI compute assets.",
-        "Amazon agreed to buy satellite operator Globalstar for $11.57 billion — a satellite footprint for its Leo network meant to challenge Starlink.",
-        "On the model side Google shipped Gemini 4 Carbon and DeepMind's Genie 4 world simulator, while Microsoft's MAI Image 2.7 debuted at No. 3 on Arena Edit.",
-        "Two labs claimed to refute the Exponential Time Hypothesis, but outside checkers said nobody can verify the proofs — the week's live debate over whether frontier AI claims are checkable at all.",
-        "AP and Reuters spent the week asking whether debt-funded AI capital expenditure can pay for itself — the open question over the entire AI buildout."
+        "Anthropic filed for an IPO this week, a landmark step for a frontier AI lab.",
+        "AI dealmaking also brought Microsoft's first US bond sale since 2017, a raise of at least $25 billion.",
+        "On the model side, Google shipped Gemini 4 Carbon, now ranked #1 on the Artificial Analysis Intelligence Index, alongside the Genie 4 world simulator, while Nvidia opened a transcription model covering 40 languages.",
+        "Agent tooling kept expanding as Cursor released its Agent SDK, Meta brought its Muse personal agent to Singapore, and Amazon taught Alexa to manage shopping lists.",
+        "Dealmaking crossed categories: a US agency approved Amazon Leo's $11.5 billion acquisition of Globalstar, and Deepgram bought Pipecat developer Daily for its voice-AI stack.",
+        "In Washington, officials pressed AI executives to quiet public commentary, while a lawsuit alleged ChatGPT coached a child off her seizure medication."
       ]
     },
     {
       "type": "models",
       "items": [
         {
-          "headline": "Google ships Gemini 4 Carbon",
-          "one_liner": "Google's Gemini 4 Carbon is the week's flagship model release — reasoning upgrades aimed at the agent workload.",
+          "headline": "Gemini 4 Carbon",
+          "one_liner": "Gemini 4 Carbon is Google's new flagship model, aimed at agentic and coding workloads.",
+          "companies": [
+            "alphabet",
+            "google-deepmind"
+          ],
           "sources": [
             {
               "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
               "publisher": "Hacker News",
               "published_at": "2026-10-28T17:01:23.000Z",
-              "fetched_at": "2026-10-28T19:44:17.315Z",
+              "fetched_at": "2026-10-29T13:43:57.915Z",
               "adapter": "distribute-software",
               "excerpt": "Gemini 4 Carbon",
               "source_ids": {
@@ -48,7 +52,7 @@
               "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
               "publisher": "Hacker News",
               "published_at": "2026-10-28T17:01:23.000Z",
-              "fetched_at": "2026-10-28T19:44:16.803Z",
+              "fetched_at": "2026-10-29T13:43:56.500Z",
               "adapter": "hn-algolia",
               "excerpt": "Gemini 4 Carbon",
               "source_ids": {
@@ -59,81 +63,51 @@
           ]
         },
         {
-          "headline": "Early progress on accelerating drug development with Claude",
-          "one_liner": "Anthropic reports early drug-development acceleration with Claude — a concrete pharma deployment read.",
-          "sources": [
-            {
-              "url": "https://www.anthropic.com/research/early-progress-drug-development",
-              "publisher": "Hacker News",
-              "published_at": "2026-10-27T20:50:42.000Z",
-              "fetched_at": "2026-10-28T19:44:16.803Z",
-              "adapter": "hn-algolia",
-              "excerpt": "Early progress on accelerating drug development with Claude",
-              "source_ids": {
-                "hn_object_id": "50265609",
-                "source": "hn-algolia"
-              }
-            },
-            {
-              "url": "https://www.anthropic.com/research/early-progress-drug-development",
-              "publisher": "Anthropic",
-              "published_at": "2026-10-28T17:16:58.000Z",
-              "fetched_at": "2026-10-28T19:44:16.786Z",
-              "adapter": "lab-blogs",
-              "excerpt": "Early Progress Drug Development",
-              "source_ids": {
-                "slug": "early-progress-drug-development",
-                "source": "anthropic-news"
-              }
-            }
-          ]
-        },
-        {
-          "headline": "Working with academic communities to build scientific understanding",
-          "one_liner": "OpenAI details its academic-community science programme — a positioning move amid the benchmark wars.",
+          "headline": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+          "one_liner": "Nvidia open-sourced Nemotron 3.5 Transcribe and Granary v2, promptable transcription models covering 40 languages.",
           "companies": [
-            "openai"
+            "nvidia"
           ],
           "sources": [
             {
-              "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-              "publisher": "OpenAI",
-              "published_at": "2026-10-26T00:00:00.000Z",
-              "fetched_at": "2026-10-28T19:44:16.752Z",
+              "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+              "publisher": "Hugging Face",
+              "published_at": "2026-10-28T00:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.490Z",
               "adapter": "lab-blogs",
-              "excerpt": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+              "excerpt": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
               "source_ids": {
-                "guid": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-                "source": "openai-news"
+                "guid": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+                "source": "huggingface-blog"
               }
             },
             {
-              "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+              "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
               "publisher": "Hacker News",
-              "published_at": "2026-10-26T21:35:28.000Z",
-              "fetched_at": "2026-10-28T19:44:17.315Z",
-              "adapter": "distribute-software",
-              "excerpt": "Three new discoveries in mathematics, computer science, and physics",
+              "published_at": "2026-10-28T15:17:53.000Z",
+              "fetched_at": "2026-10-28T19:44:16.803Z",
+              "adapter": "hn-algolia",
+              "excerpt": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
               "source_ids": {
-                "distribute_id": "story-25412",
-                "distribute_url": "https://distribute.software/stories/25412",
-                "distribute_source": "hn",
-                "distribute_companies": "openai",
-                "hn_discussion_url": "https://news.ycombinator.com/item?id=50251344",
-                "source": "distribute-stories"
+                "hn_object_id": "50275128",
+                "source": "hn-algolia"
               }
             }
           ]
         },
         {
           "headline": "Genie 4: A new generation of world simulation",
-          "one_liner": "Google DeepMind's Genie 4 turns prompts into playable worlds — the strongest world-model release of the week.",
+          "one_liner": "DeepMind's Genie 4 generates interactive world simulations in real time.",
+          "companies": [
+            "alphabet",
+            "google-deepmind"
+          ],
           "sources": [
             {
               "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
               "publisher": "Google DeepMind",
               "published_at": "2026-10-27T00:00:00.000Z",
-              "fetched_at": "2026-10-28T19:44:16.787Z",
+              "fetched_at": "2026-10-29T13:43:56.483Z",
               "adapter": "lab-blogs",
               "excerpt": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
               "source_ids": {
@@ -145,7 +119,7 @@
               "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
               "publisher": "Google DeepMind",
               "published_at": "2026-10-27T16:01:38.000Z",
-              "fetched_at": "2026-10-28T19:44:17.315Z",
+              "fetched_at": "2026-10-29T13:43:57.915Z",
               "adapter": "distribute-software",
               "excerpt": "Genie 4: A new generation of world simulation",
               "source_ids": {
@@ -160,41 +134,69 @@
           ]
         },
         {
-          "headline": "Show HN: Homi, open decision model for audio, near Flash on MMSU and 50x cheaper",
-          "one_liner": "An open decision model for audio posting near-Flash scores — via Show HN.",
+          "headline": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+          "one_liner": "Apple released AnySpeechRecognizer and AnyDecisionModel, open models that run on-device.",
+          "companies": [
+            "apple",
+            "hugging-face"
+          ],
           "sources": [
             {
-              "url": "https://github.com/egma-ai/homi",
-              "publisher": "Hacker News",
-              "published_at": "2026-10-28T17:09:08.000Z",
-              "fetched_at": "2026-10-28T19:44:16.803Z",
-              "adapter": "hn-algolia",
-              "excerpt": "Weights - https:&#x2F;&#x2F;huggingface.co&#x2F;egma-ai&#x2F;homi",
+              "url": "https://huggingface.co/blog/anydecisionmodel",
+              "publisher": "Hugging Face",
+              "published_at": "2026-10-29T00:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.490Z",
+              "adapter": "lab-blogs",
+              "excerpt": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
               "source_ids": {
-                "hn_object_id": "50276913",
-                "source": "hn-algolia"
+                "guid": "https://huggingface.co/blog/anydecisionmodel",
+                "source": "huggingface-blog"
               }
             }
           ]
         },
         {
-          "headline": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-          "one_liner": "A new developer platform lets businesses bring services to Google's AI experiences — app distribution shifts to the agent.",
+          "headline": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+          "one_liner": "Google says Gemini 4 Carbon brings significant gains in coding, agentic tasks, and cybersecurity.",
           "companies": [
-            "alphabet"
+            "alphabet",
+            "google-deepmind"
           ],
           "sources": [
             {
-              "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
-              "publisher": "TechCrunch",
-              "published_at": "2026-10-28T17:00:00.000Z",
-              "fetched_at": "2026-10-28T19:44:17.016Z",
+              "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+              "publisher": "The Verge",
+              "published_at": "2026-10-28T20:03:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.940Z",
               "adapter": "newsroom-rss",
-              "excerpt": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+              "excerpt": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and",
               "source_ids": {
-                "rss_guid": "https://techcrunch.com/?p=3182509",
-                "newsroom_feed": "techcrunch-ai",
-                "source": "techcrunch-ai"
+                "atom_id": "https://www.theverge.com/?p=1021339",
+                "newsroom_feed": "theverge-ai",
+                "source": "theverge-ai"
+              }
+            }
+          ]
+        },
+        {
+          "headline": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+          "one_liner": "Ars reports Gemini 4 Carbon is a modest upgrade over Argon rather than a leap.",
+          "companies": [
+            "alphabet",
+            "google-deepmind"
+          ],
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use",
+              "publisher": "Ars Technica",
+              "published_at": "2026-10-28T18:47:27.000Z",
+              "fetched_at": "2026-10-29T13:43:57.274Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+              "source_ids": {
+                "rss_guid": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+                "newsroom_feed": "ars-ai",
+                "source": "ars-ai"
               }
             }
           ]
@@ -205,29 +207,104 @@
       "type": "performance",
       "items": [
         {
-          "headline": "MAI Image 2.7",
-          "one_liner": "Microsoft's MAI Image 2.7 debuts at No. 3 on Arena Edit — an in-house image model outside the usual labs.",
+          "headline": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+          "one_liner": "Google's Gemini 4 Carbon took the top spot on the Artificial Analysis Intelligence Index v5.",
           "companies": [
-            "microsoft"
+            "alphabet"
           ],
           "sources": [
             {
-              "url": "https://microsoft.ai/news/mai-image-2-7-debut",
-              "publisher": "Microsoft AI",
-              "published_at": "2026-10-27T15:10:00.000Z",
-              "fetched_at": "2026-10-28T09:00:00.000Z",
-              "adapter": "lab-blogs",
-              "excerpt": "MAI Image 2.7, our latest image editing model, launches with even stronger control for edits that are hardest to get right. It launches in preview at No. 3 on Arena Edit, making Microsoft AI the No. 2 lab, and No. 2 on Artificial Analysis's image editing leaderboard.",
+              "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-29T12:41:56.000Z",
+              "fetched_at": "2026-10-29T13:43:56.500Z",
+              "adapter": "hn-algolia",
+              "excerpt": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
               "source_ids": {
-                "fixture": "2026-w44",
-                "fixture_page": "models,performance"
+                "hn_object_id": "50288019",
+                "source": "hn-algolia"
               }
             }
           ],
-          "number": "No. 3",
+          "number": "#1",
           "evidence": {
             "source_index": 0,
-            "quote": "No. 3 on Arena Edit"
+            "quote": "new #1 on"
+          }
+        },
+        {
+          "headline": "Microsoft recorded $10 billion in revenue from OpenAI",
+          "one_liner": "Microsoft recorded $10 billion in revenue from OpenAI this quarter.",
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-28T21:34:30.000Z",
+              "fetched_at": "2026-10-29T13:43:56.945Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+              "source_ids": {
+                "rss_guid": "https://techcrunch.com/?p=3182880",
+                "newsroom_feed": "techcrunch-ai",
+                "source": "techcrunch-ai"
+              }
+            }
+          ],
+          "number": "$10 billion",
+          "evidence": {
+            "source_index": 0,
+            "quote": "$10 billion"
+          }
+        },
+        {
+          "headline": "Google Drops a Record 13% After Sales Miss Sparks AI Skepticism",
+          "one_liner": "Alphabet's revenue missed estimates and shares dropped more than 13%.",
+          "sources": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/alphabet-reports-disappointing-revenue-income-shares-drop",
+              "publisher": "Bloomberg",
+              "published_at": "2026-10-28T20:06:48.000Z",
+              "fetched_at": "2026-10-29T13:43:57.267Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Alphabet Inc.’s shares fell more than 13%, for its biggest-ever market value wipeout, after the company reported disappointing search and advertising sales that reinforced investor concerns about AI’s threat to its core business.",
+              "source_ids": {
+                "rss_guid": "TNMNI0T96OSJ00",
+                "newsroom_feed": "bloomberg-tech",
+                "source": "bloomberg-tech"
+              }
+            }
+          ],
+          "number": "13%",
+          "evidence": {
+            "source_index": 0,
+            "quote": "more than 13%"
+          }
+        },
+        {
+          "headline": "LMArena text — Claude Fable 5 (High) (#11)",
+          "one_liner": "Claude Fable 5 (High) sits at rank 11 on LMArena's text leaderboard with a 1491 rating.",
+          "companies": [
+            "anthropic"
+          ],
+          "sources": [
+            {
+              "url": "https://lmarena.ai/leaderboard",
+              "publisher": "LMArena",
+              "published_at": "2026-10-28T00:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.495Z",
+              "adapter": "benchmarks",
+              "excerpt": "rank: 11 · rating: 1491.5611245046712 · vote_count: 45341 · organization: anthropic · leaderboard_publish_date: 2026-10-28",
+              "source_ids": {
+                "lmarena_model": " 0309), 20250929), 20251101), 20260813), 32K,ChatGPT-4o Latest (20250326),Claude Fable 5 (High),Claude Fable 5.1 (Max),Claude Opus 4.5 (20251101),Claude Opus 4.5 (High,Claude Opus 4.6,Claude Opus 4.6 (High),Claude Opus 4.7,Claude Opus 4.7 (High),Claude Opus 4.8,Claude Opus 4.8 (High),Claude Opus 5 (High),Claude Opus 5 (Max),Claude Opus 5.5 (High),Claude Sonnet 4.5 (20250929),Claude Sonnet 4.5 (High,Claude Sonnet 4.6,Claude Sonnet 5 (High),Claude Sonnet 5.5 (xHigh),DeepSeek-V4-Flash,DeepSeek-V4-Pro,DeepSeek-V4-Pro (High,DeepSeek-V4-Pro Preview (High),DeepSeek-V4.1-Flash-20260910 (Max),Dola Seed 2.0 Pro,ERNIE 5.0 (0110),ERNIE 5.1,ERNIE-5.0-Preview (1022),ERNIE-5.0-Preview (1203),GLM-4.5,GLM-4.6,GLM-4.7,GLM-5,GLM-5.1,GLM-5.2 (Max),GLM-5.3 (Max),GLM-5.3-Flash,GLM-5V-Turbo,GPT-5.1 (High),GPT-5.2 Chat (20260210),GPT-5.4,GPT-5.4 (High),GPT-5.5,GPT-5.5 (High),GPT-5.6 Luna (xHigh),GPT-5.6 Sol (xHigh),GPT-5.6 Terra (xHigh),GPT-6 Astra (Max),GPT-6.1 Sol (Max),Gemini 2.5 Pro,Gemini 3 Flash,Gemini 3 Flash (Minimal),Gemini 3 Pro,Gemini 3.1 Pro Preview,Gemini 3.5 Flash (High),Gemini 3.5 Flash (Medium),Gemini 3.5 Flash-Lite,Gemini 3.6 Flash (High),Gemini 3.7 Flash (High),Gemini 3.8 Flash (High),Gemini 4 Argon (High),Gemini 4 Carbon (High),Gemma 4 26B A4B,Gemma 4 31B,Grok 4.1,Grok 4.1 (Thinking),Grok 4.20 Beta (Reasoning,Grok 4.20 Beta 1,Grok 4.20 Multi-Agent Beta (0309),Grok 4.5,Grok 4.6 (High),Hy3,Inkling,Kimi K2.5 (Thinking),Kimi K2.6,Kimi K3 (Max),MiMo-V2-Pro,MiMo-V2.5-Pro,MiMo-V2.6-Flash,MiMo-V2.6-Pro,MiniMax-M3,Mistral Large 3,Mistral Large 4,Muse Spark,Muse Spark 1.1,Muse Spark 1.2 (xHigh),Muse Spark 1.3 (Max),Muse Wonder (Max),NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4),Qwen3-Max-Preview,Qwen3.5-397B-A17B,Qwen3.5-Max-Preview,Qwen3.6-Max-Preview,Qwen3.6-Plus,Qwen3.7-Max-Preview,Qwen3.7-Plus,Qwen3.8-27B,Qwen3.8-Max,Step 5 Preview,amazon-nova-experimental-chat (26-02-10)",
+                "lmarena_category": "overall",
+                "source": "lmarena-leaderboard"
+              }
+            }
+          ],
+          "number": "11",
+          "evidence": {
+            "source_index": 0,
+            "quote": "11"
           }
         }
       ]
@@ -236,8 +313,33 @@
       "type": "launches",
       "items": [
         {
+          "headline": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
+          "one_liner": "Alexa can now build and manage shopping lists and subscriptions for Amazon customers.",
+          "companies": [
+            "amazon"
+          ],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-29T13:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.945Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot.",
+              "source_ids": {
+                "rss_guid": "https://techcrunch.com/?p=3182981",
+                "newsroom_feed": "techcrunch-ai",
+                "source": "techcrunch-ai"
+              }
+            }
+          ]
+        },
+        {
           "headline": "The Agent SDK",
-          "one_liner": "Cursor ships the Agent SDK — a toolkit for building on its agent runtime.",
+          "one_liner": "Cursor's Agent SDK lets developers embed its coding agent into their own applications.",
+          "companies": [
+            "anysphere"
+          ],
           "sources": [
             {
               "url": "https://cursor.com/blog/agent-sdk",
@@ -254,83 +356,21 @@
           ]
         },
         {
-          "headline": "Show HN: Silo – an open source secure CLI sandbox for running agents locally",
-          "one_liner": "An open-source secure CLI sandbox for running agents locally — via Show HN.",
-          "sources": [
-            {
-              "url": "https://github.com/Asdivyansh/silo-cli",
-              "publisher": "Hacker News",
-              "published_at": "2026-10-28T19:33:24.000Z",
-              "fetched_at": "2026-10-28T19:44:16.803Z",
-              "adapter": "hn-algolia",
-              "excerpt": "Show HN: Silo – an open source secure CLI sandbox for running agents locally",
-              "source_ids": {
-                "hn_object_id": "50279594",
-                "source": "hn-algolia"
-              }
-            }
-          ]
-        },
-        {
-          "headline": "Rocker Launches as the Context-Aware AI Work Assistant for the Busiest People at the World’s Most Ambitious Companies",
-          "one_liner": "Rocker launches a context-aware AI work assistant, announcing $12.85M in funding led by Greycroft.",
+          "headline": "Meta quietly launched an ‘AI pet journal’ app",
+          "one_liner": "Meta quietly released Waddle World, a tamagotchi-style AI pet journal app.",
           "companies": [
-            "anthropic"
+            "meta"
           ],
           "sources": [
             {
-              "url": "http://www.businesswire.com/news/home/20261028010878/en/Rocker-Launches-as-the-Context-Aware-AI-Work-Assistant-for-the-Busiest-People-at-the-World%E2%80%99s-Most-Ambitious-Companies?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-              "publisher": "Business Wire",
-              "published_at": "2026-10-28T19:22:00.000Z",
-              "fetched_at": "2026-10-28T19:44:16.809Z",
-              "adapter": "press-wire-rss",
-              "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--Rocker, the AI assistant for busiest people at the world’s most ambitious companies, today announced $12.85M in funding led by Greycroft, with participation from Anthropic and Menlo Ventures' Anthology Fund, Matchstick, Stripe, and operators Jeanne DeWitt Grosser",
-              "source_ids": {
-                "feed": "business-wire",
-                "guid": "20261028010878en",
-                "source": "business-wire"
-              }
-            }
-          ]
-        },
-        {
-          "headline": "Anthropic just launched tools to show companies what their AI spending is buying",
-          "one_liner": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
-          "companies": [
-            "anthropic"
-          ],
-          "sources": [
-            {
-              "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
-              "publisher": "TechCrunch",
-              "published_at": "2026-10-28T19:19:58.000Z",
-              "fetched_at": "2026-10-28T19:44:17.016Z",
-              "adapter": "newsroom-rss",
-              "excerpt": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
-              "source_ids": {
-                "rss_guid": "https://techcrunch.com/?p=3182643",
-                "newsroom_feed": "techcrunch-ai",
-                "source": "techcrunch-ai"
-              }
-            }
-          ]
-        },
-        {
-          "headline": "Microsoft is ending Copilot support on smart TVs",
-          "one_liner": "Microsoft is pulling Copilot from all smart TVs this year — barely two years after LG and Samsung announced it at CES.",
-          "companies": [
-            "microsoft"
-          ],
-          "sources": [
-            {
-              "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
               "publisher": "The Verge",
-              "published_at": "2026-10-28T18:36:26.000Z",
+              "published_at": "2026-10-28T11:27:30.000Z",
               "fetched_at": "2026-10-28T19:44:17.023Z",
               "adapter": "newsroom-rss",
-              "excerpt": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official",
+              "excerpt": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\"",
               "source_ids": {
-                "atom_id": "https://www.theverge.com/?p=1021143",
+                "atom_id": "https://www.theverge.com/?p=1020410",
                 "newsroom_feed": "theverge-ai",
                 "source": "theverge-ai"
               }
@@ -338,19 +378,47 @@
           ]
         },
         {
-          "headline": "Show HN: 42Loop - Agent runs the product, I assist it",
-          "one_liner": "An agent runs the product while the human assists — a self-described experiment in AI autonomy on a live community board.",
+          "headline": "Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone",
+          "one_liner": "Meta launched Muse in Singapore, billing it as a personal AI agent for everyone.",
+          "companies": [
+            "meta"
+          ],
           "sources": [
             {
-              "url": "https://42loop.com/about",
-              "publisher": "Hacker News",
-              "published_at": "2026-10-28T17:36:47.000Z",
-              "fetched_at": "2026-10-28T19:44:16.803Z",
-              "adapter": "hn-algolia",
-              "excerpt": "As my first experiment in AI autonomy, I set up an agent that runs the product, while I assist it. The product is the community board hosted on the homepage of 42Loop.com On Product Development front, the agent ideates with me the features, positioning, UX etc. and provides me the prompts that I",
+              "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone",
+              "publisher": "Meta",
+              "published_at": "2026-10-28T00:00:03.000Z",
+              "fetched_at": "2026-10-29T13:43:57.830Z",
+              "adapter": "distribute-software",
+              "excerpt": "Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone",
               "source_ids": {
-                "hn_object_id": "50277564",
-                "source": "hn-algolia"
+                "distribute_id": "release-1026",
+                "distribute_url": "https://distribute.software/companies/meta",
+                "distribute_source": "lab",
+                "distribute_companies": "meta",
+                "source": "distribute-releases"
+              }
+            }
+          ]
+        },
+        {
+          "headline": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+          "one_liner": "Firefox's Smart Window now fills online forms and monitors webpages with AI.",
+          "companies": [
+            "mozilla"
+          ],
+          "sources": [
+            {
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+              "publisher": "The Verge",
+              "published_at": "2026-10-27T16:14:18.000Z",
+              "fetched_at": "2026-10-28T19:44:17.023Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into",
+              "source_ids": {
+                "atom_id": "https://www.theverge.com/?p=1019551",
+                "newsroom_feed": "theverge-ai",
+                "source": "theverge-ai"
               }
             }
           ]
@@ -361,166 +429,173 @@
       "type": "funding",
       "items": [
         {
-          "headline": "Foundry Robotics raised $100M Series A led by Marlinspike Partners",
-          "one_liner": "Foundry Robotics announces an oversubscribed $100 million Series A led by Marlinspike Partners.",
-          "companies": [
-            "foundry-robotics"
-          ],
-          "sources": [
-            {
-              "url": "http://www.businesswire.com/news/home/20261028508802/en/Foundry-Robotics-Raises-100-Million-Series-A-to-Build-America%E2%80%99s-First-Autonomous-Factory-for-Assembly?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-              "publisher": "Business Wire",
-              "published_at": "2026-10-28T15:00:00.000Z",
-              "fetched_at": "2026-10-28T19:44:16.809Z",
-              "adapter": "press-wire-rss",
-              "excerpt": "EMERYVILLE, Calif.--(BUSINESS WIRE)--Foundry Robotics today announced its oversubscribed $100 million Series A funding round led by Marlinspike Partners. Participating in the round are early backers Khosla Ventures and Red Glass Ventures, and new investors SE Ventures, Wing VC, and Axiom Ventures,",
-              "source_ids": {
-                "feed": "business-wire",
-                "guid": "20261028508802en",
-                "source": "business-wire"
-              }
-            }
-          ],
-          "amount": "$100M",
-          "stage": "Series A",
-          "lead": "Marlinspike Partners",
-          "evidence": {
-            "source_index": 0,
-            "quote": "$100 million"
-          }
-        },
-        {
-          "headline": "IREN raised $363 million equipment financing",
-          "one_liner": "Equipment financing for high-density AI data centers — the debt side of the capex wave.",
-          "sources": [
-            {
-              "url": "http://www.businesswire.com/news/home/20261028683272/en/IREN-and-Wingspire-Equipment-Finance-Complete-363-Million-Financing-for-High-Density-AI-Compute-Assets?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-              "publisher": "Business Wire",
-              "published_at": "2026-10-28T13:17:00.000Z",
-              "fetched_at": "2026-10-28T19:44:16.809Z",
-              "adapter": "press-wire-rss",
-              "excerpt": "TUSTIN, Calif. & SYDNEY--(BUSINESS WIRE)--Wingspire Equipment Finance and IREN Limited (NASDAQ: IREN) (“IREN”) announced the closing of a $363 million equipment financing transaction supporting IREN’s AI compute business.The Equipment Finance Agreement refinanced recently acquired,",
-              "source_ids": {
-                "feed": "business-wire",
-                "guid": "20261028683272en",
-                "source": "business-wire"
-              }
-            }
-          ],
-          "amount": "$363M",
-          "evidence": {
-            "source_index": 0,
-            "quote": "$363 million"
-          }
-        },
-        {
           "headline": "Anthropic files for IPO",
-          "one_liner": "The prospectus builds an elaborate governance moat to keep Wall Street at bay after listing.",
+          "one_liner": "Anthropic's S-1 frames compute spending as its core business case for going public.",
+          "take": "The first frontier-lab prospectus reads as a capex thesis more than a product story",
           "companies": [
             "anthropic"
           ],
           "sources": [
             {
-              "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
               "publisher": "The Verge",
-              "published_at": "2026-10-27T16:51:22.000Z",
-              "fetched_at": "2026-10-28T19:44:17.023Z",
+              "published_at": "2026-10-29T13:30:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.940Z",
               "adapter": "newsroom-rss",
-              "excerpt": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and",
+              "excerpt": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT",
               "source_ids": {
-                "atom_id": "https://www.theverge.com/?p=1019470",
+                "atom_id": "https://www.theverge.com/?p=1021476",
                 "newsroom_feed": "theverge-ai",
                 "source": "theverge-ai"
               }
             }
           ],
           "amount": "undisclosed",
-          "stage": "IPO",
+          "stage": "S-1",
           "evidence": {
             "source_index": 0,
-            "quote": "IPO"
+            "quote": "The Anthropic S-1 seems to have provided t"
           }
         },
         {
-          "headline": "Tenstorrent raised $1.5B Series E",
-          "one_liner": "The RISC-V chip shop banked $1.5B to chase NVIDIA's inference business — the week's largest chip raise.",
+          "headline": "Opentrons raised $40M Series E led by Avego",
+          "one_liner": "Opentrons raised $40 million Series E led by Avego to standardize AI-driven science on its lab robots.",
           "companies": [
-            "tenstorrent"
+            "opentrons"
           ],
           "sources": [
             {
-              "url": "https://www.businesswire.com/news/home/20261027228454/en/Innovation-X-Co-Leads-Tenstorrents-%241.5-Billion-Series-E-at-a-%246.2-Billion-Valuation",
+              "url": "http://www.businesswire.com/news/home/20261029104545/en/Opentrons-Announces-40M-Series-E-Round-to-Standardize-AI-Driven-Science-on-Its-Robots?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
               "publisher": "Business Wire",
-              "published_at": "2026-10-27T13:07:00.000Z",
-              "fetched_at": "2026-10-28T09:00:00.000Z",
+              "published_at": "2026-10-29T13:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.506Z",
               "adapter": "press-wire-rss",
-              "excerpt": "Innovation X, a late-stage venture capital firm investing in privately held technology leaders, today announced that it co-led Tenstorrent's $1.5 billion Series E financing at a $6.2 billion post-money valuation.",
+              "excerpt": "LONG ISLAND CITY, N.Y.--(BUSINESS WIRE)--Opentrons Labworks Inc., the leader in open, AI-native laboratory automation, today announced a $40 million Series E financing led by healthcare investor Avego, with additional investment from BroadOak Capital Partners. Opentrons will use the capital to",
               "source_ids": {
-                "fixture": "2026-w44",
-                "fixture_page": "funding"
+                "feed": "business-wire",
+                "guid": "20261029104545en",
+                "source": "business-wire"
               }
             }
           ],
-          "amount": "$1.5B",
+          "amount": "$40M",
           "stage": "Series E",
+          "lead": "Avego",
           "evidence": {
             "source_index": 0,
-            "quote": "$1.5 billion"
+            "quote": "$40 million"
           }
         },
         {
-          "headline": "Hyphenate raised $45M Series A led by Nexus Venture Partners",
-          "one_liner": "Hyphenate builds autonomous AI agent systems for enterprise financial operations — $45M Series A led by Nexus Venture Partners.",
+          "headline": "TrashLab raised $12M Growth led by Ventana",
+          "one_liner": "TrashLab raised $12 million in a growth round led by Ventana for its AI-native waste-hauler OS.",
           "companies": [
-            "hyphenate"
+            "trashlab"
           ],
           "sources": [
             {
-              "url": "https://funding.fru.dev/months/2026-10",
-              "publisher": "Funding Index",
-              "published_at": "2026-10-27T00:00:00.000Z",
-              "fetched_at": "2026-10-28T09:00:00.000Z",
-              "adapter": "newsroom-rss",
-              "excerpt": "Hyphenate raises $45M Series A, Oct 27, 2026. AI apps. Led by Nexus Venture Partners. Hyphenate develops autonomous AI agent systems for enterprise financial operations.",
+              "url": "http://www.businesswire.com/news/home/20261029417588/en/TrashLab-Raises-12M-to-Scale-the-AI-Native-Operating-System-for-Waste-Haulers?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+              "publisher": "Business Wire",
+              "published_at": "2026-10-29T13:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.506Z",
+              "adapter": "press-wire-rss",
+              "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--TrashLab, an AI-native operating system for waste haulers, today announced it has raised a $12 million growth round led by early-growth equity firm Ventana, with participation from existing investors Bienville Capital, Harlem Capital, and CreativeCo. TrashLab will",
               "source_ids": {
-                "fixture": "2026-w44",
-                "fixture_page": "funding"
+                "feed": "business-wire",
+                "guid": "20261029417588en",
+                "source": "business-wire"
               }
             }
           ],
-          "amount": "$45M",
-          "stage": "Series A",
-          "lead": "Nexus Venture Partners",
+          "amount": "$12M",
+          "stage": "Growth",
+          "lead": "Ventana",
           "evidence": {
             "source_index": 0,
-            "quote": "$45M"
+            "quote": "$12 million"
           }
         },
         {
-          "headline": "General Compute raised $100M Series A",
-          "one_liner": "A $100M Series A for AI inference infrastructure — the round extends the startup's compute runway.",
+          "headline": "Solink raised $100M Growth led by Vertu Capital",
+          "one_liner": "Solink raised more than $100 million led by Vertu Capital for AI vision intelligence in physical operations.",
           "companies": [
-            "general-compute"
+            "solink"
           ],
           "sources": [
             {
-              "url": "https://www.siliconreport.com/capital/archive/2026-10",
-              "publisher": "SiliconReport",
-              "published_at": "2026-10-27T00:00:00.000Z",
-              "fetched_at": "2026-10-28T09:00:00.000Z",
-              "adapter": "newsroom-rss",
-              "excerpt": "Oct 27 General Compute raises $100 million Series A at $800 million valuation.",
+              "url": "http://www.businesswire.com/news/home/20261029969930/en/Solink-Raises-More-Than-100-Million-in-New-Funding-to-Bring-its-AI-Vision-Intelligence-to-Physical-Business-Operations-Around-the-World?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+              "publisher": "Business Wire",
+              "published_at": "2026-10-29T12:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.506Z",
+              "adapter": "press-wire-rss",
+              "excerpt": "OTTAWA, Ontario--(BUSINESS WIRE)--Solink®, a leader in AI Vision Intelligence, today announced more than $100 million in new funding led by Vertu Capital, with material participation from existing investor Growth Equity at Goldman Sachs Alternatives and participation from new investors, Golub",
               "source_ids": {
-                "fixture": "2026-w44",
-                "fixture_page": "funding"
+                "feed": "business-wire",
+                "guid": "20261029969930en",
+                "source": "business-wire"
               }
             }
           ],
           "amount": "$100M",
-          "stage": "Series A",
+          "stage": "Growth",
+          "lead": "Vertu Capital",
           "evidence": {
             "source_index": 0,
             "quote": "$100 million"
+          }
+        },
+        {
+          "headline": "Microsoft raised $25B",
+          "one_liner": "Microsoft is raising at least $25 billion in its first US bond sale in nine years to fund AI buildout.",
+          "companies": [
+            "microsoft"
+          ],
+          "sources": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-29/microsoft-kicks-off-first-us-high-grade-bond-sale-since-2017",
+              "publisher": "Bloomberg",
+              "published_at": "2026-10-29T11:47:22.000Z",
+              "fetched_at": "2026-10-29T13:43:57.267Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Microsoft Corp. is looking to raise at least $25 billion from its first US investment-grade bond sale in more than nine years, joining rivals in a relentless borrowing spree to fund the artificial intelligence boom.",
+              "source_ids": {
+                "rss_guid": "TNO2T8T96OSI00",
+                "newsroom_feed": "bloomberg-tech",
+                "source": "bloomberg-tech"
+              }
+            }
+          ],
+          "amount": "$25B",
+          "evidence": {
+            "source_index": 0,
+            "quote": "$25 billion"
+          }
+        },
+        {
+          "headline": "Wabi raised $55M",
+          "one_liner": "Wabi raised $55 million at a $1.25 billion valuation for group coordination with AI agents.",
+          "companies": [
+            "wabi"
+          ],
+          "sources": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-10-29/ai-assistant-startup-wabi-raises-55-million-at-1-25-billion-value",
+              "publisher": "Bloomberg",
+              "published_at": "2026-10-29T11:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:57.267Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "AI assistant startup Wabi Inc. has raised $55 million at a $1.25 billion valuation to build out its software that lets groups of people interact with artificial intelligence agents to coordinate activities and make collective decisions.",
+              "source_ids": {
+                "rss_guid": "TMYA3BKK3NYF00",
+                "newsroom_feed": "bloomberg-tech",
+                "source": "bloomberg-tech"
+              }
+            }
+          ],
+          "amount": "$55M",
+          "evidence": {
+            "source_index": 0,
+            "quote": "$55 million"
           }
         }
       ]
@@ -529,8 +604,90 @@
       "type": "deals",
       "items": [
         {
-          "headline": "Amazon → Globalstar — $11.57B",
-          "one_liner": "Amazon agreed to buy Globalstar for $11.57B — a satellite footprint to challenge Starlink on Amazon Leo.",
+          "headline": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
+          "one_liner": "A US agency cleared Amazon Leo's $11.5 billion purchase of Globalstar, advancing its satellite network.",
+          "companies": [
+            "amazon",
+            "globalstar"
+          ],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-28T11:54:23.000Z",
+              "fetched_at": "2026-10-29T13:43:57.915Z",
+              "adapter": "distribute-software",
+              "excerpt": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
+              "source_ids": {
+                "distribute_id": "story-25505",
+                "distribute_url": "https://distribute.software/stories/25505",
+                "distribute_source": "hn",
+                "distribute_companies": "amazon",
+                "hn_discussion_url": "https://news.ycombinator.com/item?id=50272145",
+                "source": "distribute-stories"
+              }
+            }
+          ],
+          "acquirer": "Amazon Leo",
+          "target": "Globalstar",
+          "amount": "$11.5B",
+          "evidence": {
+            "source_index": 0,
+            "quote": "$11.5B"
+          }
+        },
+        {
+          "headline": "Xsolla Acquires GamePix to Build a Complete Platform for Web and AI-Created Video Games",
+          "one_liner": "Xsolla bought GamePix, adding a 10,000-title web-games catalog to its commerce platform.",
+          "companies": [
+            "xsolla"
+          ],
+          "sources": [
+            {
+              "url": "http://www.businesswire.com/news/home/20261021024495/en/Xsolla-Acquires-GamePix-to-Build-a-Complete-Platform-for-Web-and-AI-Created-Video-Games?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+              "publisher": "Business Wire",
+              "published_at": "2026-10-29T13:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.506Z",
+              "adapter": "press-wire-rss",
+              "excerpt": "LOS ANGELES--(BUSINESS WIRE)--Xsolla, a global commerce company, today announced it acquired GamePix, the web games platform that publishes and distributes browser games worldwide. GamePix brings a catalog of 10,000+ web titles, a community of 4,000+ developers, and a publishing solution that",
+              "source_ids": {
+                "feed": "business-wire",
+                "guid": "20261021024495en",
+                "source": "business-wire"
+              }
+            }
+          ],
+          "acquirer": "Xsolla",
+          "target": "GamePix"
+        },
+        {
+          "headline": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+          "one_liner": "Deepgram bought Pipecat-maker Daily and pledged to keep Pipecat open source.",
+          "companies": [
+            "daily",
+            "deepgram"
+          ],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-29T13:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.945Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Deepgram said that it is committed to keep Pipecat open source.",
+              "source_ids": {
+                "rss_guid": "https://techcrunch.com/?p=3182652",
+                "newsroom_feed": "techcrunch-ai",
+                "source": "techcrunch-ai"
+              }
+            }
+          ],
+          "acquirer": "Deepgram",
+          "target": "Pipecat"
+        },
+        {
+          "headline": "Amazon to buy satellite firm Globalstar in $11.57B deal",
+          "one_liner": "Amazon agreed to buy satellite operator Globalstar for $11.57 billion to build out its Leo network.",
           "companies": [
             "amazon",
             "globalstar"
@@ -540,7 +697,7 @@
               "url": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14",
               "publisher": "Hacker News",
               "published_at": "2026-10-28T11:54:23.000Z",
-              "fetched_at": "2026-10-28T19:44:17.315Z",
+              "fetched_at": "2026-10-29T13:43:57.915Z",
               "adapter": "distribute-software",
               "excerpt": "Amazon to buy satellite firm Globalstar in $11.57B deal",
               "source_ids": {
@@ -559,35 +716,6 @@
           "evidence": {
             "source_index": 0,
             "quote": "$11.57B"
-          }
-        },
-        {
-          "headline": "Guidewire → hyperexponential — $1.7B",
-          "one_liner": "Guidewire absorbs hyperexponential's pricing AI — insurance underwriting software consolidation continues.",
-          "companies": [
-            "guidewire",
-            "hyperexponential"
-          ],
-          "sources": [
-            {
-              "url": "https://www.prnewswire.com/news-releases/guidewire-signs-definitive-agreement-to-acquire-hyperexponential-302920513.html",
-              "publisher": "PR Newswire",
-              "published_at": "2026-10-27T11:00:00.000Z",
-              "fetched_at": "2026-10-28T09:00:00.000Z",
-              "adapter": "press-wire-rss",
-              "excerpt": "Guidewire announced today that it entered into a definitive agreement to acquire Hyperexponential Ltd for a base purchase price of $1.7 billion in cash, subject to adjustments, and up to an additional $400 million in contingent consideration.",
-              "source_ids": {
-                "fixture": "2026-w44",
-                "fixture_page": "deals"
-              }
-            }
-          ],
-          "acquirer": "Guidewire",
-          "target": "Hyperexponential Ltd",
-          "amount": "$1.7B",
-          "evidence": {
-            "source_index": 0,
-            "quote": "$1.7 billion"
           }
         }
       ]
@@ -783,14 +911,94 @@
       "type": "discourse",
       "items": [
         {
-          "headline": "Is Washington telling AI executives to shut up — and why now?",
-          "one_liner": "Axios and Bloomberg report Washington telling AI executives to quiet down — political cover vs industry messaging.",
+          "headline": "Did ChatGPT coach a child off her seizure medication — and where does responsibility lie?",
+          "one_liner": "Parents allege ChatGPT coached their daughter off seizure medication in secret; the case tests chatbot duties to minors.",
+          "companies": [
+            "openai"
+          ],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-27T23:34:27.000Z",
+              "fetched_at": "2026-10-29T13:43:56.945Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+              "source_ids": {
+                "rss_guid": "https://techcrunch.com/?p=3182387",
+                "newsroom_feed": "techcrunch-ai",
+                "source": "techcrunch-ai"
+              }
+            },
+            {
+              "url": "https://github.com/trytilde/tilde",
+              "publisher": "Hacker News",
+              "published_at": "2026-10-28T21:25:24.000Z",
+              "fetched_at": "2026-10-29T13:43:56.500Z",
+              "adapter": "hn-algolia",
+              "excerpt": "Show HN: ~, An open-source agent registry",
+              "source_ids": {
+                "hn_object_id": "50281119",
+                "source": "hn-algolia"
+              }
+            }
+          ]
+        },
+        {
+          "headline": "Who did Britain consult on its AI datacentre buildout — and who was left out?",
+          "one_liner": "Ministers met 137 businesses on AI datacentres but no environmental groups, an investigation found.",
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation",
+              "publisher": "The Guardian",
+              "published_at": "2026-10-27T07:00:04.000Z",
+              "fetched_at": "2026-10-28T19:44:17.315Z",
+              "adapter": "distribute-software",
+              "excerpt": "UK government met 137 businesses over AI datacentres – but no environmental groups",
+              "source_ids": {
+                "distribute_id": "story-25429",
+                "distribute_url": "https://distribute.software/stories/25429",
+                "distribute_source": "media",
+                "source": "distribute-stories"
+              }
+            },
+            {
+              "url": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation",
+              "publisher": "The Guardian",
+              "published_at": "2026-10-27T07:00:04.000Z",
+              "fetched_at": "2026-10-29T13:43:56.508Z",
+              "adapter": "press-wire-rss",
+              "excerpt": "Investigation finds dozens of ministers and civil servants moved into AI roles as government developed datacentre expansion plans The UK’s policy on datacentres and AI was developed without any meetings with environmental groups, an investigation has found. The nonprofit organisation Spotlight on",
+              "source_ids": {
+                "feed": "guardian-ai",
+                "guid": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation",
+                "source": "guardian-ai"
+              }
+            },
+            {
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+              "publisher": "The Verge",
+              "published_at": "2026-10-28T14:44:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.940Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven neighborhood",
+              "source_ids": {
+                "atom_id": "https://www.theverge.com/?p=1020596",
+                "newsroom_feed": "theverge-ai",
+                "source": "theverge-ai"
+              }
+            }
+          ]
+        },
+        {
+          "headline": "Is Washington telling AI executives to stay quiet — and why now?",
+          "one_liner": "Axios reports Washington pressed AI executives to quiet their public commentary.",
           "sources": [
             {
               "url": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
               "publisher": "Axios",
               "published_at": "2026-10-24T16:32:03.000Z",
-              "fetched_at": "2026-10-28T19:44:16.812Z",
+              "fetched_at": "2026-10-29T13:43:56.507Z",
               "adapter": "press-wire-rss",
               "excerpt": "Washington's message to AI execs: Please shut up",
               "source_ids": {
@@ -826,69 +1034,6 @@
               }
             }
           ]
-        },
-        {
-          "headline": "Can debt-funded AI capital expenditure pay for itself?",
-          "one_liner": "AP and Reuters weigh whether debt-funded AI capex can pay for itself — bulls cite contracts, bears cite circularity.",
-          "sources": [
-            {
-              "url": "https://apnews.com/article/stocks-markets-ai-earnings-oil-e11a2240fc3283c4507d44b9833f30a2",
-              "publisher": "Associated Press",
-              "published_at": "2026-10-27T07:10:58.000Z",
-              "fetched_at": "2026-10-28T09:00:00.000Z",
-              "adapter": "newsroom-rss",
-              "excerpt": "Stocks in the artificial-intelligence industry led Wall Street higher on Tuesday. AI stocks rose to another winning day after swerving for weeks on worries about whether their boom is under threat because of how expensive they have become.",
-              "source_ids": {
-                "fixture": "2026-w44",
-                "fixture_page": "discourse"
-              }
-            },
-            {
-              "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-muted-oil-095309821.html",
-              "publisher": "Reuters",
-              "published_at": "2026-10-27T20:22:16.000Z",
-              "fetched_at": "2026-10-28T09:00:00.000Z",
-              "adapter": "newsroom-rss",
-              "excerpt": "An AI-fueled tech rally sent US stocks to a higher close on Tuesday. The buzz surrounding details of Anthropic's impending initial public offering helped boost chip stocks for the third consecutive session. Growing concerns over the viability of debt-funded spending have weighed on the AI trade.",
-              "source_ids": {
-                "fixture": "2026-w44",
-                "fixture_page": "discourse"
-              }
-            }
-          ]
-        },
-        {
-          "headline": "Did two frontier labs just refute the Exponential Time Hypothesis — or can nobody actually check the proofs?",
-          "one_liner": "AI Atlas and Third Run Time disagree on whether two frontier-lab complexity papers actually refute ETH — the claim vs the check.",
-          "companies": [
-            "openai"
-          ],
-          "sources": [
-            {
-              "url": "https://www.thirdruntime.com/?date=2026-10-26",
-              "publisher": "Third Run Time",
-              "published_at": "2026-10-26T17:00:00.000Z",
-              "fetched_at": "2026-10-28T09:00:00.000Z",
-              "adapter": "newsroom-rss",
-              "excerpt": "OpenAI announces three big science discoveries and a new way to work with academics. The Verge covered the announcement of three results in maths, computer science and physics.",
-              "source_ids": {
-                "fixture": "2026-w44",
-                "fixture_page": "discourse,models"
-              }
-            },
-            {
-              "url": "https://atlas.prashish.com/weeks/2026-10-26",
-              "publisher": "AI Atlas",
-              "published_at": "2026-10-26T17:19:00.000Z",
-              "fetched_at": "2026-10-28T09:00:00.000Z",
-              "adapter": "newsroom-rss",
-              "excerpt": "OpenAI announced on 26 October that its models found sub-exponential algorithms for a hard class of logic puzzles, which would make the Exponential Time Hypothesis false, and The Information reports that Anthropic claimed its own refutation hours later.",
-              "source_ids": {
-                "fixture": "2026-w44",
-                "fixture_page": "discourse,performance"
-              }
-            }
-          ]
         }
       ]
     },
@@ -896,79 +1041,79 @@
       "type": "most_covered",
       "entries": [
         {
-          "company": "anthropic",
-          "name": "Anthropic",
-          "stories": 3,
-          "trend": "up"
-        },
-        {
-          "company": "microsoft",
-          "name": "Microsoft",
-          "stories": 2,
-          "trend": "up"
-        },
-        {
-          "company": "openai",
-          "name": "OpenAI",
-          "stories": 2,
-          "trend": "down"
-        },
-        {
           "company": "alphabet",
           "name": "Alphabet (Google)",
-          "stories": 1,
+          "stories": 5,
+          "trend": "up"
+        },
+        {
+          "company": "google-deepmind",
+          "name": "Google DeepMind",
+          "stories": 4,
           "trend": "up"
         },
         {
           "company": "amazon",
           "name": "Amazon",
-          "stories": 1,
+          "stories": 3,
+          "trend": "up"
+        },
+        {
+          "company": "anthropic",
+          "name": "Anthropic",
+          "stories": 2,
+          "trend": "up"
+        },
+        {
+          "company": "globalstar",
+          "name": "Globalstar",
+          "stories": 2,
           "trend": "up"
         }
       ]
     },
     {
       "type": "back_page",
-      "sources_total": 40,
+      "sources_total": 44,
       "source_counts": [
-        {
-          "publisher": "Hacker News",
-          "count": 9
-        },
         {
           "publisher": "Exa Markets",
           "count": 8
+        },
+        {
+          "publisher": "Hacker News",
+          "count": 8
+        },
+        {
+          "publisher": "Bloomberg",
+          "count": 5
+        },
+        {
+          "publisher": "The Verge",
+          "count": 5
         },
         {
           "publisher": "Business Wire",
           "count": 4
         },
         {
-          "publisher": "Bloomberg",
-          "count": 2
+          "publisher": "TechCrunch",
+          "count": 4
         },
         {
           "publisher": "Google DeepMind",
           "count": 2
         },
         {
-          "publisher": "TechCrunch",
+          "publisher": "Hugging Face",
           "count": 2
         },
         {
-          "publisher": "The Verge",
+          "publisher": "The Guardian",
           "count": 2
         },
         {
-          "publisher": "AI Atlas",
-          "count": 1
-        },
-        {
-          "publisher": "Anthropic",
-          "count": 1
-        },
-        {
-          "publisher": "Associated Press",
+          "publisher": "Ars Technica",
           "count": 1
         },
         {
@@ -976,31 +1121,11 @@
           "count": 1
         },
         {
-          "publisher": "Funding Index",
+          "publisher": "LMArena",
           "count": 1
         },
         {
-          "publisher": "Microsoft AI",
-          "count": 1
-        },
-        {
-          "publisher": "OpenAI",
-          "count": 1
-        },
-        {
-          "publisher": "PR Newswire",
-          "count": 1
-        },
-        {
-          "publisher": "Reuters",
-          "count": 1
-        },
-        {
-          "publisher": "SiliconReport",
-          "count": 1
-        },
-        {
-          "publisher": "Third Run Time",
+          "publisher": "Meta",
           "count": 1
         }
       ],

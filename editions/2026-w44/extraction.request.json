@@ -4,6 +4,216 @@
   "style_rev": "25e18d610b9cbdca74cd2956c508c775737ad3de",
   "items": [
     {
+      "id": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "page": "performance",
+      "headline": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "publisher": "Hacker News",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Hacker News",
+          "excerpt": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://surgehq.ai/blog/dayjob-tax",
+      "page": "performance",
+      "headline": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "publisher": "Hacker News",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Hacker News",
+          "excerpt": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "page": "funding",
+      "headline": "Anthropic’s business plan: Build God or die trying",
+      "publisher": "The Verge",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "The Verge",
+          "excerpt": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "amount",
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261021024495/en/Xsolla-Acquires-GamePix-to-Build-a-Complete-Platform-for-Web-and-AI-Created-Video-Games?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "deals",
+      "headline": "Xsolla Acquires GamePix to Build a Complete Platform for Web and AI-Created Video Games",
+      "publisher": "Business Wire",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Business Wire",
+          "excerpt": "LOS ANGELES--(BUSINESS WIRE)--Xsolla, a global commerce company, today announced it acquired GamePix, the web games platform that publishes and distributes browser games worldwide. GamePix brings a catalog of 10,000+ web titles, a community of 4,000+ developers, and a publishing solution that"
+        }
+      ],
+      "extracted": {
+        "target": {
+          "value": "GamePix",
+          "source_index": 0
+        }
+      },
+      "missing_fields": [
+        "acquirer",
+        "amount"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029104545/en/Opentrons-Announces-40M-Series-E-Round-to-Standardize-AI-Driven-Science-on-Its-Robots?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "funding",
+      "headline": "Opentrons Announces $40M Series E Round to Standardize AI-Driven Science on Its Robots",
+      "publisher": "Business Wire",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Business Wire",
+          "excerpt": "LONG ISLAND CITY, N.Y.--(BUSINESS WIRE)--Opentrons Labworks Inc., the leader in open, AI-native laboratory automation, today announced a $40 million Series E financing led by healthcare investor Avego, with additional investment from BroadOak Capital Partners. Opentrons will use the capital to"
+        }
+      ],
+      "extracted": {
+        "amount": {
+          "value": "$40M",
+          "source_index": 0
+        },
+        "stage": {
+          "value": "Series E",
+          "source_index": 0
+        }
+      },
+      "missing_fields": [
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029417588/en/TrashLab-Raises-12M-to-Scale-the-AI-Native-Operating-System-for-Waste-Haulers?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "funding",
+      "headline": "TrashLab Raises $12M to Scale the AI-Native Operating System for Waste Haulers",
+      "publisher": "Business Wire",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Business Wire",
+          "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--TrashLab, an AI-native operating system for waste haulers, today announced it has raised a $12 million growth round led by early-growth equity firm Ventana, with participation from existing investors Bienville Capital, Harlem Capital, and CreativeCo. TrashLab will"
+        }
+      ],
+      "extracted": {
+        "amount": {
+          "value": "$12M",
+          "source_index": 0
+        },
+        "stage": {
+          "value": "Growth",
+          "source_index": 0
+        }
+      },
+      "missing_fields": [
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+      "page": "deals",
+      "headline": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "publisher": "TechCrunch",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "TechCrunch",
+          "excerpt": "Deepgram said that it is committed to keep Pipecat open source."
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "acquirer",
+        "target",
+        "amount"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029062593/en/Rockmont-Partners-backs-Veriv-as-verification-pioneers-join-its-board?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "funding",
+      "headline": "Rockmont Partners backs Veriv as verification pioneers join its board",
+      "publisher": "Business Wire",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Business Wire",
+          "excerpt": "CHICAGO--(BUSINESS WIRE)-- #AI--Veriv, the financial verification network, today announced a new investment from Rockmont Partners and two additions to its board of directors: Brian Fox, who will serve as Board Chair, and Christopher Schellhorn, both industry veterans with experience scaling"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "amount",
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/anthropic-ipo-may-spark-ai-rally-as-short-bets-on-tech-pile-up",
+      "page": "funding",
+      "headline": "Anthropic IPO May Spark AI Rally as Short Bets on Tech Pile Up",
+      "publisher": "Bloomberg",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Bloomberg",
+          "excerpt": "Wall Street’s recent risk aversion toward stocks may have created an opening for a sharp rebound, particularly in technology shares, if Anthropic PBC’s planned initial public offering reignites enthusiasm for artificial intelligence."
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "amount",
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/microsoft-kicks-off-first-us-high-grade-bond-sale-since-2017",
+      "page": "funding",
+      "headline": "Microsoft Eyes at Least $25 Billion in First US Bond Since 2017",
+      "publisher": "Bloomberg",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Bloomberg",
+          "excerpt": "Microsoft Corp. is looking to raise at least $25 billion from its first US investment-grade bond sale in more than nine years, joining rivals in a relentless borrowing spree to fund the artificial intelligence boom."
+        }
+      ],
+      "extracted": {
+        "amount": {
+          "value": "$25B",
+          "source_index": 0
+        }
+      },
+      "missing_fields": [
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
       "id": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14",
       "page": "deals",
       "headline": "Amazon to buy satellite firm Globalstar in $11.57B deal",
@@ -30,29 +240,232 @@
       ]
     },
     {
-      "id": "https://www.bloomberg.com/news/articles/2026-10-28/doj-inquires-about-nvidia-s-hugging-face-deal-reuters-says",
-      "page": "deals",
-      "headline": "DOJ Inquires About Nvidia’s Hugging Face Deal, Reuters Says",
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/ai-assistant-startup-wabi-raises-55-million-at-1-25-billion-value",
+      "page": "funding",
+      "headline": "AI Assistant Startup Wabi Raises $55 Million at $1.25 Billion Value",
       "publisher": "Bloomberg",
       "sources": [
         {
           "source_index": 0,
           "publisher": "Bloomberg",
-          "excerpt": "The US Justice Department is making inquiries about Nvidia Corp.’s agreement to acquire AI model company Hugging Face for about $13 billion, part of broader regulatory scrutiny of the chip giant, Reuters reported."
+          "excerpt": "AI assistant startup Wabi Inc. has raised $55 million at a $1.25 billion valuation to build out its software that lets groups of people interact with artificial intelligence agents to coordinate activities and make collective decisions."
         }
       ],
       "extracted": {
-        "target": {
-          "value": "AI model company Hugging Face",
-          "source_index": 0
-        },
         "amount": {
-          "value": "$13B",
+          "value": "$55M",
           "source_index": 0
         }
       },
       "missing_fields": [
-        "acquirer"
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028655033/en/FuriosaAI-Secures-620-Million-Series-D-to-Meet-Surging-Enterprise-AI-Inference-Demand-and-Accelerate-Next-Gen-Silicon?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "funding",
+      "headline": "FuriosaAI Secures $620 Million Series D to Meet Surging Enterprise AI Inference Demand and Accelerate Next-Gen Silicon",
+      "publisher": "Business Wire",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Business Wire",
+          "excerpt": "SEOUL, South Korea--(BUSINESS WIRE)-- #AI--AI inference chipmaker FuriosaAI announces a $620 million Series D at a $2.9 billion valuation."
+        }
+      ],
+      "extracted": {
+        "amount": {
+          "value": "$620M",
+          "source_index": 0
+        },
+        "stage": {
+          "value": "Series D",
+          "source_index": 0
+        }
+      },
+      "missing_fields": [
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/furiosaai-quadruples-valuation-to-2-9-billion-in-nvidia-chase",
+      "page": "funding",
+      "headline": "FuriosaAI Quadruples Value to $2.9 Billion in Nvidia Chase",
+      "publisher": "Bloomberg",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Bloomberg",
+          "excerpt": "South Korean AI chip startup FuriosaAI quadrupled its valuation to $2.9 billion in a fresh funding round, bolstering its bid to challenge the likes of Nvidia Corp."
+        }
+      ],
+      "extracted": {
+        "amount": {
+          "value": "$2.9B",
+          "source_index": 0
+        }
+      },
+      "missing_fields": [
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion",
+      "page": "performance",
+      "headline": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "publisher": "TechCrunch",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "TechCrunch",
+          "excerpt": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS."
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
+      "page": "performance",
+      "headline": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "publisher": "TechCrunch",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "TechCrunch",
+          "excerpt": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership."
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+      "page": "deals",
+      "headline": "Marvell Is Said to Near Megadeal for Lumentum in AI Push",
+      "publisher": "Bloomberg",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Bloomberg",
+          "excerpt": "Marvell Technology Inc. is in advanced talks to buy data center optics maker Lumentum Holdings Inc., according to people familiar with the matter, putting it on the cusp of a potential megadeal amid the race to scale up in the artificial intelligence sector."
+        }
+      ],
+      "extracted": {
+        "acquirer": {
+          "value": "Inc. is in advanced talks",
+          "source_index": 0
+        }
+      },
+      "missing_fields": [
+        "target",
+        "amount"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/microsoft-reports-quarterly-cloud-sales-that-beat-estimates",
+      "page": "performance",
+      "headline": "Microsoft’s Surging Cloud Sales Show AI Spending Paying Off",
+      "publisher": "Bloomberg",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Bloomberg",
+          "excerpt": "Microsoft Corp. posted increasing growth in its cloud business and kept its capital expenditures in check, satisfying investors amid a drumbeat of concern that spending on artificial intelligence won’t pay off."
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/alphabet-reports-disappointing-revenue-income-shares-drop",
+      "page": "performance",
+      "headline": "Google Drops a Record 13% After Sales Miss Sparks AI Skepticism",
+      "publisher": "Bloomberg",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Bloomberg",
+          "excerpt": "Alphabet Inc.’s shares fell more than 13%, for its biggest-ever market value wipeout, after the company reported disappointing search and advertising sales that reinforced investor concerns about AI’s threat to its core business."
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/oracle-projects-30-billion-free-cash-flow-in-fiscal-2029",
+      "page": "performance",
+      "headline": "Oracle Jumps After Projecting Return to Positive Cash Flow",
+      "publisher": "Bloomberg",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Bloomberg",
+          "excerpt": "Oracle Corp. shares jumped after the company gave a long-term outlook for free cash flow that eased investor nerves about the potential payoff from its artificial intelligence spending."
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/anthropic-said-to-pick-jpmorgan-to-lead-ipo-video",
+      "page": "funding",
+      "headline": "Anthropic Weighs Offering 15%-20% of IPO to Retail Investors",
+      "publisher": "Bloomberg",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Bloomberg",
+          "excerpt": "Anthropic is weighing a retail offering of 15% to 20% of the shares available in the IPO, according to people familiar with the matter. Those sources say the company behind Claude has tapped JPMorgan Chase to lead the US retail offering. Bloomberg’s Ryan Gould discusses the plans with Ed Ludlow on"
+        }
+      ],
+      "extracted": {
+        "stage": {
+          "value": "IPO",
+          "source_index": 0
+        },
+        "lead_investor": {
+          "value": "JPMorgan Chase",
+          "source_index": 0
+        }
+      },
+      "missing_fields": [
+        "amount"
+      ]
+    },
+    {
+      "id": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+      "page": "performance",
+      "headline": "Artificial Analysis Intelligence Index v5",
+      "publisher": "Hacker News",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Hacker News",
+          "excerpt": "Artificial Analysis Intelligence Index v5"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
       ]
     },
     {
@@ -79,29 +492,6 @@
       ]
     },
     {
-      "id": "https://www.globenewswire.com/news-release/2026/10/28/3390266/0/en/rapidcanvas-acquires-entytle-to-bring-ai-driven-execution-to-the-industrial-aftermarket.html",
-      "page": "deals",
-      "headline": "RapidCanvas → Entytle",
-      "publisher": "GlobeNewswire",
-      "sources": [
-        {
-          "source_index": 0,
-          "publisher": "GlobeNewswire",
-          "excerpt": "RapidCanvas, a managed AI execution company, today announced it has acquired Entytle, the company that pioneered the Autonomous Aftermarket for B2B OEMs. Financial terms were not disclosed."
-        }
-      ],
-      "extracted": {
-        "target": {
-          "value": "Entytle",
-          "source_index": 0
-        }
-      },
-      "missing_fields": [
-        "acquirer",
-        "amount"
-      ]
-    },
-    {
       "id": "http://www.businesswire.com/news/home/20261028117784/en/Hummingbird-Acquires-Quantimon-to-Bring-Machine-Learning-to-AML-Transaction-Monitoring-for-the-Agentic-Era?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
       "page": "deals",
       "headline": "Hummingbird Acquires Quantimon to Bring Machine Learning to AML Transaction Monitoring for the Agentic Era",
@@ -125,6 +515,39 @@
       ]
     },
     {
+      "id": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "page": "funding",
+      "headline": "Meet Anthropic’s Seven Founders as the A.I. Firm Prepares for an IPO",
+      "publisher": "The New York Times",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "The New York Times",
+          "excerpt": "Former OpenAI employees started the company in 2021 after disagreements over how to safely build artificial intelligence. An I.P.O. could make them billionaires."
+        },
+        {
+          "source_index": 1,
+          "publisher": "OpenAI",
+          "excerpt": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings."
+        },
+        {
+          "source_index": 2,
+          "publisher": "TechCrunch",
+          "excerpt": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion."
+        }
+      ],
+      "extracted": {
+        "amount": {
+          "value": "$127.6B",
+          "source_index": 2
+        }
+      },
+      "missing_fields": [
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more",
       "page": "funding",
       "headline": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
@@ -144,24 +567,41 @@
       ]
     },
     {
-      "id": "https://cbcglobe.com/en/articles/2026/10/27/breaking-tesla-surges-4-and-amd-over-5-on-nyse-nvidia-and-mi-4ca4b69e",
-      "page": "markets",
-      "headline": "Markets weekly closing series",
-      "publisher": "CBC Globe",
+      "id": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "page": "deals",
+      "headline": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "publisher": "OpenAI",
       "sources": [
         {
           "source_index": 0,
-          "publisher": "CBC Globe",
-          "excerpt": "AMD closed at $560.26, up $28.98 (5.45%) from the previous session. Meta closed at $620.19, down $10.37 (1.64%) from the previous session. Alphabet Class A finished trading at $320.58, up $3.78 (1.19%)."
+          "publisher": "OpenAI",
+          "excerpt": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex."
         }
       ],
       "extracted": {},
       "missing_fields": [
-        "ticker",
-        "close",
-        "change_pct",
-        "metric_name",
-        "metric_value"
+        "acquirer",
+        "target",
+        "amount"
+      ]
+    },
+    {
+      "id": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "page": "deals",
+      "headline": "Expanding Partnership Gsa",
+      "publisher": "Anthropic",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Anthropic",
+          "excerpt": "Expanding Partnership Gsa"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "acquirer",
+        "target",
+        "amount"
       ]
     },
     {
@@ -184,94 +624,6 @@
       ]
     },
     {
-      "id": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "page": "funding",
-      "headline": "Meet Anthropic’s Seven Founders as the A.I. Firm Prepares for an IPO",
-      "publisher": "The New York Times",
-      "sources": [
-        {
-          "source_index": 0,
-          "publisher": "The New York Times",
-          "excerpt": "Former OpenAI employees started the company in 2021 after disagreements over how to safely build artificial intelligence. An I.P.O. could make them billionaires."
-        },
-        {
-          "source_index": 1,
-          "publisher": "OpenAI",
-          "excerpt": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings."
-        }
-      ],
-      "extracted": {},
-      "missing_fields": [
-        "amount",
-        "stage",
-        "lead_investor"
-      ]
-    },
-    {
-      "id": "http://www.businesswire.com/news/home/20261027051586/en/Ridgeview-Partners-Completes-Acquisition-of-Pinewood-Technologies-Group?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-      "page": "deals",
-      "headline": "Ridgeview Partners Completes Acquisition of Pinewood Technologies Group",
-      "publisher": "Business Wire",
-      "sources": [
-        {
-          "source_index": 0,
-          "publisher": "Business Wire",
-          "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--Ridgeview Partners LLC (“Ridgeview”), a growth-oriented technology private equity firm, today announced the completion of the acquisition of Pinewood Technologies Group plc (“Pinewood.AI”), a leading cloud-based, AI-first, full-service technology provider to"
-        }
-      ],
-      "extracted": {
-        "target": {
-          "value": "Pinewood Technologies Group plc",
-          "source_index": 0
-        }
-      },
-      "missing_fields": [
-        "acquirer",
-        "amount"
-      ]
-    },
-    {
-      "id": "http://www.businesswire.com/news/home/20261027636043/en/CoStar-Group-to-Acquire-Vexcel-Adding-the-World%E2%80%99s-Largest-Survey-Grade-High-Resolution-Aerial-Imagery-Program-to-Power-Richer-Search-and-Discovery-Across-CoStar-with-Tens-of-Billions-of-New-AI-Derived-Data-Fields?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-      "page": "deals",
-      "headline": "CoStar Group to Acquire Vexcel, Adding the World’s Largest Survey Grade High-Resolution Aerial Imagery Program to Power Richer Search and Discovery Across CoStar with Tens of Billions of New AI-Derived Data Fields",
-      "publisher": "Business Wire",
-      "sources": [
-        {
-          "source_index": 0,
-          "publisher": "Business Wire",
-          "excerpt": "ARLINGTON, Va.--(BUSINESS WIRE)--CoStar Group, Inc. (NASDAQ: CSGP), a leading global provider of online real estate marketplaces, information, analytics, and digital twins in the property markets, announced today that it has entered into a definitive agreement to acquire Vexcel Group, Inc."
-        }
-      ],
-      "extracted": {
-        "target": {
-          "value": "Vexcel Group",
-          "source_index": 0
-        }
-      },
-      "missing_fields": [
-        "acquirer",
-        "amount"
-      ]
-    },
-    {
-      "id": "https://www.llmverifications.com/",
-      "page": "performance",
-      "headline": "Show HN: I found a more accurate upcoming LLM Benchmarks leaderboard",
-      "publisher": "Hacker News",
-      "sources": [
-        {
-          "source_index": 0,
-          "publisher": "Hacker News",
-          "excerpt": "Show HN: I found a more accurate upcoming LLM Benchmarks leaderboard"
-        }
-      ],
-      "extracted": {},
-      "missing_fields": [
-        "metric_name",
-        "metric_value"
-      ]
-    },
-    {
       "id": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
       "page": "funding",
       "headline": "Anthropic’s elaborate plan to keep Wall Street at bay",
@@ -291,50 +643,6 @@
       },
       "missing_fields": [
         "amount",
-        "lead_investor"
-      ]
-    },
-    {
-      "id": "https://microsoft.ai/news/mai-image-2-7-debut",
-      "page": "performance",
-      "headline": "MAI Image 2.7",
-      "publisher": "Microsoft AI",
-      "sources": [
-        {
-          "source_index": 0,
-          "publisher": "Microsoft AI",
-          "excerpt": "MAI Image 2.7, our latest image editing model, launches with even stronger control for edits that are hardest to get right. It launches in preview at No. 3 on Arena Edit, making Microsoft AI the No. 2 lab, and No. 2 on Artificial Analysis's image editing leaderboard."
-        }
-      ],
-      "extracted": {},
-      "missing_fields": [
-        "metric_name",
-        "metric_value"
-      ]
-    },
-    {
-      "id": "https://www.businesswire.com/news/home/20261027228454/en/Innovation-X-Co-Leads-Tenstorrents-%241.5-Billion-Series-E-at-a-%246.2-Billion-Valuation",
-      "page": "funding",
-      "headline": "Tenstorrent raised $1.5B Series E",
-      "publisher": "Business Wire",
-      "sources": [
-        {
-          "source_index": 0,
-          "publisher": "Business Wire",
-          "excerpt": "Innovation X, a late-stage venture capital firm investing in privately held technology leaders, today announced that it co-led Tenstorrent's $1.5 billion Series E financing at a $6.2 billion post-money valuation."
-        }
-      ],
-      "extracted": {
-        "amount": {
-          "value": "$1.5B",
-          "source_index": 0
-        },
-        "stage": {
-          "value": "Series E",
-          "source_index": 0
-        }
-      },
-      "missing_fields": [
         "lead_investor"
       ]
     },
@@ -475,73 +783,47 @@
       ]
     },
     {
-      "id": "https://www.prnewswire.com/news-releases/guidewire-signs-definitive-agreement-to-acquire-hyperexponential-302920513.html",
-      "page": "deals",
-      "headline": "Guidewire → hyperexponential",
-      "publisher": "PR Newswire",
+      "id": "https://www.axios.com/2026/10/27/anthropic-ipo-meta-spacex-ai-deals",
+      "page": "funding",
+      "headline": "Anthropic IPO leads AI's $235 billion dealmaking blitz",
+      "publisher": "Axios",
       "sources": [
         {
           "source_index": 0,
-          "publisher": "PR Newswire",
-          "excerpt": "Guidewire announced today that it entered into a definitive agreement to acquire Hyperexponential Ltd for a base purchase price of $1.7 billion in cash, subject to adjustments, and up to an additional $400 million in contingent consideration."
+          "publisher": "Axios",
+          "excerpt": "Anthropic IPO leads AI's $235 billion dealmaking blitz"
         }
       ],
       "extracted": {
-        "target": {
-          "value": "Hyperexponential Ltd",
+        "stage": {
+          "value": "IPO",
           "source_index": 0
         },
         "amount": {
-          "value": "$1.7B",
+          "value": "$235B",
           "source_index": 0
         }
       },
       "missing_fields": [
-        "acquirer"
+        "lead_investor"
       ]
     },
     {
-      "id": "https://openai.com/index/retell-ai",
+      "id": "https://arxiv.org/abs/2610.36405",
       "page": "performance",
-      "headline": "Retell uses OpenAI models to help power 100M monthly calls",
-      "publisher": "OpenAI",
+      "headline": "kw-bench: Breaking Frontier Harnesses on Real-World Tasks",
+      "publisher": "arXiv",
       "sources": [
         {
           "source_index": 0,
-          "publisher": "OpenAI",
-          "excerpt": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee."
+          "publisher": "arXiv",
+          "excerpt": "Each new generation of frontier model pushes the edge of what is possible. Inside a harness -- a loop, a shell, a filesystem, the ability to write and run its own code -- a model can take on increasingly difficult work. A growing body of work treats the coding-agent harness as infrastructure for"
         }
       ],
       "extracted": {},
       "missing_fields": [
         "metric_name",
         "metric_value"
-      ]
-    },
-    {
-      "id": "https://www.siliconreport.com/capital/archive/2026-10",
-      "page": "funding",
-      "headline": "General Compute raised $100M Series A",
-      "publisher": "SiliconReport",
-      "sources": [
-        {
-          "source_index": 0,
-          "publisher": "SiliconReport",
-          "excerpt": "Oct 27 General Compute raises $100 million Series A at $800 million valuation."
-        }
-      ],
-      "extracted": {
-        "amount": {
-          "value": "$100M",
-          "source_index": 0
-        },
-        "stage": {
-          "value": "Series A",
-          "source_index": 0
-        }
-      },
-      "missing_fields": [
-        "lead_investor"
       ]
     },
     {
@@ -568,6 +850,29 @@
       ]
     },
     {
+      "id": "https://humansignal.com/taste-index",
+      "page": "performance",
+      "headline": "Show HN: Websites designed by 10 AI models, ranked by 4,500 human votes",
+      "publisher": "Hacker News",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Hacker News",
+          "excerpt": "Show HN: Websites designed by 10 AI models, ranked by 4,500 human votes"
+        },
+        {
+          "source_index": 1,
+          "publisher": "Hacker News",
+          "excerpt": "Show HN: Rocus: Browser local LLM that organizes your websites, notes and files"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
       "id": "https://news.crunchbase.com/public/anthropic-ipo-filing-ai-earnings-growth-risks",
       "page": "funding",
       "headline": "Some Observations About Anthropic’s IPO Filing",
@@ -588,6 +893,24 @@
       "missing_fields": [
         "amount",
         "lead_investor"
+      ]
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/28/google-alphabet-q3-earnings-report",
+      "page": "performance",
+      "headline": "Investors turn on Google owner Alphabet after profit miss, ad slowdown and high spending",
+      "publisher": "The Guardian",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "The Guardian",
+          "excerpt": "Investors turn on Google owner Alphabet after profit miss, ad slowdown and high spending"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
       ]
     },
     {
@@ -614,15 +937,69 @@
       ]
     },
     {
-      "id": "https://twitter.com/FangcunLeap/status/2114719692137136245",
+      "id": "https://www.theguardian.com/technology/2026/oct/28/microsoft-earnings",
       "page": "performance",
-      "headline": "Show HN: DeepSeek v4.1 Flash-1017 Safety Evaluation",
-      "publisher": "Hacker News",
+      "headline": "Microsoft posts $92.3bn quarterly revenue after offering buyouts to 60,000 employees",
+      "publisher": "The Guardian",
       "sources": [
         {
           "source_index": 0,
-          "publisher": "Hacker News",
-          "excerpt": "Show HN: DeepSeek v4.1 Flash-1017 Safety Evaluation"
+          "publisher": "The Guardian",
+          "excerpt": "Microsoft posts $92.3bn quarterly revenue after offering buyouts to 60,000 employees"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35671",
+      "page": "performance",
+      "headline": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
+      "publisher": "arXiv",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "arXiv",
+          "excerpt": "As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical for characterizing their systemic safety risks. While closed-source releases are routinely accompanied by comprehensive system cards, open-weight models receive less scrutiny"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/28/technology/alphabet-earnings-google-ai.html",
+      "page": "performance",
+      "headline": "Alphabet’s Revenue Rises 25% as Profit Falls",
+      "publisher": "The New York Times",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "The New York Times",
+          "excerpt": "Alphabet’s Revenue Rises 25% as Profit Falls"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/28/technology/microsoft-earnings-ai.html",
+      "page": "performance",
+      "headline": "Microsoft’s Profit Jumps 32% Despite Big Increase in Spending",
+      "publisher": "The New York Times",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "The New York Times",
+          "excerpt": "Microsoft’s Profit Jumps 32% Despite Big Increase in Spending"
         }
       ],
       "extracted": {},
@@ -655,15 +1032,15 @@
       ]
     },
     {
-      "id": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
+      "id": "https://www.ft.com/content/e9827543-51c9-451b-b180-e7e2276aa957",
       "page": "funding",
-      "headline": "S-1 — Anthropic, PBC",
-      "publisher": "SEC EDGAR",
+      "headline": "Mubadala Capital dealmaker to launch his own venture fund",
+      "publisher": "Financial Times",
       "sources": [
         {
           "source_index": 0,
-          "publisher": "SEC EDGAR",
-          "excerpt": "S-1; filed by Anthropic, PBC"
+          "publisher": "Financial Times",
+          "excerpt": "Mubadala Capital dealmaker to launch his own venture fund"
         }
       ],
       "extracted": {},
@@ -720,6 +1097,119 @@
       ]
     },
     {
+      "id": "https://www.ft.com/content/d144a865-285a-490e-be11-f924ada8cbc7",
+      "page": "funding",
+      "headline": "How much is Anthropic really worth?",
+      "publisher": "Financial Times",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Financial Times",
+          "excerpt": "How much is Anthropic really worth?"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "amount",
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/0b7db9a1-8279-4025-8c2a-44a1010828f4",
+      "page": "funding",
+      "headline": "Anthropic, Meta and the K-shaped company",
+      "publisher": "Financial Times",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Financial Times",
+          "excerpt": "Anthropic, Meta and the K-shaped company"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "amount",
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://www.theguardian.com/global/2026/oct/26/anthropic-accelerates-ai",
+      "page": "funding",
+      "headline": "Anthropic accelerates – for the rest of us, the speed of growth spells precarity",
+      "publisher": "The Guardian",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "The Guardian",
+          "excerpt": "Anthropic accelerates – for the rest of us, the speed of growth spells precarity"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "amount",
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34080",
+      "page": "performance",
+      "headline": "The LALA Benchmark: Evaluating Literary and Linguistic Analysis in LLMs",
+      "publisher": "arXiv",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "arXiv",
+          "excerpt": "We introduce the Literature and Linguistics Analysis Benchmark (LALA), comprising 236 open-ended questions written by experts in linguistics and literary studies, together with expert-provided ideal answers. By comparing models within families and at similar training scales using human and LLM"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/69a623e0-8605-4b1d-b147-770649efb53a",
+      "page": "funding",
+      "headline": "Anthropic’s constitutional order",
+      "publisher": "Financial Times",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Financial Times",
+          "excerpt": "Anthropic’s constitutional order"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "amount",
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/d1dca5d1-467f-4311-a004-82bb1ef761e0",
+      "page": "funding",
+      "headline": "Anthropic’s big financial reveal",
+      "publisher": "Financial Times",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Financial Times",
+          "excerpt": "Anthropic’s big financial reveal"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "amount",
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
       "id": "https://www.ft.com/content/65a113b4-2a45-49cf-9e68-93f42151166e",
       "page": "funding",
       "headline": "Ex-Merseyside police officer lands $400mn valuation for AI venture",
@@ -734,6 +1224,71 @@
       "extracted": {},
       "missing_fields": [
         "amount",
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
+      "page": "funding",
+      "headline": "Four takeaways from Anthropic’s potentially record-breaking stock market filing",
+      "publisher": "The Guardian",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "The Guardian",
+          "excerpt": "Four takeaways from Anthropic’s potentially record-breaking stock market filing"
+        },
+        {
+          "source_index": 1,
+          "publisher": "The Guardian",
+          "excerpt": "The AI company’s first public financial disclosures reveal explosive growth, huge costs and risks ranging from cyber-attacks to the limits of safeguards Anthropic has filed to go public on the US stock market, revealing for the first time the AI research lab’s financials and all the risks – more"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "amount",
+        "stage",
+        "lead_investor"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.33949",
+      "page": "performance",
+      "headline": "Why Does Structured Output Fail? An Empirical Study of Prompt-Enforced Pydantic Schemas Across Nine LLMs",
+      "publisher": "arXiv",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "arXiv",
+          "excerpt": "Pipelines that require structured outputs from hosted language models often specify a Pydantic schema in the prompt, validate the response, and retry when validation fails. Although native structured-output modes provide an alternative, application-side validation remains important for enforcing"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/26/meta-plans-95bn-stock-offering-to-help-cover-ai-expansion",
+      "page": "funding",
+      "headline": "Meta plans $95bn stock offering to help cover AI expansion",
+      "publisher": "The Guardian",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "The Guardian",
+          "excerpt": "Tech firm announces two-part fundraising after Elon Musk warns hundreds of AI startups face collapse Mark Zuckerberg’s Meta has announced plans for $95bn (£71bn) of fundraising to cover its AI expenditure, even as Elon Musk warned that funding for smaller players in the sector was drying up. The"
+        }
+      ],
+      "extracted": {
+        "amount": {
+          "value": "$95B",
+          "source_index": 0
+        }
+      },
+      "missing_fields": [
         "stage",
         "lead_investor"
       ]
@@ -825,6 +1380,42 @@
       "missing_fields": [
         "amount",
         "lead_investor"
+      ]
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50219762",
+      "page": "performance",
+      "headline": "Show HN: Benchmarks of continual learning model trained for a month on a laptop",
+      "publisher": "Hacker News",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Hacker News",
+          "excerpt": "A month ago, I shared mini-AGI, an experiment in training a byte-level, continually learning language model from scratch on a single 8 GB laptop GPU (an RTX 3070). To recap the setup briefly: it completely decouples model size from VRAM by paging experts to and from an NVMe drive (currently 397"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
+      ]
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.33509",
+      "page": "performance",
+      "headline": "Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?",
+      "publisher": "arXiv",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "arXiv",
+          "excerpt": "LLM agents have been increasingly adopted for security-focused code review, but existing benchmarks mostly derive the reviewed changes from their later fixes instead of the real-world bug-introducing commits. In this paper, we present SecPRBench, the first comprehensive benchmark for evaluating"
+        }
+      ],
+      "extracted": {},
+      "missing_fields": [
+        "metric_name",
+        "metric_value"
       ]
     }
   ]

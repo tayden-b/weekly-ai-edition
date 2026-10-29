@@ -1,0 +1,19 @@
+{
+  "adapter": "hf-hub",
+  "source": "hf-hub-models",
+  "fetched_at": "2026-10-29T13:43:56.458Z",
+  "items": [
+    {
+      "headline": "microsoft/CogACT-v2-RoboDojo",
+      "canonical_url": "https://huggingface.co/microsoft/CogACT-v2-RoboDojo",
+      "publisher": "microsoft",
+      "published_at": "2026-10-25T14:35:41.000Z",
+      "fetched_at": "2026-10-29T13:43:56.492Z",
+      "excerpt": "microsoft/CogACT-v2-RoboDojo",
+      "source_ids": {
+        "hf_model_id": "microsoft/CogACT-v2-RoboDojo"
+      },
+      "adapter": "hf-hub"
+    }
+  ]
+}
