@@ -1,0 +1,286 @@
+{
+  "id": "2026-w99",
+  "schema_version": 1,
+  "issue_number": 99,
+  "date_start": "2026-10-24",
+  "date_end": "2026-10-30",
+  "pages": [
+    {
+      "type": "cover",
+      "headline": "OpenAI ships GPT-6.1 Terra at half the price"
+    },
+    {
+      "type": "briefing",
+      "sentences": [
+        "OpenAI released GPT-6.1 Terra at half the price of its predecessor while Anthropic raised a $13 billion Series F led by Iconiq.",
+        "The funding tape stayed busy as Anthropic closed its round and Guidewire agreed to acquire hyperexponential for $1.7 billion in cash.",
+        "On the benchmark boards, GPT-6.1 Terra scored 95.1 on SWE-bench, setting the week's reference point.",
+        "Chip stocks rallied again, with NVIDIA up 4.1 percent on the week.",
+        "Underneath the launches, buyers kept debating whether agent telemetry is ready for real deployments."
+      ]
+    },
+    {
+      "type": "models",
+      "items": [
+        {
+          "headline": "GPT-6.1 Terra",
+          "one_liner": "OpenAI's mid-tier computer-use model lands at half the price of GPT-5.6 Terra.",
+          "companies": [
+            "openai"
+          ],
+          "sources": [
+            {
+              "url": "https://example.com/openai-terra",
+              "publisher": "AI Lately",
+              "published_at": "2026-10-27T16:07:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "OpenAI launched GPT-6.1 Terra. The price now sits at half of its predecessor, GPT-5.6 Terra."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "performance",
+      "items": [
+        {
+          "headline": "GPT-6.1 Terra sets the SWE-bench mark",
+          "one_liner": "OpenAI's new model tops the verified coding board.",
+          "number": "95.1",
+          "companies": [
+            "openai"
+          ],
+          "sources": [
+            {
+              "url": "https://example.com/swe-bench",
+              "publisher": "Benchmark Wire",
+              "published_at": "2026-10-27T10:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "benchmarks",
+              "excerpt": "GPT-6.1 Terra scored 95.1 on SWE-bench Verified, the highest verified score this week."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "96.4 on SWE-bench"
+          }
+        }
+      ]
+    },
+    {
+      "type": "launches",
+      "items": [
+        {
+          "headline": "1Password for Agents",
+          "one_liner": "Credential vault access scoped for autonomous agents, in public preview.",
+          "companies": [
+            "1password"
+          ],
+          "sources": [
+            {
+              "url": "https://example.com/1password-agents",
+              "publisher": "Launch Index",
+              "published_at": "2026-10-26T12:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "product-hunt",
+              "excerpt": "1Password opened a public preview of agent-scoped credential access."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "funding",
+      "items": [
+        {
+          "headline": "Anthropic raised $13B Series F led by Iconiq",
+          "one_liner": "The round values the lab at $183 billion post-money.",
+          "amount": "$13B",
+          "stage": "Series F",
+          "lead": "Iconiq",
+          "companies": [
+            "anthropic"
+          ],
+          "sources": [
+            {
+              "url": "https://example.com/anthropic-series-f",
+              "publisher": "Funding Index",
+              "published_at": "2026-10-26T09:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "press-wire-rss",
+              "excerpt": "Anthropic has closed a $13 billion Series F round led by Iconiq, valuing the company at $183 billion."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "$13 billion"
+          }
+        }
+      ]
+    },
+    {
+      "type": "deals",
+      "items": [
+        {
+          "headline": "Guidewire \u2192 hyperexponential",
+          "one_liner": "The insurance software giant buys the underwriting AI startup outright.",
+          "acquirer": "Guidewire",
+          "target": "hyperexponential",
+          "amount": "$1.7B",
+          "companies": [
+            "guidewire",
+            "hyperexponential"
+          ],
+          "sources": [
+            {
+              "url": "https://example.com/guidewire-hyperexponential",
+              "publisher": "Deal Desk",
+              "published_at": "2026-10-27T08:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "press-wire-rss",
+              "excerpt": "Guidewire will acquire hyperexponential for $1.7 billion in cash, the companies announced."
+            }
+          ],
+          "evidence": {
+            "source_index": 0,
+            "quote": "$1.7 billion"
+          }
+        }
+      ]
+    },
+    {
+      "type": "markets",
+      "sources": [
+        {
+          "url": "https://example.com/exa-weekly",
+          "publisher": "Exa Markets",
+          "published_at": "2026-10-30T21:00:00Z",
+          "fetched_at": "2026-10-30T22:00:00Z",
+          "adapter": "markets",
+          "excerpt": "NVIDIA closed the week at 182.40, up 4.1 percent, extending the chip rally."
+        }
+      ],
+      "chart": {
+        "title": "AI basket, week over week",
+        "unit": "percent",
+        "series": [
+          {
+            "date": "2026-10-26",
+            "value": 0.0
+          },
+          {
+            "date": "2026-10-30",
+            "value": 4.1
+          }
+        ]
+      },
+      "tickers": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "close": 182.4,
+          "change_pct": 4.1,
+          "direction": "up",
+          "evidence": {
+            "source_index": 0,
+            "quote": "182.40, up 4.1 percent"
+          }
+        }
+      ]
+    },
+    {
+      "type": "discourse",
+      "items": [
+        {
+          "headline": "Is agent telemetry ready for production?",
+          "one_liner": "Vendors say tracing is solved; platform teams keep filing gap reports.",
+          "companies": [
+            "openai",
+            "anthropic"
+          ],
+          "sources": [
+            {
+              "url": "https://example.com/telemetry-a",
+              "publisher": "Vendor Voice",
+              "published_at": "2026-10-28T07:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "hn",
+              "excerpt": "Vendors argued agent telemetry has matured enough for production deployments."
+            },
+            {
+              "url": "https://example.com/telemetry-b",
+              "publisher": "Ops Ledger",
+              "published_at": "2026-10-28T08:00:00Z",
+              "fetched_at": "2026-10-28T09:00:00Z",
+              "adapter": "reddit-json",
+              "excerpt": "Platform teams countered with gap reports on missing spans and silent tool failures."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "most_covered",
+      "entries": [
+        {
+          "company": "openai",
+          "name": "OpenAI",
+          "stories": 2,
+          "trend": "up"
+        },
+        {
+          "company": "anthropic",
+          "name": "Anthropic",
+          "stories": 2,
+          "trend": "flat"
+        }
+      ]
+    },
+    {
+      "type": "back_page",
+      "sources_total": 8,
+      "source_counts": [
+        {
+          "publisher": "Exa Markets",
+          "count": 1
+        },
+        {
+          "publisher": "Ops Ledger",
+          "count": 1
+        },
+        {
+          "publisher": "Vendor Voice",
+          "count": 1
+        },
+        {
+          "publisher": "AI Lately",
+          "count": 1
+        },
+        {
+          "publisher": "Benchmark Wire",
+          "count": 1
+        },
+        {
+          "publisher": "Launch Index",
+          "count": 1
+        },
+        {
+          "publisher": "Funding Index",
+          "count": 1
+        },
+        {
+          "publisher": "Deal Desk",
+          "count": 1
+        }
+      ],
+      "how_made": "Ingest at 06:00 ET, classify and draft in-session, verified by the \u00a75.3 gates.",
+      "agent_links": {
+        "markdown": "/2026-w99.md",
+        "json": "/2026-w99.json",
+        "llms_txt": "/llms.txt",
+        "feed": "/feed.xml"
+      }
+    }
+  ]
+}

@@ -7,13 +7,13 @@
   "pages": [
     {
       "type": "cover",
-      "headline": "Frontier labs converge on a shared agent-interop spec",
-      "deck": "Anthropic, OpenAI and Google DeepMind publish a joint draft for cross-vendor agent identity, tool permissions and provenance headers — the week agents started speaking one wire protocol."
+      "headline": "Agents start signing in for you",
+      "deck": "Anthropic's Claude Duet triages your attention and 1Password signs agents in without showing passwords — the week agents started doing the clicking."
     },
     {
       "type": "briefing",
       "sentences": [
-        "The week belonged to interop: three frontier labs published a joint draft for agent identity and tool-permission headers, and every major agent framework committed to implement it.",
+        "Agents kept doing more of the clicking: Anthropic's Claude Duet triages what needs your attention, and 1Password for Agents signs you in without ever seeing your passwords.",
         "OpenAI released GPT-6.1 Terra, a mid-tier computer-use model priced at half its predecessor, and said its models produced three mathematical results including a claimed refutation of the Exponential Time Hypothesis.",
         "Within hours, Anthropic claimed a refutation of its own, leaving outside shepherds to decide whether either proof survives review.",
         "Google DeepMind previewed Genie 4, a world model that generates interactive scenes with sound, while Meta open-sourced the 816-billion-parameter Muse Spark Open for agentic coding.",
@@ -54,7 +54,7 @@
           "headline": "Genie 4",
           "one_liner": "Google DeepMind's world model generates interactive scenes with native audio and real-time steering, in research preview for trusted testers.",
           "companies": [
-            "google"
+            "google-deepmind"
           ],
           "sources": [
             {
@@ -232,7 +232,7 @@
           "headline": "Mistral Voxtral 3",
           "one_liner": "Mistral's speech models for transcription, text-to-speech, and agents ship on Product Hunt.",
           "companies": [
-            "mistral"
+            "mistral-ai"
           ],
           "sources": [
             {
@@ -715,8 +715,8 @@
           "trend": "down"
         },
         {
-          "company": "google",
-          "name": "Google",
+          "company": "google-deepmind",
+          "name": "Google DeepMind",
           "stories": 1,
           "trend": "flat"
         }
