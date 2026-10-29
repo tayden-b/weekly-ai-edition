@@ -366,10 +366,9 @@ items:
       - "All four artifacts regenerate from `editions/` at build time."
       - "`pnpm check` + `pnpm build` green."
   - id: T3
-    title: "Cover-image generation step (deferred post-v1)"
+    title: "Cover-image generation step"
     wave: 3
     issue: 30
-    status: deferred
     depends_on: [C3, P7]
     brief: plan/issues/T3.md
     acceptance:
