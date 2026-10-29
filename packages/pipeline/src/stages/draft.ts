@@ -569,12 +569,6 @@ export function proseKey(text: string): string {
 // Request building
 // ---------------------------------------------------------------------------
 
-/** Read STYLE.md for the request — path is configurable for tests. */
-export function resolveStyleMd(opts: { styleMd?: string; stylePath?: string }): string {
-  if (opts.styleMd !== undefined) return opts.styleMd;
-  throw new Error("no styleMd supplied — STYLE.md must be provided explicitly");
-}
-
 /**
  * Build `draft.request.json`: one item per draft-page cluster (markets is a
  * dataset page; unsorted never reaches prose). Pure — `week`/`styleRev`/
