@@ -1,0 +1,83 @@
+{
+  "prompt_version": 1,
+  "one_liners": [
+    {
+      "item_id": "models-001",
+      "one_liner": "Google DeepMind's Gemini 4 Argon extends the Gemini flagship line as frontier releases cluster this week."
+    },
+    {
+      "item_id": "models-002",
+      "one_liner": "DeepSeek announced v4, its newest model release, through the API changelog this week."
+    },
+    {
+      "item_id": "models-003",
+      "one_liner": "Moonshot AI released Kimi K3 as an open-weight frontier model, keeping open weights competitive at the top end.",
+      "take": "Open weights at the frontier is still a strategy, not a compromise."
+    },
+    {
+      "item_id": "performance-001",
+      "one_liner": "Removing conditional memory tables from DeepSeek-V4.1-Flash costs 36.8 PopQA points, and low-bit quantization loses long-tail facts first."
+    },
+    {
+      "item_id": "performance-002",
+      "one_liner": "Claude Opus 5.5 (High) sits at rank 2 on LMArena's text leaderboard with a 1516 rating."
+    },
+    {
+      "item_id": "performance-003",
+      "one_liner": "Anima's deployment shows care teams using OpenAI models to expand capacity for patient response."
+    },
+    {
+      "item_id": "launches-001",
+      "one_liner": "OpenAI's ChatGPT agent turns the chatbot into a tool-using mode that browses and acts for subscribers."
+    },
+    {
+      "item_id": "launches-002",
+      "one_liner": "OpenAI's first custom silicon, fabricated with Broadcom, signals frontier labs want control of their own supply.",
+      "take": "First-party silicon is what a lab builds when it stops trusting merchant GPU supply."
+    },
+    {
+      "item_id": "funding-001",
+      "one_liner": "The oversubscribed round backs an autonomous factory network the company calls the first of its kind in America."
+    },
+    {
+      "item_id": "funding-002",
+      "one_liner": "One of China's largest rounds landed days after the U.S. ordered federal agencies to remove DeepSeek's technology."
+    },
+    {
+      "item_id": "deals-001",
+      "one_liner": "Regulatory approval puts Amazon Leo's satellite-broadband buy of Globalstar over the line."
+    },
+    {
+      "item_id": "deals-002",
+      "one_liner": "Hummingbird buys machine-learning detection for AML monitoring, deepening its financial-crime compliance stack."
+    },
+    {
+      "item_id": "discourse-001",
+      "one_liner": "Morningstar's bubble-size math and Ed Zitron's viral essay made the AI-bubble argument the week's biggest industry fight.",
+      "headline": "Is the AI bubble bigger than the booms before it?"
+    },
+    {
+      "item_id": "discourse-002",
+      "one_liner": "Developer anger over Claude's hidden tool actions and Cloudflare's crawler accusation against Perplexity put AI transparency under fire.",
+      "headline": "Should AI companies have to show what their models and crawlers do?"
+    }
+  ],
+  "briefing": {
+    "sentences": [
+      "Frontier model releases arrived in a cluster this week, with new entries from Google DeepMind, DeepSeek, and Moonshot AI landing inside days of one another.",
+      "The week's benchmark story is conditional memory: removing Engram-style hashed n-gram tables from DeepSeek-V4.1-Flash costs 36.8 PopQA points.",
+      "Capital kept flowing at scale, as Foundry Robotics took in an oversubscribed $100 million Series A and DeepSeek reportedly raised $15 billion days after U.S. restrictions.",
+      "Amazon Leo's $11.5B Globalstar acquisition cleared a regulator, while Hummingbird bought Quantimon to fold machine learning into AML transaction monitoring.",
+      "OpenAI moved on two fronts, shipping a tool-using ChatGPT agent and unveiling its first custom chip built with Broadcom.",
+      "The sharpest argument was over whether AI is a bubble, while anger at Anthropic's hidden tool actions and Cloudflare's crawler accusation kept transparency on the agenda."
+    ],
+    "supports": {
+      "0": ["models-001", "models-002", "models-003"],
+      "1": ["performance-001"],
+      "2": ["funding-001", "funding-002"],
+      "3": ["deals-001", "deals-002"],
+      "4": ["launches-001", "launches-002"],
+      "5": ["discourse-001", "discourse-002"]
+    }
+  }
+}

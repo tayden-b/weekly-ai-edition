@@ -44,6 +44,11 @@ import {
   renderClassifyPrompt,
 } from "./stages/classify.js";
 import {
+  type DraftRequest,
+  type DraftResponse,
+  renderDraftPrompt,
+} from "./stages/draft.js";
+import {
   type ExtractionRequest,
   type ExtractionResponse,
   renderExtractPrompt,
@@ -284,5 +289,109 @@ export function createReplayExtractor(response: ExtractionResponse): ExtractLlm 
 export function createReplayExtractorFromFile(path: string): ExtractLlm {
   return createReplayExtractor(
     JSON.parse(readFileSync(path, "utf8")) as ExtractionResponse,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// P6 — the draft seam (`draft.{request,response,prompt}.{json,md}`)
+// ---------------------------------------------------------------------------
+
+/** The `draft` judgement call — session or replay behind one signature. */
+export interface DraftLlm {
+  draft(request: DraftRequest): Promise<DraftResponse>;
+}
+
+/** Path of the versioned draft prompt (shipped with the package source). */
+export const DRAFT_PROMPT_PATH = fileURLToPath(
+  new URL("../prompts/draft.prompt.md", import.meta.url),
+);
+
+/** The canonical file names of the draft session hand-off. */
+export function draftPaths(dir: string): {
+  requestPath: string;
+  responsePath: string;
+  promptPath: string;
+} {
+  return {
+    requestPath: join(dir, "draft.request.json"),
+    responsePath: join(dir, "draft.response.json"),
+    promptPath: join(dir, "draft.prompt.md"),
+  };
+}
+
+/**
+ * Write the request half of the draft hand-off: `draft.request.json` plus
+ * the rendered `draft.prompt.md` (when `promptTemplate` is given).
+ */
+export function writeDraftRequest(
+  dir: string,
+  request: DraftRequest,
+  promptTemplate?: string,
+): ReturnType<typeof draftPaths> {
+  mkdirSync(dir, { recursive: true });
+  const paths = draftPaths(dir);
+  writeFileSync(paths.requestPath, `${JSON.stringify(request, null, 2)}\n`);
+  if (promptTemplate !== undefined) {
+    writeFileSync(paths.promptPath, renderDraftPrompt(promptTemplate, request));
+  }
+  return paths;
+}
+
+/** Read `draft.response.json` — contract-checked downstream. */
+export function readDraftResponse(dir: string): DraftResponse {
+  const { responsePath } = draftPaths(dir);
+  return JSON.parse(readFileSync(responsePath, "utf8")) as DraftResponse;
+}
+
+export interface SessionDrafterOptions {
+  /** Directory the hand-off files are written into (created if needed). */
+  dir: string;
+  /** Prompt template text — defaults to `DRAFT_PROMPT_PATH` so the shipped
+   *  prompt's version stays the single source of truth. */
+  promptTemplate?: string;
+  /** Response-file poll interval. Default `SESSION_LLM_POLL_MS`. */
+  pollMs?: number;
+  /** Wait for `draft.response.json` before throwing. Default 30 min. */
+  timeoutMs?: number;
+}
+
+/**
+ * `session` mode for draft: write the request (+ rendered prompt) to `dir`,
+ * then wait for the Devin session to write `draft.response.json` there.
+ */
+export function createSessionDrafter(opts: SessionDrafterOptions): DraftLlm {
+  const pollMs = opts.pollMs ?? SESSION_LLM_POLL_MS;
+  const timeoutMs = opts.timeoutMs ?? SESSION_LLM_TIMEOUT_MS;
+  const promptTemplate =
+    opts.promptTemplate ?? readFileSync(DRAFT_PROMPT_PATH, "utf8");
+  return {
+    async draft(request: DraftRequest): Promise<DraftResponse> {
+      const { responsePath } = writeDraftRequest(opts.dir, request, promptTemplate);
+      const deadline = Date.now() + timeoutMs;
+      while (!existsSync(responsePath)) {
+        if (Date.now() > deadline) {
+          throw new Error(
+            `timed out waiting for ${responsePath} — the session must write ` +
+              `${basename(responsePath)} to continue`,
+          );
+        }
+        await sleep(pollMs);
+      }
+      return readDraftResponse(opts.dir);
+    },
+  };
+}
+
+/** `replay` mode for draft: always return the recorded response verbatim. */
+export function createReplayDrafter(response: DraftResponse): DraftLlm {
+  return {
+    draft: async () => response,
+  };
+}
+
+/** `replay` from a recorded `draft.response.json` file. */
+export function createReplayDrafterFromFile(path: string): DraftLlm {
+  return createReplayDrafter(
+    JSON.parse(readFileSync(path, "utf8")) as DraftResponse,
   );
 }
