@@ -1,0 +1,52 @@
+name: edition-dry-run
+# Manual dry run of the weekly edition build (I2 proof, PLAN §5.2): replays a
+# recorded week end to end — ingest(cache) → normalize → dedupe → classify →
+# rank → extract → draft → emit → verify → validate — and asserts the emitted
+# edition is byte-identical to the committed one (the determinism proof).
+on:
+  workflow_dispatch:
+    inputs:
+      week:
+        description: >-
+          Edition week to replay, e.g. 2026-w44. Only weeks with committed
+          session responses (editions/<week>/*.response.json) can replay;
+          session-mode dry runs are done by running the Weekly Edition
+          automation's `Run now` instead.
+        required: true
+        default: "2026-w44"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: edition-dry-run
+  cancel-in-progress: false
+
+jobs:
+  dry-run:
+    name: replay dry-run
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Versioned session prompt exists
+        run: test -s plan/weekly-edition-prompt.md
+      - name: Replay the stage chain
+        run: >-
+          pnpm edition:build --week ${{ inputs.week }}
+          --mode replay --ingest cache
+      - name: Determinism proof — emitted artifacts byte-identical
+        run: |
+          changed=$(git status --porcelain editions data)
+          if [ -n "$changed" ]; then
+            echo "$changed"
+            git diff editions data | head -80
+            echo "replay changed tracked artifacts — build is not deterministic" >&2
+            exit 1
+          fi
+          echo "replay byte-identical — editions/${{ inputs.week }}.json reproduces"
