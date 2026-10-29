@@ -9,6 +9,7 @@ import {
   LineChart,
   Masthead,
   MonoTable,
+  TrendArrow,
   TrendDelta,
 } from "@weekly/ui";
 import type { ItemView } from "@weekly/ui";
@@ -182,11 +183,7 @@ function PageBody({
             r.rank,
             r.name,
             r.stories,
-            <TrendDelta
-              key={r.name}
-              delta={r.trend === "up" ? 1 : r.trend === "down" ? -1 : 0}
-              suffix=""
-            />,
+            <TrendArrow key={r.name} trend={r.trend} />,
           ])}
         />
       );

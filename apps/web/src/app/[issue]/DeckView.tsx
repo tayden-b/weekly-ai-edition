@@ -13,6 +13,7 @@ import {
   LineChart,
   MonoTable,
   ProgressSegments,
+  TrendArrow,
   TrendDelta,
 } from "@weekly/ui";
 
@@ -269,10 +270,7 @@ export function DeckView({
               i + 1,
               e.name,
               e.stories,
-              <TrendDelta
-                key={e.company}
-                delta={e.trend === "up" ? 1 : e.trend === "down" ? -1 : 0}
-              />,
+              <TrendArrow key={e.company} trend={e.trend} />,
             ])}
           />
         );

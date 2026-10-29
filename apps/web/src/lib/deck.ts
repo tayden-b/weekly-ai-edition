@@ -15,7 +15,7 @@ import type {
 } from "@weekly/schema";
 import type { AgentLink, ItemView, SourceView } from "@weekly/ui";
 
-import { dateRangeLabel, rawEdition } from "./fixture";
+import { dateRangeLabel } from "./fixture";
 
 /** Page names in fixed template order (PLAN §3) — kicker + region label. */
 export const DECK_PAGE_NAMES: Record<EditionPage["type"], string> = {
@@ -164,7 +164,4 @@ export function shortDate(iso: string): string {
   return `${MONTHS_SHORT[m! - 1] ?? ""} ${d}`;
 }
 
-/** The wired-in edition (V1 scope: the C2 fixture only). */
-export function getEdition(issueId: string): Edition | null {
-  return issueId === rawEdition.id ? rawEdition : null;
-}
+

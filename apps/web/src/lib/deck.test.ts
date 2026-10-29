@@ -6,7 +6,6 @@ import {
   buildDeck,
   DECK_PAGE_NAMES,
   editionMeta,
-  getEdition,
   mapItem,
 } from "./deck";
 
@@ -129,11 +128,6 @@ describe("deck meta + lookup", () => {
       issue: rawEdition.issue_number,
       dateRange: "Oct 24–30",
     });
-  });
-
-  it("resolves only committed editions", () => {
-    expect(getEdition(rawEdition.id)).toBe(rawEdition);
-    expect(getEdition("1999-w01")).toBeNull();
   });
 
   it("lists the back-page agent links by basename", () => {

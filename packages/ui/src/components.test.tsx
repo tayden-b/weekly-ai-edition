@@ -19,6 +19,7 @@ import {
   ProgressSegments,
   Rule,
   SectionHead,
+  TrendArrow,
   TrendDelta,
   type ItemView,
 } from "./index";
@@ -86,6 +87,15 @@ describe("§4 primitives render", () => {
     expect(html(<TrendDelta delta={2} />)).toContain("w-trend--up");
     expect(html(<TrendDelta delta={-2} />)).toContain("w-trend--down");
     expect(html(<TrendDelta delta={0} />)).toContain("w-trend--flat");
+  });
+
+  it("TrendArrow renders the bare arrow, no fabricated number", () => {
+    const out = html(<TrendArrow trend="up" />);
+    expect(out).toContain("w-trend--up");
+    expect(out).toContain('aria-label="Trend up"');
+    expect(out).not.toMatch(/[+-]?\d/);
+    expect(html(<TrendArrow trend="down" />)).toContain("w-trend--down");
+    expect(html(<TrendArrow trend="flat" />)).toContain("w-trend--flat");
   });
 
   it("ProgressSegments is a progressbar with aria-valuenow", () => {

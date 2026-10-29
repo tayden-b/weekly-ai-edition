@@ -40,7 +40,7 @@ export { Item } from "./components/Item";
 export { ItemList } from "./components/ItemList";
 export { Pill } from "./components/Pill";
 export { MonoTable, type MonoTableColumn } from "./components/MonoTable";
-export { TrendDelta } from "./components/TrendDelta";
+export { TrendDelta, TrendArrow } from "./components/TrendDelta";
 export { ProgressSegments } from "./components/ProgressSegments";
 export { DeckCard } from "./components/DeckCard";
 export { Deck } from "./components/Deck";

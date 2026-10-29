@@ -14,7 +14,7 @@ import { LineChart } from "./LineChart";
 import { Masthead } from "./Masthead";
 import { MonoTable } from "./MonoTable";
 import { SectionHead } from "./SectionHead";
-import { TrendDelta } from "./TrendDelta";
+import { TrendArrow, TrendDelta } from "./TrendDelta";
 
 export interface FrontPageCover {
   src?: string;
@@ -163,11 +163,7 @@ export function FrontPage({
                 {r.name}
               </span>,
               r.stories,
-              <TrendDelta
-                key={r.name}
-                delta={r.trend === "up" ? 1 : r.trend === "down" ? -1 : 0}
-                suffix=""
-              />,
+              <TrendArrow key={r.name} trend={r.trend} />,
             ])}
           />
         </section>
