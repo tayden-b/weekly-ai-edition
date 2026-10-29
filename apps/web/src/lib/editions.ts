@@ -7,7 +7,7 @@
  * Validity is enforced by `pnpm schema:validate` (the check gate); the viewer
  * trusts the contract like every other consumer.
  */
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 
 import type { Edition } from "@weekly/schema";
@@ -80,4 +80,46 @@ export function getEditionRaw(id: string): string | undefined {
 /** Canonical `Edition` → the view props the @weekly/ui renderers consume. */
 export function editionView(edition: Edition): FixtureEdition {
   return mapEdition(edition);
+}
+
+// --- T3: committed cover assets under editions/<week>/ ---------------------
+
+/** Whitelist — only the cover artifacts are servable; the sibling files
+ * (LLM requests/responses, provenance) stay internal by construction. */
+const COVER_ASSET_RE = /^cover(?:-og)?\.(?:svg|avif|png)$/;
+
+/**
+ * Every servable cover asset on disk — `{issue, filename}` pairs for
+ * `generateStaticParams` of the `/editions/*` route.
+ */
+export function listEditionAssets(): { issue: string; filename: string }[] {
+  if (!EDITIONS_DIR) return [];
+  const out: { issue: string; filename: string }[] = [];
+  for (const entry of readdirSync(EDITIONS_DIR, { withFileTypes: true })) {
+    if (!entry.isDirectory() || !isEditionId(entry.name)) continue;
+    for (const file of readdirSync(path.join(EDITIONS_DIR, entry.name))) {
+      if (COVER_ASSET_RE.test(file)) {
+        out.push({ issue: entry.name, filename: file });
+      }
+    }
+  }
+  return out;
+}
+
+/**
+ * One committed cover asset's bytes (`editions/<issue>/<filename>`), or
+ * undefined. Filename is whitelist-validated — no traversal possible.
+ */
+export function getEditionAsset(
+  id: string,
+  filename: string,
+): Buffer | undefined {
+  if (!isEditionId(id) || !COVER_ASSET_RE.test(filename) || !EDITIONS_DIR) {
+    return undefined;
+  }
+  try {
+    return readFileSync(path.join(EDITIONS_DIR, id, filename));
+  } catch {
+    return undefined;
+  }
 }

@@ -46,6 +46,8 @@ export interface FixturePage {
   sources?: [string, number][];
   made?: string[];
   items?: FixtureItem[];
+  /** Repo-relative cover artwork (cover pages only, T3). */
+  image?: string;
   /** Fetched source records backing this page (page-level + per-item). */
   sourceCount?: number;
   /** Unique publishers of page-level sources — the Markets caption. */
@@ -107,6 +109,7 @@ function mapItem(item: EditionItem): FixtureItem {
 
 function mapPage(page: EditionPage): FixturePage {
   const out: FixturePage = { type: page.type };
+  if ("image" in page && page.image) out.image = page.image;
   if ("items" in page && page.items) out.items = page.items.map(mapItem);
   if ("headline" in page && page.headline) out.headline = page.headline;
   if ("deck" in page && page.deck) out.deck = page.deck;

@@ -910,5 +910,10 @@
         "count": 1
       }
     ]
+  },
+  "cover": {
+    "generator": "@weekly/cover",
+    "seed": "a50ed757c7266f9a75f23aae9ee8e0c6e5576dc4002707771df38cebe35b0214",
+    "composition": "field"
   }
 }

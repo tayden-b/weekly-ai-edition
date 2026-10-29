@@ -34,20 +34,25 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
-        {/* Self-hosted font preloads — React 19 hoists <link> into <head>. */}
-        <link
-          rel="preload"
-          href="/fonts/inter-tight-var.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
+        {/* Self-hosted font preloads — React 19 hoists <link> into <head>.
+            font-display:swap lets text paint in a fallback immediately, so
+            fonts fetch at low priority and never outrank the cover's
+            LCP-image preload (which carries fetchPriority=high). */}
         <link
           rel="preload"
           href="/fonts/inter-var.woff2"
           as="font"
           type="font/woff2"
           crossOrigin="anonymous"
+          fetchPriority="low"
+        />
+        <link
+          rel="preload"
+          href="/fonts/inter-tight-var.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+          fetchPriority="low"
         />
         <link
           rel="preload"
@@ -55,6 +60,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           as="font"
           type="font/woff2"
           crossOrigin="anonymous"
+          fetchPriority="low"
         />
         {children}
         {/* Keyless, cookie-less pageview + Web Vitals beacons (I3). */}

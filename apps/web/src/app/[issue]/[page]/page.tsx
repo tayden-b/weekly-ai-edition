@@ -125,7 +125,11 @@ function PageBody({
       return (
         <>
           <div className="w-sp__cover">
-            <CoverImage aspect="4:5" issueNo={ed.issue} />
+            <CoverImage
+              aspect="4:5"
+              issueNo={ed.issue}
+              {...(page.image ? { src: `/${page.image}`, alt: "" } : {})}
+            />
           </div>
           {page.deck ? <p className="w-sp__deck">{page.deck}</p> : null}
         </>

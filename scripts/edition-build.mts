@@ -37,6 +37,7 @@ import {
 } from "node:fs";
 import { basename, join, relative, resolve } from "node:path";
 
+import { renderCoverArt } from "@weekly/cover/render";
 import type { Edition } from "@weekly/schema";
 import {
   buildProvenance,
@@ -390,6 +391,23 @@ const { edition, emitted } = emitEdition(draftOut.clusters, draftOut.briefing, {
 });
 console.log(`emit: ${emitted.length} item(s) across pages`);
 
+// --- cover (T3): arte generativa keyless, deterministica ------------------
+
+/** Authors the deterministic SVG + rasters (sharp) for this week's data,
+ * commits them under editions/<week>/, and points the cover page at the
+ * committed AVIF. Same edition -> same seed -> byte-identical files. */
+const cover = await renderCoverArt(edition as unknown as Record<string, unknown>);
+writeFileSync(join(dir, "cover.svg"), cover.svg);
+writeFileSync(join(dir, "cover-og.svg"), cover.ogSvg);
+writeFileSync(join(dir, "cover.avif"), cover.avif);
+writeFileSync(join(dir, "cover-og.png"), cover.og);
+edition.pages[0].image = `editions/${weekId}/cover.avif`;
+console.log(
+  `cover: ${cover.composition}/${cover.palette} ` +
+    `(seed ${cover.seed.slice(0, 12)}...) — ${(cover.avif.length / 1024).toFixed(0)}KB avif, ` +
+    `${(cover.og.length / 1024).toFixed(0)}KB og`,
+);
+
 /** Sequential issue count: committed public editions before this week + 1.
  * Fixture-flagged artifacts don't consume issue numbers. */
 function issueNumber(editionsDir: string, id: string): number {
@@ -433,7 +451,11 @@ if (!report.ok) {
   process.exit(1);
 }
 
-const provenance = buildProvenance(edition as Edition, runs);
+const provenance = buildProvenance(edition as Edition, runs, {
+  generator: "@weekly/cover",
+  seed: cover.seed,
+  composition: cover.composition,
+});
 
 const editionPath = join(outRoot, `${weekId}.json`);
 /**

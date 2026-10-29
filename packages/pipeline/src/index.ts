@@ -340,6 +340,7 @@ export {
   PROVENANCE_VERSION,
   type ProvenanceAdapterRun,
   type ProvenanceBackPage,
+  type ProvenanceCover,
   type ProvenanceFailure,
   type ProvenanceIssue,
   type ProvenanceItemCounts,

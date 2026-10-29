@@ -3,29 +3,7 @@
 import type { MouseEvent, ReactNode } from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
-import type { Edition, EditionPage } from "@weekly/schema";
-import {
-  AgentAccess,
-  CoverImage,
-  Deck,
-  DeckCard,
-  ItemList,
-  MarketsChart,
-  MonoTable,
-  ProgressSegments,
-  TrendArrow,
-  TrendDelta,
-} from "@weekly/ui";
-
-import {
-  agentLinks,
-  buildDeck,
-  editionMeta,
-  mapItem,
-  type DeckCardModel,
-  type SectionItem,
-} from "../../lib/deck";
-import { marketsView } from "../../lib/markets";
+import { ProgressSegments } from "@weekly/ui";
 
 /* DESIGN §1.4 — page transitions: 240ms cubic-bezier(0.2,0,0,1), translate only. */
 const PAGE_MS = 240;
@@ -40,23 +18,22 @@ function easePage(x: number): number {
   const cy = 3 * y1;
   const by = 3 * (y2 - y1) - cy;
   const ay = 1 - cy - by;
+  const ys = (t: number) => ((ay * t + by) * t + 0) * t;
   const xs = (t: number) => ((ax * t + bx) * t + cx) * t;
-  const ys = (t: number) => ((ay * t + by) * t + cy) * t;
   const dxs = (t: number) => (3 * ax * t + 2 * bx) * t + cx;
+  let lo = 0;
+  let hi = 1;
   let t = x;
   for (let i = 0; i < 8; i++) {
     const err = xs(t) - x;
     if (Math.abs(err) < 1e-6) return ys(t);
-    const d = dxs(t);
-    if (Math.abs(d) < 1e-6) break;
-    t -= err / d;
+    t -= err / (dxs(t) || 1e-6);
   }
-  let lo = 0;
-  let hi = 1;
-  t = x;
-  while (hi - lo > 1e-6) {
-    if (xs(t) < x) lo = t;
-    else hi = t;
+  for (let i = 0; i < 20; i++) {
+    const v = xs((lo + hi) / 2);
+    if (Math.abs(v - x) < 1e-6) break;
+    if (v < x) lo = (lo + hi) / 2;
+    else hi = (lo + hi) / 2;
     t = (lo + hi) / 2;
   }
   return ys(t);
@@ -66,16 +43,30 @@ function prefersReducedMotion(): boolean {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
 
+/**
+ * The client island for the §2.1 deck: progress bar, eased programmatic
+ * nav, arrow keys and tap zones. The cards themselves arrive as server
+ * components via `children` — React never hydrates them, which keeps the
+ * first paint (and the cover's LCP) ahead of the deck's interactivity.
+ * Per-card `active` semantics (aria-hidden + inert so only the current
+ * card is perceivable) are applied imperatively on the DOM — identical
+ * attributes to what DeckCard renders, toggled on scroll/resize.
+ */
 export function DeckView({
-  edition,
-  siteName,
+  total,
+  headline,
+  scrollerLabel,
+  children,
 }: {
-  edition: Edition;
-  siteName: string;
+  /** Number of cards inside `children` — progress + nav bounds. */
+  total: number;
+  /** Visually-hidden h1 text (siteName — № issue (date range)). */
+  headline: string;
+  /** aria-label for the scroll-snap region. */
+  scrollerLabel: string;
+  /** The <Deck> of <DeckCard>s, rendered server-side. */
+  children: ReactNode;
 }) {
-  const cards = buildDeck(edition);
-  const links = agentLinks(edition);
-  const meta = { ...editionMeta(edition), siteName };
   const [index, setIndex] = useState(0);
   const indexRef = useRef(0);
   const wrapRef = useRef<HTMLDivElement>(null);
@@ -92,19 +83,34 @@ export function DeckView({
     [],
   );
 
+  const cardEls = useCallback(
+    () =>
+      Array.from(
+        deckEl()?.querySelectorAll<HTMLElement>(".w-deck-card") ?? [],
+      ),
+    [deckEl],
+  );
+
+  /* Keep only the current card perceivable (aria-hidden + inert on the
+   * rest) — the same contract DeckCard's `active` prop renders in SSR. */
+  useEffect(() => {
+    cardEls().forEach((el, i) => {
+      el.inert = i !== index;
+      el.setAttribute("aria-hidden", i === index ? "false" : "true");
+    });
+  }, [index, cardEls]);
+
   /** Programmatic nav: 240ms eased translate; instant under reduced-motion. */
   const scrollToIndex = useCallback(
     (target: number, viaKeyboard = false) => {
       const el = deckEl();
       if (!el) return;
-      const clamped = Math.max(0, Math.min(cards.length - 1, target));
+      const clamped = Math.max(0, Math.min(total - 1, target));
       keyboardNav.current = viaKeyboard;
       const settle = () => {
         // After keyboard nav, focus the card so screen readers name it.
         if (keyboardNav.current) {
-          const regions =
-            el.querySelectorAll<HTMLElement>(".w-deck-card");
-          regions[clamped]?.focus({ preventScroll: true });
+          cardEls()[clamped]?.focus({ preventScroll: true });
         }
       };
       const to = clamped * el.clientWidth;
@@ -132,7 +138,7 @@ export function DeckView({
       cancelAnimationFrame(rafRef.current);
       rafRef.current = requestAnimationFrame(step);
     },
-    [cards.length, deckEl],
+    [total, deckEl, cardEls],
   );
 
   /* Track the current card from native swipes (scroll-snap) and resizes;
@@ -145,7 +151,7 @@ export function DeckView({
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(() => {
         const i = Math.round(el.scrollLeft / Math.max(1, el.clientWidth));
-        setIndex(Math.max(0, Math.min(cards.length - 1, i)));
+        setIndex(Math.max(0, Math.min(total - 1, i)));
       });
     };
     const onResize = () => {
@@ -165,7 +171,7 @@ export function DeckView({
       if (e.key === "ArrowRight") next = indexRef.current + 1;
       else if (e.key === "ArrowLeft") next = indexRef.current - 1;
       else if (e.key === "Home") next = 0;
-      else if (e.key === "End") next = cards.length - 1;
+      else if (e.key === "End") next = total - 1;
       if (next === null) return;
       e.preventDefault();
       scrollToIndex(next, true);
@@ -179,7 +185,7 @@ export function DeckView({
       document.removeEventListener("keydown", onKey);
       cancelAnimationFrame(raf);
     };
-  }, [cards.length, deckEl, scrollToIndex]);
+  }, [total, deckEl, scrollToIndex]);
 
   /* Cancel an in-flight nav animation on unmount only — NOT on index
    * changes (the scroll listener updates index mid-animation). */
@@ -201,117 +207,13 @@ export function DeckView({
     scrollToIndex(frac < 1 / 3 ? index - 1 : index + 1);
   };
 
-  const body = (card: DeckCardModel): ReactNode => {
-    const { page } = card;
-    switch (page.type) {
-      case "cover":
-        return (
-          <>
-            <CoverImage
-              issueNo={edition.issue_number}
-              {...(page.image ? { src: `/${page.image}`, alt: "" } : {})}
-            />
-            {page.deck ? <p className="dv-dek">{page.deck}</p> : null}
-          </>
-        );
-      case "briefing":
-        return (
-          <div className="dv-briefing">
-            {page.sentences.map((s, i) => (
-              <p key={i} className="dv-briefing__s">
-                {s}
-              </p>
-            ))}
-          </div>
-        );
-      case "markets": {
-        const mv = marketsView(page);
-        return (
-          <div className="dv-markets">
-            <MarketsChart
-              data={mv.data}
-              index={mv.index}
-              missing={mv.missing}
-              ariaLabel="Weekly change by ticker"
-            />
-            <MonoTable
-              columns={[
-                { key: "t", label: "Ticker" },
-                { key: "c", label: "Close", align: "right" },
-                { key: "d", label: "Δ week", align: "right" },
-              ]}
-              rows={mv.tickers.map((t) => [
-                t.ticker,
-                t.na ? <span className="w-na">n/a</span> : t.close,
-                t.na ? (
-                  <span key={t.ticker} className="w-na">
-                    n/a
-                  </span>
-                ) : (
-                  <TrendDelta key={t.ticker} delta={t.delta} />
-                ),
-              ])}
-              caption={mv.caption}
-            />
-          </div>
-        );
-      }
-      case "most_covered":
-        return (
-          <MonoTable
-            boxed
-            columns={[
-              { key: "r", label: "#" },
-              { key: "n", label: "Company" },
-              { key: "s", label: "Stories", align: "right" },
-              { key: "t", label: "Trend", align: "right" },
-            ]}
-            rows={page.entries.map((e, i) => [
-              i + 1,
-              e.name,
-              e.stories,
-              <TrendArrow key={e.company} trend={e.trend} />,
-            ])}
-          />
-        );
-      case "back_page":
-        return (
-          <div className="dv-backpage">
-            <p className="dv-block-head">Sources</p>
-            <MonoTable
-              columns={[
-                { key: "p", label: "Outlet" },
-                { key: "c", label: "Items", align: "right" },
-              ]}
-              rows={page.source_counts.map((c) => [c.publisher, c.count])}
-            />
-            <p className="dv-block-head">How this issue was made</p>
-            <p className="dv-made">{page.how_made}</p>
-            {page.colophon ? <p className="dv-colophon">{page.colophon}</p> : null}
-            <AgentAccess issueId={edition.id} links={links} />
-          </div>
-        );
-      default: {
-        // models, performance, launches, funding, deals, discourse
-        const itemsPage = page as EditionPage & { items: SectionItem[] };
-        return (
-          <ItemList
-            items={itemsPage.items.map((i) => mapItem(i, page.type))}
-          />
-        );
-      }
-    }
-  };
-
   return (
     <div className="dv-root">
       {/* The compact masthead is not a heading — the deck still needs one h1. */}
-      <h1 className="dv-sr-only">
-        {siteName} — № {meta.issue} ({meta.dateRange})
-      </h1>
+      <h1 className="dv-sr-only">{headline}</h1>
       <div className="dv-progress">
         <ProgressSegments
-          total={cards.length}
+          total={total}
           current={index + 1}
           label="Issue progress"
         />
@@ -321,33 +223,12 @@ export function DeckView({
         className="dv-scroller"
         role="group"
         aria-roledescription="carousel"
-        aria-label={`${siteName} № ${meta.issue} — ${cards.length} pages; arrow keys or tap edges to turn`}
+        aria-label={scrollerLabel}
         aria-keyshortcuts="ArrowLeft ArrowRight Home End"
         tabIndex={0}
         onClick={onClick}
       >
-        <Deck>
-          {cards.map((card, i) => (
-            <DeckCard
-              key={card.type}
-              meta={meta}
-              kicker={card.kicker}
-              kickerAccent={card.kickerAccent}
-              title={card.title}
-              active={i === index}
-              footer={
-                <>
-                  <span>{card.sourceCount} sources</span>
-                  <span>
-                    {card.index + 1}/{cards.length}
-                  </span>
-                </>
-              }
-            >
-              {body(card)}
-            </DeckCard>
-          ))}
-        </Deck>
+        {children}
       </div>
     </div>
   );

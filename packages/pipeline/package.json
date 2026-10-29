@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@weekly/cover": "workspace:*",
     "fast-xml-parser": "^5.11.2",
     "fflate": "^0.8.3",
     "papaparse": "^5.7.0",

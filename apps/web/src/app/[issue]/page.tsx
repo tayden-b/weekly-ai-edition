@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { preload } from "react-dom";
 
 import { FrontPage } from "@weekly/ui";
 
+import { buildDeck, editionMeta } from "../../lib/deck";
 import { getEdition, listEditions } from "../../lib/editions";
 import { assembleFrontPage } from "../../lib/frontpage";
 import { site } from "../../lib/site";
+import { DeckCards } from "./DeckCards";
 import { DeckView } from "./DeckView";
 import { FrontPageChrome } from "./FrontPageChrome";
 
@@ -48,6 +51,9 @@ export default async function IssuePage({
   if (!ed) notFound();
 
   const view = assembleFrontPage(ed);
+  // The generative cover is the page's LCP element — preload it so the
+  // fetch runs parallel to render-blocking CSS instead of after it (T3).
+  if (view.cover.src) preload(view.cover.src, { as: "image", fetchPriority: "high" });
 
   return (
     <>
@@ -72,7 +78,13 @@ export default async function IssuePage({
         </main>
       </div>
       <main className="issue-split__deck">
-        <DeckView edition={ed} siteName={site.name} />
+        <DeckView
+          total={buildDeck(ed).length}
+          headline={`${site.name} — № ${ed.issue_number} (${editionMeta(ed).dateRange})`}
+          scrollerLabel={`${site.name} № ${ed.issue_number} — ${buildDeck(ed).length} pages; arrow keys or tap edges to turn`}
+        >
+          <DeckCards edition={ed} siteName={site.name} />
+        </DeckView>
       </main>
     </>
   );
