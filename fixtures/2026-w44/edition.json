@@ -54,7 +54,7 @@
           "headline": "Genie 4",
           "one_liner": "Google DeepMind's world model generates interactive scenes with native audio and real-time steering, in research preview for trusted testers.",
           "companies": [
-            "google"
+            "google-deepmind"
           ],
           "sources": [
             {
@@ -196,7 +196,7 @@
       "items": [
         {
           "headline": "Claude Duet",
-          "one_liner": "A proactive Anthropic agent that understands what needs your attention — 322 votes on Product Hunt this week.",
+          "one_liner": "A proactive Anthropic agent that surfaces what needs attention — 322 votes on Product Hunt this week.",
           "companies": [
             "anthropic"
           ],
@@ -213,7 +213,7 @@
         },
         {
           "headline": "1Password for Agents",
-          "one_liner": "Lets AI agents sign in for you without ever seeing your passwords.",
+          "one_liner": "Lets AI agents sign users in without ever seeing their passwords.",
           "companies": [
             "1password"
           ],
@@ -232,7 +232,7 @@
           "headline": "Mistral Voxtral 3",
           "one_liner": "Mistral's speech models for transcription, text-to-speech, and agents ship on Product Hunt.",
           "companies": [
-            "mistral"
+            "mistral-ai"
           ],
           "sources": [
             {
@@ -715,8 +715,8 @@
           "trend": "down"
         },
         {
-          "company": "google",
-          "name": "Google",
+          "company": "google-deepmind",
+          "name": "Google DeepMind",
           "stories": 1,
           "trend": "flat"
         }

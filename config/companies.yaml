@@ -225,3 +225,49 @@ companies:
     name: Quantimon
     aliases: []
     domain: quantimon.com
+  # --- Companies appearing in editions (P7 gate) -------------------------
+  - slug: 1password
+    name: 1Password
+    aliases: []
+    domain: 1password.com
+  - slug: elevenlabs
+    name: ElevenLabs
+    aliases: [ElevenLabs AI]
+    domain: elevenlabs.io
+  - slug: entytle
+    name: Entytle
+    aliases: []
+    domain: entytle.com
+  - slug: general-compute
+    name: General Compute
+    aliases: []
+    domain: generalcompute.com
+  - slug: guidewire
+    name: Guidewire
+    aliases: ["Guidewire Software"]
+    domain: guidewire.com
+    ticker: GWRE
+  - slug: hyperexponential
+    name: hyperexponential
+    aliases: [hx]
+    domain: hyperexponential.com
+  - slug: hyphenate
+    name: Hyphenate
+    aliases: []
+    domain: hyphenate.com
+  - slug: infisical
+    name: Infisical
+    aliases: []
+    domain: infisical.com
+  - slug: liquid-ai
+    name: Liquid AI
+    aliases: [LFM, LiquidAI]
+    domain: liquid.ai
+  - slug: rapidcanvas
+    name: RapidCanvas
+    aliases: []
+    domain: rapidcanvas.ai
+  - slug: tenstorrent
+    name: Tenstorrent
+    aliases: []
+    domain: tenstorrent.com

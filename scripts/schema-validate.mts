@@ -2,9 +2,13 @@
  * `pnpm schema:validate` — validates every edition object against
  * packages/schema/edition.schema.json via @weekly/schema's validateEdition.
  *
- * Default scan: every .json under editions/ and fixtures/ (a directory that
- * does not exist yet is skipped with a note). Pass explicit paths to validate
- * a subset, e.g. `pnpm schema:validate fixtures/2026-w44/edition.json`.
+ * Default scan: every edition file under editions/ and fixtures/ (a
+ * directory that does not exist yet is skipped with a note). An edition
+ * file is `<YYYY>-w<NN>.json` or `edition.json` — P7's sidecar records
+ * (`provenance.json`, `verify.request.json`, `verify.response.json`,
+ * `cover.json`, …) live under the same trees but are validated by
+ * `pnpm provenance:check`, not by this schema gate. Pass explicit paths to
+ * validate a subset, e.g. `pnpm schema:validate fixtures/2026-w44/edition.json`.
  * Exits nonzero on any violation.
  */
 import { readdirSync, readFileSync, existsSync, statSync } from "node:fs";
@@ -15,11 +19,13 @@ import { validateEdition } from "@weekly/schema";
 const ROOT = new URL("..", import.meta.url).pathname;
 const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 
+const EDITION_FILE_RE = /^(\d{4}-w\d{2}|edition)\.json$/;
+
 function* walk(dir: string): Generator<string> {
   for (const entry of readdirSync(dir)) {
     const path = join(dir, entry);
     if (statSync(path).isDirectory()) yield* walk(path);
-    else if (entry.endsWith(".json")) yield path;
+    else if (EDITION_FILE_RE.test(entry)) yield path;
   }
 }
 

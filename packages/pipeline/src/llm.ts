@@ -53,6 +53,11 @@ import {
   type ExtractionResponse,
   renderExtractPrompt,
 } from "./stages/extract.js";
+import {
+  renderVerifyPrompt,
+  type VerifyRequest,
+  type VerifyResponse,
+} from "./stages/verify.js";
 
 // ---------------------------------------------------------------------------
 // The seam
@@ -393,5 +398,113 @@ export function createReplayDrafter(response: DraftResponse): DraftLlm {
 export function createReplayDrafterFromFile(path: string): DraftLlm {
   return createReplayDrafter(
     JSON.parse(readFileSync(path, "utf8")) as DraftResponse,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// P7 — the verify seam (`verify.{request,response,prompt}.{json,md}`)
+// ---------------------------------------------------------------------------
+
+/**
+ * The briefing-entailment judgement call — session or replay behind one
+ * signature. §5.3: a briefing sentence not supported by at least one item
+ * fails the build; the judgement is recorded for replay per §8.
+ */
+export interface VerifyLlm {
+  verify(request: VerifyRequest): Promise<VerifyResponse>;
+}
+
+/** Path of the versioned verify prompt (shipped with the package source). */
+export const VERIFY_PROMPT_PATH = fileURLToPath(
+  new URL("../prompts/verify.prompt.md", import.meta.url),
+);
+
+/** The canonical file names of the verify session hand-off. */
+export function verifyPaths(dir: string): {
+  requestPath: string;
+  responsePath: string;
+  promptPath: string;
+} {
+  return {
+    requestPath: join(dir, "verify.request.json"),
+    responsePath: join(dir, "verify.response.json"),
+    promptPath: join(dir, "verify.prompt.md"),
+  };
+}
+
+/**
+ * Write the request half of the verify hand-off: `verify.request.json` plus
+ * the rendered `verify.prompt.md` (when `promptTemplate` is given).
+ */
+export function writeVerifyRequest(
+  dir: string,
+  request: VerifyRequest,
+  promptTemplate?: string,
+): ReturnType<typeof verifyPaths> {
+  mkdirSync(dir, { recursive: true });
+  const paths = verifyPaths(dir);
+  writeFileSync(paths.requestPath, `${JSON.stringify(request, null, 2)}\n`);
+  if (promptTemplate !== undefined) {
+    writeFileSync(paths.promptPath, renderVerifyPrompt(promptTemplate, request));
+  }
+  return paths;
+}
+
+/** Read `verify.response.json` — contract-checked downstream. */
+export function readVerifyResponse(dir: string): VerifyResponse {
+  const { responsePath } = verifyPaths(dir);
+  return JSON.parse(readFileSync(responsePath, "utf8")) as VerifyResponse;
+}
+
+export interface SessionVerifierOptions {
+  /** Directory the hand-off files are written into (created if needed). */
+  dir: string;
+  /** Prompt template text — defaults to `VERIFY_PROMPT_PATH` so the shipped
+   *  prompt's version stays the single source of truth. */
+  promptTemplate?: string;
+  /** Response-file poll interval. Default `SESSION_LLM_POLL_MS`. */
+  pollMs?: number;
+  /** Wait for `verify.response.json` before throwing. Default 30 min. */
+  timeoutMs?: number;
+}
+
+/**
+ * `session` mode for verify: write the request (+ rendered prompt) to `dir`,
+ * then wait for the Devin session to write `verify.response.json` there.
+ */
+export function createSessionVerifier(opts: SessionVerifierOptions): VerifyLlm {
+  const pollMs = opts.pollMs ?? SESSION_LLM_POLL_MS;
+  const timeoutMs = opts.timeoutMs ?? SESSION_LLM_TIMEOUT_MS;
+  const promptTemplate =
+    opts.promptTemplate ?? readFileSync(VERIFY_PROMPT_PATH, "utf8");
+  return {
+    async verify(request: VerifyRequest): Promise<VerifyResponse> {
+      const { responsePath } = writeVerifyRequest(opts.dir, request, promptTemplate);
+      const deadline = Date.now() + timeoutMs;
+      while (!existsSync(responsePath)) {
+        if (Date.now() > deadline) {
+          throw new Error(
+            `timed out waiting for ${responsePath} — the session must write ` +
+              `${basename(responsePath)} to continue`,
+          );
+        }
+        await sleep(pollMs);
+      }
+      return readVerifyResponse(opts.dir);
+    },
+  };
+}
+
+/** `replay` mode for verify: always return the recorded response verbatim. */
+export function createReplayVerifier(response: VerifyResponse): VerifyLlm {
+  return {
+    verify: async () => response,
+  };
+}
+
+/** `replay` from a recorded `verify.response.json` file. */
+export function createReplayVerifierFromFile(path: string): VerifyLlm {
+  return createReplayVerifier(
+    JSON.parse(readFileSync(path, "utf8")) as VerifyResponse,
   );
 }

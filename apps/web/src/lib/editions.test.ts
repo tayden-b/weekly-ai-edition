@@ -35,8 +35,6 @@ describe("edition discovery (editions/ on disk)", () => {
     expect(view.issue).toBe(2);
     expect(view.date_range.label).toBe("Oct 31–Nov 6");
     expect(view.pages).toHaveLength(11);
-    expect(view.pages[0]?.headline).toBe(
-      "Frontier labs converge on a shared agent-interop spec",
-    );
+    expect(view.pages[0]?.headline).toBe("Agents start signing users in");
   });
 });

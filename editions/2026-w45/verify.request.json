@@ -1,0 +1,755 @@
+{
+  "week": "2026-w45",
+  "prompt_version": 1,
+  "sentences": [
+    "Agents kept doing more of the clicking: Anthropic's Claude Duet surfaces what needs attention, and 1Password for Agents signs users in without ever seeing passwords.",
+    "OpenAI released GPT-6.1 Terra, a mid-tier computer-use model priced at half its predecessor, and said its models produced three mathematical results including a claimed refutation of the Exponential Time Hypothesis.",
+    "Within hours, Anthropic claimed a refutation of its own, leaving outside shepherds to decide whether either proof survives review.",
+    "Google DeepMind previewed Genie 4, a world model that generates interactive scenes with sound, while Meta open-sourced the 816-billion-parameter Muse Spark Open for agentic coding.",
+    "The money kept moving: Tenstorrent raised a $1.5 billion Series E at a $6.2 billion valuation, and Guidewire agreed to acquire hyperexponential for $1.7 billion in cash.",
+    "Underneath the rally, investors kept debating whether debt-funded AI capital expenditure can pay for itself."
+  ],
+  "supports": {
+    "0": [
+      "launches-0",
+      "launches-1"
+    ],
+    "1": [
+      "models-0",
+      "discourse-0"
+    ],
+    "2": [
+      "discourse-0"
+    ],
+    "3": [
+      "models-1",
+      "models-2"
+    ],
+    "4": [
+      "funding-1",
+      "deals-0"
+    ],
+    "5": [
+      "discourse-1"
+    ]
+  },
+  "items": [
+    {
+      "id": "models-0",
+      "page": "models",
+      "headline": "GPT-6.1 Terra",
+      "one_liner": "OpenAI's mid-tier computer-use model lands at $1 per million input tokens \u2014 half the price of GPT-5.6 Terra and more than three times faster.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "AI Lately",
+          "excerpt": "OpenAI launched a new AI model today. It is called GPT-6.1 Terra. OpenAI says Terra costs half as much as its last computer-use model and its bigger sibling, Sol. The price now sits at one dollar per million input tokens."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Third Run Time",
+          "excerpt": "OpenAI announces three big science discoveries and a new way to work with academics."
+        }
+      ]
+    },
+    {
+      "id": "models-1",
+      "page": "models",
+      "headline": "Genie 4",
+      "one_liner": "Google DeepMind's world model generates interactive scenes with native audio and real-time steering, in research preview for trusted testers.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "The Morning Build",
+          "excerpt": "DeepMind announced Genie 4, a multimodal world model that natively generates audio, ambient sound, and interactive dialogue, can be steered in real time via natural language, and is being rolled out as a research preview to trusted testers."
+        }
+      ]
+    },
+    {
+      "id": "models-2",
+      "page": "models",
+      "headline": "Muse Spark Open",
+      "one_liner": "Meta's 816-billion-parameter open-weight MoE targets long-running coding agents, with 42 billion parameters active per token and a one-million-token context.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Creati AI",
+          "excerpt": "Meta has published Muse Spark Open, an open-weight multimodal model designed for long-running coding agents. The mixture-of-experts system combines text, images, audio, and video with approximately 816 billion total parameters, 42 billion active for each token."
+        }
+      ]
+    },
+    {
+      "id": "models-3",
+      "page": "models",
+      "headline": "MAI Image 2.7",
+      "one_liner": "Microsoft AI's latest image editing model debuts at No. 3 on Arena Edit and No. 2 on Artificial Analysis's image editing leaderboard.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Microsoft AI",
+          "excerpt": "MAI Image 2.7, our latest image editing model, launches with even stronger control for edits that are hardest to get right. It launches in preview at No. 3 on Arena Edit, making Microsoft AI the No. 2 lab, and No. 2 on Artificial Analysis's image editing leaderboard."
+        }
+      ]
+    },
+    {
+      "id": "models-4",
+      "page": "models",
+      "headline": "Liquid AI LFM3",
+      "one_liner": "Six compact models \u2014 language, vision, speech, structured decisions \u2014 built to run enterprise agents on company-controlled hardware.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "VentureBeat",
+          "excerpt": "Liquid AI is introducing LFM3, a family of compact AI models designed to move more enterprise work onto company-controlled hardware. The October 27 release includes six models spanning language, vision, speech and structured decisions."
+        }
+      ]
+    },
+    {
+      "id": "performance-0",
+      "page": "performance",
+      "headline": "GPT-6.1 Terra on Terminal-Bench 4.0",
+      "one_liner": "Company-reported score more than doubles its predecessor; no independent evaluation had been published by Monday night.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "AI Atlas",
+          "excerpt": "OpenAI reports that it scores 50.3% on Terminal-Bench 4.0 at max effort, against a published 21.5% for its predecessor. All of OpenAI's figures are company-reported, and no independent evaluation had been published by the end of Monday."
+        }
+      ]
+    },
+    {
+      "id": "performance-1",
+      "page": "performance",
+      "headline": "MAI Image 2.7 on Arena Edit",
+      "one_liner": "Microsoft's image editor debuts third on Arena Edit, making Microsoft AI the No. 2 lab on the board.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Microsoft AI",
+          "excerpt": "MAI Image 2.7, our latest image editing model, launches with even stronger control for edits that are hardest to get right. It launches in preview at No. 3 on Arena Edit, making Microsoft AI the No. 2 lab, and No. 2 on Artificial Analysis's image editing leaderboard."
+        }
+      ]
+    },
+    {
+      "id": "performance-2",
+      "page": "performance",
+      "headline": "LFM3-1.7B on WebArena-Verified",
+      "one_liner": "Liquid's smallest text model claims browser-agent results above substantially larger rivals on selected tool-use tasks.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "VentureBeat",
+          "excerpt": "In Liquid's tests, LFM3-1.7B scores 38.42 on WebArena-Verified, compared with 28.94 for Qwen3.5-9B and 3.02 for Liquid's previous LFM2.5-2.6B. On AutomationBench's public evaluation, it scores 41.29."
+        }
+      ]
+    },
+    {
+      "id": "launches-0",
+      "page": "launches",
+      "headline": "Claude Duet",
+      "one_liner": "A proactive Anthropic agent that surfaces what needs attention \u2014 322 votes on Product Hunt this week.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Launch Index",
+          "excerpt": "Claude Duet \u2014 Proactive agent that understands what needs your attention \u2014 322 votes."
+        }
+      ]
+    },
+    {
+      "id": "launches-1",
+      "page": "launches",
+      "headline": "1Password for Agents",
+      "one_liner": "Lets AI agents sign users in without ever seeing their passwords.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Launch Index",
+          "excerpt": "1Password for Agents \u2014 Let AI agents sign in for you without seeing your passwords \u2014 138 votes."
+        }
+      ]
+    },
+    {
+      "id": "launches-2",
+      "page": "launches",
+      "headline": "Mistral Voxtral 3",
+      "one_liner": "Mistral's speech models for transcription, text-to-speech, and agents ship on Product Hunt.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Launch Index",
+          "excerpt": "Mistral Voxtral 3 \u2014 Mistral's speech models for transcription, TTS and agents \u2014 213 votes."
+        }
+      ]
+    },
+    {
+      "id": "launches-3",
+      "page": "launches",
+      "headline": "ElevenLabs Realtime Translation",
+      "one_liner": "Turns live speech into translated audio as people talk.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Launch Index",
+          "excerpt": "ElevenLabs Realtime Translation \u2014 Turn live speech into translated audio as people talk \u2014 100 votes."
+        }
+      ]
+    },
+    {
+      "id": "funding-0",
+      "page": "funding",
+      "headline": "Anthropic files to go public",
+      "one_liner": "The filing discloses $131.7 billion in cash and investments; the paperwork alone was enough to lift AI stocks for a third straight session.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "SiliconReport",
+          "excerpt": "Oct 27 Anthropic discloses $131.7 billion in cash and investments."
+        },
+        {
+          "source_index": 1,
+          "publisher": "The Morning Build",
+          "excerpt": "The Morning Build for October 28, 2026: Google's Genie 4 Launches, Anthropic Files to Go Public, and Delaware's AI-Run Company Plan."
+        }
+      ]
+    },
+    {
+      "id": "funding-1",
+      "page": "funding",
+      "headline": "Tenstorrent raised $1.5B Series E",
+      "one_liner": "Jim Keller's RISC-V AI compute company reaches a $6.2 billion valuation as it scales Galaxy server production and IP licensing.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Business Wire",
+          "excerpt": "Innovation X, a late-stage venture capital firm investing in privately held technology leaders, today announced that it co-led Tenstorrent's $1.5 billion Series E financing at a $6.2 billion post-money valuation."
+        }
+      ]
+    },
+    {
+      "id": "funding-2",
+      "page": "funding",
+      "headline": "General Compute raised $100M Series A",
+      "one_liner": "Specialized cloud infrastructure and chips for AI inference, at an $800 million valuation.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "SiliconReport",
+          "excerpt": "Oct 27 General Compute raises $100 million Series A at $800 million valuation."
+        }
+      ]
+    },
+    {
+      "id": "funding-3",
+      "page": "funding",
+      "headline": "Hyphenate raised $45M Series A",
+      "one_liner": "Autonomous AI agent systems for enterprise financial operations.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Funding Index",
+          "excerpt": "Hyphenate raises $45M Series A, Oct 27, 2026. AI apps. Led by Nexus Venture Partners. Hyphenate develops autonomous AI agent systems for enterprise financial operations."
+        }
+      ]
+    },
+    {
+      "id": "funding-4",
+      "page": "funding",
+      "headline": "Infisical raised $40M Series B",
+      "one_liner": "Secrets-management infrastructure for enterprise systems and AI agents, at a $600 million valuation.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Funding Index",
+          "excerpt": "Infisical raises $40M Series B, Oct 27, 2026. Security. Led by Elad Gil. Infisical provides secrets management infrastructure to secure enterprise systems and AI agents."
+        }
+      ]
+    },
+    {
+      "id": "deals-0",
+      "page": "deals",
+      "headline": "Guidewire \u2192 hyperexponential",
+      "one_liner": "The P&C insurer platform buys the London-based agentic underwriting specialist, setting up an 'agentic underwriting' push across commercial lines.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "PR Newswire",
+          "excerpt": "Guidewire announced today that it entered into a definitive agreement to acquire Hyperexponential Ltd for a base purchase price of $1.7 billion in cash, subject to adjustments, and up to an additional $400 million in contingent consideration."
+        }
+      ]
+    },
+    {
+      "id": "deals-1",
+      "page": "deals",
+      "headline": "RapidCanvas \u2192 Entytle",
+      "one_liner": "The managed AI-execution company absorbs the Autonomous Aftermarket pioneer and its Insyghts platform, a week after closing a $29M Series B.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "GlobeNewswire",
+          "excerpt": "RapidCanvas, a managed AI execution company, today announced it has acquired Entytle, the company that pioneered the Autonomous Aftermarket for B2B OEMs. Financial terms were not disclosed."
+        }
+      ]
+    },
+    {
+      "id": "markets-0",
+      "page": "markets",
+      "headline": "NVDA (NVIDIA) 217.94 3.31%",
+      "one_liner": "",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Exa Markets",
+          "excerpt": "US:NVDA \u2014 raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Exa Markets",
+          "excerpt": "US:MSFT \u2014 raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        },
+        {
+          "source_index": 2,
+          "publisher": "Exa Markets",
+          "excerpt": "US:GOOGL \u2014 raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+        },
+        {
+          "source_index": 3,
+          "publisher": "Exa Markets",
+          "excerpt": "US:META \u2014 raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+        },
+        {
+          "source_index": 4,
+          "publisher": "CBC Globe",
+          "excerpt": "AMD closed at $560.26, up $28.98 (5.45%) from the previous session. Meta closed at $620.19, down $10.37 (1.64%) from the previous session. Alphabet Class A finished trading at $320.58, up $3.78 (1.19%)."
+        },
+        {
+          "source_index": 5,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMD \u2014 raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+        },
+        {
+          "source_index": 6,
+          "publisher": "Exa Markets",
+          "excerpt": "US:TSM \u2014 raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+        },
+        {
+          "source_index": 7,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMZN \u2014 raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        },
+        {
+          "source_index": 8,
+          "publisher": "Exa Markets",
+          "excerpt": "US:ARM \u2014 raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        }
+      ]
+    },
+    {
+      "id": "markets-1",
+      "page": "markets",
+      "headline": "MSFT (Microsoft) 531.33 1.3%",
+      "one_liner": "",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Exa Markets",
+          "excerpt": "US:NVDA \u2014 raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Exa Markets",
+          "excerpt": "US:MSFT \u2014 raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        },
+        {
+          "source_index": 2,
+          "publisher": "Exa Markets",
+          "excerpt": "US:GOOGL \u2014 raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+        },
+        {
+          "source_index": 3,
+          "publisher": "Exa Markets",
+          "excerpt": "US:META \u2014 raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+        },
+        {
+          "source_index": 4,
+          "publisher": "CBC Globe",
+          "excerpt": "AMD closed at $560.26, up $28.98 (5.45%) from the previous session. Meta closed at $620.19, down $10.37 (1.64%) from the previous session. Alphabet Class A finished trading at $320.58, up $3.78 (1.19%)."
+        },
+        {
+          "source_index": 5,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMD \u2014 raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+        },
+        {
+          "source_index": 6,
+          "publisher": "Exa Markets",
+          "excerpt": "US:TSM \u2014 raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+        },
+        {
+          "source_index": 7,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMZN \u2014 raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        },
+        {
+          "source_index": 8,
+          "publisher": "Exa Markets",
+          "excerpt": "US:ARM \u2014 raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        }
+      ]
+    },
+    {
+      "id": "markets-2",
+      "page": "markets",
+      "headline": "GOOGL (Alphabet) 320.58 0.12%",
+      "one_liner": "",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Exa Markets",
+          "excerpt": "US:NVDA \u2014 raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Exa Markets",
+          "excerpt": "US:MSFT \u2014 raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        },
+        {
+          "source_index": 2,
+          "publisher": "Exa Markets",
+          "excerpt": "US:GOOGL \u2014 raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+        },
+        {
+          "source_index": 3,
+          "publisher": "Exa Markets",
+          "excerpt": "US:META \u2014 raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+        },
+        {
+          "source_index": 4,
+          "publisher": "CBC Globe",
+          "excerpt": "AMD closed at $560.26, up $28.98 (5.45%) from the previous session. Meta closed at $620.19, down $10.37 (1.64%) from the previous session. Alphabet Class A finished trading at $320.58, up $3.78 (1.19%)."
+        },
+        {
+          "source_index": 5,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMD \u2014 raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+        },
+        {
+          "source_index": 6,
+          "publisher": "Exa Markets",
+          "excerpt": "US:TSM \u2014 raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+        },
+        {
+          "source_index": 7,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMZN \u2014 raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        },
+        {
+          "source_index": 8,
+          "publisher": "Exa Markets",
+          "excerpt": "US:ARM \u2014 raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        }
+      ]
+    },
+    {
+      "id": "markets-3",
+      "page": "markets",
+      "headline": "META (Meta Platforms) 620.19 -3.49%",
+      "one_liner": "",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Exa Markets",
+          "excerpt": "US:NVDA \u2014 raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Exa Markets",
+          "excerpt": "US:MSFT \u2014 raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        },
+        {
+          "source_index": 2,
+          "publisher": "Exa Markets",
+          "excerpt": "US:GOOGL \u2014 raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+        },
+        {
+          "source_index": 3,
+          "publisher": "Exa Markets",
+          "excerpt": "US:META \u2014 raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+        },
+        {
+          "source_index": 4,
+          "publisher": "CBC Globe",
+          "excerpt": "AMD closed at $560.26, up $28.98 (5.45%) from the previous session. Meta closed at $620.19, down $10.37 (1.64%) from the previous session. Alphabet Class A finished trading at $320.58, up $3.78 (1.19%)."
+        },
+        {
+          "source_index": 5,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMD \u2014 raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+        },
+        {
+          "source_index": 6,
+          "publisher": "Exa Markets",
+          "excerpt": "US:TSM \u2014 raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+        },
+        {
+          "source_index": 7,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMZN \u2014 raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        },
+        {
+          "source_index": 8,
+          "publisher": "Exa Markets",
+          "excerpt": "US:ARM \u2014 raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        }
+      ]
+    },
+    {
+      "id": "markets-4",
+      "page": "markets",
+      "headline": "AMD (AMD) 560.26 8.41%",
+      "one_liner": "",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Exa Markets",
+          "excerpt": "US:NVDA \u2014 raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Exa Markets",
+          "excerpt": "US:MSFT \u2014 raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        },
+        {
+          "source_index": 2,
+          "publisher": "Exa Markets",
+          "excerpt": "US:GOOGL \u2014 raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+        },
+        {
+          "source_index": 3,
+          "publisher": "Exa Markets",
+          "excerpt": "US:META \u2014 raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+        },
+        {
+          "source_index": 4,
+          "publisher": "CBC Globe",
+          "excerpt": "AMD closed at $560.26, up $28.98 (5.45%) from the previous session. Meta closed at $620.19, down $10.37 (1.64%) from the previous session. Alphabet Class A finished trading at $320.58, up $3.78 (1.19%)."
+        },
+        {
+          "source_index": 5,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMD \u2014 raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+        },
+        {
+          "source_index": 6,
+          "publisher": "Exa Markets",
+          "excerpt": "US:TSM \u2014 raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+        },
+        {
+          "source_index": 7,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMZN \u2014 raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        },
+        {
+          "source_index": 8,
+          "publisher": "Exa Markets",
+          "excerpt": "US:ARM \u2014 raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        }
+      ]
+    },
+    {
+      "id": "markets-5",
+      "page": "markets",
+      "headline": "TSM (TSMC) 436.87 4.39%",
+      "one_liner": "",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Exa Markets",
+          "excerpt": "US:NVDA \u2014 raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Exa Markets",
+          "excerpt": "US:MSFT \u2014 raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        },
+        {
+          "source_index": 2,
+          "publisher": "Exa Markets",
+          "excerpt": "US:GOOGL \u2014 raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+        },
+        {
+          "source_index": 3,
+          "publisher": "Exa Markets",
+          "excerpt": "US:META \u2014 raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+        },
+        {
+          "source_index": 4,
+          "publisher": "CBC Globe",
+          "excerpt": "AMD closed at $560.26, up $28.98 (5.45%) from the previous session. Meta closed at $620.19, down $10.37 (1.64%) from the previous session. Alphabet Class A finished trading at $320.58, up $3.78 (1.19%)."
+        },
+        {
+          "source_index": 5,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMD \u2014 raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+        },
+        {
+          "source_index": 6,
+          "publisher": "Exa Markets",
+          "excerpt": "US:TSM \u2014 raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+        },
+        {
+          "source_index": 7,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMZN \u2014 raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        },
+        {
+          "source_index": 8,
+          "publisher": "Exa Markets",
+          "excerpt": "US:ARM \u2014 raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        }
+      ]
+    },
+    {
+      "id": "markets-6",
+      "page": "markets",
+      "headline": "AMZN (Amazon) 253.1 2.06%",
+      "one_liner": "",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Exa Markets",
+          "excerpt": "US:NVDA \u2014 raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Exa Markets",
+          "excerpt": "US:MSFT \u2014 raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        },
+        {
+          "source_index": 2,
+          "publisher": "Exa Markets",
+          "excerpt": "US:GOOGL \u2014 raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+        },
+        {
+          "source_index": 3,
+          "publisher": "Exa Markets",
+          "excerpt": "US:META \u2014 raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+        },
+        {
+          "source_index": 4,
+          "publisher": "CBC Globe",
+          "excerpt": "AMD closed at $560.26, up $28.98 (5.45%) from the previous session. Meta closed at $620.19, down $10.37 (1.64%) from the previous session. Alphabet Class A finished trading at $320.58, up $3.78 (1.19%)."
+        },
+        {
+          "source_index": 5,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMD \u2014 raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+        },
+        {
+          "source_index": 6,
+          "publisher": "Exa Markets",
+          "excerpt": "US:TSM \u2014 raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+        },
+        {
+          "source_index": 7,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMZN \u2014 raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        },
+        {
+          "source_index": 8,
+          "publisher": "Exa Markets",
+          "excerpt": "US:ARM \u2014 raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        }
+      ]
+    },
+    {
+      "id": "markets-7",
+      "page": "markets",
+      "headline": "ARM (Arm Holdings) 226.6 7.73%",
+      "one_liner": "",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Exa Markets",
+          "excerpt": "US:NVDA \u2014 raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Exa Markets",
+          "excerpt": "US:MSFT \u2014 raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        },
+        {
+          "source_index": 2,
+          "publisher": "Exa Markets",
+          "excerpt": "US:GOOGL \u2014 raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+        },
+        {
+          "source_index": 3,
+          "publisher": "Exa Markets",
+          "excerpt": "US:META \u2014 raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+        },
+        {
+          "source_index": 4,
+          "publisher": "CBC Globe",
+          "excerpt": "AMD closed at $560.26, up $28.98 (5.45%) from the previous session. Meta closed at $620.19, down $10.37 (1.64%) from the previous session. Alphabet Class A finished trading at $320.58, up $3.78 (1.19%)."
+        },
+        {
+          "source_index": 5,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMD \u2014 raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+        },
+        {
+          "source_index": 6,
+          "publisher": "Exa Markets",
+          "excerpt": "US:TSM \u2014 raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+        },
+        {
+          "source_index": 7,
+          "publisher": "Exa Markets",
+          "excerpt": "US:AMZN \u2014 raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        },
+        {
+          "source_index": 8,
+          "publisher": "Exa Markets",
+          "excerpt": "US:ARM \u2014 raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        }
+      ]
+    },
+    {
+      "id": "discourse-0",
+      "page": "discourse",
+      "headline": "Did two frontier labs just refute the Exponential Time Hypothesis \u2014 or can nobody actually check the proofs?",
+      "one_liner": "OpenAI says its models found sub-exponential algorithms for a hard class of logic puzzles; Anthropic reportedly claimed its own refutation hours later. Outside shepherds are organising expert groups to verify each result.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "AI Atlas",
+          "excerpt": "OpenAI announced on 26 October that its models found sub-exponential algorithms for a hard class of logic puzzles, which would make the Exponential Time Hypothesis false, and The Information reports that Anthropic claimed its own refutation hours later."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Third Run Time",
+          "excerpt": "OpenAI announces three big science discoveries and a new way to work with academics. The Verge covered the announcement of three results in maths, computer science and physics."
+        }
+      ]
+    },
+    {
+      "id": "discourse-1",
+      "page": "discourse",
+      "headline": "Can debt-funded AI capital expenditure pay for itself?",
+      "one_liner": "Relief rally or reckoning: Anthropic's IPO paperwork lifted chip stocks all week, while investors keep asking whether borrowing-fuelled data-centre spend earns its cost of capital.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Reuters",
+          "excerpt": "An AI-fueled tech rally sent US stocks to a higher close on Tuesday. The buzz surrounding details of Anthropic's impending initial public offering helped boost chip stocks for the third consecutive session. Growing concerns over the viability of debt-funded spending have weighed on the AI trade."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Associated Press",
+          "excerpt": "Stocks in the artificial-intelligence industry led Wall Street higher on Tuesday. AI stocks rose to another winning day after swerving for weeks on worries about whether their boom is under threat because of how expensive they have become."
+        }
+      ]
+    }
+  ]
+}

@@ -21,7 +21,8 @@
     "draft:harness": "tsx scripts/draft-harness.mts",
     "schema:types": "tsx scripts/schema-codegen.mts",
     "schema:validate": "tsx scripts/schema-validate.mts",
-    "provenance:check": "node scripts/provenance-check.mjs",
+    "verify:harness": "tsx scripts/verify-harness.mts",
+    "provenance:check": "tsx scripts/provenance-check.mts",
     "dag:validate": "node scripts/validate-dag.mjs",
     "check": "pnpm typecheck && pnpm lint && pnpm test && pnpm schema:validate && pnpm provenance:check && pnpm dag:validate"
   },

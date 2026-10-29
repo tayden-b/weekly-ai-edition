@@ -4,7 +4,7 @@
  *
  * C5 lands the adapter interface and `RawItem`; A1–A10 the adapters;
  * P1 the normalize + dedupe stages; P2–P7 the rest. `PIPELINE_STAGES`
- * keeps the canonical order. Stages landed so far: P1, P2, P3, P4, P5, P6.
+ * keeps the canonical order. Stages landed so far: P1, P2, P3, P4, P5, P6, P7.
  */
 
 export const PIPELINE_STAGES = [
@@ -271,10 +271,68 @@ export {
   type SessionDrafterOptions,
   type SessionExtractorOptions,
   type SessionLlmOptions,
+  type SessionVerifierOptions,
+  VERIFY_PROMPT_PATH,
+  type VerifyLlm,
+  verifyPaths,
+  createReplayVerifier,
+  createReplayVerifierFromFile,
+  createSessionVerifier,
+  readVerifyResponse,
   writeClassificationRequest,
   writeDraftRequest,
   writeExtractionRequest,
+  writeVerifyRequest,
 } from "./llm.js";
+
+// P7 — verify stage (PLAN §5.3; deterministic checks 1–4 + entailment seam)
+export {
+  assertVerifyResponse,
+  briefingSentences,
+  buildVerifyRequest,
+  CHECK_NAMES as VERIFY_CHECK_NAMES,
+  checkBriefingAttribution,
+  renderVerifyPrompt,
+  VERIFY_CHECKS,
+  VERIFY_PROMPT_VERSION,
+  verifyDeterministic,
+  verifyEdition,
+  verifyItemsFromEdition,
+  VerifyContractError,
+  type VerifyAttribution,
+  type VerifyCheckId,
+  type VerifyCheckResult,
+  type VerifyCheckStatus,
+  type VerifyIssue,
+  type VerifyItemRef,
+  type VerifyOptions,
+  type VerifyReport,
+  type VerifyRequest,
+  type VerifyResponse,
+  type VerifySourceRef,
+  type VerifyVerdict,
+} from "./stages/verify.js";
+
+// P7 — provenance.json: the per-edition build record (PLAN §5.3)
+export {
+  buildProvenance,
+  checkProvenance,
+  collectItemCounts,
+  collectSourceCounts,
+  type EditionProvenance,
+  type IngestCache,
+  type ManifestFile,
+  type ManifestSourceRow,
+  loadIngestCache,
+  PROVENANCE_FILENAME,
+  PROVENANCE_VERSION,
+  type ProvenanceAdapterRun,
+  type ProvenanceBackPage,
+  type ProvenanceFailure,
+  type ProvenanceIssue,
+  type ProvenanceItemCounts,
+  sha256File,
+} from "./provenance.js";
 
 // A4 — SEC EDGAR adapter (Form D / S-1 / 8-K; funding + deals pages)
 export {

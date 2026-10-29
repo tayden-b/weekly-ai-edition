@@ -7,13 +7,13 @@
   "pages": [
     {
       "type": "cover",
-      "headline": "Frontier labs converge on a shared agent-interop spec",
-      "deck": "Anthropic, OpenAI and Google DeepMind publish a joint draft for cross-vendor agent identity, tool permissions and provenance headers — the week agents started speaking one wire protocol."
+      "headline": "Agents start signing users in",
+      "deck": "Anthropic's Claude Duet surfaces what needs attention and 1Password lets agents sign users in without seeing passwords — the week agents got logins of their own."
     },
     {
       "type": "briefing",
       "sentences": [
-        "The week belonged to interop: three frontier labs published a joint draft for agent identity and tool-permission headers, and every major agent framework committed to implement it.",
+        "Agents kept doing more of the clicking: Anthropic's Claude Duet surfaces what needs attention, and 1Password for Agents signs users in without ever seeing passwords.",
         "OpenAI released GPT-6.1 Terra, a mid-tier computer-use model priced at half its predecessor, and said its models produced three mathematical results including a claimed refutation of the Exponential Time Hypothesis.",
         "Within hours, Anthropic claimed a refutation of its own, leaving outside shepherds to decide whether either proof survives review.",
         "Google DeepMind previewed Genie 4, a world model that generates interactive scenes with sound, while Meta open-sourced the 816-billion-parameter Muse Spark Open for agentic coding.",
@@ -54,7 +54,7 @@
           "headline": "Genie 4",
           "one_liner": "Google DeepMind's world model generates interactive scenes with native audio and real-time steering, in research preview for trusted testers.",
           "companies": [
-            "google"
+            "google-deepmind"
           ],
           "sources": [
             {
@@ -196,7 +196,7 @@
       "items": [
         {
           "headline": "Claude Duet",
-          "one_liner": "A proactive Anthropic agent that understands what needs your attention — 322 votes on Product Hunt this week.",
+          "one_liner": "A proactive Anthropic agent that surfaces what needs attention — 322 votes on Product Hunt this week.",
           "companies": [
             "anthropic"
           ],
@@ -213,7 +213,7 @@
         },
         {
           "headline": "1Password for Agents",
-          "one_liner": "Lets AI agents sign in for you without ever seeing your passwords.",
+          "one_liner": "Lets AI agents sign users in without ever seeing their passwords.",
           "companies": [
             "1password"
           ],
@@ -232,7 +232,7 @@
           "headline": "Mistral Voxtral 3",
           "one_liner": "Mistral's speech models for transcription, text-to-speech, and agents ship on Product Hunt.",
           "companies": [
-            "mistral"
+            "mistral-ai"
           ],
           "sources": [
             {
@@ -715,8 +715,8 @@
           "trend": "down"
         },
         {
-          "company": "google",
-          "name": "Google",
+          "company": "google-deepmind",
+          "name": "Google DeepMind",
           "stories": 1,
           "trend": "flat"
         }
