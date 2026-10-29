@@ -1,0 +1,70 @@
+# config/publishers.yaml — publisher attribution map (L1).
+#
+# Aggregator adapters (HN, Reddit, distribute.software) stamp the
+# aggregator's name on `publisher` even when `canonical_url` points at the
+# origin story. `normalize` (P1) consults this file to fix attribution:
+# when the recorded publisher is in `aggregators` and the canonical URL's
+# host maps to an entry in `domains`, `publisher` is rewritten to the
+# mapped origin and the aggregator name is kept in `via`.
+#
+# Rules:
+#   - `domains` keys are hosts, matched against the URL hostname with a
+#     leading "www." stripped; a key also matches its own subdomains
+#     (markets.reuters.com matches reuters.com). Blog subdomains like
+#     blog.google get their own keys — order does not matter, the longest
+#     applicable key wins by construction of the match.
+#   - `aggregators` are recorded publisher display names (compared with
+#     normalize's publisherKey — case/punctuation-insensitive), NOT hosts.
+#   - Publishers never invented: an aggregator record on an unmapped host
+#     keeps its recorded name rather than guessing an origin.
+#
+# Keep in sync with config/sources.yaml `meta.publisher` names where the
+# same outlet appears (rank's publisher weights key off those names).
+
+domains:
+  # Lab blogs / docs
+  openai.com: OpenAI
+  anthropic.com: Anthropic
+  blog.google: Google
+  deepmind.google: Google DeepMind
+  ai.meta.com: Meta
+  about.fb.com: Meta
+  mistral.ai: Mistral AI
+  x.ai: xAI
+  cohere.com: Cohere
+  huggingface.co: Hugging Face
+  cursor.com: Cursor
+  github.com: GitHub
+  # Benchmarks / evaluators
+  artificialanalysis.ai: Artificial Analysis
+  lmarena.ai: LMArena
+  # Government / filings
+  sec.gov: SEC EDGAR
+  # Newsrooms / press wires
+  reuters.com: Reuters
+  bloomberg.com: Bloomberg
+  cnbc.com: CNBC
+  wsj.com: The Wall Street Journal
+  nytimes.com: The New York Times
+  ft.com: Financial Times
+  techcrunch.com: TechCrunch
+  theverge.com: The Verge
+  arstechnica.com: Ars Technica
+  axios.com: Axios
+  theguardian.com: The Guardian
+  businesswire.com: Business Wire
+  semianalysis.com: SemiAnalysis
+  theinformation.com: The Information
+  # Data providers
+  stooq.com: Stooq
+  exa.ai: Exa Markets
+  # Aggregator hosts map to themselves — identity, never a `via` rewrite
+  # (an HN self-post or Reddit permalink is correctly attributed already).
+  news.ycombinator.com: Hacker News
+  reddit.com: Reddit
+  distribute.software: distribute.software
+
+aggregators:
+  - Hacker News
+  - Reddit
+  - distribute.software

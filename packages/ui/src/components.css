@@ -190,6 +190,60 @@
   border-top: 1px solid var(--rule);
 }
 
+/* ---------- L1 — external source links ----------
+   Headlines + publisher names link to the origin URL in every renderer.
+   DESIGN §1.4: inherit ink (no colour change); hover = underline-in 120ms.
+   All external links carry rel="noopener noreferrer" and open in the same
+   tab on every renderer (docs/adr/0012-external-source-links.md). */
+.w-item__headline-link,
+.w-item__source-link,
+.w-item__discussion,
+.w-fp__headline-link,
+.w-fp__deck-link,
+.w-deck-card__title-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  transition: text-decoration-color 120ms ease-out;
+}
+.w-item__headline-link:hover,
+.w-item__source-link:hover,
+.w-item__discussion:hover,
+.w-fp__headline-link:hover,
+.w-fp__deck-link:hover,
+.w-deck-card__title-link:hover {
+  text-decoration-color: currentColor;
+}
+.w-item__headline-link:focus-visible,
+.w-item__source-link:focus-visible,
+.w-item__discussion:focus-visible,
+.w-fp__headline-link:focus-visible,
+.w-fp__deck-link:focus-visible,
+.w-deck-card__title-link:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+/* Deck tap targets ≥44px (L1): pad the headline's box over its natural
+   gaps — the layout is unchanged, the hit area grows. */
+.w-deck-card .w-item__headline {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin: -11px 0;
+}
+.w-deck-card .w-deck-card__title {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: calc(var(--space-12) - 7px);
+  margin-bottom: -7px;
+}
+.w-deck-card .w-item__headline-link,
+.w-deck-card .w-deck-card__title-link {
+  display: block;
+}
+
 /* ---------- Pill ---------- */
 
 .w-pill {

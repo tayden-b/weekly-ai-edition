@@ -3,6 +3,7 @@
  * `/{issue}` mobile deck renders — fixed 11-page order, per-page source counts,
  * footer strings, item views. Pure; the `/{issue}` route + DeckView consume it.
  */
+import { discussionUrl } from "@weekly/schema";
 import type {
   Edition,
   EditionItem,
@@ -41,10 +42,13 @@ export type SectionItem =
   | EditionItemDiscourse;
 
 function mapSource(s: EditionSource): SourceView {
+  const discussion_url = discussionUrl(s);
   return {
     url: s.url,
     publisher: s.publisher,
     published_at: s.published_at,
+    ...(s.via ? { via: s.via } : {}),
+    ...(discussion_url ? { discussion_url } : {}),
     ...(s.fetched_at ? { fetched_at: s.fetched_at } : {}),
     ...(s.adapter ? { adapter: s.adapter } : {}),
   };
@@ -102,6 +106,8 @@ export interface DeckCardModel {
   /** Accent kicker on the Cover only (§2.1). */
   kickerAccent: boolean;
   title: string;
+  /** Primary-source URL the title links to — the cover only (L1). */
+  titleUrl?: string;
   sourceCount: number;
   page: EditionPage;
 }
@@ -116,6 +122,9 @@ export function buildDeck(edition: Edition): DeckCardModel[] {
     kicker: DECK_PAGE_NAMES[page.type],
     kickerAccent: page.type === "cover",
     title: page.type === "cover" ? page.headline : DECK_PAGE_NAMES[page.type],
+    ...(page.type === "cover" && page.url !== undefined
+      ? { titleUrl: page.url }
+      : {}),
     sourceCount: pageSourceCount(page, issueTotal),
     page,
   }));

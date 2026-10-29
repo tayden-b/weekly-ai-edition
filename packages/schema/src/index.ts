@@ -49,12 +49,19 @@ export type {
   EditionSourceCount,
   EditionTicker,
   Slug,
-} from "./edition.types.js";
+} from "./edition.types";
 
-import type { Edition } from "./edition.types.js";
+import type { Edition } from "./edition.types";
 
 /** Union of the 11 page types, in fixed template order. */
 export type EditionPage = Edition["pages"][number];
 
-export { assertEdition, validateEdition } from "./validate.js";
-export type { EditionValidationResult } from "./validate.js";
+export { assertEdition, validateEdition } from "./validate";
+export type { EditionValidationResult } from "./validate";
+
+export {
+  AGGREGATOR_HOSTS,
+  discussionUrl,
+  isAggregatorUrl,
+  primarySource,
+} from "./links";

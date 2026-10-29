@@ -22,6 +22,8 @@ export interface FrontPageCover {
   alt?: string;
   kicker: string; // "№ 44" — the one red on desktop (§3)
   headline: string;
+  /** Primary-source URL the headline + deck link to (L1). */
+  url?: string;
   deck: string;
 }
 
@@ -96,8 +98,32 @@ export function FrontPage({
         />
         <div className="w-fp__cover-stack">
           <Kicker accent>{cover.kicker}</Kicker>
-          <h2 className="w-fp__headline">{cover.headline}</h2>
-          <p className="w-fp__deck">{cover.deck}</p>
+          <h2 className="w-fp__headline">
+            {cover.url !== undefined ? (
+              <a
+                className="w-fp__headline-link"
+                href={cover.url}
+                rel="noopener noreferrer"
+              >
+                {cover.headline}
+              </a>
+            ) : (
+              cover.headline
+            )}
+          </h2>
+          <p className="w-fp__deck">
+            {cover.url !== undefined ? (
+              <a
+                className="w-fp__deck-link"
+                href={cover.url}
+                rel="noopener noreferrer"
+              >
+                {cover.deck}
+              </a>
+            ) : (
+              cover.deck
+            )}
+          </p>
         </div>
       </div>
 

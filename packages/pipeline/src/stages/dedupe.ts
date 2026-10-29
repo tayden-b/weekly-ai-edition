@@ -70,6 +70,8 @@ import type { NormalizedItem } from "./normalize.js";
 export interface ClusterSource {
   url: string;
   publisher: string;
+  /** Aggregator that surfaced the record when `publisher` names the origin (L1). */
+  via?: string;
   published_at: string;
   fetched_at: string;
   /** Adapter id from `config/sources.yaml`. */
@@ -229,6 +231,7 @@ export function clusterSources(cluster: ItemCluster): ClusterSource[] {
   return cluster.items.map((i) => ({
     url: i.canonical_url,
     publisher: i.publisher,
+    ...(i.via !== undefined ? { via: i.via } : {}),
     published_at: i.published_at,
     fetched_at: i.fetched_at,
     adapter: i.adapter,

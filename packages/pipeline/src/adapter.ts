@@ -82,6 +82,13 @@ export interface RawItem {
   canonical_url: string;
   /** Publisher display name, e.g. "OpenAI Blog", "Hacker News". */
   publisher: string;
+  /**
+   * The aggregator that surfaced the record when `publisher` names the
+   * origin instead — e.g. publisher "Google", via "Hacker News" (L1). Set by
+   * normalize when the recorded publisher was an aggregator and the
+   * canonical URL's domain identified the origin (config/publishers.yaml).
+   */
+  via?: string;
   /** ISO-8601 timestamp the publisher gave the item. */
   published_at: string;
   /** ISO-8601 timestamp our adapter fetched the record. */

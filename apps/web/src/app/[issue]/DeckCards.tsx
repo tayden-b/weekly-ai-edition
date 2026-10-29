@@ -50,7 +50,21 @@ export function DeckCards({
               issueNo={edition.issue_number}
               {...(page.image ? { src: `/${page.image}`, alt: "" } : {})}
             />
-            {page.deck ? <p className="dv-dek">{page.deck}</p> : null}
+            {page.deck ? (
+              <p className="dv-dek">
+                {page.url !== undefined ? (
+                  <a
+                    className="dv-dek__link"
+                    href={page.url}
+                    rel="noopener noreferrer"
+                  >
+                    {page.deck}
+                  </a>
+                ) : (
+                  page.deck
+                )}
+              </p>
+            ) : null}
           </>
         );
       case "briefing":
@@ -150,7 +164,19 @@ export function DeckCards({
           meta={meta}
           kicker={card.kicker}
           kickerAccent={card.kickerAccent}
-          title={card.title}
+          title={
+            card.titleUrl !== undefined ? (
+              <a
+                className="w-deck-card__title-link"
+                href={card.titleUrl}
+                rel="noopener noreferrer"
+              >
+                {card.title}
+              </a>
+            ) : (
+              card.title
+            )
+          }
           active={i === 0}
           footer={
             <>

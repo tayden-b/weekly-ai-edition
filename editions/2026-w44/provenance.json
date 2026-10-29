@@ -852,21 +852,21 @@
     "data/raw/2026-10-29/techcrunch-funding.json": "sha256:1d0de17bc716dfb9bb4c874bb969bafc7cc4b6f9b78097e77ee942fe8f4bf496",
     "data/raw/2026-10-29/theverge-ai.json": "sha256:54c9a851e632554ca53ccfb9171d5550475aeb7b65bd23dedd642a1aa7758b0c",
     "data/raw/2026-10-29/xai-news.json": "sha256:7b80733201f699a167be267e22e9e0848fe4efcd89996ad8e7548e946b5214cd",
-    "fixtures/2026-w44/edition.json": "sha256:e25fff1bcbf6cc1b8152ca9eecad69237075c1e706f293623ffb8886b62c18d3"
+    "fixtures/2026-w44/edition.json": "sha256:f3a6d138cde84822b79aac27d09c57798d7810f82e2625170e27a105ef26b1ac"
   },
   "back_page": {
-    "sources_total": 44,
+    "sources_total": 43,
     "source_counts": [
       {
         "publisher": "Exa Markets",
         "count": 8
       },
       {
-        "publisher": "Hacker News",
-        "count": 8
+        "publisher": "Bloomberg",
+        "count": 5
       },
       {
-        "publisher": "Bloomberg",
+        "publisher": "TechCrunch",
         "count": 5
       },
       {
@@ -878,15 +878,15 @@
         "count": 4
       },
       {
-        "publisher": "TechCrunch",
-        "count": 4
+        "publisher": "Google",
+        "count": 2
       },
       {
         "publisher": "Google DeepMind",
         "count": 2
       },
       {
-        "publisher": "Hugging Face",
+        "publisher": "Reuters",
         "count": 2
       },
       {
@@ -898,7 +898,23 @@
         "count": 1
       },
       {
+        "publisher": "Artificial Analysis",
+        "count": 1
+      },
+      {
         "publisher": "Axios",
+        "count": 1
+      },
+      {
+        "publisher": "Cursor",
+        "count": 1
+      },
+      {
+        "publisher": "GitHub",
+        "count": 1
+      },
+      {
+        "publisher": "Hugging Face",
         "count": 1
       },
       {
@@ -913,7 +929,7 @@
   },
   "cover": {
     "generator": "@weekly/cover",
-    "seed": "a50ed757c7266f9a75f23aae9ee8e0c6e5576dc4002707771df38cebe35b0214",
-    "composition": "field"
+    "seed": "3239c00c13f7d5d05a3666974af8370d95cc2583555203518a5ca92e2a99afb8",
+    "composition": "ridge"
   }
 }

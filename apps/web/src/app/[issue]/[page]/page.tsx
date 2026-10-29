@@ -80,7 +80,19 @@ export default async function Page({
         <Masthead variant="compact" siteName={site.name} meta={meta} />
       </div>
       <Kicker accent={p.type === "cover"}>{pageKicker(p)}</Kicker>
-      <h1 className="w-deck-card__title">{pageTitle(p)}</h1>
+      <h1 className="w-deck-card__title">
+        {p.url !== undefined ? (
+          <a
+            className="w-deck-card__title-link"
+            href={p.url}
+            rel="noopener noreferrer"
+          >
+            {pageTitle(p)}
+          </a>
+        ) : (
+          pageTitle(p)
+        )}
+      </h1>
       <div className="w-sp__body">
         <PageBody edition={ed} page={p} />
       </div>
@@ -131,7 +143,21 @@ function PageBody({
               {...(page.image ? { src: `/${page.image}`, alt: "" } : {})}
             />
           </div>
-          {page.deck ? <p className="w-sp__deck">{page.deck}</p> : null}
+          {page.deck ? (
+            <p className="w-sp__deck">
+              {page.url !== undefined ? (
+                <a
+                  className="w-sp__deck-link"
+                  href={page.url}
+                  rel="noopener noreferrer"
+                >
+                  {page.deck}
+                </a>
+              ) : (
+                page.deck
+              )}
+            </p>
+          ) : null}
         </>
       );
     case "briefing": {

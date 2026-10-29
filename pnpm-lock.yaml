@@ -104,6 +104,9 @@ importers:
       '@weekly/cover':
         specifier: workspace:*
         version: link:../cover
+      '@weekly/schema':
+        specifier: workspace:*
+        version: link:../schema
       fast-xml-parser:
         specifier: ^5.11.2
         version: 5.11.2

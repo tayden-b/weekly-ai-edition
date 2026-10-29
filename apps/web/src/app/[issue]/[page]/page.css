@@ -30,6 +30,23 @@
   color: var(--ink-2);
 }
 
+/* L1 — cover deck links to the story's origin (see components.css). */
+.w-sp__deck-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  transition: text-decoration-color 120ms ease-out;
+}
+.w-sp__deck-link:hover {
+  text-decoration-color: currentColor;
+}
+.w-sp__deck-link:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
 .w-sp__briefing p + p {
   margin-top: var(--space-12);
 }

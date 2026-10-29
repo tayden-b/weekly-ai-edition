@@ -54,6 +54,11 @@
       "properties": {
         "url": { "type": "string", "format": "uri" },
         "publisher": { "type": "string", "minLength": 1 },
+        "via": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The aggregator that surfaced the record when `publisher` names the origin instead (e.g. publisher \"Google\", via \"Hacker News\"). Set by normalize when the recorded publisher was an aggregator and the canonical URL's domain identified the origin (config/publishers.yaml)."
+        },
         "published_at": { "type": "string", "format": "date-time" },
         "fetched_at": { "type": "string", "format": "date-time" },
         "adapter": { "$ref": "#/definitions/slug" },
@@ -88,6 +93,11 @@
       "properties": {
         "type": { "const": "cover" },
         "headline": { "type": "string", "minLength": 1, "description": "The week's single most important item." },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Canonical URL of the covered story's primary source — the cover headline links to it (L1)."
+        },
         "deck": { "type": "string", "description": "Optional standfirst under the headline." },
         "image": { "type": "string", "description": "Cover image path, e.g. editions/2026-w44/cover.jpg (typographic-only issues may omit)." }
       }
