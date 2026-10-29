@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 
@@ -56,6 +57,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           crossOrigin="anonymous"
         />
         {children}
+        {/* Keyless, cookie-less pageview + Web Vitals beacons (I3). */}
+        <Analytics />
       </body>
     </html>
   );
