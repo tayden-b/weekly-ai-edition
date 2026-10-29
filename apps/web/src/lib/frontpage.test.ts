@@ -123,6 +123,21 @@ describe("assembleFrontPage (DESIGN §2.2)", () => {
   });
 });
 
+describe("cover image (T3)", () => {
+  it("fixture without cover.image keeps the typographic fallback (no src)", () => {
+    // w-cover__fallback renders when src is absent — the fallback path.
+    expect(rawEdition.pages[0].image).toBeUndefined();
+    expect(view.cover.src).toBeUndefined();
+  });
+
+  it("edition with cover.image maps src to the served asset path", () => {
+    const withImage = structuredClone(rawEdition);
+    withImage.pages[0].image = "editions/2026-w44/cover.avif";
+    const v = assembleFrontPage(withImage);
+    expect(v.cover.src).toBe("/editions/2026-w44/cover.avif");
+  });
+});
+
 describe("shortDate", () => {
   it("formats ISO dates for chart axes", () => {
     expect(shortDate("2026-10-23")).toBe("Oct 23");

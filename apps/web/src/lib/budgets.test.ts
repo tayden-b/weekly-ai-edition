@@ -5,7 +5,8 @@
  *  - fonts: self-hosted woff2 subsets under public/fonts, font-display: swap,
  *    no external font CDN anywhere in the stylesheet.
  *  - cover: every `pages[].image` in an edition/fixture resolves to a real
- *    ≤180KB AVIF under public/.
+ *    ≤180KB AVIF committed under editions/<week>/ (T3), and every
+ *    cover-og.png stays ≤200KB (the OG-card budget from the same issue).
  *  - client JS: the front page allows only the sticky bar + keyboard nav
  *    island (FrontPageChrome) and the deck island (DeckView) — any other
  *    "use client" module fails the budget.
@@ -31,6 +32,7 @@ const kb = (type: string) =>
   (budgets[0]?.resourceSizes?.find((r) => r.resourceType === type)?.budget ??
     0) * 1024;
 const COVER_BUDGET = kb("image"); // §5: cover ≤ 180KB AVIF
+const OG_BUDGET = 200 * 1024; // T3: cover-og.png ≤ 200KB
 const FONT_BUDGET = kb("font"); // latin subsets — far under a full face
 
 /** "use client" directive = first statement of the module. */
@@ -73,13 +75,13 @@ describe("font budgets", () => {
   });
 });
 
-describe("cover budget (≤180KB AVIF)", () => {
+describe("cover budget (≤180KB AVIF, ≤200KB OG)", () => {
   const editionFiles = [
     ...walk(path.join(ROOT, "editions")),
     ...walk(path.join(ROOT, "fixtures")),
   ].filter((f) => f.endsWith(".json"));
 
-  it("every edition cover image is a real ≤180KB AVIF in public/", () => {
+  it("every edition cover image is a real ≤180KB AVIF committed at repo root", () => {
     const checked: string[] = [];
     for (const file of editionFiles) {
       const json = JSON.parse(readFileSync(file, "utf8")) as {
@@ -91,10 +93,11 @@ describe("cover budget (≤180KB AVIF)", () => {
         expect(p.image, `${file}: ${p.image} must be AVIF`).toMatch(
           /\.avif$/i,
         );
-        const asset = path.join(PUBLIC, p.image);
+        // image is repo-relative: editions/<week>/cover.avif
+        const asset = path.join(ROOT, p.image);
         expect(
           existsSync(asset),
-          `${file}: ${p.image} missing from public/`,
+          `${file}: ${p.image} missing from repo root`,
         ).toBe(true);
         expect(
           statSync(asset).size,
@@ -102,8 +105,28 @@ describe("cover budget (≤180KB AVIF)", () => {
         ).toBeLessThanOrEqual(COVER_BUDGET);
       }
     }
-    // Vacuous today (no covers yet) — the gate exists for when they land.
     expect(checked).toBeInstanceOf(Array);
+  });
+
+  it("every cover-og.png under editions/ is a real ≤200KB PNG (1200×630 OG spec)", () => {
+    const editionsDir = path.join(ROOT, "editions");
+    if (!existsSync(editionsDir)) return;
+    const ogs: string[] = [];
+    for (const week of readdirSync(editionsDir, { withFileTypes: true })) {
+      if (!week.isDirectory()) continue;
+      const og = path.join(editionsDir, week.name, "cover-og.png");
+      if (!existsSync(og)) continue;
+      ogs.push(og);
+      const head = readFileSync(og).subarray(0, 4);
+      expect(
+        head.equals(Buffer.from([0x89, 0x50, 0x4e, 0x47])),
+        `${og} is not a PNG`,
+      ).toBe(true);
+      expect(
+        statSync(og).size,
+        `${og} over 200KB`,
+      ).toBeLessThanOrEqual(OG_BUDGET);
+    }
   });
 });
 

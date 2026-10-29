@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@weekly/cover':
+        specifier: workspace:*
+        version: link:packages/cover
       '@weekly/pipeline':
         specifier: workspace:*
         version: link:packages/pipeline
@@ -77,8 +80,30 @@ importers:
         specifier: ^19
         version: 19.3.0(@types/react@19.3.0)
 
+  packages/cover:
+    dependencies:
+      sharp:
+        specifier: 0.35.5
+        version: 0.35.5(@types/node@24.19.2)
+    devDependencies:
+      '@types/node':
+        specifier: ^24.19.2
+        version: 24.19.2
+      '@types/react':
+        specifier: ^19.2.5
+        version: 19.3.0
+      react:
+        specifier: ^19.3.1
+        version: 19.3.1
+      react-dom:
+        specifier: ^19.3.1
+        version: 19.3.1(react@19.3.1)
+
   packages/pipeline:
     dependencies:
+      '@weekly/cover':
+        specifier: workspace:*
+        version: link:../cover
       fast-xml-parser:
         specifier: ^5.11.2
         version: 5.11.2
@@ -2806,8 +2831,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@img/colour@1.1.0':
-    optional: true
+  '@img/colour@1.1.0': {}
 
   '@img/sharp-darwin-arm64@0.35.5':
     optionalDependencies:
@@ -4617,7 +4641,6 @@ snapshots:
       '@img/sharp-win32-ia32': 0.35.5
       '@img/sharp-win32-x64': 0.35.5
       '@types/node': 24.19.2
-    optional: true
 
   shebang-command@2.0.0:
     dependencies:

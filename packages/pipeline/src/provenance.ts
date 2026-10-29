@@ -32,6 +32,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, readdirSync } from "node:fs";
 import { basename, join } from "node:path";
 
+import { coverSeed } from "@weekly/cover/seed";
 import type { Edition } from "@weekly/schema";
 
 // ---------------------------------------------------------------------------
@@ -93,6 +94,15 @@ export interface ProvenanceBackPage {
   source_counts: { publisher: string; count: number }[];
 }
 
+/** T3 — the generative-cover record: who generated it, the seed it
+ * derived from, and the archetype — enough to re-derive the artwork. */
+export interface ProvenanceCover {
+  generator: string;
+  /** sha256 hex of the edition's canonical digest (packages/cover/seed.ts). */
+  seed: string;
+  composition: string;
+}
+
 export interface EditionProvenance {
   edition: string;
   version: 1;
@@ -102,6 +112,7 @@ export interface EditionProvenance {
   failures: ProvenanceFailure[];
   cache_hashes: Record<string, string>;
   back_page: ProvenanceBackPage;
+  cover?: ProvenanceCover;
 }
 
 export const PROVENANCE_VERSION = 1;
@@ -203,6 +214,7 @@ export function collectItemCounts(
 export function buildProvenance(
   edition: Edition | Record<string, unknown>,
   runs: readonly IngestCache[],
+  cover?: ProvenanceCover,
 ): EditionProvenance {
   const adapter_runs = runs.flatMap(({ manifest }) =>
     manifest.sources.map(
@@ -239,6 +251,7 @@ export function buildProvenance(
       sources_total: source_counts.reduce((n, c) => n + c.count, 0),
       source_counts,
     },
+    ...(cover ? { cover } : {}),
   };
 }
 
@@ -254,6 +267,7 @@ export interface ProvenanceIssue {
 }
 
 const SHA256_RE = /^sha256:[0-9a-f]{64}$/;
+const HEX64_RE = /^[0-9a-f]{64}$/;
 
 function isObject(v: unknown): v is Record<string, unknown> {
   return typeof v === "object" && v !== null && !Array.isArray(v);
@@ -393,6 +407,45 @@ export function checkProvenance(
           message: "hash is not `sha256:<64 hex>`",
         });
       }
+    }
+  }
+
+  // cover (T3) — the record must agree with the edition's cover page:
+  // a declared cover.image requires the cover block, a cover block
+  // requires the image; the seed is re-derived from the edition itself.
+  const coverPage = (Array.isArray(edition.pages)
+    ? (edition.pages as Array<Record<string, unknown>>)
+    : []
+  ).find((x) => x.type === "cover");
+  const hasCoverImage =
+    typeof coverPage?.image === "string" && coverPage.image !== "";
+  const cover = isObject(provenance.cover) ? provenance.cover : undefined;
+  if (hasCoverImage && cover === undefined) {
+    issues.push({
+      path: `${at}.cover`,
+      message: "edition declares cover.image but the record has no cover block",
+    });
+  }
+  if (cover !== undefined) {
+    if (!hasCoverImage) {
+      issues.push({
+        path: `${at}.cover`,
+        message: "cover block present but the edition declares no cover.image",
+      });
+    }
+    if (typeof cover.generator !== "string" || cover.generator === "") {
+      issues.push({ path: `${at}.cover.generator`, message: "generator must be a non-empty string" });
+    }
+    if (typeof cover.composition !== "string" || cover.composition === "") {
+      issues.push({ path: `${at}.cover.composition`, message: "composition must be a non-empty string" });
+    }
+    if (typeof cover.seed !== "string" || !HEX64_RE.test(cover.seed)) {
+      issues.push({ path: `${at}.cover.seed`, message: "seed must be sha256 hex (64 chars)" });
+    } else if (cover.seed !== coverSeed(edition as Record<string, unknown>)) {
+      issues.push({
+        path: `${at}.cover.seed`,
+        message: "recorded seed does not match the edition's canonical digest",
+      });
     }
   }
 

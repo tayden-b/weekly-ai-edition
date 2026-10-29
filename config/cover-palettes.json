@@ -1,0 +1,41 @@
+{
+  "description": "Curated cover palettes for @weekly/cover (T3) — muted colour-field tones per STYLE.md §9: quiet off-tones on a paper-like ground with at most one warm accent region. Art data, not UI tokens; referenced by name from provenance.",
+  "palettes": [
+    {
+      "name": "dune",
+      "ground": "#F1EDE3",
+      "fields": ["#E7DFCA", "#DCCFB2", "#CABD9D", "#B4A586"],
+      "accent": "#B86038"
+    },
+    {
+      "name": "fog",
+      "ground": "#EEF0EB",
+      "fields": ["#E0E5DD", "#CCD5C6", "#B4C1AC", "#9DAE96"],
+      "accent": "#B4653C"
+    },
+    {
+      "name": "clay",
+      "ground": "#F3EEE7",
+      "fields": ["#E8DCCD", "#D7C4AC", "#C2A78A", "#AD8F74"],
+      "accent": "#AE4A2E"
+    },
+    {
+      "name": "slate-dawn",
+      "ground": "#EFF0EF",
+      "fields": ["#DEE3E4", "#C6D0D4", "#AAB9C0", "#92A2AC"],
+      "accent": "#C1694A"
+    },
+    {
+      "name": "sage",
+      "ground": "#F0F1EA",
+      "fields": ["#E1E6D6", "#C7D2B7", "#ACB997", "#93A07D"],
+      "accent": "#BB5A36"
+    },
+    {
+      "name": "dusk",
+      "ground": "#EFEDEA",
+      "fields": ["#E0DBD6", "#CAC2BE", "#AEA5A4", "#948986"],
+      "accent": "#B95A40"
+    }
+  ]
+}
