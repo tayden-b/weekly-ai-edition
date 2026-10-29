@@ -69,9 +69,12 @@ function prefersReducedMotion(): boolean {
 export function DeckView({
   edition,
   siteName,
+  coverSrc,
 }: {
   edition: Edition;
   siteName: string;
+  /** Resolved cover src — the server may inline a small AVIF as a data URI. */
+  coverSrc?: string | undefined;
 }) {
   const cards = buildDeck(edition);
   const links = agentLinks(edition);
@@ -209,7 +212,9 @@ export function DeckView({
           <>
             <CoverImage
               issueNo={edition.issue_number}
-              {...(page.image ? { src: `/${page.image}`, alt: "" } : {})}
+              {...(coverSrc || page.image
+                ? { src: coverSrc ?? `/${page.image}`, alt: "" }
+                : {})}
             />
             {page.deck ? <p className="dv-dek">{page.deck}</p> : null}
           </>

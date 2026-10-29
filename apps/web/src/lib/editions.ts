@@ -107,6 +107,23 @@ export function listEditionAssets(): { issue: string; filename: string }[] {
 }
 
 /**
+ * A cover AVIF small enough to inline beats a second fetch: the img paints
+ * with the HTML instead of waiting on a network round-trip (the cover is
+ * the issue page's LCP element). Returns a `data:` URI, or undefined when
+ * there is no image or it exceeds the inline cap.
+ */
+export function coverDataUri(
+  issueId: string,
+  image: string | undefined,
+): string | undefined {
+  const INLINE_COVER_MAX = 20_480;
+  if (!image?.endsWith(".avif")) return undefined;
+  const bytes = getEditionAsset(issueId, image.slice(image.lastIndexOf("/") + 1));
+  if (!bytes || bytes.byteLength > INLINE_COVER_MAX) return undefined;
+  return `data:image/avif;base64,${bytes.toString("base64")}`;
+}
+
+/**
  * One committed cover asset's bytes (`editions/<issue>/<filename>`), or
  * undefined. Filename is whitelist-validated — no traversal possible.
  */

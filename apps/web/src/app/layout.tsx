@@ -35,16 +35,17 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body>
         {/* Self-hosted font preloads — React 19 hoists <link> into <head>. */}
+        {/* inter-var first: it renders the LCP body text on deck cards. */}
         <link
           rel="preload"
-          href="/fonts/inter-tight-var.woff2"
+          href="/fonts/inter-var.woff2"
           as="font"
           type="font/woff2"
           crossOrigin="anonymous"
         />
         <link
           rel="preload"
-          href="/fonts/inter-var.woff2"
+          href="/fonts/inter-tight-var.woff2"
           as="font"
           type="font/woff2"
           crossOrigin="anonymous"
