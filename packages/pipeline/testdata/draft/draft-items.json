@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "description": "Labelled draft set for the draft stage (P6). Real public items from data/raw/2026-10-28 (reusing the classification and extraction labelled sets) grouped into ExtractedCluster-shaped inputs, plus the prose expectations the harness checks. See README.md in this directory for the format and harness contract.",
+  "pages": [
+    "deals",
+    "discourse",
+    "funding",
+    "launches",
+    "markets",
+    "models",
+    "performance",
+    "unsorted"
+  ],
+  "items": [
+    {
+      "id": "models-001",
+      "page": "models",
+      "members": [
+        {
+          "headline": "Gemini 4 Argon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "publisher": "Google",
+          "published_at": "2026-09-30",
+          "excerpt": "Google DeepMind's announcement of Gemini 4 Argon in the Gemini model series."
+        }
+      ],
+      "companies": [
+        "google-deepmind"
+      ],
+      "expect": {},
+      "notes": "Gemini 4 Argon — flagship model release."
+    },
+    {
+      "id": "models-002",
+      "page": "models",
+      "members": [
+        {
+          "headline": "DeepSeek v4",
+          "url": "https://api-docs.deepseek.com/news/news260424",
+          "publisher": "DeepSeek",
+          "published_at": "2026-04-24",
+          "excerpt": "DeepSeek announces the v4 model release on its API changelog."
+        }
+      ],
+      "companies": [
+        "deepseek"
+      ],
+      "expect": {}
+    },
+    {
+      "id": "models-003",
+      "page": "models",
+      "members": [
+        {
+          "headline": "Kimi K3: Open Frontier Intelligence",
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "publisher": "Moonshot AI",
+          "published_at": "2026-07-16",
+          "excerpt": "Moonshot AI releases Kimi K3, an open-weight frontier model."
+        }
+      ],
+      "companies": [
+        "moonshot-ai"
+      ],
+      "expect": {}
+    },
+    {
+      "id": "performance-001",
+      "page": "performance",
+      "members": [
+        {
+          "headline": "Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs",
+          "url": "https://arxiv.org/abs/2610.35985",
+          "publisher": "arXiv",
+          "published_at": "2026-10-26",
+          "excerpt": "Conditional memory layers, such as DeepSeek's Engram, attach large hashed n-gram tables to a language model, and removing them from DeepSeek-V4.1-Flash costs 36.8 PopQA points. Low-bit quantization loses long-tail facts first, and the standard remedy, giving more bits to frequently accessed rows,"
+        }
+      ],
+      "extracted": {
+        "metric_name": "PopQA",
+        "metric_value": "36.8"
+      },
+      "expect": {},
+      "notes": "Paper benchmark item."
+    },
+    {
+      "id": "performance-002",
+      "page": "performance",
+      "members": [
+        {
+          "headline": "LMArena text — Claude Opus 5.5 (High) (#2)",
+          "url": "https://lmarena.ai/leaderboard",
+          "publisher": "LMArena",
+          "published_at": "2026-10-22",
+          "excerpt": "rank: 2 · rating: 1516.16649584179 · vote_count: 10322 · organization: anthropic · leaderboard_publish_date: 2026-10-22"
+        }
+      ],
+      "companies": [
+        "anthropic"
+      ],
+      "extracted": {
+        "metric_name": "rank",
+        "metric_value": "2"
+      },
+      "expect": {}
+    },
+    {
+      "id": "performance-003",
+      "page": "performance",
+      "members": [
+        {
+          "headline": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+          "url": "https://openai.com/index/anima",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-23",
+          "excerpt": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients."
+        }
+      ],
+      "companies": [
+        "openai"
+      ],
+      "expect": {}
+    },
+    {
+      "id": "launches-001",
+      "page": "launches",
+      "members": [
+        {
+          "headline": "ChatGPT agent: bridging research and action",
+          "url": "https://openai.com/index/introducing-chatgpt-agent/",
+          "publisher": "OpenAI",
+          "published_at": "2025-07-17",
+          "excerpt": "OpenAI ships the ChatGPT agent product — a tool-using mode that can browse and act, available to subscribers."
+        }
+      ],
+      "companies": [
+        "openai"
+      ],
+      "expect": {}
+    },
+    {
+      "id": "launches-002",
+      "page": "launches",
+      "members": [
+        {
+          "headline": "OpenAI unveils its first custom chip, built by Broadcom",
+          "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+          "publisher": "TechCrunch",
+          "published_at": "2026-06-24",
+          "excerpt": "TechCrunch covers OpenAI unveiling its first custom silicon, fabricated with Broadcom."
+        }
+      ],
+      "companies": [
+        "openai",
+        "broadcom"
+      ],
+      "expect": {}
+    },
+    {
+      "id": "funding-001",
+      "page": "funding",
+      "members": [
+        {
+          "headline": "Foundry Robotics Raises $100 Million Series A to Build America’s First Autonomous Factory Network",
+          "url": "https://www.businesswire.com/news/home/20261028508802/en/Foundry-Robotics-Raises-100-Million-Series-A",
+          "publisher": "Business Wire",
+          "published_at": "2026-10-28",
+          "excerpt": "EMERYVILLE, Calif.--(BUSINESS WIRE)--Foundry Robotics today announced its oversubscribed $100 million Series A funding round led by Marlinspike Partners. Participating in the round are early backers Khosla Ventures and Red Glass Ventures, and new investors SE Ventures, Wing VC, and Axiom Ventures,"
+        }
+      ],
+      "companies": [
+        "foundry-robotics"
+      ],
+      "extracted": {
+        "amount": "$100M",
+        "amount_usd": 100000000,
+        "stage": "Series A",
+        "lead_investor": "Marlinspike Partners"
+      },
+      "expect": {
+        "headline": "Foundry Robotics raised $100M Series A led by Marlinspike Partners"
+      },
+      "notes": "Full format: amount+stage+lead all extracted."
+    },
+    {
+      "id": "funding-002",
+      "page": "funding",
+      "members": [
+        {
+          "headline": "DeepSeek reportedly raises $15B days after US restrictions",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+          "publisher": "TechCrunch",
+          "published_at": "2026-10-22",
+          "excerpt": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns."
+        }
+      ],
+      "companies": [
+        "deepseek"
+      ],
+      "extracted": {
+        "amount": "$15B",
+        "amount_usd": 15000000000
+      },
+      "expect": {
+        "headline": "DeepSeek raised $15B"
+      },
+      "notes": "No stage/lead — headline truncates at amount."
+    },
+    {
+      "id": "deals-001",
+      "page": "deals",
+      "members": [
+        {
+          "headline": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
+          "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisitio",
+          "publisher": "Hacker News",
+          "published_at": "2026-10-28",
+          "excerpt": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar"
+        }
+      ],
+      "companies": [
+        "amazon",
+        "globalstar"
+      ],
+      "extracted": {
+        "acquirer": "Amazon Leo",
+        "target": "Globalstar",
+        "amount": "$11.5B",
+        "amount_usd": 11500000000
+      },
+      "expect": {}
+    },
+    {
+      "id": "deals-002",
+      "page": "deals",
+      "members": [
+        {
+          "headline": "Hummingbird Acquires Quantimon to Bring Machine Learning to AML Transaction Monitoring for FIs",
+          "url": "https://www.businesswire.com/news/home/20261028117784/en/Hummingbird-Acquires-Quantimon-to-Bring-Mach",
+          "publisher": "Business Wire",
+          "published_at": "2026-10-28",
+          "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--Hummingbird, the AI-powered orchestration platform for financial crime compliance, today announced the acquisition of Quantimon, the machine learning platform for AML risk detection. The acquisition deepens Hummingbird's investment in transaction monitoring, bringing"
+        }
+      ],
+      "companies": [
+        "hummingbird",
+        "quantimon"
+      ],
+      "extracted": {
+        "acquirer": "Hummingbird",
+        "target": "Quantimon"
+      },
+      "expect": {}
+    },
+    {
+      "id": "discourse-001",
+      "page": "discourse",
+      "members": [
+        {
+          "headline": "The AI bubble is 17 times the size of the dot-com frenzy and four times subprime",
+          "url": "https://www.morningstar.com/news/marketwatch/20251003175/the-ai-bubble-is-17-times-the-size-of-the-dot-com-frenzy-and-four-times-subprime-this-analyst-argues",
+          "publisher": "Morningstar",
+          "published_at": "2025-10-06",
+          "excerpt": "MarketWatch/Morningstar carries an analyst's bubble-size argument — contested across finance and AI press."
+        },
+        {
+          "headline": "The Hater's Guide to the AI Bubble",
+          "url": "https://www.wheresyoured.at/the-haters-gui/",
+          "publisher": "Where's Your Ed At",
+          "published_at": "2025-07-22",
+          "excerpt": "Ed Zitron's viral case that AI is an unsustainable bubble — one side of the week's biggest industry argument."
+        }
+      ],
+      "expect": {
+        "headline_pattern": "\\?$"
+      },
+      "notes": "AI-bubble discourse: Morningstar + Ed Zitron — two publishers (R8), question headline (R7)."
+    },
+    {
+      "id": "discourse-002",
+      "page": "discourse",
+      "members": [
+        {
+          "headline": "Anthropic tries to hide Claude's AI actions. Devs hate it",
+          "url": "https://www.theregister.com/2026/02/16/anthropic_claude_ai_edits/",
+          "publisher": "The Register",
+          "published_at": "2026-02-16",
+          "excerpt": "The Register covers developer anger over Anthropic obscuring Claude's tool actions — a transparency controversy."
+        },
+        {
+          "headline": "Perplexity is using stealth, undeclared crawlers to evade no-crawl directives",
+          "url": "https://blog.cloudflare.com/perplexity-is-using-stealth-undeclared-crawlers-to-evade-website-no-crawl-directives/",
+          "publisher": "Cloudflare",
+          "published_at": "2025-08-04",
+          "excerpt": "Cloudflare's accusation that Perplexity evades no-crawl directives — contested by Perplexity."
+        }
+      ],
+      "companies": [
+        "anthropic",
+        "cloudflare",
+        "perplexity"
+      ],
+      "expect": {},
+      "notes": "Covert-AI-behaviour discourse: Register + Cloudflare, two publishers."
+    },
+    {
+      "id": "markets-001",
+      "page": "markets",
+      "members": [
+        {
+          "headline": "NVIDIA weekly bars",
+          "url": "https://stooq.com/q/d/l/?s=nvda.us&i=w",
+          "publisher": "Stooq",
+          "published_at": "2026-10-30",
+          "excerpt": "NVIDIA (NVDA) week ending 2026-10-30: close 192.44, +4.3% vs prior weekly close 184.62 (Stooq weekly bars, i=w)."
+        }
+      ],
+      "companies": [
+        "nvidia"
+      ],
+      "extracted": {
+        "ticker": "NVDA",
+        "close": 192.44,
+        "change_pct": 4.3
+      },
+      "expect": {},
+      "notes": "Dataset page: no prose; proves DRAFT_PAGES skip."
+    },
+    {
+      "id": "unsorted-001",
+      "page": "unsorted",
+      "members": [
+        {
+          "headline": "React 19",
+          "url": "https://react.dev/blog/2024/12/05/react-19",
+          "publisher": "React",
+          "published_at": "2024-12-05",
+          "excerpt": "The stable React 19 release — a major version bump of a non-AI software project."
+        }
+      ],
+      "expect": {},
+      "notes": "Unsorted never reaches an edition page (R14); proves skip."
+    }
+  ]
+}

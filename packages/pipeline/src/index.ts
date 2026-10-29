@@ -4,7 +4,7 @@
  *
  * C5 lands the adapter interface and `RawItem`; A1–A10 the adapters;
  * P1 the normalize + dedupe stages; P2–P7 the rest. `PIPELINE_STAGES`
- * keeps the canonical order. Stages landed so far: P1, P2, P3, P4, P5.
+ * keeps the canonical order. Stages landed so far: P1, P2, P3, P4, P5, P6.
  */
 
 export const PIPELINE_STAGES = [
@@ -191,27 +191,88 @@ export {
   renderExtractPrompt,
 } from "./stages/extract.js";
 
+// P6 — draft stage (PLAN §5.2; one-liners + Briefing via the llm() seam)
+export {
+  applyDraft,
+  assertDraftResponse,
+  bannedHits,
+  bannedOpeningHit,
+  bannedOpeningsFromStyle,
+  bannedTermsFromStyle,
+  BRIEFING_MAX_SENTENCES,
+  BRIEFING_MIN_SENTENCES,
+  type BriefingDraft,
+  buildDraftRequest,
+  canonNumber,
+  clusterSourceText,
+  draft,
+  DRAFT_PAGES,
+  DRAFT_PROMPT_VERSION,
+  DraftContractError,
+  type DraftedCluster,
+  type DraftDrop,
+  type DraftMono,
+  type DraftOptions,
+  type DraftOutput,
+  type DraftPage,
+  type DraftRequest,
+  type DraftRequestItem,
+  type DraftResponse,
+  type DraftResponseItem,
+  type DraftSourceRef,
+  type DraftCompanyRef,
+  FUNDING_HEADLINE_RE,
+  fundingCompany,
+  fundingHeadline,
+  isDraftPage,
+  type ItemDraft,
+  normalizeTake,
+  numberTokens,
+  numberTraced,
+  ONE_LINER_MAX_CHARS,
+  PAGE_ITEM_CAPS,
+  proseKey,
+  quotedSpans,
+  renderDraftPrompt,
+  rubricCheck,
+  type RubricCheckResult,
+  type RubricReport,
+  type RubricStatus,
+  splitSentences,
+  styleRulesFromStyleMd,
+  type StyleRules,
+} from "./stages/draft.js";
+
 // P4 — the llm() seam: session hand-off files + deterministic replay (PLAN §8)
 export {
   CLASSIFY_PROMPT_PATH,
   classificationPaths,
+  createReplayDrafter,
+  createReplayDrafterFromFile,
   createReplayExtractor,
   createReplayExtractorFromFile,
   createReplayLlm,
   createReplayLlmFromFile,
+  createSessionDrafter,
   createSessionExtractor,
   createSessionLlm,
+  DRAFT_PROMPT_PATH,
+  type DraftLlm,
+  draftPaths,
   EXTRACT_PROMPT_PATH,
   type ExtractLlm,
   extractionPaths,
   type Llm,
   readClassificationResponse,
+  readDraftResponse,
   readExtractionResponse,
   SESSION_LLM_POLL_MS,
   SESSION_LLM_TIMEOUT_MS,
+  type SessionDrafterOptions,
   type SessionExtractorOptions,
   type SessionLlmOptions,
   writeClassificationRequest,
+  writeDraftRequest,
   writeExtractionRequest,
 } from "./llm.js";
 

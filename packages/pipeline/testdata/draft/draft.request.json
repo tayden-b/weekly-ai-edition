@@ -1,0 +1,344 @@
+{
+  "week": "labeled-set",
+  "prompt_version": 1,
+  "style_rev": "25e18d610b9cbdca74cd2956c508c775737ad3de",
+  "style_md": "# STYLE.md — the editorial contract of The Weekly AI Edition\n\nThis file is the single source of truth for how the product reads. DESIGN.md owns\nhow it looks; STYLE.md owns how it speaks. Every stage that produces prose —\ndrafting (P6), verification (P7), the Weekly Edition session (PLAN §8), and human\nreview — is bound by this file. Nothing here is optional.\n\nIf a draft breaks a rule, the draft is wrong. If a rule cannot be checked\nmechanically, the rubric (§10) does not cover it — but reviewers still apply it.\n\n## 1. Voice\n\nCalm, precise, zero hype. The register is a wire desk that respects the reader's\ntime, not a launch marketer.\n\n- Report what happened and why it matters. Never sell, never cheer, never tease.\n- Concrete nouns and precise verbs; short declarative sentences; no throat-clearing.\n- Numbers are exact and sourced (\"$6.5B\", \"6 GW\", \"+4.1%\"). Never round a number up\n  for effect. Never hedge a number that exists (\"about\", \"nearly\") unless the source\n  itself estimates it.\n- Companies are named, not characterized. \"Anthropic\", never \"the AI darling\" or\n  \"the $183B lab\".\n- No editorializing adjectives in news voice. The one sanctioned place for opinion\n  is the take slot (§4).\n- Time is stated plainly: \"Monday\", \"Oct 27\", never \"just days ago\" or \"recently\"\n  inside dated pages.\n- Second person is never addressed. No \"you\", no \"we\" except the colophon.\n- Product and model names keep their own spelling (DeepSeek-R1, Claude Opus 4.6,\n  Gemini 4 Argon, GPT-5.6); version numbers and money are set in mono by the\n  renderer — mark them for mono in draft output (§10, R13).\n\n## 2. One-liners\n\nEvery item carries a one-liner: **what it is + why it matters, in at most ~140\ncharacters and exactly one sentence.**\n\n- Structure: `[fact of the item] — [why a reader should care]`, or a single\n  compressed clause if that reads better.\n- The one-liner must add information the headline does not carry; it is never a\n  restatement of the headline.\n- Facts only. \"Why it matters\" is significance, not enthusiasm: cost, scale, who\n  is affected, what changed.\n- Plain text, no links, no emoji, no markup except the mono markers and the take\n  em-dash in §4.\n- Ends with a period. No fragments.\n- Banned openings: \"In a move that…\", \"This week, …\", \"Just announced…\",\n  \"X just dropped…\", \"Big news:\", \"ICYMI\".\n\n## 3. The Briefing\n\n5–7 sentences, no links, synthesis not summary. The page people screenshot; it\nmust stand alone without the rest of the issue.\n\n- Lead with consequence: the week's single most important development comes first,\n  not the most clickable one.\n- Connect items — cause, response, parallel, contrast. The Briefing reads as one\n  argument about the week, not a stack of five mini-summaries.\n- Every claim must trace to at least one classified item in the issue. No outside\n  knowledge, no claims the edition cannot back. (Enforced by P7 entailment.)\n- Never enumerate pages or sections (\"in funding news…\", \"meanwhile in models…\").\n- Never tease (\"and this is only the beginning\"), predict, or close on hype.\n- It names real companies, products, and numbers — the density is the point —\n  while still reading as calm prose at `--t-2xl`.\n- Dates inside the Briefing are relative to the issue (\"on Tuesday\"), never\n  absolute where a reader could miss the frame.\n\n## 4. Takes\n\nA take is a short, sharp, defensible observation attached to an item — the kind a\nsmart editor would say out loud. Set in italics after an em-dash.\n\n- Format: ` — *take text*` appended to the one-liner.\n- Rare: at most one take per page; zero is the default and always acceptable.\n- A take may extrapolate significance but may never invent facts, predict, or\n  editorialize beyond what the items support.\n- Never snark, never \"this changes everything\", never punch down.\n\n## 5. Discourse framing\n\nDiscourse covers the week's drama and debate. The reader decides; we frame.\n\n- The headline of every Discourse item is a question (\"Is AI reasoning an\n  illusion?\", \"Who pays for crawling?\").\n- Every Discourse item links both sides: ≥ 2 sources from ≥ 2 distinct publishers\n  (PLAN §5.3). One side is never allowed to stand alone.\n- The one-liner states what is actually being argued — position A vs position B —\n  with no verdict and no \"raises questions\" hand-waving.\n- We report the debate; we never join it. No takes on Discourse items.\n\n## 6. Per-page house rules\n\n| Page | Writing rule |\n|---|---|\n| Cover | Headline is the week's single most important item, chosen from the classified items. The deck adds exactly one line of context. `--accent` lives only here on desktop (DESIGN §3). |\n| Briefing | See §3. 5–7 sentences, no links. |\n| Models & Releases | The lab is the source label. Version numbers in mono. Compare against the predecessor or the field, never against hype (\"matches GPT-5 on ARC-AGI-3\", not \"crushes the competition\"). |\n| Performance | Every item carries a number (score, rank delta) in mono. Say what the benchmark actually measures before what it scored. |\n| Launches | Name the thing shipped and who can use it today. Availability beats announcement (\"available to all users\", not \"coming soon\"). |\n| Funding | Format: `**Company** raised **$Xm** <stage> led by <Lead>` — e.g. \"**Anthropic** raised **$13B** Series F led by Iconiq\". Amount and stage in mono. Undisclosed amounts: write \"undisclosed\", never guess. Valuation belongs in the one-liner, not the headline format. |\n| Deals | Acquirer → target order; amount if public, else \"undisclosed\". Acqui-hires are named acqui-hires. Partnerships state what each side actually commits (gigawatts, dollars, seats) — not \"strategic\". |\n| Markets | Week-over-week moves only. Numbers in mono. One chart, ≤ 10 tickers, basket fixed in `config/markets.json`. No targets, no predictions, no \"as investors cheered\" — just the move and its proximate cause if sourced. |\n| Discourse | See §5. Question-framed headline, both sides linked, no verdict. |\n| Most Covered | Derived from our own tagged items; no prose to write. |\n| Back Page | Fixed blocks only (sources, how it's made, agent access). No prose. |\n\n## 7. Banned patterns\n\nThe following are never acceptable in any produced text. The word bans are\nenforced mechanically (§10, R5); the rest are reviewer-enforced.\n\n**Hype words:** revolutionary, game-changer(-ing), groundbreaking, cutting-edge,\nbleeding-edge, jaw-dropping, mind-blowing, incredible, amazing, stunning,\nunprecedented, seismic, explosive, massive, insane, crazy, turbocharge(d),\nsupercharge(d), unlock(ed) (as a verb of value), unleash(ed), disrupt(ive),\ndemocratize(d), skyrocket(s), soar(s) (use \"rose\"/\"fell\"), game changing, huge,\nenormous (unless a literal measure), turbo.\n\n**Engagement bait:** \"Here's why that matters\", \"everything you need to know\",\n\"you won't believe\", \"read that again\", \"don't miss\", \"🔥\", exclamation marks,\nquestions addressed to the reader outside Discourse framing, urgency or FOMO\nframing, listicle framing.\n\n**Vague significance:** \"raises questions\", \"sparks debate\" (name the debate),\n\"could change everything\", \"signals a shift\" without naming the shift, \"only time\nwill tell\", \"the implications are clear\".\n\n**Overclaim:** predictions stated as fact, AGI timelines asserted, \"will\" for\nspeculation, superlatives not sourced from a benchmark, \"the first ever\" unless\nverifiably first.\n\n**Attribution dodges:** \"some say\", \"critics argue\", \"it is believed\" without a\nnamed source; anonymous authority.\n\n**Clichés and AI-tell phrasing:** \"delve\", \"tapestry\", \"testament\", \"navigate the\nlandscape\", \"in today's fast-paced world\", \"a new era\", \"paradigm shift\",\nunderscore/highlight/underscore as verbs.\n\n**Content exclusions (PLAN §2):** nothing sourced from X/Twitter; no republished\narticle bodies; nothing sourced from HashiCorp, IBM, or customer interviews; no\n\"AI-generated\" disclaimers or apology copy in the product.\n\n## 8. Classification taxonomy\n\nThe page types are the taxonomy. A classified item is assigned exactly one of the\nseven item-bearing page labels below, or `unsorted`. The derived pages — Cover,\nBriefing, Most Covered, Back Page — are built from classified items and are never\nclassification targets.\n\n| Label | What belongs | What does not |\n|---|---|---|\n| `models` | New models and weights, major version bumps, API/model changes, flagship OSS release tags (vLLM, llama.cpp, Ollama, LangChain). Vendor's own announcement counts. | Product surfaces wrapped around a model (→ `launches`), benchmark results about a model (→ `performance`). |\n| `performance` | Benchmark results and moves, leaderboard changes, notable evals, papers-with-results, eval-methodology news. | A model announcement that happens to quote scores (→ `models`). |\n| `launches` | Products and features shipped to users: apps, tools, agent modes, hardware, SDKs, public availability. | A model's release note (→ `models`); an announcement of intent without availability (→ `unsorted` unless contested → `discourse`). |\n| `funding` | Private rounds, IPOs and offerings, valuations, fund raises. | Revenue figures and market-cap moves (→ `markets`); acquisitions (→ `deals`). |\n| `deals` | Acquisitions, acqui-hires, major partnerships/JVs, large commercial compute/cloud contracts. | Product deals (a reseller agreement) too small to matter (→ `unsorted`). |\n| `markets` | Price and market-cap moves of the AI basket and AI pure plays; public-market events (index inclusion, trading halts) on those names. | Anything not about a listed/basket name (→ `unsorted`). |\n| `discourse` | The contested debate of the week: lawsuits, policy fights, viral critiques, safety controversies — always framed as a question with ≥ 2 publishers. | A lone press release, a settled announcement, celebrity opinion (→ `unsorted`). |\n| `unsorted` | Everything else: non-AI tech, policy announcements without a live debate, tutorials, AMAs/Ask HNs, research without results, single-publisher drama, and every item whose classification confidence is < 0.7. | — |\n\nBoundary rules:\n\n- Classify by substance, not by the presence of the word \"AI\".\n- Confidence below 0.7 → `unsorted`, always (enforced in code by P4).\n- Company tags come only from `config/companies.yaml` slugs; an item whose\n  substance is a company absent from the registry → `unsorted`. The registry is\n  never extended implicitly by classification (PLAN §5.3).\n- An item matching two pages takes the page its *decision-relevant* substance is\n  about: a funding round is `funding` even if the round narrative mentions a new\n  model.\n\n## 9. Cover imagery (DESIGN §1.5, §7.4)\n\nCovers are typographic in v1; generation is deferred to T3. When generated, the\npipeline produces one candidate per issue and the human approves it in the issue\nPR. The generation prompt and its constraints are versioned here:\n\n> Abstract material study on warm paper: soft fields of muted colour, gentle\n> directional light, fine pigment texture. Calm, editorial, matte. No objects,\n> no people, no text, no logos, no metaphors.\n\nConstraints: muted palette on paper tones only; never people, products, screens,\nrobots, circuitry, text, or watermarks; never stock photography or article\nphotos; assets `editions/<week>/cover.jpg` at 2000×2500 portrait plus a\n2400×1350 landscape crop, ≤ 180 KB AVIF preferred.\n\n## 10. The drafting rubric\n\nBinary pass/fail checks a reviewer (and P6's self-check) applies to every draft\nedition. A failure is never a taste call: if a check cannot be decided without\ntaste, it is not in this table.\n\n| # | Check | Pass condition | Applies to |\n|---|---|---|---|\n| R1 | Briefing length | 5–7 sentences (sentences split on terminal `.`, `?`, `!` after stripping mono/markup) | Briefing |\n| R2 | Briefing purity | zero occurrences of `http://`, `https://`, or `[` link syntax in the briefing text | Briefing |\n| R3 | One-liner length | `len(one_liner) ≤ 140` for every item | every item |\n| R4 | One-liner ≠ headline | normalized `one_liner != headline` for every item | every item |\n| R5 | Banned words | none of §7's banned words/phrases appear as whole words in any produced text | all prose |\n| R6 | Traceability | every company name, product name, number, and quoted fact in produced text appears verbatim in the `sources[]` excerpts/records of the item or the issue's classified items | Briefing, one-liners, takes |\n| R7 | Discourse framing | every Discourse headline ends with `?` | Discourse |\n| R8 | Discourse sources | every Discourse item's `sources[]` spans ≥ 2 distinct publishers | Discourse |\n| R9 | Funding format | every Funding headline matches `**{Company}** raised **${amount}** {stage} led by {Lead}` or explicitly states `undisclosed` | Funding |\n| R10 | Take quota | ≤ 1 item per page carries a take, and every take is formatted ` — *…*` (em-dash, italic, no trailing period required) | every page |\n| R11 | No emoji / exclamation | no emoji and no `!` in produced text | all prose |\n| R12 | Number sanity | every number in produced text is prefixed/marked for mono per §1 and matches a source number exactly | all prose |\n| R13 | Item cap | no page exceeds its DESIGN §3 `maxItems` | every page |\n| R14 | Unsorted hygiene | no `unsorted` item appears on any edition page | edition |\n\n**Scoring:** a draft passes the rubric iff every applicable check passes. There\nare no partial credits and no weighted scores — the rubric is a gate, not a\ngrade.\n",
+  "items": [
+    {
+      "id": "models-001",
+      "page": "models",
+      "headline": "Gemini 4 Argon",
+      "publisher": "Google",
+      "published_at": "2026-09-30",
+      "companies": [
+        {
+          "slug": "google-deepmind",
+          "name": "Google DeepMind"
+        }
+      ],
+      "extracted": {},
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Google",
+          "excerpt": "Google DeepMind's announcement of Gemini 4 Argon in the Gemini model series."
+        }
+      ]
+    },
+    {
+      "id": "models-002",
+      "page": "models",
+      "headline": "DeepSeek v4",
+      "publisher": "DeepSeek",
+      "published_at": "2026-04-24",
+      "companies": [
+        {
+          "slug": "deepseek",
+          "name": "DeepSeek"
+        }
+      ],
+      "extracted": {},
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "DeepSeek",
+          "excerpt": "DeepSeek announces the v4 model release on its API changelog."
+        }
+      ]
+    },
+    {
+      "id": "models-003",
+      "page": "models",
+      "headline": "Kimi K3: Open Frontier Intelligence",
+      "publisher": "Moonshot AI",
+      "published_at": "2026-07-16",
+      "companies": [
+        {
+          "slug": "moonshot-ai",
+          "name": "Moonshot AI"
+        }
+      ],
+      "extracted": {},
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Moonshot AI",
+          "excerpt": "Moonshot AI releases Kimi K3, an open-weight frontier model."
+        }
+      ]
+    },
+    {
+      "id": "performance-001",
+      "page": "performance",
+      "headline": "Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26",
+      "companies": [],
+      "extracted": {
+        "metric_name": "PopQA",
+        "metric_value": "36.8"
+      },
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "arXiv",
+          "excerpt": "Conditional memory layers, such as DeepSeek's Engram, attach large hashed n-gram tables to a language model, and removing them from DeepSeek-V4.1-Flash costs 36.8 PopQA points. Low-bit quantization loses long-tail facts first, and the standard remedy, giving more bits to frequently accessed rows,"
+        }
+      ]
+    },
+    {
+      "id": "performance-002",
+      "page": "performance",
+      "headline": "LMArena text — Claude Opus 5.5 (High) (#2)",
+      "publisher": "LMArena",
+      "published_at": "2026-10-22",
+      "companies": [
+        {
+          "slug": "anthropic",
+          "name": "Anthropic"
+        }
+      ],
+      "extracted": {
+        "metric_name": "rank",
+        "metric_value": "2"
+      },
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "LMArena",
+          "excerpt": "rank: 2 · rating: 1516.16649584179 · vote_count: 10322 · organization: anthropic · leaderboard_publish_date: 2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "performance-003",
+      "page": "performance",
+      "headline": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "publisher": "OpenAI",
+      "published_at": "2026-10-23",
+      "companies": [
+        {
+          "slug": "openai",
+          "name": "OpenAI"
+        }
+      ],
+      "extracted": {},
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "OpenAI",
+          "excerpt": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients."
+        }
+      ]
+    },
+    {
+      "id": "launches-001",
+      "page": "launches",
+      "headline": "ChatGPT agent: bridging research and action",
+      "publisher": "OpenAI",
+      "published_at": "2025-07-17",
+      "companies": [
+        {
+          "slug": "openai",
+          "name": "OpenAI"
+        }
+      ],
+      "extracted": {},
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "OpenAI",
+          "excerpt": "OpenAI ships the ChatGPT agent product — a tool-using mode that can browse and act, available to subscribers."
+        }
+      ]
+    },
+    {
+      "id": "launches-002",
+      "page": "launches",
+      "headline": "OpenAI unveils its first custom chip, built by Broadcom",
+      "publisher": "TechCrunch",
+      "published_at": "2026-06-24",
+      "companies": [
+        {
+          "slug": "broadcom",
+          "name": "Broadcom"
+        },
+        {
+          "slug": "openai",
+          "name": "OpenAI"
+        }
+      ],
+      "extracted": {},
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "TechCrunch",
+          "excerpt": "TechCrunch covers OpenAI unveiling its first custom silicon, fabricated with Broadcom."
+        }
+      ]
+    },
+    {
+      "id": "funding-001",
+      "page": "funding",
+      "headline": "Foundry Robotics Raises $100 Million Series A to Build America’s First Autonomous Factory Network",
+      "publisher": "Business Wire",
+      "published_at": "2026-10-28",
+      "companies": [
+        {
+          "slug": "foundry-robotics",
+          "name": "Foundry Robotics"
+        }
+      ],
+      "extracted": {
+        "amount": "$100M",
+        "amount_usd": 100000000,
+        "stage": "Series A",
+        "lead_investor": "Marlinspike Partners"
+      },
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Business Wire",
+          "excerpt": "EMERYVILLE, Calif.--(BUSINESS WIRE)--Foundry Robotics today announced its oversubscribed $100 million Series A funding round led by Marlinspike Partners. Participating in the round are early backers Khosla Ventures and Red Glass Ventures, and new investors SE Ventures, Wing VC, and Axiom Ventures,"
+        }
+      ]
+    },
+    {
+      "id": "funding-002",
+      "page": "funding",
+      "headline": "DeepSeek reportedly raises $15B days after US restrictions",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-22",
+      "companies": [
+        {
+          "slug": "deepseek",
+          "name": "DeepSeek"
+        }
+      ],
+      "extracted": {
+        "amount": "$15B",
+        "amount_usd": 15000000000
+      },
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "TechCrunch",
+          "excerpt": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns."
+        }
+      ]
+    },
+    {
+      "id": "deals-001",
+      "page": "deals",
+      "headline": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-28",
+      "companies": [
+        {
+          "slug": "amazon",
+          "name": "Amazon"
+        },
+        {
+          "slug": "globalstar",
+          "name": "Globalstar"
+        }
+      ],
+      "extracted": {
+        "acquirer": "Amazon Leo",
+        "target": "Globalstar",
+        "amount": "$11.5B",
+        "amount_usd": 11500000000
+      },
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Hacker News",
+          "excerpt": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar"
+        }
+      ]
+    },
+    {
+      "id": "deals-002",
+      "page": "deals",
+      "headline": "Hummingbird Acquires Quantimon to Bring Machine Learning to AML Transaction Monitoring for FIs",
+      "publisher": "Business Wire",
+      "published_at": "2026-10-28",
+      "companies": [
+        {
+          "slug": "hummingbird",
+          "name": "Hummingbird"
+        },
+        {
+          "slug": "quantimon",
+          "name": "Quantimon"
+        }
+      ],
+      "extracted": {
+        "acquirer": "Hummingbird",
+        "target": "Quantimon"
+      },
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Business Wire",
+          "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--Hummingbird, the AI-powered orchestration platform for financial crime compliance, today announced the acquisition of Quantimon, the machine learning platform for AML risk detection. The acquisition deepens Hummingbird's investment in transaction monitoring, bringing"
+        }
+      ]
+    },
+    {
+      "id": "discourse-001",
+      "page": "discourse",
+      "headline": "The AI bubble is 17 times the size of the dot-com frenzy and four times subprime",
+      "publisher": "Morningstar",
+      "published_at": "2025-10-06",
+      "companies": [],
+      "extracted": {},
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "Morningstar",
+          "excerpt": "MarketWatch/Morningstar carries an analyst's bubble-size argument — contested across finance and AI press."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Where's Your Ed At",
+          "excerpt": "Ed Zitron's viral case that AI is an unsustainable bubble — one side of the week's biggest industry argument."
+        }
+      ]
+    },
+    {
+      "id": "discourse-002",
+      "page": "discourse",
+      "headline": "Anthropic tries to hide Claude's AI actions. Devs hate it",
+      "publisher": "The Register",
+      "published_at": "2026-02-16",
+      "companies": [
+        {
+          "slug": "anthropic",
+          "name": "Anthropic"
+        },
+        {
+          "slug": "cloudflare",
+          "name": "Cloudflare"
+        },
+        {
+          "slug": "perplexity",
+          "name": "Perplexity AI"
+        }
+      ],
+      "extracted": {},
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "The Register",
+          "excerpt": "The Register covers developer anger over Anthropic obscuring Claude's tool actions — a transparency controversy."
+        },
+        {
+          "source_index": 1,
+          "publisher": "Cloudflare",
+          "excerpt": "Cloudflare's accusation that Perplexity evades no-crawl directives — contested by Perplexity."
+        }
+      ]
+    }
+  ]
+}
