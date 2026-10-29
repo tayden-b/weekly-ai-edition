@@ -47,36 +47,6 @@
       ]
     },
     {
-      "id": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27",
-      "page": "deals",
-      "headline": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
-      "publisher": "Hacker News",
-      "published_at": "2026-10-28T11:54:23.000Z",
-      "companies": [
-        {
-          "slug": "amazon",
-          "name": "Amazon"
-        },
-        {
-          "slug": "globalstar",
-          "name": "Globalstar"
-        }
-      ],
-      "extracted": {
-        "acquirer": "Amazon Leo",
-        "target": "Globalstar",
-        "amount": "$11.5B",
-        "amount_usd": 11500000000
-      },
-      "sources": [
-        {
-          "source_index": 0,
-          "publisher": "Hacker News",
-          "excerpt": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar"
-        }
-      ]
-    },
-    {
       "id": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
       "page": "models",
       "headline": "Working with academic communities to build scientific understanding",
@@ -119,7 +89,7 @@
         }
       ],
       "extracted": {
-        "acquirer": "Amazon to",
+        "acquirer": "Amazon",
         "amount": "$11.57B",
         "amount_usd": 11570000000,
         "target": "Globalstar"
@@ -2100,7 +2070,7 @@
         "target": "Hyperexponential Ltd",
         "amount": "$1.7B",
         "amount_usd": 1700000000,
-        "acquirer": "Hyperexponential Ltd for a base"
+        "acquirer": "Guidewire"
       },
       "sources": [
         {

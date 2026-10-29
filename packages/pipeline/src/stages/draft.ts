@@ -755,15 +755,26 @@ export function fundingHeadline(
   f: { amount?: string | undefined; stage?: string | undefined; lead?: string | undefined },
 ): string | undefined {
   if (company === undefined || company.trim() === "") return undefined;
+  // A filing is not a raise: S-1/IPO events get a filing headline, not the
+  // raise template (an item with no amount/stage is still a raise report).
+  if (
+    f.amount === undefined &&
+    f.stage !== undefined &&
+    /^(?:S-1|IPO(?:\s+filing)?|filing)$/i.test(f.stage.trim())
+  ) {
+    // Uniform "files for IPO" so a filing and its coverage dedup to one item.
+    return `${company} files for IPO`;
+  }
   const amount = f.amount !== undefined ? f.amount : "an undisclosed amount";
   const stage = f.stage !== undefined ? ` ${f.stage}` : "";
   const lead = f.lead !== undefined ? ` led by ${f.lead}` : "";
   return `${company} raised ${amount}${stage}${lead}`;
 }
 
-/** R9's check — the generated format or an explicit "undisclosed". */
+/** R9's check — the generated format: a raise ("raised $X Stage led by Y"),
+ *  an explicit "undisclosed" raise, or a filing ("files its S-1"/"files for IPO"). */
 export const FUNDING_HEADLINE_RE =
-  /^\S.* raised (?:\$\d+(?:\.\d+)?[KMBT]?|an undisclosed amount|undisclosed)(?:\s+\S[^?]*?)?$/;
+  /^\S.* (?:raised (?:\$\d+(?:\.\d+)?[KMBT]?|an undisclosed amount|undisclosed)|files (?:its S-1|for IPO))(?:\s+\S[^?]*?)?$/;
 
 /**
  * Pick the funding item's company display name: the single tagged company,

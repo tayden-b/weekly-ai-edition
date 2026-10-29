@@ -380,13 +380,13 @@
   ],
   "item_counts": {
     "fetched": 1116,
-    "emitted": 25,
+    "emitted": 24,
     "by_page": {
       "models": 6,
       "performance": 1,
       "launches": 6,
       "funding": 6,
-      "deals": 3,
+      "deals": 2,
       "discourse": 3
     }
   },
@@ -446,11 +446,11 @@
     "fixtures/2026-w44/edition.json": "sha256:e25fff1bcbf6cc1b8152ca9eecad69237075c1e706f293623ffb8886b62c18d3"
   },
   "back_page": {
-    "sources_total": 41,
+    "sources_total": 40,
     "source_counts": [
       {
         "publisher": "Hacker News",
-        "count": 10
+        "count": 9
       },
       {
         "publisher": "Exa Markets",
@@ -497,6 +497,10 @@
         "count": 1
       },
       {
+        "publisher": "Funding Index",
+        "count": 1
+      },
+      {
         "publisher": "Microsoft AI",
         "count": 1
       },
@@ -510,10 +514,6 @@
       },
       {
         "publisher": "Reuters",
-        "count": 1
-      },
-      {
-        "publisher": "SEC EDGAR",
         "count": 1
       },
       {

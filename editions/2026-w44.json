@@ -14,8 +14,8 @@
       "type": "briefing",
       "sentences": [
         "Anthropic filed its S-1 to go public on Tuesday, the first IPO prospectus from a frontier model lab, and the week's coverage framed both its rapid growth and its unusually long risk register.",
-        "The filing headlined a $235 billion week of AI dealmaking that also saw Foundry Robotics raise $100 million and IREN finance $363 million of AI compute.",
-        "Amazon agreed to buy satellite operator Globalstar for $11.57 billion to challenge Starlink — the week's largest acquisition, already cleared by a US agency.",
+        "The filing headlined a week of AI dealmaking that also saw Foundry Robotics raise $100 million and compute provider IREN close a $363 million financing for high-density AI compute assets.",
+        "Amazon agreed to buy satellite operator Globalstar for $11.57 billion — a satellite footprint for its Leo network meant to challenge Starlink.",
         "On the model side Google shipped Gemini 4 Carbon and DeepMind's Genie 4 world simulator, while Microsoft's MAI Image 2.7 debuted at No. 3 on Arena Edit.",
         "Two labs claimed to refute the Exponential Time Hypothesis, but outside checkers said nobody can verify the proofs — the week's live debate over whether frontier AI claims are checkable at all.",
         "AP and Reuters spent the week asking whether debt-funded AI capital expenditure can pay for itself — the open question over the entire AI buildout."
@@ -161,7 +161,7 @@
         },
         {
           "headline": "Show HN: Homi, open decision model for audio, near Flash on MMSU and 50x cheaper",
-          "one_liner": "Weights - https:&x2F;&x2F;huggingface.",
+          "one_liner": "An open decision model for audio posting near-Flash scores — via Show HN.",
           "sources": [
             {
               "url": "https://github.com/egma-ai/homi",
@@ -237,7 +237,7 @@
       "items": [
         {
           "headline": "The Agent SDK",
-          "one_liner": ".",
+          "one_liner": "Cursor ships the Agent SDK — a toolkit for building on its agent runtime.",
           "sources": [
             {
               "url": "https://cursor.com/blog/agent-sdk",
@@ -255,7 +255,7 @@
         },
         {
           "headline": "Show HN: Silo – an open source secure CLI sandbox for running agents locally",
-          "one_liner": ".",
+          "one_liner": "An open-source secure CLI sandbox for running agents locally — via Show HN.",
           "sources": [
             {
               "url": "https://github.com/Asdivyansh/silo-cli",
@@ -273,7 +273,7 @@
         },
         {
           "headline": "Rocker Launches as the Context-Aware AI Work Assistant for the Busiest People at the World’s Most Ambitious Companies",
-          "one_liner": "SAN FRANCISCO--(BUSINESS WIRE)--Rocker, the AI assistant for busiest people at the world’s most ambitious companies, today announced.",
+          "one_liner": "Rocker launches a context-aware AI work assistant, announcing $12.85M in funding led by Greycroft.",
           "companies": [
             "anthropic"
           ],
@@ -362,7 +362,7 @@
       "items": [
         {
           "headline": "Foundry Robotics raised $100M Series A led by Marlinspike Partners",
-          "one_liner": "EMERYVILLE, Calif.",
+          "one_liner": "Foundry Robotics announces an oversubscribed $100 million Series A led by Marlinspike Partners.",
           "companies": [
             "foundry-robotics"
           ],
@@ -414,7 +414,7 @@
           }
         },
         {
-          "headline": "Anthropic raised an undisclosed amount IPO",
+          "headline": "Anthropic files for IPO",
           "one_liner": "The prospectus builds an elaborate governance moat to keep Wall Street at bay after listing.",
           "companies": [
             "anthropic"
@@ -439,35 +439,6 @@
           "evidence": {
             "source_index": 0,
             "quote": "IPO"
-          }
-        },
-        {
-          "headline": "Anthropic raised an undisclosed amount S-1",
-          "one_liner": "Anthropic filed its S-1 to go public — the first frontier-lab IPO filing, and the week's most consequential document.",
-          "companies": [
-            "anthropic"
-          ],
-          "sources": [
-            {
-              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
-              "publisher": "SEC EDGAR",
-              "published_at": "2026-10-26T00:00:00.000Z",
-              "fetched_at": "2026-10-28T19:44:17.365Z",
-              "adapter": "sec-edgar",
-              "excerpt": "S-1; filed by Anthropic, PBC",
-              "source_ids": {
-                "edgar_accession": "0001628280-26-067168",
-                "edgar_cik": "0002130357",
-                "edgar_form": "S-1",
-                "source": "sec-edgar-fts"
-              }
-            }
-          ],
-          "amount": "undisclosed",
-          "stage": "S-1",
-          "evidence": {
-            "source_index": 0,
-            "quote": "S-1; filed by Anthropic, PBC"
           }
         },
         {
@@ -521,45 +492,40 @@
             "source_index": 0,
             "quote": "$1.5 billion"
           }
+        },
+        {
+          "headline": "Hyphenate raised $45M Series A led by Nexus Venture Partners",
+          "one_liner": "Hyphenate raises $45M Series A, Oct 27, 2026.",
+          "companies": [
+            "hyphenate"
+          ],
+          "sources": [
+            {
+              "url": "https://funding.fru.dev/months/2026-10",
+              "publisher": "Funding Index",
+              "published_at": "2026-10-27T00:00:00.000Z",
+              "fetched_at": "2026-10-28T09:00:00.000Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Hyphenate raises $45M Series A, Oct 27, 2026. AI apps. Led by Nexus Venture Partners. Hyphenate develops autonomous AI agent systems for enterprise financial operations.",
+              "source_ids": {
+                "fixture": "2026-w44",
+                "fixture_page": "funding"
+              }
+            }
+          ],
+          "amount": "$45M",
+          "stage": "Series A",
+          "lead": "Nexus Venture Partners",
+          "evidence": {
+            "source_index": 0,
+            "quote": "$45M"
+          }
         }
       ]
     },
     {
       "type": "deals",
       "items": [
-        {
-          "headline": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
-          "one_liner": ".",
-          "companies": [
-            "amazon",
-            "globalstar"
-          ],
-          "sources": [
-            {
-              "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27",
-              "publisher": "Hacker News",
-              "published_at": "2026-10-28T11:54:23.000Z",
-              "fetched_at": "2026-10-28T19:44:17.315Z",
-              "adapter": "distribute-software",
-              "excerpt": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
-              "source_ids": {
-                "distribute_id": "story-25505",
-                "distribute_url": "https://distribute.software/stories/25505",
-                "distribute_source": "hn",
-                "distribute_companies": "amazon",
-                "hn_discussion_url": "https://news.ycombinator.com/item?id=50272145",
-                "source": "distribute-stories"
-              }
-            }
-          ],
-          "acquirer": "Amazon Leo",
-          "target": "Globalstar",
-          "amount": "$11.5B",
-          "evidence": {
-            "source_index": 0,
-            "quote": "$11.5B"
-          }
-        },
         {
           "headline": "Amazon → Globalstar — $11.57B",
           "one_liner": "Amazon agreed to buy Globalstar for $11.57B — a satellite footprint to challenge Starlink on Amazon Leo.",
@@ -585,7 +551,7 @@
               }
             }
           ],
-          "acquirer": "Amazon to",
+          "acquirer": "Amazon",
           "target": "Globalstar",
           "amount": "$11.57B",
           "evidence": {
@@ -594,7 +560,7 @@
           }
         },
         {
-          "headline": "Guidewire → hyperexponential — undisclosed",
+          "headline": "Guidewire → hyperexponential — $1.7B",
           "one_liner": "Guidewire absorbs hyperexponential's pricing AI — insurance underwriting software consolidation continues.",
           "companies": [
             "guidewire",
@@ -614,7 +580,7 @@
               }
             }
           ],
-          "acquirer": "Hyperexponential Ltd for a base",
+          "acquirer": "Guidewire",
           "target": "Hyperexponential Ltd",
           "amount": "$1.7B",
           "evidence": {
@@ -930,19 +896,7 @@
         {
           "company": "anthropic",
           "name": "Anthropic",
-          "stories": 4,
-          "trend": "up"
-        },
-        {
-          "company": "amazon",
-          "name": "Amazon",
-          "stories": 2,
-          "trend": "up"
-        },
-        {
-          "company": "globalstar",
-          "name": "Globalstar",
-          "stories": 2,
+          "stories": 3,
           "trend": "up"
         },
         {
@@ -956,16 +910,28 @@
           "name": "OpenAI",
           "stories": 2,
           "trend": "down"
+        },
+        {
+          "company": "alphabet",
+          "name": "Alphabet (Google)",
+          "stories": 1,
+          "trend": "up"
+        },
+        {
+          "company": "amazon",
+          "name": "Amazon",
+          "stories": 1,
+          "trend": "up"
         }
       ]
     },
     {
       "type": "back_page",
-      "sources_total": 41,
+      "sources_total": 40,
       "source_counts": [
         {
           "publisher": "Hacker News",
-          "count": 10
+          "count": 9
         },
         {
           "publisher": "Exa Markets",
@@ -1012,6 +978,10 @@
           "count": 1
         },
         {
+          "publisher": "Funding Index",
+          "count": 1
+        },
+        {
           "publisher": "Microsoft AI",
           "count": 1
         },
@@ -1025,10 +995,6 @@
         },
         {
           "publisher": "Reuters",
-          "count": 1
-        },
-        {
-          "publisher": "SEC EDGAR",
           "count": 1
         },
         {

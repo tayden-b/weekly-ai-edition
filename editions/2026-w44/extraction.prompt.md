@@ -111,7 +111,7 @@ object.
     ],
     "extracted": {
       "acquirer": {
-        "value": "Amazon to",
+        "value": "Amazon",
         "source_index": 0
       },
       "amount": {

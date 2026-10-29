@@ -60,22 +60,21 @@ Rules of judgement:
   "prompt_version": 1,
   "sentences": [
   "Anthropic filed its S-1 to go public on Tuesday, the first IPO prospectus from a frontier model lab, and the week's coverage framed both its rapid growth and its unusually long risk register.",
-  "The filing headlined a $235 billion week of AI dealmaking that also saw Foundry Robotics raise $100 million and IREN finance $363 million of AI compute.",
-  "Amazon agreed to buy satellite operator Globalstar for $11.57 billion to challenge Starlink — the week's largest acquisition, already cleared by a US agency.",
+  "The filing headlined a week of AI dealmaking that also saw Foundry Robotics raise $100 million and compute provider IREN close a $363 million financing for high-density AI compute assets.",
+  "Amazon agreed to buy satellite operator Globalstar for $11.57 billion — a satellite footprint for its Leo network meant to challenge Starlink.",
   "On the model side Google shipped Gemini 4 Carbon and DeepMind's Genie 4 world simulator, while Microsoft's MAI Image 2.7 debuted at No. 3 on Arena Edit.",
   "Two labs claimed to refute the Exponential Time Hypothesis, but outside checkers said nobody can verify the proofs — the week's live debate over whether frontier AI claims are checkable at all.",
   "AP and Reuters spent the week asking whether debt-funded AI capital expenditure can pay for itself — the open question over the entire AI buildout."
 ],
   "supports": {
   "0": [
-    "funding-3"
+    "funding-2"
   ],
   "1": [
     "funding-0",
     "funding-1"
   ],
   "2": [
-    "deals-1",
     "deals-0"
   ],
   "3": [
@@ -94,7 +93,7 @@ Rules of judgement:
   {
     "id": "models-0",
     "page": "models",
-    "headline": "Google ships **Gemini 4 Carbon**",
+    "headline": "Google ships Gemini 4 Carbon",
     "one_liner": "Google's Gemini 4 Carbon is the week's flagship model release — reasoning upgrades aimed at the agent workload.",
     "sources": [
       {
@@ -167,7 +166,7 @@ Rules of judgement:
     "id": "models-4",
     "page": "models",
     "headline": "Show HN: Homi, open decision model for audio, near Flash on MMSU and 50x cheaper",
-    "one_liner": "Weights - https:&x2F;&x2F;huggingface.",
+    "one_liner": "An open decision model for audio posting near-Flash scores — via Show HN.",
     "sources": [
       {
         "source_index": 0,
@@ -206,7 +205,7 @@ Rules of judgement:
     "id": "launches-0",
     "page": "launches",
     "headline": "The Agent SDK",
-    "one_liner": ".",
+    "one_liner": "Cursor ships the Agent SDK — a toolkit for building on its agent runtime.",
     "sources": [
       {
         "source_index": 0,
@@ -219,7 +218,7 @@ Rules of judgement:
     "id": "launches-1",
     "page": "launches",
     "headline": "Show HN: Silo – an open source secure CLI sandbox for running agents locally",
-    "one_liner": ".",
+    "one_liner": "An open-source secure CLI sandbox for running agents locally — via Show HN.",
     "sources": [
       {
         "source_index": 0,
@@ -232,7 +231,7 @@ Rules of judgement:
     "id": "launches-2",
     "page": "launches",
     "headline": "Rocker Launches as the Context-Aware AI Work Assistant for the Busiest People at the World’s Most Ambitious Companies",
-    "one_liner": "SAN FRANCISCO--(BUSINESS WIRE)--Rocker, the AI assistant for busiest people at the world’s most ambitious companies, today announced.",
+    "one_liner": "Rocker launches a context-aware AI work assistant, announcing $12.85M in funding led by Greycroft.",
     "sources": [
       {
         "source_index": 0,
@@ -284,7 +283,7 @@ Rules of judgement:
     "id": "funding-0",
     "page": "funding",
     "headline": "Foundry Robotics raised $100M Series A led by Marlinspike Partners",
-    "one_liner": "EMERYVILLE, Calif.",
+    "one_liner": "Foundry Robotics announces an oversubscribed $100 million Series A led by Marlinspike Partners.",
     "sources": [
       {
         "source_index": 0,
@@ -309,7 +308,7 @@ Rules of judgement:
   {
     "id": "funding-2",
     "page": "funding",
-    "headline": "Anthropic raised an undisclosed amount IPO",
+    "headline": "Anthropic files for IPO",
     "one_liner": "The prospectus builds an elaborate governance moat to keep Wall Street at bay after listing.",
     "sources": [
       {
@@ -322,19 +321,6 @@ Rules of judgement:
   {
     "id": "funding-3",
     "page": "funding",
-    "headline": "Anthropic raised an undisclosed amount S-1",
-    "one_liner": "Anthropic filed its S-1 to go public — the first frontier-lab IPO filing, and the week's most consequential document.",
-    "sources": [
-      {
-        "source_index": 0,
-        "publisher": "SEC EDGAR",
-        "excerpt": "S-1; filed by Anthropic, PBC"
-      }
-    ]
-  },
-  {
-    "id": "funding-4",
-    "page": "funding",
     "headline": "Ex-Merseyside founder raised an undisclosed amount — $400mn valuation",
     "one_liner": "A $400mn valuation for an AI venture founded by a former UK police officer — the froth end of the funding tape.",
     "sources": [
@@ -346,7 +332,7 @@ Rules of judgement:
     ]
   },
   {
-    "id": "funding-5",
+    "id": "funding-4",
     "page": "funding",
     "headline": "Tenstorrent raised $1.5B Series E",
     "one_liner": "The RISC-V chip shop banked $1.5B to chase NVIDIA's inference business — the week's largest chip raise.",
@@ -359,22 +345,22 @@ Rules of judgement:
     ]
   },
   {
-    "id": "deals-0",
-    "page": "deals",
-    "headline": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
-    "one_liner": ".",
+    "id": "funding-5",
+    "page": "funding",
+    "headline": "Hyphenate raised $45M Series A led by Nexus Venture Partners",
+    "one_liner": "Hyphenate raises $45M Series A, Oct 27, 2026.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "Hacker News",
-        "excerpt": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar"
+        "publisher": "Funding Index",
+        "excerpt": "Hyphenate raises $45M Series A, Oct 27, 2026. AI apps. Led by Nexus Venture Partners. Hyphenate develops autonomous AI agent systems for enterprise financial operations."
       }
     ]
   },
   {
-    "id": "deals-1",
+    "id": "deals-0",
     "page": "deals",
-    "headline": "Amazon → Globalstar — **$11.57B**",
+    "headline": "Amazon → Globalstar — $11.57B",
     "one_liner": "Amazon agreed to buy Globalstar for $11.57B — a satellite footprint to challenge Starlink on Amazon Leo.",
     "sources": [
       {
@@ -385,9 +371,9 @@ Rules of judgement:
     ]
   },
   {
-    "id": "deals-2",
+    "id": "deals-1",
     "page": "deals",
-    "headline": "Guidewire → hyperexponential — undisclosed",
+    "headline": "Guidewire → hyperexponential — $1.7B",
     "one_liner": "Guidewire absorbs hyperexponential's pricing AI — insurance underwriting software consolidation continues.",
     "sources": [
       {

@@ -11,10 +11,6 @@
       "item_id": "https://www.anthropic.com/research/early-progress-drug-development"
     },
     {
-      "one_liner": ".",
-      "item_id": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27"
-    },
-    {
       "one_liner": "OpenAI details its academic-community science programme \u2014 a positioning move amid the benchmark wars.",
       "item_id": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
     },
@@ -24,7 +20,7 @@
       "item_id": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14"
     },
     {
-      "one_liner": ".",
+      "one_liner": "Cursor ships the Agent SDK \u2014 a toolkit for building on its agent runtime.",
       "item_id": "https://cursor.com/blog/agent-sdk"
     },
     {
@@ -32,11 +28,11 @@
       "item_id": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation"
     },
     {
-      "one_liner": ".",
+      "one_liner": "An open-source secure CLI sandbox for running agents locally \u2014 via Show HN.",
       "item_id": "https://github.com/Asdivyansh/silo-cli"
     },
     {
-      "one_liner": "SAN FRANCISCO--(BUSINESS WIRE)--Rocker, the AI assistant for busiest people at the world\u2019s most ambitious companies, today announced.",
+      "one_liner": "Rocker launches a context-aware AI work assistant, announcing $12.85M in funding led by Greycroft.",
       "item_id": "http://www.businesswire.com/news/home/20261028010878/en/Rocker-Launches-as-the-Context-Aware-AI-Work-Assistant-for-the-Busiest-People-at-the-World%E2%80%99s-Most-Ambitious-Companies?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
     },
     {
@@ -66,7 +62,7 @@
       "item_id": "https://github.com/tellers-ai/skills"
     },
     {
-      "one_liner": "Weights - https:&x2F;&x2F;huggingface.co&x2F;egma-ai&x2F;homi.",
+      "one_liner": "An open decision model for audio posting near-Flash scores \u2014 via Show HN.",
       "item_id": "https://github.com/egma-ai/homi"
     },
     {
@@ -110,7 +106,7 @@
       "item_id": "https://chopstick.sh/"
     },
     {
-      "one_liner": "EMERYVILLE, Calif.--(BUSINESS WIRE)--Foundry Robotics today announced its oversubscribed $100 million Series A funding round led by.",
+      "one_liner": "Foundry Robotics announces an oversubscribed $100 million Series A led by Marlinspike Partners.",
       "headline": "Foundry Robotics raised $100 million Series A led by Marlinspike Partners",
       "item_id": "http://www.businesswire.com/news/home/20261028508802/en/Foundry-Robotics-Raises-100-Million-Series-A-to-Build-America%E2%80%99s-First-Autonomous-Factory-for-Assembly?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
     },
@@ -455,7 +451,7 @@
     },
     {
       "one_liner": "Guidewire absorbs hyperexponential's pricing AI \u2014 insurance underwriting software consolidation continues.",
-      "headline": "Guidewire \u2192 hyperexponential \u2014 undisclosed",
+      "headline": "Guidewire \u2192 hyperexponential \u2014 $1.7B",
       "item_id": "https://www.prnewswire.com/news-releases/guidewire-signs-definitive-agreement-to-acquire-hyperexponential-302920513.html"
     },
     {
@@ -945,8 +941,8 @@
   "briefing": {
     "sentences": [
       "Anthropic filed its S-1 to go public on Tuesday, the first IPO prospectus from a frontier model lab, and the week's coverage framed both its rapid growth and its unusually long risk register.",
-      "The filing headlined a $235 billion week of AI dealmaking that also saw Foundry Robotics raise $100 million and IREN finance $363 million of AI compute.",
-      "Amazon agreed to buy satellite operator Globalstar for $11.57 billion to challenge Starlink \u2014 the week's largest acquisition, already cleared by a US agency.",
+      "The filing headlined a week of AI dealmaking that also saw Foundry Robotics raise $100 million and compute provider IREN close a $363 million financing for high-density AI compute assets.",
+      "Amazon agreed to buy satellite operator Globalstar for $11.57 billion \u2014 a satellite footprint for its Leo network meant to challenge Starlink.",
       "On the model side Google shipped Gemini 4 Carbon and DeepMind's Genie 4 world simulator, while Microsoft's MAI Image 2.7 debuted at No. 3 on Arena Edit.",
       "Two labs claimed to refute the Exponential Time Hypothesis, but outside checkers said nobody can verify the proofs \u2014 the week's live debate over whether frontier AI claims are checkable at all.",
       "AP and Reuters spent the week asking whether debt-funded AI capital expenditure can pay for itself \u2014 the open question over the entire AI buildout.",
@@ -954,8 +950,7 @@
     ],
     "supports": {
       "0": [
-        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
-        "https://www.axios.com/2026/10/26/anthropic-ipo-biggest-surprises"
+        "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
       ],
       "1": [
         "http://www.businesswire.com/news/home/20261028508802/en/Foundry-Robotics-Raises-100-Million-Series-A-to-Build-America%E2%80%99s-First-Autonomous-Factory-for-Assembly?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
