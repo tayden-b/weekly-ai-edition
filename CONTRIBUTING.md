@@ -46,6 +46,8 @@ pnpm edition:build --week 2026-W44 --mode replay  --ingest cache   # determinist
 - **`--ingest cache`** (default-friendly for sessions): read the committed `data/raw/` cache plus a fixture-pool synthesized from `fixtures/<week>/edition.json`. **`--ingest auto`** would re-fetch adapters — sessions don't use it.
 - **`--mode session`**: each LLM stage (`classification`, `extraction`, `draft`, `verify`) writes `editions/<week>/<stage>.request.json` + `<stage>.prompt.md`, then polls for `<stage>.response.json`. The Builder session writes those responses by hand — following `packages/pipeline/prompts/` and STYLE.md — and they are committed alongside the edition.
 - **`--mode replay`**: the same requests are answered from the committed `<stage>.response.json` files. On unchanged inputs the emitted `editions/<week>.json` is byte-identical — that is the determinism proof.
+
+The weekly cadence (Saturday 06:00 ET build → edition PR → Sunday 17:00 ET publish) is automated by the **Weekly Edition** Devin automation + `edition-publish.yml` — see `docs/weekly-edition.md`.
 - **Response contracts** live in `packages/pipeline/src/llm.ts` (`assert*Response`); every response covers exactly the ids in its request. Changing a request (e.g. reclassifying an item) invalidates the downstream response — regenerate it or the stage throws a contract error.
 - W44's edition drew on the real `data/raw/2026-10-28` cache (50 sources, 1082 items — see that day's `manifest.json` for which feeds contributed) plus the 34-item fixture pool from `fixtures/2026-w44/edition.json`; both pools are deduped together, so a fixture story merging into a real cluster is emitted as the real story's coverage.
 

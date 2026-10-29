@@ -1,0 +1,44 @@
+name: edition-publish
+# The Sunday 17:00 ET publish step (PLAN §5.2, ADR-0003, docs/weekly-edition.md):
+# arms auto-merge on the open `edition` PR so a green edition merges to main —
+# merge + Vercel deploy IS the publish.
+on:
+  schedule:
+    # GitHub cron is UTC-only. 17:00 ET is 21:00 UTC during EDT and 22:00 UTC
+    # during EST, so both slots run and scripts/edition-publish.mjs's ET gate
+    # admits exactly one each Sunday.
+    - cron: "0 21 * * 0"
+    - cron: "0 22 * * 0"
+  workflow_dispatch: # manual publish / dry run of the publish step itself
+    inputs:
+      arm:
+        description: "Arm auto-merge for real. Off (default) = dry run: report the decision only."
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  pull-requests: write # arm auto-merge
+  issues: write        # comment on a failing edition PR
+
+concurrency:
+  group: edition-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Publish the open edition PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_NAME: ${{ github.event_name }}
+          # A manual dispatch is a dry run unless `arm` was checked.
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && !inputs.arm }}
+        run: node scripts/edition-publish.mjs
