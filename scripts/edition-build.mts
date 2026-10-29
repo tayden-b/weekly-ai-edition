@@ -383,13 +383,21 @@ const { edition, emitted } = emitEdition(draftOut.clusters, draftOut.briefing, {
 });
 console.log(`emit: ${emitted.length} item(s) across pages`);
 
-/** Sequential issue count: editions on disk before this week + 1. */
+/** Sequential issue count: committed public editions before this week + 1.
+ * Fixture-flagged artifacts don't consume issue numbers. */
 function issueNumber(editionsDir: string, id: string): number {
   if (!existsSync(editionsDir)) return 1;
   const earlier = readdirSync(editionsDir)
     .filter((f) => /^\d{4}-w\d{2}\.json$/.test(f) && f !== `${id}.json`)
-    .map((f) => f.slice(0, 8))
-    .filter((other) => other < id).length;
+    .filter((f) => f.slice(0, 8) < id)
+    .filter((f) => {
+      try {
+        return (JSON.parse(readFileSync(join(editionsDir, f), "utf8")) as { fixture?: boolean })
+          .fixture !== true;
+      } catch {
+        return true; // unparseable — keep counting it rather than renumber
+      }
+    }).length;
   return earlier + 1;
 }
 
@@ -421,6 +429,21 @@ if (!report.ok) {
 const provenance = buildProvenance(edition as Edition, runs);
 
 const editionPath = join(outRoot, `${weekId}.json`);
+/**
+ * Replay must reproduce the committed artifact byte-for-byte — including a
+ * `fixture` mark the file already carries (a replayed fixture stays a
+ * fixture). Session builds write fresh, unmarked editions.
+ */
+if (mode === "replay") {
+  try {
+    const existing = JSON.parse(readFileSync(editionPath, "utf8")) as {
+      fixture?: boolean;
+    };
+    if (existing.fixture === true) edition.fixture = true;
+  } catch {
+    // no committed file — nothing to preserve
+  }
+}
 writeFileSync(editionPath, `${JSON.stringify(edition, null, 2)}\n`);
 writeFileSync(join(dir, "provenance.json"), `${JSON.stringify(provenance, null, 2)}\n`);
 console.log(`wrote ${editionPath}`);

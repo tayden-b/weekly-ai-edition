@@ -12,6 +12,7 @@
     "issue_number": { "type": "integer", "minimum": 1, "description": "Sequential issue count shown as the cover's №." },
     "date_start": { "type": "string", "format": "date", "description": "Saturday of the covered week (YYYY-MM-DD)." },
     "date_end": { "type": "string", "format": "date", "description": "Friday of the covered week (YYYY-MM-DD)." },
+    "fixture": { "type": "boolean", "description": "Marks a committed test/replay artifact: still schema-validated and provenance-checked, but excluded from the public site catalog (the viewer's listEditions filter) and from issue-number sequencing." },
     "pages": {
       "type": "array",
       "minItems": 11,

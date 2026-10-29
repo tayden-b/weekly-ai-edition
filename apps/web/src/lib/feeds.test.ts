@@ -37,23 +37,21 @@ describe("rssFeed", () => {
     expect(xml).toContain("</rss>");
   });
 
-  it("emits one item per edition, newest first, linking /{issue}", () => {
+  it("emits one item per public edition, newest first, linking /{issue}", () => {
     const titles = [...xml.matchAll(/<title>(.*?)<\/title>/g)].map((m) => m[1]);
     // channel title + one item title per edition
     expect(titles).toHaveLength(listEditions().length + 1);
-    expect(titles[1]).toContain("№ 2 · Oct 31–Nov 6:");
-    expect(titles[2]).toContain("№ 1 · Oct 24–30:");
+    expect(titles[1]).toContain("№ 1 · Oct 24–30:");
     const links = [...xml.matchAll(/<guid isPermaLink="true">(.*?)<\/guid>/g)].map(
       (m) => m[1],
     );
-    expect(links).toEqual([`${BASE}/2026-w45`, `${BASE}/2026-w44`]);
+    expect(links).toEqual([`${BASE}/2026-w44`]);
   });
 
   it("dates items on the edition's Friday (date_end) in RFC 822", () => {
-    expect(xml).toContain("<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>");
     expect(xml).toContain("<pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>");
     expect(xml).toContain(
-      "<lastBuildDate>Fri, 06 Nov 2026 00:00:00 GMT</lastBuildDate>",
+      "<lastBuildDate>Fri, 30 Oct 2026 00:00:00 GMT</lastBuildDate>",
     );
   });
 
@@ -82,15 +80,11 @@ describe("jsonFeed", () => {
     expect(doc.feed_url).toBe(`${BASE}/feed.json`);
   });
 
-  it("emits one item per edition, newest first, with RFC 3339 dates", () => {
-    expect(doc.items.map((i) => i.url)).toEqual([
-      `${BASE}/2026-w45`,
-      `${BASE}/2026-w44`,
-    ]);
+  it("emits one item per public edition, newest first, with RFC 3339 dates", () => {
+    expect(doc.items.map((i) => i.url)).toEqual([`${BASE}/2026-w44`]);
     expect(doc.items[0]?.id).toBe(doc.items[0]?.url);
-    expect(doc.items[0]?.title).toContain("№ 2 · Oct 31–Nov 6:");
-    expect(doc.items[0]?.date_published).toBe("2026-11-06T00:00:00Z");
-    expect(doc.items[1]?.date_published).toBe("2026-10-30T00:00:00Z");
+    expect(doc.items[0]?.title).toContain("№ 1 · Oct 24–30:");
+    expect(doc.items[0]?.date_published).toBe("2026-10-30T00:00:00Z");
   });
 });
 

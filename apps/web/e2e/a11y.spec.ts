@@ -10,7 +10,7 @@ import { expect, test } from "@playwright/test";
 
 const ROUTES: { path: string; label: string; strict: boolean }[] = [
   { path: "/2026-w44", label: "fixture deck/front page", strict: true },
-  { path: "/2026-w45", label: "latest edition", strict: true },
+  { path: "/", label: "latest redirect", strict: true },
   { path: "/2026-w44/3", label: "standalone page", strict: true },
   { path: "/issues", label: "archive", strict: true },
   { path: "/brand", label: "brand", strict: true },
