@@ -9,7 +9,9 @@ on:
   workflow_dispatch: # manual ingest — also how P3's proof run is produced
 
 permissions:
-  contents: write # the run commits data/raw/ back to main (git-as-CMS, ADR-0001)
+  contents: write # push the ingest branch + merge its PR
+  pull-requests: write # open the ingest PR — main is protected, so the
+  # commit-back lands through an auto-merge PR (git-as-CMS, ADR-0001)
 
 # one ingest at a time — a dispatch overlapping the cron run queues instead of
 # racing the commit-back to main (the pull --rebase would cover it, but a
@@ -31,7 +33,9 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm ingest
-      - name: Commit the raw cache back to main
+      - name: Commit the raw cache back via auto-merge PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -40,8 +44,15 @@ jobs:
             echo "no diff — re-run was idempotent, nothing to commit"
             exit 0
           fi
+          branch="ingest/$(date -u +%F)-run${{ github.run_id }}"
+          git checkout -b "$branch"
           git commit \
             -m "ingest: data/raw/$(date -u +%F)" \
             -m "run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          git pull --rebase
-          git push
+          git push -u origin "$branch"
+          gh pr create \
+            --title "ingest: data/raw/$(date -u +%F)" \
+            --body "Automated daily ingest of \`data/raw\`. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --base main --head "$branch"
+          gh pr merge --auto --squash "$branch" \
+            || echo "auto-merge unavailable — Supervisor merges on green"
