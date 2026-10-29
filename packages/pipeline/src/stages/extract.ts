@@ -455,8 +455,11 @@ function leadCandidates(excerpt: string, i: number): Candidate[] {
 const DEAL_RES: { re: RegExp; acquirer?: number; target: number }[] = [
   {
     re: new RegExp(
-      String.raw`((?-i:${CNAME}))['’]s\s+(?:\$\S+\s+|undisclosed\s+)?acquisition\s+of\s+(${NAME})` + TAIL,
-      "gi",
+      // Case-sensitive on purpose: CNAME relies on real capitals to bound the
+      // acquirer, so this pattern can't carry the `i` flag — the keywords get
+      // explicit first-letter alternation for Title-Case excerpts instead.
+      String.raw`(${CNAME})['’][sS]\s+(?:\$\S+\s+|[Uu]ndisclosed\s+)?[Aa]cquisition\s+[Oo]f\s+(${NAME})` + TAIL,
+      "g",
     ),
     acquirer: 1,
     target: 2,
