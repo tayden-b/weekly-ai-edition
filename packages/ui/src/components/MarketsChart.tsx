@@ -61,7 +61,7 @@ function DeltaForm({
   const W = 720;
   const labelW = 76;
   const chartL = labelW + 8;
-  const chartR = W - 72;
+  const chartR = W - 84;
   const rowH = 22;
   const padTop = 14;
   const padBottom = 6;
