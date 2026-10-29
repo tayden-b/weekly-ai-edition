@@ -4,7 +4,7 @@ import { preload } from "react-dom";
 
 import { FrontPage } from "@weekly/ui";
 
-import { coverDataUri, getEdition, listEditions } from "../../lib/editions";
+import { getEdition, listEditions } from "../../lib/editions";
 import { assembleFrontPage } from "../../lib/frontpage";
 import { site } from "../../lib/site";
 import { DeckView } from "./DeckView";
@@ -49,11 +49,9 @@ export default async function IssuePage({
   if (!ed) notFound();
 
   const view = assembleFrontPage(ed);
-  // The generative cover is the page's LCP element: inline it when small
-  // (no fetch at all), else preload so the fetch runs parallel to CSS (T3).
-  const inlineCover = coverDataUri(ed.id, ed.pages[0]?.image);
-  if (inlineCover) view.cover.src = inlineCover;
-  else if (view.cover.src) preload(view.cover.src, { as: "image" });
+  // The generative cover is the page's LCP element — preload it so the
+  // fetch runs parallel to render-blocking CSS instead of after it (T3).
+  if (view.cover.src) preload(view.cover.src, { as: "image", fetchPriority: "high" });
 
   return (
     <>
@@ -78,7 +76,7 @@ export default async function IssuePage({
         </main>
       </div>
       <main className="issue-split__deck">
-        <DeckView edition={ed} siteName={site.name} coverSrc={view.cover.src} />
+        <DeckView edition={ed} siteName={site.name} />
       </main>
     </>
   );

@@ -22,6 +22,11 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   transpilePackages: ["@weekly/schema", "@weekly/ui", "@weekly/pipeline"],
+  experimental: {
+    // ~6KB of CSS — inlining removes a whole render-blocking round-trip
+    // from the LCP chain on first view (the Lighthouse sim path).
+    inlineCss: true,
+  },
   headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },

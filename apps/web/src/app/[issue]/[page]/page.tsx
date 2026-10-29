@@ -14,7 +14,6 @@ import {
 } from "@weekly/ui";
 import type { ItemView } from "@weekly/ui";
 
-import { coverDataUri } from "../../../lib/editions";
 import { feedLinkTypes } from "../../../lib/feeds";
 import type { FixtureEdition, FixturePage } from "../../../lib/fixture";
 import {
@@ -129,9 +128,7 @@ function PageBody({
             <CoverImage
               aspect="4:5"
               issueNo={ed.issue}
-              {...(page.image
-                ? { src: coverDataUri(ed.id, page.image) ?? `/${page.image}`, alt: "" }
-                : {})}
+              {...(page.image ? { src: `/${page.image}`, alt: "" } : {})}
             />
           </div>
           {page.deck ? <p className="w-sp__deck">{page.deck}</p> : null}
