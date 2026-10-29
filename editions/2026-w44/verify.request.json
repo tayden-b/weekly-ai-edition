@@ -200,7 +200,7 @@
       "id": "launches-4",
       "page": "launches",
       "headline": "Microsoft is ending Copilot support on smart TVs",
-      "one_liner": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsofts Copilot.",
+      "one_liner": "Microsoft is pulling Copilot from all smart TVs this year — two years after LG and Samsung added it at CES 2025.",
       "sources": [
         {
           "source_index": 0,
@@ -213,7 +213,7 @@
       "id": "launches-5",
       "page": "launches",
       "headline": "Show HN: 42Loop - Agent runs the product, I assist it",
-      "one_liner": "As my first experiment in AI autonomy, I set up an agent that runs the product, while I assist it.",
+      "one_liner": "An agent runs the product while the human assists — a self-described experiment in AI autonomy on a live community board.",
       "sources": [
         {
           "source_index": 0,
@@ -264,19 +264,6 @@
     {
       "id": "funding-3",
       "page": "funding",
-      "headline": "Ex-Merseyside founder raised an undisclosed amount — $400mn valuation",
-      "one_liner": "A $400mn valuation for an AI venture founded by a former UK police officer — the froth end of the funding tape.",
-      "sources": [
-        {
-          "source_index": 0,
-          "publisher": "Financial Times",
-          "excerpt": "Ex-Merseyside police officer lands $400mn valuation for AI venture"
-        }
-      ]
-    },
-    {
-      "id": "funding-4",
-      "page": "funding",
       "headline": "Tenstorrent raised $1.5B Series E",
       "one_liner": "The RISC-V chip shop banked $1.5B to chase NVIDIA's inference business — the week's largest chip raise.",
       "sources": [
@@ -288,15 +275,28 @@
       ]
     },
     {
-      "id": "funding-5",
+      "id": "funding-4",
       "page": "funding",
       "headline": "Hyphenate raised $45M Series A led by Nexus Venture Partners",
-      "one_liner": "Hyphenate raises $45M Series A, Oct 27, 2026.",
+      "one_liner": "Hyphenate builds autonomous AI agent systems for enterprise financial operations — $45M Series A led by Nexus Venture Partners.",
       "sources": [
         {
           "source_index": 0,
           "publisher": "Funding Index",
           "excerpt": "Hyphenate raises $45M Series A, Oct 27, 2026. AI apps. Led by Nexus Venture Partners. Hyphenate develops autonomous AI agent systems for enterprise financial operations."
+        }
+      ]
+    },
+    {
+      "id": "funding-5",
+      "page": "funding",
+      "headline": "General Compute raised $100M Series A",
+      "one_liner": "A $100M Series A for AI inference infrastructure — the round extends the startup's compute runway.",
+      "sources": [
+        {
+          "source_index": 0,
+          "publisher": "SiliconReport",
+          "excerpt": "Oct 27 General Compute raises $100 million Series A at $800 million valuation."
         }
       ]
     },

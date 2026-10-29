@@ -317,7 +317,7 @@
         },
         {
           "headline": "Microsoft is ending Copilot support on smart TVs",
-          "one_liner": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsofts Copilot.",
+          "one_liner": "Microsoft is pulling Copilot from all smart TVs this year — barely two years after LG and Samsung announced it at CES.",
           "companies": [
             "microsoft"
           ],
@@ -339,7 +339,7 @@
         },
         {
           "headline": "Show HN: 42Loop - Agent runs the product, I assist it",
-          "one_liner": "As my first experiment in AI autonomy, I set up an agent that runs the product, while I assist it.",
+          "one_liner": "An agent runs the product while the human assists — a self-described experiment in AI autonomy on a live community board.",
           "sources": [
             {
               "url": "https://42loop.com/about",
@@ -442,31 +442,6 @@
           }
         },
         {
-          "headline": "Ex-Merseyside founder raised an undisclosed amount — $400mn valuation",
-          "one_liner": "A $400mn valuation for an AI venture founded by a former UK police officer — the froth end of the funding tape.",
-          "sources": [
-            {
-              "url": "https://www.ft.com/content/65a113b4-2a45-49cf-9e68-93f42151166e",
-              "publisher": "Financial Times",
-              "published_at": "2026-10-27T05:00:18.000Z",
-              "fetched_at": "2026-10-28T19:44:17.315Z",
-              "adapter": "distribute-software",
-              "excerpt": "Ex-Merseyside police officer lands $400mn valuation for AI venture",
-              "source_ids": {
-                "distribute_id": "story-25420",
-                "distribute_url": "https://distribute.software/stories/25420",
-                "distribute_source": "media",
-                "source": "distribute-stories"
-              }
-            }
-          ],
-          "amount": "$400M",
-          "evidence": {
-            "source_index": 0,
-            "quote": "$400mn"
-          }
-        },
-        {
           "headline": "Tenstorrent raised $1.5B Series E",
           "one_liner": "The RISC-V chip shop banked $1.5B to chase NVIDIA's inference business — the week's largest chip raise.",
           "companies": [
@@ -495,7 +470,7 @@
         },
         {
           "headline": "Hyphenate raised $45M Series A led by Nexus Venture Partners",
-          "one_liner": "Hyphenate raises $45M Series A, Oct 27, 2026.",
+          "one_liner": "Hyphenate builds autonomous AI agent systems for enterprise financial operations — $45M Series A led by Nexus Venture Partners.",
           "companies": [
             "hyphenate"
           ],
@@ -519,6 +494,33 @@
           "evidence": {
             "source_index": 0,
             "quote": "$45M"
+          }
+        },
+        {
+          "headline": "General Compute raised $100M Series A",
+          "one_liner": "A $100M Series A for AI inference infrastructure — the round extends the startup's compute runway.",
+          "companies": [
+            "general-compute"
+          ],
+          "sources": [
+            {
+              "url": "https://www.siliconreport.com/capital/archive/2026-10",
+              "publisher": "SiliconReport",
+              "published_at": "2026-10-27T00:00:00.000Z",
+              "fetched_at": "2026-10-28T09:00:00.000Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Oct 27 General Compute raises $100 million Series A at $800 million valuation.",
+              "source_ids": {
+                "fixture": "2026-w44",
+                "fixture_page": "funding"
+              }
+            }
+          ],
+          "amount": "$100M",
+          "stage": "Series A",
+          "evidence": {
+            "source_index": 0,
+            "quote": "$100 million"
           }
         }
       ]
@@ -974,10 +976,6 @@
           "count": 1
         },
         {
-          "publisher": "Financial Times",
-          "count": 1
-        },
-        {
           "publisher": "Funding Index",
           "count": 1
         },
@@ -995,6 +993,10 @@
         },
         {
           "publisher": "Reuters",
+          "count": 1
+        },
+        {
+          "publisher": "SiliconReport",
           "count": 1
         },
         {

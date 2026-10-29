@@ -3702,10 +3702,7 @@ Output is only this JSON object.
     "publisher": "Financial Times",
     "published_at": "2026-10-27T05:00:18.000Z",
     "companies": [],
-    "extracted": {
-      "amount": "$400M",
-      "amount_usd": 400000000
-    },
+    "extracted": {},
     "sources": [
       {
         "source_index": 0,

@@ -825,13 +825,9 @@ object.
         "excerpt": "Ex-Merseyside police officer lands $400mn valuation for AI venture"
       }
     ],
-    "extracted": {
-      "amount": {
-        "value": "$400M",
-        "source_index": 0
-      }
-    },
+    "extracted": {},
     "missing_fields": [
+      "amount",
       "stage",
       "lead_investor"
     ]

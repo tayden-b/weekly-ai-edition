@@ -390,6 +390,9 @@ function moneyCandidates(excerpt: string, i: number): Candidate[] {
   for (const m of eachMatch(MONEY_RE, excerpt)) {
     const parsed = parseUsdAmount(m[1]!);
     if (parsed === undefined) continue;
+    // "$400mn valuation" names a valuation, not a round size or deal price —
+    // skip it so the item emits "undisclosed" instead of a fake amount.
+    if (/^\s+valuations?\b/i.test(excerpt.slice(m.index + m[0].length))) continue;
     out.push({
       field: "amount",
       value: parsed.display,
