@@ -1,0 +1,4510 @@
+{
+  "prompt_version": 1,
+  "items": [
+    {
+      "id": "https://launchindex.ai/day/2026-10-24",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "1password"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "moonshot-ai"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/VenoM9078/gradientdeck-skill",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://privacymeridian.org/",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://messh.io/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://inference.coop/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://pilely.ai/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://latch.tools/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/insanai/ccm",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.33472",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alibaba-qwen"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://console.usetd.com/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/anishmoncivarghese/whyline",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.33509",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://aicitewho.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://sideos.ai/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://covenant-common.github.io/covenant-docs",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/RiccardoCataldi/duetto",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50219762",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50220217",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://kouh.me/ai-text-detector",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://mantid.dev/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/byenzyme/enzyme",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/Aldyernesto/shotstash",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/bellman-sh/bellman",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/JochenBaier/AlwaysHex",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/tensemem/tensemem",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://binary.so/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.33746",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://app.enclave.ai/threat-feed",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://chatgptplugins.directory/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability",
+      "page": "discourse",
+      "confidence": 0.9,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://apps.apple.com/us/app/orisuji/id6817092898",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "apple"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/eliasaronson/lobole",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/thomasunise/argus",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://essaypod.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://aitrendvideo.net/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://roush.io/paste-buff",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://jameswniu.github.io/multi-agent-causal-marriage-simulation",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/swrdfish/narro",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/gtanczyk/genaicode",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://perchfocus.com/",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://tributary.music/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://kat-assessment.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://deepsearch.ing/",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "deepseek"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/DainoJung/omni-verify",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://huggingface.co/JakCwi/eugen-sparse",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.33949",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/orgiggly/claude-plugin",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://adrs.systems/",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://huggingface.co/destined/hurston-1",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50227527",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://aisenatus.com/",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://firmendaten.researchly.at/netzwerk",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/zephium-browser/Zephium",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://ai.jagular.io/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/ajaynyayapathi/yara-l-skill",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://git-ing-over-it.vercel.app/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34080",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34094",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/Tomotsugu-dev/Hindsight",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34127",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34151",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alibaba-qwen"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.researchgate.net/publication/415644138_EASCM_White_Paper_Luthera_2026_v10",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34177",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/stubbi/openxet",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://jevontane.com/echoboard",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/yasuyuky/cargo-test-prune",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/komovaar/kolo",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/NoMac-app/simulator-use",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://huggingface.co/microsoft/CogACT-v2-RoboDojo",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "microsoft"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34336",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://bigwhalehunting.com/workforce",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "nvidia"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.worldofbuilders.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://qualitylayer.dev/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://sametcn99.github.io/repotruck",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://getrad.dev/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "deepseek"
+      ],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://github.com/usejunior-sh/junior",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34440",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://lavoi.app/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/finereli/open-accountant",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/gantoine/muxer",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://optio.host/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://zubspace.gg/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/fatlotus/sqlite-on-gcs-rapid",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://github.com/Hybirdss/Hycli",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://theaioperatorstore.gumroad.com/l/womuyx",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://ledgeapp.dev/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/TheWariend/MuscleMemory",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://mta.rip/?route=1&station=127&view=trackmap",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/SRN0129/Agenttrust",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/thomasunise/casecite",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://ramraj07.github.io/ra-mermaid",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/carson-katri/geometry-script",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://opensparta.com/en",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/elbee19/glitchrupt",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34634",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/radu2lupu/limitbreak",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://openai.com/index/greptile-code-review-codex-astra",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://openai.com/index/openai-cut-incident-investigation",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1070965/000110465926118704/0001104659-26-118704-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226048447/0001493152-26-048447-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1527702/000166357726000330/0001663577-26-000330-index.htm",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1609151/000160915126000120/0001609151-26-000120-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1638833/000110465926118643/0001104659-26-118643-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1714562/000149315226048423/0001493152-26-048423-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1792941/000121390026112514/0001213900-26-112514-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1805521/000121390026112363/0001213900-26-112363-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1898496/000121390026112265/0001213900-26-112265-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1973276/000149315226048438/0001493152-26-048438-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2030763/000149315226048573/0001493152-26-048573-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2044950/000162828026067119/0001628280-26-067119-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2045931/000192998026000558/0001929980-26-000558-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2056666/000123191926001500/0001231919-26-001500-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526431033/0001193125-26-431033-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2091680/000118518526004983/0001185185-26-004983-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2124080/000119312526431023/0001193125-26-431023-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2146369/000147793226006459/0001477932-26-006459-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2161279/000216127926000001/0002161279-26-000001-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2162106/000216210626000001/0002162106-26-000001-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/790526/000168316826008094/0001683168-26-008094-index.htm",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://sketchagent.dev/s/yfYU6LhT",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://depono.xyz/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://freehire.me/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/XiaoLuoLYG/GOD",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34759",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://drint.io/help/mcp",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34781",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/nodecode-ai/nodecode",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50238870",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://uipalooza.ai/",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34817",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://proc-cli.com/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/freeflow-im/mcp-docs",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.34887",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://frontierlog.ai/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/alshlabs/quill",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/ykisana/skill-spotter",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50240121",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/arcanemachine/pw-repl",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://chromewebstore.google.com/detail/relay-continue-google-sea/fjjfadgooapnegipjocinojjhaajghag",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://github.com/aron98/load-lock",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.axios.com/2026/10/26/meta-litigation-ai-legal-risk",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "meta"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35093",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "hugging-face",
+        "openai"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://deepswapp.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35130",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/willio/nord-theme-for-cursor",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "anysphere"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://griyd.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://whisper.tanpreet.xyz/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://game.ultimidi.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://news.crunchbase.com/startups/personal-exposure-securities-fraud-joonko-jeziorski-founder-shield",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://airetro.vercel.app/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/akyourowngames/A.N.K.I.T.A/releases/tag/v2.7.1",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35261",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35269",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35985",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "deepseek"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/labscommunity/npu-render",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://getrostr.sh/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/novatechflow/ai-watermark-scrambler",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://geekyants.com/blog/how-geekyants-manages-ai-models-after-launch-to-maintain-security-control-and-flexibility",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://github.com/goyohan0611-png/graph-mind",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35333",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/mceleri/attenuated-agent-budgets",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://dola-ai.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/swapnildahiphale/compactly",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261027636687/en/Dassault-Syst%C3%A8mes-Takes-Its-Life-Sciences-Ambition-to-the-Next-Level-with-a-Unified-AI-Platform-Connecting-Science-Medicine-and-Patients?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.axios.com/2026/10/26/anthropic-ipo-risk-factors-humanity",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://mistral.ai/fr/news/voxtral-3",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35486",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://behu-kea.github.io/toilet-bench",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://twitter.com/FangcunLeap/status/2114719692137136245",
+      "page": "performance",
+      "confidence": 0.8,
+      "company_slugs": [
+        "deepseek"
+      ],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://docs.docsgpt.cloud/Models/decision-model",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://tomte.run/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35530",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "framework"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://amni-scient.com/amni-cad",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://dna.hashgrid.ai/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/anthonyclarka2/sothspell",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35586",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://alchemy-ai-amber.vercel.app/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/MatijaMiki/ranwhat",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/sturnus-dev/sturnus",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "framework"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic",
+        "openai"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://make0.ai/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35635",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://github.com/BrianWeiHaoMa/git-dupe/tree/main",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://juiced.codes/",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/michaeldmueller/hue-claude",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.axios.com/2026/10/26/ai-economists-furman-policy",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://mistral.ai/fr/news",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://mistral.ai/fr/news/timestral",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/FrigadeHQ/hob",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35671",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "deepseek"
+      ],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://rts.emersoftware.cl/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/mainplane-ai/mainplane",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35721",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35743",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://atlas.prashish.com/weeks/2026-10-26",
+      "page": "discourse",
+      "confidence": 0.9,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/ekzhang/resin",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/Quorus-dev/Quorus",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-26/anthropic-ipo-filing-cites-reliance-on-google-amazon-microsoft",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "alphabet",
+        "amazon",
+        "anthropic",
+        "microsoft"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/26/ai-book-prize-judges-face-a-major-speed-reading-challenge",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "microsoft"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://tabichat.dev/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/26/technology/microsoft-buyouts-ai-spending.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "microsoft"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.unicornfork.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://humansignal.com/taste-index",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-s1-dario-amodei.html",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.36202",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/chris-mccoy/gottschalk-tarantelle",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://epoch.ai/benchmarks",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://news.crunchbase.com/public/anthropic-ipo-filing-ai-earnings-growth-risks",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://github.com/haplollc/Vesalius",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.ft.com/content/2ef29406-f2f8-413f-81f6-5ae098c97569",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "microsoft"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://stockpickersgame.com/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.36328",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.36341",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.theguardian.com/commentisfree/2026/oct/27/in-a-rush-to-lure-ai-companies-the-australian-government-risks-undoing-a-creative-ecosystem-that-has-taken-decades-to-build",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.axios.com/2026/10/26/anthropic-ipo-biggest-surprises",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.hugonot.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/26/meta-plans-95bn-stock-offering-to-help-cover-ai-expansion",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "meta"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.36405",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://funding.fru.dev/months/2026-10",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "hyphenate"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://huggingface.co/blog/allenai/novelty-bench",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://launchindex.ai/month/2026-10",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://openai.com/index/check-point-daybreak",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://openai.com/index/retell-ai",
+      "page": "performance",
+      "confidence": 0.8,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1056696/000119312526434178/0001193125-26-434178-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1057352/000105735226000078/0001057352-26-000078-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1115864/000147793226006474/0001477932-26-006474-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1289308/000119312526434415/0001193125-26-434415-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1528396/000119312526432656/0001193125-26-432656-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "guidewire"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1644516/000164451626000013/0001644516-26-000013-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1660851/000149315226048609/0001493152-26-048609-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067393/0001628280-26-067393-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1703157/000101738626000149/0001017386-26-000149-index.htm",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1741489/000121390026112893/0001213900-26-112893-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1787518/000118518526005016/0001185185-26-005016-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1886428/000119312526434282/0001193125-26-434282-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1896212/000149315226048638/0001493152-26-048638-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1912165/000149315226048656/0001493152-26-048656-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2020737/000149315226048740/0001493152-26-048740-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2051380/000119312526432788/0001193125-26-432788-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2096362/000149315226048643/0001493152-26-048643-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2138830/000213883026000003/0002138830-26-000003-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2153081/000215308126000001/0002153081-26-000001-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2156180/000215618026000001/0002156180-26-000001-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.siliconreport.com/capital/archive/2026-10",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "general-compute"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.theguardian.com/politics/2026/oct/27/digital-hostile-environment-ai-secretly-embedded-home-office-report",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/ae3a1dfb-d7ba-4c88-a6da-cb28b2a1139a",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://better-design.com/",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/BoumedineBillal/esp32-pie-asr",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/ArohaLabs/aroha-protocol",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://marlow.app/beta",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/otya128/winevdm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c893zwlev2xpo",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "apple"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.songupai.com/mcp-server",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/QingYunA/answer-me-with-html",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://limma.ai/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.36584",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.36595",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://allmodels.io/llm/abliterated",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "deepseek"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/064d657d-1808-4287-a6ae-7f2d34c79ec3",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/d92ede23-75c3-4549-bec2-7fa4be979786",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/65a113b4-2a45-49cf-9e68-93f42151166e",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.ft.com/content/cf954c9f-48dc-4e30-a03a-6fb2ec4dafa6",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/d1dca5d1-467f-4311-a004-82bb1ef761e0",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/42dc1a1c-2454-4eaf-bafe-ded5ad7855e4",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/69a623e0-8605-4b1d-b147-770649efb53a",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://apnews.com/article/stocks-markets-ai-earnings-oil-e11a2240fc3283c4507d44b9833f30a2",
+      "page": "discourse",
+      "confidence": 0.9,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50256259",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "amd"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.axios.com/2026/10/27/anthropic-ipo-meta-spacex-ai-deals",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/27/business/neura-robotics-germany-china-ai.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/27/technology/robot-dog-walkers.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/pinting/oraculum",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/okunix/gollama",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.36918",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/kekzl/imp",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://lists.debian.org/debian-devel/2026/10/msg00263.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/thefilter/2026/oct/27/currentbody-series-3-review-tested-uk",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/27/gen-z-digital-detox-apps",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/games/2026/oct/27/new-indie-horror-games-halloween",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/us-news/2026/oct/27/ai-disinformation-social-media-midterm-elections",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://hypeseoul.xyz/?s=hn",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.prnewswire.com/news-releases/guidewire-signs-definitive-agreement-to-acquire-hyperexponential-302920513.html",
+      "page": "deals",
+      "confidence": 0.8,
+      "company_slugs": [
+        "guidewire",
+        "hyperexponential"
+      ],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://news.crunchbase.com/real-estate-property-tech/agentic-ai-staffing-coo-folgmann-get-covered",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://news.crunchbase.com/venture/q3-2026-us-china-robotics-startup-funding-jumps-physical-ai-push",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://oioannou.com/blog/ai-promised-less-work",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/Algoza-Solutions/spider-protocol",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://catalogaudit.app/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.37085",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://statespace.play.naigap.com/",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/AMD?date=2026-10-27&from=2026-10-19&view=series",
+      "page": "markets",
+      "confidence": 0.8,
+      "company_slugs": [
+        "amd"
+      ],
+      "rationale": "heuristic markets tag"
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/AMZN?date=2026-10-27&from=2026-10-19&view=series",
+      "page": "markets",
+      "confidence": 0.8,
+      "company_slugs": [
+        "amazon"
+      ],
+      "rationale": "heuristic markets tag"
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/GOOGL?date=2026-10-27&from=2026-10-19&view=series",
+      "page": "markets",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic markets tag"
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/META?date=2026-10-27&from=2026-10-19&view=series",
+      "page": "markets",
+      "confidence": 0.8,
+      "company_slugs": [
+        "meta"
+      ],
+      "rationale": "heuristic markets tag"
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/MSFT?date=2026-10-27&from=2026-10-19&view=series",
+      "page": "markets",
+      "confidence": 0.8,
+      "company_slugs": [
+        "microsoft"
+      ],
+      "rationale": "heuristic markets tag"
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/TSM?date=2026-10-27&from=2026-10-19&view=series",
+      "page": "markets",
+      "confidence": 0.8,
+      "company_slugs": [
+        "tsmc"
+      ],
+      "rationale": "heuristic markets tag"
+    },
+    {
+      "id": "https://www.ft.com/content/336f8f7c-1a39-403d-8c68-dfca5ff1a2bb",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/27/silicon-valley-schools-education-tech",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://heyyeah.github.io/AI_Compute_Footprint",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/mousEHEHE/flint-gpui",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/TimeCopilot/foundationforecast",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet",
+        "amazon",
+        "mistral-ai"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/pragyaangaur/Can-It-Run-Minecraft",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.iresolve.io/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/splashxmoon/friday",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://actera.dev/try",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/synectus/OpenGMB",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.37161",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "framework"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/agbossjs/agboss",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/cordane/cordane",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://zydra.sh/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/pezhik/skilltotal",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/0xArx/hashling",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.apple.com/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "apple"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/film/2026/oct/27/elon-musk-ai-odyssey-movie-grok-christopher-nolan",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "xai"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.apple.com/imac",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://citewing.com/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.businesswire.com/news/home/20261027228454/en/Innovation-X-Co-Leads-Tenstorrents-%241.5-Billion-Series-E-at-a-%246.2-Billion-Valuation",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "tenstorrent"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://getkavel.com/ai-crawlers",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.withnative.ai/research-and-posts/markdown-context-benchmark",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://valen-team.github.io/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.37224",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://mcptask.online/live?language=en",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://github.com/vishwakulkarni/PoseForge",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/Ezed9/mcp-bouncer",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.ft.com/content/01467514-66c1-4375-9906-45a47b949270",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/27/technology/proposition-40-california-billionaire-tax.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/ultramancode/spring-ai-privacy-guardrails",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/Hardalion/agent-delegated-authority",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://aexol.ai/benchmarks/localllama",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alibaba-qwen"
+      ],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://github.com/utsav1033/carmen",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://everygenai.app/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://step-review.dev/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://unfolded-gpt2.vercel.app/",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet",
+        "meta",
+        "meta-ai",
+        "microsoft"
+      ],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://www.theguardian.com/commentisfree/2026/oct/27/elon-musk-cyber-psychosis-ai-tech",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.37369",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://microsoft.ai/news/mai-image-2-7-debut",
+      "page": "performance",
+      "confidence": 0.8,
+      "company_slugs": [
+        "microsoft"
+      ],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://spec-first.dev/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.theguardian.com/global/2026/oct/26/anthropic-accelerates-ai",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/c1a57bb1-4db0-406c-ae55-a55f5aa928d8",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://sectr.dev/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://chemicalx.xophz.com/",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://slopit.io/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://play.endothermic.ai/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.37442",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://huggingface.co/datasets/taktekhq/lebanese-legislation",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://nicchia-code.github.io/trama",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "meta"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet",
+        "google-deepmind"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://formstep.io/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://ailately.com/rn/2026-10-27-12",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/IdoGol24/weir",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.37481",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/wrg32786/aigent-os",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://crulon.ai/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://freightfloor.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/27/business/general-motors-nasdaq-nyse.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/groverburger/instance",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://playplanet.dev/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://ghostty.org/docs/install/release-notes/1-4-0",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.ft.com/content/0b7db9a1-8279-4025-8c2a-44a1010828f4",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "anthropic",
+        "meta"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/0b0ae366-c1e0-4c35-8cad-c924a23d33e7",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://agenticbench.org/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/saranyan/agent-relay",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://search2o.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/sanmak/specops",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://myownlore.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/wenlan-app/wenlan",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://espresso.ai/nitro",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "framework"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://thegit.ai/docs/core-features/browser-control",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.ft.com/content/324875fb-8631-4339-8516-6057de9ac085",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "apple"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://skillscout.si/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.llmverifications.com/",
+      "page": "performance",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://flightdeck-hq.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "elevenlabs"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.anthropic.com/research/agents-judgment-calls",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://creati.ai/ai-news/2026-10-27/meta-releases-muse-spark-open-an-816b-parameter-open-weight-model-for-multimodal-coding-agents",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "meta"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://autosomal.ai/",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.ft.com/content/dcfaf62f-497d-4db0-bb2d-a55e0b749750",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://venturebeat.com/technology/liquid-ais-new-lfm3-models-put-browser-agents-voice-commands-and-image-recognition-onto-enterprise-controlled-devices",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "liquid-ai"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://slidepilot.dev/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.brangus.io/survival-llm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/d144a865-285a-490e-be11-f924ada8cbc7",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261027440937/en/Grid-Dynamics-Launches-Business-Process-Consulting-Practice-to-Bridge-the-Gap-Between-AI-Investment-and-Business-Results?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261027590794/en/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "coreweave"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261027636043/en/CoStar-Group-to-Acquire-Vexcel-Adding-the-World%E2%80%99s-Largest-Survey-Grade-High-Resolution-Aerial-Imagery-Program-to-Power-Richer-Search-and-Discovery-Across-CoStar-with-Tens-of-Billions-of-New-AI-Derived-Data-Fields?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "deals",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261027936657/en/BigBear.ai-Announces-Third-Quarter-2026-Results-and-Raises-FY-2026-Revenue-Guidance?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/milad-ahmd/agent-skills",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.bbc.co.uk/sounds/play/w3ct8jys",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.anthropic.com/research/early-progress-drug-development",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/chen-985211/cleancode",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261027051586/en/Ridgeview-Partners-Completes-Acquisition-of-Pinewood-Technologies-Group?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "deals",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.anthropic.com/news/s1-sec",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/timjonez/new-english-dictionary",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://cbcglobe.com/en/articles/2026/10/27/breaking-tesla-surges-4-and-amd-over-5-on-nyse-nvidia-and-mi-4ca4b69e",
+      "page": "markets",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet",
+        "amd",
+        "meta"
+      ],
+      "rationale": "heuristic markets tag"
+    },
+    {
+      "id": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "nvidia"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://openai.com/index/legora",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://openai.com/index/the-future-of-the-firm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://themorningbuild.com/digest/2026-10-28",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "google-deepmind"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1043277/000104327726000039/0001043277-26-000039-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1051627/000121390026113058/0001213900-26-113058-index.htm",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1114859/000168316826008135/0001683168-26-008135-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1698506/000121390026112998/0001213900-26-112998-index.htm",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1737995/000149315226048827/0001493152-26-048827-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2070542/000121390026113119/0001213900-26-113119-index.htm",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2161717/000216171726000001/0002161717-26-000001-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2162585/000216258526000001/0002162585-26-000001-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/875657/000143774926033731/0001437749-26-033731-index.htm",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/ck1exgejq3xvo",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/sujee/visual-stories/tree/main/projects/tracing-llm-api-request",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://trvlrr.app/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://sightspinner.ai/blog/misery-in-america-2026-10-28.html",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.ft.com/content/44c35ed7-aa46-4d45-91f5-2773f00ae6be",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "amazon",
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://lexifina.com/blog/git-for-the-us-code",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/DeepLink-org/pvisor",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.aivideosugc.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.cirkit.us/demo",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.aivideosugc.com/ai-video-generation",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/charliewwdev/OpenMontage",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/Alanzj/SelfClaw",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "openai"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.ft.com/content/02e4a585-2101-4a2c-b16c-ba719567eb51",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/24a35e41-2641-4cec-97f5-a974412f9952",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.ft.com/content/5c237fb3-23ba-4c1a-9257-fd66b9d42d6c",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "palantir"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/694dbd7b-7096-47fe-b134-5275a1fb7b87",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.ft.com/content/40ba9df7-cb00-4717-814d-55f86983bc00",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/4eca07ed-c30e-46fe-b780-fe0ab1ffd893",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/e2aafede-771a-4fd0-b9fb-67c0bbb828ed",
+      "page": "deals",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261027567337/en/Ant-International-CEO-Achieving-Inclusion-Is-Critical-to-Re-Globalisation-and-AI-Will-Accelerate-It-by-Democratising-Opportunities?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/6abfda69-f4f7-45d5-922c-f4b65a72bcdc",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://hackerscad.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/misbahsy/novul",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://kisongerstellen.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.mybotsai.com/",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://dreamagainusa.org/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://apps.apple.com/us/app/curate-photo/id6825514911",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028854882/en/Financial-Services-Increases-AI-Investment-Faster-Than-Wider-Market-While-Maturity-Remains-Level?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/28/technology/silicon-valley-bugs-ai.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.thetimes.com/world/europe/article/spain-train-crash-madrid-latest-deaths-victims-807kwv23l",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/linearza/ballast",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://news.crunchbase.com/startups/nontech-founder-government-ai-software-chen-fsh",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "meta"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://emudhra.we-have-a-problem.com/apple.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "apple"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/agens-field/nuvrail",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://support.apple.com/en-us/149555",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/27medkamal/tmux-agent-wizard",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "apple",
+        "meta"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "xai"
+      ],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14",
+      "page": "deals",
+      "confidence": 0.8,
+      "company_slugs": [
+        "amazon",
+        "globalstar"
+      ],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27",
+      "page": "deals",
+      "confidence": 0.8,
+      "company_slugs": [
+        "amazon",
+        "globalstar"
+      ],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://toolmaker.io/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1018676/data-center-midterm-election-energy-water-texas",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/commentisfree/2026/oct/28/ai-climate-crisis-humanity",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://aiworkflows.tools/workflows",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028117784/en/Hummingbird-Acquires-Quantimon-to-Bring-Machine-Learning-to-AML-Transaction-Monitoring-for-the-Agentic-Era?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "deals",
+      "confidence": 0.8,
+      "company_slugs": [
+        "hummingbird",
+        "quantimon"
+      ],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://github.com/tinybig-ai/jep",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/kevinmmiddleton/recruiter-bff",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/klahrich/replyslip",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.euronews.com/video/2026/10/28/spain-first-footage-reveals-wreckage-of-deadly-high-speed-train-crash",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/jgrichardson/shufler",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://github.com/labstack/fanout",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/physicsdolphin/nv-uefi-unlocker",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "nvidia"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028047517/en/Klarna-to-Present-at-Upcoming-Investor-Conference?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/7-days-until-techcrunch-founder-summit-save-up-to-100-before-doors-open",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.globenewswire.com/news-release/2026/10/28/3390266/0/en/rapidcanvas-acquires-entytle-to-bring-ai-driven-execution-to-the-industrial-aftermarket.html",
+      "page": "deals",
+      "confidence": 0.8,
+      "company_slugs": [
+        "entytle",
+        "rapidcanvas"
+      ],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028683272/en/IREN-and-Wingspire-Equipment-Finance-Complete-363-Million-Financing-for-High-Density-AI-Compute-Assets?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://orktes.github.io/jsui",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/trypando/pando",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028051332/en/Schwab-Advisor-Services%E2%84%A2-Expands-AI-Inside-Schwab-Advisor-Center-and-Across-the-Third-Party-Solutions-RIAs-Use?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://simedw.com/projects/harness-corp",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028263072/en/Ronald-McDonald-House-New-York-Awarded-1.5-Million-Grant-From-RBC-Foundation-USA-to-Pilot-AI-Powered-Hub-for-Family-Centered-Care?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.theguardian.com/tv-and-radio/2026/oct/29/castle-walls-review-prime-first-fully-ai-generated-tv-show",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://cursor.com/blog/agent-sdk",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://agent-bv.pages.dev/app",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://ai-resume-reviewer-nine-drab.vercel.app/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://babeltro.storagebits.workers.dev/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.wordstodata.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/nodal-data/nodal-context",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anysphere"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://carmelitegothic.com/cnc-stone-carving",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.npmjs.com/package/@rlabs-cl/arketum",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/algeon-dev/algeon",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "nvidia"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/colinsurprenant/parley",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://chopstick.sh/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/ai-data-center-debt-may-test-credit-market-fortress-video",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://github.com/TheWariend/CleanSlate",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028508802/en/Foundry-Robotics-Raises-100-Million-Series-A-to-Build-America%E2%80%99s-First-Autonomous-Factory-for-Assembly?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "funding",
+      "confidence": 0.8,
+      "company_slugs": [
+        "foundry-robotics"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "elevenlabs",
+        "nvidia"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.theguardian.com/games/2026/oct/28/social-media-is-full-of-weird-video-game-mashups-where-are-they-all-coming-from",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theguardian.com/thefilter/2025/sep/19/best-led-red-light-therapy-face-masks",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/b25a880c-cd64-49d1-ba5f-7d077eb1adac",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://jeman.net/nekot",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/columbia-opens-claims-for-16-million-data-breach-settlement",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://bugtape.ai/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://lab.ripplecolab.com/human-system-ai",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://app.userrank.ai/",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://pullboard.dev/live",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.ft.com/content/e9827543-51c9-451b-b180-e7e2276aa957",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://surgehq.ai/blog/dayjob-tax",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50275751",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/dali-benothmen/woml",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://1dot.ai/files-magic-ai",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "meta"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/grimmerk/memsaga",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/ai-fed-simulation-predicts-rates-will-hold-steady-video",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://sketch.wsng.app/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://vulang.org/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://promptuaria.com/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.blockchainiq.co/blog/x402-integrations-from-the-build-bounty",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/newsletters/2026-10-28/ransomware-negotiator-arrests-add-scrutiny-to-shadowy-industry",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.ft.com/content/0cd47fb7-6de2-476f-a557-6f9647c9de88",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/apple-unveils-touch-screen-macbook-pro-reversing-longheld-jobs-stance",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "apple"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/egma-ai/homi",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://www.apple.com/macbook-pro/proled-xdr-display",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/open-interest-10-28-2026-video",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "alphabet",
+        "microsoft"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/28/technology/apple-touch-screen-macbook-pro.html",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "apple"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/palantir-s-defense-chief-sees-chinese-threat-to-taiwan-over-ai",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "palantir"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://42loop.com/about",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://github.com/tellers-ai/skills",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/ai-will-transform-video-game-development-bing-gordon-video",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/anthropic-said-to-pick-jpmorgan-to-lead-ipo-video",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/bloomberg-tech-10-28-2026-video",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "alphabet",
+        "anthropic",
+        "microsoft"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://zen-garden.ai/",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/ai-boom-complicates-fed-s-demand-supply-call-clarida-video",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/oracle-projects-30-billion-free-cash-flow-in-fiscal-2029",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "oracle"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "microsoft"
+      ],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://claude.ai/artifact/Xxm7H6eLCKgoxJVrSqTigH",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use",
+      "page": "models",
+      "confidence": 0.8,
+      "company_slugs": [
+        "alphabet"
+      ],
+      "rationale": "heuristic models tag"
+    },
+    {
+      "id": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/doj-inquires-about-nvidia-s-hugging-face-deal-reuters-says",
+      "page": "deals",
+      "confidence": 0.8,
+      "company_slugs": [
+        "hugging-face",
+        "nvidia"
+      ],
+      "rationale": "heuristic deals tag"
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c63djl148n3eo",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [
+        "spacex"
+      ],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028010878/en/Rocker-Launches-as-the-Context-Aware-AI-Work-Assistant-for-the-Busiest-People-at-the-World%E2%80%99s-Most-Ambitious-Companies?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [
+        "anthropic"
+      ],
+      "rationale": "heuristic funding tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/in-position-to-continue-playing-offense-garlinghouse-video",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/opposition-to-perpetuals-is-about-structure-duffy-video",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-28/clarity-act-a-bipartisan-issue-calvert-video",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://github.com/Asdivyansh/silo-cli",
+      "page": "launches",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic launches tag"
+    },
+    {
+      "id": "https://artificialanalysis.ai/models",
+      "page": "unsorted",
+      "confidence": 0.35,
+      "company_slugs": [],
+      "rationale": "heuristic unsorted tag"
+    },
+    {
+      "id": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [
+        "hugging-face"
+      ],
+      "rationale": "heuristic performance tag"
+    },
+    {
+      "id": "https://arcprize.org/leaderboard",
+      "page": "unsorted",
+      "confidence": 0.8,
+      "company_slugs": [],
+      "rationale": "heuristic performance tag"
+    }
+  ]
+}

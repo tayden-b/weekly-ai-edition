@@ -34,6 +34,21 @@ scripts/            dispatch.mjs, validate-dag.mjs, gate scripts (no deps)
 
 Deterministic stages are pure functions — test them with `vitest` against `packages/pipeline/testdata/` + adapter `__fixtures__/`. No network in tests, ever. `pnpm edition:build --week <id>` (lands with I1) runs the chain over `data/raw/` cache; LLM-stage fields are filled through the session `llm()` seam and recorded for replay (see P4's format).
 
+## Running the pipeline end-to-end (`edition:build`)
+
+```bash
+pnpm edition:build --week 2026-W44 --mode session --ingest cache
+pnpm edition:build --week 2026-W44 --mode replay  --ingest cache   # deterministic re-run
+```
+
+`--week <id>` resolves the edition window (Sat→Fri, e.g. `2026-W44` → `2026-10-24`…`2026-10-30`). The CLI chains ingest → normalize → dedupe → classify → rank → extract → draft → verify → emit → validate and writes `editions/<week>.json` plus the stage artifacts under `editions/<week>/`.
+
+- **`--ingest cache`** (default-friendly for sessions): read the committed `data/raw/` cache plus a fixture-pool synthesized from `fixtures/<week>/edition.json`. **`--ingest auto`** would re-fetch adapters — sessions don't use it.
+- **`--mode session`**: each LLM stage (`classification`, `extraction`, `draft`, `verify`) writes `editions/<week>/<stage>.request.json` + `<stage>.prompt.md`, then polls for `<stage>.response.json`. The Builder session writes those responses by hand — following `packages/pipeline/prompts/` and STYLE.md — and they are committed alongside the edition.
+- **`--mode replay`**: the same requests are answered from the committed `<stage>.response.json` files. On unchanged inputs the emitted `editions/<week>.json` is byte-identical — that is the determinism proof.
+- **Response contracts** live in `packages/pipeline/src/llm.ts` (`assert*Response`); every response covers exactly the ids in its request. Changing a request (e.g. reclassifying an item) invalidates the downstream response — regenerate it or the stage throws a contract error.
+- W44's edition drew on the real `data/raw/2026-10-28` cache (50 sources, 1082 items — see that day's `manifest.json` for which feeds contributed) plus the 34-item fixture pool from `fixtures/2026-w44/edition.json`; both pools are deduped together, so a fixture story merging into a real cluster is emitted as the real story's coverage.
+
 ## The ingest cache (`data/raw/`)
 
 `pnpm ingest` (P3, `scripts/ingest.mts`) runs every `enabled` adapter in `config/sources.yaml` in parallel and writes the daily raw cache — `.github/workflows/ingest-daily.yml` does this at 06:00 ET and commits the result to `main` (git-as-CMS, ADR-0001).
