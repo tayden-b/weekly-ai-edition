@@ -1,0 +1,54 @@
+{
+  "prompt_version": 1,
+  "items": [
+    {
+      "id": "funding-002",
+      "fields": []
+    },
+    {
+      "id": "funding-003",
+      "fields": []
+    },
+    {
+      "id": "funding-004",
+      "fields": []
+    },
+    {
+      "id": "deals-002",
+      "fields": [
+        { "field": "acquirer", "value": "Hummingbird", "source_index": 0, "quote": "Hummingbird" }
+      ]
+    },
+    {
+      "id": "deals-003",
+      "fields": [
+        { "field": "acquirer", "value": "CoStar Group", "source_index": 0, "quote": "CoStar Group" }
+      ]
+    },
+    {
+      "id": "deals-004",
+      "fields": [
+        { "field": "acquirer", "value": "Ridgeview Partners LLC", "source_index": 0, "quote": "Ridgeview Partners LLC" }
+      ]
+    },
+    {
+      "id": "deals-005",
+      "fields": [
+        { "field": "acquirer", "value": "TPG", "source_index": 0, "quote": "TPG" },
+        { "field": "target", "value": "UK data centre group Ark", "source_index": 0, "quote": "UK data centre group Ark" }
+      ]
+    },
+    {
+      "id": "performance-003",
+      "fields": []
+    },
+    {
+      "id": "markets-001",
+      "fields": []
+    },
+    {
+      "id": "markets-002",
+      "fields": []
+    }
+  ]
+}
