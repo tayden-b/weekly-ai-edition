@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { preload } from "react-dom";
 
 import { FrontPage } from "@weekly/ui";
 
@@ -48,6 +49,9 @@ export default async function IssuePage({
   if (!ed) notFound();
 
   const view = assembleFrontPage(ed);
+  // The generative cover is the page's LCP element — preload it so the
+  // fetch runs parallel to render-blocking CSS instead of after it (T3).
+  if (view.cover.src) preload(view.cover.src, { as: "image" });
 
   return (
     <>
