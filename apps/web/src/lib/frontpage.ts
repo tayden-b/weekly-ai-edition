@@ -4,6 +4,7 @@
  * section bands, markets caption, back-page links. Pure; the `/{issue}` route
  * calls it server-side.
  */
+import { discussionUrl } from "@weekly/schema";
 import type {
   Edition,
   EditionItem,
@@ -73,10 +74,13 @@ export function shortDate(iso: string): string {
 }
 
 function mapSource(s: EditionSource): SourceView {
+  const discussion_url = discussionUrl(s);
   return {
     url: s.url,
     publisher: s.publisher,
     published_at: s.published_at,
+    ...(s.via ? { via: s.via } : {}),
+    ...(discussion_url ? { discussion_url } : {}),
     ...(s.fetched_at ? { fetched_at: s.fetched_at } : {}),
     ...(s.adapter ? { adapter: s.adapter } : {}),
   };
@@ -154,6 +158,7 @@ export function assembleFrontPage(ed: Edition): FrontPageView {
       kicker: `№ ${ed.issue_number}`,
       headline: cover.headline,
       deck: cover.deck ?? "",
+      ...(cover.url ? { url: cover.url } : {}),
       ...(cover.image ? { src: `/${cover.image}`, alt: "" } : {}),
     },
     briefing: [...briefing.sentences],

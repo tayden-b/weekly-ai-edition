@@ -50,3 +50,5 @@ jobs:
             exit 1
           fi
           echo "replay byte-identical — editions/${{ inputs.week }}.json reproduces"
+      - name: Source link check (L1) — HEAD every sources[] URL
+        run: pnpm links:check --week ${{ inputs.week }}

@@ -68,6 +68,23 @@
   max-width: var(--measure);
 }
 
+/* L1 — cover deck links to the story's origin (see components.css). */
+.dv-dek__link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  transition: text-decoration-color 120ms ease-out;
+}
+.dv-dek__link:hover {
+  text-decoration-color: currentColor;
+}
+.dv-dek__link:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
 .dv-briefing__s {
   font-size: var(--t-lg);
   line-height: var(--leading-text);

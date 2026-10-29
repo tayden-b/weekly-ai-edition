@@ -1,10 +1,13 @@
 /**
- * Syndication feed builders (T2, PLAN §4): RSS 2.0 + JSON Feed 1.1, one entry
- * per edition on disk — issue number, date range, headline, `/{issue}` link.
+ * Syndication feed builders (T2, PLAN §4; L1 per-story links): RSS 2.0 +
+ * JSON Feed 1.1, one entry per story in each edition — every entry's link
+ * is the story's origin URL (the primary source, never an aggregator),
+ * plus a comments/discussion URL when the record carries one.
  * Pure string builders; the route handlers wrap them in Responses and both
  * artifacts regenerate from `editions/` on every build.
  */
-import type { Edition } from "@weekly/schema";
+import { discussionUrl, primarySource } from "@weekly/schema";
+import type { Edition, EditionSource } from "@weekly/schema";
 
 import { dateRangeLabel } from "./fixture";
 import { site } from "./site";
@@ -32,51 +35,79 @@ export function escapeXml(value: string): string {
     .replace(/'/g, "&apos;");
 }
 
-function coverHeadline(edition: Edition): string {
-  const cover = edition.pages.find((p) => p.type === "cover");
-  return cover && cover.type === "cover" ? cover.headline : edition.id;
+/** One story in feed order: page type, headline, one-liner, sources. */
+interface FeedStory {
+  edition: Edition;
+  pageType: string;
+  index: number;
+  headline: string;
+  one_liner: string;
+  sources: EditionSource[];
 }
 
-function coverDeck(edition: Edition): string | undefined {
-  const cover = edition.pages.find((p) => p.type === "cover");
-  return cover && cover.type === "cover" ? cover.deck : undefined;
+/** Every item-bearing page's items, flattened in edition order. */
+function feedStories(edition: Edition): FeedStory[] {
+  const stories: FeedStory[] = [];
+  for (const page of edition.pages) {
+    if (!("items" in page) || !Array.isArray(page.items)) continue;
+    page.items.forEach((item, index) => {
+      stories.push({
+        edition,
+        pageType: page.type,
+        index,
+        headline: item.headline,
+        one_liner: item.one_liner,
+        sources: item.sources,
+      });
+    });
+  }
+  return stories;
 }
 
-/** `№ 2 · Oct 31–Nov 6: <cover headline>` — every required field in the title. */
-export function feedItemTitle(edition: Edition): string {
-  const range = dateRangeLabel(edition.date_start, edition.date_end);
-  return `№ ${edition.issue_number} · ${range}: ${coverHeadline(edition)}`;
-}
-
-/**
- * The edition's publication date. `date_end` (the covered week's Friday) is
- * the only timestamp the schema carries — deterministic across builds.
- */
+/** The edition's publication date. `date_end` (the covered week's Friday) is
+ * the only timestamp the schema carries — deterministic across builds. */
 function pubDateUtc(edition: Edition): Date {
   return new Date(`${edition.date_end}T00:00:00Z`);
 }
 
-function itemDescription(edition: Edition): string {
-  const deck = coverDeck(edition);
-  const range = dateRangeLabel(edition.date_start, edition.date_end);
-  return deck ? `${range} — ${deck}` : `${range} — ${coverHeadline(edition)}`;
+function storyDate(source: EditionSource, edition: Edition): Date {
+  const t = Date.parse(source.published_at);
+  return Number.isNaN(t) ? pubDateUtc(edition) : new Date(t);
 }
 
-/** RSS 2.0, newest edition first; `editions` must already be sorted. */
+/** `№ 2 · Oct 31–Nov 6: <cover headline>` — the edition item's title. */
+export function feedItemTitle(edition: Edition): string {
+  const cover = edition.pages.find((p) => p.type === "cover");
+  const headline = cover && cover.type === "cover" ? cover.headline : edition.id;
+  const range = dateRangeLabel(edition.date_start, edition.date_end);
+  return `№ ${edition.issue_number} · ${range}: ${headline}`;
+}
+
+/** RSS 2.0 — one <item> per story; `<link>` is the origin URL (L1). */
 export function rssFeed(editions: Edition[], baseUrl: string): string {
   const base = baseUrl.replace(/\/$/, "");
   const latest = editions[0];
   const items = editions
-    .map((edition) => {
-      const url = `${base}/${edition.id}`;
+    .flatMap(feedStories)
+    .map((story) => {
+      const primary = primarySource(story.sources);
+      if (primary === undefined) return "";
+      const discussion = discussionUrl(primary);
       return `    <item>
-      <title>${escapeXml(feedItemTitle(edition))}</title>
-      <link>${escapeXml(url)}</link>
-      <guid isPermaLink="true">${escapeXml(url)}</guid>
-      <pubDate>${pubDateUtc(edition).toUTCString()}</pubDate>
-      <description>${escapeXml(itemDescription(edition))}</description>
+      <title>${escapeXml(story.headline)}</title>
+      <link>${escapeXml(primary.url)}</link>
+      <guid isPermaLink="false">${escapeXml(
+        `${story.edition.id}/${story.pageType}/${story.index}`,
+      )}</guid>
+      <pubDate>${storyDate(primary, story.edition).toUTCString()}</pubDate>
+      <description>${escapeXml(story.one_liner)}</description>${
+        discussion !== undefined
+          ? `\n      <comments>${escapeXml(discussion)}</comments>`
+          : ""
+      }
     </item>`;
     })
+    .filter((x) => x !== "")
     .join("\n");
   const lastBuild = latest
     ? `    <lastBuildDate>${pubDateUtc(latest).toUTCString()}</lastBuildDate>\n`
@@ -95,25 +126,37 @@ ${lastBuild}${items}
 `;
 }
 
-/** JSON Feed 1.1 (https://jsonfeed.org), newest edition first. */
+/** JSON Feed 1.1 (https://jsonfeed.org) — `url` is the origin URL (L1). */
 export function jsonFeed(editions: Edition[], baseUrl: string): string {
   const base = baseUrl.replace(/\/$/, "");
+  const items = editions.flatMap(feedStories).flatMap((story) => {
+    const primary = primarySource(story.sources);
+    if (primary === undefined) return [];
+    const discussion = discussionUrl(primary);
+    return [
+      {
+        id: `${base}/${story.edition.id}#${story.pageType}-${story.index}`,
+        url: primary.url,
+        external_url: primary.url,
+        title: story.headline,
+        summary: story.one_liner,
+        date_published: storyDate(primary, story.edition).toISOString(),
+        ...(primary.via !== undefined
+          ? { _weekly_via: primary.via }
+          : {}),
+        ...(discussion !== undefined
+          ? { _weekly_discussion_url: discussion }
+          : {}),
+      },
+    ];
+  });
   const doc = {
     version: "https://jsonfeed.org/version/1.1",
     title: site.name,
     home_page_url: base,
     feed_url: `${base}/feed.json`,
     description: site.tagline,
-    items: editions.map((edition) => {
-      const url = `${base}/${edition.id}`;
-      return {
-        id: url,
-        url,
-        title: feedItemTitle(edition),
-        summary: itemDescription(edition),
-        date_published: `${edition.date_end}T00:00:00Z`,
-      };
-    }),
+    items,
   };
   return `${JSON.stringify(doc, null, 2)}\n`;
 }

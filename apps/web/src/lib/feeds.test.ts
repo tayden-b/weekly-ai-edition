@@ -11,9 +11,20 @@ const BASE = "https://weekly.test";
 function editionWith(overrides: { id: string; headline: string }): Edition {
   const copy = JSON.parse(JSON.stringify(rawEdition)) as Edition;
   copy.id = overrides.id;
-  const cover = copy.pages.find((p) => p.type === "cover");
-  if (cover && cover.type === "cover") cover.headline = overrides.headline;
+  for (const page of copy.pages) {
+    if (!("items" in page) || !Array.isArray(page.items)) continue;
+    page.items.forEach((item) => {
+      item.headline = overrides.headline;
+    });
+  }
   return copy;
+}
+
+function storyCount(edition: Edition): number {
+  return edition.pages.reduce(
+    (n, p) => n + ("items" in p && Array.isArray(p.items) ? p.items.length : 0),
+    0,
+  );
 }
 
 describe("escapeXml", () => {
@@ -37,19 +48,27 @@ describe("rssFeed", () => {
     expect(xml).toContain("</rss>");
   });
 
-  it("emits one item per public edition, newest first, linking /{issue}", () => {
+  it("emits one item per story, each linked to the story's origin URL (L1)", () => {
     const titles = [...xml.matchAll(/<title>(.*?)<\/title>/g)].map((m) => m[1]);
-    // channel title + one item title per edition
-    expect(titles).toHaveLength(listEditions().length + 1);
-    expect(titles[1]).toContain("№ 1 · Oct 24–30:");
-    const links = [...xml.matchAll(/<guid isPermaLink="true">(.*?)<\/guid>/g)].map(
+    // channel title + one item title per story
+    const editions = listEditions();
+    const stories = editions.reduce((n, e) => n + storyCount(e), 0);
+    expect(titles).toHaveLength(stories + 1);
+    const links = [...xml.matchAll(/<item>[\s\S]*?<link>(https?:[^<]+)<\/link>/g)].map(
       (m) => m[1],
     );
-    expect(links).toEqual([`${BASE}/2026-w44`]);
+    expect(links).toHaveLength(stories);
+    for (const url of links) {
+      expect(url, url).not.toMatch(
+        /news\.ycombinator\.com|reddit\.com|distribute\.software/,
+      );
+    }
+    const guids = [...xml.matchAll(/<guid [^>]*>(.*?)<\/guid>/g)].map((m) => m[1]);
+    expect(new Set(guids).size).toBe(stories);
   });
 
   it("dates items on the edition's Friday (date_end) in RFC 822", () => {
-    expect(xml).toContain("<pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>");
+    expect(xml).toContain("<pubDate>");
     expect(xml).toContain(
       "<lastBuildDate>Fri, 30 Oct 2026 00:00:00 GMT</lastBuildDate>",
     );
@@ -80,11 +99,15 @@ describe("jsonFeed", () => {
     expect(doc.feed_url).toBe(`${BASE}/feed.json`);
   });
 
-  it("emits one item per public edition, newest first, with RFC 3339 dates", () => {
-    expect(doc.items.map((i) => i.url)).toEqual([`${BASE}/2026-w44`]);
-    expect(doc.items[0]?.id).toBe(doc.items[0]?.url);
-    expect(doc.items[0]?.title).toContain("№ 1 · Oct 24–30:");
-    expect(doc.items[0]?.date_published).toBe("2026-10-30T00:00:00Z");
+  it("emits one item per story, url = origin URL, unique ids (L1)", () => {
+    const editions = listEditions();
+    const stories = editions.reduce((n, e) => n + storyCount(e), 0);
+    expect(doc.items).toHaveLength(stories);
+    for (const item of doc.items) {
+      expect(item.url).toMatch(/^https?:\/\//);
+      expect(item.url).not.toContain(BASE);
+    }
+    expect(new Set(doc.items.map((i) => i.id)).size).toBe(stories);
   });
 });
 

@@ -58,6 +58,7 @@ import {
   loadCompaniesConfig,
   loadIngestCache,
   loadMarketsConfig,
+  loadPublishersConfig,
   loadSourcesConfig,
   normalize,
   rank,
@@ -143,6 +144,7 @@ console.log(
 const entries = loadSourcesConfig(resolve(ROOT, "config/sources.yaml"));
 const companies = loadCompaniesConfig(resolve(ROOT, "config/companies.yaml"));
 const markets = loadMarketsConfig(resolve(ROOT, "config/markets.json"));
+const publishersConfig = loadPublishersConfig(resolve(ROOT, "config/publishers.yaml"));
 const styleMd = readFileSync(stylePath, "utf8");
 const styleRev = (() => {
   try {
@@ -344,7 +346,11 @@ const seams =
         verify: createReplayVerifierFromFile(join(dir, "verify.response.json")),
       };
 
-const normalized = normalize(items, { publishers: [...publisherNames] });
+const normalized = normalize(items, {
+  publishers: [...publisherNames],
+  publisherDomains: publishersConfig.domains,
+  aggregatorPublishers: publishersConfig.aggregators,
+});
 const inWindow = normalized.filter((i) => {
   const t = Date.parse(i.published_at);
   return Number.isFinite(t) && t >= dateStartMs && t <= dateEndMs;

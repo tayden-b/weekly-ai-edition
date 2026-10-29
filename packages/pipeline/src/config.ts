@@ -200,6 +200,61 @@ export function loadCompaniesConfig(path: string): CompanyEntry[] {
 }
 
 // ---------------------------------------------------------------------------
+// config/publishers.yaml
+// ---------------------------------------------------------------------------
+
+/**
+ * `config/publishers.yaml` — the L1 attribution map. `domains` maps a URL
+ * host (with subdomain matching) to the origin publisher display name;
+ * `aggregators` lists recorded publisher names treated as aggregators, not
+ * origins. `normalize` rewrites `publisher`/`via` from these.
+ */
+export interface PublishersConfig {
+  domains: Record<string, string>;
+  aggregators: string[];
+}
+
+/** Parse + validate `config/publishers.yaml` content. */
+export function parsePublishersConfig(text: string): PublishersConfig {
+  const doc = parseYaml(text) as { domains?: unknown; aggregators?: unknown };
+  const issues: string[] = [];
+  const domains: Record<string, string> = {};
+  if (typeof doc?.domains !== "object" || doc.domains === null || Array.isArray(doc.domains)) {
+    issues.push('"domains" must be a mapping of host → publisher name');
+  } else {
+    for (const [domain, publisher] of Object.entries(doc.domains)) {
+      if (!/^[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(domain)) {
+        issues.push(`domains key "${domain}" is not a hostname`);
+      }
+      if (typeof publisher !== "string" || publisher.trim() === "") {
+        issues.push(`domains."${domain}" must be a non-empty name`);
+      } else {
+        domains[domain] = publisher;
+      }
+    }
+  }
+  const aggregators: string[] = [];
+  if (!Array.isArray(doc?.aggregators) || doc.aggregators.length === 0) {
+    issues.push('"aggregators" must be a non-empty list of publisher names');
+  } else {
+    for (const [i, a] of doc.aggregators.entries()) {
+      if (typeof a !== "string" || a.trim() === "") {
+        issues.push(`aggregators[${i}] must be a non-empty name`);
+      } else {
+        aggregators.push(a);
+      }
+    }
+  }
+  if (issues.length > 0) throw new ConfigValidationError("publishers.yaml", issues);
+  return { domains, aggregators };
+}
+
+/** Load `config/publishers.yaml` from a path. */
+export function loadPublishersConfig(path: string): PublishersConfig {
+  return parsePublishersConfig(readFileSync(path, "utf8"));
+}
+
+// ---------------------------------------------------------------------------
 // config/markets.json
 // ---------------------------------------------------------------------------
 

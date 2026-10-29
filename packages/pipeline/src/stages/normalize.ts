@@ -81,6 +81,20 @@ export interface NormalizeOptions {
    * disable.
    */
   unwrapParams?: readonly string[];
+  /**
+   * Domain → origin publisher map (config/publishers.yaml `domains`), e.g.
+   * `{"blog.google": "Google"}`. When an item's recorded publisher is an
+   * aggregator (`aggregatorPublishers`) and its canonical URL's host maps to
+   * an origin, `publisher` is rewritten to the origin and the aggregator is
+   * kept in `via` (L1). Non-aggregator publishers are never rewritten.
+   */
+  publisherDomains?: Record<string, string>;
+  /**
+   * Publisher names treated as aggregators rather than origins —
+   * `config/publishers.yaml` `aggregators` (e.g. "Hacker News", "Reddit",
+   * "distribute.software"). Compared through `publisherKey`.
+   */
+  aggregatorPublishers?: readonly string[];
 }
 
 // ---------------------------------------------------------------------------
@@ -264,9 +278,26 @@ export function normalizePublisher(raw: string, opts?: NormalizeOptions): string
   return cleaned;
 }
 
-// ---------------------------------------------------------------------------
-// Timestamp + title normalization
-// ---------------------------------------------------------------------------
+/**
+ * Origin publisher for a URL from the domain map (L1): the map value when
+ * the URL's hostname equals a key or sits under it (`www.reuters.com` and
+ * `markets.reuters.com` both match `reuters.com`). `undefined` for
+ * unparseable URLs and unmapped hosts — never invented.
+ */
+export function publisherForDomain(
+  url: string,
+  domains?: Record<string, string>,
+): string | undefined {
+  if (!domains) return undefined;
+  const u = isHttpUrl(url);
+  if (!u) return undefined;
+  let host = u.hostname.toLowerCase();
+  if (host.startsWith("www.")) host = host.slice(4);
+  for (const [domain, publisher] of Object.entries(domains)) {
+    if (host === domain || host.endsWith(`.${domain}`)) return publisher;
+  }
+  return undefined;
+}
 
 /**
  * Reparse a timestamp to strict ISO-8601 UTC (`2026-10-28T09:00:00.000Z`).
@@ -298,10 +329,30 @@ export function titleKey(headline: string): string {
 
 /** Normalize one item. Pure: same input → same output, no I/O. */
 export function normalizeItem(item: AdapterRawItem, opts?: NormalizeOptions): NormalizedItem {
+  const canonical_url = canonicalizeUrl(item.canonical_url, opts);
+  let publisher = normalizePublisher(item.publisher, opts);
+  let via = item.via;
+
+  // L1 attribution fix: a source recorded under an aggregator's name
+  // ("Hacker News" on a blog.google URL) is re-attributed to the origin the
+  // domain map names; the aggregator moves to `via`. Curated non-aggregator
+  // names are never rewritten, and an aggregator on its own domain (an HN
+  // self-post, a Reddit permalink) keeps its name without a `via`.
+  const mapped = publisherForDomain(canonical_url, opts?.publisherDomains);
+  if (
+    mapped !== undefined &&
+    publisherKey(mapped) !== publisherKey(publisher) &&
+    (opts?.aggregatorPublishers ?? []).some((a) => publisherKey(a) === publisherKey(publisher))
+  ) {
+    via = via ?? publisher;
+    publisher = mapped;
+  }
+
   return {
     ...item,
-    canonical_url: canonicalizeUrl(item.canonical_url, opts),
-    publisher: normalizePublisher(item.publisher, opts),
+    canonical_url,
+    publisher,
+    ...(via !== undefined ? { via } : {}),
     published_at: normalizeTimestamp(item.published_at),
     fetched_at: normalizeTimestamp(item.fetched_at),
     title_key: titleKey(item.headline),

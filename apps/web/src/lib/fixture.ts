@@ -3,10 +3,12 @@
  * Edition schema onto the plain view props @weekly/ui primitives consume.
  * V1/V2 routes reuse these mappers.
  */
+import { discussionUrl } from "@weekly/schema";
 import type {
   Edition,
   EditionItem,
   EditionPage,
+  EditionSource,
 } from "@weekly/schema";
 import type { MarketsView } from "./markets";
 import { marketsView } from "./markets";
@@ -15,6 +17,10 @@ import rawJson from "../../../../fixtures/2026-w44/edition.json";
 export interface FixtureSource {
   url: string;
   publisher: string;
+  /** Aggregator that surfaced the record when `publisher` names the origin (L1). */
+  via?: string;
+  /** HN/Reddit discussion URL for this source, when known (L1). */
+  discussion_url?: string;
   published_at: string;
   fetched_at?: string;
   adapter?: string;
@@ -33,6 +39,8 @@ export interface FixturePage {
   type: string;
   kicker?: string;
   headline?: string;
+  /** Primary-source URL the headline/deck link to — the cover only (L1). */
+  url?: string;
   deck?: string;
   sentences?: string[];
   chart?: {
@@ -90,11 +98,24 @@ export function dateRangeLabel(start: string, end: string): string {
   return sm === em ? `${smon} ${sd}–${ed}` : `${smon} ${sd}–${emon} ${ed}`;
 }
 
+function mapSource(s: EditionSource): FixtureSource {
+  const discussion_url = discussionUrl(s);
+  return {
+    url: s.url,
+    publisher: s.publisher,
+    published_at: s.published_at,
+    ...(s.via ? { via: s.via } : {}),
+    ...(discussion_url ? { discussion_url } : {}),
+    ...(s.fetched_at ? { fetched_at: s.fetched_at } : {}),
+    ...(s.adapter ? { adapter: s.adapter } : {}),
+  };
+}
+
 function mapItem(item: EditionItem): FixtureItem {
   const out: FixtureItem = {
     headline: item.headline,
     one_liner: item.one_liner,
-    sources: item.sources,
+    sources: item.sources.map(mapSource),
   };
   if ("take" in item && item.take) out.take = item.take;
   if ("evidence" in item && item.evidence) out.evidence = item.evidence;
@@ -112,6 +133,7 @@ function mapPage(page: EditionPage): FixturePage {
   if ("image" in page && page.image) out.image = page.image;
   if ("items" in page && page.items) out.items = page.items.map(mapItem);
   if ("headline" in page && page.headline) out.headline = page.headline;
+  if ("url" in page && page.url) out.url = page.url;
   if ("deck" in page && page.deck) out.deck = page.deck;
   if (page.type === "briefing") out.sentences = [...page.sentences];
   if (page.type === "markets") {

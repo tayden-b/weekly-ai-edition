@@ -4,6 +4,7 @@
  * briefing + every page's items in clean Markdown, no nav chrome. Also the
  * `Accept: text/markdown` negotiation used by `src/proxy.ts` on `/{issue}`.
  */
+import { primarySource } from "@weekly/schema";
 import type {
   Edition,
   EditionBackPage,
@@ -40,8 +41,14 @@ function yamlString(value: string): string {
   return JSON.stringify(value);
 }
 
+/** Escape the characters that would break `[text](url)` syntax. */
+function mdLinkText(value: string): string {
+  return value.replace(/([\\\]])/g, "\\$1");
+}
+
 function sourceLink(s: EditionSource): string {
-  return `[${s.publisher}](${s.url})`;
+  const via = s.via ? ` (via ${s.via})` : "";
+  return `[${mdLinkText(s.publisher)}](${s.url})${via}`;
 }
 
 /** "Evidence: "quote" — Publisher" for §5.3 provenance in the twin. */
@@ -63,7 +70,12 @@ function itemNumber(item: TwinItem, pageType: string): string | undefined {
 }
 
 function itemBlock(item: TwinItem, pageType: string): string {
-  const lines: string[] = [`### ${item.headline}`, ""];
+  // L1: every headline links to the story's primary source.
+  const primary = primarySource(item.sources);
+  const headline = primary
+    ? `### [${mdLinkText(item.headline)}](${primary.url})`
+    : `### ${item.headline}`;
+  const lines: string[] = [headline, ""];
 
   const meta: string[] = [];
   const number = itemNumber(item, pageType);
@@ -215,7 +227,9 @@ export function editionToMarkdown(ed: Edition): string {
   const doc: string[] = [
     frontmatter(ed, backPage),
     "",
-    `# ${cover.headline}`,
+    cover.url !== undefined
+      ? `# [${mdLinkText(cover.headline)}](${cover.url})`
+      : `# ${cover.headline}`,
     "",
     `*${site.name} · № ${ed.issue_number} · ${dateRangeLabel(
       ed.date_start,

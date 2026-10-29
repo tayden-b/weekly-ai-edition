@@ -35,7 +35,7 @@ describe("editionToMarkdown (the /{issue}.md twin)", () => {
 
   it("carries the cover headline, the deck, and every briefing sentence", () => {
     expect(md).toContain(
-      "# Two labs claim the death of the Exponential Time Hypothesis",
+      "# [Two labs claim the death of the Exponential Time Hypothesis](",
     );
     expect(md).toContain("Outside reviewers are now checking the proofs.");
     for (const sentence of edition.pages[1].sentences) {
@@ -47,7 +47,8 @@ describe("editionToMarkdown (the /{issue}.md twin)", () => {
     for (const page of edition.pages) {
       if (!("items" in page) || !page.items) continue;
       for (const item of page.items) {
-        expect(md).toContain(`### ${item.headline}`);
+        // L1: headline is a markdown link to the primary source.
+        expect(md).toContain(`### [${item.headline}](`);
         expect(md).toContain(item.one_liner);
       }
     }

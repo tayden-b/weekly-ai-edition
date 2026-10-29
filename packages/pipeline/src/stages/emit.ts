@@ -24,6 +24,7 @@
  * The stage is pure: same drafted clusters always emit the same edition.
  */
 
+import { primarySource } from "@weekly/schema";
 import type {
   Edition,
   EditionEvidence,
@@ -599,11 +600,15 @@ export function emitEdition<T extends DraftedCluster>(
   const covered = mostCovered(allPageItems, opts);
   if (covered.length === 0) throw new EmitError(["most_covered has no entries"]);
 
+  // L1: the cover headline links to the covered story's origin source.
+  const coverUrl = primarySource(editionSources(cover.cluster))?.url;
+
   const editionSkeleton = {
     pages: [
       {
         type: "cover",
         headline: stripHeadlineMarkup(cover.cluster.draft.headline ?? cover.cluster.item.headline),
+        ...(coverUrl !== undefined ? { url: coverUrl } : {}),
         ...(cover.item.one_liner !== "" ? { deck: cover.item.one_liner } : {}),
       },
       { type: "briefing", sentences: [...sentences] },

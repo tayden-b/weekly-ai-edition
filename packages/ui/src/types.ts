@@ -8,6 +8,10 @@
 export interface SourceView {
   url: string;
   publisher: string;
+  /** Aggregator that surfaced the record when `publisher` names the origin (L1). */
+  via?: string;
+  /** HN/Reddit discussion URL for this source, when known (L1). */
+  discussion_url?: string;
   published_at: string;
   fetched_at?: string;
   adapter?: string;

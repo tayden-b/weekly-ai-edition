@@ -47,6 +47,10 @@ type: "cover"
  */
 headline: string
 /**
+ * Canonical URL of the covered story's primary source — the cover headline links to it (L1).
+ */
+url?: string
+/**
  * Optional standfirst under the headline.
  */
 deck?: string
@@ -100,6 +104,10 @@ evidence?: EditionEvidence
 export interface EditionSource {
 url: string
 publisher: string
+/**
+ * The aggregator that surfaced the record when `publisher` names the origin instead (e.g. publisher "Google", via "Hacker News"). Set by normalize when the recorded publisher was an aggregator and the canonical URL's domain identified the origin (config/publishers.yaml).
+ */
+via?: string
 published_at: string
 fetched_at: string
 adapter: Slug
