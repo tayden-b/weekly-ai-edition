@@ -4,9 +4,11 @@ import { preload } from "react-dom";
 
 import { FrontPage } from "@weekly/ui";
 
+import { buildDeck, editionMeta } from "../../lib/deck";
 import { getEdition, listEditions } from "../../lib/editions";
 import { assembleFrontPage } from "../../lib/frontpage";
 import { site } from "../../lib/site";
+import { DeckCards } from "./DeckCards";
 import { DeckView } from "./DeckView";
 import { FrontPageChrome } from "./FrontPageChrome";
 
@@ -76,7 +78,13 @@ export default async function IssuePage({
         </main>
       </div>
       <main className="issue-split__deck">
-        <DeckView edition={ed} siteName={site.name} />
+        <DeckView
+          total={buildDeck(ed).length}
+          headline={`${site.name} — № ${ed.issue_number} (${editionMeta(ed).dateRange})`}
+          scrollerLabel={`${site.name} № ${ed.issue_number} — ${buildDeck(ed).length} pages; arrow keys or tap edges to turn`}
+        >
+          <DeckCards edition={ed} siteName={site.name} />
+        </DeckView>
       </main>
     </>
   );

@@ -56,7 +56,7 @@ export async function renderCoverArt(
 
   const avif = await sharp(Buffer.from(svg, "utf8"), { density: 96 })
     .resize(portrait.width, portrait.height)
-    .avif({ quality: opts.avifQuality ?? 55, effort: 6 })
+    .avif({ quality: opts.avifQuality ?? 45, effort: 6 })
     .toBuffer();
 
   // PNG cannot compress the fine feTurbulence grain inside budget, so a
