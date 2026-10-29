@@ -8,6 +8,7 @@
     {
       "type": "cover",
       "headline": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
       "deck": "Gemini 4 Carbon is Google's new flagship model, aimed at agentic and coding workloads.",
       "image": "editions/2026-w44/cover.avif"
     },
@@ -35,7 +36,8 @@
           "sources": [
             {
               "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
-              "publisher": "Hacker News",
+              "publisher": "Google",
+              "via": "Hacker News",
               "published_at": "2026-10-28T17:01:23.000Z",
               "fetched_at": "2026-10-29T13:43:57.915Z",
               "adapter": "distribute-software",
@@ -51,46 +53,14 @@
             },
             {
               "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
-              "publisher": "Hacker News",
+              "publisher": "Google",
+              "via": "Hacker News",
               "published_at": "2026-10-28T17:01:23.000Z",
               "fetched_at": "2026-10-29T13:43:56.500Z",
               "adapter": "hn-algolia",
               "excerpt": "Gemini 4 Carbon",
               "source_ids": {
                 "hn_object_id": "50276792",
-                "source": "hn-algolia"
-              }
-            }
-          ]
-        },
-        {
-          "headline": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-          "one_liner": "Nvidia open-sourced Nemotron 3.5 Transcribe and Granary v2, promptable transcription models covering 40 languages.",
-          "companies": [
-            "nvidia"
-          ],
-          "sources": [
-            {
-              "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-              "publisher": "Hugging Face",
-              "published_at": "2026-10-28T00:00:00.000Z",
-              "fetched_at": "2026-10-29T13:43:56.490Z",
-              "adapter": "lab-blogs",
-              "excerpt": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-              "source_ids": {
-                "guid": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-                "source": "huggingface-blog"
-              }
-            },
-            {
-              "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-              "publisher": "Hacker News",
-              "published_at": "2026-10-28T15:17:53.000Z",
-              "fetched_at": "2026-10-28T19:44:16.803Z",
-              "adapter": "hn-algolia",
-              "excerpt": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
-              "source_ids": {
-                "hn_object_id": "50275128",
                 "source": "hn-algolia"
               }
             }
@@ -201,6 +171,28 @@
               }
             }
           ]
+        },
+        {
+          "headline": "Voice AI in vogue: Nvidia releases new open transcription model",
+          "one_liner": "Nvidia's free transcription model handles recordings in 40 languages but not live audio.",
+          "companies": [
+            "nvidia"
+          ],
+          "sources": [
+            {
+              "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+              "publisher": "TechCrunch",
+              "published_at": "2026-10-28T15:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.945Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+              "source_ids": {
+                "rss_guid": "https://techcrunch.com/?p=3182159",
+                "newsroom_feed": "techcrunch-ai",
+                "source": "techcrunch-ai"
+              }
+            }
+          ]
         }
       ]
     },
@@ -216,7 +208,8 @@
           "sources": [
             {
               "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-              "publisher": "Hacker News",
+              "publisher": "Artificial Analysis",
+              "via": "Hacker News",
               "published_at": "2026-10-29T12:41:56.000Z",
               "fetched_at": "2026-10-29T13:43:56.500Z",
               "adapter": "hn-algolia",
@@ -344,7 +337,8 @@
           "sources": [
             {
               "url": "https://cursor.com/blog/agent-sdk",
-              "publisher": "Hacker News",
+              "publisher": "Cursor",
+              "via": "Hacker News",
               "published_at": "2026-10-28T14:02:20.000Z",
               "fetched_at": "2026-10-28T19:44:16.803Z",
               "adapter": "hn-algolia",
@@ -614,7 +608,8 @@
           "sources": [
             {
               "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27",
-              "publisher": "Hacker News",
+              "publisher": "Reuters",
+              "via": "Hacker News",
               "published_at": "2026-10-28T11:54:23.000Z",
               "fetched_at": "2026-10-29T13:43:57.915Z",
               "adapter": "distribute-software",
@@ -696,7 +691,8 @@
           "sources": [
             {
               "url": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14",
-              "publisher": "Hacker News",
+              "publisher": "Reuters",
+              "via": "Hacker News",
               "published_at": "2026-10-28T11:54:23.000Z",
               "fetched_at": "2026-10-29T13:43:57.915Z",
               "adapter": "distribute-software",
@@ -963,7 +959,8 @@
             },
             {
               "url": "https://github.com/trytilde/tilde",
-              "publisher": "Hacker News",
+              "publisher": "GitHub",
+              "via": "Hacker News",
               "published_at": "2026-10-28T21:25:24.000Z",
               "fetched_at": "2026-10-29T13:43:56.500Z",
               "adapter": "hn-algolia",
@@ -1105,18 +1102,18 @@
     },
     {
       "type": "back_page",
-      "sources_total": 44,
+      "sources_total": 43,
       "source_counts": [
         {
           "publisher": "Exa Markets",
           "count": 8
         },
         {
-          "publisher": "Hacker News",
-          "count": 8
+          "publisher": "Bloomberg",
+          "count": 5
         },
         {
-          "publisher": "Bloomberg",
+          "publisher": "TechCrunch",
           "count": 5
         },
         {
@@ -1128,15 +1125,15 @@
           "count": 4
         },
         {
-          "publisher": "TechCrunch",
-          "count": 4
+          "publisher": "Google",
+          "count": 2
         },
         {
           "publisher": "Google DeepMind",
           "count": 2
         },
         {
-          "publisher": "Hugging Face",
+          "publisher": "Reuters",
           "count": 2
         },
         {
@@ -1148,7 +1145,23 @@
           "count": 1
         },
         {
+          "publisher": "Artificial Analysis",
+          "count": 1
+        },
+        {
           "publisher": "Axios",
+          "count": 1
+        },
+        {
+          "publisher": "Cursor",
+          "count": 1
+        },
+        {
+          "publisher": "GitHub",
+          "count": 1
+        },
+        {
+          "publisher": "Hugging Face",
           "count": 1
         },
         {
