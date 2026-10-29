@@ -62,7 +62,7 @@ async function jumpOnce(page: Page) {
 }
 
 test.describe("desktop front page", () => {
-  test("renders the fixture edition as a newspaper front page", async ({
+  test("renders the emitted edition as a newspaper front page", async ({
     page,
   }) => {
     await page.goto(ISSUE, { waitUntil: "networkidle" });
@@ -79,7 +79,7 @@ test.describe("desktop front page", () => {
     const sections = page.locator(".w-fp__section");
     expect(await sections.count()).toBeGreaterThanOrEqual(5);
     await expect(page.locator(".w-fp__markets table")).toBeVisible();
-    await expect(page.locator(".w-fp__markets")).toContainText("NVDA");
+    await expect(page.locator(".w-fp__markets")).toContainText("AMD");
   });
 
   test("sticky bar appears after the masthead scrolls out", async ({
