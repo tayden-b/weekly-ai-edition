@@ -22,7 +22,14 @@ export function CoverImage({
     >
       {src ? (
         // Package is Next-agnostic; V* routes may swap in next/image.
-        <img className="w-cover__img" src={src} alt={alt} />
+        // The cover is the page's LCP element — fetch it at high priority.
+        <img
+          className="w-cover__img"
+          src={src}
+          alt={alt}
+          fetchPriority="high"
+          decoding="async"
+        />
       ) : (
         <div className="w-cover__fallback" aria-hidden="true">
           {issueNo ? <span className="w-cover__no">№ {issueNo}</span> : null}
