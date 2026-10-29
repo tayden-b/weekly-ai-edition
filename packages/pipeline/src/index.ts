@@ -4,7 +4,7 @@
  *
  * C5 lands the adapter interface and `RawItem`; A1–A10 the adapters;
  * P1 the normalize + dedupe stages; P2–P7 the rest. `PIPELINE_STAGES`
- * keeps the canonical order.
+ * keeps the canonical order. Stages landed so far: P1, P2, P3, P4, P5.
  */
 
 export const PIPELINE_STAGES = [
@@ -154,19 +154,65 @@ export {
   UNSORTED,
 } from "./stages/classify.js";
 
+// P5 — extract stage (PLAN §5.2; §5.3 evidence spans, llm() seam for gaps)
+export {
+  applyExtraction,
+  assertExtractionResponse,
+  buildExtractionRequest,
+  EXTRACT_FIELD_NAMES,
+  EXTRACT_PAGES,
+  EXTRACT_PROMPT_VERSION,
+  type ExtractedCluster,
+  type ExtractedField,
+  type ExtractFieldName,
+  type ExtractFieldValue,
+  extract,
+  type ExtractionContractError,
+  type ExtractionDrop,
+  type ExtractionDropReason,
+  type ExtractionEvidence,
+  type ExtractionRequest,
+  type ExtractionRequestItem,
+  type ExtractionResponse,
+  type ExtractionResponseField,
+  type ExtractionResponseItem,
+  type ExtractionSourceRef,
+  type ExtractOptions,
+  type ExtractPage,
+  FIELD_VALUE_TYPE,
+  isExtractPage,
+  type ItemExtraction,
+  normalizeStage,
+  PAGE_FIELD_SPECS,
+  type PageFieldSpec,
+  parseUsdAmount,
+  regexExtract,
+  regexExtractCandidates,
+  renderExtractPrompt,
+} from "./stages/extract.js";
+
 // P4 — the llm() seam: session hand-off files + deterministic replay (PLAN §8)
 export {
   CLASSIFY_PROMPT_PATH,
   classificationPaths,
+  createReplayExtractor,
+  createReplayExtractorFromFile,
   createReplayLlm,
   createReplayLlmFromFile,
+  createSessionExtractor,
   createSessionLlm,
+  EXTRACT_PROMPT_PATH,
+  type ExtractLlm,
+  extractionPaths,
   type Llm,
   readClassificationResponse,
+  readExtractionResponse,
   SESSION_LLM_POLL_MS,
   SESSION_LLM_TIMEOUT_MS,
+  type SessionExtractorOptions,
   type SessionLlmOptions,
   writeClassificationRequest,
+  writeExtractionRequest,
 } from "./llm.js";
 
 // A4 — SEC EDGAR adapter (Form D / S-1 / 8-K; funding + deals pages)

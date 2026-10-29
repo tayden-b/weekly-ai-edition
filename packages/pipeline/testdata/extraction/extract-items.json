@@ -1,0 +1,386 @@
+{
+  "version": 1,
+  "description": "Labelled extraction set for the extract stage (P5). Each entry is a real public item (or dedupe cluster) from data/raw/2026-10-28 plus the structured fields a correct extractor should emit. See README.md in this directory for the format and harness contract.",
+  "pages": [
+    "funding",
+    "deals",
+    "performance",
+    "markets"
+  ],
+  "items": [
+    {
+      "id": "funding-001",
+      "page": "funding",
+      "members": [
+        {
+          "headline": "Foundry Robotics Raises $100 Million Series A to Build America’s First Autonomous Factory Network",
+          "url": "https://www.businesswire.com/news/home/20261028508802/en/Foundry-Robotics-Raises-100-Million-Series-A",
+          "publisher": "Business Wire",
+          "published_at": "2026-10-28",
+          "excerpt": "EMERYVILLE, Calif.--(BUSINESS WIRE)--Foundry Robotics today announced its oversubscribed $100 million Series A funding round led by Marlinspike Partners. Participating in the round are early backers Khosla Ventures and Red Glass Ventures, and new investors SE Ventures, Wing VC, and Axiom Ventures,"
+        }
+      ],
+      "expect": {
+        "fields": {
+          "amount": "$100M",
+          "amount_usd": 100000000,
+          "stage": "Series A",
+          "lead_investor": "Marlinspike Partners"
+        },
+        "methods": {
+          "amount": "regex",
+          "stage": "regex",
+          "lead_investor": "regex"
+        }
+      },
+      "notes": "Fully regex-covered: amount + stage + lead all sit in one excerpt."
+    },
+    {
+      "id": "funding-002",
+      "page": "funding",
+      "members": [
+        {
+          "headline": "Rocker Launches as the Context-Aware AI Work Assistant for the Busiest People at the World’s Most Ambitious Companies",
+          "url": "https://www.businesswire.com/news/home/20261028010878/en/Rocker-Launches-as-the-Context-Aware-AI-Work",
+          "publisher": "Business Wire",
+          "published_at": "2026-10-28",
+          "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--Rocker, the AI assistant for busiest people at the world’s most ambitious companies, today announced $12.85M in funding led by Greycroft, with participation from Anthropic and Menlo Ventures' Anthology Fund, Matchstick, Stripe, and operators Jeanne DeWitt Grosser"
+        }
+      ],
+      "expect": {
+        "fields": {
+          "amount": "$12.85M",
+          "amount_usd": 12850000,
+          "lead_investor": "Greycroft"
+        },
+        "missing": [
+          "stage"
+        ]
+      },
+      "notes": "Stage is never stated — stays missing and flagged rather than guessed."
+    },
+    {
+      "id": "funding-003",
+      "page": "funding",
+      "members": [
+        {
+          "headline": "DeepSeek reportedly raises $15B days after US restrictions",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+          "publisher": "TechCrunch",
+          "published_at": "2026-10-22",
+          "excerpt": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns."
+        }
+      ],
+      "expect": {
+        "fields": {
+          "amount": "$15B",
+          "amount_usd": 15000000000
+        },
+        "missing": [
+          "stage",
+          "lead_investor"
+        ]
+      },
+      "notes": "Word-form amount ($15 billion) normalizes to $15B; no stage or lead disclosed."
+    },
+    {
+      "id": "funding-004",
+      "page": "funding",
+      "members": [
+        {
+          "headline": "Anthropic S-1 Reveals Rapid Growth Ahead of Blockbuster IPO",
+          "url": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html",
+          "publisher": "The New York Times",
+          "published_at": "2026-10-26",
+          "excerpt": "Anthropic S-1 Reveals Rapid Growth Ahead of Blockbuster IPO"
+        },
+        {
+          "headline": "Anthropic Weighs Offering 15%-20% of IPO to Retail Investors",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-28/anthropic-said-to-pick-jpmorgan-to-lead-ipo-video",
+          "publisher": "Bloomberg",
+          "published_at": "2026-10-28",
+          "excerpt": "Anthropic is weighing a retail offering of 15% to 20% of the shares available in the IPO, according to people familiar with the matter. Those sources say the company behind Claude has tapped JPMorgan Chase to lead the US retail offering. Bloomberg’s Ryan Gould discusses the plans with Ed Ludlow on"
+        }
+      ],
+      "expect": {
+        "fields": {
+          "stage": "IPO",
+          "lead_investor": "JPMorgan Chase"
+        },
+        "evidence": {
+          "lead_investor": {
+            "source_index": 1
+          }
+        },
+        "missing": [
+          "amount"
+        ]
+      },
+      "notes": "Multi-source cluster: stage from source 0, lead from source 1; no USD amount is quotable so amount stays missing."
+    },
+    {
+      "id": "deals-001",
+      "page": "deals",
+      "members": [
+        {
+          "headline": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
+          "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisitio",
+          "publisher": "Hacker News",
+          "published_at": "2026-10-28",
+          "excerpt": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar"
+        }
+      ],
+      "expect": {
+        "fields": {
+          "acquirer": "Amazon Leo",
+          "target": "Globalstar",
+          "amount": "$11.5B",
+          "amount_usd": 11500000000
+        },
+        "methods": {
+          "acquirer": "regex",
+          "target": "regex",
+          "amount": "regex"
+        }
+      },
+      "notes": "Possessive form \"X’s $11.5B acquisition of Y\" (curly apostrophe) — all regex."
+    },
+    {
+      "id": "deals-002",
+      "page": "deals",
+      "members": [
+        {
+          "headline": "Hummingbird Acquires Quantimon to Bring Machine Learning to AML Transaction Monitoring for FIs",
+          "url": "https://www.businesswire.com/news/home/20261028117784/en/Hummingbird-Acquires-Quantimon-to-Bring-Mach",
+          "publisher": "Business Wire",
+          "published_at": "2026-10-28",
+          "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--Hummingbird, the AI-powered orchestration platform for financial crime compliance, today announced the acquisition of Quantimon, the machine learning platform for AML risk detection. The acquisition deepens Hummingbird's investment in transaction monitoring, bringing"
+        }
+      ],
+      "expect": {
+        "fields": {
+          "acquirer": "Hummingbird",
+          "target": "Quantimon"
+        },
+        "methods": {
+          "target": "regex",
+          "acquirer": "llm"
+        },
+        "missing": [
+          "amount"
+        ]
+      },
+      "notes": "Acquirer sits behind an appositive — the regex pass cannot reach it, the model fills it."
+    },
+    {
+      "id": "deals-003",
+      "page": "deals",
+      "members": [
+        {
+          "headline": "CoStar Group to Acquire Vexcel, Adding the World’s Largest Survey Grade High-Resolution Aerial Imagery",
+          "url": "https://www.businesswire.com/news/home/20261027636043/en/CoStar-Group-to-Acquire-Vexcel-Adding-the-Wo",
+          "publisher": "Business Wire",
+          "published_at": "2026-10-27",
+          "excerpt": "ARLINGTON, Va.--(BUSINESS WIRE)--CoStar Group, Inc. (NASDAQ: CSGP), a leading global provider of online real estate marketplaces, information, analytics, and digital twins in the property markets, announced today that it has entered into a definitive agreement to acquire Vexcel Group, Inc."
+        }
+      ],
+      "expect": {
+        "fields": {
+          "acquirer": "CoStar Group",
+          "target": "Vexcel Group"
+        },
+        "methods": {
+          "target": "regex",
+          "acquirer": "llm"
+        },
+        "missing": [
+          "amount"
+        ]
+      },
+      "notes": "\"agreement to acquire Y\" puts a lowercase clause in the acquirer slot — the proper-name gate drops it and the model supplies CoStar Group. No price disclosed."
+    },
+    {
+      "id": "deals-004",
+      "page": "deals",
+      "members": [
+        {
+          "headline": "Ridgeview Partners Completes Acquisition of Pinewood Technologies Group",
+          "url": "https://www.businesswire.com/news/home/20261027051586/en/Ridgeview-Partners-Completes-Acquisition-of-",
+          "publisher": "Business Wire",
+          "published_at": "2026-10-27",
+          "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--Ridgeview Partners LLC (“Ridgeview”), a growth-oriented technology private equity firm, today announced the completion of the acquisition of Pinewood Technologies Group plc (“Pinewood.AI”), a leading cloud-based, AI-first, full-service technology provider to"
+        }
+      ],
+      "expect": {
+        "fields": {
+          "acquirer": "Ridgeview Partners LLC",
+          "target": "Pinewood Technologies Group plc"
+        },
+        "methods": {
+          "target": "regex",
+          "acquirer": "llm"
+        },
+        "missing": [
+          "amount"
+        ]
+      },
+      "notes": "\"completion of the acquisition of Y\" phrasing; the acquirer is only identifiable from the sentence subject — a model fill."
+    },
+    {
+      "id": "deals-005",
+      "page": "deals",
+      "members": [
+        {
+          "headline": "TPG pursues $5bn acquisition of UK data centre group Ark",
+          "url": "https://www.ft.com/content/e2aafede-771a-4fd0-b9fb-67c0bbb828ed",
+          "publisher": "Financial Times",
+          "published_at": "2026-10-28",
+          "excerpt": "TPG pursues $5bn acquisition of UK data centre group Ark"
+        }
+      ],
+      "expect": {
+        "fields": {
+          "acquirer": "TPG",
+          "target": "UK data centre group Ark",
+          "amount": "$5B",
+          "amount_usd": 5000000000
+        },
+        "methods": {
+          "amount": "regex",
+          "acquirer": "llm",
+          "target": "llm"
+        }
+      },
+      "notes": "Headline-only record: \"pursues\" is outside the regex grammar, so both parties come from the model; amount is regex."
+    },
+    {
+      "id": "performance-001",
+      "page": "performance",
+      "members": [
+        {
+          "headline": "Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs",
+          "url": "https://arxiv.org/abs/2610.35985",
+          "publisher": "arXiv",
+          "published_at": "2026-10-26",
+          "excerpt": "Conditional memory layers, such as DeepSeek's Engram, attach large hashed n-gram tables to a language model, and removing them from DeepSeek-V4.1-Flash costs 36.8 PopQA points. Low-bit quantization loses long-tail facts first, and the standard remedy, giving more bits to frequently accessed rows,"
+        }
+      ],
+      "expect": {
+        "fields": {
+          "metric_name": "PopQA",
+          "metric_value": "36.8"
+        },
+        "methods": {
+          "metric_name": "regex",
+          "metric_value": "regex"
+        }
+      },
+      "notes": "\"costs 36.8 PopQA points\" — the <N> <Name> points form."
+    },
+    {
+      "id": "performance-002",
+      "page": "performance",
+      "members": [
+        {
+          "headline": "LMArena text — Claude Opus 5.5 (High) (#2)",
+          "url": "https://lmarena.ai/leaderboard",
+          "publisher": "LMArena",
+          "published_at": "2026-10-22",
+          "excerpt": "rank: 2 · rating: 1516.16649584179 · vote_count: 10322 · organization: anthropic · leaderboard_publish_date: 2026-10-22"
+        }
+      ],
+      "expect": {
+        "fields": {
+          "metric_name": "rank",
+          "metric_value": "2"
+        },
+        "methods": {
+          "metric_name": "regex",
+          "metric_value": "regex"
+        }
+      },
+      "notes": "Leaderboard record — earliest numeric slot (rank) wins per the source-position tiebreak."
+    },
+    {
+      "id": "performance-003",
+      "page": "performance",
+      "members": [
+        {
+          "headline": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+          "url": "https://openai.com/index/anima",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-23",
+          "excerpt": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients."
+        }
+      ],
+      "expect": {
+        "fields": {},
+        "missing": [
+          "metric_name",
+          "metric_value"
+        ]
+      },
+      "notes": "The 75% lives in the headline only — the excerpt carries no quotable number, so the field stays missing rather than quoting text that is not there."
+    },
+    {
+      "id": "markets-001",
+      "page": "markets",
+      "members": [
+        {
+          "headline": "NVIDIA weekly bars",
+          "url": "https://stooq.com/q/d/l/?s=nvda.us&i=w",
+          "publisher": "Stooq",
+          "published_at": "2026-10-30",
+          "excerpt": "NVIDIA (NVDA) week ending 2026-10-30: close 192.44, +4.3% vs prior weekly close 184.62 (Stooq weekly bars, i=w)."
+        }
+      ],
+      "expect": {
+        "fields": {
+          "ticker": "NVDA",
+          "close": 192.44,
+          "change_pct": 4.3
+        },
+        "methods": {
+          "ticker": "regex",
+          "close": "regex",
+          "change_pct": "regex"
+        },
+        "missing": [
+          "metric_name",
+          "metric_value"
+        ]
+      },
+      "notes": "The markets adapter's own excerpt shape — ticker, close and week-over-week move are all deterministic."
+    },
+    {
+      "id": "markets-002",
+      "page": "markets",
+      "members": [
+        {
+          "headline": "Meta Platforms weekly bars",
+          "url": "https://stooq.com/q/d/l/?s=meta.us&i=w",
+          "publisher": "Stooq",
+          "published_at": "2026-10-30",
+          "excerpt": "Meta Platforms (META) week ending 2026-10-30: close 711.20, -2.1% vs prior weekly close 726.45 (Stooq weekly bars, i=w)."
+        }
+      ],
+      "expect": {
+        "fields": {
+          "ticker": "META",
+          "close": 711.2,
+          "change_pct": -2.1
+        },
+        "methods": {
+          "ticker": "regex",
+          "close": "regex",
+          "change_pct": "regex"
+        },
+        "missing": [
+          "metric_name",
+          "metric_value"
+        ]
+      },
+      "notes": "Negative week-over-week move keeps the sign."
+    }
+  ]
+}

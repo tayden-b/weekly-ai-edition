@@ -28,7 +28,10 @@
  *
  * P5 (extract) and P6 (draft) reuse this pattern: their own request/response
  * types and a `prompts/<stage>.prompt.md`, with the same session/replay
- * mechanics — a stage never cares which implementation answers.
+ * mechanics — a stage never cares which implementation answers. P5's seam
+ * (`ExtractLlm` + `createSessionExtractor`/`createReplayExtractor` below)
+ * uses the same file contract with `extraction.{request,response,prompt}.*`
+ * names.
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
@@ -40,6 +43,11 @@ import {
   type ClassificationResponse,
   renderClassifyPrompt,
 } from "./stages/classify.js";
+import {
+  type ExtractionRequest,
+  type ExtractionResponse,
+  renderExtractPrompt,
+} from "./stages/extract.js";
 
 // ---------------------------------------------------------------------------
 // The seam
@@ -172,5 +180,109 @@ export function createReplayLlm(response: ClassificationResponse): Llm {
 export function createReplayLlmFromFile(path: string): Llm {
   return createReplayLlm(
     JSON.parse(readFileSync(path, "utf8")) as ClassificationResponse,
+  );
+}
+
+// ---------------------------------------------------------------------------
+// P5 — the extract seam (`extraction.{request,response,prompt}.{json,md}`)
+// ---------------------------------------------------------------------------
+
+/** The `extract` judgement call — session or replay behind one signature. */
+export interface ExtractLlm {
+  extract(request: ExtractionRequest): Promise<ExtractionResponse>;
+}
+
+/** Path of the versioned extract prompt (shipped with the package source). */
+export const EXTRACT_PROMPT_PATH = fileURLToPath(
+  new URL("../prompts/extract.prompt.md", import.meta.url),
+);
+
+/** The canonical file names of the extraction session hand-off. */
+export function extractionPaths(dir: string): {
+  requestPath: string;
+  responsePath: string;
+  promptPath: string;
+} {
+  return {
+    requestPath: join(dir, "extraction.request.json"),
+    responsePath: join(dir, "extraction.response.json"),
+    promptPath: join(dir, "extraction.prompt.md"),
+  };
+}
+
+/**
+ * Write the request half of the extraction hand-off: `extraction.request.json`
+ * plus the rendered `extraction.prompt.md` (when `promptTemplate` is given).
+ */
+export function writeExtractionRequest(
+  dir: string,
+  request: ExtractionRequest,
+  promptTemplate?: string,
+): ReturnType<typeof extractionPaths> {
+  mkdirSync(dir, { recursive: true });
+  const paths = extractionPaths(dir);
+  writeFileSync(paths.requestPath, `${JSON.stringify(request, null, 2)}\n`);
+  if (promptTemplate !== undefined) {
+    writeFileSync(paths.promptPath, renderExtractPrompt(promptTemplate, request));
+  }
+  return paths;
+}
+
+/** Read `extraction.response.json` — contract-checked downstream. */
+export function readExtractionResponse(dir: string): ExtractionResponse {
+  const { responsePath } = extractionPaths(dir);
+  return JSON.parse(readFileSync(responsePath, "utf8")) as ExtractionResponse;
+}
+
+export interface SessionExtractorOptions {
+  /** Directory the hand-off files are written into (created if needed). */
+  dir: string;
+  /** Prompt template text — defaults to `EXTRACT_PROMPT_PATH` so the shipped
+   *  prompt's version stays the single source of truth. */
+  promptTemplate?: string;
+  /** Response-file poll interval. Default `SESSION_LLM_POLL_MS`. */
+  pollMs?: number;
+  /** Wait for `extraction.response.json` before throwing. Default 30 min. */
+  timeoutMs?: number;
+}
+
+/**
+ * `session` mode for extract: write the request (+ rendered prompt) to `dir`,
+ * then wait for the Devin session to write `extraction.response.json` there.
+ */
+export function createSessionExtractor(opts: SessionExtractorOptions): ExtractLlm {
+  const pollMs = opts.pollMs ?? SESSION_LLM_POLL_MS;
+  const timeoutMs = opts.timeoutMs ?? SESSION_LLM_TIMEOUT_MS;
+  const promptTemplate =
+    opts.promptTemplate ?? readFileSync(EXTRACT_PROMPT_PATH, "utf8");
+  return {
+    async extract(request: ExtractionRequest): Promise<ExtractionResponse> {
+      const { responsePath } = writeExtractionRequest(opts.dir, request, promptTemplate);
+      const deadline = Date.now() + timeoutMs;
+      while (!existsSync(responsePath)) {
+        if (Date.now() > deadline) {
+          throw new Error(
+            `timed out waiting for ${responsePath} — the session must write ` +
+              `${basename(responsePath)} to continue`,
+          );
+        }
+        await sleep(pollMs);
+      }
+      return readExtractionResponse(opts.dir);
+    },
+  };
+}
+
+/** `replay` mode for extract: always return the recorded response verbatim. */
+export function createReplayExtractor(response: ExtractionResponse): ExtractLlm {
+  return {
+    extract: async () => response,
+  };
+}
+
+/** `replay` from a recorded `extraction.response.json` file. */
+export function createReplayExtractorFromFile(path: string): ExtractLlm {
+  return createReplayExtractor(
+    JSON.parse(readFileSync(path, "utf8")) as ExtractionResponse,
   );
 }
