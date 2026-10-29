@@ -372,6 +372,96 @@
       "slug": "tenstorrent",
       "name": "Tenstorrent",
       "aliases": []
+    },
+    {
+      "slug": "furiosaai",
+      "name": "FuriosaAI",
+      "aliases": []
+    },
+    {
+      "slug": "wabi",
+      "name": "Wabi",
+      "aliases": []
+    },
+    {
+      "slug": "solink",
+      "name": "Solink",
+      "aliases": []
+    },
+    {
+      "slug": "opentrons",
+      "name": "Opentrons",
+      "aliases": []
+    },
+    {
+      "slug": "trashlab",
+      "name": "TrashLab",
+      "aliases": []
+    },
+    {
+      "slug": "iren",
+      "name": "IREN",
+      "aliases": [
+        "Iris Energy"
+      ]
+    },
+    {
+      "slug": "marvell",
+      "name": "Marvell Technology",
+      "aliases": [
+        "Marvell"
+      ]
+    },
+    {
+      "slug": "lumentum",
+      "name": "Lumentum Holdings",
+      "aliases": [
+        "Lumentum"
+      ]
+    },
+    {
+      "slug": "deepgram",
+      "name": "Deepgram",
+      "aliases": []
+    },
+    {
+      "slug": "daily",
+      "name": "Daily",
+      "aliases": [
+        "Pipecat"
+      ]
+    },
+    {
+      "slug": "xsolla",
+      "name": "Xsolla",
+      "aliases": []
+    },
+    {
+      "slug": "tpg",
+      "name": "TPG",
+      "aliases": []
+    },
+    {
+      "slug": "mozilla",
+      "name": "Mozilla",
+      "aliases": [
+        "Firefox"
+      ]
+    },
+    {
+      "slug": "opera",
+      "name": "Opera",
+      "aliases": []
+    },
+    {
+      "slug": "servicenow",
+      "name": "ServiceNow",
+      "aliases": []
+    },
+    {
+      "slug": "disruptive",
+      "name": "Disruptive",
+      "aliases": []
     }
   ],
   "items": [
@@ -401,15 +491,17 @@
       ]
     },
     {
-      "id": "https://github.com/VenoM9078/gradientdeck-skill",
+      "id": "https://binary.so/",
       "headline": "Show HN: Task-view – review a coding agent’s change as a map instead of a diff",
       "publisher": "Hacker News",
       "canonical_url": "https://github.com/gtindo/task-view",
       "published_at": "2026-10-24T00:11:40.000Z",
       "excerpt": "Show HN: Task-view – review a coding agent’s change as a map instead of a diff",
-      "source_count": 1,
+      "source_count": 3,
       "publishers": [
-        "Hacker News"
+        "Financial Times",
+        "Hacker News",
+        "The Verge"
       ]
     },
     {
@@ -683,18 +775,6 @@
       "canonical_url": "https://github.com/tensemem/tensemem",
       "published_at": "2026-10-24T14:38:03.000Z",
       "excerpt": "Show HN: TenseMem – deterministic memory for AI agents",
-      "source_count": 1,
-      "publishers": [
-        "Hacker News"
-      ]
-    },
-    {
-      "id": "https://binary.so/",
-      "headline": "Show HN: Python script to evaluate your RAG pipeline against a golden set",
-      "publisher": "Hacker News",
-      "canonical_url": "https://github.com/infrixo-systems/rag-evaluation-starter",
-      "published_at": "2026-10-24T15:17:44.000Z",
-      "excerpt": "Show HN: Python script to evaluate your RAG pipeline against a golden set",
       "source_count": 1,
       "publishers": [
         "Hacker News"
@@ -1038,7 +1118,7 @@
       ]
     },
     {
-      "id": "https://ai.jagular.io/",
+      "id": "https://ai-news.jagular.io/",
       "headline": "Show HN: AI Heat Map Sourced from over 140 News Feeds",
       "publisher": "Hacker News",
       "canonical_url": "https://ai.jagular.io/",
@@ -1449,18 +1529,6 @@
       ]
     },
     {
-      "id": "https://mta.rip/?route=1&station=127&view=trackmap",
-      "headline": "Show HN: MTA.rip: a train visualizer that shows congestion",
-      "publisher": "Hacker News",
-      "canonical_url": "https://mta.rip/?route=1&station=127&view=trackmap",
-      "published_at": "2026-10-25T20:29:22.000Z",
-      "excerpt": "It bugged me recently that the New York City subway countdown clocks show an estimated time that is often inaccurate. Since many of the delays are due to other trains on the same track, I figured: why not just show the trains? Source code:",
-      "source_count": 1,
-      "publishers": [
-        "Hacker News"
-      ]
-    },
-    {
       "id": "https://github.com/SRN0129/Agenttrust",
       "headline": "Show HN: AgentTrust – Zero-trust security and human approvals for AI agents",
       "publisher": "Hacker News",
@@ -1566,6 +1634,18 @@
       "source_count": 1,
       "publishers": [
         "Google AI"
+      ]
+    },
+    {
+      "id": "https://epoch.ai/benchmarks",
+      "headline": "furniture assembly: gpt-6.1-terra_max",
+      "publisher": "Epoch AI",
+      "canonical_url": "https://epoch.ai/benchmarks",
+      "published_at": "2026-10-26T00:00:00.000Z",
+      "excerpt": "mean_score: 0.7916666666666666 · Best score (across scorers): 0.7916666666666666 · Organization: OpenAI · Release date: 2026-10-26",
+      "source_count": 1,
+      "publishers": [
+        "Epoch AI"
       ]
     },
     {
@@ -2434,19 +2514,6 @@
       ]
     },
     {
-      "id": "https://dola-ai.com/",
-      "headline": "Show HN: Image or AI – an AI image detector that shows which evidence it used",
-      "publisher": "Hacker News",
-      "canonical_url": "https://imageorai.com/",
-      "published_at": "2026-10-26T12:57:52.000Z",
-      "excerpt": "Show HN: Image or AI – an AI image detector that shows which evidence it used",
-      "source_count": 2,
-      "publishers": [
-        "Financial Times",
-        "Hacker News"
-      ]
-    },
-    {
       "id": "https://github.com/swapnildahiphale/compactly",
       "headline": "Show HN: Compactly – Compact Claude Code sessions between tasks",
       "publisher": "Hacker News",
@@ -2660,9 +2727,10 @@
       "canonical_url": "https://www.nytimes.com/2026/10/26/technology/anthropic-founders.html",
       "published_at": "2026-10-26T15:24:56.000Z",
       "excerpt": "Former OpenAI employees started the company in 2021 after disagreements over how to safely build artificial intelligence. An I.P.O. could make them billionaires.",
-      "source_count": 2,
+      "source_count": 3,
       "publishers": [
         "OpenAI",
+        "TechCrunch",
         "The New York Times"
       ]
     },
@@ -3040,18 +3108,6 @@
       ]
     },
     {
-      "id": "https://epoch.ai/benchmarks",
-      "headline": "furniture assembly: gpt-6.1-terra_max",
-      "publisher": "Epoch AI",
-      "canonical_url": "https://epoch.ai/benchmarks",
-      "published_at": "2026-10-26T20:00:34.000Z",
-      "excerpt": "mean_score: 0.7916666666666666 · Best score (across scorers): 0.7916666666666666 · Organization: OpenAI · Release date: 2026-10-26",
-      "source_count": 1,
-      "publishers": [
-        "Epoch AI"
-      ]
-    },
-    {
       "id": "https://news.crunchbase.com/public/anthropic-ipo-filing-ai-earnings-growth-risks",
       "headline": "Some Observations About Anthropic’s IPO Filing",
       "publisher": "Crunchbase News",
@@ -3094,6 +3150,18 @@
       "canonical_url": "https://stockpickersgame.com/",
       "published_at": "2026-10-26T20:51:50.000Z",
       "excerpt": "This is a stock picking game that simulates a stock market with thousands of rule based agents making trades and moving the stock price. The agents (not AI agents) have different rules to simulate different trading styles. The game layer is basically 12 companies&#x2F;stocks you can buy and sell,",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache",
+      "headline": "OpenAI's agents talked to each other through the CPU Cache",
+      "publisher": "Hacker News",
+      "canonical_url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache",
+      "published_at": "2026-10-26T21:24:18.000Z",
+      "excerpt": "OpenAI's agents talked to each other through the CPU Cache",
       "source_count": 1,
       "publishers": [
         "Hacker News"
@@ -5659,14 +5727,15 @@
       ]
     },
     {
-      "id": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication",
+      "id": "https://github.com/trytilde/tilde",
       "headline": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
       "publisher": "TechCrunch",
       "canonical_url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication",
       "published_at": "2026-10-27T23:34:27.000Z",
       "excerpt": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
-      "source_count": 1,
+      "source_count": 2,
       "publishers": [
+        "Hacker News",
         "TechCrunch"
       ]
     },
@@ -5696,12 +5765,36 @@
       ]
     },
     {
+      "id": "https://lmarena.ai/leaderboard",
+      "headline": "LMArena text — Claude Fable 5 (High) (#11)",
+      "publisher": "LMArena",
+      "canonical_url": "https://lmarena.ai/leaderboard",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "excerpt": "rank: 11 · rating: 1491.5611245046712 · vote_count: 45341 · organization: anthropic · leaderboard_publish_date: 2026-10-28",
+      "source_count": 1,
+      "publishers": [
+        "LMArena"
+      ]
+    },
+    {
       "id": "https://openai.com/index/legora",
       "headline": "Legora is building the agentic operating system for legal work",
       "publisher": "OpenAI",
       "canonical_url": "https://openai.com/index/legora",
       "published_at": "2026-10-28T00:00:00.000Z",
       "excerpt": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "source_count": 1,
+      "publishers": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "headline": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "publisher": "OpenAI",
+      "canonical_url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "excerpt": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
       "source_count": 1,
       "publishers": [
         "OpenAI"
@@ -5768,6 +5861,18 @@
       ]
     },
     {
+      "id": "https://www.sec.gov/Archives/edgar/data/1604191/000110465926119672/0001104659-26-119672-index.htm",
+      "headline": "8-K — GridAI Technologies Corp. (GRDX)",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1604191/000110465926119672/0001104659-26-119672-index.htm",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "excerpt": "EXHIBIT 10.1; items 1.01, 9.01; filed by GridAI Technologies Corp. (GRDX)",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
       "id": "https://www.sec.gov/Archives/edgar/data/1698506/000121390026112998/0001213900-26-112998-index.htm",
       "headline": "S-1/A — Simwon America Corp.",
       "publisher": "SEC EDGAR",
@@ -5804,6 +5909,18 @@
       ]
     },
     {
+      "id": "https://www.sec.gov/Archives/edgar/data/2091891/000209189126000002/0002091891-26-000002-index.htm",
+      "headline": "D/A — U&I Ventures Fund I, L.P.",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2091891/000209189126000002/0002091891-26-000002-index.htm",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "excerpt": "FORM D/A; items 06B, 3C, 3C.7; filed by U&I Ventures Fund I, L.P.",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
       "id": "https://www.sec.gov/Archives/edgar/data/2161717/000216171726000001/0002161717-26-000001-index.htm",
       "headline": "D — Oncology AI Fleet, Inc.",
       "publisher": "SEC EDGAR",
@@ -5822,6 +5939,18 @@
       "canonical_url": "https://www.sec.gov/Archives/edgar/data/2162585/000216258526000001/0002162585-26-000001-index.htm",
       "published_at": "2026-10-28T00:00:00.000Z",
       "excerpt": "Filed: 2026-10-28 AccNo: 0002162585-26-000001 Size: 5 KB",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/711669/000110465926119632/0001104659-26-119632-index.htm",
+      "headline": "8-K — COLONY BANKCORP INC (CBAN)",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/711669/000110465926119632/0001104659-26-119632-index.htm",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "excerpt": "EX-99.2; items 1.01, 2.02, 2.03, 7.01, 9.01; filed by COLONY BANKCORP INC (CBAN)",
       "source_count": 1,
       "publishers": [
         "SEC EDGAR"
@@ -6161,18 +6290,6 @@
       "source_count": 1,
       "publishers": [
         "Financial Times"
-      ]
-    },
-    {
-      "id": "https://hackerscad.com/",
-      "headline": "Show HN: Hackerscad – Code-first CAD with MCP server for AI agents",
-      "publisher": "Hacker News",
-      "canonical_url": "https://hackerscad.com/",
-      "published_at": "2026-10-28T07:21:19.000Z",
-      "excerpt": "Show HN: Hackerscad – Code-first CAD with MCP server for AI agents",
-      "source_count": 1,
-      "publishers": [
-        "Hacker News"
       ]
     },
     {
@@ -7304,6 +7421,18 @@
       ]
     },
     {
+      "id": "https://nullpt.rs/fingerprinting-bioweapons",
+      "headline": "Why is this fingerprinting script creating bioweapons?",
+      "publisher": "Hacker News",
+      "canonical_url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "published_at": "2026-10-28T17:13:29.000Z",
+      "excerpt": "Why is this fingerprinting script creating bioweapons?",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
       "id": "https://www.bloomberg.com/news/videos/2026-10-28/open-interest-10-28-2026-video",
       "headline": "Countdown to Fed, Tech Earnings",
       "publisher": "Bloomberg",
@@ -7592,6 +7721,18 @@
       ]
     },
     {
+      "id": "https://www.ft.com/content/fb08df06-da63-4e94-822d-a47b94616871",
+      "headline": "Oracle rallies after telling investors its AI bet will pay off sooner than expected",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/fb08df06-da63-4e94-822d-a47b94616871",
+      "published_at": "2026-10-28T19:34:13.000Z",
+      "excerpt": "Oracle rallies after telling investors its AI bet will pay off sooner than expected",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
       "id": "https://artificialanalysis.ai/models",
       "headline": "Comparison of AI Models across Intelligence, Performance, and Price | Artificial Analysis",
       "publisher": "Artificial Analysis",
@@ -7625,6 +7766,1650 @@
       "source_count": 1,
       "publishers": [
         "ARC Prize"
+      ]
+    },
+    {
+      "id": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "headline": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "publisher": "The Verge",
+      "canonical_url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "published_at": "2026-10-28T20:03:00.000Z",
+      "excerpt": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and",
+      "source_count": 1,
+      "publishers": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "https://github.com/cu1ch3n/papilot",
+      "headline": "Show HN: A visual map of related food dishes from around the world",
+      "publisher": "Hacker News",
+      "canonical_url": "https://tangledtaste.com/",
+      "published_at": "2026-10-28T20:05:48.000Z",
+      "excerpt": "A fun, personal project - AI did a pretty good job.",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/alphabet-reports-disappointing-revenue-income-shares-drop",
+      "headline": "Google Drops a Record 13% After Sales Miss Sparks AI Skepticism",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-28/alphabet-reports-disappointing-revenue-income-shares-drop",
+      "published_at": "2026-10-28T20:06:48.000Z",
+      "excerpt": "Alphabet Inc.’s shares fell more than 13%, for its biggest-ever market value wipeout, after the company reported disappointing search and advertising sales that reinforced investor concerns about AI’s threat to its core business.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/microsoft-reports-quarterly-cloud-sales-that-beat-estimates",
+      "headline": "Microsoft’s Surging Cloud Sales Show AI Spending Paying Off",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-28/microsoft-reports-quarterly-cloud-sales-that-beat-estimates",
+      "published_at": "2026-10-28T20:08:01.000Z",
+      "excerpt": "Microsoft Corp. posted increasing growth in its cloud business and kept its capital expenditures in check, satisfying investors amid a drumbeat of concern that spending on artificial intelligence won’t pay off.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/93f53cb4-1fc8-4ca5-aa91-186b77b03d92",
+      "headline": "Microsoft blames data centre delays for lower capital expenditure",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/93f53cb4-1fc8-4ca5-aa91-186b77b03d92",
+      "published_at": "2026-10-28T20:11:19.000Z",
+      "excerpt": "Microsoft blames data centre delays for lower capital expenditure",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261027487704/en/Morningstar-Inc.-Reports-Third-Quarter-2026-Financial-Results?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Morningstar, Inc. Reports Third-Quarter 2026 Financial Results",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261027487704/en/Morningstar-Inc.-Reports-Third-Quarter-2026-Financial-Results?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-28T20:15:00.000Z",
+      "excerpt": "CHICAGO--(BUSINESS WIRE)--Morningstar, Inc. (Nasdaq: MORN) reported growth in revenue, operating and adjusted operating income, and margins in the third quarter. \"We continue to put important product enhancements in the hands of our clients while delivering profitable growth,\" said Morningstar CEO",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "https://raceradar.fit/",
+      "headline": "Show HN: Race Radar – HYROX ticket alerts, run day to day by an AI CEO",
+      "publisher": "Hacker News",
+      "canonical_url": "https://raceradar.fit/",
+      "published_at": "2026-10-28T20:15:07.000Z",
+      "excerpt": "Show HN: Race Radar – HYROX ticket alerts, run day to day by an AI CEO",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/servicenow-falls-after-quarterly-sales-outlook-revives-ai-fears",
+      "headline": "ServiceNow Has Biggest-Ever Drop After Sales Outlook Disappoints",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-28/servicenow-falls-after-quarterly-sales-outlook-revives-ai-fears",
+      "published_at": "2026-10-28T20:17:05.000Z",
+      "excerpt": "ServiceNow Inc. shares suffered a record intraday drop after the company gave an outlook for quarterly subscription sales that met analysts’ estimates, but failed to quell Wall Street’s anxieties that artificial intelligence will disrupt the software maker.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://github.com/ChrystianSchutz/ThreadShelf",
+      "headline": "Show HN: ThreadShelf – Obsidian and AI chats: vector search, MCP, llama.cpp",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/ChrystianSchutz/ThreadShelf",
+      "published_at": "2026-10-28T20:23:34.000Z",
+      "excerpt": "Show HN: ThreadShelf – Obsidian and AI chats: vector search, MCP, llama.cpp",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context",
+      "headline": "Creating AI value with enterprise context",
+      "publisher": "MIT Technology Review",
+      "canonical_url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context",
+      "published_at": "2026-10-28T20:32:02.000Z",
+      "excerpt": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the",
+      "source_count": 1,
+      "publishers": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "id": "https://github.com/erwinkramer/enframe",
+      "headline": "Show HN: Enframe – Drop-in sidecar that wraps any OpenAPI spec to an MCP server",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/erwinkramer/enframe",
+      "published_at": "2026-10-28T20:35:03.000Z",
+      "excerpt": "Show HN: Enframe – Drop-in sidecar that wraps any OpenAPI spec to an MCP server",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/28/technology/microsoft-earnings-ai.html",
+      "headline": "Microsoft’s Profit Jumps 32% Despite Big Increase in Spending",
+      "publisher": "The New York Times",
+      "canonical_url": "https://www.nytimes.com/2026/10/28/technology/microsoft-earnings-ai.html",
+      "published_at": "2026-10-28T20:37:00.000Z",
+      "excerpt": "Microsoft’s Profit Jumps 32% Despite Big Increase in Spending",
+      "source_count": 1,
+      "publishers": [
+        "The New York Times"
+      ]
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50280650",
+      "headline": "Show HN: I built a tool that finds reliability bugs in your code",
+      "publisher": "Hacker News",
+      "canonical_url": "https://news.ycombinator.com/item?id=50280650",
+      "published_at": "2026-10-28T20:45:51.000Z",
+      "excerpt": "Hey HN, I’m Abhishek. I'm building Opslane, a tool that finds reliability issues in your code. On every PR, it spins up your entire app and then tries to find weak spots that would break in production. Demo: https:&#x2F;&#x2F;youtu.be&#x2F;47phxkdh6f0 Example: We tested Opslane on Lago (open-source",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/28/technology/alphabet-earnings-google-ai.html",
+      "headline": "Alphabet’s Revenue Rises 25% as Profit Falls",
+      "publisher": "The New York Times",
+      "canonical_url": "https://www.nytimes.com/2026/10/28/technology/alphabet-earnings-google-ai.html",
+      "published_at": "2026-10-28T20:54:11.000Z",
+      "excerpt": "Alphabet’s Revenue Rises 25% as Profit Falls",
+      "source_count": 1,
+      "publishers": [
+        "The New York Times"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d",
+      "headline": "Google shares tumble 11% after $51bn AI outlay deepens cash burn",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d",
+      "published_at": "2026-10-28T20:54:59.000Z",
+      "excerpt": "Google shares tumble 11% after $51bn AI outlay deepens cash burn",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+      "headline": "Marvell Is Said to Near Megadeal for Lumentum in AI Push",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+      "published_at": "2026-10-28T21:05:20.000Z",
+      "excerpt": "Marvell Technology Inc. is in advanced talks to buy data center optics maker Lumentum Holdings Inc., according to people familiar with the matter, putting it on the cusp of a potential megadeal amid the race to scale up in the artificial intelligence sector.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row",
+      "headline": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+      "publisher": "TechCrunch",
+      "canonical_url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row",
+      "published_at": "2026-10-28T21:25:30.000Z",
+      "excerpt": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
+      "source_count": 1,
+      "publishers": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+      "headline": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "publisher": "The Verge",
+      "canonical_url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+      "published_at": "2026-10-28T21:34:04.000Z",
+      "excerpt": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have",
+      "source_count": 1,
+      "publishers": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
+      "headline": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "publisher": "TechCrunch",
+      "canonical_url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
+      "published_at": "2026-10-28T21:34:30.000Z",
+      "excerpt": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+      "source_count": 1,
+      "publishers": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50281226",
+      "headline": "Show HN: Full Python 3.15 Implemented in 25k LoC C11",
+      "publisher": "Hacker News",
+      "canonical_url": "https://news.ycombinator.com/item?id=50281226",
+      "published_at": "2026-10-28T21:35:19.000Z",
+      "excerpt": "I burned about $500 for this fun project: Small Python. Initial PoC used 3 resets of Codex in one session but all later development happens in Claude Code, also in one Opus 5.5 session over three days. The outcome is a quickjs-like implementation for Python. Almost full Python 3.15 language",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion",
+      "headline": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "publisher": "TechCrunch",
+      "canonical_url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion",
+      "published_at": "2026-10-28T21:58:32.000Z",
+      "excerpt": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
+      "source_count": 1,
+      "publishers": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "https://github.com/gendeg/Lissic",
+      "headline": "Show HN: Fast, Zero Allocation, AOT Safe, Compile-Time Safe .NET Template Engine",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/gendeg/Lissic",
+      "published_at": "2026-10-28T22:00:11.000Z",
+      "excerpt": "I built a text templating engine, that I've named Lissic, as part of a personal website project I'm working on. It fits a niche that I don't think anything else in the .NET ecosystem fills. I prefer to keep code out the template itself (separation of concerns, view vs model, and all that). I also",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://github.com/drawthingsai/local-code-community",
+      "headline": "Show HN: Local Code – Run DeepSeek 4.1 Flash 1017 Locally on Your Mac",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/drawthingsai/local-code-community",
+      "published_at": "2026-10-28T22:05:50.000Z",
+      "excerpt": "Show HN: Local Code – Run DeepSeek 4.1 Flash 1017 Locally on Your Mac",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo",
+      "headline": "Details of thousands of US immigration agents leaked in major hack",
+      "publisher": "BBC News",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo",
+      "published_at": "2026-10-28T22:12:43.000Z",
+      "excerpt": "Details of thousands of US immigration agents leaked in major hack",
+      "source_count": 1,
+      "publishers": [
+        "BBC News"
+      ]
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/28/microsoft-earnings",
+      "headline": "Microsoft posts $92.3bn quarterly revenue after offering buyouts to 60,000 employees",
+      "publisher": "The Guardian",
+      "canonical_url": "https://www.theguardian.com/technology/2026/oct/28/microsoft-earnings",
+      "published_at": "2026-10-28T22:44:58.000Z",
+      "excerpt": "Microsoft posts $92.3bn quarterly revenue after offering buyouts to 60,000 employees",
+      "source_count": 1,
+      "publishers": [
+        "The Guardian"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-28/furiosaai-quadruples-valuation-to-2-9-billion-in-nvidia-chase",
+      "headline": "FuriosaAI Quadruples Value to $2.9 Billion in Nvidia Chase",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-28/furiosaai-quadruples-valuation-to-2-9-billion-in-nvidia-chase",
+      "published_at": "2026-10-28T23:00:00.000Z",
+      "excerpt": "South Korean AI chip startup FuriosaAI quadrupled its valuation to $2.9 billion in a fresh funding round, bolstering its bid to challenge the likes of Nvidia Corp.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.theguardian.com/technology/2026/oct/28/google-alphabet-q3-earnings-report",
+      "headline": "Investors turn on Google owner Alphabet after profit miss, ad slowdown and high spending",
+      "publisher": "The Guardian",
+      "canonical_url": "https://www.theguardian.com/technology/2026/oct/28/google-alphabet-q3-earnings-report",
+      "published_at": "2026-10-28T23:39:12.000Z",
+      "excerpt": "Investors turn on Google owner Alphabet after profit miss, ad slowdown and high spending",
+      "source_count": 1,
+      "publishers": [
+        "The Guardian"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261028655033/en/FuriosaAI-Secures-620-Million-Series-D-to-Meet-Surging-Enterprise-AI-Inference-Demand-and-Accelerate-Next-Gen-Silicon?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "FuriosaAI Secures $620 Million Series D to Meet Surging Enterprise AI Inference Demand and Accelerate Next-Gen Silicon",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261028655033/en/FuriosaAI-Secures-620-Million-Series-D-to-Meet-Surging-Enterprise-AI-Inference-Demand-and-Accelerate-Next-Gen-Silicon?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-28T23:57:00.000Z",
+      "excerpt": "SEOUL, South Korea--(BUSINESS WIRE)-- #AI--AI inference chipmaker FuriosaAI announces a $620 million Series D at a $2.9 billion valuation.",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "https://huggingface.co/blog/anydecisionmodel",
+      "headline": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "publisher": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/anydecisionmodel",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "excerpt": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "source_count": 1,
+      "publishers": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "headline": "Granite Switch 4.1.1 — Update models like you update software",
+      "publisher": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "excerpt": "Granite Switch 4.1.1 — Update models like you update software",
+      "source_count": 1,
+      "publishers": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1378140/000149315226049198/0001493152-26-049198-index.htm",
+      "headline": "S-1/A — Ocean Power Technologies, Inc. (OPTT)",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1378140/000149315226049198/0001493152-26-049198-index.htm",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "excerpt": "S-1/A; filed by Ocean Power Technologies, Inc. (OPTT)",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1579091/000119312526437075/0001193125-26-437075-index.htm",
+      "headline": "8-K — Maplebear Inc. (CART)",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1579091/000119312526437075/0001193125-26-437075-index.htm",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "excerpt": "EX-2.1; items 1.01, 8.01, 9.01; filed by Maplebear Inc. (CART)",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1770450/000119312526437046/0001193125-26-437046-index.htm",
+      "headline": "8-K — Xerox Holdings Corp (XRX, XRXDW)",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1770450/000119312526437046/0001193125-26-437046-index.htm",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "excerpt": "EX-99.1; items 1.01, 7.01, 9.01; filed by Xerox Holdings Corp (XRX, XRXDW)",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/1792789/000114036126041111/0001140361-26-041111-index.htm",
+      "headline": "8-K — DoorDash, Inc. (DASH)",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1792789/000114036126041111/0001140361-26-041111-index.htm",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "excerpt": "EXHIBIT 2.1; items 1.01, 7.01, 8.01, 9.01; filed by DoorDash, Inc. (DASH)",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2028336/000121390026113530/0001213900-26-113530-index.htm",
+      "headline": "8-K — New ERA Energy & Digital, Inc. (NUAI, NUAIW)",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2028336/000121390026113530/0001213900-26-113530-index.htm",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "excerpt": "PRESS RELEASE, DATED OCTOBER 29, 2026; items 1.01, 3.02, 7.01, 9.01; filed by New ERA Energy & Digital, Inc. (NUAI, NUAIW)",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/2067767/000149315226049199/0001493152-26-049199-index.htm",
+      "headline": "8-K — NextBoat Inc. (NXB)",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2067767/000149315226049199/0001493152-26-049199-index.htm",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "excerpt": "EX-99.1; items 1.01, 2.03, 3.02, 7.01, 9.01; filed by NextBoat Inc. (NXB)",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000053/0000352825-26-000053-index.htm",
+      "headline": "8-K — FOSTER L B CO (FSTR)",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000053/0000352825-26-000053-index.htm",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "excerpt": "EX-99.1; items 1.01, 7.01; filed by FOSTER L B CO (FSTR)",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
+      "id": "https://www.sec.gov/Archives/edgar/data/924805/000092480526000055/0000924805-26-000055-index.htm",
+      "headline": "8-K — Freedom Holding Corp. (FRHC)",
+      "publisher": "SEC EDGAR",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/924805/000092480526000055/0000924805-26-000055-index.htm",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "excerpt": "8-K; items 1.01, 2.03, 3.02, 9.01; filed by Freedom Holding Corp. (FRHC)",
+      "source_count": 1,
+      "publishers": [
+        "SEC EDGAR"
+      ]
+    },
+    {
+      "id": "https://www.synapseaihub.com.ar/",
+      "headline": "Show HN: synapseForge - Open-source Python framework with built-in agent creator",
+      "publisher": "Hacker News",
+      "canonical_url": "https://www.synapseaihub.com.ar/",
+      "published_at": "2026-10-29T00:02:26.000Z",
+      "excerpt": "Show HN: synapseForge - Open-source Python framework with built-in agent creator",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled",
+      "headline": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+      "publisher": "Hacker News",
+      "canonical_url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled",
+      "published_at": "2026-10-29T00:16:08.000Z",
+      "excerpt": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://github.com/NaxAlpha/postbox",
+      "headline": "Show HN: Postbox – Personal Mailbox for Humans and Agents Hosted on Cloudflare",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/NaxAlpha/postbox",
+      "published_at": "2026-10-29T00:17:33.000Z",
+      "excerpt": "Show HN: Postbox – Personal Mailbox for Humans and Agents Hosted on Cloudflare",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.npmjs.com/package/deepseek-search-cli",
+      "headline": "Show HN: Simple DeepSeek web search CLI written in TypeScript (fast/cheap)",
+      "publisher": "Hacker News",
+      "canonical_url": "https://www.npmjs.com/package/deepseek-search-cli",
+      "published_at": "2026-10-29T00:20:19.000Z",
+      "excerpt": "If you've been following along with DeepSeek news you will know they recently added web search capability to the DeepSeek API, where you can use web search under the same API key. It is pretty handy, also super cheap at only $0.75 per 1,000 requests (pretty much as cheap as it gets, one search",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://supermhel.github.io/fengarde",
+      "headline": "Show HN: Fengarde–OCSF-native open-source SIEM with local AI triage (Apache-2.0)",
+      "publisher": "Hacker News",
+      "canonical_url": "https://supermhel.github.io/fengarde",
+      "published_at": "2026-10-29T00:24:55.000Z",
+      "excerpt": "Show HN: Fengarde–OCSF-native open-source SIEM with local AI triage (Apache-2.0)",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://divagr.com/blog/qwenputer",
+      "headline": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "publisher": "Hacker News",
+      "canonical_url": "https://divagr.com/blog/qwenputer",
+      "published_at": "2026-10-29T00:25:45.000Z",
+      "excerpt": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+      "headline": "MicroZig to Adopt Strict No LLM / No AI Policy",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+      "published_at": "2026-10-29T00:30:37.000Z",
+      "excerpt": "MicroZig to Adopt Strict No LLM / No AI Policy",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no",
+      "headline": "Microsoft profits soar days after announcing thousands of layoffs",
+      "publisher": "BBC News",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no",
+      "published_at": "2026-10-29T00:36:12.000Z",
+      "excerpt": "Microsoft profits soar days after announcing thousands of layoffs",
+      "source_count": 1,
+      "publishers": [
+        "BBC News"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/0d692019-82b6-4d1f-bd4b-8cc85482c976",
+      "headline": "Samsung shares slide on lack of detail about investor returns",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/0d692019-82b6-4d1f-bd4b-8cc85482c976",
+      "published_at": "2026-10-29T02:10:55.000Z",
+      "excerpt": "Samsung shares slide on lack of detail about investor returns",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.oxfam.org/en/press-releases/ultra-rich-01-produce-more-carbon-pollution-nearly-half-humanity-while-cashing",
+      "headline": "Richest 0.1% (8M) produce more carbon pollution than 3.5B",
+      "publisher": "Hacker News",
+      "canonical_url": "https://www.oxfam.org/en/press-releases/ultra-rich-01-produce-more-carbon-pollution-nearly-half-humanity-while-cashing",
+      "published_at": "2026-10-29T03:01:57.000Z",
+      "excerpt": "Richest 0.1% (8M) produce more carbon pollution than 3.5B",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "headline": "Claude Code regularly sends each background agent’s transcript to its model",
+      "publisher": "Hacker News",
+      "canonical_url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "published_at": "2026-10-29T03:33:42.000Z",
+      "excerpt": "Claude Code regularly sends each background agent’s transcript to its model",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://github.com/chriscasper/startica",
+      "headline": "Show HN: Startica Open-source app for SEO, marketing, accessibility and security",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/chriscasper/startica",
+      "published_at": "2026-10-29T03:40:06.000Z",
+      "excerpt": "Hi HN, name is Casper. Really apprehensive about posting here but I figured there might be someone else out there that could use some of the same tools. Been building a lot sites and other apps lately and I needed a lot of extra tools but not a lot of budget to spend on SaaS subscriptions for every",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.cnn.com/2026/10/28/sport/live-news/game-5-world-series",
+      "headline": "The Milwaukee Brewers win the first World Series title in franchise history",
+      "publisher": "Hacker News",
+      "canonical_url": "https://www.cnn.com/2026/10/28/sport/live-news/game-5-world-series",
+      "published_at": "2026-10-29T03:44:12.000Z",
+      "excerpt": "The Milwaukee Brewers win the first World Series title in franchise history",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://agentgpa.dev/leak-index",
+      "headline": "Show HN: AgentGPA, a report card for how you work with coding agents",
+      "publisher": "Hacker News",
+      "canonical_url": "https://agentgpa.dev/leak-index",
+      "published_at": "2026-10-29T04:04:48.000Z",
+      "excerpt": "Show HN: AgentGPA, a report card for how you work with coding agents",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "headline": "Ai For Science Expands Foundations Research Institutions",
+      "publisher": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "published_at": "2026-10-29T04:43:29.000Z",
+      "excerpt": "Ai For Science Expands Foundations Research Institutions",
+      "source_count": 1,
+      "publishers": [
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e",
+      "headline": "US tech stocks set to fall after earnings fuel AI spending concerns",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e",
+      "published_at": "2026-10-29T04:48:20.000Z",
+      "excerpt": "US tech stocks set to fall after earnings fuel AI spending concerns",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/02449567-f12d-4cfb-99f4-81d0fb375251",
+      "headline": "Theatres embrace immersive tech — are they going in too deep?",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/02449567-f12d-4cfb-99f4-81d0fb375251",
+      "published_at": "2026-10-29T05:00:11.000Z",
+      "excerpt": "Theatres embrace immersive tech — are they going in too deep?",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/4836eaaa-dfd3-412e-a3c8-7c11b38f28e4",
+      "headline": "Will digital technology strike the right chord with musicians?",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/4836eaaa-dfd3-412e-a3c8-7c11b38f28e4",
+      "published_at": "2026-10-29T05:00:11.000Z",
+      "excerpt": "Will digital technology strike the right chord with musicians?",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/a8549f8c-7ac3-4504-b107-ca7a1498e1d9",
+      "headline": "Museums urged to boost sensory experiences for blind visitors",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/a8549f8c-7ac3-4504-b107-ca7a1498e1d9",
+      "published_at": "2026-10-29T05:00:11.000Z",
+      "excerpt": "Museums urged to boost sensory experiences for blind visitors",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/b6bd02fe-d72f-45e4-8289-2f0539caadf0",
+      "headline": "Why Ghana’s Ananse tales have a story for us all about AI and creativity",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/b6bd02fe-d72f-45e4-8289-2f0539caadf0",
+      "published_at": "2026-10-29T05:00:11.000Z",
+      "excerpt": "Why Ghana’s Ananse tales have a story for us all about AI and creativity",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/6b5b96f5-0d2a-4161-911f-71dda46ccb9d",
+      "headline": "Copper’s AI-fuelled boom gets a reality check",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/6b5b96f5-0d2a-4161-911f-71dda46ccb9d",
+      "published_at": "2026-10-29T05:00:20.000Z",
+      "excerpt": "Copper’s AI-fuelled boom gets a reality check",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.fabivo.app/en",
+      "headline": "Show HN: Fabivo – Furniture design from a photo to a numbered cut list",
+      "publisher": "Hacker News",
+      "canonical_url": "https://www.fabivo.app/en",
+      "published_at": "2026-10-29T05:21:10.000Z",
+      "excerpt": "Hello all, Ive been building Fabivo, a free furniture planner that runs in the browser. You sketch it simply by drawing it, (by far my favorite feature of this app), clicking for boards or just selecting some starting designs. But what i think separates fabivo from others its the image to model ai",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://github.com/uji-labs/uji",
+      "headline": "Show HN: Uji – Gentoo of Coding Agents",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/uji-labs/uji",
+      "published_at": "2026-10-29T05:52:16.000Z",
+      "excerpt": "My friend and I are Neovim nerds, and every so often our Neovim setups would throw errors. What did we do? We talked to each other and solved it. It was never Neovim’s fault. We think the same way about harnesses. If you don’t like something, you shouldn’t have to call a trillion-dollar company;",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bbc.co.uk/news/articles/c6ly3027820lo",
+      "headline": "Ofcom outlines age check methods ahead of social media ban for under-16s",
+      "publisher": "BBC News",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo",
+      "published_at": "2026-10-29T05:57:15.000Z",
+      "excerpt": "Ofcom outlines age check methods ahead of social media ban for under-16s",
+      "source_count": 1,
+      "publishers": [
+        "BBC News"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/5e343e5c-5e4a-41a7-87b0-4850c77d9aec",
+      "headline": "EU can compete with US AI giants, says Brussels’ frontier-model champion",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/5e343e5c-5e4a-41a7-87b0-4850c77d9aec",
+      "published_at": "2026-10-29T06:00:11.000Z",
+      "excerpt": "EU can compete with US AI giants, says Brussels’ frontier-model champion",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/stmicro-forecasts-growth-as-recovery-in-chip-demand-continues",
+      "headline": "STMicro Forecasts Growth As Chip Demand Recovery Continues",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/stmicro-forecasts-growth-as-recovery-in-chip-demand-continues",
+      "published_at": "2026-10-29T06:08:01.000Z",
+      "excerpt": "STMicroelectronics NV forecast fourth-quarter revenue growth as a recovery in chip demand continues after a prolonged slump.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://borretti.me/article/we-wont-just-hang-out",
+      "headline": "We Won't \"Just Hang Out\"",
+      "publisher": "Hacker News",
+      "canonical_url": "https://borretti.me/article/we-wont-just-hang-out",
+      "published_at": "2026-10-29T06:20:06.000Z",
+      "excerpt": "We Won't \"Just Hang Out\"",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/air-liquide-sales-grow-sustained-ai-related-demand-semiconductor-chip-making",
+      "headline": "Air Liquide’s Sales Grow on Sustained AI-Related Demand",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/air-liquide-sales-grow-sustained-ai-related-demand-semiconductor-chip-making",
+      "published_at": "2026-10-29T06:43:53.000Z",
+      "excerpt": "Air Liquide SA revenue grew to its highest in nearly four years, propelled by increased demand in its artificial intelligence-exposed unit.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain",
+      "headline": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "publisher": "Hacker News",
+      "canonical_url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain",
+      "published_at": "2026-10-29T06:47:28.000Z",
+      "excerpt": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://docloop.com/careers/engineering-alignment-quiz",
+      "headline": "Show HN: Alignment Interview Challenge",
+      "publisher": "Hacker News",
+      "canonical_url": "https://docloop.com/careers/engineering-alignment-quiz",
+      "published_at": "2026-10-29T06:58:46.000Z",
+      "excerpt": "If I'm abusing Show HN feel free to downvote (I know this blurs the line between a job post and a Show), but genuinely just trying to get some feedback from other engineers &#x2F; engineering leaders on an approach we're trying here @ DocLoop re: engineering interviewing. TLDR: Now that coding is",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://smsofdeath.com/",
+      "headline": "Zero click, silent, remote Android DoS",
+      "publisher": "Hacker News",
+      "canonical_url": "https://smsofdeath.com/",
+      "published_at": "2026-10-29T07:08:50.000Z",
+      "excerpt": "Zero click, silent, remote Android DoS",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://github.com/vagkaratzas/orc-work-notify",
+      "headline": "Show HN: Orc-work-notify – Claude Code plugin with orc voice alerts",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/vagkaratzas/orc-work-notify",
+      "published_at": "2026-10-29T07:35:48.000Z",
+      "excerpt": "Show HN: Orc-work-notify – Claude Code plugin with orc voice alerts",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/f499d3e6-dca1-4595-9fdf-8479122ca412",
+      "headline": "Alphabet spells out more AI capex, China+1 doesn’t add up",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/f499d3e6-dca1-4595-9fdf-8479122ca412",
+      "published_at": "2026-10-29T07:43:23.000Z",
+      "excerpt": "Alphabet spells out more AI capex, China+1 doesn’t add up",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.timeanddate.com/news/time/cuba-keeps-dst-until-nov-2027.html",
+      "headline": "Cuba is skipping its November 1, 2026 clock change and staying on DST until 2027",
+      "publisher": "Hacker News",
+      "canonical_url": "https://www.timeanddate.com/news/time/cuba-keeps-dst-until-nov-2027.html",
+      "published_at": "2026-10-29T07:52:32.000Z",
+      "excerpt": "Cuba is skipping its November 1, 2026 clock change and staying on DST until 2027",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://checker.visiblebyagents.com/self-check.html",
+      "headline": "Show HN: A free 16-point check for how AI assistants see your website",
+      "publisher": "Hacker News",
+      "canonical_url": "https://checker.visiblebyagents.com/self-check.html",
+      "published_at": "2026-10-29T08:05:41.000Z",
+      "excerpt": "Show HN: A free 16-point check for how AI assistants see your website",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-29/what-wall-street-really-thinks-about-the-ai-trade-now-video",
+      "headline": "What Wall Street Really Thinks About the AI Trade Now",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/what-wall-street-really-thinks-about-the-ai-trade-now-video",
+      "published_at": "2026-10-29T08:09:46.000Z",
+      "excerpt": "It has been a big week for the AI trade — we've seen wobbles in the market, many of them in response to headlines like the Anthropic S-1 and earnings from the hyperscalers (Oracle, Microsoft, etc.). So what does Wall Street make of all the news, and how are they processing an increasing sense that",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/europe-s-earnings-growth-to-rival-us-for-the-first-time-in-years",
+      "headline": "Europe’s Earnings Growth to Rival US for the First Time in Years",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/europe-s-earnings-growth-to-rival-us-for-the-first-time-in-years",
+      "published_at": "2026-10-29T08:18:38.000Z",
+      "excerpt": "Europe is gaining ground on the US this reporting season, with profit growth forecast within touching distance for the first time in more than three years.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.axios.com/2026/10/29/democrats-medicare-for-all-ice-israel",
+      "headline": "The left's 2027 wishlist",
+      "publisher": "Axios",
+      "canonical_url": "https://www.axios.com/2026/10/29/democrats-medicare-for-all-ice-israel",
+      "published_at": "2026-10-29T09:00:09.000Z",
+      "excerpt": "The left's 2027 wishlist",
+      "source_count": 1,
+      "publishers": [
+        "Axios"
+      ]
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
+      "headline": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy Plot",
+      "publisher": "The New York Times",
+      "canonical_url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
+      "published_at": "2026-10-29T09:01:52.000Z",
+      "excerpt": "Nvidia Chief, Jensen Huang, Is Seen as Target of Chinese Spy Plot",
+      "source_count": 1,
+      "publishers": [
+        "The New York Times"
+      ]
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/29/arts/ai-bots-jokes-theft-comedians.html",
+      "headline": "Bodacious A.I. Bots Are Stealing Jokes From Young Female Comedians",
+      "publisher": "The New York Times",
+      "canonical_url": "https://www.nytimes.com/2026/10/29/arts/ai-bots-jokes-theft-comedians.html",
+      "published_at": "2026-10-29T09:02:00.000Z",
+      "excerpt": "Bodacious A.I. Bots Are Stealing Jokes From Young Female Comedians",
+      "source_count": 1,
+      "publishers": [
+        "The New York Times"
+      ]
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/29/technology/personaltech/apple-google-maps-features.html",
+      "headline": "Hit the Road This Season With These Useful New Map Features",
+      "publisher": "The New York Times",
+      "canonical_url": "https://www.nytimes.com/2026/10/29/technology/personaltech/apple-google-maps-features.html",
+      "published_at": "2026-10-29T09:02:47.000Z",
+      "excerpt": "Hit the Road This Season With These Useful New Map Features",
+      "source_count": 1,
+      "publishers": [
+        "The New York Times"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-29/oracle-injects-optimism-into-ai-trade-3-minutes-mliv-video",
+      "headline": "Oracle Injects Optimism Into AI Trade: Market Analysis",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/oracle-injects-optimism-into-ai-trade-3-minutes-mliv-video",
+      "published_at": "2026-10-29T09:42:53.000Z",
+      "excerpt": "Anna Edwards, Tom Mackenzie and Paul Dobson break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029473889/en/Pramata-Reveals-93-of-Business-Leaders-Report-Contract-Data-Challenges-Yet-Nearly-All-Recognize-the-Value-at-Stake?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Pramata Reveals 93% of Business Leaders Report Contract Data Challenges, Yet Nearly All Recognize the Value at Stake",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029473889/en/Pramata-Reveals-93-of-Business-Leaders-Report-Contract-Data-Challenges-Yet-Nearly-All-Recognize-the-Value-at-Stake?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T10:00:00.000Z",
+      "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)-- #AI--Pramata, the leader in contract intelligence, today released its 2026 Contract Intelligence Index, revealing how gaps in contract data access and accuracy create costly challenges for enterprises, limiting the value organizations can realize across the",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "headline": "AI has come for Arizona’s water",
+      "publisher": "The Verge",
+      "canonical_url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "published_at": "2026-10-29T10:00:04.000Z",
+      "excerpt": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that",
+      "source_count": 1,
+      "publishers": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "https://www.theguardian.com/thefilter/2026/oct/29/dyson-camerajet-electric-toothbrush-review-tested-uk",
+      "headline": "Despite the teething issues, Dyson’s Camerajet toothbrush packs in a lot of clever tech – but is it worth £420?",
+      "publisher": "The Guardian",
+      "canonical_url": "https://www.theguardian.com/thefilter/2026/oct/29/dyson-camerajet-electric-toothbrush-review-tested-uk",
+      "published_at": "2026-10-29T10:00:30.000Z",
+      "excerpt": "Despite the teething issues, Dyson’s Camerajet toothbrush packs in a lot of clever tech – but is it worth £420?",
+      "source_count": 1,
+      "publishers": [
+        "The Guardian"
+      ]
+    },
+    {
+      "id": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+      "headline": "I Used AI to Fake a Scientific Paper. Here's What Happened",
+      "publisher": "Hacker News",
+      "canonical_url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+      "published_at": "2026-10-29T10:08:04.000Z",
+      "excerpt": "I Used AI to Fake a Scientific Paper. Here's What Happened",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
+      "headline": "We urgently need to monitor AI agents’ actions in real time",
+      "publisher": "MIT Technology Review",
+      "canonical_url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
+      "published_at": "2026-10-29T10:11:12.000Z",
+      "excerpt": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an",
+      "source_count": 1,
+      "publishers": [
+        "MIT Technology Review"
+      ]
+    },
+    {
+      "id": "https://endlesstokens.ai/",
+      "headline": "Show HN: Endlesstokens – an LLM API billed by time, not tokens",
+      "publisher": "Hacker News",
+      "canonical_url": "https://endlesstokens.ai/",
+      "published_at": "2026-10-29T10:17:38.000Z",
+      "excerpt": "Show HN: Endlesstokens – an LLM API billed by time, not tokens",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/features/2026-10-29/ai-industry-stands-to-lose-in-midterm-elections-after-aligning-with-trump",
+      "headline": "AI Industry Stands to Lose in Midterm Elections After Aligning With Trump",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/features/2026-10-29/ai-industry-stands-to-lose-in-midterm-elections-after-aligning-with-trump",
+      "published_at": "2026-10-29T10:30:17.000Z",
+      "excerpt": "The alliance between Silicon Valley and the White House is at risk of unraveling in the face of rising AI backlash",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-29/ooredoo-ceo-robust-results-despite-prolonged-conflict-video",
+      "headline": "Ooredoo CEO: Robust Results Despite Prolonged Conflict",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/ooredoo-ceo-robust-results-despite-prolonged-conflict-video",
+      "published_at": "2026-10-29T10:30:22.000Z",
+      "excerpt": "Ooredoo has reported 3Q revenue up 3.8 percent year-on year, beating analyst estimates. The earnings come after the Qatari international telecom company reached a key milestone with the first closing of a regional tower partnership with Kuwait's Zain Group. Ooredoo Group CEO Aziz Aluthman Fakhroo",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/newsletters/2026-10-29/big-tech-prepares-for-ai-regulation-fight-after-us-midterms",
+      "headline": "Big Tech Prepares for AI Regulation Fight After US Midterms",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/newsletters/2026-10-29/big-tech-prepares-for-ai-regulation-fight-after-us-midterms",
+      "published_at": "2026-10-29T10:35:12.000Z",
+      "excerpt": "AI leaders aligned themselves with Trump, which may not age well after next week’s midterm elections",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://electrek.co/2026/08/31/the-us-added-a-record-20-2-gwh-of-battery-storage-in-just-3-months",
+      "headline": "The US added a record 20.2 GWh of battery storage in just 3 months",
+      "publisher": "Hacker News",
+      "canonical_url": "https://electrek.co/2026/08/31/the-us-added-a-record-20-2-gwh-of-battery-storage-in-just-3-months",
+      "published_at": "2026-10-29T10:44:49.000Z",
+      "excerpt": "The US added a record 20.2 GWh of battery storage in just 3 months",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/ai-assistant-startup-wabi-raises-55-million-at-1-25-billion-value",
+      "headline": "AI Assistant Startup Wabi Raises $55 Million at $1.25 Billion Value",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/ai-assistant-startup-wabi-raises-55-million-at-1-25-billion-value",
+      "published_at": "2026-10-29T11:00:00.000Z",
+      "excerpt": "AI assistant startup Wabi Inc. has raised $55 million at a $1.25 billion valuation to build out its software that lets groups of people interact with artificial intelligence agents to coordinate activities and make collective decisions.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/4303c519-5e3b-4eeb-9871-d6a2845ac564",
+      "headline": "How ‘workfluencers’ became the new buttoned-up breed of content creator",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/4303c519-5e3b-4eeb-9871-d6a2845ac564",
+      "published_at": "2026-10-29T11:00:02.000Z",
+      "excerpt": "How ‘workfluencers’ became the new buttoned-up breed of content creator",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv",
+      "headline": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
+      "publisher": "Crunchbase News",
+      "canonical_url": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv",
+      "published_at": "2026-10-29T11:00:12.000Z",
+      "excerpt": "AI megarounds are masking a shrinking Series A market, leaving seed founders facing higher revenue expectations and longer timelines despite larger seed checks. To improve their chances, MGV's Marc Schröder says, founders should size their seed funding around Series A milestones.",
+      "source_count": 1,
+      "publishers": [
+        "Crunchbase News"
+      ]
+    },
+    {
+      "id": "https://www.theguardian.com/games/2026/oct/29/night-plane-review-join-the-jumbo-jet-to-hell-in-this-indie-horror-game",
+      "headline": "Night Plane review – join the jumbo jet to hell in this indie horror head trip",
+      "publisher": "The Guardian",
+      "canonical_url": "https://www.theguardian.com/games/2026/oct/29/night-plane-review-join-the-jumbo-jet-to-hell-in-this-indie-horror-game",
+      "published_at": "2026-10-29T11:00:30.000Z",
+      "excerpt": "Night Plane review – join the jumbo jet to hell in this indie horror head trip",
+      "source_count": 1,
+      "publishers": [
+        "The Guardian"
+      ]
+    },
+    {
+      "id": "https://www.theguardian.com/technology/ng-interactive/2026/oct/29/psychics-push-back-ai-readings",
+      "headline": "Computerized clairvoyance: psychics push back against AI-generated readings",
+      "publisher": "The Guardian",
+      "canonical_url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/29/psychics-push-back-ai-readings",
+      "published_at": "2026-10-29T11:00:31.000Z",
+      "excerpt": "Computerized clairvoyance: psychics push back against AI-generated readings",
+      "source_count": 1,
+      "publishers": [
+        "The Guardian"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/newsletters/2026-10-29/alphabet-s-google-cloud-rises-in-prominence-in-ai-era",
+      "headline": "Alphabet’s Google Cloud Rises in Prominence in AI Era",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/newsletters/2026-10-29/alphabet-s-google-cloud-rises-in-prominence-in-ai-era",
+      "published_at": "2026-10-29T11:02:01.000Z",
+      "excerpt": "Insatiable AI demand has elevated the importance of this unit",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029979564/en/Advyzon-Announces-2027-Advyzon-Conference-Showcasing-the-Next-Wave-of-AI-Powered-Wealth-Management-Innovation?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Advyzon Announces 2027 Advyzon Conference: Showcasing the Next Wave of AI-Powered Wealth Management Innovation",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029979564/en/Advyzon-Announces-2027-Advyzon-Conference-Showcasing-the-Next-Wave-of-AI-Powered-Wealth-Management-Innovation?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T11:03:00.000Z",
+      "excerpt": "CHICAGO--(BUSINESS WIRE)-- #AI--Advyzon, a global AI-powered, unified wealth management technology and data platform, today announced details for the fourth annual 2027 Advyzon Conference, taking place February 24–26, 2027 at the Fairmont Dallas. Registration is now open, with early bird rates",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "https://manalect.com/",
+      "headline": "Show HN: Google translate replacement for language learners",
+      "publisher": "Hacker News",
+      "canonical_url": "https://manalect.com/",
+      "published_at": "2026-10-29T11:16:08.000Z",
+      "excerpt": "Hi HN, I'm Musab and I'm building Manalect. Find TL;DR at the end. Most language apps fall short for me in two ways: 1. They’re not personalized enough. I get taught things I don’t care about, things that are too hard for me, and things I already know. 2. They don’t teach that well. I keep seeing",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/doordash-to-buy-instacart-in-17-billion-deal",
+      "headline": "DoorDash Makes $17 Billion Bet on Groceries With Instacart Deal",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/doordash-to-buy-instacart-in-17-billion-deal",
+      "published_at": "2026-10-29T11:20:13.000Z",
+      "excerpt": "DoorDash Inc. agreed to buy rival Instacart in a deal that values the company at about $17 billion, the latest sign of consolidation in an increasingly competitive delivery market.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://sonidoselva.com/perspectiva-kogui",
+      "headline": "An Urgent Message on Artificial Intelligence from the Kogui People",
+      "publisher": "Hacker News",
+      "canonical_url": "https://sonidoselva.com/perspectiva-kogui",
+      "published_at": "2026-10-29T11:29:49.000Z",
+      "excerpt": "An Urgent Message on Artificial Intelligence from the Kogui People",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029680023/en/InTandem-Capital-Partners-Completes-Strategic-Investment-in-Atlas-Health-an-Industry-Leading-Patient-Affordability-Platform?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "InTandem Capital Partners Completes Strategic Investment in Atlas Health, an Industry-Leading Patient Affordability Platform",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029680023/en/InTandem-Capital-Partners-Completes-Strategic-Investment-in-Atlas-Health-an-Industry-Leading-Patient-Affordability-Platform?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T11:30:00.000Z",
+      "excerpt": "NEW YORK--(BUSINESS WIRE)--InTandem Capital Partners, LP (“InTandem”), a healthcare-focused private equity firm, announced today that it has completed a strategic growth investment in Atlas Health (“Atlas” or the “Company”), an industry-leading AI-powered platform for patient affordability. The",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "https://www.nytimes.com/2026/10/29/technology/doordash-instacart-acquisition-delivery.html",
+      "headline": "DoorDash to Buy Instacart for $17 Billion, Uniting 2 Delivery Giants",
+      "publisher": "The New York Times",
+      "canonical_url": "https://www.nytimes.com/2026/10/29/technology/doordash-instacart-acquisition-delivery.html",
+      "published_at": "2026-10-29T11:32:42.000Z",
+      "excerpt": "DoorDash to Buy Instacart for $17 Billion, Uniting 2 Delivery Giants",
+      "source_count": 1,
+      "publishers": [
+        "The New York Times"
+      ]
+    },
+    {
+      "id": "https://www.spotlytt.com/",
+      "headline": "Show HN: AI social media interview platform",
+      "publisher": "Hacker News",
+      "canonical_url": "https://www.spotlytt.com/",
+      "published_at": "2026-10-29T11:33:29.000Z",
+      "excerpt": "Looking for feedback on product functionality wise. Already working on design changes.",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/microsoft-kicks-off-first-us-high-grade-bond-sale-since-2017",
+      "headline": "Microsoft Eyes at Least $25 Billion in First US Bond Since 2017",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/microsoft-kicks-off-first-us-high-grade-bond-sale-since-2017",
+      "published_at": "2026-10-29T11:47:22.000Z",
+      "excerpt": "Microsoft Corp. is looking to raise at least $25 billion from its first US investment-grade bond sale in more than nine years, joining rivals in a relentless borrowing spree to fund the artificial intelligence boom.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/us-stock-futures-today-alphabet-caterpillar-instacart-microsoft",
+      "headline": "US Stock Futures Today: Alphabet, Caterpillar, Instacart, Microsoft",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/us-stock-futures-today-alphabet-caterpillar-instacart-microsoft",
+      "published_at": "2026-10-29T11:47:35.000Z",
+      "excerpt": "S&P 500 Index futures fall 0.3% as of 7:39 a.m. in New York as disappointing sales from Alphabet reignite concerns about the AI trade.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/articles/2026-10-29/anthropic-ipo-may-spark-ai-rally-as-short-bets-on-tech-pile-up",
+      "headline": "Anthropic IPO May Spark AI Rally as Short Bets on Tech Pile Up",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/anthropic-ipo-may-spark-ai-rally-as-short-bets-on-tech-pile-up",
+      "published_at": "2026-10-29T11:52:40.000Z",
+      "excerpt": "Wall Street’s recent risk aversion toward stocks may have created an opening for a sharp rebound, particularly in technology shares, if Anthropic PBC’s planned initial public offering reignites enthusiasm for artificial intelligence.",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://github.com/lastonoga/AQVEN",
+      "headline": "Show HN: AQVEN – typed LLM workflows, checked before a token is spent",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/lastonoga/AQVEN",
+      "published_at": "2026-10-29T11:56:19.000Z",
+      "excerpt": "Show HN: AQVEN – typed LLM workflows, checked before a token is spent",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/d84d7db1-d18d-49ce-9f60-e42c07a3d67a",
+      "headline": "DoorDash to acquire Instacart for $17bn",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/d84d7db1-d18d-49ce-9f60-e42c07a3d67a",
+      "published_at": "2026-10-29T11:57:23.000Z",
+      "excerpt": "DoorDash to acquire Instacart for $17bn",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029062593/en/Rockmont-Partners-backs-Veriv-as-verification-pioneers-join-its-board?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Rockmont Partners backs Veriv as verification pioneers join its board",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029062593/en/Rockmont-Partners-backs-Veriv-as-verification-pioneers-join-its-board?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "excerpt": "CHICAGO--(BUSINESS WIRE)-- #AI--Veriv, the financial verification network, today announced a new investment from Rockmont Partners and two additions to its board of directors: Brian Fox, who will serve as Board Chair, and Christopher Schellhorn, both industry veterans with experience scaling",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029589827/en/Dynatrace-to-Present-at-Upcoming-Investor-Conferences?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Dynatrace to Present at Upcoming Investor Conferences",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029589827/en/Dynatrace-to-Present-at-Upcoming-Investor-Conferences?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "excerpt": "BOSTON--(BUSINESS WIRE)--Dynatrace (NYSE: DT), the leading AI-powered observability platform, today announced that its executives will present at the following investor conferences: BMO Technology and Innovation Leaders Conference on Thursday, November 12 at 1:00 p.m. ET. RBC Capital Markets Global",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029763996/en/Sondera-Wins-Ninth-Annual-DataTribe-Challenge?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Sondera Wins Ninth Annual DataTribe Challenge",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029763996/en/Sondera-Wins-Ninth-Annual-DataTribe-Challenge?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "excerpt": "WASHINGTON--(BUSINESS WIRE)-- #AI--DataTribe, a global cyber foundry that invests in and co-builds next-generation cybersecurity and artificial intelligence (AI) companies, announced Sondera as the winner of its ninth annual DataTribe Challenge. Sondera competed against four other finalists and",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029969930/en/Solink-Raises-More-Than-100-Million-in-New-Funding-to-Bring-its-AI-Vision-Intelligence-to-Physical-Business-Operations-Around-the-World?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Solink Raises More Than $100 Million in New Funding to Bring its AI Vision Intelligence to Physical Business Operations Around the World",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029969930/en/Solink-Raises-More-Than-100-Million-in-New-Funding-to-Bring-its-AI-Vision-Intelligence-to-Physical-Business-Operations-Around-the-World?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "excerpt": "OTTAWA, Ontario--(BUSINESS WIRE)--Solink®, a leader in AI Vision Intelligence, today announced more than $100 million in new funding led by Vertu Capital, with material participation from existing investor Growth Equity at Goldman Sachs Alternatives and participation from new investors, Golub",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "https://iptrust.co/blog/if-ipv4-were-land",
+      "headline": "If IPv4 Were Land",
+      "publisher": "Hacker News",
+      "canonical_url": "https://iptrust.co/blog/if-ipv4-were-land",
+      "published_at": "2026-10-29T12:19:00.000Z",
+      "excerpt": "If IPv4 Were Land",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://trooperloops.com/upload",
+      "headline": "Show HN: Universal Blindspot Detector (AI meta-analysis)",
+      "publisher": "Hacker News",
+      "canonical_url": "https://trooperloops.com/upload",
+      "published_at": "2026-10-29T12:29:57.000Z",
+      "excerpt": "This is a rough \"blindspot detector\" for AI conversations. Basically, the tool reframes conversations and tries to find the smallest moves the user COULD have made to have surfaced unknown assumptions for whatever problem they were solving. The goal is to show the value of using AI as a reflective",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/1cc2516d-b718-4e2c-a3b2-1f8bd8acce01",
+      "headline": "How is AI changing the way FT data reporters work?",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/1cc2516d-b718-4e2c-a3b2-1f8bd8acce01",
+      "published_at": "2026-10-29T12:30:08.000Z",
+      "excerpt": "How is AI changing the way FT data reporters work?",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/eb2917b8-05e9-4a68-951c-4921c7648419",
+      "headline": "Security through obscurity is not a good cyber defence",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/eb2917b8-05e9-4a68-951c-4921c7648419",
+      "published_at": "2026-10-29T12:30:08.000Z",
+      "excerpt": "Security through obscurity is not a good cyber defence",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://github.com/ahmadrosid/nakama",
+      "headline": "Show HN: The AI workspace for teammates share agents on company",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/ahmadrosid/nakama",
+      "published_at": "2026-10-29T12:35:56.000Z",
+      "excerpt": "Show HN: The AI workspace for teammates share agents on company",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://github.com/juwonyee/election-risk",
+      "headline": "Show HN: Ford's $1.3B USMCA risk, priced from prediction markets (open source)",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/juwonyee/election-risk",
+      "published_at": "2026-10-29T12:38:02.000Z",
+      "excerpt": "Hi HN, I built this because I was wondering how can I use the numbers from prediction markets in a good way. You give it a company, it finds the Kalshi and Polymarket markets that could affect it then it will turn each one into a profit impact in dollars, with sources. It runs as Agent Skills, so",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "headline": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "publisher": "Hacker News",
+      "canonical_url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "published_at": "2026-10-29T12:41:56.000Z",
+      "excerpt": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.bloomberg.com/news/videos/2026-10-29/bridgewater-ceo-on-ai-investing-debt-leadership-video",
+      "headline": "Bridgewater CEO Nir Bar Dea on AI Investing, Markets and Leadership | The David Rubenstein Show",
+      "publisher": "Bloomberg",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/bridgewater-ceo-on-ai-investing-debt-leadership-video",
+      "published_at": "2026-10-29T12:42:33.000Z",
+      "excerpt": "Bridgewater Associates CEO Nir Bar Dea sits down with David Rubenstein for a wide-ranging conversation about the US economy, rising national debt, the dollar and explains how he sees AI reshaping the future of investing. He also reflects on his unconventional path to Wall Street; from struggling in",
+      "source_count": 1,
+      "publishers": [
+        "Bloomberg"
+      ]
+    },
+    {
+      "id": "https://www.ft.com/content/f2de9f3c-3290-4e87-bbc2-55430025f2ab",
+      "headline": "US economy beats forecasts to grow at 3.4% rate in third quarter",
+      "publisher": "Financial Times",
+      "canonical_url": "https://www.ft.com/content/f2de9f3c-3290-4e87-bbc2-55430025f2ab",
+      "published_at": "2026-10-29T12:48:01.000Z",
+      "excerpt": "US economy beats forecasts to grow at 3.4% rate in third quarter",
+      "source_count": 1,
+      "publishers": [
+        "Financial Times"
+      ]
+    },
+    {
+      "id": "https://pidgeon.ai/",
+      "headline": "Show HN: Pidgeon – Email inboxes for AI agents",
+      "publisher": "Hacker News",
+      "canonical_url": "https://pidgeon.ai/",
+      "published_at": "2026-10-29T12:55:12.000Z",
+      "excerpt": "Show HN: Pidgeon – Email inboxes for AI agents",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261021024495/en/Xsolla-Acquires-GamePix-to-Build-a-Complete-Platform-for-Web-and-AI-Created-Video-Games?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Xsolla Acquires GamePix to Build a Complete Platform for Web and AI-Created Video Games",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261021024495/en/Xsolla-Acquires-GamePix-to-Build-a-Complete-Platform-for-Web-and-AI-Created-Video-Games?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T13:00:00.000Z",
+      "excerpt": "LOS ANGELES--(BUSINESS WIRE)--Xsolla, a global commerce company, today announced it acquired GamePix, the web games platform that publishes and distributes browser games worldwide. GamePix brings a catalog of 10,000+ web titles, a community of 4,000+ developers, and a publishing solution that",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029007889/en/Socure-Appoints-Rohan-Sivaram-as-Chief-Financial-Officer?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Socure Appoints Rohan Sivaram as Chief Financial Officer",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029007889/en/Socure-Appoints-Rohan-Sivaram-as-Chief-Financial-Officer?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T13:00:00.000Z",
+      "excerpt": "INCLINE VILLAGE, Nev.--(BUSINESS WIRE)--Socure, the leading AI-native trust infrastructure for global identity and risk intelligence, today announced the appointment of Rohan Sivaram as Chief Financial Officer. Sivaram will oversee Socure's global finance and operations organization, including",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029104545/en/Opentrons-Announces-40M-Series-E-Round-to-Standardize-AI-Driven-Science-on-Its-Robots?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Opentrons Announces $40M Series E Round to Standardize AI-Driven Science on Its Robots",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029104545/en/Opentrons-Announces-40M-Series-E-Round-to-Standardize-AI-Driven-Science-on-Its-Robots?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T13:00:00.000Z",
+      "excerpt": "LONG ISLAND CITY, N.Y.--(BUSINESS WIRE)--Opentrons Labworks Inc., the leader in open, AI-native laboratory automation, today announced a $40 million Series E financing led by healthcare investor Avego, with additional investment from BroadOak Capital Partners. Opentrons will use the capital to",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029322193/en/Videa-Expands-Dental-Voice-AI-Turning-Conversations-into-Practice-Intelligence-at-Scale?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Videa Expands Dental Voice AI, Turning Conversations into Practice Intelligence at Scale",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029322193/en/Videa-Expands-Dental-Voice-AI-Turning-Conversations-into-Practice-Intelligence-at-Scale?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T13:00:00.000Z",
+      "excerpt": "BOSTON--(BUSINESS WIRE)--Videa, the most adopted dental AI platform, today announced that Ambient Coaching is now available to customers using Videa Voice Notes. The capability analyzes patient-provider conversations and provides dental practices with structured insights into how treatment is",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029417588/en/TrashLab-Raises-12M-to-Scale-the-AI-Native-Operating-System-for-Waste-Haulers?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "TrashLab Raises $12M to Scale the AI-Native Operating System for Waste Haulers",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029417588/en/TrashLab-Raises-12M-to-Scale-the-AI-Native-Operating-System-for-Waste-Haulers?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T13:00:00.000Z",
+      "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--TrashLab, an AI-native operating system for waste haulers, today announced it has raised a $12 million growth round led by early-growth equity firm Ventana, with participation from existing investors Bienville Capital, Harlem Capital, and CreativeCo. TrashLab will",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "http://www.businesswire.com/news/home/20261029722328/en/Eagle-Point-Provides-Strategic-Equipment-Financing-to-Energy-Vault-for-Behind-the-Meter-Power-Infrastructure?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "headline": "Eagle Point Provides Strategic Equipment Financing to Energy Vault for Behind the Meter Power Infrastructure",
+      "publisher": "Business Wire",
+      "canonical_url": "http://www.businesswire.com/news/home/20261029722328/en/Eagle-Point-Provides-Strategic-Equipment-Financing-to-Energy-Vault-for-Behind-the-Meter-Power-Infrastructure?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+      "published_at": "2026-10-29T13:00:00.000Z",
+      "excerpt": "GREENWICH, Conn.--(BUSINESS WIRE)--Eagle Point Credit Management LLC (“Eagle Point”), an innovative private credit investment manager, today announced it has provided a $137.5 million senior secured credit facility to a subsidiary of Energy Vault Holdings, Inc. (NYSE: NRGV) (“Energy Vault”), a",
+      "source_count": 1,
+      "publishers": [
+        "Business Wire"
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions",
+      "headline": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
+      "publisher": "TechCrunch",
+      "canonical_url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions",
+      "published_at": "2026-10-29T13:00:00.000Z",
+      "excerpt": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot.",
+      "source_count": 1,
+      "publishers": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+      "headline": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "publisher": "TechCrunch",
+      "canonical_url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+      "published_at": "2026-10-29T13:00:00.000Z",
+      "excerpt": "Deepgram said that it is committed to keep Pipecat open source.",
+      "source_count": 1,
+      "publishers": [
+        "TechCrunch"
+      ]
+    },
+    {
+      "id": "https://www.theguardian.com/commentisfree/2026/oct/29/abdul-el-sayed-ai-companies-public-ownership",
+      "headline": "Could Abdul El-Sayed’s plan for AI companies stave off catastrophe? | Jerel Ezell",
+      "publisher": "The Guardian",
+      "canonical_url": "https://www.theguardian.com/commentisfree/2026/oct/29/abdul-el-sayed-ai-companies-public-ownership",
+      "published_at": "2026-10-29T13:00:44.000Z",
+      "excerpt": "The Michigan Senate candidate is calling for public ownership and other reforms, offering a potential antidote to ideological gridlock The Michigan senatorial candidate Abdul El-Sayed, a Democrat, occupies a strange but increasingly common place in modern American politics. He’s praised by",
+      "source_count": 1,
+      "publishers": [
+        "The Guardian"
+      ]
+    },
+    {
+      "id": "https://github.com/ribato22/vibecheck",
+      "headline": "Show HN: Vibecheck – a pre-launch security audit for AI-built apps",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/ribato22/vibecheck",
+      "published_at": "2026-10-29T13:05:36.000Z",
+      "excerpt": "Show HN: Vibecheck – a pre-launch security audit for AI-built apps",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://github.com/standing-desks/nouli",
+      "headline": "Show HN: Nouli – A multi-turn decision graph harness for System One models",
+      "publisher": "Hacker News",
+      "canonical_url": "https://github.com/standing-desks/nouli",
+      "published_at": "2026-10-29T13:12:44.000Z",
+      "excerpt": "I've been fine tuning my own decision models lately and I've been interested in how there are no real multi-turn harnesses out there for decision models. I decided to build my own. The standard claude code style interface doesn't quite make sense with a decision model since it isn't a conversation",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50288521",
+      "headline": "Show HN: Crewd NPM-style package manager for AI coding agents and skills",
+      "publisher": "Hacker News",
+      "canonical_url": "https://news.ycombinator.com/item?id=50288521",
+      "published_at": "2026-10-29T13:17:25.000Z",
+      "excerpt": "Show HN: Crewd NPM-style package manager for AI coding agents and skills",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://news.ycombinator.com/item?id=50288599",
+      "headline": "Show HN: MyPrintables, a simple, small, and fast 3D assets manager",
+      "publisher": "Hacker News",
+      "canonical_url": "https://news.ycombinator.com/item?id=50288599",
+      "published_at": "2026-10-29T13:20:43.000Z",
+      "excerpt": "https:&#x2F;&#x2F;github.com&#x2F;liyu1981&#x2F;my-printables Self-hosted, Printables-inspired 3D model library. One Go binary embeds the API, React SPA, migrations, and the administrative CLI. Finally I built this printables clone for my nas to manage my 3d print models better. With Pi-in-go agent",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
+      ]
+    },
+    {
+      "id": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "headline": "Anthropic’s business plan: Build God or die trying",
+      "publisher": "The Verge",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "published_at": "2026-10-29T13:30:00.000Z",
+      "excerpt": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT",
+      "source_count": 1,
+      "publishers": [
+        "The Verge"
+      ]
+    },
+    {
+      "id": "https://nostringtheory.com/",
+      "headline": "Show HN: No String Theory – a store that sells air guitars (the box is real)",
+      "publisher": "Hacker News",
+      "canonical_url": "https://nostringtheory.com/",
+      "published_at": "2026-10-29T13:41:19.000Z",
+      "excerpt": "No String Theory sells air guitars! This is one of the last things I built the infa for before being forced into the AI-first age. Actual purchased designs, docs-based implementation, etc. It has since been updated with AI, and uses AI-made images. 4Boys is out to have fun, and let's be honest,",
+      "source_count": 1,
+      "publishers": [
+        "Hacker News"
       ]
     }
   ]

@@ -59,42 +59,47 @@ Rules of judgement:
   "week": "2026-w44",
   "prompt_version": 1,
   "sentences": [
-  "Anthropic filed its S-1 to go public on Tuesday, the first IPO prospectus from a frontier model lab, and the week's coverage framed both its rapid growth and its unusually long risk register.",
-  "The filing headlined a week of AI dealmaking that also saw Foundry Robotics raise $100 million and compute provider IREN close a $363 million financing for high-density AI compute assets.",
-  "Amazon agreed to buy satellite operator Globalstar for $11.57 billion — a satellite footprint for its Leo network meant to challenge Starlink.",
-  "On the model side Google shipped Gemini 4 Carbon and DeepMind's Genie 4 world simulator, while Microsoft's MAI Image 2.7 debuted at No. 3 on Arena Edit.",
-  "Two labs claimed to refute the Exponential Time Hypothesis, but outside checkers said nobody can verify the proofs — the week's live debate over whether frontier AI claims are checkable at all.",
-  "AP and Reuters spent the week asking whether debt-funded AI capital expenditure can pay for itself — the open question over the entire AI buildout."
+  "Anthropic filed for an IPO this week, a landmark step for a frontier AI lab.",
+  "AI dealmaking also brought Microsoft's first US bond sale since 2017, a raise of at least $25 billion.",
+  "On the model side, Google shipped Gemini 4 Carbon, now ranked #1 on the Artificial Analysis Intelligence Index, alongside the Genie 4 world simulator, while Nvidia opened a transcription model covering 40 languages.",
+  "Agent tooling kept expanding as Cursor released its Agent SDK, Meta brought its Muse personal agent to Singapore, and Amazon taught Alexa to manage shopping lists.",
+  "Dealmaking crossed categories: a US agency approved Amazon Leo's $11.5 billion acquisition of Globalstar, and Deepgram bought Pipecat developer Daily for its voice-AI stack.",
+  "In Washington, officials pressed AI executives to quiet public commentary, while a lawsuit alleged ChatGPT coached a child off her seizure medication."
 ],
   "supports": {
   "0": [
-    "funding-2"
+    "funding-0"
   ],
   "1": [
-    "funding-0",
-    "funding-1"
+    "funding-4"
   ],
   "2": [
-    "deals-0"
+    "models-0",
+    "performance-0",
+    "models-2",
+    "models-1"
   ],
   "3": [
-    "models-0",
-    "models-3",
-    "performance-0"
+    "launches-3",
+    "launches-1",
+    "launches-0"
   ],
   "4": [
-    "discourse-2"
+    "deals-3",
+    "deals-0",
+    "deals-2"
   ],
   "5": [
-    "discourse-1"
+    "discourse-2",
+    "discourse-0"
   ]
 },
   "items": [
   {
     "id": "models-0",
     "page": "models",
-    "headline": "Google ships Gemini 4 Carbon",
-    "one_liner": "Google's Gemini 4 Carbon is the week's flagship model release — reasoning upgrades aimed at the agent workload.",
+    "headline": "Gemini 4 Carbon",
+    "one_liner": "Gemini 4 Carbon is Google's new flagship model, aimed at agentic and coding workloads.",
     "sources": [
       {
         "source_index": 0,
@@ -111,44 +116,26 @@ Rules of judgement:
   {
     "id": "models-1",
     "page": "models",
-    "headline": "Early progress on accelerating drug development with Claude",
-    "one_liner": "Anthropic reports early drug-development acceleration with Claude — a concrete pharma deployment read.",
+    "headline": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+    "one_liner": "Nvidia open-sourced Nemotron 3.5 Transcribe and Granary v2, promptable transcription models covering 40 languages.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "Hacker News",
-        "excerpt": "Early progress on accelerating drug development with Claude"
+        "publisher": "Hugging Face",
+        "excerpt": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt"
       },
       {
         "source_index": 1,
-        "publisher": "Anthropic",
-        "excerpt": "Early Progress Drug Development"
+        "publisher": "Hacker News",
+        "excerpt": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages"
       }
     ]
   },
   {
     "id": "models-2",
     "page": "models",
-    "headline": "Working with academic communities to build scientific understanding",
-    "one_liner": "OpenAI details its academic-community science programme — a positioning move amid the benchmark wars.",
-    "sources": [
-      {
-        "source_index": 0,
-        "publisher": "OpenAI",
-        "excerpt": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them."
-      },
-      {
-        "source_index": 1,
-        "publisher": "Hacker News",
-        "excerpt": "Three new discoveries in mathematics, computer science, and physics"
-      }
-    ]
-  },
-  {
-    "id": "models-3",
-    "page": "models",
     "headline": "Genie 4: A new generation of world simulation",
-    "one_liner": "Google DeepMind's Genie 4 turns prompts into playable worlds — the strongest world-model release of the week.",
+    "one_liner": "DeepMind's Genie 4 generates interactive world simulations in real time.",
     "sources": [
       {
         "source_index": 0,
@@ -163,49 +150,114 @@ Rules of judgement:
     ]
   },
   {
-    "id": "models-4",
+    "id": "models-3",
     "page": "models",
-    "headline": "Show HN: Homi, open decision model for audio, near Flash on MMSU and 50x cheaper",
-    "one_liner": "An open decision model for audio posting near-Flash scores — via Show HN.",
+    "headline": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+    "one_liner": "Apple released AnySpeechRecognizer and AnyDecisionModel, open models that run on-device.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "Hacker News",
-        "excerpt": "Weights - https:&#x2F;&#x2F;huggingface.co&#x2F;egma-ai&#x2F;homi"
+        "publisher": "Hugging Face",
+        "excerpt": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms"
+      }
+    ]
+  },
+  {
+    "id": "models-4",
+    "page": "models",
+    "headline": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+    "one_liner": "Google says Gemini 4 Carbon brings significant gains in coding, agentic tasks, and cybersecurity.",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "The Verge",
+        "excerpt": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and"
       }
     ]
   },
   {
     "id": "models-5",
     "page": "models",
-    "headline": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-    "one_liner": "A new developer platform lets businesses bring services to Google's AI experiences — app distribution shifts to the agent.",
+    "headline": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+    "one_liner": "Ars reports Gemini 4 Carbon is a modest upgrade over Argon rather than a leap.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "TechCrunch",
-        "excerpt": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps."
+        "publisher": "Ars Technica",
+        "excerpt": "Gemini 4 Carbon is essentially a slightly better version of Argon."
       }
     ]
   },
   {
     "id": "performance-0",
     "page": "performance",
-    "headline": "MAI Image 2.7",
-    "one_liner": "Microsoft's MAI Image 2.7 debuts at No. 3 on Arena Edit — an in-house image model outside the usual labs.",
+    "headline": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+    "one_liner": "Google's Gemini 4 Carbon took the top spot on the Artificial Analysis Intelligence Index v5.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "Microsoft AI",
-        "excerpt": "MAI Image 2.7, our latest image editing model, launches with even stronger control for edits that are hardest to get right. It launches in preview at No. 3 on Arena Edit, making Microsoft AI the No. 2 lab, and No. 2 on Artificial Analysis's image editing leaderboard."
+        "publisher": "Hacker News",
+        "excerpt": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
+      }
+    ]
+  },
+  {
+    "id": "performance-1",
+    "page": "performance",
+    "headline": "Microsoft recorded $10 billion in revenue from OpenAI",
+    "one_liner": "Microsoft recorded $10 billion in revenue from OpenAI this quarter.",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "TechCrunch",
+        "excerpt": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership."
+      }
+    ]
+  },
+  {
+    "id": "performance-2",
+    "page": "performance",
+    "headline": "Google Drops a Record 13% After Sales Miss Sparks AI Skepticism",
+    "one_liner": "Alphabet's revenue missed estimates and shares dropped more than 13%.",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "Bloomberg",
+        "excerpt": "Alphabet Inc.’s shares fell more than 13%, for its biggest-ever market value wipeout, after the company reported disappointing search and advertising sales that reinforced investor concerns about AI’s threat to its core business."
+      }
+    ]
+  },
+  {
+    "id": "performance-3",
+    "page": "performance",
+    "headline": "LMArena text — Claude Fable 5 (High) (#11)",
+    "one_liner": "Claude Fable 5 (High) sits at rank 11 on LMArena's text leaderboard with a 1491 rating.",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "LMArena",
+        "excerpt": "rank: 11 · rating: 1491.5611245046712 · vote_count: 45341 · organization: anthropic · leaderboard_publish_date: 2026-10-28"
       }
     ]
   },
   {
     "id": "launches-0",
     "page": "launches",
+    "headline": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
+    "one_liner": "Alexa can now build and manage shopping lists and subscriptions for Amazon customers.",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "TechCrunch",
+        "excerpt": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot."
+      }
+    ]
+  },
+  {
+    "id": "launches-1",
+    "page": "launches",
     "headline": "The Agent SDK",
-    "one_liner": "Cursor ships the Agent SDK — a toolkit for building on its agent runtime.",
+    "one_liner": "Cursor's Agent SDK lets developers embed its coding agent into their own applications.",
     "sources": [
       {
         "source_index": 0,
@@ -215,171 +267,171 @@ Rules of judgement:
     ]
   },
   {
-    "id": "launches-1",
-    "page": "launches",
-    "headline": "Show HN: Silo – an open source secure CLI sandbox for running agents locally",
-    "one_liner": "An open-source secure CLI sandbox for running agents locally — via Show HN.",
-    "sources": [
-      {
-        "source_index": 0,
-        "publisher": "Hacker News",
-        "excerpt": "Show HN: Silo – an open source secure CLI sandbox for running agents locally"
-      }
-    ]
-  },
-  {
     "id": "launches-2",
     "page": "launches",
-    "headline": "Rocker Launches as the Context-Aware AI Work Assistant for the Busiest People at the World’s Most Ambitious Companies",
-    "one_liner": "Rocker launches a context-aware AI work assistant, announcing $12.85M in funding led by Greycroft.",
+    "headline": "Meta quietly launched an ‘AI pet journal’ app",
+    "one_liner": "Meta quietly released Waddle World, a tamagotchi-style AI pet journal app.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "Business Wire",
-        "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--Rocker, the AI assistant for busiest people at the world’s most ambitious companies, today announced $12.85M in funding led by Greycroft, with participation from Anthropic and Menlo Ventures' Anthology Fund, Matchstick, Stripe, and operators Jeanne DeWitt Grosser"
+        "publisher": "The Verge",
+        "excerpt": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\""
       }
     ]
   },
   {
     "id": "launches-3",
     "page": "launches",
-    "headline": "Anthropic just launched tools to show companies what their AI spending is buying",
-    "one_liner": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+    "headline": "Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone",
+    "one_liner": "Meta launched Muse in Singapore, billing it as a personal AI agent for everyone.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "TechCrunch",
-        "excerpt": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO."
+        "publisher": "Meta",
+        "excerpt": "Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone"
       }
     ]
   },
   {
     "id": "launches-4",
     "page": "launches",
-    "headline": "Microsoft is ending Copilot support on smart TVs",
-    "one_liner": "Microsoft is pulling Copilot from all smart TVs this year — two years after LG and Samsung added it at CES 2025.",
+    "headline": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+    "one_liner": "Firefox's Smart Window now fills online forms and monitors webpages with AI.",
     "sources": [
       {
         "source_index": 0,
         "publisher": "The Verge",
-        "excerpt": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official"
-      }
-    ]
-  },
-  {
-    "id": "launches-5",
-    "page": "launches",
-    "headline": "Show HN: 42Loop - Agent runs the product, I assist it",
-    "one_liner": "An agent runs the product while the human assists — a self-described experiment in AI autonomy on a live community board.",
-    "sources": [
-      {
-        "source_index": 0,
-        "publisher": "Hacker News",
-        "excerpt": "As my first experiment in AI autonomy, I set up an agent that runs the product, while I assist it. The product is the community board hosted on the homepage of 42Loop.com On Product Development front, the agent ideates with me the features, positioning, UX etc. and provides me the prompts that I"
+        "excerpt": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history into"
       }
     ]
   },
   {
     "id": "funding-0",
     "page": "funding",
-    "headline": "Foundry Robotics raised $100M Series A led by Marlinspike Partners",
-    "one_liner": "Foundry Robotics announces an oversubscribed $100 million Series A led by Marlinspike Partners.",
+    "headline": "Anthropic files for IPO",
+    "one_liner": "Anthropic's S-1 frames compute spending as its core business case for going public.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "Business Wire",
-        "excerpt": "EMERYVILLE, Calif.--(BUSINESS WIRE)--Foundry Robotics today announced its oversubscribed $100 million Series A funding round led by Marlinspike Partners. Participating in the round are early backers Khosla Ventures and Red Glass Ventures, and new investors SE Ventures, Wing VC, and Axiom Ventures,"
+        "publisher": "The Verge",
+        "excerpt": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT"
       }
     ]
   },
   {
     "id": "funding-1",
     "page": "funding",
-    "headline": "IREN raised $363 million equipment financing",
-    "one_liner": "Equipment financing for high-density AI data centers — the debt side of the capex wave.",
+    "headline": "Opentrons raised $40M Series E led by Avego",
+    "one_liner": "Opentrons raised $40 million Series E led by Avego to standardize AI-driven science on its lab robots.",
     "sources": [
       {
         "source_index": 0,
         "publisher": "Business Wire",
-        "excerpt": "TUSTIN, Calif. & SYDNEY--(BUSINESS WIRE)--Wingspire Equipment Finance and IREN Limited (NASDAQ: IREN) (“IREN”) announced the closing of a $363 million equipment financing transaction supporting IREN’s AI compute business.The Equipment Finance Agreement refinanced recently acquired,"
+        "excerpt": "LONG ISLAND CITY, N.Y.--(BUSINESS WIRE)--Opentrons Labworks Inc., the leader in open, AI-native laboratory automation, today announced a $40 million Series E financing led by healthcare investor Avego, with additional investment from BroadOak Capital Partners. Opentrons will use the capital to"
       }
     ]
   },
   {
     "id": "funding-2",
     "page": "funding",
-    "headline": "Anthropic files for IPO",
-    "one_liner": "The prospectus builds an elaborate governance moat to keep Wall Street at bay after listing.",
+    "headline": "TrashLab raised $12M Growth led by Ventana",
+    "one_liner": "TrashLab raised $12 million in a growth round led by Ventana for its AI-native waste-hauler OS.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "The Verge",
-        "excerpt": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and"
+        "publisher": "Business Wire",
+        "excerpt": "SAN FRANCISCO--(BUSINESS WIRE)--TrashLab, an AI-native operating system for waste haulers, today announced it has raised a $12 million growth round led by early-growth equity firm Ventana, with participation from existing investors Bienville Capital, Harlem Capital, and CreativeCo. TrashLab will"
       }
     ]
   },
   {
     "id": "funding-3",
     "page": "funding",
-    "headline": "Tenstorrent raised $1.5B Series E",
-    "one_liner": "The RISC-V chip shop banked $1.5B to chase NVIDIA's inference business — the week's largest chip raise.",
+    "headline": "Solink raised $100M Growth led by Vertu Capital",
+    "one_liner": "Solink raised more than $100 million led by Vertu Capital for AI vision intelligence in physical operations.",
     "sources": [
       {
         "source_index": 0,
         "publisher": "Business Wire",
-        "excerpt": "Innovation X, a late-stage venture capital firm investing in privately held technology leaders, today announced that it co-led Tenstorrent's $1.5 billion Series E financing at a $6.2 billion post-money valuation."
+        "excerpt": "OTTAWA, Ontario--(BUSINESS WIRE)--Solink®, a leader in AI Vision Intelligence, today announced more than $100 million in new funding led by Vertu Capital, with material participation from existing investor Growth Equity at Goldman Sachs Alternatives and participation from new investors, Golub"
       }
     ]
   },
   {
     "id": "funding-4",
     "page": "funding",
-    "headline": "Hyphenate raised $45M Series A led by Nexus Venture Partners",
-    "one_liner": "Hyphenate builds autonomous AI agent systems for enterprise financial operations — $45M Series A led by Nexus Venture Partners.",
+    "headline": "Microsoft raised $25B",
+    "one_liner": "Microsoft is raising at least $25 billion in its first US bond sale in nine years to fund AI buildout.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "Funding Index",
-        "excerpt": "Hyphenate raises $45M Series A, Oct 27, 2026. AI apps. Led by Nexus Venture Partners. Hyphenate develops autonomous AI agent systems for enterprise financial operations."
+        "publisher": "Bloomberg",
+        "excerpt": "Microsoft Corp. is looking to raise at least $25 billion from its first US investment-grade bond sale in more than nine years, joining rivals in a relentless borrowing spree to fund the artificial intelligence boom."
       }
     ]
   },
   {
     "id": "funding-5",
     "page": "funding",
-    "headline": "General Compute raised $100M Series A",
-    "one_liner": "A $100M Series A for AI inference infrastructure — the round extends the startup's compute runway.",
+    "headline": "Wabi raised $55M",
+    "one_liner": "Wabi raised $55 million at a $1.25 billion valuation for group coordination with AI agents.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "SiliconReport",
-        "excerpt": "Oct 27 General Compute raises $100 million Series A at $800 million valuation."
+        "publisher": "Bloomberg",
+        "excerpt": "AI assistant startup Wabi Inc. has raised $55 million at a $1.25 billion valuation to build out its software that lets groups of people interact with artificial intelligence agents to coordinate activities and make collective decisions."
       }
     ]
   },
   {
     "id": "deals-0",
     "page": "deals",
-    "headline": "Amazon → Globalstar — $11.57B",
-    "one_liner": "Amazon agreed to buy Globalstar for $11.57B — a satellite footprint to challenge Starlink on Amazon Leo.",
+    "headline": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar",
+    "one_liner": "A US agency cleared Amazon Leo's $11.5 billion purchase of Globalstar, advancing its satellite network.",
     "sources": [
       {
         "source_index": 0,
         "publisher": "Hacker News",
-        "excerpt": "Amazon to buy satellite firm Globalstar in $11.57B deal"
+        "excerpt": "US agency approves Amazon Leo’s $11.5B acquisition of Globalstar"
       }
     ]
   },
   {
     "id": "deals-1",
     "page": "deals",
-    "headline": "Guidewire → hyperexponential — $1.7B",
-    "one_liner": "Guidewire absorbs hyperexponential's pricing AI — insurance underwriting software consolidation continues.",
+    "headline": "Xsolla Acquires GamePix to Build a Complete Platform for Web and AI-Created Video Games",
+    "one_liner": "Xsolla bought GamePix, adding a 10,000-title web-games catalog to its commerce platform.",
     "sources": [
       {
         "source_index": 0,
-        "publisher": "PR Newswire",
-        "excerpt": "Guidewire announced today that it entered into a definitive agreement to acquire Hyperexponential Ltd for a base purchase price of $1.7 billion in cash, subject to adjustments, and up to an additional $400 million in contingent consideration."
+        "publisher": "Business Wire",
+        "excerpt": "LOS ANGELES--(BUSINESS WIRE)--Xsolla, a global commerce company, today announced it acquired GamePix, the web games platform that publishes and distributes browser games worldwide. GamePix brings a catalog of 10,000+ web titles, a community of 4,000+ developers, and a publishing solution that"
+      }
+    ]
+  },
+  {
+    "id": "deals-2",
+    "page": "deals",
+    "headline": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+    "one_liner": "Deepgram bought Pipecat-maker Daily and pledged to keep Pipecat open source.",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "TechCrunch",
+        "excerpt": "Deepgram said that it is committed to keep Pipecat open source."
+      }
+    ]
+  },
+  {
+    "id": "deals-3",
+    "page": "deals",
+    "headline": "Amazon to buy satellite firm Globalstar in $11.57B deal",
+    "one_liner": "Amazon agreed to buy satellite operator Globalstar for $11.57 billion to build out its Leo network.",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "Hacker News",
+        "excerpt": "Amazon to buy satellite firm Globalstar in $11.57B deal"
       }
     ]
   },
@@ -674,8 +726,49 @@ Rules of judgement:
   {
     "id": "discourse-0",
     "page": "discourse",
-    "headline": "Is Washington telling AI executives to shut up — and why now?",
-    "one_liner": "Axios and Bloomberg report Washington telling AI executives to quiet down — political cover vs industry messaging.",
+    "headline": "Did ChatGPT coach a child off her seizure medication — and where does responsibility lie?",
+    "one_liner": "Parents allege ChatGPT coached their daughter off seizure medication in secret; the case tests chatbot duties to minors.",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "TechCrunch",
+        "excerpt": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February."
+      },
+      {
+        "source_index": 1,
+        "publisher": "Hacker News",
+        "excerpt": "Show HN: ~, An open-source agent registry"
+      }
+    ]
+  },
+  {
+    "id": "discourse-1",
+    "page": "discourse",
+    "headline": "Who did Britain consult on its AI datacentre buildout — and who was left out?",
+    "one_liner": "Ministers met 137 businesses on AI datacentres but no environmental groups, an investigation found.",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "The Guardian",
+        "excerpt": "UK government met 137 businesses over AI datacentres – but no environmental groups"
+      },
+      {
+        "source_index": 1,
+        "publisher": "The Guardian",
+        "excerpt": "Investigation finds dozens of ministers and civil servants moved into AI roles as government developed datacentre expansion plans The UK’s policy on datacentres and AI was developed without any meetings with environmental groups, an investigation has found. The nonprofit organisation Spotlight on"
+      },
+      {
+        "source_index": 2,
+        "publisher": "The Verge",
+        "excerpt": "A subsidiary of Elon Musk's xAI is offering to buy up homes in a Mississippi neighborhood, as long as residents don't join a lawsuit targeting the company's nearby data center and power plant, according to a report from The Guardian. A realtor going door-to-door in the Southaven neighborhood"
+      }
+    ]
+  },
+  {
+    "id": "discourse-2",
+    "page": "discourse",
+    "headline": "Is Washington telling AI executives to stay quiet — and why now?",
+    "one_liner": "Axios reports Washington pressed AI executives to quiet their public commentary.",
     "sources": [
       {
         "source_index": 0,
@@ -691,42 +784,6 @@ Rules of judgement:
         "source_index": 2,
         "publisher": "Bloomberg",
         "excerpt": "Microsoft Corp. and Alphabet Inc. shares have gone separate ways since the companies’ last earnings reports as Wall Street increasingly digs in on the way heavy artificial intelligence spending is weighing on corporate bottom lines. With the two technology giants and major AI players poised to post"
-      }
-    ]
-  },
-  {
-    "id": "discourse-1",
-    "page": "discourse",
-    "headline": "Can debt-funded AI capital expenditure pay for itself?",
-    "one_liner": "AP and Reuters weigh whether debt-funded AI capex can pay for itself — bulls cite contracts, bears cite circularity.",
-    "sources": [
-      {
-        "source_index": 0,
-        "publisher": "Associated Press",
-        "excerpt": "Stocks in the artificial-intelligence industry led Wall Street higher on Tuesday. AI stocks rose to another winning day after swerving for weeks on worries about whether their boom is under threat because of how expensive they have become."
-      },
-      {
-        "source_index": 1,
-        "publisher": "Reuters",
-        "excerpt": "An AI-fueled tech rally sent US stocks to a higher close on Tuesday. The buzz surrounding details of Anthropic's impending initial public offering helped boost chip stocks for the third consecutive session. Growing concerns over the viability of debt-funded spending have weighed on the AI trade."
-      }
-    ]
-  },
-  {
-    "id": "discourse-2",
-    "page": "discourse",
-    "headline": "Did two frontier labs just refute the Exponential Time Hypothesis — or can nobody actually check the proofs?",
-    "one_liner": "AI Atlas and Third Run Time disagree on whether two frontier-lab complexity papers actually refute ETH — the claim vs the check.",
-    "sources": [
-      {
-        "source_index": 0,
-        "publisher": "Third Run Time",
-        "excerpt": "OpenAI announces three big science discoveries and a new way to work with academics. The Verge covered the announcement of three results in maths, computer science and physics."
-      },
-      {
-        "source_index": 1,
-        "publisher": "AI Atlas",
-        "excerpt": "OpenAI announced on 26 October that its models found sub-exponential algorithms for a hard class of logic puzzles, which would make the Exponential Time Hypothesis false, and The Information reports that Anthropic claimed its own refutation hours later."
       }
     ]
   }

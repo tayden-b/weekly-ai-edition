@@ -11,6 +11,14 @@
       }
     },
     {
+      "date": "2026-10-29",
+      "ran_at": "2026-10-29T13:43:56.458Z",
+      "window": {
+        "from": "2026-10-23T00:00:00.000Z",
+        "to": "2026-10-29T23:59:59.999Z"
+      }
+    },
+    {
       "date": "fixture",
       "ran_at": "2026-10-28T14:00:00Z",
       "window": {
@@ -371,6 +379,356 @@
       "count": 100
     },
     {
+      "date": "2026-10-29",
+      "source": "openai-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 17
+    },
+    {
+      "date": "2026-10-29",
+      "source": "anthropic-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 89
+    },
+    {
+      "date": "2026-10-29",
+      "source": "google-deepmind-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "date": "2026-10-29",
+      "source": "google-ai-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "date": "2026-10-29",
+      "source": "meta-ai-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "mistral-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "date": "2026-10-29",
+      "source": "xai-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "microsoft-research-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "amazon-science-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "date": "2026-10-29",
+      "source": "moonshot-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "date": "2026-10-29",
+      "source": "deepseek-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "qwen-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "huggingface-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "date": "2026-10-29",
+      "source": "hf-hub-models",
+      "adapter": "hf-hub",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "date": "2026-10-29",
+      "source": "gh-vllm",
+      "adapter": "github-releases",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "gh-llama-cpp",
+      "adapter": "github-releases",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "gh-ollama",
+      "adapter": "github-releases",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "gh-langchain",
+      "adapter": "github-releases",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "gh-transformers",
+      "adapter": "github-releases",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "lmarena-leaderboard",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 100
+    },
+    {
+      "date": "2026-10-29",
+      "source": "artificial-analysis",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "date": "2026-10-29",
+      "source": "hf-open-llm-leaderboard",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "date": "2026-10-29",
+      "source": "swe-bench",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "arc-prize-leaderboard",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "date": "2026-10-29",
+      "source": "epoch-ai-data",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 30
+    },
+    {
+      "date": "2026-10-29",
+      "source": "arxiv-lab-papers",
+      "adapter": "arxiv",
+      "ok": true,
+      "count": 61
+    },
+    {
+      "date": "2026-10-29",
+      "source": "hn-algolia",
+      "adapter": "hn-algolia",
+      "ok": true,
+      "count": 400
+    },
+    {
+      "date": "2026-10-29",
+      "source": "techcrunch-ai",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "date": "2026-10-29",
+      "source": "theverge-ai",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "date": "2026-10-29",
+      "source": "ars-ai",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "date": "2026-10-29",
+      "source": "mit-tr-ai",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "date": "2026-10-29",
+      "source": "reuters-tech",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "bloomberg-tech",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "date": "2026-10-29",
+      "source": "sec-edgar-fts",
+      "adapter": "sec-edgar",
+      "ok": true,
+      "count": 70
+    },
+    {
+      "date": "2026-10-29",
+      "source": "sec-edgar-current-feed",
+      "adapter": "sec-edgar",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "pr-newswire",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "business-wire",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 18
+    },
+    {
+      "date": "2026-10-29",
+      "source": "globenewswire",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "techcrunch-funding",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "axios-pro-rata",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "date": "2026-10-29",
+      "source": "crunchbase-news",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "date": "2026-10-29",
+      "source": "ft-headlines",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "guardian-ai",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "date": "2026-10-29",
+      "source": "nyt-tech",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "date": "2026-10-29",
+      "source": "stooq-weekly",
+      "adapter": "markets",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "reddit-machinelearning",
+      "adapter": "reddit-json",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "reddit-localllama",
+      "adapter": "reddit-json",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "reddit-artificial",
+      "adapter": "reddit-json",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "date": "2026-10-29",
+      "source": "distribute-releases",
+      "adapter": "distribute-software",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "date": "2026-10-29",
+      "source": "distribute-stories",
+      "adapter": "distribute-software",
+      "ok": true,
+      "count": 100
+    },
+    {
       "date": "fixture",
       "source": "fixture-2026-w44",
       "adapter": "fixture",
@@ -379,14 +737,14 @@
     }
   ],
   "item_counts": {
-    "fetched": 1116,
-    "emitted": 24,
+    "fetched": 2130,
+    "emitted": 28,
     "by_page": {
       "models": 6,
-      "performance": 1,
-      "launches": 6,
+      "performance": 4,
+      "launches": 5,
       "funding": 6,
-      "deals": 2,
+      "deals": 4,
       "discourse": 3
     }
   },
@@ -443,49 +801,100 @@
     "data/raw/2026-10-28/techcrunch-funding.json": "sha256:9fc6feed9295df05e8f20a42d1151c904d95074e5528a435b43cf66cf44ff201",
     "data/raw/2026-10-28/theverge-ai.json": "sha256:a20dcb91b56616cff5a16ef2eae1d29bef9ccfcd4ab280abb409b5abef9c4f43",
     "data/raw/2026-10-28/xai-news.json": "sha256:74c797b5e3ebbec8b36a860b40a4af9be4b7812e9bfe1c09c51ed4f80efb6b0f",
+    "data/raw/2026-10-29/amazon-science-blog.json": "sha256:8d9ae24fae08e529a499a3354a33b3871a9548be979b2c85250564f8d460603e",
+    "data/raw/2026-10-29/anthropic-news.json": "sha256:fa6f37463dc7a2bccd3eb00d80cd7b30c191a2429d6e84aa3e0fdcccf5af6f90",
+    "data/raw/2026-10-29/arc-prize-leaderboard.json": "sha256:53937707d718db0db4c68e0033cf0b9c40c77305ccff5eb948e49ca95ce88bbd",
+    "data/raw/2026-10-29/ars-ai.json": "sha256:429e031611c279d8c988ffc190d732fc0587c66e5f604c399ed47fba93309a2d",
+    "data/raw/2026-10-29/artificial-analysis.json": "sha256:40e3c0f4f3a7a04f96913f2c48304c54244b3b209a55e0c4bf8d8c4b2d9670d5",
+    "data/raw/2026-10-29/arxiv-lab-papers.json": "sha256:6a0fb08417ba6683905494b4201bb950c9ae2804b62b168831d43b205b60056d",
+    "data/raw/2026-10-29/axios-pro-rata.json": "sha256:030d682d9d0c44df03bc3e8145663843a09ef9a8313a7fb4147895362ed0133a",
+    "data/raw/2026-10-29/bloomberg-tech.json": "sha256:b02fff961ecbae770d294af881b15f097d38c85e8ff0df0331ddc8ebf8d30151",
+    "data/raw/2026-10-29/business-wire.json": "sha256:78f111fcfde8d145d324b50ef801267842e23fa06d54b550dd9a7406efb7482a",
+    "data/raw/2026-10-29/crunchbase-news.json": "sha256:16b0d4b8144c9032d7d994652988f2cdf73c0cb52e95825cfe5bd7b9714df4e9",
+    "data/raw/2026-10-29/deepseek-news.json": "sha256:64a41edb8d396359340b995e2c6db29dfa1af54bf8125682c3c38a319f2f756c",
+    "data/raw/2026-10-29/distribute-releases.json": "sha256:c2209c1715f7958ed784a5f1b6c50168f315d872c149465adcedc5af24507874",
+    "data/raw/2026-10-29/distribute-stories.json": "sha256:a73f74926b95a1be671e10481a7d8ed83493f0662c3a72b5fd72b5cf187c2442",
+    "data/raw/2026-10-29/epoch-ai-data.json": "sha256:b8f1d0f9e0dd05da5cf3b22847b3be736d8f90dbda38d36a941afcc4a8551518",
+    "data/raw/2026-10-29/ft-headlines.json": "sha256:686d3aea891d8cc1e0d876486e6e60d1f74853ffe9e739b0be169fc956b05ef7",
+    "data/raw/2026-10-29/gh-langchain.json": "sha256:f1911c8be37b7ad07460f606a0a3ca7e92c91a465b058adf4a388afd01f0150d",
+    "data/raw/2026-10-29/gh-llama-cpp.json": "sha256:493510ad528048c73066571a9480f979273d67897f0f27868b2b39b72c4b0e43",
+    "data/raw/2026-10-29/gh-ollama.json": "sha256:ef3463f5d8e6a3dfd8874fb51bb4f487a86911336096b6f727d413df02be5236",
+    "data/raw/2026-10-29/gh-transformers.json": "sha256:4a637fd41e32c92b3e2851cf4bb173f42c1cd1e05b1c58e13be2b11151d8e372",
+    "data/raw/2026-10-29/gh-vllm.json": "sha256:e21bff5fbfb0ebfe36e9864423e27ed42e7ec68d0c9c5a19cc31ea864fad28e1",
+    "data/raw/2026-10-29/globenewswire.json": "sha256:0b767d3f5d647e5c5d21e6432dcc05b608a2aa3a5f77a1f450bf5a80bca11c1a",
+    "data/raw/2026-10-29/google-ai-blog.json": "sha256:b2f644fa3a051df3713581513a60ceab6b8183a80f8205e212590652780d79d4",
+    "data/raw/2026-10-29/google-deepmind-blog.json": "sha256:90b742219616b2b4580713a5ec624e98032c7979ef3a29e40686f7c299f3de4e",
+    "data/raw/2026-10-29/guardian-ai.json": "sha256:391f4c4f98ac343047d0552a2eac9ac75fbafcc9bcdc722868634df0797a265c",
+    "data/raw/2026-10-29/hf-hub-models.json": "sha256:074407aff7cf00a1a9058f6921df86d94d309dac10739d8b7df09bba8e3fc533",
+    "data/raw/2026-10-29/hf-open-llm-leaderboard.json": "sha256:e722880767f988d9be35156bc8d2643ca612972e156d7a6cb626844a52b0f099",
+    "data/raw/2026-10-29/hn-algolia.json": "sha256:02d86728df7ad482a964b2e4195eadc26eaa11335a2c6418e88af634629bd4b9",
+    "data/raw/2026-10-29/huggingface-blog.json": "sha256:ffac0c1da2d1938ef88fdb40de83c0dddd87c9efe7453bd6ffa1b2c7a889bf95",
+    "data/raw/2026-10-29/lmarena-leaderboard.json": "sha256:83b7ebcd36f4b5b558b98a1b57bb69d645b879e15139c4abfd64f9a3b8246d3e",
+    "data/raw/2026-10-29/manifest.json": "sha256:7f62ca37dcfaa7b02aa423d80187d44f5259fd2b570fdf66e90e48cc9f905195",
+    "data/raw/2026-10-29/meta-ai-blog.json": "sha256:3a40c809435276d7a2b9a81a27c5b6da681762304a7d704fd5f3bf22f42d1673",
+    "data/raw/2026-10-29/microsoft-research-blog.json": "sha256:01fa7dc4d5f5a8205b7554baa2327fe3c70e0bbd2ec0b20dbcc6707a53a39d85",
+    "data/raw/2026-10-29/mistral-news.json": "sha256:1d79cfdd554416447d46373a50ad247099353aebc2b4a313d507d7b5ddc9037b",
+    "data/raw/2026-10-29/mit-tr-ai.json": "sha256:a65f3c5f13d5d9c0d598da8da09d9317cda4bf25f5d282059971172f249691e8",
+    "data/raw/2026-10-29/moonshot-news.json": "sha256:f60cdb8aeff64dac6aa645c5f1b654f79586f655fa5f395e254e8bbcba36a8ae",
+    "data/raw/2026-10-29/nyt-tech.json": "sha256:f6b5f960765e58515d7edd8ae2cb507393240dae70f2c42e0652dfe4089626c5",
+    "data/raw/2026-10-29/openai-news.json": "sha256:830230b549e57d6de70384260212610cca4f29d1c06b3fa1fa5b41a811d27633",
+    "data/raw/2026-10-29/pr-newswire.json": "sha256:5235499a232d52033d6d8b1fbfa2f5e20b6ade13c783154ad15e0c34c3a23ce5",
+    "data/raw/2026-10-29/qwen-blog.json": "sha256:07551dbd481d3d7159d256f135a08ee9fe3ec0482387c17e7608393ec4476856",
+    "data/raw/2026-10-29/reddit-artificial.json": "sha256:43715bbe5f8ccd8d9cc989fecba3d599ba0194ac76ad3c1b7bce92fb573a9b33",
+    "data/raw/2026-10-29/reddit-localllama.json": "sha256:32ebe054a7fb595c9a2a0fe0c2c29dfe0a3aa5fda4b3a9803f17c7bcac5a2a4e",
+    "data/raw/2026-10-29/reddit-machinelearning.json": "sha256:65d39c6df27032ef4ee8af3f2dcbdcf5b98374226517c0f76d7892693303785f",
+    "data/raw/2026-10-29/reuters-tech.json": "sha256:67e090bb7f363a44f1202fc0c2b898f30fea9bd824eae4dbf9d089efcca8235a",
+    "data/raw/2026-10-29/sec-edgar-current-feed.json": "sha256:76c37f5fb4ab9fe7b99478f33e20959b21861876ef391378f93cbfe4ac712a31",
+    "data/raw/2026-10-29/sec-edgar-fts.json": "sha256:c5bc7a17cd8c08556f08ade525c0af5024a367b405286d315acadc6905c9b424",
+    "data/raw/2026-10-29/stooq-weekly.json": "sha256:cd439fff7d78093c28eb5e1c1ebe80c1cecec5f3a616a93e43ab271fb86ff9bc",
+    "data/raw/2026-10-29/swe-bench.json": "sha256:e183a4d0929b44be2453e67106c1cff6f74427f506397b0458eccaf277c5ded1",
+    "data/raw/2026-10-29/techcrunch-ai.json": "sha256:c44596577f42994fb6288ef6d168dde7ce14480ad0e52dd5e88465ddc4dcd799",
+    "data/raw/2026-10-29/techcrunch-funding.json": "sha256:1d0de17bc716dfb9bb4c874bb969bafc7cc4b6f9b78097e77ee942fe8f4bf496",
+    "data/raw/2026-10-29/theverge-ai.json": "sha256:54c9a851e632554ca53ccfb9171d5550475aeb7b65bd23dedd642a1aa7758b0c",
+    "data/raw/2026-10-29/xai-news.json": "sha256:7b80733201f699a167be267e22e9e0848fe4efcd89996ad8e7548e946b5214cd",
     "fixtures/2026-w44/edition.json": "sha256:e25fff1bcbf6cc1b8152ca9eecad69237075c1e706f293623ffb8886b62c18d3"
   },
   "back_page": {
-    "sources_total": 40,
+    "sources_total": 44,
     "source_counts": [
-      {
-        "publisher": "Hacker News",
-        "count": 9
-      },
       {
         "publisher": "Exa Markets",
         "count": 8
+      },
+      {
+        "publisher": "Hacker News",
+        "count": 8
+      },
+      {
+        "publisher": "Bloomberg",
+        "count": 5
+      },
+      {
+        "publisher": "The Verge",
+        "count": 5
       },
       {
         "publisher": "Business Wire",
         "count": 4
       },
       {
-        "publisher": "Bloomberg",
-        "count": 2
+        "publisher": "TechCrunch",
+        "count": 4
       },
       {
         "publisher": "Google DeepMind",
         "count": 2
       },
       {
-        "publisher": "TechCrunch",
+        "publisher": "Hugging Face",
         "count": 2
       },
       {
-        "publisher": "The Verge",
+        "publisher": "The Guardian",
         "count": 2
       },
       {
-        "publisher": "AI Atlas",
-        "count": 1
-      },
-      {
-        "publisher": "Anthropic",
-        "count": 1
-      },
-      {
-        "publisher": "Associated Press",
+        "publisher": "Ars Technica",
         "count": 1
       },
       {
@@ -493,31 +902,11 @@
         "count": 1
       },
       {
-        "publisher": "Funding Index",
+        "publisher": "LMArena",
         "count": 1
       },
       {
-        "publisher": "Microsoft AI",
-        "count": 1
-      },
-      {
-        "publisher": "OpenAI",
-        "count": 1
-      },
-      {
-        "publisher": "PR Newswire",
-        "count": 1
-      },
-      {
-        "publisher": "Reuters",
-        "count": 1
-      },
-      {
-        "publisher": "SiliconReport",
-        "count": 1
-      },
-      {
-        "publisher": "Third Run Time",
+        "publisher": "Meta",
         "count": 1
       }
     ]

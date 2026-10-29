@@ -271,3 +271,72 @@ companies:
     name: Tenstorrent
     aliases: []
     domain: tenstorrent.com
+  - slug: furiosaai
+    name: FuriosaAI
+    aliases: []
+    domain: furiosa.ai
+  - slug: wabi
+    name: Wabi
+    aliases: []
+    domain: wabi.ai
+  - slug: solink
+    name: Solink
+    aliases: []
+    domain: solink.com
+  - slug: opentrons
+    name: Opentrons
+    aliases: []
+    domain: opentrons.com
+  - slug: trashlab
+    name: TrashLab
+    aliases: []
+    domain: trashlab.com
+  - slug: iren
+    name: IREN
+    aliases: ["Iris Energy"]
+    domain: iren.com
+    ticker: IREN
+  - slug: marvell
+    name: Marvell Technology
+    aliases: ["Marvell"]
+    domain: marvell.com
+    ticker: MRVL
+  - slug: lumentum
+    name: Lumentum Holdings
+    aliases: ["Lumentum"]
+    domain: lumentum.com
+    ticker: LITE
+  - slug: deepgram
+    name: Deepgram
+    aliases: []
+    domain: deepgram.com
+  - slug: daily
+    name: Daily
+    aliases: ["Pipecat"]
+    domain: daily.co
+  - slug: xsolla
+    name: Xsolla
+    aliases: []
+    domain: xsolla.com
+  - slug: tpg
+    name: TPG
+    aliases: []
+    domain: tpg.com
+    ticker: TPG
+  - slug: mozilla
+    name: Mozilla
+    aliases: ["Firefox"]
+    domain: mozilla.org
+  - slug: opera
+    name: Opera
+    aliases: []
+    domain: opera.com
+  - slug: servicenow
+    name: ServiceNow
+    aliases: []
+    domain: servicenow.com
+    ticker: NOW
+  - slug: disruptive
+    name: Disruptive
+    aliases: []
+    domain: disruptive.com

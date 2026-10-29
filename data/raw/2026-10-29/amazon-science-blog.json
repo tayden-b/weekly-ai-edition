@@ -1,0 +1,19 @@
+{
+  "adapter": "lab-blogs",
+  "source": "amazon-science-blog",
+  "fetched_at": "2026-10-29T13:43:56.458Z",
+  "items": [
+    {
+      "headline": "Better speech synthesis for audiobooks",
+      "canonical_url": "https://www.amazon.science/blog/better-speech-synthesis-for-audiobooks",
+      "publisher": "Amazon Science",
+      "published_at": "2026-10-23T00:00:00.000Z",
+      "fetched_at": "2026-10-29T13:43:56.488Z",
+      "excerpt": "“Controllable text to speech” makes speech more expressive, character voices more distinct and consistent.",
+      "source_ids": {
+        "guid": "https://www.amazon.science/blog/better-speech-synthesis-for-audiobooks"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
