@@ -10,7 +10,7 @@ import {
   Deck,
   DeckCard,
   ItemList,
-  LineChart,
+  MarketsChart,
   MonoTable,
   ProgressSegments,
   TrendArrow,
@@ -22,10 +22,10 @@ import {
   buildDeck,
   editionMeta,
   mapItem,
-  shortDate,
   type DeckCardModel,
   type SectionItem,
 } from "../../lib/deck";
+import { marketsView } from "../../lib/markets";
 
 /* DESIGN §1.4 — page transitions: 240ms cubic-bezier(0.2,0,0,1), translate only. */
 const PAGE_MS = 240;
@@ -225,20 +225,14 @@ export function DeckView({
           </div>
         );
       case "markets": {
-        const publishers = [
-          ...new Set(page.sources.map((s) => s.publisher)),
-        ].join(" · ");
+        const mv = marketsView(page);
         return (
           <div className="dv-markets">
-            <LineChart
-              series={[
-                {
-                  label: page.chart.title,
-                  points: page.chart.series.map((p) => p.value),
-                  xLabels: page.chart.series.map((p) => shortDate(p.date)),
-                },
-              ]}
-              ariaLabel={`${page.chart.title} (${page.chart.unit})`}
+            <MarketsChart
+              data={mv.data}
+              index={mv.index}
+              missing={mv.missing}
+              ariaLabel="Weekly change by ticker"
             />
             <MonoTable
               columns={[
@@ -246,12 +240,18 @@ export function DeckView({
                 { key: "c", label: "Close", align: "right" },
                 { key: "d", label: "Δ week", align: "right" },
               ]}
-              rows={page.tickers.map((t) => [
+              rows={mv.tickers.map((t) => [
                 t.ticker,
-                t.close.toFixed(2),
-                <TrendDelta key={t.ticker} delta={t.change_pct} />,
+                t.na ? <span className="w-na">n/a</span> : t.close,
+                t.na ? (
+                  <span key={t.ticker} className="w-na">
+                    n/a
+                  </span>
+                ) : (
+                  <TrendDelta key={t.ticker} delta={t.delta} />
+                ),
               ])}
-              caption={`Data: ${publishers}`}
+              caption={mv.caption}
             />
           </div>
         );

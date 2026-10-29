@@ -12,6 +12,7 @@ import {
   IssueMeta,
   Kicker,
   LineChart,
+  MarketsChart,
   Masthead,
   MonoTable,
   OgCard,
@@ -301,7 +302,29 @@ export default async function KitchenSink({
             </div>
           </div>
 
-          <p className="ks-label">LineChart — AI basket weekly close</p>
+          <p className="ks-label">MarketsChart — weekly Δ per ticker (delta form)</p>
+          <MarketsChart
+            data={markets?.markets?.data ?? []}
+            {...(markets?.markets?.index
+              ? { index: markets.markets.index }
+              : {})}
+            {...(markets?.markets?.missing?.length
+              ? { missing: markets.markets.missing }
+              : {})}
+          />
+
+          <p className="ks-label">MarketsChart — line form (≥5 closes per ticker)</p>
+          <MarketsChart
+            data={(markets?.markets?.data ?? []).map((d) => ({
+              ...d,
+              points: Array.from({ length: 6 }, (_, i) => ({
+                date: `2026-10-${19 + i}`,
+                value: 100 * (1 + ((d.deltaPct ?? 0) / 100) * (i / 5)),
+              })),
+            }))}
+          />
+
+          <p className="ks-label">LineChart — raw basket index</p>
           <LineChart series={markets?.chart?.series ?? []} />
 
           <p className="ks-label">AgentAccess</p>
@@ -389,13 +412,7 @@ export default async function KitchenSink({
         }}
         briefing={briefing?.sentences ?? []}
         sections={sections}
-        markets={{
-          series: markets?.chart?.series ?? [],
-          tickers: markets?.tickers ?? [],
-          ...(markets?.chart?.caption
-            ? { caption: markets.chart.caption }
-            : {}),
-        }}
+        markets={markets?.markets ?? { data: [], tickers: [] }}
         mostCovered={mostCovered?.rows ?? []}
         backPage={{
           sources: backPage?.sources ?? [],

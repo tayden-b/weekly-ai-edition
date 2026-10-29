@@ -44,7 +44,6 @@ export function LineChart({
         viewBox={`0 0 ${width} ${height}`}
         role="img"
         aria-label={ariaLabel}
-        preserveAspectRatio="none"
       >
         {Array.from({ length: yTicks }, (_, i) => {
           const v = min + (span * i) / (yTicks - 1);

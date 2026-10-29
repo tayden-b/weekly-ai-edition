@@ -136,6 +136,55 @@ describe("dedupe — SimHash", () => {
   });
 });
 
+describe("dedupe — ticker guard", () => {
+  // Per-ticker market series headlines differ only in the ticker chars
+  // ("AMD weekly closing series" vs "ARM weekly closing series") — SimHash
+  // distance is inside the threshold, but different tickers are different
+  // data feeds, never the same story.
+  const series = (ticker: string) =>
+    mkItem({
+      adapter: "markets",
+      canonical_url: `https://exa.ai/library/markets/stock/${ticker}?date=2026-10-27&from=2026-10-19&view=series`,
+      headline: `${ticker} weekly closing series`,
+      title_key: `${ticker.toLowerCase()} weekly closing series`,
+      source_ids: { fixture: "2026-w44", ticker },
+    });
+
+  it("never merges series items of different tickers", () => {
+    expect(
+      hammingDistance(
+        simhash(series("AMD").title_key),
+        simhash(series("ARM").title_key),
+      ),
+    ).toBeLessThanOrEqual(DEFAULT_SIMHASH_THRESHOLD);
+    const clusters = dedupe([
+      series("AMD"),
+      series("ARM"),
+      series("NVDA"),
+      series("META"),
+    ]);
+    expect(clusters).toHaveLength(4);
+    expect(clusters.map((c) => c.items[0]!.source_ids!["ticker"]).sort()).toEqual([
+      "AMD",
+      "ARM",
+      "META",
+      "NVDA",
+    ]);
+  });
+
+  it("still merges items that share one ticker", () => {
+    const a = series("NVDA");
+    const b = mkItem({
+      adapter: "markets",
+      canonical_url: "https://example.com/nvda-weekly",
+      headline: "NVDA weekly closing series",
+      title_key: "nvda weekly closing series",
+      source_ids: { ticker: "NVDA" },
+    });
+    expect(dedupe([a, b])).toHaveLength(1);
+  });
+});
+
 describe("dedupe — determinism", () => {
   it("input order does not change the partition", () => {
     const forward = dedupe(items);

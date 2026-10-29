@@ -395,35 +395,6 @@
       ]
     },
     {
-      "id": "https://exa.ai/library/markets/stock/AMD?date=2026-10-27&from=2026-10-19&view=series",
-      "fields": [
-        {
-          "field": "ticker",
-          "value": "AMD",
-          "source_index": 0,
-          "quote": "US:AMD"
-        },
-        {
-          "field": "close",
-          "value": "560.26",
-          "source_index": 0,
-          "quote": "2026-10-27 USD 560.26"
-        },
-        {
-          "field": "ticker",
-          "value": "ARM",
-          "source_index": 1,
-          "quote": "US:ARM"
-        },
-        {
-          "field": "close",
-          "value": "226.60",
-          "source_index": 1,
-          "quote": "2026-10-27 USD 226.60"
-        }
-      ]
-    },
-    {
       "id": "https://exa.ai/library/markets/stock/AMZN?date=2026-10-27&from=2026-10-19&view=series",
       "fields": [
         {
@@ -458,35 +429,6 @@
       ]
     },
     {
-      "id": "https://exa.ai/library/markets/stock/META?date=2026-10-27&from=2026-10-19&view=series",
-      "fields": [
-        {
-          "field": "ticker",
-          "value": "META",
-          "source_index": 0,
-          "quote": "US:META"
-        },
-        {
-          "field": "close",
-          "value": "620.19",
-          "source_index": 0,
-          "quote": "2026-10-27 USD 620.19"
-        },
-        {
-          "field": "ticker",
-          "value": "NVDA",
-          "source_index": 1,
-          "quote": "US:NVDA"
-        },
-        {
-          "field": "close",
-          "value": "217.94",
-          "source_index": 1,
-          "quote": "2026-10-27 USD 217.94"
-        }
-      ]
-    },
-    {
       "id": "https://exa.ai/library/markets/stock/MSFT?date=2026-10-27&from=2026-10-19&view=series",
       "fields": [
         {
@@ -517,6 +459,74 @@
           "value": "436.87",
           "source_index": 0,
           "quote": "2026-10-27 USD 436.87"
+        }
+      ]
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/AMD?date=2026-10-27&from=2026-10-19&view=series",
+      "fields": [
+        {
+          "field": "ticker",
+          "value": "AMD",
+          "source_index": 0,
+          "quote": "US:AMD"
+        },
+        {
+          "field": "close",
+          "value": "USD",
+          "source_index": 0,
+          "quote": "2026-10-27 USD 560.26."
+        }
+      ]
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/ARM?date=2026-10-27&from=2026-10-19&view=series",
+      "fields": [
+        {
+          "field": "ticker",
+          "value": "ARM",
+          "source_index": 0,
+          "quote": "US:ARM"
+        },
+        {
+          "field": "close",
+          "value": "USD",
+          "source_index": 0,
+          "quote": "2026-10-27 USD 226.60."
+        }
+      ]
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/META?date=2026-10-27&from=2026-10-19&view=series",
+      "fields": [
+        {
+          "field": "ticker",
+          "value": "META",
+          "source_index": 0,
+          "quote": "US:META"
+        },
+        {
+          "field": "close",
+          "value": "USD",
+          "source_index": 0,
+          "quote": "2026-10-27 USD 620.19."
+        }
+      ]
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/NVDA?date=2026-10-27&from=2026-10-19&view=series",
+      "fields": [
+        {
+          "field": "ticker",
+          "value": "NVDA",
+          "source_index": 0,
+          "quote": "US:NVDA"
+        },
+        {
+          "field": "close",
+          "value": "USD",
+          "source_index": 0,
+          "quote": "2026-10-27 USD 217.94."
         }
       ]
     }

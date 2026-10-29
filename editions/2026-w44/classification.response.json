@@ -5356,6 +5356,20 @@
       "confidence": 0.8,
       "company_slugs": [],
       "rationale": "fixture-pool record"
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/NVDA?date=2026-10-27&from=2026-10-19&view=series",
+      "page": "markets",
+      "confidence": 0.9,
+      "company_slugs": [],
+      "rationale": "weekly close series for basket ticker"
+    },
+    {
+      "id": "https://exa.ai/library/markets/stock/ARM?date=2026-10-27&from=2026-10-19&view=series",
+      "page": "markets",
+      "confidence": 0.9,
+      "company_slugs": [],
+      "rationale": "weekly close series for basket ticker"
     }
   ]
 }

@@ -406,6 +406,81 @@
   fill: var(--ink-2);
 }
 
+/* ---------- MarketsChart ---------- */
+
+.w-mchart__zero {
+  stroke: var(--ink);
+  stroke-width: 1;
+}
+.w-mchart__bar--up {
+  fill: var(--up);
+}
+.w-mchart__bar--down {
+  fill: var(--down);
+}
+.w-mchart__series {
+  stroke: var(--ink-3);
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+}
+.w-mchart__series--top {
+  stroke: var(--ink);
+}
+.w-mchart__dot {
+  fill: var(--ink-3);
+}
+.w-mchart__dot--top {
+  fill: var(--ink);
+}
+.w-mchart__ticker {
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+  fill: var(--ink);
+}
+.w-mchart__value,
+.w-mchart__end {
+  font-family: var(--font-mono);
+  font-size: var(--t-xs);
+  fill: var(--ink-2);
+}
+.w-mchart__na {
+  font-family: var(--font-mono);
+  font-size: var(--t-xs);
+  fill: var(--ink-2);
+}
+
+/* "n/a" cell in the markets table. */
+.w-na {
+  font-family: var(--font-mono);
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+}
+
+/* Narrow viewports: the 720-unit viewBox scales down (~0.44× at 390px), so
+ * token sizes render well under their nominal px. Step the SVG text up in
+ * viewBox units to keep effective size ≥ ~8px; ≥901px uses tokens verbatim. */
+@media (max-width: 500px) {
+  .w-mchart__ticker { font-size: 21px; }
+  .w-mchart__value,
+  .w-mchart__end,
+  .w-mchart__na,
+  .w-mchart .w-chart__tick,
+  .w-mchart .w-chart__xlabel {
+    /* 18u fits the right-margin room: longest "+X.XX%" ends ≤ 720. */
+    font-size: 18px;
+  }
+}
+@media (min-width: 501px) and (max-width: 900px) {
+  .w-mchart__ticker { font-size: 15px; }
+  .w-mchart__value,
+  .w-mchart__end,
+  .w-mchart__na,
+  .w-mchart .w-chart__tick,
+  .w-mchart .w-chart__xlabel {
+    font-size: 13.5px;
+  }
+}
+
 /* ---------- AgentAccess ---------- */
 
 .w-agent-access__heading {

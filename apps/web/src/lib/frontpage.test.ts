@@ -37,17 +37,29 @@ describe("assembleFrontPage (DESIGN §2.2)", () => {
     expect(view.briefing.length).toBeLessThanOrEqual(7);
   });
 
-  it("maps markets chart + tickers with a data-source caption", () => {
-    expect(view.markets?.series[0]?.points).toEqual([100, 101.5, 103]);
-    expect(view.markets?.series[0]?.xLabels).toEqual([
+  it("maps markets data, index fallback, n/a rows, and a data-source caption", () => {
+    expect(view.markets?.index?.points).toEqual([100, 101.5, 103]);
+    expect(view.markets?.index?.xLabels).toEqual([
       "Oct 23",
       "Oct 26",
       "Oct 27",
     ]);
+    // Per-ticker series recovered from the source excerpts.
+    const nvda = view.markets?.data.find((d) => d.ticker === "NVDA");
+    expect(nvda?.deltaPct).toBe(3.31);
+    expect(nvda?.points?.length).toBeGreaterThanOrEqual(3);
+    // Configured basket tickers with no data render explicit n/a rows.
+    expect(view.markets?.missing).toEqual(["AVGO", "PLTR"]);
     expect(view.markets?.tickers[0]).toEqual({
       ticker: "NVDA",
       close: 217.94,
       delta: 3.31,
+    });
+    expect(view.markets?.tickers.at(-1)).toEqual({
+      ticker: "PLTR",
+      close: "n/a",
+      delta: 0,
+      na: true,
     });
     expect(view.markets?.caption).toBe("Data: Exa Markets · CBC Globe");
   });

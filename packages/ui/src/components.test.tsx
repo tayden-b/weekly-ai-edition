@@ -12,6 +12,7 @@ import {
   IssueMeta,
   Kicker,
   LineChart,
+  MarketsChart,
   Masthead,
   MonoTable,
   OgCard,
@@ -126,8 +127,23 @@ describe("§4 primitives render", () => {
         briefing={["Lead sentence.", "Second sentence."]}
         sections={[{ id: "models", title: "Models", items: [item] }]}
         markets={{
-          series: [{ label: "basket", points: [1, 2, 3] }],
-          tickers: [{ ticker: "NVDA", close: 100, delta: 1.5 }],
+          data: [
+            {
+              ticker: "NVDA",
+              deltaPct: 1.5,
+              points: [
+                { date: "2026-10-23", value: 100 },
+                { date: "2026-10-26", value: 101 },
+                { date: "2026-10-27", value: 101.5 },
+              ],
+            },
+          ],
+          missing: ["PLTR"],
+          index: { label: "basket", points: [1, 2, 3] },
+          tickers: [
+            { ticker: "NVDA", close: 100, delta: 1.5 },
+            { ticker: "PLTR", close: "n/a", delta: 0, na: true },
+          ],
         }}
         mostCovered={[{ rank: 1, name: "OpenAI", stories: 6, trend: "up" }]}
         backPage={{
@@ -180,12 +196,75 @@ describe("§4 primitives render", () => {
     expect(html(<CoverImage src="/x.png" alt="a" />)).toContain("<img");
   });
 
-  it("LineChart renders an SVG polyline", () => {
+  it("LineChart renders an SVG polyline with a true aspect box", () => {
     const out = html(
       <LineChart series={[{ label: "b", points: [1, 2, 3], xLabels: ["a", "b", "c"] }]} />,
     );
     expect(out).toContain("<svg");
     expect(out).toContain("<polyline");
+    expect(out).not.toContain('preserveAspectRatio="none"');
+  });
+
+  it("MarketsChart delta form: sorted %Δ bars, mono labels, n/a rows", () => {
+    const out = html(
+      <MarketsChart
+        data={[
+          { ticker: "NVDA", deltaPct: 3.3 },
+          { ticker: "AMD", deltaPct: 8.4 },
+          { ticker: "META", deltaPct: -1.2 },
+        ]}
+        missing={["PLTR", "AVGO"]}
+      />,
+    );
+    expect(out).toContain("<svg");
+    expect(out).toContain("w-mchart__bar");
+    expect(out).not.toContain("<polyline");
+    expect(out).not.toContain('preserveAspectRatio="none"');
+    // Sorted descending: AMD first, NVDA second, META (negative) last.
+    expect(out.indexOf(">AMD<")).toBeLessThan(out.indexOf(">NVDA<"));
+    expect(out.indexOf(">NVDA<")).toBeLessThan(out.indexOf(">META<"));
+    // % labels and the two n/a rows are present.
+    expect(out).toContain("+8.4%");
+    expect(out).toContain("-1.2%");
+    expect(out.match(/>n\/a</g)).toHaveLength(2);
+    // n/a rows follow the data rows.
+    expect(out.indexOf(">PLTR<")).toBeGreaterThan(out.indexOf("-1.2%"));
+  });
+
+  it("MarketsChart line form: one %Δ line per ticker at ≥5 closes, end labels", () => {
+    const pts = (base: number) =>
+      [0, 1, 2, 3, 4].map((i) => ({
+        date: `2026-10-${23 + i}`,
+        value: base * (1 + i / 10),
+      }));
+    const out = html(
+      <MarketsChart
+        data={[
+          { ticker: "NVDA", points: pts(100) },
+          { ticker: "AMD", points: pts(50) },
+        ]}
+      />,
+    );
+    expect(out.match(/w-mchart__series/g)?.length).toBeGreaterThanOrEqual(2);
+    expect(out).toContain("w-mchart__dot");
+    // End-of-line labels, not a legend.
+    expect(out.match(/w-mchart__end/g)?.length).toBe(2);
+    // Y-axis is %Δ, and the zero line is drawn.
+    expect(out).toContain("+50%");
+    expect(out).toContain("w-mchart__zero");
+    expect(out).not.toContain("w-mchart__bar");
+    expect(out).not.toContain('preserveAspectRatio="none"');
+  });
+
+  it("MarketsChart index fallback: the emitted index draws a line at ≥5 points", () => {
+    const out = html(
+      <MarketsChart
+        data={[{ ticker: "NVDA", deltaPct: 3.3 }]}
+        index={{ label: "basket", points: [100, 101, 102, 103, 104] }}
+      />,
+    );
+    expect(out).toContain("w-mchart__series");
+    expect(out).toContain(">basket<");
   });
 
   it("AgentAccess links the twins", () => {
