@@ -8,7 +8,7 @@
         "launches-0",
         "launches-1"
       ],
-      "reason": "launches-0 covers Claude Duet (triage agent); launches-1 covers 1Password for Agents signing in without seeing passwords."
+      "reason": "launches-0 covers Claude Duet surfacing what needs attention; launches-1 covers 1Password for Agents signing users in without seeing passwords."
     },
     {
       "sentence_index": 1,

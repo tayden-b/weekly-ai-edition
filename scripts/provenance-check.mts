@@ -28,6 +28,7 @@ import { join, relative } from "node:path";
 import {
   assertVerifyResponse,
   briefingSentences,
+  checkBriefingAttribution,
   checkProvenance,
   loadCompaniesConfig,
   sha256File,
@@ -35,6 +36,7 @@ import {
   verifyDeterministic,
   verifyItemsFromEdition,
   VerifyContractError,
+  type VerifyIssue,
   type VerifyRequest,
 } from "@weekly/pipeline";
 
@@ -177,6 +179,14 @@ for (const target of targets()) {
           errors.push(
             `verify.request.json items do not match the edition's item projection`,
           );
+        }
+        // The recorded request must itself satisfy the mechanical half of
+        // check 5 — an empty/ghost `supports` map cannot be laundered through
+        // an all-supported response.
+        const attributionIssues: VerifyIssue[] = [];
+        checkBriefingAttribution(request, attributionIssues);
+        for (const issue of attributionIssues) {
+          errors.push(`[briefing] ${issue.path} — ${issue.message}`);
         }
       } catch (err) {
         errors.push(
