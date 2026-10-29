@@ -449,12 +449,12 @@ Rules of judgement:
       {
         "source_index": 1,
         "publisher": "Exa Markets",
-        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
       },
       {
         "source_index": 2,
         "publisher": "Exa Markets",
-        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
       },
       {
         "source_index": 3,
@@ -469,12 +469,12 @@ Rules of judgement:
       {
         "source_index": 5,
         "publisher": "Exa Markets",
-        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
       },
       {
         "source_index": 6,
         "publisher": "Exa Markets",
-        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
       },
       {
         "source_index": 7,
@@ -497,12 +497,12 @@ Rules of judgement:
       {
         "source_index": 1,
         "publisher": "Exa Markets",
-        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
       },
       {
         "source_index": 2,
         "publisher": "Exa Markets",
-        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
       },
       {
         "source_index": 3,
@@ -517,12 +517,12 @@ Rules of judgement:
       {
         "source_index": 5,
         "publisher": "Exa Markets",
-        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
       },
       {
         "source_index": 6,
         "publisher": "Exa Markets",
-        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
       },
       {
         "source_index": 7,
@@ -533,6 +533,54 @@ Rules of judgement:
   },
   {
     "id": "markets-2",
+    "page": "markets",
+    "headline": "ARM (Arm) 226.6 7.74%",
+    "one_liner": "",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "Exa Markets",
+        "excerpt": "US:AMD — raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+      },
+      {
+        "source_index": 1,
+        "publisher": "Exa Markets",
+        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+      },
+      {
+        "source_index": 2,
+        "publisher": "Exa Markets",
+        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+      },
+      {
+        "source_index": 3,
+        "publisher": "Exa Markets",
+        "excerpt": "US:GOOGL — raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+      },
+      {
+        "source_index": 4,
+        "publisher": "Exa Markets",
+        "excerpt": "US:META — raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+      },
+      {
+        "source_index": 5,
+        "publisher": "Exa Markets",
+        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+      },
+      {
+        "source_index": 6,
+        "publisher": "Exa Markets",
+        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+      },
+      {
+        "source_index": 7,
+        "publisher": "Exa Markets",
+        "excerpt": "US:TSM — raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+      }
+    ]
+  },
+  {
+    "id": "markets-3",
     "page": "markets",
     "headline": "GOOGL (Alphabet) 320.58 0.12%",
     "one_liner": "",
@@ -545,12 +593,12 @@ Rules of judgement:
       {
         "source_index": 1,
         "publisher": "Exa Markets",
-        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
       },
       {
         "source_index": 2,
         "publisher": "Exa Markets",
-        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
       },
       {
         "source_index": 3,
@@ -565,12 +613,12 @@ Rules of judgement:
       {
         "source_index": 5,
         "publisher": "Exa Markets",
-        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
       },
       {
         "source_index": 6,
         "publisher": "Exa Markets",
-        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
       },
       {
         "source_index": 7,
@@ -580,7 +628,7 @@ Rules of judgement:
     ]
   },
   {
-    "id": "markets-3",
+    "id": "markets-4",
     "page": "markets",
     "headline": "META (Meta) 620.19 -3.49%",
     "one_liner": "",
@@ -593,12 +641,12 @@ Rules of judgement:
       {
         "source_index": 1,
         "publisher": "Exa Markets",
-        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
       },
       {
         "source_index": 2,
         "publisher": "Exa Markets",
-        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
       },
       {
         "source_index": 3,
@@ -613,12 +661,12 @@ Rules of judgement:
       {
         "source_index": 5,
         "publisher": "Exa Markets",
-        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
       },
       {
         "source_index": 6,
         "publisher": "Exa Markets",
-        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
       },
       {
         "source_index": 7,
@@ -628,7 +676,7 @@ Rules of judgement:
     ]
   },
   {
-    "id": "markets-4",
+    "id": "markets-5",
     "page": "markets",
     "headline": "MSFT (Microsoft) 531.33 1.3%",
     "one_liner": "",
@@ -641,12 +689,12 @@ Rules of judgement:
       {
         "source_index": 1,
         "publisher": "Exa Markets",
-        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
       },
       {
         "source_index": 2,
         "publisher": "Exa Markets",
-        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
       },
       {
         "source_index": 3,
@@ -661,12 +709,12 @@ Rules of judgement:
       {
         "source_index": 5,
         "publisher": "Exa Markets",
-        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
       },
       {
         "source_index": 6,
         "publisher": "Exa Markets",
-        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
       },
       {
         "source_index": 7,
@@ -676,7 +724,55 @@ Rules of judgement:
     ]
   },
   {
-    "id": "markets-5",
+    "id": "markets-6",
+    "page": "markets",
+    "headline": "NVDA (NVIDIA) 217.94 3.31%",
+    "one_liner": "",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "Exa Markets",
+        "excerpt": "US:AMD — raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
+      },
+      {
+        "source_index": 1,
+        "publisher": "Exa Markets",
+        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+      },
+      {
+        "source_index": 2,
+        "publisher": "Exa Markets",
+        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+      },
+      {
+        "source_index": 3,
+        "publisher": "Exa Markets",
+        "excerpt": "US:GOOGL — raw closing price series. 2026-10-23 USD 320.21. 2026-10-26 USD 316.80. 2026-10-27 USD 320.58."
+      },
+      {
+        "source_index": 4,
+        "publisher": "Exa Markets",
+        "excerpt": "US:META — raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
+      },
+      {
+        "source_index": 5,
+        "publisher": "Exa Markets",
+        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+      },
+      {
+        "source_index": 6,
+        "publisher": "Exa Markets",
+        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+      },
+      {
+        "source_index": 7,
+        "publisher": "Exa Markets",
+        "excerpt": "US:TSM — raw closing price series. 2026-10-23 USD 418.51. 2026-10-26 USD 424.37. 2026-10-27 USD 436.87."
+      }
+    ]
+  },
+  {
+    "id": "markets-7",
     "page": "markets",
     "headline": "TSM (TSMC) 436.87 4.39%",
     "one_liner": "",
@@ -689,12 +785,12 @@ Rules of judgement:
       {
         "source_index": 1,
         "publisher": "Exa Markets",
-        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
+        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
       },
       {
         "source_index": 2,
         "publisher": "Exa Markets",
-        "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
       },
       {
         "source_index": 3,
@@ -709,12 +805,12 @@ Rules of judgement:
       {
         "source_index": 5,
         "publisher": "Exa Markets",
-        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
+        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
       },
       {
         "source_index": 6,
         "publisher": "Exa Markets",
-        "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
       },
       {
         "source_index": 7,

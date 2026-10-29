@@ -26,6 +26,7 @@ import type {
 } from "@weekly/ui";
 
 import { dateRangeLabel } from "./fixture";
+import { marketsView } from "./markets";
 import { site } from "./site";
 
 /** Sticky-bar + j/k jump targets, in page order (§2.2). */
@@ -186,23 +187,19 @@ export function assembleFrontPage(ed: Edition): FrontPageView {
     navSections: NAV_SECTIONS,
   };
 
-  const publishers = [
-    ...new Set(markets.sources.map((s) => s.publisher)),
-  ].join(" · ");
+  const mv = marketsView(markets);
   view.markets = {
-    series: [
-      {
-        label: markets.chart.title,
-        points: markets.chart.series.map((p) => p.value),
-        xLabels: markets.chart.series.map((p) => shortDate(p.date)),
-      },
-    ],
-    tickers: markets.tickers.map((t) => ({
-      ticker: t.ticker,
-      close: t.close,
-      delta: t.change_pct,
-    })),
-    caption: `Data: ${publishers}`,
+    data: mv.data,
+    missing: mv.missing,
+    index: {
+      label: mv.index.label,
+      points: mv.index.points,
+      ...(mv.index.xLabels
+        ? { xLabels: mv.index.xLabels.map(shortDate) }
+        : {}),
+    },
+    tickers: mv.tickers,
+    caption: mv.caption,
   };
 
   return view;

@@ -4015,6 +4015,18 @@ Temperature 0; output is only this JSON object.
     ]
   },
   {
+    "id": "https://exa.ai/library/markets/stock/ARM?date=2026-10-27&from=2026-10-19&view=series",
+    "headline": "ARM weekly closing series",
+    "publisher": "Exa Markets",
+    "canonical_url": "https://exa.ai/library/markets/stock/ARM?date=2026-10-27&from=2026-10-19&view=series",
+    "published_at": "2026-10-27T12:00:00.000Z",
+    "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60.",
+    "source_count": 1,
+    "publishers": [
+      "Exa Markets"
+    ]
+  },
+  {
     "id": "https://exa.ai/library/markets/stock/GOOGL?date=2026-10-27&from=2026-10-19&view=series",
     "headline": "GOOGL weekly closing series",
     "publisher": "Exa Markets",
@@ -4045,6 +4057,18 @@ Temperature 0; output is only this JSON object.
     "canonical_url": "https://exa.ai/library/markets/stock/MSFT?date=2026-10-27&from=2026-10-19&view=series",
     "published_at": "2026-10-27T12:00:00.000Z",
     "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33.",
+    "source_count": 1,
+    "publishers": [
+      "Exa Markets"
+    ]
+  },
+  {
+    "id": "https://exa.ai/library/markets/stock/NVDA?date=2026-10-27&from=2026-10-19&view=series",
+    "headline": "NVDA weekly closing series",
+    "publisher": "Exa Markets",
+    "canonical_url": "https://exa.ai/library/markets/stock/NVDA?date=2026-10-27&from=2026-10-19&view=series",
+    "published_at": "2026-10-27T12:00:00.000Z",
+    "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94.",
     "source_count": 1,
     "publishers": [
       "Exa Markets"

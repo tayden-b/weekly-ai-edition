@@ -255,7 +255,13 @@ function fixtureToRawItems(edition: Record<string, unknown>): AdapterRawItem[] {
       for (const s of (raw["sources"] ?? []) as Array<Record<string, unknown>>) {
         const excerpt = typeof s["excerpt"] === "string" ? s["excerpt"] : "";
         const ticker = /^[A-Z]{2}:([A-Z.]+)/.exec(excerpt)?.[1];
-        itemsForPage.push({ headline: `${ticker ?? "Markets"} weekly closing series`, source: s });
+        // Stamp `source_ids.ticker` like the real markets adapter — dedupe
+        // must never merge different tickers' series items.
+        itemsForPage.push({
+          headline: `${ticker ?? "Markets"} weekly closing series`,
+          source: s,
+          ...(ticker ? { ticker } : {}),
+        });
       }
     } else {
       for (const it of (raw["items"] ?? []) as Array<Record<string, unknown>>) {
@@ -265,7 +271,7 @@ function fixtureToRawItems(edition: Record<string, unknown>): AdapterRawItem[] {
         }
       }
     }
-    for (const { headline, source } of itemsForPage) {
+    for (const { headline, source, ticker } of itemsForPage) {
       const s = source as Record<string, unknown>;
       out.push({
         adapter: typeof s["adapter"] === "string" ? s["adapter"] : "fixture",
@@ -279,6 +285,7 @@ function fixtureToRawItems(edition: Record<string, unknown>): AdapterRawItem[] {
           ...(typeof s["source_ids"] === "object" && s["source_ids"] !== null
             ? (s["source_ids"] as Record<string, string>)
             : {}),
+          ...(typeof ticker === "string" ? { ticker } : {}),
           [FIXTURE_SOURCE_ID_KEY]: weekId,
           ...(typeof page === "string" ? { fixture_page: page } : {}),
         },

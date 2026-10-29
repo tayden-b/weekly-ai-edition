@@ -750,11 +750,6 @@ object.
         "source_index": 0,
         "publisher": "Exa Markets",
         "excerpt": "US:AMD — raw closing price series. 2026-10-23 USD 516.79. 2026-10-26 USD 531.28. 2026-10-27 USD 560.26."
-      },
-      {
-        "source_index": 1,
-        "publisher": "Exa Markets",
-        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
       }
     ],
     "extracted": {},
@@ -776,6 +771,27 @@ object.
         "source_index": 0,
         "publisher": "Exa Markets",
         "excerpt": "US:AMZN — raw closing price series. 2026-10-23 USD 248.00. 2026-10-26 USD 249.09. 2026-10-27 USD 253.10."
+      }
+    ],
+    "extracted": {},
+    "missing_fields": [
+      "ticker",
+      "close",
+      "change_pct",
+      "metric_name",
+      "metric_value"
+    ]
+  },
+  {
+    "id": "https://exa.ai/library/markets/stock/ARM?date=2026-10-27&from=2026-10-19&view=series",
+    "page": "markets",
+    "headline": "ARM weekly closing series",
+    "publisher": "Exa Markets",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "Exa Markets",
+        "excerpt": "US:ARM — raw closing price series. 2026-10-23 USD 210.33. 2026-10-26 USD 223.35. 2026-10-27 USD 226.60."
       }
     ],
     "extracted": {},
@@ -818,11 +834,6 @@ object.
         "source_index": 0,
         "publisher": "Exa Markets",
         "excerpt": "US:META — raw closing price series. 2026-10-23 USD 642.62. 2026-10-26 USD 630.56. 2026-10-27 USD 620.19."
-      },
-      {
-        "source_index": 1,
-        "publisher": "Exa Markets",
-        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
       }
     ],
     "extracted": {},
@@ -844,6 +855,27 @@ object.
         "source_index": 0,
         "publisher": "Exa Markets",
         "excerpt": "US:MSFT — raw closing price series. 2026-10-23 USD 524.51. 2026-10-26 USD 532.60. 2026-10-27 USD 531.33."
+      }
+    ],
+    "extracted": {},
+    "missing_fields": [
+      "ticker",
+      "close",
+      "change_pct",
+      "metric_name",
+      "metric_value"
+    ]
+  },
+  {
+    "id": "https://exa.ai/library/markets/stock/NVDA?date=2026-10-27&from=2026-10-19&view=series",
+    "page": "markets",
+    "headline": "NVDA weekly closing series",
+    "publisher": "Exa Markets",
+    "sources": [
+      {
+        "source_index": 0,
+        "publisher": "Exa Markets",
+        "excerpt": "US:NVDA — raw closing price series. 2026-10-23 USD 210.96. 2026-10-26 USD 216.00. 2026-10-27 USD 217.94."
       }
     ],
     "extracted": {},

@@ -27,6 +27,8 @@ export {
   type IssueMetaView,
   type TickerView,
   type ChartSeriesView,
+  type MarketSeriesPoint,
+  type MarketTickerDatum,
   type CoveredRowView,
   type AgentLink,
 } from "./types";
@@ -53,5 +55,6 @@ export {
 } from "./components/FrontPage";
 export { CoverImage } from "./components/CoverImage";
 export { LineChart } from "./components/LineChart";
+export { MarketsChart, MARKETS_LINE_MIN_POINTS } from "./components/MarketsChart";
 export { AgentAccess } from "./components/AgentAccess";
 export { OgCard } from "./components/OgCard";

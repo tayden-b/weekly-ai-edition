@@ -406,6 +406,56 @@
   fill: var(--ink-2);
 }
 
+/* ---------- MarketsChart ---------- */
+
+.w-mchart__zero {
+  stroke: var(--ink);
+  stroke-width: 1;
+}
+.w-mchart__bar--up {
+  fill: var(--up);
+}
+.w-mchart__bar--down {
+  fill: var(--down);
+}
+.w-mchart__series {
+  stroke: var(--ink-3);
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+}
+.w-mchart__series--top {
+  stroke: var(--ink);
+}
+.w-mchart__dot {
+  fill: var(--ink-3);
+}
+.w-mchart__dot--top {
+  fill: var(--ink);
+}
+.w-mchart__ticker {
+  font-family: var(--font-mono);
+  font-size: var(--t-sm);
+  fill: var(--ink);
+}
+.w-mchart__value,
+.w-mchart__end {
+  font-family: var(--font-mono);
+  font-size: var(--t-xs);
+  fill: var(--ink-2);
+}
+.w-mchart__na {
+  font-family: var(--font-mono);
+  font-size: var(--t-xs);
+  fill: var(--ink-2);
+}
+
+/* "n/a" cell in the markets table. */
+.w-na {
+  font-family: var(--font-mono);
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+}
+
 /* ---------- AgentAccess ---------- */
 
 .w-agent-access__heading {

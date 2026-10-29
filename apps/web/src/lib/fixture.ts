@@ -8,6 +8,8 @@ import type {
   EditionItem,
   EditionPage,
 } from "@weekly/schema";
+import type { MarketsView } from "./markets";
+import { marketsView } from "./markets";
 import rawJson from "../../../../fixtures/2026-w44/edition.json";
 
 export interface FixtureSource {
@@ -37,6 +39,8 @@ export interface FixturePage {
     series: { label: string; points: number[]; xLabels?: string[] }[];
     caption?: string;
   };
+  /** Full markets view (chart data, n/a rows, honest caption). */
+  markets?: MarketsView;
   tickers?: { ticker: string; close: number; delta: number }[];
   rows?: { rank: number; name: string; stories: number; trend: "up" | "down" | "flat" }[];
   sources?: [string, number][];
@@ -122,6 +126,7 @@ function mapPage(page: EditionPage): FixturePage {
       close: t.close,
       delta: t.change_pct,
     }));
+    out.markets = marketsView(page);
   }
   if (page.type === "most_covered") {
     out.rows = page.entries.map((e, i) => ({

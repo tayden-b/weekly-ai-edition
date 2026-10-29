@@ -280,12 +280,20 @@ export function dedupe(items: readonly NormalizedItem[], opts?: DedupeOptions): 
   const fps = members.map((m) =>
     m.title_key.length < SIMHASH_SHINGLE ? null : simhash(m.title_key),
   );
+  // Per-ticker series items ("NVDA weekly closing series") differ only in
+  // the ticker chars — near-identical fingerprints for different data
+  // feeds. Two members carrying different `source_ids.ticker` are never
+  // the same story, so they never union here.
+  const tickerOf = (m: NormalizedItem) => m.source_ids?.["ticker"];
   for (let i = 0; i < members.length; i++) {
     const fi = fps[i];
     if (fi === null || fi === undefined) continue;
     for (let j = i + 1; j < members.length; j++) {
       const fj = fps[j];
       if (fj === null || fj === undefined) continue;
+      const ti = tickerOf(members[i]!);
+      const tj = tickerOf(members[j]!);
+      if (ti !== undefined && tj !== undefined && ti !== tj) continue;
       if (hammingDistance(fi, fj) <= threshold) union(i, j);
     }
   }

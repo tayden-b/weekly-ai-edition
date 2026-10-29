@@ -6,7 +6,7 @@ import {
   CoverImage,
   ItemList,
   Kicker,
-  LineChart,
+  MarketsChart,
   Masthead,
   MonoTable,
   TrendArrow,
@@ -146,14 +146,16 @@ function PageBody({
     case "markets":
       return (
         <>
-          <LineChart
-            series={page.chart?.series ?? []}
-            ariaLabel={page.chart?.series[0]?.label ?? "Markets chart"}
+          <MarketsChart
+            data={page.markets?.data ?? []}
+            {...(page.markets?.index ? { index: page.markets.index } : {})}
+            {...(page.markets?.missing?.length
+              ? { missing: page.markets.missing }
+              : {})}
+            ariaLabel="Weekly change by ticker"
           />
           <p className="w-sp__caption">
-            {page.sourcePublishers?.length
-              ? `Source: ${page.sourcePublishers.join(", ")} — weekly close`
-              : "Weekly close"}
+            {page.markets?.caption ?? "Weekly close"}
           </p>
           <MonoTable
             columns={[
@@ -161,10 +163,16 @@ function PageBody({
               { key: "close", label: "Close", align: "right" },
               { key: "delta", label: "Δ week", align: "right" },
             ]}
-            rows={(page.tickers ?? []).map((t) => [
+            rows={(page.markets?.tickers ?? []).map((t) => [
               t.ticker,
-              t.close,
-              <TrendDelta key={t.ticker} delta={t.delta} />,
+              t.na ? <span className="w-na">n/a</span> : t.close,
+              t.na ? (
+                <span key={t.ticker} className="w-na">
+                  n/a
+                </span>
+              ) : (
+                <TrendDelta key={t.ticker} delta={t.delta} />
+              ),
             ])}
           />
         </>

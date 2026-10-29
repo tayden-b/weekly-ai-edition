@@ -4,13 +4,14 @@ import type {
   CoveredRowView,
   IssueMetaView,
   ItemView,
+  MarketTickerDatum,
   TickerView,
 } from "../types";
 import { AgentAccess } from "./AgentAccess";
 import { CoverImage } from "./CoverImage";
 import { Item } from "./Item";
 import { Kicker } from "./Kicker";
-import { LineChart } from "./LineChart";
+import { MarketsChart } from "./MarketsChart";
 import { Masthead } from "./Masthead";
 import { MonoTable } from "./MonoTable";
 import { SectionHead } from "./SectionHead";
@@ -31,7 +32,12 @@ export interface FrontPageSection {
 }
 
 export interface FrontPageMarkets {
-  series: ChartSeriesView[];
+  /** Per-ticker data for the chart — %Δ rows and/or dated closes. */
+  data: MarketTickerDatum[];
+  /** Configured basket tickers with no data — explicit "n/a" rows. */
+  missing?: string[];
+  /** Composite index fallback — drawn only when it reaches the line threshold. */
+  index?: ChartSeriesView;
   tickers: TickerView[];
   caption?: string;
 }
@@ -121,7 +127,12 @@ export function FrontPage({
         <section className="w-fp__markets" id="markets">
           <SectionHead title="Markets" />
           <div className="w-fp__markets-chart">
-            <LineChart series={markets.series} />
+            <MarketsChart
+              data={markets.data}
+              {...(markets.index ? { index: markets.index } : {})}
+              {...(markets.missing ? { missing: markets.missing } : {})}
+              ariaLabel="Weekly change by ticker"
+            />
             {markets.caption ? (
               <p className="w-fp__markets-caption">{markets.caption}</p>
             ) : null}
@@ -135,8 +146,14 @@ export function FrontPage({
               ]}
               rows={markets.tickers.map((t) => [
                 t.ticker,
-                t.close,
-                <TrendDelta key={t.ticker} delta={t.delta} />,
+                t.na ? <span className="w-na">n/a</span> : t.close,
+                t.na ? (
+                  <span key={t.ticker} className="w-na">
+                    n/a
+                  </span>
+                ) : (
+                  <TrendDelta key={t.ticker} delta={t.delta} />
+                ),
               ])}
             />
           </div>
