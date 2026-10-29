@@ -16,17 +16,17 @@ describe("llmsTxt", () => {
 
   it("links the latest issue and both twins plus llms-full", () => {
     expect(txt).toContain("## Latest issue");
-    expect(txt).toContain("[№ 2 · Oct 31–Nov 6:");
-    expect(txt).toContain("[2026-w45.md](/2026-w45.md)");
-    expect(txt).toContain("[2026-w45.json](/2026-w45.json)");
+    expect(txt).toContain("[№ 1 · Oct 24–30:");
+    expect(txt).toContain("[2026-w44.md](/2026-w44.md)");
+    expect(txt).toContain("[2026-w44.json](/2026-w44.json)");
     expect(txt).toContain("(/llms-full.txt)");
   });
 
-  it("lists every edition and the feeds", () => {
+  it("lists every public edition (fixtures excluded) and the feeds", () => {
     expect(txt).toContain("## Editions");
     expect(txt).toContain("[Issues archive](/issues)");
-    expect(txt).toContain("[2026-w45](/2026-w45)");
     expect(txt).toContain("[2026-w44](/2026-w44)");
+    expect(txt).not.toContain("2026-w45");
     expect(txt).toContain("## Feeds");
     expect(txt).toContain("(/feed.xml)");
     expect(txt).toContain("(/feed.json)");
@@ -46,7 +46,7 @@ describe("llmsFullTxt", () => {
   const txt = llmsFullTxt(edition);
 
   it("has the llmstxt H1 with issue number, range and id context", () => {
-    expect(txt.startsWith(`# The Weekly AI Edition № 2 — Oct 31–Nov 6, 2026`)).toBe(
+    expect(txt.startsWith(`# The Weekly AI Edition № 1 — Oct 24–30, 2026`)).toBe(
       true,
     );
     expect(txt).toContain(`[${edition.id}.md](/${edition.id}.md)`);

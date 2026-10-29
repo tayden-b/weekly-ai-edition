@@ -37,13 +37,18 @@ export function isEditionId(value: string): boolean {
 }
 
 /**
- * Every edition on disk, newest week first. Week ids (`YYYY-wNN`) are
- * zero-padded so lexicographic order is chronological order.
+ * The public catalog: every committed edition on disk that is not a flagged
+ * test/replay artifact (`fixture: true`), newest week first. Week ids
+ * (`YYYY-wNN`) are zero-padded so lexicographic order is chronological
+ * order. Fixture artifacts stay committed for the CI gates (schema,
+ * provenance, replay determinism) but are never served: no `/` redirect,
+ * no listing, no static route.
  */
 export function listEditions(): Edition[] {
   return Object.entries(EDITION_FILES)
     .filter(([path]) => isEditionId(path.split("/").pop()!.replace(/\.json$/, "")))
     .map(([, json]) => json as Edition)
+    .filter((edition) => edition.fixture !== true)
     .sort((a, b) => b.id.localeCompare(a.id));
 }
 

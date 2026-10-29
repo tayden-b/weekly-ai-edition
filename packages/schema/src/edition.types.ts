@@ -29,6 +29,10 @@ date_start: string
  */
 date_end: string
 /**
+ * Marks a committed test/replay artifact: still schema-validated and provenance-checked, but excluded from the public site catalog (the viewer's listEditions filter) and from issue-number sequencing.
+ */
+fixture?: boolean
+/**
  * Fixed template order (PLAN §3): cover, briefing, models, performance, launches, funding, deals, markets, discourse, most_covered, back_page.
  * 
  * @minItems 11
