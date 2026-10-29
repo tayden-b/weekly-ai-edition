@@ -285,6 +285,18 @@ export {
   writeVerifyRequest,
 } from "./llm.js";
 
+// P8 — emit stage (PLAN §5.2): drafted clusters → the 11-page Edition
+export {
+  DIRECTION_DEADBAND_PCT,
+  EmitError,
+  emitEdition,
+  type EmitOptions,
+  type EmitResult,
+  type EmittedItemRef,
+  FIXTURE_SOURCE_ID_KEY,
+  isFixtureCluster,
+} from "./stages/emit.js";
+
 // P7 — verify stage (PLAN §5.3; deterministic checks 1–4 + entailment seam)
 export {
   assertVerifyResponse,

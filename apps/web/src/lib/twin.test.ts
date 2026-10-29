@@ -1,9 +1,19 @@
+import { readFileSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
 import { describe, expect, it } from "vitest";
 
 import { editionToMarkdown, prefersMarkdown } from "./twin";
-import { getEdition, getEditionRaw, listEditions } from "./editions";
+import { getEditionRaw, listEditions } from "./editions";
+import type { Edition } from "@weekly/schema";
 
-const edition = getEdition("2026-w44")!;
+// The fixture edition is the stable reference — `editions/2026-w44.json` is a
+// generated artifact whose content changes whenever `edition:build` re-runs.
+const HERE = dirname(fileURLToPath(import.meta.url));
+const edition = JSON.parse(
+  readFileSync(join(HERE, "../../../../fixtures/2026-w44/edition.json"), "utf8"),
+) as Edition;
 const md = editionToMarkdown(edition);
 
 describe("editionToMarkdown (the /{issue}.md twin)", () => {

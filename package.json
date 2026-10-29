@@ -16,6 +16,7 @@
     "test:e2e": "pnpm --filter @weekly/web test:e2e",
     "lhci": "node scripts/lhci.mjs",
     "ingest": "tsx scripts/ingest.mts",
+    "edition:build": "tsx scripts/edition-build.mts",
     "classify:harness": "tsx scripts/classify-harness.mts",
     "extract:harness": "tsx scripts/extract-harness.mts",
     "draft:harness": "tsx scripts/draft-harness.mts",

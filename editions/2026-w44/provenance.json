@@ -9,6 +9,14 @@
         "from": "2026-10-22T00:00:00.000Z",
         "to": "2026-10-28T23:59:59.999Z"
       }
+    },
+    {
+      "date": "fixture",
+      "ran_at": "2026-10-28T14:00:00Z",
+      "window": {
+        "from": "2026-10-24T00:00:00.000Z",
+        "to": "2026-10-30T23:59:59.999Z"
+      }
     }
   ],
   "adapter_runs": [
@@ -361,18 +369,25 @@
       "adapter": "distribute-software",
       "ok": true,
       "count": 100
+    },
+    {
+      "date": "fixture",
+      "source": "fixture-2026-w44",
+      "adapter": "fixture",
+      "ok": true,
+      "count": 34
     }
   ],
   "item_counts": {
-    "fetched": 1082,
-    "emitted": 21,
+    "fetched": 1116,
+    "emitted": 24,
     "by_page": {
-      "models": 5,
-      "performance": 3,
-      "launches": 4,
-      "funding": 5,
+      "models": 6,
+      "performance": 1,
+      "launches": 6,
+      "funding": 6,
       "deals": 2,
-      "discourse": 2
+      "discourse": 3
     }
   },
   "failures": [],
@@ -427,49 +442,46 @@
     "data/raw/2026-10-28/techcrunch-ai.json": "sha256:dfeb63911c45449b4528f6e38a3265429b8f4f6a84762acd892ffd9d225c680c",
     "data/raw/2026-10-28/techcrunch-funding.json": "sha256:9fc6feed9295df05e8f20a42d1151c904d95074e5528a435b43cf66cf44ff201",
     "data/raw/2026-10-28/theverge-ai.json": "sha256:a20dcb91b56616cff5a16ef2eae1d29bef9ccfcd4ab280abb409b5abef9c4f43",
-    "data/raw/2026-10-28/xai-news.json": "sha256:74c797b5e3ebbec8b36a860b40a4af9be4b7812e9bfe1c09c51ed4f80efb6b0f"
+    "data/raw/2026-10-28/xai-news.json": "sha256:74c797b5e3ebbec8b36a860b40a4af9be4b7812e9bfe1c09c51ed4f80efb6b0f",
+    "fixtures/2026-w44/edition.json": "sha256:e25fff1bcbf6cc1b8152ca9eecad69237075c1e706f293623ffb8886b62c18d3"
   },
   "back_page": {
-    "sources_total": 34,
+    "sources_total": 40,
     "source_counts": [
+      {
+        "publisher": "Hacker News",
+        "count": 9
+      },
       {
         "publisher": "Exa Markets",
         "count": 8
       },
       {
-        "publisher": "Launch Index",
+        "publisher": "Business Wire",
         "count": 4
       },
       {
+        "publisher": "Bloomberg",
+        "count": 2
+      },
+      {
+        "publisher": "Google DeepMind",
+        "count": 2
+      },
+      {
+        "publisher": "TechCrunch",
+        "count": 2
+      },
+      {
+        "publisher": "The Verge",
+        "count": 2
+      },
+      {
         "publisher": "AI Atlas",
-        "count": 2
+        "count": 1
       },
       {
-        "publisher": "Funding Index",
-        "count": 2
-      },
-      {
-        "publisher": "Microsoft AI",
-        "count": 2
-      },
-      {
-        "publisher": "SiliconReport",
-        "count": 2
-      },
-      {
-        "publisher": "The Morning Build",
-        "count": 2
-      },
-      {
-        "publisher": "Third Run Time",
-        "count": 2
-      },
-      {
-        "publisher": "VentureBeat",
-        "count": 2
-      },
-      {
-        "publisher": "AI Lately",
+        "publisher": "Anthropic",
         "count": 1
       },
       {
@@ -477,19 +489,19 @@
         "count": 1
       },
       {
-        "publisher": "Business Wire",
+        "publisher": "Axios",
         "count": 1
       },
       {
-        "publisher": "CBC Globe",
+        "publisher": "Funding Index",
         "count": 1
       },
       {
-        "publisher": "Creati AI",
+        "publisher": "Microsoft AI",
         "count": 1
       },
       {
-        "publisher": "GlobeNewswire",
+        "publisher": "OpenAI",
         "count": 1
       },
       {
@@ -498,6 +510,14 @@
       },
       {
         "publisher": "Reuters",
+        "count": 1
+      },
+      {
+        "publisher": "SiliconReport",
+        "count": 1
+      },
+      {
+        "publisher": "Third Run Time",
         "count": 1
       }
     ]

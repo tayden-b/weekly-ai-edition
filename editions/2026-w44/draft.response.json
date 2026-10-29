@@ -1,0 +1,982 @@
+{
+  "prompt_version": 1,
+  "one_liners": [
+    {
+      "one_liner": "Google's Gemini 4 Carbon is the week's flagship model release \u2014 reasoning upgrades aimed at the agent workload.",
+      "headline": "Google ships **Gemini 4 Carbon**",
+      "item_id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon"
+    },
+    {
+      "one_liner": "Anthropic reports early drug-development acceleration with Claude \u2014 a concrete pharma deployment read.",
+      "item_id": "https://www.anthropic.com/research/early-progress-drug-development"
+    },
+    {
+      "one_liner": "OpenAI details its academic-community science programme \u2014 a positioning move amid the benchmark wars.",
+      "item_id": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
+    },
+    {
+      "one_liner": "Amazon agreed to buy Globalstar for $11.57B \u2014 a satellite footprint to challenge Starlink on Amazon Leo.",
+      "headline": "Amazon \u2192 Globalstar \u2014 **$11.57B**",
+      "item_id": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14"
+    },
+    {
+      "one_liner": "Cursor ships the Agent SDK \u2014 a toolkit for building on its agent runtime.",
+      "item_id": "https://cursor.com/blog/agent-sdk"
+    },
+    {
+      "one_liner": "Google DeepMind's Genie 4 turns prompts into playable worlds \u2014 the strongest world-model release of the week.",
+      "item_id": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation"
+    },
+    {
+      "one_liner": "An open-source secure CLI sandbox for running agents locally \u2014 via Show HN.",
+      "item_id": "https://github.com/Asdivyansh/silo-cli"
+    },
+    {
+      "one_liner": "Rocker launches a context-aware AI work assistant, announcing $12.85M in funding led by Greycroft.",
+      "item_id": "http://www.businesswire.com/news/home/20261028010878/en/Rocker-Launches-as-the-Context-Aware-AI-Work-Assistant-for-the-Busiest-People-at-the-World%E2%80%99s-Most-Ambitious-Companies?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "item_id": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying"
+    },
+    {
+      "one_liner": "DOJ is asking about NVIDIA's Hugging Face deal, per Reuters \u2014 the first antitrust read on the week's tie-ups.",
+      "headline": "NVIDIA \u2192 Hugging Face \u2014 DOJ inquiry",
+      "item_id": "https://www.bloomberg.com/news/articles/2026-10-28/doj-inquires-about-nvidia-s-hugging-face-deal-reuters-says"
+    },
+    {
+      "one_liner": "Google's Gemini 4 Carbon is the week's flagship model release \u2014 reasoning upgrades aimed at the agent workload.",
+      "headline": "Google ships **Gemini 4 Carbon**",
+      "item_id": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use"
+    },
+    {
+      "one_liner": "Microsoft is pulling Copilot from all smart TVs this year \u2014 barely two years after LG and Samsung announced it at CES.",
+      "item_id": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending"
+    },
+    {
+      "one_liner": "An agent runs the product while the human assists \u2014 a self-described experiment in AI autonomy on a live community board.",
+      "item_id": "https://42loop.com/about"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/tellers-ai/skills"
+    },
+    {
+      "one_liner": "An open decision model for audio posting near-Flash scores \u2014 via Show HN.",
+      "item_id": "https://github.com/egma-ai/homi"
+    },
+    {
+      "one_liner": "We sell some crypto data to software agents per request over x402 (HTTP 402, USDC on Base, no account or API key).",
+      "item_id": "https://www.blockchainiq.co/blog/x402-integrations-from-the-build-bounty"
+    },
+    {
+      "one_liner": "A new developer platform lets businesses bring services to Google's AI experiences \u2014 app distribution shifts to the agent.",
+      "item_id": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/grimmerk/memsaga"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/colinsurprenant/parley"
+    },
+    {
+      "one_liner": "Frontier models improve at a pace faster than the pace at which most humans are able to keep up.",
+      "item_id": "https://app.userrank.ai/"
+    },
+    {
+      "one_liner": "I\u2019ve spent the last year building context for AI analysts in the mid-market.",
+      "item_id": "https://github.com/nodal-data/nodal-context"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://bugtape.ai/"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://jeman.net/nekot"
+    },
+    {
+      "one_liner": "Hey HN, happy to share Chopstick with you.",
+      "item_id": "https://chopstick.sh/"
+    },
+    {
+      "one_liner": "Foundry Robotics announces an oversubscribed $100 million Series A led by Marlinspike Partners.",
+      "headline": "Foundry Robotics raised $100 million Series A led by Marlinspike Partners",
+      "item_id": "http://www.businesswire.com/news/home/20261028508802/en/Foundry-Robotics-Raises-100-Million-Series-A-to-Build-America%E2%80%99s-First-Autonomous-Factory-for-Assembly?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live.",
+      "item_id": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model"
+    },
+    {
+      "one_liner": "Background: To localize a fault, a coding agent can reason from source code alone or use debugger assistance by running the program.",
+      "item_id": "http://www.businesswire.com/news/home/20261027636687/en/Dassault-Syst%C3%A8mes-Takes-Its-Life-Sciences-Ambition-to-the-Next-Level-with-a-Unified-AI-Platform-Connecting-Science-Medicine-and-Patients?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://agent-bv.pages.dev/app"
+    },
+    {
+      "one_liner": "I built a small browser incremental game where you start by answering tasks at your desk to save up to rent a GPU, and hire a real.",
+      "item_id": "https://simedw.com/projects/harness-corp"
+    },
+    {
+      "one_liner": "NEW YORK--(BUSINESS WIRE)--Ronald McDonald House New York (RMH-NY) today announced it has been awarded a $1.5 million, three-year.",
+      "item_id": "http://www.businesswire.com/news/home/20261028263072/en/Ronald-McDonald-House-New-York-Awarded-1.5-Million-Grant-From-RBC-Foundation-USA-to-Pilot-AI-Powered-Hub-for-Family-Centered-Care?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "Since AI has grown in popularity, technical and non-technical employees have been using it to build small tools and apps to boost.",
+      "item_id": "https://github.com/trypando/pando"
+    },
+    {
+      "one_liner": "WESTLAKE, Texas & BOSTON--(BUSINESS WIRE)--Schwab Advisor Services, Charles Schwabs business supporting the growth and success of.",
+      "item_id": "http://www.businesswire.com/news/home/20261028051332/en/Schwab-Advisor-Services%E2%84%A2-Expands-AI-Inside-Schwab-Advisor-Center-and-Across-the-Third-Party-Solutions-RIAs-Use?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "Equipment financing for high-density AI data centers \u2014 the debt side of the capex wave.",
+      "headline": "IREN raised $363 million equipment financing",
+      "item_id": "http://www.businesswire.com/news/home/20261028683272/en/IREN-and-Wingspire-Equipment-Finance-Complete-363-Million-Financing-for-High-Density-AI-Compute-Assets?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "AP and Reuters weigh whether debt-funded AI capex can pay for itself \u2014 bulls cite contracts, bears cite circularity.",
+      "item_id": "https://apnews.com/article/stocks-markets-ai-earnings-oil-e11a2240fc3283c4507d44b9833f30a2"
+    },
+    {
+      "one_liner": "NEW YORK--(BUSINESS WIRE)--Klarna, the everyday finance network, today announced its participation in the following investor.",
+      "item_id": "http://www.businesswire.com/news/home/20261028047517/en/Klarna-to-Present-at-Upcoming-Investor-Conference?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "RapidCanvas picked up Entytle's industrial-AI stack \u2014 a tuck-in for aftermarket service intelligence.",
+      "headline": "RapidCanvas \u2192 Entytle \u2014 undisclosed",
+      "item_id": "https://www.globenewswire.com/news-release/2026/10/28/3390266/0/en/rapidcanvas-acquires-entytle-to-bring-ai-driven-execution-to-the-industrial-aftermarket.html"
+    },
+    {
+      "one_liner": "Ive been a full stack engineer for 20 years.",
+      "item_id": "https://github.com/jgrichardson/shufler"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/kevinmmiddleton/recruiter-bff"
+    },
+    {
+      "one_liner": "I was fed up with codex and opencode not having good mobile remote control apps.",
+      "item_id": "https://github.com/tinybig-ai/jep"
+    },
+    {
+      "one_liner": "Hummingbird bought Quantimon to put machine learning inside AML transaction monitoring.",
+      "headline": "Hummingbird \u2192 Quantimon \u2014 undisclosed",
+      "item_id": "http://www.businesswire.com/news/home/20261028117784/en/Hummingbird-Acquires-Quantimon-to-Bring-Machine-Learning-to-AML-Transaction-Monitoring-for-the-Agentic-Era?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/27medkamal/tmux-agent-wizard"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/agens-field/nuvrail"
+    },
+    {
+      "one_liner": "Meta has launched a tamagotchi-style pet game called Waddle World, with virtual creatures that chat with users and create doodles to.",
+      "item_id": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world"
+    },
+    {
+      "one_liner": "Built a little native MacOS app out of necessity to help me free up some storage on my Mac.",
+      "item_id": "https://github.com/linearza/ballast"
+    },
+    {
+      "one_liner": "Local mcp server hosting private information on the client computer and utilizing client-side model subscriptions to handle workloads.",
+      "item_id": "https://www.mybotsai.com/"
+    },
+    {
+      "one_liner": "PALO ALTO, Calif.--(BUSINESS WIRE)-- ai--HTEC, the global AI technology and engineering leader, today released its research on AI.",
+      "item_id": "http://www.businesswire.com/news/home/20261028854882/en/Financial-Services-Increases-AI-Investment-Faster-Than-Wider-Market-While-Maturity-Remains-Level?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "Since everyone and their agents are building apps, there is not time to stop and search for vulnerabilities on our machine.",
+      "item_id": "https://github.com/misbahsy/novul"
+    },
+    {
+      "one_liner": "SelfClaw aggregates multiple LLM providers behind a single OpenAI-compatible API.",
+      "item_id": "https://github.com/Alanzj/SelfClaw"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system"
+    },
+    {
+      "one_liner": "A model forecasting the misery index into next year.",
+      "item_id": "https://sightspinner.ai/blog/misery-in-america-2026-10-28.html"
+    },
+    {
+      "one_liner": "Implemented agent smith since start 2026 with over 1000 specifications which lead to about 500k lines of code.",
+      "item_id": "https://spec-first.dev/"
+    },
+    {
+      "one_liner": "TechCrunch tallies the IPO windfall \u2014 VCs billions ahead, Amazon positioned to make much more.",
+      "headline": "Amazon raised an undisclosed amount",
+      "item_id": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/sujee/visual-stories/tree/main/projects/tracing-llm-api-request"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone"
+    },
+    {
+      "one_liner": "Google's Gemini 4 Carbon is the week's flagship model release \u2014 reasoning upgrades aimed at the agent workload.",
+      "headline": "Google ships **Gemini 4 Carbon**",
+      "item_id": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model"
+    },
+    {
+      "one_liner": "Google DeepMind's Genie 4 turns prompts into playable worlds \u2014 the strongest world-model release of the week.",
+      "item_id": "https://themorningbuild.com/digest/2026-10-28"
+    },
+    {
+      "one_liner": "PRESS RELEASE OF AXT, INC., DATED OCTOBER 28, 2026 (FURNISHED PURSUANT TO ITEM 7.01); items 1.01, 7.01, 9.01; filed by AXT INC (AXTI).",
+      "item_id": "https://www.sec.gov/Archives/edgar/data/1051627/000121390026113058/0001213900-26-113058-index.htm"
+    },
+    {
+      "one_liner": "PRESS RELEASE, DATED OCTOBER 28, 2026; items 1.01, 5.02, 7.01, 9.01; filed by AIB Data Centers Inc.",
+      "item_id": "https://www.sec.gov/Archives/edgar/data/2070542/000121390026113119/0001213900-26-113119-index.htm"
+    },
+    {
+      "one_liner": "AI Atlas and Third Run Time disagree on whether two frontier-lab complexity papers actually refute ETH \u2014 the claim vs the check.",
+      "item_id": "https://atlas.prashish.com/weeks/2026-10-26"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/chen-985211/cleancode"
+    },
+    {
+      "one_liner": "TechCrunch asks who holds power post-IPO \u2014 the trust structure that keeps founders in control.",
+      "headline": "Anthropic raised an undisclosed amount",
+      "item_id": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo"
+    },
+    {
+      "one_liner": "The NYT profiles the seven co-founders as Anthropic's prospectus lands \u2014 unusual depth on the lab's control structure.",
+      "headline": "Anthropic raised an undisclosed amount",
+      "item_id": "https://openai.com/index/oracle-apps-in-chatgpt"
+    },
+    {
+      "one_liner": "Ridgeview closed on Pinewood Technologies \u2014 dealer-management software moves into private hands.",
+      "headline": "Ridgeview Partners \u2192 Pinewood Technologies \u2014 undisclosed",
+      "item_id": "http://www.businesswire.com/news/home/20261027051586/en/Ridgeview-Partners-Completes-Acquisition-of-Pinewood-Technologies-Group?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says.",
+      "item_id": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/milad-ahmd/agent-skills"
+    },
+    {
+      "one_liner": "MCLEAN, Va.--(BUSINESS WIRE)--BigBear.ai Holdings, Inc.",
+      "item_id": "http://www.businesswire.com/news/home/20261027936657/en/BigBear.ai-Announces-Third-Quarter-2026-Results-and-Raises-FY-2026-Revenue-Guidance?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "The age and gender prediction are based on open models.",
+      "item_id": "https://autosomal.ai/"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://slidepilot.dev/"
+    },
+    {
+      "one_liner": "SAN RAMON, Calif.--(BUSINESS WIRE)--Grid Dynamics Holdings, Inc.",
+      "item_id": "http://www.businesswire.com/news/home/20261027440937/en/Grid-Dynamics-Launches-Business-Process-Consulting-Practice-to-Bridge-the-Gap-Between-AI-Investment-and-Business-Results?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "LIVINGSTON, N.J.--(BUSINESS WIRE)--CoreWeave, Inc.",
+      "item_id": "http://www.businesswire.com/news/home/20261027590794/en/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "CoStar acquires Vexcel's survey-grade aerial imagery \u2014 property data consolidation above the rooftops.",
+      "headline": "CoStar Group \u2192 Vexcel \u2014 undisclosed",
+      "item_id": "http://www.businesswire.com/news/home/20261027636043/en/CoStar-Group-to-Acquire-Vexcel-Adding-the-World%E2%80%99s-Largest-Survey-Grade-High-Resolution-Aerial-Imagery-Program-to-Power-Richer-Search-and-Discovery-Across-CoStar-with-Tens-of-Billions-of-New-AI-Derived-Data-Fields?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+    },
+    {
+      "one_liner": "Liquid AI's LFM3 family moves browser agents, voice commands and image recognition onto enterprise-controlled hardware.",
+      "item_id": "https://venturebeat.com/technology/liquid-ais-new-lfm3-models-put-browser-agents-voice-commands-and-image-recognition-onto-enterprise-controlled-devices"
+    },
+    {
+      "one_liner": "Hey HN, Im Christian and this is a new OSS project Ive been noodling on for the last couple of weeks.",
+      "item_id": "https://github.com/FrigadeHQ/hob"
+    },
+    {
+      "one_liner": "Meta has published Muse Spark Open, an open-weight multimodal model designed for long-running coding agents.",
+      "item_id": "https://creati.ai/ai-news/2026-10-27/meta-releases-muse-spark-open-an-816b-parameter-open-weight-model-for-multimodal-coding-agents"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://www.llmverifications.com/"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://allmodels.io/llm/abliterated"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/sanmak/specops"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/saranyan/agent-relay"
+    },
+    {
+      "one_liner": "I am the owner and founder of TheGitAI Coding Agent.",
+      "item_id": "https://thegit.ai/docs/core-features/browser-control"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://nicchia-code.github.io/trama"
+    },
+    {
+      "one_liner": "The prospectus builds an elaborate governance moat to keep Wall Street at bay after listing.",
+      "headline": "Anthropic raised an undisclosed amount IPO",
+      "item_id": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+    },
+    {
+      "one_liner": "Hey HN, Ive been building Sectr, a backend-as-a-service for making it easy(ier) to develop and deploy AI agents.",
+      "item_id": "https://sectr.dev/"
+    },
+    {
+      "one_liner": "Crulon is a business phone system where an AI agent answers the line and your team works alongside it.",
+      "item_id": "https://crulon.ai/"
+    },
+    {
+      "one_liner": "I run my business on four Claude Code agents: Titus, Pheme, Davinci and Metis.",
+      "item_id": "https://github.com/wrg32786/aigent-os"
+    },
+    {
+      "one_liner": "Google DeepMind's Genie 4 turns prompts into playable worlds \u2014 the strongest world-model release of the week.",
+      "item_id": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering"
+    },
+    {
+      "one_liner": "I made it easier for builders to use the lebanese legislation through: a public DB, API, and MCP.",
+      "item_id": "https://huggingface.co/datasets/taktekhq/lebanese-legislation"
+    },
+    {
+      "one_liner": "Mozilla is updating Smart Window - Firefoxs AI-powered browsing experience - with a new feature that can help you fill out online.",
+      "item_id": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms"
+    },
+    {
+      "one_liner": "This is something I built out of my own need.",
+      "item_id": "https://slopit.io/"
+    },
+    {
+      "one_liner": "OpenAI's GPT-6.1 Terra halves the computer-use price to one dollar per million tokens \u2014 the week's flagship agent model.",
+      "item_id": "https://ailately.com/rn/2026-10-27-12"
+    },
+    {
+      "one_liner": "Google DeepMind's Genie 4 turns prompts into playable worlds \u2014 the strongest world-model release of the week.",
+      "item_id": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations"
+    },
+    {
+      "one_liner": "Mixture-of-Experts (MoE) inference on memory-constrained edge platforms is often dominated by expert-weight movement rather than.",
+      "item_id": "https://arxiv.org/abs/2610.37442"
+    },
+    {
+      "one_liner": "Microsoft's MAI Image 2.7 debuts at No. 3 on Arena Edit \u2014 an in-house image model outside the usual labs.",
+      "item_id": "https://microsoft.ai/news/mai-image-2-7-debut"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://unfolded-gpt2.vercel.app/"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/Hardalion/agent-delegated-authority"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/Ezed9/mcp-bouncer"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://mcptask.online/live?language=en"
+    },
+    {
+      "one_liner": "Were building a single search&x2F;browse API interface to thousands of ecommerce stores (hopefully, eventually, all of them).",
+      "item_id": "https://actera.dev/try"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://citewing.com/"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/0xArx/hashling"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/pezhik/skilltotal"
+    },
+    {
+      "one_liner": "The RISC-V chip shop banked $1.5B to chase NVIDIA's inference business \u2014 the week's largest chip raise.",
+      "headline": "Tenstorrent raised $1.5 billion Series E",
+      "item_id": "https://www.businesswire.com/news/home/20261027228454/en/Innovation-X-Co-Leads-Tenstorrents-%241.5-Billion-Series-E-at-a-%246.2-Billion-Valuation"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/synectus/OpenGMB"
+    },
+    {
+      "one_liner": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations.",
+      "item_id": "https://arxiv.org/abs/2610.37161"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://catalogaudit.app/"
+    },
+    {
+      "one_liner": "It supports forecast, cross-validation, anomaly detection, and exogenous variables for models such as AWS Chronos, Google TimesFM.",
+      "item_id": "https://github.com/TimeCopilot/foundationforecast"
+    },
+    {
+      "one_liner": "I made AI Compute Footprint to get an understanding how big the energy, space, water + CO\u2082 footprint of data centres running everyday.",
+      "item_id": "https://heyyeah.github.io/AI_Compute_Footprint"
+    },
+    {
+      "one_liner": "I had claude build a course optimized for me (backend engineer with some systems experience) to learn formal methods.",
+      "item_id": "https://statespace.play.naigap.com/"
+    },
+    {
+      "one_liner": "Guidewire absorbs hyperexponential's pricing AI \u2014 insurance underwriting software consolidation continues.",
+      "headline": "Guidewire \u2192 hyperexponential \u2014 $1.7B",
+      "item_id": "https://www.prnewswire.com/news-releases/guidewire-signs-definitive-agreement-to-acquire-hyperexponential-302920513.html"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/kekzl/imp"
+    },
+    {
+      "one_liner": "Large language model (LLM) agents rely on memory systems to leverage long-term interactions, yet existing systems typically retrieve.",
+      "item_id": "https://arxiv.org/abs/2610.36918"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/okunix/gollama"
+    },
+    {
+      "one_liner": "As large language model agents increasingly compile natural-language requirements into repository-level code, requirement-to-test.",
+      "item_id": "https://arxiv.org/abs/2610.36584"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/QingYunA/answer-me-with-html"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://better-design.com/"
+    },
+    {
+      "one_liner": "Hyphenate builds autonomous AI agent systems for enterprise financial operations \u2014 $45M Series A led by Nexus Venture Partners.",
+      "headline": "Hyphenate raised $45 million Series A led by Nexus Venture Partners",
+      "item_id": "https://funding.fru.dev/months/2026-10"
+    },
+    {
+      "one_liner": "Liquid AI's build path for specialized multimodal models \u2014 the tooling behind this week's LFM3 release.",
+      "item_id": "https://huggingface.co/blog/LiquidAI/lfm3"
+    },
+    {
+      "one_liner": "Claude Duet \u2014 Proactive agent that understands what needs your attention \u2014 322 votes.",
+      "item_id": "https://launchindex.ai/month/2026-10"
+    },
+    {
+      "one_liner": "GPT-6 Astra tops Retell\u2019s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "item_id": "https://openai.com/index/retell-ai"
+    },
+    {
+      "one_liner": "PRESS RELEASE OF SECURETECH INNOVATIONS, INC; items 1.01, 2.01, 3.02, 3.03, 5.03, 7.01, 9.01; filed by Securetech Innovations, Inc.",
+      "item_id": "https://www.sec.gov/Archives/edgar/data/1703157/000101738626000149/0001017386-26-000149-index.htm"
+    },
+    {
+      "one_liner": "A $100M Series A for AI inference infrastructure \u2014 the round extends the startup's compute runway.",
+      "headline": "General Compute raised $100 million Series A",
+      "item_id": "https://www.siliconreport.com/capital/archive/2026-10"
+    },
+    {
+      "one_liner": "The Verge digs through a prospectus whose risk section reads like a warning label for the whole industry.",
+      "headline": "Anthropic raised an undisclosed amount IPO",
+      "item_id": "https://www.axios.com/2026/10/26/anthropic-ipo-biggest-surprises"
+    },
+    {
+      "one_liner": "Early AI programs were often also theories of how people think, and programs that wrote programs were, in part, theories of how.",
+      "item_id": "https://arxiv.org/abs/2610.36341"
+    },
+    {
+      "one_liner": "This is a stock picking game that simulates a stock market with thousands of rule based agents making trades and moving the stock price.",
+      "item_id": "https://stockpickersgame.com/"
+    },
+    {
+      "one_liner": "For the longest time, Ive wanted MIDI files created from scans of sheet music to listen to.",
+      "item_id": "https://github.com/chris-mccoy/gottschalk-tarantelle"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/haplollc/Vesalius"
+    },
+    {
+      "one_liner": "A line-by-line read of the filing's odd corners \u2014 the details headline coverage skipped.",
+      "headline": "Anthropic raised an undisclosed amount IPO",
+      "item_id": "https://news.crunchbase.com/public/anthropic-ipo-filing-ai-earnings-growth-risks"
+    },
+    {
+      "one_liner": "Meanscore: 0.7916666666666666 \u00b7 Best score (across scorers): 0.7916666666666666 \u00b7 Organization: OpenAI \u00b7 Release date: 2026-10-26.",
+      "item_id": "https://epoch.ai/benchmarks"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://tabichat.dev/"
+    },
+    {
+      "one_liner": "The Persona Selection Model (PSM) posits that post-training selects a persona the model learned during pre-training.",
+      "item_id": "https://arxiv.org/abs/2610.36202"
+    },
+    {
+      "one_liner": "An S-1 counterpoint: the filing's numbers invite a second look at which Anthropic is actually going public.",
+      "headline": "Anthropic raised an undisclosed amount IPO",
+      "item_id": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up"
+    },
+    {
+      "one_liner": "In an RTS game, making decisions quickly matters as much as making good ones.",
+      "item_id": "https://rts.emersoftware.cl/"
+    },
+    {
+      "one_liner": "I was engineer 2 at Browser Use, where I built our agent harness and the evals behind it, including BU Bench, which became a default.",
+      "item_id": "https://github.com/mainplane-ai/mainplane"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/Quorus-dev/Quorus"
+    },
+    {
+      "one_liner": "I made git-dupe to solve the problem where I have notes, skills, and agent instructions that are part of my personal workflow, so I.",
+      "item_id": "https://github.com/BrianWeiHaoMa/git-dupe/tree/main"
+    },
+    {
+      "one_liner": "Clinical trial prescreening requires distinguishing unmet conditions from insufficient evidence in patient records.",
+      "item_id": "https://arxiv.org/abs/2610.35721"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/michaeldmueller/hue-claude"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://juiced.codes/"
+    },
+    {
+      "one_liner": "A while ago I started building a generic people matching app based on LLM-as-a-judge.",
+      "item_id": "https://dna.hashgrid.ai/"
+    },
+    {
+      "one_liner": "Hi HackerNews, My name is Matija, and Im building ranwhat.com.",
+      "item_id": "https://github.com/MatijaMiki/ranwhat"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://amni-scient.com/amni-cad"
+    },
+    {
+      "one_liner": "I kept finding myself wanting a way to get talked through the code that a model had created, which led to me making S\u00f3\u00fespell (old.",
+      "item_id": "https://github.com/anthonyclarka2/sothspell"
+    },
+    {
+      "one_liner": "Linear probes, classifiers that read a language models internal activations, are widely used to detect harmful requests.",
+      "item_id": "https://arxiv.org/abs/2610.35586"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://docs.docsgpt.cloud/Models/decision-model"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://twitter.com/FangcunLeap/status/2114719692137136245"
+    },
+    {
+      "one_liner": "FT reads the S-1's risk factors as the industry's own catalogue of what could go wrong.",
+      "headline": "Anthropic raised an undisclosed amount IPO",
+      "item_id": "https://www.axios.com/2026/10/26/anthropic-ipo-risk-factors-humanity"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/swapnildahiphale/compactly"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://geekyants.com/blog/how-geekyants-manages-ai-models-after-launch-to-maintain-security-control-and-flexibility"
+    },
+    {
+      "one_liner": "Code agents have become increasingly capable of performing software engineering tasks through interaction with software environments.",
+      "item_id": "https://arxiv.org/abs/2610.35333"
+    },
+    {
+      "one_liner": "Conditional memory layers, such as DeepSeeks Engram, attach large hashed n-gram tables to a language model, and removing them from.",
+      "item_id": "https://arxiv.org/abs/2610.35985"
+    },
+    {
+      "one_liner": "Large scale language model~(LLM) pretraining is increasingly bottlenecked by optimizer efficiency, driving optimizer design from.",
+      "item_id": "https://arxiv.org/abs/2610.35130"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://proc-cli.com/"
+    },
+    {
+      "one_liner": "Id often make Google searches whose AI overviews would lead me to ask followups and create AI Mode threads.",
+      "item_id": "https://chromewebstore.google.com/detail/relay-continue-google-sea/fjjfadgooapnegipjocinojjhaajghag"
+    },
+    {
+      "one_liner": "Skill-spotter auto detects commands and prompts you type.",
+      "item_id": "https://github.com/ykisana/skill-spotter"
+    },
+    {
+      "one_liner": "A numerical claim generated by a financial analyst agent can match a number in a company filing but refer to the wrong entity.",
+      "item_id": "https://arxiv.org/abs/2610.34887"
+    },
+    {
+      "one_liner": "Agents of the future should only have one tool (the interpreter, ideally a LISP eval), nothing more or less; to interact with the world.",
+      "item_id": "https://github.com/nodecode-ai/nodecode"
+    },
+    {
+      "one_liner": "To reduce both cost and latency, providers have introduced prompt caching.",
+      "item_id": "https://arxiv.org/abs/2610.34817"
+    },
+    {
+      "one_liner": "Can a model learn by trying to fool another model?",
+      "item_id": "https://arxiv.org/abs/2610.34781"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/XiaoLuoLYG/GOD"
+    },
+    {
+      "one_liner": "When GPT-6&x2F;Gemini launched recently, a lot of the 3D demos used blender-mcp.",
+      "item_id": "https://sketchagent.dev/s/yfYU6LhT"
+    },
+    {
+      "one_liner": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases.",
+      "item_id": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+    },
+    {
+      "one_liner": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "item_id": "https://openai.com/index/greptile-code-review-codex-astra"
+    },
+    {
+      "one_liner": "OpenAI's GPT-6.1 Terra halves the computer-use price to one dollar per million tokens \u2014 the week's flagship agent model.",
+      "item_id": "https://openai.com/index/introducing-gpt-6-1-terra"
+    },
+    {
+      "one_liner": "PRESS RELEASE, DATED OCTOBER 26, 2026.; items 1.01, 2.03, 3.02, 8.01, 9.01; filed by iQSTEL Inc (IQST).",
+      "item_id": "https://www.sec.gov/Archives/edgar/data/1527702/000166357726000330/0001663577-26-000330-index.htm"
+    },
+    {
+      "one_liner": "Anthropic filed its S-1 to go public \u2014 the first frontier-lab IPO filing, and the week's most consequential document.",
+      "headline": "Anthropic raised an undisclosed amount \u2014 S-1 IPO filing",
+      "item_id": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm"
+    },
+    {
+      "one_liner": "PRESS RELEASE DATED OCTOBER 26, 2026; items 1.01, 3.02, 7.01, 9.01; filed by RadNet, Inc.",
+      "item_id": "https://www.sec.gov/Archives/edgar/data/790526/000168316826008094/0001683168-26-008094-index.htm"
+    },
+    {
+      "one_liner": "TPG is pursuing a $5bn buy of UK data-center group Ark \u2014 private equity's AI-infrastructure landgrab widens.",
+      "item_id": "https://www.ft.com/content/e2aafede-771a-4fd0-b9fb-67c0bbb828ed"
+    },
+    {
+      "one_liner": "The seven founders tighten control ahead of the blockbuster listing \u2014 governance is the IPO's real story.",
+      "headline": "Anthropic raised an undisclosed amount IPO",
+      "item_id": "https://www.ft.com/content/24a35e41-2641-4cec-97f5-a974412f9952"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/radu2lupu/limitbreak"
+    },
+    {
+      "one_liner": "Reusable Web-agent verification requires a rule to follow changing requirements and support subsequent execution.",
+      "item_id": "https://arxiv.org/abs/2610.34634"
+    },
+    {
+      "one_liner": "I keep missing my AI agents requests for my attention.",
+      "item_id": "https://github.com/elbee19/glitchrupt"
+    },
+    {
+      "one_liner": "Axios and Bloomberg report Washington telling AI executives to quiet down \u2014 political cover vs industry messaging.",
+      "headline": "Is Washington telling AI executives to shut up \u2014 and why now?",
+      "item_id": "https://www.axios.com/2026/10/24/ai-ceos-washington-political-liability"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://opensparta.com/en"
+    },
+    {
+      "one_liner": "I originally made this addon 4 years ago, but recently discovered that coding agents love it.",
+      "item_id": "https://github.com/carson-katri/geometry-script"
+    },
+    {
+      "one_liner": "I\u2019m an avid user of mermaid but am constantly annoyed by their limitation that subgraphs do not follow direction if any internal.",
+      "item_id": "https://ramraj07.github.io/ra-mermaid"
+    },
+    {
+      "one_liner": "Ledge is free and open-source MacBook app that puts your idle notch into the work.",
+      "item_id": "https://ledgeapp.dev/"
+    },
+    {
+      "one_liner": "Recently, I have been playing around with GCS Rapid, a new API in GCS that lets you append to an existing object.",
+      "item_id": "https://github.com/fatlotus/sqlite-on-gcs-rapid"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/Hybirdss/Hycli"
+    },
+    {
+      "one_liner": "This is my own very opinionated take on personal accounting &x2F; budgeting for freelancers and small business owners operating in.",
+      "item_id": "https://github.com/finereli/open-accountant"
+    },
+    {
+      "one_liner": "Originally it was focused on getting swarms of coding agents (claude code&x2F;codex) to drive PRs towards a merge by automatically.",
+      "item_id": "https://optio.host/"
+    },
+    {
+      "one_liner": "As an avid user of cmux (https:&x2F;&x2F;cmux.com&x2F;), I wanted a way to control terminal and agent sessions from my Android phone.",
+      "item_id": "https://github.com/gantoine/muxer"
+    },
+    {
+      "one_liner": "I built Junior because I was spending more time fixing CI issues, babysitting PRs and resolving merge conflicts.",
+      "item_id": "https://github.com/usejunior-sh/junior"
+    },
+    {
+      "one_liner": "I have built an indie hacker project; my main flow was: 1.",
+      "item_id": "https://getrad.dev/"
+    },
+    {
+      "one_liner": "Speculative decoding checks several drafted tokens in one verification pass.",
+      "item_id": "https://arxiv.org/abs/2610.34440"
+    },
+    {
+      "one_liner": "Hey HN, I\u2019m open sourcing my Hurston-1 narrowband TTS model (Apache-2.0).",
+      "item_id": "https://huggingface.co/destined/hurston-1"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://qualitylayer.dev/"
+    },
+    {
+      "one_liner": "Xet [1] seems like a good idea in a world of ever more data hungry applications.",
+      "item_id": "https://github.com/stubbi/openxet"
+    },
+    {
+      "one_liner": "Vision-language models now grade robot videos, and text placed beside the frames can change their verdicts.",
+      "item_id": "https://arxiv.org/abs/2610.34151"
+    },
+    {
+      "one_liner": "It is hardly a shock that Grok AI\u2019s interpretation of Homer is as meaningless as a laptop screensaver.",
+      "item_id": "https://www.theguardian.com/film/2026/oct/27/elon-musk-ai-odyssey-movie-grok-christopher-nolan"
+    },
+    {
+      "one_liner": "Hi HN, I\u2019m building Hindsight, a free, open-source activity tracker for Windows and macOS.",
+      "item_id": "https://github.com/Tomotsugu-dev/Hindsight"
+    },
+    {
+      "one_liner": "Moonshot's Kimi K3.1 Pro extends the open-weight frontier another notch \u2014 a fast follow behind the flagship labs.",
+      "headline": "Moonshot ships **Kimi K3.1 Pro**",
+      "item_id": "https://www.kimi.com/en/blog/kimi-k3-1-pro"
+    },
+    {
+      "one_liner": "ReVault is a new, secure-by-default archive format called a lockbox, designed to be simple to use.",
+      "item_id": "https://news.ycombinator.com/item?id=50227527"
+    },
+    {
+      "one_liner": "An Agent Skill that teaches AI coding agents to write, review, tune, and convert YARA-L 2.0 detection rules for Google Security.",
+      "item_id": "https://github.com/ajaynyayapathi/yara-l-skill"
+    },
+    {
+      "one_liner": "Protoshot scans your css files and components and lets you write just some JSX to preview it.",
+      "item_id": "https://firmendaten.researchly.at/netzwerk"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/orgiggly/claude-plugin"
+    },
+    {
+      "one_liner": "A $400mn valuation for an AI venture founded by a former UK police officer \u2014 the froth end of the funding tape.",
+      "headline": "Ex-Merseyside founder raised an undisclosed amount",
+      "item_id": "https://www.ft.com/content/65a113b4-2a45-49cf-9e68-93f42151166e"
+    },
+    {
+      "one_liner": "DeepSeek launched their search API so I had to build a search engine on top of it.",
+      "item_id": "https://deepsearch.ing/"
+    },
+    {
+      "one_liner": "I developed a custom GPU kernel in Triton to accelerate training with a sparse feed-forward network (FFN).",
+      "item_id": "https://huggingface.co/JakCwi/eugen-sparse"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://github.com/DainoJung/omni-verify"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me"
+    },
+    {
+      "one_liner": "Im an engineer, but I also hate using tools that make things overcomplicated.",
+      "item_id": "https://perchfocus.com/"
+    },
+    {
+      "one_liner": "I started this project in 2024 when I got fascinated with LLMs, and what I did was a coding agent (CLI -> interactive -> GUI).",
+      "item_id": "https://github.com/gtanczyk/genaicode"
+    },
+    {
+      "one_liner": "Been using Raycast solely for its paste history feature.",
+      "item_id": "https://roush.io/paste-buff"
+    },
+    {
+      "one_liner": "When Apple announced the iPhone Duo I felt the same excitement that I had felt when I got my first iPhone, way back when.",
+      "item_id": "https://apps.apple.com/us/app/orisuji/id6817092898"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://jameswniu.github.io/multi-agent-causal-marriage-simulation"
+    },
+    {
+      "one_liner": "I could never get used to FreeCAD, so I built my own.",
+      "item_id": "https://github.com/eliasaronson/lobole"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://app.enclave.ai/threat-feed"
+    },
+    {
+      "one_liner": "Protein annotation agents must choose suitable bioinformatics tools, interpret their outputs, and use the resulting evidence in the.",
+      "item_id": "https://arxiv.org/abs/2610.33746"
+    },
+    {
+      "one_liner": "For quite some time Ive wanted to write a Visual Studio extension that shows both decimal and hex values while debugging.",
+      "item_id": "https://github.com/JochenBaier/AlwaysHex"
+    },
+    {
+      "one_liner": "The S-1 spells out Anthropic's growth story and its risk register \u2014 promise and peril spelled out at unusual length.",
+      "headline": "Anthropic raised an undisclosed amount",
+      "item_id": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-s1-dario-amodei.html"
+    },
+    {
+      "one_liner": "Bloomberg pulls the filing's numbers: revenue run-rate, compute commitments and the risk stack investors must price.",
+      "headline": "Anthropic raised an undisclosed amount IPO",
+      "item_id": "https://www.nytimes.com/2026/10/26/technology/anthropic-business-key-numbers.html"
+    },
+    {
+      "one_liner": "Tech company offers buyouts in an effort to reduce costs amid the rising use of AI, according to reports Microsoft announced that it.",
+      "item_id": "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset"
+    },
+    {
+      "one_liner": "The IPO carries the whole AI trade's credibility \u2014 nearly everything rides on the debut.",
+      "headline": "Anthropic raised an undisclosed amount",
+      "item_id": "https://www.nytimes.com/2026/10/26/technology/anthropic-going-public-stakes.html"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://mantid.dev/"
+    },
+    {
+      "one_liner": "The filing shows Anthropic's revenue compounding fast ahead of the IPO \u2014 the growth story underwriting the offering.",
+      "headline": "Anthropic raised an undisclosed amount IPO",
+      "item_id": "https://www.nytimes.com/2026/10/26/technology/anthropic-ipo-finances.html"
+    },
+    {
+      "one_liner": "Im building Multipeer, a desktop app for running agents, tools and working wth teammates on one shared canvas.",
+      "item_id": "https://covenant-common.github.io/covenant-docs"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://news.ycombinator.com/item?id=50220217"
+    },
+    {
+      "one_liner": "A month ago, I shared mini-AGI, an experiment in training a byte-level, continually learning language model from scratch on a single.",
+      "item_id": "https://news.ycombinator.com/item?id=50219762"
+    },
+    {
+      "one_liner": "LLM agents have been increasingly adopted for security-focused code review, but existing benchmarks mostly derive the reviewed.",
+      "item_id": "https://arxiv.org/abs/2610.33509"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://console.usetd.com/"
+    },
+    {
+      "one_liner": "I worked a lot with cloc, sloc and scc and used them in various prohects.",
+      "item_id": "https://github.com/insanai/ccm"
+    },
+    {
+      "one_liner": ".",
+      "item_id": "https://pilely.ai/"
+    },
+    {
+      "one_liner": "Learning visual design is essential for prompt enhancement (PE) to turn underspecified user requests into coherent visual.",
+      "item_id": "https://arxiv.org/abs/2610.33472"
+    },
+    {
+      "one_liner": "Launched a beta&x2F;buggy version of the SDK for web bot auth, and its live at https:&x2F;&x2F;messh.io Inspired by.",
+      "item_id": "https://messh.io/"
+    },
+    {
+      "one_liner": "GradientDeck \u2013 a design skill for coding agents.",
+      "item_id": "https://github.com/VenoM9078/gradientdeck-skill"
+    },
+    {
+      "one_liner": "Hi, Im a Privacy PM who has worked at Fortune 5 companies for most of my career.",
+      "item_id": "https://privacymeridian.org/"
+    }
+  ],
+  "briefing": {
+    "sentences": [
+      "Anthropic filed its S-1 to go public on Tuesday, the first IPO prospectus from a frontier model lab, and the week's coverage framed both its rapid growth and its unusually long risk register.",
+      "The filing headlined a week of AI dealmaking that also saw Foundry Robotics raise $100 million and compute provider IREN close a $363 million financing for high-density AI compute assets.",
+      "Amazon agreed to buy satellite operator Globalstar for $11.57 billion \u2014 a satellite footprint for its Leo network meant to challenge Starlink.",
+      "On the model side Google shipped Gemini 4 Carbon and DeepMind's Genie 4 world simulator, while Microsoft's MAI Image 2.7 debuted at No. 3 on Arena Edit.",
+      "Two labs claimed to refute the Exponential Time Hypothesis, but outside checkers said nobody can verify the proofs \u2014 the week's live debate over whether frontier AI claims are checkable at all.",
+      "AP and Reuters spent the week asking whether debt-funded AI capital expenditure can pay for itself \u2014 the open question over the entire AI buildout.",
+      "The AI basket finished the week mixed: semiconductors firm, Oracle soft on capex scrutiny, NVIDIA steady ahead of earnings."
+    ],
+    "supports": {
+      "0": [
+        "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+      ],
+      "1": [
+        "http://www.businesswire.com/news/home/20261028508802/en/Foundry-Robotics-Raises-100-Million-Series-A-to-Build-America%E2%80%99s-First-Autonomous-Factory-for-Assembly?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+        "http://www.businesswire.com/news/home/20261028683272/en/IREN-and-Wingspire-Equipment-Finance-Complete-363-Million-Financing-for-High-Density-AI-Compute-Assets?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D"
+      ],
+      "2": [
+        "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14",
+        "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27"
+      ],
+      "3": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+        "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+        "https://microsoft.ai/news/mai-image-2-7-debut"
+      ],
+      "4": [
+        "https://atlas.prashish.com/weeks/2026-10-26"
+      ],
+      "5": [
+        "https://apnews.com/article/stocks-markets-ai-earnings-oil-e11a2240fc3283c4507d44b9833f30a2"
+      ],
+      "6": [
+        "https://cbcglobe.com/en/articles/2026/10/27/breaking-tesla-surges-4-and-amd-over-5-on-nyse-nvidia-and-mi-4ca4b69e",
+        "https://exa.ai/library/markets/stock/AMD?date=2026-10-27&from=2026-10-19&view=series",
+        "https://exa.ai/library/markets/stock/AMZN?date=2026-10-27&from=2026-10-19&view=series",
+        "https://exa.ai/library/markets/stock/GOOGL?date=2026-10-27&from=2026-10-19&view=series"
+      ]
+    }
+  }
+}
