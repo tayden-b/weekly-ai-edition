@@ -46,6 +46,9 @@
   /* Card fills the scroller under the pinned progress row (not 100dvh). */
   min-height: 100%;
   padding-bottom: calc(var(--space-16) + env(safe-area-inset-bottom, 0px));
+  /* Skip layout/paint of offscreen card interiors; flex-basis keeps the
+     scroll track sized regardless. */
+  content-visibility: auto;
 }
 .w-deck-card:focus {
   outline: none;
