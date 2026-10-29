@@ -126,6 +126,12 @@ function fallbackOneLiner(cluster: ItemCluster): string {
   return first.length <= 140 ? first : `${first.slice(0, 137).trimEnd()}…`;
 }
 
+/** Feed titles can carry markdown emphasis ("**bold**") — headlines are
+ * plain text, so strip the markers rather than render them literally. */
+function stripHeadlineMarkup(headline: string): string {
+  return headline.replace(/\*\*/g, "").replace(/__/g, "");
+}
+
 /** The cluster's members as `EditionSource`s — always ≥1 for an emitted
  * item, hence the non-empty tuple the schema wants. */
 function editionSources(cluster: ItemCluster): [EditionSource, ...EditionSource[]] {
@@ -190,7 +196,7 @@ function buildPageItem<T extends DraftedCluster>(
   if (sources.length === 0) return undefined;
 
   const base = {
-    headline: draft.headline ?? cluster.item.headline,
+    headline: stripHeadlineMarkup(draft.headline ?? cluster.item.headline),
     one_liner: draft.one_liner ?? fallbackOneLiner(cluster),
     ...(draft.take !== undefined ? { take: draft.take } : {}),
     ...(classification.company_slugs.length > 0
@@ -597,7 +603,7 @@ export function emitEdition<T extends DraftedCluster>(
     pages: [
       {
         type: "cover",
-        headline: cover.cluster.draft.headline ?? cover.cluster.item.headline,
+        headline: stripHeadlineMarkup(cover.cluster.draft.headline ?? cover.cluster.item.headline),
         ...(cover.item.one_liner !== "" ? { deck: cover.item.one_liner } : {}),
       },
       { type: "briefing", sentences: [...sentences] },
