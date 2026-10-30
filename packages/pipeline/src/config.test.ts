@@ -109,9 +109,10 @@ describe("config/sources.yaml", () => {
       expect(byId.get(id)!.tier).toBe("secondary");
     }
 
-    // Markets — stooq enabled, fallbacks disabled per PLAN priority
-    expect(byId.get("stooq-weekly")!.enabled).toBe(true);
-    for (const id of ["alpha-vantage", "finnhub", "twelve-data"]) {
+    // Markets — yahoo enabled (live provider), stooq disabled (PoW-walled,
+    // kept for citation resolution/fallback), keyed fallbacks disabled
+    expect(byId.get("yahoo-weekly")!.enabled).toBe(true);
+    for (const id of ["stooq-weekly", "alpha-vantage", "finnhub", "twelve-data"]) {
       expect(byId.get(id), id).toBeDefined();
       expect(byId.get(id)!.enabled).toBe(false);
     }
@@ -218,8 +219,9 @@ describe("config/markets.json", () => {
   });
 
   it("keeps provider priority per PLAN §5.1 and ties to sources.yaml", () => {
-    expect(markets.provider).toBe("stooq-weekly");
+    expect(markets.provider).toBe("yahoo-weekly");
     expect(markets.provider_priority).toEqual([
+      "yahoo-weekly",
       "stooq-weekly",
       "alpha-vantage",
       "finnhub",
