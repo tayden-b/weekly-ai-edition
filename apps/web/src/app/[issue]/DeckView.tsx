@@ -104,7 +104,9 @@ export function DeckView({
   const scrollToIndex = useCallback(
     (target: number, viaKeyboard = false) => {
       const el = deckEl();
-      if (!el) return;
+      // clientWidth === 0 means the sibling layer owns the viewport
+      // (deck.css display:none) — never move focus into it.
+      if (!el || el.clientWidth === 0) return;
       const clamped = Math.max(0, Math.min(total - 1, target));
       keyboardNav.current = viaKeyboard;
       const settle = () => {
@@ -161,6 +163,8 @@ export function DeckView({
     };
     const onKey = (e: globalThis.KeyboardEvent) => {
       if (e.defaultPrevented) return;
+      // Hidden half of the split — leave the keys to the visible layer.
+      if (el.clientWidth === 0) return;
       const target = e.target as HTMLElement | null;
       if (
         target?.closest("input, textarea, select, [contenteditable='true']")

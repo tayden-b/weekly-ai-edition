@@ -124,4 +124,22 @@ test.describe("desktop front page", () => {
     await page.keyboard.press("Escape");
     await expect(sheet).toBeHidden();
   });
+
+  test("hidden deck captures no keys — End/Home scroll natively", async ({
+    page,
+  }) => {
+    await page.goto(ISSUE, { waitUntil: "networkidle" });
+    // Confirms the chrome is hydrated; the deck hydrates in the same pass.
+    await jumpOnce(page);
+    await settleScroll(page);
+
+    // Before the gate, the display:none deck's document-level keydown
+    // preventDefault'd Arrow/Home/End, killing the browser's own scrolling.
+    await page.evaluate(() => window.scrollTo(0, 0));
+    await page.keyboard.press("End");
+    await expect.poll(() => scrollY(page)).toBeGreaterThan(0);
+    await page.keyboard.press("Home");
+    await expect.poll(() => scrollY(page)).toBe(0);
+    await expect(page.locator(".issue-split__deck :focus")).toHaveCount(0);
+  });
 });

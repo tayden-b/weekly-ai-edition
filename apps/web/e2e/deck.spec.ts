@@ -105,6 +105,27 @@ test.describe("mobile deck", () => {
     );
   });
 
+  test("hidden front-page layer captures no keys", async ({ page }) => {
+    await page.goto(ISSUE, { waitUntil: "networkidle" });
+    await ensureHydrated(page);
+
+    // `?` must not toggle the desktop shortcuts sheet while its layer is
+    // display:none — before the gate it mounted invisibly and swallowed
+    // later j/k presses via `sheetOpen`.
+    await page.keyboard.press("?");
+    await expect(
+      page.getByRole("dialog", { name: "Keyboard shortcuts" }),
+    ).toHaveCount(0);
+
+    // Nor may the toggle latch: widening to the front-page breakpoint
+    // must reveal no sheet.
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await expect(page.locator(".issue-split__frontpage")).toBeVisible();
+    await expect(
+      page.getByRole("dialog", { name: "Keyboard shortcuts" }),
+    ).toHaveCount(0);
+  });
+
   test("tap zones: right edge advances, left third goes back", async ({
     page,
   }) => {
