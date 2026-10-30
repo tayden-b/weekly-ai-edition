@@ -183,6 +183,12 @@ function emitItemPage<T extends DraftedCluster>(
   // absorbs spellings like "Amazon Leo" vs "Amazon") equals one. The
   // survivor keeps the slot and inherits the dup's distinct sources.
   const dealSurvivor = new Map<string, number>();
+  // i163: the same guard for models — one release covered by disjoint
+  // outlet headlines survives as separate clusters. A later cluster is
+  // the same release when its extracted `version` matches a survivor's
+  // normalized version AND the company-slug sets overlap; a versionless
+  // cluster yields no keys and never merges.
+  const modelSurvivor = new Map<string, number>();
 
   for (const cluster of pool) {
     if (out.length >= cap) break;
@@ -194,10 +200,19 @@ function emitItemPage<T extends DraftedCluster>(
       const keys = dealClusterKeys(cluster);
       const survivorAt = keys.map((k) => dealSurvivor.get(k)).find((i) => i !== undefined);
       if (survivorAt !== undefined) {
-        mergeDealSources(out[survivorAt]!.item as EditionItemDeal, cluster);
+        mergeItemSources(out[survivorAt]!.item as EditionItemDeal, cluster);
         continue;
       }
       for (const k of keys) dealSurvivor.set(k, out.length);
+    }
+    if (page === "models") {
+      const keys = modelClusterKeys(cluster);
+      const survivorAt = keys.map((k) => modelSurvivor.get(k)).find((i) => i !== undefined);
+      if (survivorAt !== undefined) {
+        mergeItemSources(out[survivorAt]!.item as EditionItemNumbered, cluster);
+        continue;
+      }
+      for (const k of keys) modelSurvivor.set(k, out.length);
     }
     seenHeadline.add(key);
     out.push({ item, cluster });
@@ -226,9 +241,24 @@ function dealClusterKeys(cluster: DraftedCluster): string[] {
   return keys;
 }
 
-/** Fold a dropped same-deal cluster's distinct sources (by URL) and company
+/** The dedupe keys a models cluster answers to: `model:<slug>|<norm-version>`
+ * for each classified company slug — so matching needs the same normalized
+ * version AND at least one shared slug. No version or no slugs → no keys →
+ * the cluster can neither merge nor be merged into. */
+function modelClusterKeys(cluster: DraftedCluster): string[] {
+  const version = cluster.extraction?.fields["version"]?.value;
+  if (version === undefined || version === null) return [];
+  const norm = dealNorm(String(version));
+  if (norm === "") return [];
+  return cluster.classification.company_slugs.map((slug) => `model:${slug}|${norm}`);
+}
+
+/** Fold a dropped same-story cluster's distinct sources (by URL) and company
  * slugs into the surviving item — the slot collapses, the links stay. */
-function mergeDealSources(item: EditionItemDeal, cluster: DraftedCluster): void {
+function mergeItemSources(
+  item: { sources: EditionSource[]; companies?: string[] },
+  cluster: DraftedCluster,
+): void {
   const have = new Set(item.sources.map((s) => s.url));
   for (const s of editionSources(cluster)) {
     if (!have.has(s.url)) item.sources.push(s);

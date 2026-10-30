@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2500" viewBox="0 0 2000 2500">
   
-  <filter id="soft"><feGaussianBlur stdDeviation="47"/></filter>
-  <rect width="2000" height="2500" fill="#EEF0EB"/>
-  <g filter="url(#soft)"><ellipse cx="308.08" cy="1271.8" rx="1169.34" ry="991.36" fill="#E0E5DD" opacity="0.64"/><ellipse cx="942.6" cy="378.83" rx="1109.3" ry="1144.23" fill="#CCD5C6" opacity="0.91"/><ellipse cx="274.25" cy="1943.79" rx="1238.28" ry="849.53" fill="#B4C1AC" opacity="0.89"/><ellipse cx="825.16" cy="427.9" rx="845.12" ry="1153.25" fill="#9DAE96" opacity="0.85"/><ellipse cx="1604.93" cy="1736.83" rx="220" ry="225" fill="#B4653C" opacity="0.72"/></g>
+  <filter id="soft"><feGaussianBlur stdDeviation="52"/></filter>
+  <rect width="2000" height="2500" fill="#F1EDE3"/>
+  <g filter="url(#soft)"><ellipse cx="1439.15" cy="2253.96" rx="855.95" ry="1327.05" fill="#E7DFCA" opacity="0.93"/><ellipse cx="273.65" cy="509.72" rx="815.1" ry="1435.67" fill="#DCCFB2" opacity="0.72"/><ellipse cx="1648.72" cy="2099.19" rx="927.08" ry="1440.34" fill="#CABD9D" opacity="0.65"/><ellipse cx="315.36" cy="1750.67" rx="220" ry="225" fill="#B86038" opacity="0.72"/></g>
   
   <linearGradient id="light" x1="1" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="white" stop-opacity="0.14"/>
@@ -11,9 +11,9 @@
   <rect width="2000" height="2500" fill="url(#light)"/>
   
   <filter id="grain" x="0%" y="0%" width="100%" height="100%">
-    <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" seed="53749" stitchTiles="stitch"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" seed="39045" stitchTiles="stitch"/>
     <feColorMatrix type="saturate" values="0"/>
-    <feComponentTransfer><feFuncA type="linear" slope="0.07" intercept="0"/></feComponentTransfer>
+    <feComponentTransfer><feFuncA type="linear" slope="0.09" intercept="0"/></feComponentTransfer>
     <feComposite operator="in" in2="SourceGraphic"/>
   </filter>
   <radialGradient id="vignette" cx="50%" cy="42%" r="75%">

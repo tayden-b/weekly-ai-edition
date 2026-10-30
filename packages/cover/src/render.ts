@@ -60,12 +60,14 @@ export async function renderCoverArt(
     .toBuffer();
 
   // PNG cannot compress the fine feTurbulence grain inside budget, so a
-  // median(3) pass folds the sub-pixel noise back into the fields before
+  // median(4) pass folds the sub-pixel noise back into the fields before
   // palette quantization — the soft geometry is untouched, the pigment
-  // texture survives at larger scales, and 1200×630 lands under 200KB.
+  // texture survives at larger scales, and 1200×630 lands under 200KB
+  // (median(3) fit the emitted art until i163's content change pushed the
+  // OG 1.4KB over; 4 leaves ~48KB of headroom for future seeds).
   const og = await sharp(Buffer.from(ogSvg, "utf8"), { density: 96 })
     .resize(ogSize.width, ogSize.height)
-    .median(3)
+    .median(4)
     .png({ compressionLevel: 9, palette: true, colours: 160, dither: 0.6 })
     .toBuffer();
 
