@@ -1,14 +1,14 @@
 {
   "adapter": "benchmarks",
   "source": "hf-open-llm-leaderboard",
-  "fetched_at": "2026-10-30T01:26:29.424Z",
+  "fetched_at": "2026-10-30T16:58:37.362Z",
   "items": [
     {
       "headline": "Open LLM Leaderboard - a Hugging Face Space by open-llm-leaderboard",
       "canonical_url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
       "publisher": "Hugging Face",
-      "published_at": "2026-10-30T01:26:29.474Z",
-      "fetched_at": "2026-10-30T01:26:29.474Z",
+      "published_at": "2026-10-30T16:58:37.413Z",
+      "fetched_at": "2026-10-30T16:58:37.413Z",
       "excerpt": "This app lets you explore an interactive leaderboard of open‑source large language models and see how they perform on a range of tests such as IFEval, BBH, MATH, GPQA, MUSR, and MMLU‑PRO. You can f...",
       "source_ids": {
         "benchmark_source": "hf-open-llm-leaderboard"

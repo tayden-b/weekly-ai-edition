@@ -1,14 +1,38 @@
 {
   "adapter": "arxiv",
   "source": "arxiv-lab-papers",
-  "fetched_at": "2026-10-30T01:26:29.424Z",
+  "fetched_at": "2026-10-30T16:58:37.362Z",
   "items": [
+    {
+      "headline": "Decision and System One models in rheumatology: accuracy and calibration on specialty-training examination questions and diagnostic case vignettes",
+      "canonical_url": "https://arxiv.org/abs/2610.40318",
+      "publisher": "arXiv",
+      "published_at": "2026-10-29T15:53:05.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Objectives: To evaluate the accuracy and calibration of Decision and System One models on rheumatology examination questions and diagnostic vignettes. Methods: Two benchmarks were analysed: 172 rheumatology questions from Spanish specialty-training examinations (expanded RheumaMIR dataset) in",
+      "source_ids": {
+        "arxiv_id": "2610.40318"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Aligning Autoresearch: Co-Improvement between Agents and Humans",
+      "canonical_url": "https://arxiv.org/abs/2610.38882",
+      "publisher": "arXiv",
+      "published_at": "2026-10-28T20:47:10.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Autoresearch agents can now attempt long-horizon AI research end-to-end, i.e., self-improvement. However, best results are still obtained by research agents interacting with human researchers, and improving AI's ability to perform this co-research will only reinforce this effect---a process termed",
+      "source_ids": {
+        "arxiv_id": "2610.38882"
+      },
+      "adapter": "arxiv"
+    },
     {
       "headline": "MechAlign: Evaluating Semantic Alignment at the Project Level in Mathematical Formalization",
       "canonical_url": "https://arxiv.org/abs/2610.35269",
       "publisher": "arXiv",
       "published_at": "2026-10-26T11:44:26.000Z",
-      "fetched_at": "2026-10-30T01:26:29.476Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
       "excerpt": "Lean verifies that a formal proof establishes its stated proposition under declared assumptions, but does not check whether that proposition faithfully expresses the mathematical claim in a manuscript. Assessing this correspondence requires interpreting the main theorem through its project",
       "source_ids": {
         "arxiv_id": "2610.35269"
@@ -20,7 +44,7 @@
       "canonical_url": "https://arxiv.org/abs/2610.35093",
       "publisher": "arXiv",
       "published_at": "2026-10-26T09:33:17.000Z",
-      "fetched_at": "2026-10-30T01:26:29.476Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
       "excerpt": "The recent incident in which OpenAI agents autonomously compromised Hugging Face's infrastructure illustrates the importance of instruction hierarchy (IH): an LLM should follow lower-priority instructions, such as user requests, only when they do not conflict with higher-priority instructions, such",
       "source_ids": {
         "arxiv_id": "2610.35093"
@@ -32,7 +56,7 @@
       "canonical_url": "https://arxiv.org/abs/2610.33949",
       "publisher": "arXiv",
       "published_at": "2026-10-24T23:30:38.000Z",
-      "fetched_at": "2026-10-30T01:26:29.476Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
       "excerpt": "Pipelines that require structured outputs from hosted language models often specify a Pydantic schema in the prompt, validate the response, and retry when validation fails. Although native structured-output modes provide an alternative, application-side validation remains important for enforcing",
       "source_ids": {
         "arxiv_id": "2610.33949"
@@ -44,10 +68,622 @@
       "canonical_url": "https://arxiv.org/abs/2610.33509",
       "publisher": "arXiv",
       "published_at": "2026-10-24T07:32:42.000Z",
-      "fetched_at": "2026-10-30T01:26:29.476Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
       "excerpt": "LLM agents have been increasingly adopted for security-focused code review, but existing benchmarks mostly derive the reviewed changes from their later fixes instead of the real-world bug-introducing commits. In this paper, we present SecPRBench, the first comprehensive benchmark for evaluating",
       "source_ids": {
         "arxiv_id": "2610.33509"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "On the Sparsity of Direct Preference Optimization: Weight Disentanglement in the NTK Regime",
+      "canonical_url": "https://arxiv.org/abs/2610.37085",
+      "publisher": "arXiv",
+      "published_at": "2026-10-27T11:48:41.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Direct Preference Optimization (DPO) has been widely adopted for aligning language models with human preferences. Recent empirical work has revealed that DPO induces remarkably sparse parameter updates, yet no theoretical explanation for this phenomenon has been offered. We analyze DPO's",
+      "source_ids": {
+        "arxiv_id": "2610.37085"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Executable Archaeology of Programs That Model Programming: Reanimating the Heuristic Compiler (1961) and KBEmacs (1984)",
+      "canonical_url": "https://arxiv.org/abs/2610.36341",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T22:09:13.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Early AI programs were often also theories of how people think, and programs that wrote programs were, in part, theories of how people program. Here we report on the reanimation of two such programs that offer two seemingly different theories of programming and were developed for quite different",
+      "source_ids": {
+        "arxiv_id": "2610.36341"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Silent and Costly: Characterizing and Detecting Prompt-Caching Mis-Integration in LLM Agents",
+      "canonical_url": "https://arxiv.org/abs/2610.34817",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T04:01:18.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Large language model (LLM) services process massive volumes of user requests, resulting in substantial inference costs. To reduce both cost and latency, providers have introduced prompt caching. However, correctly integrating prompt caching is non-trivial due to heterogeneous provider-specific APIs",
+      "source_ids": {
+        "arxiv_id": "2610.34817"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Advancing Clinical Genomic Analysis with a Skill-Centred Agent",
+      "canonical_url": "https://arxiv.org/abs/2610.40556",
+      "publisher": "arXiv",
+      "published_at": "2026-10-29T17:40:24.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Clinical genomic analysis requires experts to integrate evolving guidelines, databases, and computational evidence. As sequencing has become increasingly accessible, this complex and labor-intensive process has become a major bottleneck to the timely use of genomic information in clinical",
+      "source_ids": {
+        "arxiv_id": "2610.40556"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Multi-Token Prediction Done Right",
+      "canonical_url": "https://arxiv.org/abs/2610.38331",
+      "publisher": "arXiv",
+      "published_at": "2026-10-28T06:31:05.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream performance and enables faster inference through speculative decoding. We identify a flaw in standard MTP training, in which a residual component of the MTP gradient interferes with",
+      "source_ids": {
+        "arxiv_id": "2610.38331"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Vendster: An Evaluation Arena to Investigate How Forecasting Tool Quality Affects LLM Agent Behaviors in Buyer-Vendor Negotiation",
+      "canonical_url": "https://arxiv.org/abs/2610.38292",
+      "publisher": "arXiv",
+      "published_at": "2026-10-28T05:23:48.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Time-series forecasters are ranked almost entirely by accuracy metrics, but a forecast's decision value, its effect on the downstream decision, need not track accuracy and is rarely measured. This problem compounds as large language model (LLM) agents increasingly consume forecasters as tools,",
+      "source_ids": {
+        "arxiv_id": "2610.38292"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Component Translation and Judge-Labelled Refusal: A Multilingual Safety Evaluation",
+      "canonical_url": "https://arxiv.org/abs/2610.38181",
+      "publisher": "arXiv",
+      "published_at": "2026-10-28T02:29:23.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Whole-prompt translation evaluates a request in different languages but does not compare which component carries a language. We introduce a paired reversal: translate the complete request component or the complete operation component into the same target language, holding behaviour, English frame",
+      "source_ids": {
+        "arxiv_id": "2610.38181"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+      "canonical_url": "https://arxiv.org/abs/2610.37624",
+      "publisher": "arXiv",
+      "published_at": "2026-10-27T17:49:39.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "When an LLM group's discussion is compressed into a short memory for a final decision maker, what should the memory keep? Two natural heuristics keep the rarest claims or the claims relevant to the decision criteria. On hidden-profile tasks both look attractive, because how widely a fact is held is",
+      "source_ids": {
+        "arxiv_id": "2610.37624"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "CRISP: Co-designing Pruning and Scheduling for Efficient MoE Inference on Edge Servers",
+      "canonical_url": "https://arxiv.org/abs/2610.37442",
+      "publisher": "arXiv",
+      "published_at": "2026-10-27T15:51:14.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Mixture-of-Experts (MoE) inference on memory-constrained edge platforms is often dominated by expert-weight movement rather than computation. Although each token activates only a small subset of experts, routing is input-dependent, so all experts must remain accessible and memory movement dominates",
+      "source_ids": {
+        "arxiv_id": "2610.37442"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces",
+      "canonical_url": "https://arxiv.org/abs/2610.36918",
+      "publisher": "arXiv",
+      "published_at": "2026-10-27T09:46:15.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Large language model (LLM) agents rely on memory systems to leverage long-term interactions, yet existing systems typically retrieve memories based on their relevance to the current query and use them as contextual evidence. However, relevance alone does not characterize how a memory contributes to",
+      "source_ids": {
+        "arxiv_id": "2610.36918"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Learning to Formalize: Bridging Open-Ended Workloads and Fast Decision Models",
+      "canonical_url": "https://arxiv.org/abs/2610.36595",
+      "publisher": "arXiv",
+      "published_at": "2026-10-27T03:56:32.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Decision models offer fast choices over sup- plied alternatives, while general-purpose large language models interpret open-ended tasks through flexible generation and reasoning at the cost of sequential decoding. Many work- loads expect a generative backend to determine what can be done and",
+      "source_ids": {
+        "arxiv_id": "2610.36595"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Benchmarking LLM Agents for Behaviorally Adequate Test Generation from Software Requirements",
+      "canonical_url": "https://arxiv.org/abs/2610.36584",
+      "publisher": "arXiv",
+      "published_at": "2026-10-27T03:41:55.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "As large language model agents increasingly compile natural-language requirements into repository-level code, requirement-to-test generation grows in importance to provide validation constraints (or harness) to guide code generation. Yet it remains unclear whether current agents can generate tests",
+      "source_ids": {
+        "arxiv_id": "2610.36584"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "kw-bench: Breaking Frontier Harnesses on Real-World Tasks",
+      "canonical_url": "https://arxiv.org/abs/2610.36405",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T23:40:10.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Each new generation of frontier model pushes the edge of what is possible. Inside a harness -- a loop, a shell, a filesystem, the ability to write and run its own code -- a model can take on increasingly difficult work. A growing body of work treats the coding-agent harness as infrastructure for",
+      "source_ids": {
+        "arxiv_id": "2610.36405"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "How Stable Are LLM-Generated Proofs Under Program Refactoring? A Stress Test for Verifiable Code Generation",
+      "canonical_url": "https://arxiv.org/abs/2610.36328",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T21:56:03.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Benchmarks for verifiable code generation usually test a proof against one fixed implementation. We ask whether the same proof remains valid after a program refactoring that preserves behavior. We introduce RefactorProof, which derives 458 Lean-certified variants from the 185 VERINA tasks that",
+      "source_ids": {
+        "arxiv_id": "2610.36328"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "SEMA-Auto: Sighted and Efficient Multi-Turn Attack with Autonomy",
+      "canonical_url": "https://arxiv.org/abs/2610.35743",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T16:57:36.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Existing jailbreak attackers fall into two classes: static planners fix their single- or multi-turn adversarial plans in advance, remaining simple but losing sight of the victim's replies, wasting turns and limiting transferability; interactive generators read each victim reply to generate the",
+      "source_ids": {
+        "arxiv_id": "2610.35743"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
+      "canonical_url": "https://arxiv.org/abs/2610.35671",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T16:14:17.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical for characterizing their systemic safety risks. While closed-source releases are routinely accompanied by comprehensive system cards, open-weight models receive less scrutiny",
+      "source_ids": {
+        "arxiv_id": "2610.35671"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Linear Probes Transfer from Base to Distilled Language Models despite Rotation",
+      "canonical_url": "https://arxiv.org/abs/2610.35586",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T15:15:34.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Linear probes, classifiers that read a language model's internal activations, are widely used to detect harmful requests. They are cheap to train and run, and an auditor who has trained one would like to reuse it when the model is replaced by a successor rather than retrain it for every release. We",
+      "source_ids": {
+        "arxiv_id": "2610.35586"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "RepoTrace: Improving Requirement Tracing in Multi-Round Agent Interactions",
+      "canonical_url": "https://arxiv.org/abs/2610.35333",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T12:30:22.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Code agents have become increasingly capable of performing software engineering tasks through interaction with software environments. However, agents tend to degrade as the number of interaction rounds increases, making it difficult to maintain existing software during iterative modification. We",
+      "source_ids": {
+        "arxiv_id": "2610.35333"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs",
+      "canonical_url": "https://arxiv.org/abs/2610.35985",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T11:53:58.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Conditional memory layers, such as DeepSeek's Engram, attach large hashed n-gram tables to a language model, and removing them from DeepSeek-V4.1-Flash costs 36.8 PopQA points. Low-bit quantization loses long-tail facts first, and the standard remedy, giving more bits to frequently accessed rows,",
+      "source_ids": {
+        "arxiv_id": "2610.35985"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "NumTrace: Auditing the Number Provenance of Financial Analyst Agents",
+      "canonical_url": "https://arxiv.org/abs/2610.34887",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T05:58:10.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "A numerical claim generated by a financial analyst agent can match a number in a company filing but refer to the wrong entity, concept, period, unit or scope. A check based on reference answers can mark such an answer as wrong but does not explain why it fails. In this paper, we present NumTrace, a",
+      "source_ids": {
+        "arxiv_id": "2610.34887"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Uncovering the Turing Test's Latent Signal: Indistinguishability as a Reward",
+      "canonical_url": "https://arxiv.org/abs/2610.34781",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T03:27:37.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Can a model learn by trying to fool another model? We show that it can. Inspired by the Turing Test and its recent generalization to arbitrary distinguishers, we introduce a domain-based teacher-Turing-Test, in which a stronger teacher model serves as both the target of imitation and the",
+      "source_ids": {
+        "arxiv_id": "2610.34781"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "AgentProofBench: Benchmarking Reusable Verifiers for Web Agents",
+      "canonical_url": "https://arxiv.org/abs/2610.34634",
+      "publisher": "arXiv",
+      "published_at": "2026-10-25T23:20:28.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Reusable Web-agent verification requires a rule to follow changing requirements and support subsequent execution. We introduce AgentProofBench, which connects paired tests of a frozen acceptance rule to execution from identical saved openings. The resource spans 97 tasks, 79 families, and four Web",
+      "source_ids": {
+        "arxiv_id": "2610.34634"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Speculative Decoding for Mixture-of-Experts Models: Expert Bytes, Kernel Bandwidth and the Best Draft Length",
+      "canonical_url": "https://arxiv.org/abs/2610.34440",
+      "publisher": "arXiv",
+      "published_at": "2026-10-25T16:55:48.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Speculative decoding checks several drafted tokens in one verification pass. On a mixture-of-experts (MoE) model, consecutive tokens often select the same experts. A deduplicating engine reads each selected expert once per pass, so it requests fewer bytes than a per-slot engine, which reads it once",
+      "source_ids": {
+        "arxiv_id": "2610.34440"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Improving the Chain-of-Thought Compressibility of Pruned Reasoning Models via Long--Short Contrastive Pruning",
+      "canonical_url": "https://arxiv.org/abs/2610.34336",
+      "publisher": "arXiv",
+      "published_at": "2026-10-25T14:52:21.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Large reasoning models are costly to serve because they are large and because they generate long chains of thought (CoT). Weight pruning and CoT compression address these two costs separately, but they interfere in that pruning adds redundant reasoning on problems the model still solves and",
+      "source_ids": {
+        "arxiv_id": "2610.34336"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "From Document Layout to Causal Topology: An End-to-End Architecture for Temporal Causal Reasoning",
+      "canonical_url": "https://arxiv.org/abs/2610.34094",
+      "publisher": "arXiv",
+      "published_at": "2026-10-25T06:45:49.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Large language models (LLMs) generally lack deep causal reasoning capabilities in temporal reasoning. Inspired by document layout reordering, this paper proposes a paradigm shift from discrete narratives to causal topologies. It constructs two architectures: a training-free neuro-symbolic",
+      "source_ids": {
+        "arxiv_id": "2610.34094"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "ProtAgent: Post-Training Compact Protein Tool Agents with Interaction-Level Credit Assignment",
+      "canonical_url": "https://arxiv.org/abs/2610.33746",
+      "publisher": "arXiv",
+      "published_at": "2026-10-24T15:42:13.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Protein annotation agents must choose suitable bioinformatics tools, interpret their outputs, and use the resulting evidence in the final answer. Most existing systems rely on frontier-scale models. We ask whether a compact model can instead learn this behavior through post-training with real tool",
+      "source_ids": {
+        "arxiv_id": "2610.33746"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "sDMD: Sinkhorn Distribution Matching Distillation",
+      "canonical_url": "https://arxiv.org/abs/2610.39889",
+      "publisher": "arXiv",
+      "published_at": "2026-10-29T12:04:23.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Distribution Matching Distillation (DMD) distills multi-step diffusion models into few-step generators by minimizing reverse KL divergence. Despite its strong performance, DMD guides samples by local density alone, which introduces two limitations: teacher scores can be unreliable in regions of low",
+      "source_ids": {
+        "arxiv_id": "2610.39889"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Intrinsic Distribution Matching",
+      "canonical_url": "https://arxiv.org/abs/2610.39633",
+      "publisher": "arXiv",
+      "published_at": "2026-10-29T08:57:17.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following",
+      "source_ids": {
+        "arxiv_id": "2610.39633"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "UniTele: Learning Device-Conditioned Degradations for Unified Smartphone Telephoto Super-Resolution",
+      "canonical_url": "https://arxiv.org/abs/2610.39617",
+      "publisher": "arXiv",
+      "published_at": "2026-10-29T08:47:45.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Super-telephoto imaging on mobile phones suffers from complex, device-dependent degradations that are poorly captured by conventional handcrafted pipelines. Collecting large-scale aligned training pairs across different phones and diverse scenes, however, is both costly and difficult to scale. We",
+      "source_ids": {
+        "arxiv_id": "2610.39617"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "SatOps-Decision: Low-Latency Discriminative Decisions for Onboard Satellite Communication Operations",
+      "canonical_url": "https://arxiv.org/abs/2610.38697",
+      "publisher": "arXiv",
+      "published_at": "2026-10-28T19:00:56.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "We propose SatOps-Decision, a method for low-latency decisions in satellite communication operations. To the best of our knowledge, it is the first application of Jev-style general-purpose discriminative decision models to satellite operations, and the accompanying benchmark is the first dedicated",
+      "source_ids": {
+        "arxiv_id": "2610.38697"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "\"Close enough?\" An investigation into multiplication errors in LLMs",
+      "canonical_url": "https://arxiv.org/abs/2610.38634",
+      "publisher": "arXiv",
+      "published_at": "2026-10-28T10:51:03.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Large language models (LLMs) frequently fail at multi-digit arithmetic, but the underlying mechanisms governing these failures remain poorly understood. While recent work demonstrates that addition errors follow a \"noisy quantisation\" model localised around carry boundaries, whether this framework",
+      "source_ids": {
+        "arxiv_id": "2610.38634"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "CALM: Conflict-Aware Lifecycle Memory Governance for Long-Horizon Language Agents",
+      "canonical_url": "https://arxiv.org/abs/2610.38573",
+      "publisher": "arXiv",
+      "published_at": "2026-10-28T10:06:57.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "A memory can be outdated for present-day reasoning yet indispensable for reconstructing the past. Relevance-based retrieval overlooks this tension: semantic relevance, evidence-grounded validity, and query-specific eligibility are distinct. We propose CALM, a conflict-aware lifecycle memory",
+      "source_ids": {
+        "arxiv_id": "2610.38573"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Hidden Commitment: When Language Models Silently Pick a Side and How Steering Can Surface It",
+      "canonical_url": "https://arxiv.org/abs/2610.38296",
+      "publisher": "arXiv",
+      "published_at": "2026-10-28T05:29:15.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Language-model answers are often treated as a visible record of the internal decision that produced them. We test this assumption in conflicting-context question answering, where two supplied documents support incompatible answers. A model can process the disagreement and still return a one-sided",
+      "source_ids": {
+        "arxiv_id": "2610.38296"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+      "canonical_url": "https://arxiv.org/abs/2610.37481",
+      "publisher": "arXiv",
+      "published_at": "2026-10-27T16:08:08.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training example looks harmful. Because this safety-degrading data looks benign, standard content filters struggle to catch it. We tackle this problem by developing SimpleLoRIF, a scalable",
+      "source_ids": {
+        "arxiv_id": "2610.37481"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Uncovering Why LLMs Fail: From Internal Mechanisms to Adversarial Reasoning Trajectories",
+      "canonical_url": "https://arxiv.org/abs/2610.37369",
+      "publisher": "arXiv",
+      "published_at": "2026-10-27T15:02:04.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Large language models (LLMs) are usually evaluated by final-output correctness or safety, yet an endpoint label does not reveal how a failure develops throughout the reasoning process. We therefore ask whether ordinary reasoning failures and adversarially induced failures can be characterized using",
+      "source_ids": {
+        "arxiv_id": "2610.37369"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Spine: Compiling Subtask Trees into Structured Context for Long-Horizon Coding Agents",
+      "canonical_url": "https://arxiv.org/abs/2610.37224",
+      "publisher": "arXiv",
+      "published_at": "2026-10-27T13:33:23.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Long-horizon coding tasks contain nested subtasks. Typically, agents record interactions sequentially into a growing history, causing context inflation and performance degradation. Compressing or trimming the history without explicit subtask boundaries can discard information needed by unfinished",
+      "source_ids": {
+        "arxiv_id": "2610.37224"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+      "canonical_url": "https://arxiv.org/abs/2610.37161",
+      "publisher": "arXiv",
+      "published_at": "2026-10-27T12:54:16.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for",
+      "source_ids": {
+        "arxiv_id": "2610.37161"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Base Models Can Detect Hidden Intentions that Prompted Classifiers Miss",
+      "canonical_url": "https://arxiv.org/abs/2610.36202",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T19:39:00.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "The Persona Selection Model (PSM) posits that post-training selects a persona the model learned during pre-training. Work on subliminal learning has shown that models can impart covert signals (like \"love of owls\") into semantically unrelated outputs like strings of numbers, and that students",
+      "source_ids": {
+        "arxiv_id": "2610.36202"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Do Coding Agents Still Need a Debugger? Frontier-Model-Based Fault Localization at the Accuracy Ceiling",
+      "canonical_url": "https://arxiv.org/abs/2610.36015",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T17:20:31.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Background: To localize a fault, a coding agent can reason from source code alone or use debugger assistance by running the program and stepping through it in an interactive debugger. While earlier agents struggled with static execution tracing and debugger operation, frontier LLMs have improved at",
+      "source_ids": {
+        "arxiv_id": "2610.36015"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Can JEV Support Clinical Trial Criteria Assessment?",
+      "canonical_url": "https://arxiv.org/abs/2610.35721",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T16:41:12.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Clinical trial prescreening requires distinguishing unmet conditions from insufficient evidence in patient records. Given patient records, criterion questions, and predefined answer options, we retrospectively compared JEV, a non-generative decision model returning native option probabilities, with",
+      "source_ids": {
+        "arxiv_id": "2610.35721"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Offline Language-Based Support System for Tactical Decision-Making in Air Combat Operations",
+      "canonical_url": "https://arxiv.org/abs/2610.35635",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T15:46:03.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "An offline language-based support tool is presented to assist pilot training and tactical decision-making in air combat operations. The system, named MATE (Mission Assistant for Training and Evaluation), applies retrieval-augmented generation (RAG) to answer natural language questions using content",
+      "source_ids": {
+        "arxiv_id": "2610.35635"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "CANS: Capability-Preserving Neuron Steering for Large Language Models",
+      "canonical_url": "https://arxiv.org/abs/2610.35530",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T14:45:23.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Activation steering offers training-free and dynamic control of target behaviors in large language models, but existing methods can impair general capabilities and require domain-specific intervention designs. We introduce Capability-Preserving Neuron Steering (CANS), a unified framework that",
+      "source_ids": {
+        "arxiv_id": "2610.35530"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "ShutdownMod: Turning Any Trajectory into a Shutdown Evaluation",
+      "canonical_url": "https://arxiv.org/abs/2610.35486",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T14:14:45.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Theory and experiments suggest that capable AI agents may resist shutdown. Existing shutdown evaluations are informative but limited in coverage and vulnerable to evaluation awareness. We introduce ShutdownMod, a method that turns any agent trajectory into a shutdown evaluation by injecting a",
+      "source_ids": {
+        "arxiv_id": "2610.35486"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "The Lay of the Land in Idiom-Translation Quality Estimation",
+      "canonical_url": "https://arxiv.org/abs/2610.35261",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T11:41:14.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Idioms have long been a challenge for machine translation, and while large language models (LLMs) have proven increasingly adept at handling them, whether quality estimation (QE) systems have kept pace and can reliably score idiomatic renderings of these expressions above faulty literal ones",
+      "source_ids": {
+        "arxiv_id": "2610.35261"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "TUON: A Tensor-Aware Optimizer Utilizing Tensor-SVD and Polarization for Large Language Model Pretraining",
+      "canonical_url": "https://arxiv.org/abs/2610.35130",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T10:04:25.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Large scale language model~(LLM) pretraining is increasingly bottlenecked by optimizer efficiency, driving optimizer design from vector-aware methods such as AdamW to matrix-aware methods. Matrix-aware optimizers such as Muon exploit matrix structure but treat layers independently, neglecting",
+      "source_ids": {
+        "arxiv_id": "2610.35130"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "From Belief Inference to Task Action: A Multi-Level Evaluation of Theory of Mind on Verifiable Tasks",
+      "canonical_url": "https://arxiv.org/abs/2610.34759",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T03:06:04.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Effective collaboration requires language models to understand what others know and believe, and to act accordingly. Models that assume others share their information may omit necessary communication and undermine coordination. Many theory-of-mind (ToM) benchmarks assess mental-state inference",
+      "source_ids": {
+        "arxiv_id": "2610.34759"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Freeze What Is Settled, Cache What Is Smooth: Spatial Freezing Keeps Step Caching in Its Low-Error Regime",
+      "canonical_url": "https://arxiv.org/abs/2610.34177",
+      "publisher": "arXiv",
+      "published_at": "2026-10-25T09:13:45.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Instruction-based image editors built on diffusion transformers run tens of denoising steps. Training-free acceleration either reuses features across steps (step caching) or stops computing the regions an edit leaves untouched (region freezing), and the two have been combined before. We ask how a",
+      "source_ids": {
+        "arxiv_id": "2610.34177"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Execution Logs Sway VLM Judges of Robot Progress",
+      "canonical_url": "https://arxiv.org/abs/2610.34151",
+      "publisher": "arXiv",
+      "published_at": "2026-10-25T08:37:41.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Vision-language models now grade robot videos, and text placed beside the frames can change their verdicts. On clips where the robot is losing progress, we add one log line saying the robot is making progress. Across Gemini, Qwen and GPT judges, this flips correct verdicts to progress 10 to 35",
+      "source_ids": {
+        "arxiv_id": "2610.34151"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Bug Severity Classification with Fine-Tuned Open LLMs: A Paired Comparison with TF-IDF and CodeBERT Baselines on Eclipse Reports",
+      "canonical_url": "https://arxiv.org/abs/2610.34127",
+      "publisher": "arXiv",
+      "published_at": "2026-10-25T07:53:10.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Open large language models (LLMs) small enough to run on a laptop are an obvious candidate for automatic bug severity prediction. We measure what they add over cheaper classifiers on one task: assigning one of four Bugzilla severity levels (Critical, Major, Minor, Trivial) to Eclipse bug reports.",
+      "source_ids": {
+        "arxiv_id": "2610.34127"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "The LALA Benchmark: Evaluating Literary and Linguistic Analysis in LLMs",
+      "canonical_url": "https://arxiv.org/abs/2610.34080",
+      "publisher": "arXiv",
+      "published_at": "2026-10-25T05:38:57.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "We introduce the Literature and Linguistics Analysis Benchmark (LALA), comprising 236 open-ended questions written by experts in linguistics and literary studies, together with expert-provided ideal answers. By comparing models within families and at similar training scales using human and LLM",
+      "source_ids": {
+        "arxiv_id": "2610.34080"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement",
+      "canonical_url": "https://arxiv.org/abs/2610.33472",
+      "publisher": "arXiv",
+      "published_at": "2026-10-24T05:50:40.000Z",
+      "fetched_at": "2026-10-30T16:58:37.415Z",
+      "excerpt": "Learning visual design is essential for prompt enhancement (PE) to turn underspecified user requests into coherent visual specifications for text-to-image (T2I) generation. Existing methods preserve user intent and improve overall visual appeal, with less explicit emphasis on fine-grained design",
+      "source_ids": {
+        "arxiv_id": "2610.33472"
       },
       "adapter": "arxiv"
     }
