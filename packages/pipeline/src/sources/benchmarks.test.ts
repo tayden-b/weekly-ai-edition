@@ -60,7 +60,9 @@ describe("benchmarks adapter through runAdapterFixture", () => {
 
     const arena = items.find((i) => i.source_ids.lmarena_model === "GPT-6 (High)")!;
     expect(arena.headline).toBe("LMArena text — GPT-6 (High) (#1)");
-    expect(arena.canonical_url).toBe("https://lmarena.ai/leaderboard");
+    // per-row provenance URL (#69) — the leaderboard's per-model view param;
+    // without it every row shares one canonical_url and P1 dedupe collapses them
+    expect(arena.canonical_url).toBe("https://lmarena.ai/leaderboard?model=GPT-6+%28High%29");
     expect(arena.published_at).toBe("2026-01-14T00:00:00.000Z");
     expect(arena.excerpt).toContain("rating: 1540.124");
     expect(arena.excerpt).toContain("leaderboard_publish_date: 2026-01-14");
@@ -80,6 +82,15 @@ describe("benchmarks adapter through runAdapterFixture", () => {
     expect(epoch.headline).toBe("SWE-bench Verified: gemini-3.5-flash_high");
     expect(epoch.excerpt).toContain("mean_score: 0.7933884297520661");
     expect(epoch.published_at).toBe("2026-01-14T10:22:55.000Z");
+  });
+
+  it("gives every data row a distinct canonical_url — no dedupe collapse (#69)", async () => {
+    const { items } = await runAdapterFixture(adapter(), FIXTURE_PATH);
+    for (const key of ["lmarena_model", "epoch_eval_id"] as const) {
+      const rows = items.filter((i) => i.source_ids[key] !== undefined);
+      expect(rows.length).toBeGreaterThan(1);
+      expect(new Set(rows.map((i) => i.canonical_url)).size).toBe(rows.length);
+    }
   });
 
   it("window-bounds data items but never link items", async () => {

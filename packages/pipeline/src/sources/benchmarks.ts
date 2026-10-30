@@ -166,6 +166,19 @@ function inWindow(iso: string, window: FetchWindow): boolean {
   return t >= window.from.getTime() && t <= window.to.getTime();
 }
 
+/**
+ * Per-row provenance URL. P1 dedupe exact-collapses on `adapter +
+ * canonical_url`, so a leaderboard whose rows all share one page URL would
+ * merge into a single item (#69). Non-tracking params survive
+ * `canonicalizeUrl` (fragments don't), so the row's identity rides along as
+ * a query — `?model=` is also LMArena's real per-model view param.
+ */
+function rowUrl(canonicalUrl: string, params: Record<string, string>): string {
+  const u = new URL(canonicalUrl);
+  for (const [k, v] of Object.entries(params)) u.searchParams.set(k, v);
+  return u.toString();
+}
+
 // ---------------------------------------------------------------------------
 // LMArena — datasets-server rows (CC-BY-4.0 leaderboard-dataset)
 // ---------------------------------------------------------------------------
@@ -196,7 +209,10 @@ function mapLmarenaRows(
     const rank = typeof row.rank === "number" ? row.rank : undefined;
     items.push({
       headline: `LMArena ${spec.config ?? ""} — ${model}${rank !== undefined ? ` (#${rank})` : ""}`,
-      canonical_url: spec.canonicalUrl,
+      canonical_url: rowUrl(spec.canonicalUrl, {
+        model,
+        ...(category !== "overall" ? { category } : {}),
+      }),
       publisher: spec.publisher,
       published_at: dateToIso(publishDate),
       fetched_at: fetchedAt.toISOString(),
@@ -269,7 +285,7 @@ export function mapSwebenchPage(
         headline: `SWE-bench ${lb}: ${name}${resolved !== undefined ? ` — ${resolved}%` : ""}`,
         canonical_url: folder
           ? `https://github.com/SWE-bench/experiments/tree/main/evaluation/${lb}/${folder}`
-          : spec.canonicalUrl,
+          : rowUrl(spec.canonicalUrl, { split: lb, submission: name }),
         publisher: spec.publisher,
         published_at: dateToIso(date),
         fetched_at: fetchedAt.toISOString(),
@@ -342,7 +358,7 @@ function mapEpochFiles(payload: EpochFileMap, spec: BenchmarkSourceSpec, fetched
       const id = row.id?.trim() || `${stem}:${model}`;
       items.push({
         headline: `${bench}: ${model}`,
-        canonical_url: spec.canonicalUrl,
+        canonical_url: rowUrl(spec.canonicalUrl, { benchmark: stem, model }),
         publisher: spec.publisher,
         published_at,
         fetched_at: fetchedAt.toISOString(),
