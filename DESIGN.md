@@ -83,7 +83,7 @@ No article photographs. Reasons: licence, inconsistency, and it is what every ag
 
 1. **Typographic first.** Most pages carry no image; type and rules carry them.
 2. **Cover**: one full-bleed image per issue — generated abstract/material imagery (soft colour fields, light, texture — cf. the A17.2 red blur and the Enfold stills), muted, never depicting people or products. Stored in `editions/<week>/cover.jpg`, 2000×2500 portrait + 2400×1350 landscape crop.
-3. **Charts**: Markets and One Chart drawn in-house (SVG), 1.5px lines, `--ink` + one tint; axis labels in mono `--t-xs`.
+3. **Charts**: Markets and One Chart drawn in-house (SVG), 1.5px lines, `--ink` + one tint; axis labels in mono `--t-xs`. Scaled-SVG text is sized in viewBox units: the 720-unit viewBox renders ~0.44× at a 390px viewport, so below 900px chart labels step up in viewBox units (18u ≤ 500px, 13.5u ≤ 900px) to keep ≥ ~8px effective; ≥ 901px uses the tokens verbatim.
 4. **OG images**: generated per page from the template — paper ground, masthead, page kicker, headline. 1200×630.
 
 ## 2. Two renderers, one edition

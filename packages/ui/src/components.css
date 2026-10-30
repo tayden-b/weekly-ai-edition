@@ -512,14 +512,16 @@
 
 /* Narrow viewports: the 720-unit viewBox scales down (~0.44× at 390px), so
  * token sizes render well under their nominal px. Step the SVG text up in
- * viewBox units to keep effective size ≥ ~8px; ≥901px uses tokens verbatim. */
+ * viewBox units to keep effective size ≥ ~8px; ≥901px uses tokens verbatim.
+ * Scoped to `.w-chart` (every chart figure — MarketsChart, LineChart, …),
+ * not just `.w-mchart`, per plan-defect i127 and DESIGN §1.5.4. */
 @media (max-width: 500px) {
   .w-mchart__ticker { font-size: 21px; }
   .w-mchart__value,
   .w-mchart__end,
   .w-mchart__na,
-  .w-mchart .w-chart__tick,
-  .w-mchart .w-chart__xlabel {
+  .w-chart .w-chart__tick,
+  .w-chart .w-chart__xlabel {
     /* 18u fits the right-margin room: longest "+X.XX%" ends ≤ 720. */
     font-size: 18px;
   }
@@ -529,8 +531,8 @@
   .w-mchart__value,
   .w-mchart__end,
   .w-mchart__na,
-  .w-mchart .w-chart__tick,
-  .w-mchart .w-chart__xlabel {
+  .w-chart .w-chart__tick,
+  .w-chart .w-chart__xlabel {
     font-size: 13.5px;
   }
 }
