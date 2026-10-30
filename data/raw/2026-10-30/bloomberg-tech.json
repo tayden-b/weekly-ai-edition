@@ -1,0 +1,267 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "bloomberg-tech",
+  "fetched_at": "2026-10-30T01:06:41.669Z",
+  "items": [
+    {
+      "headline": "Binance Suspends Withdrawals After Suspected Billion-Dollar Hack",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/binance-founder-says-possible-hack-of-exchange-bitcoin-falls",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T21:25:33.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Binance, the world’s largest crypto exchange, suspended all deposits and withdrawals as it investigates a security incident that has so far resulted in the freezing of more than $2.5 billion in assets. The suspected hack sent digital tokens tumbling.",
+      "source_ids": {
+        "rss_guid": "TNOSPQKK3NY900",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia in Talks to Offer Credit Support for Nscale Project",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/nvidia-in-talks-to-offer-credit-support-for-nscale-project",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T23:59:53.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Nvidia Corp. is in discussions to provide credit guarantees for an Nscale data center facility that Anthropic PBC plans to use, according to a person familiar with the matter.",
+      "source_ids": {
+        "rss_guid": "TNOYZKT96OSG00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "29-Year-Old Female Founder Breaths Life Into Next Generation Home-Help Robots",
+      "canonical_url": "https://www.bloomberg.com/news/features/2026-10-29/29-year-old-female-founder-breaths-life-into-next-generation-home-help-robots",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T23:30:10.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Dreame’s Huo is working on artificial intelligence algorithms and humanoid machines to handle cleaning, washing and other chores.",
+      "source_ids": {
+        "rss_guid": "TNOZYAR24U9300",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Roblox Shares Fall After Company Reports Daily User Decline",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/roblox-users-miss-estimates-despite-hit-game-steal-an-egg",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T20:17:14.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Roblox Corp. reported a year-over-year decline in player engagement after deploying more robust child-safety measures.",
+      "source_ids": {
+        "rss_guid": "TNOFI7T96OSK00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple’s iPhone Maker Confident of Meeting Surge in Duo Demand",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/apple-s-iphone-maker-confident-of-meeting-surge-in-duo-demand",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T23:00:00.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Apple Inc.’s main assembly partner Hon Hai Precision Industry Co. expects its expansive global manufacturing presence will help it fulfill growing demand for the US company’s marquee foldable device.",
+      "source_ids": {
+        "rss_guid": "TNNNBMT9NJLS00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Amazon Spending Soars Amid Slowing Growth of Online Business",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/amazon-spending-soars-on-effort-to-meet-demand-for-ai-services",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T20:15:58.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Amazon.com Inc. shares dropped after the company reported greater capital spending than anticipated and the slowest growth in the core e-commerce business in three years.",
+      "source_ids": {
+        "rss_guid": "TNOGK4T96OSK00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/intel-outlook-hurt-by-weak-market-for-personal-computer-chips",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T20:02:37.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Intel Corp. plunged in late trading after its revenue forecast missed analysts’ estimates, hurt by sputtering demand for PC processors and supply-chain problems with its lucrative data center components.",
+      "source_ids": {
+        "rss_guid": "TNOCRPKIP3ID00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Reddit Sinks on Plan to Limit Access, Sales Outlook Miss",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/reddit-to-limit-access-for-logged-out-users-in-strategy-shift",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T20:11:16.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Reddit Inc. is planning to limit access to its online forums in a bid to get users to register for accounts and deepen engagement, igniting investors’ concerns that the move will instead weigh on traffic while the company is already dealing with a dropoff in active US users.",
+      "source_ids": {
+        "rss_guid": "TNOL0MKK3NY800",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI Slowdown Is More Macro Than Tied to One Company: T.Rowe Price’s Wang",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/t-rowe-price-s-wang-on-what-intel-results-means-for-tech-video",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T21:59:21.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Tony Wang, Portfolio Manager at T.Rowe Price, says investors are looking for AI-related spending to translate into better-than-expected revenue across companies’ core businesses and cloud operations, while also improving margins. He describes demand for AI chips as unprecedented, but warns that",
+      "source_ids": {
+        "rss_guid": "TNOVQXT3BZM100",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "GE Healthcare CEO on 3Q Earnings Beat, Impact of AI",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/ge-healthcare-ceo-on-3q-earnings-beat-impact-of-ai-video",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T21:52:30.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Peter Arduini, CEO of GE Healthcare, described radiopharmaceuticals as a fast-growing field that is advancing treatment and care in cancer, cardiology imaging and neurology, including Alzheimer’s-related approaches. Because these products have short half-lives and can dissipate by the end of the",
+      "source_ids": {
+        "rss_guid": "TNOVFIRKV2TQ00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Raymond James CEO on 4Q Earnings and AI Strategy",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/raymond-james-ceo-on-4q-earnings-and-ai-strategy-video",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T21:38:45.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Raymond James shares rose after the company beat estimates for fourth-quarter revenue and adjusted EPS, with investment banking revenue also exceeding expectations. CEO Paul Shoukry said Raymond James focuses on sustainable growth and long-term decisions, noting 155 consecutive profitable quarters.",
+      "source_ids": {
+        "rss_guid": "TNOUSLRKV2U500",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tradeweb CEO: This Is a Seminal Moment in the Market",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/tradeweb-ceo-this-is-a-seminal-moment-in-the-market-video",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T21:30:08.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Tradeweb shares were slightly lower after the company reported third-quarter results, with revenue in line with expectations and earnings beating them. CEO Billy Hult said on the earnings call that growth was broad-based, citing preliminary strong double-digit growth across rates, credit and",
+      "source_ids": {
+        "rss_guid": "TNOUE8N3N09N00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Microsoft $25 Billion Blowout Bond Puts It in AI Winners’ Circle",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/microsoft-kicks-off-first-us-high-grade-bond-sale-since-2017",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T11:47:22.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Microsoft Corp.’s mega $25 billion bond offering got a red-carpet reception. That doesn’t mean investors will be as welcoming when the next Big Tech borrower comes along.",
+      "source_ids": {
+        "rss_guid": "TNO2T8T96OSI00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Supply Constraints a Swing Factor for Intel, Seaport's Goldberg Says",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/supply-snags-a-big-swing-factor-for-intel-seaport-video",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T21:13:01.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Jay Goldberg, Seaport Research Partners semiconductors and electronics senior analyst, reacts to Intel's revenue forecast missing analysts' estimates due to sputtering demand for PC processors and supply-chain problems. He speaks on \"Bloomberg The Close.\" (Source: Bloomberg)",
+      "source_ids": {
+        "rss_guid": "TNOSQNT3BZM300",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sandisk Posts Strong Profit, Upbeat Outlook on Growing AI Demand",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/sandisk-posts-strong-profit-upbeat-outlook-on-growing-ai-demand",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T21:06:32.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Sandisk Corp. posted stronger-than-expected results and guidance as the data center buildout drove demand and a memory supply crunch kept prices elevated.",
+      "source_ids": {
+        "rss_guid": "TNOQN3KK3NY900",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Stryker Cuts Outlook as Cyberattack Impact on Supply Lingers",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/stryker-cuts-outlook-as-cyberattack-impact-on-supply-lingers",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T20:54:30.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Stryker Corp. slashed its outlook as the medical device company struggles to shake off the lingering effects of a cyberattack in March that disrupted manufacturing operations.",
+      "source_ids": {
+        "rss_guid": "TNM6C1T96OSH00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Polymarket Trading Halted After Reports of Stolen Funds",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/polymarket-halts-trading-after-reports-of-customers-losing-money",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T19:08:02.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Polymarket stopped trading on its international exchange on Thursday after it said that a third-party software provider was compromised.",
+      "source_ids": {
+        "rss_guid": "TNOM7KRKV2U900",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Alphabet Plunges by Record With AI Exposure Topping $1 Trillion",
+      "canonical_url": "https://www.bloomberg.com/news/articles/2026-10-29/alphabet-s-ai-risk-extends-beyond-1-trillion-filing-shows",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T15:45:47.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Alphabet Inc. has said demand for its cloud services is increasing at a rapid clip, pointing to growth in its backlog of cloud contracts that it hasn’t yet fulfilled. However, more than a third of that quarterly growth comes from a joint venture the company partly owns.",
+      "source_ids": {
+        "rss_guid": "TNO9KQR24UDP00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "No One Wanted These Amazon Earnings, Thill Says",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/no-one-wanted-these-amazon-earnings-thill-says-video",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T20:40:11.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Brent Thill, Jefferies software and internet research tech sector lead, says Amazon's earnings were not terrible, and the stock is cheap, but he says \"this is not what anyone was hoping for.\" Spending on property and equipment was more than expected. Thill says there's been a lot of bad news from",
+      "source_ids": {
+        "rss_guid": "TNOS2ZKIP3JG00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Breaking Down Amazon's Third-Quarter Earnings",
+      "canonical_url": "https://www.bloomberg.com/news/videos/2026-10-29/breaking-down-amazon-s-third-quarter-earnings-video",
+      "publisher": "Bloomberg",
+      "published_at": "2026-10-29T20:39:47.000Z",
+      "fetched_at": "2026-10-30T01:06:42.970Z",
+      "excerpt": "Amazon spent more than $77 billion on property and equipment in the third quarter, far more than analysts’ estimates, while pursuing its effort to build data centers and fulfill demand for AI services. Anurag Rana and Poonam Goyal break down the numbers on \"Bloomberg The Close.\" (Source: Bloomberg)",
+      "source_ids": {
+        "rss_guid": "TNOR5XKGIFRU00",
+        "newsroom_feed": "bloomberg-tech"
+      },
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

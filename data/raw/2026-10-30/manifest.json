@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-30",
+  "ran_at": "2026-10-30T01:06:41.669Z",
+  "window": {
+    "from": "2026-10-24T00:00:00.000Z",
+    "to": "2026-10-30T23:59:59.999Z"
+  },
+  "sources": [
+    {
+      "source": "openai-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 16
+    },
+    {
+      "source": "anthropic-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "source": "google-deepmind-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "source": "google-ai-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "meta-ai-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "mistral-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 15
+    },
+    {
+      "source": "xai-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "microsoft-research-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "amazon-science-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "moonshot-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "deepseek-news",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "qwen-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "huggingface-blog",
+      "adapter": "lab-blogs",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "hf-hub-models",
+      "adapter": "hf-hub",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "gh-vllm",
+      "adapter": "github-releases",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "gh-llama-cpp",
+      "adapter": "github-releases",
+      "ok": true,
+      "count": 100
+    },
+    {
+      "source": "gh-ollama",
+      "adapter": "github-releases",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "gh-langchain",
+      "adapter": "github-releases",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "source": "gh-transformers",
+      "adapter": "github-releases",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "lmarena-leaderboard",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 100
+    },
+    {
+      "source": "artificial-analysis",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "hf-open-llm-leaderboard",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "swe-bench",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "arc-prize-leaderboard",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "epoch-ai-data",
+      "adapter": "benchmarks",
+      "ok": true,
+      "count": 29
+    },
+    {
+      "source": "arxiv-lab-papers",
+      "adapter": "arxiv",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "hn-algolia",
+      "adapter": "hn-algolia",
+      "ok": true,
+      "count": 382
+    },
+    {
+      "source": "techcrunch-ai",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "source": "theverge-ai",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "source": "ars-ai",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "source": "mit-tr-ai",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "source": "reuters-tech",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "bloomberg-tech",
+      "adapter": "newsroom-rss",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "source": "sec-edgar-fts",
+      "adapter": "sec-edgar",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "sec-edgar-current-feed",
+      "adapter": "sec-edgar",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "pr-newswire",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "business-wire",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 18
+    },
+    {
+      "source": "globenewswire",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "techcrunch-funding",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "axios-pro-rata",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "crunchbase-news",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "source": "ft-headlines",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "guardian-ai",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "source": "nyt-tech",
+      "adapter": "press-wire-rss",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "source": "stooq-weekly",
+      "adapter": "markets",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "reddit-machinelearning",
+      "adapter": "reddit-json",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "reddit-localllama",
+      "adapter": "reddit-json",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "reddit-artificial",
+      "adapter": "reddit-json",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "distribute-releases",
+      "adapter": "distribute-software",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "distribute-stories",
+      "adapter": "distribute-software",
+      "ok": true,
+      "count": 100
+    }
+  ],
+  "totals": {
+    "sources": 50,
+    "ok": 50,
+    "failed": 0,
+    "items": 904
+  }
+}

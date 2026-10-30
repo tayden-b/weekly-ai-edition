@@ -1,0 +1,114 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "mit-tr-ai",
+  "fetched_at": "2026-10-30T01:06:41.669Z",
+  "items": [
+    {
+      "headline": "We urgently need to monitor AI agents’ actions in real time",
+      "canonical_url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-10-29T10:11:12.000Z",
+      "fetched_at": "2026-10-30T01:06:43.024Z",
+      "excerpt": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147824",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "Opinion"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Creating AI value with enterprise context",
+      "canonical_url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-10-28T20:32:02.000Z",
+      "fetched_at": "2026-10-30T01:06:43.024Z",
+      "excerpt": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147709",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Pairing industrial AI autonomy and human control",
+      "canonical_url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-10-30T01:06:43.024Z",
+      "excerpt": "Pairing industrial AI autonomy and human control",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147637",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "canonical_url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-10-27T11:19:18.000Z",
+      "fetched_at": "2026-10-30T01:06:43.024Z",
+      "excerpt": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves,",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147142",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Will the real Anthropic please stand up",
+      "canonical_url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-10-26T17:45:43.000Z",
+      "fetched_at": "2026-10-30T01:06:43.024Z",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147672",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "The Algorithm"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The focus on AI safety disasters ignores everyday harms",
+      "canonical_url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-10-26T09:01:00.000Z",
+      "fetched_at": "2026-10-30T01:06:43.024Z",
+      "excerpt": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147645",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "AI",
+        "App",
+        "Opinion"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

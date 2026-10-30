@@ -1,0 +1,20 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-10-30T01:06:41.669Z",
+  "items": [
+    {
+      "headline": "Two fears will decide the fate of Anthropic’s giant IPO",
+      "canonical_url": "https://www.ft.com/content/9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-29T14:41:41.000Z",
+      "fetched_at": "2026-10-30T01:06:41.755Z",
+      "excerpt": "Two fears will decide the fate of Anthropic’s giant IPO",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

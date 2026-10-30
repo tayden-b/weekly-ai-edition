@@ -1,0 +1,46 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-ollama",
+  "fetched_at": "2026-10-30T01:06:41.669Z",
+  "items": [
+    {
+      "headline": "v0.40.13",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.13",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-10-28T19:55:04Z",
+      "fetched_at": "2026-10-30T01:06:41.731Z",
+      "excerpt": "## LFM3 on Linux and Windows Liquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon. **Full Changelog**:",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.13"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "v0.40.12",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.12",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-10-27T00:07:12Z",
+      "fetched_at": "2026-10-30T01:06:41.731Z",
+      "excerpt": "## Liquid AI LFM3 [LFM3](https://ollama.com/library/lfm3) is Liquid AI's new family of small models built for local agents, tool calling, and structured output, on Liquid's new tri-hybrid architecture. The family includes: - [lfm3](https://ollama.com/library/lfm3): a 1.7B text model with a",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.12"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "v0.40.11",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.11",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-10-24T00:30:13Z",
+      "fetched_at": "2026-10-30T01:06:41.731Z",
+      "excerpt": "## Speech Ollama can now generate [speech](https://docs.ollama.com/capabilities/speech) on macOS. `ollama run` plays text or a chat model's reply aloud as the audio is generated, and apps can stream audio through the OpenAI-compatible `/v1/audio/speech` endpoint. ```sh ollama run phonon \"Hello from",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.11"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}
