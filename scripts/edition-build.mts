@@ -72,6 +72,7 @@ import {
   type ManifestFile,
   writeIngestCache,
 } from "@weekly/pipeline";
+import { driftedRecordedInputs, partitionRecordedInputs } from "./lib/replay-inputs.mjs";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 
@@ -135,6 +136,55 @@ const fixturePath = flagSet("--no-fixture")
   ? undefined
   : resolve(ROOT, arg("--fixture") ?? `fixtures/${weekId}/edition.json`);
 
+// --- replay input pinning (i162) -------------------------------------------
+// Replay reproduces the emission from exactly the inputs its provenance
+// recorded: post-emission cache days/files on disk are ignored, and every
+// recorded path must still hash to its recorded sha256.
+
+let recordedInputs: Record<string, string> | undefined;
+if (mode === "replay") {
+  const provPath = join(dir, "provenance.json");
+  if (!existsSync(provPath)) {
+    console.error(
+      `edition:build: --mode replay needs the recorded ${relative(ROOT, provPath)} — run --mode session first`,
+    );
+    process.exit(1);
+  }
+  const recordedProv = JSON.parse(readFileSync(provPath, "utf8")) as {
+    cache_hashes?: Record<string, string>;
+  };
+  if (
+    typeof recordedProv.cache_hashes !== "object" ||
+    recordedProv.cache_hashes === null ||
+    Object.keys(recordedProv.cache_hashes).length === 0
+  ) {
+    console.error(
+      `edition:build: ${relative(ROOT, provPath)} records no cache_hashes — cannot pin replay inputs`,
+    );
+    process.exit(1);
+  }
+  recordedInputs = recordedProv.cache_hashes;
+  const problems = driftedRecordedInputs(recordedInputs, {
+    exists: (rel: string) => existsSync(resolve(ROOT, rel)),
+    sha256: (rel: string) => sha256File(resolve(ROOT, rel)),
+  });
+  if (problems.length > 0) {
+    console.error("edition:build: recorded replay inputs missing or drifted:");
+    for (const line of problems) console.error(`  ${line}`);
+    console.error(
+      "  restore the recorded bytes, or re-derive with --mode session (records fresh inputs)",
+    );
+    process.exit(1);
+  }
+}
+const recorded = partitionRecordedInputs(recordedInputs ?? {});
+if (recorded.unknown.length > 0) {
+  console.error(
+    `edition:build: recorded provenance pins non-cache input(s) ${recorded.unknown.join(", ")} — cannot replay`,
+  );
+  process.exit(1);
+}
+
 console.log(
   `edition:build ${weekId} — window ${dateStart} → ${dateEnd}, mode=${mode}, ingest=${ingestMode}`,
 );
@@ -174,20 +224,34 @@ interface RawDay {
 }
 
 const rawDays: RawDay[] = [];
-if (existsSync(dataRoot)) {
-  for (const name of readdirSync(dataRoot).sort()) {
-    const manifestPath = join(dataRoot, name, "manifest.json");
-    if (!existsSync(manifestPath)) continue;
-    const manifest = JSON.parse(readFileSync(manifestPath, "utf8")) as ManifestFile;
-    const from = Date.parse(manifest.window.from);
-    const to = Date.parse(manifest.window.to);
-    // a day's cache contributes if its fetch window overlaps the edition's
-    if (from <= dateEndMs && to >= dateStartMs) rawDays.push({ dir: name, manifest });
+if (recordedInputs !== undefined) {
+  // Replay: only the days the recorded provenance pins — post-emission
+  // cache days on disk are ignored.
+  for (const day of recorded.days) {
+    rawDays.push({
+      dir: day,
+      manifest: JSON.parse(
+        readFileSync(join(dataRoot, day, "manifest.json"), "utf8"),
+      ) as ManifestFile,
+    });
   }
+  console.log(`ingest: ${rawDays.length} recorded cache day(s) pinned`);
+} else {
+  if (existsSync(dataRoot)) {
+    for (const name of readdirSync(dataRoot).sort()) {
+      const manifestPath = join(dataRoot, name, "manifest.json");
+      if (!existsSync(manifestPath)) continue;
+      const manifest = JSON.parse(readFileSync(manifestPath, "utf8")) as ManifestFile;
+      const from = Date.parse(manifest.window.from);
+      const to = Date.parse(manifest.window.to);
+      // a day's cache contributes if its fetch window overlaps the edition's
+      if (from <= dateEndMs && to >= dateStartMs) rawDays.push({ dir: name, manifest });
+    }
+  }
+  console.log(`ingest: ${rawDays.length} cache day(s) overlap the window`);
 }
-console.log(`ingest: ${rawDays.length} cache day(s) overlap the window`);
 
-if (ingestMode === "auto") {
+if (ingestMode === "auto" && recordedInputs === undefined) {
   const today = new Date().toISOString().slice(0, 10);
   for (let ms = dateStartMs; ms <= dateEndMs; ms += 86_400_000) {
     const day = new Date(ms).toISOString().slice(0, 10);
@@ -218,14 +282,30 @@ if (ingestMode === "auto") {
   }
 }
 
-const runs: IngestCache[] = rawDays.map((d) => loadIngestCache(join(dataRoot, d.dir)));
+const runs: IngestCache[] = rawDays.map((d) =>
+  recordedInputs !== undefined
+    ? {
+        manifest: d.manifest,
+        cache_hashes: Object.fromEntries(
+          Object.entries(recordedInputs).filter(([rel]) =>
+            rel.startsWith(`data/raw/${d.dir}/`),
+          ),
+        ),
+      }
+    : loadIngestCache(join(dataRoot, d.dir)),
+);
 
 const items: AdapterRawItem[] = [];
 for (const d of rawDays) {
-  const dayDir = join(dataRoot, d.dir);
-  for (const file of readdirSync(dayDir).sort()) {
-    if (file === "manifest.json" || !file.endsWith(".json")) continue;
-    const doc = JSON.parse(readFileSync(join(dayDir, file), "utf8")) as {
+  const files =
+    recordedInputs !== undefined
+      ? (recorded.filesByDay.get(d.dir) ?? []).map((rel) => resolve(ROOT, rel))
+      : readdirSync(join(dataRoot, d.dir))
+          .sort()
+          .filter((f) => f !== "manifest.json" && f.endsWith(".json"))
+          .map((f) => join(dataRoot, d.dir, f));
+  for (const file of files) {
+    const doc = JSON.parse(readFileSync(file, "utf8")) as {
       adapter: string;
       source: string;
       items: AdapterRawItem[];
@@ -298,8 +378,35 @@ function fixtureToRawItems(edition: Record<string, unknown>): AdapterRawItem[] {
   return out;
 }
 
-if (fixturePath !== undefined && existsSync(fixturePath)) {
-  const fixture = JSON.parse(readFileSync(fixturePath, "utf8")) as Record<string, unknown>;
+// In replay mode the pool resolves to the fixture the provenance recorded;
+// an explicit --fixture disagreeing with it is drift, not intent.
+let poolFixturePath = fixturePath;
+if (recordedInputs !== undefined) {
+  if (recorded.fixture === null) {
+    if (fixturePath !== undefined) {
+      console.log("ingest: fixture flag ignored — the recorded pool has no fixture input");
+    }
+    poolFixturePath = undefined;
+  } else {
+    const explicit = arg("--fixture");
+    if (
+      explicit !== undefined &&
+      resolve(ROOT, explicit) !== resolve(ROOT, recorded.fixture)
+    ) {
+      console.error(
+        `edition:build: --fixture ${explicit} conflicts with recorded input ${recorded.fixture}`,
+      );
+      process.exit(1);
+    }
+    if (flagSet("--no-fixture")) {
+      console.log("ingest: --no-fixture ignored — replay reads the recorded pool");
+    }
+    poolFixturePath = resolve(ROOT, recorded.fixture);
+  }
+}
+
+if (poolFixturePath !== undefined && existsSync(poolFixturePath)) {
+  const fixture = JSON.parse(readFileSync(poolFixturePath, "utf8")) as Record<string, unknown>;
   const pool = fixtureToRawItems(fixture);
   const ranAt = pool
     .map((i) => i.fetched_at)
@@ -319,10 +426,10 @@ if (fixturePath !== undefined && existsSync(fixturePath)) {
         },
       ],
     },
-    cache_hashes: { [relative(ROOT, fixturePath)]: sha256File(fixturePath) },
+    cache_hashes: { [relative(ROOT, poolFixturePath)]: sha256File(poolFixturePath) },
   });
   items.push(...pool);
-  console.log(`ingest: +${pool.length} fixture-pool item(s) from ${basename(fixturePath)}`);
+  console.log(`ingest: +${pool.length} fixture-pool item(s) from ${basename(poolFixturePath)}`);
 } else {
   console.log("ingest: no fixture pool");
 }
