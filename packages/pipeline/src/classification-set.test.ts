@@ -1,5 +1,8 @@
+import { fileURLToPath } from "node:url";
+
 import { describe, expect, it } from "vitest";
 
+import { loadCompaniesConfig } from "./config.js";
 import labeledSet from "../testdata/classification/labeled-items.json";
 
 /**
@@ -60,6 +63,22 @@ describe("labelled classification set", () => {
       expect(item.published_at).toMatch(/^\d{4}-\d{2}-\d{2}$/);
       expect(item.headline.length).toBeGreaterThan(0);
       expect(item.publisher.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("resolves every expect.companies slug against config/companies.yaml", () => {
+    // PLAN §5.3: unknown-company items classify to `unsorted`, so a slug absent
+    // from the registry can never be emitted — the ground truth must not ask
+    // for one. Registry entries are extended instead of relabelling.
+    const registry = new Set(
+      loadCompaniesConfig(
+        fileURLToPath(new URL("../../../config/companies.yaml", import.meta.url)),
+      ).map((c) => c.slug),
+    );
+    for (const item of items) {
+      for (const slug of item.expect.companies) {
+        expect(registry.has(slug), `${item.id}: slug "${slug}"`).toBe(true);
+      }
     }
   });
 });

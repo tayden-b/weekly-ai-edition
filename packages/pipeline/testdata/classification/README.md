@@ -14,9 +14,10 @@ pages `models`, `performance`, `launches`, `funding`, `deals`, `markets`,
 `most_covered`, `back_page`) are never labels — they are built from classified
 items, so they carry no ground truth here.
 
-Every label appears at least 3× (enforced by `labeled-items.test.ts`). Current
-distribution: models 14, performance 7, launches 8, funding 10, deals 6,
-markets 5, discourse 10, unsorted 13 — **73 items**.
+Every label appears at least 3× (enforced by
+`src/classification-set.test.ts`). Current distribution: models 14,
+performance 7, launches 8, funding 10, deals 6, markets 3, discourse 10,
+unsorted 15 — **73 items**.
 
 Each entry represents one source record. Production `discourse` items must
 still aggregate ≥ 2 publishers per PLAN §5.3 — that gate applies to the
@@ -73,13 +74,19 @@ required coverage surface — if a slug here is missing from the registry, exten
 an item whose substance is a company absent from the registry classifies to
 `unsorted`; that rule applies at runtime, not to this fixture.
 
-Slugs used in this file: `alibaba`, `amd`, `anthropic`, `anysphere`, `apple`,
-`arm`, `asml`, `broadcom`, `cloudflare`, `cognition`, `coreweave`, `deepseek`,
-`figure`, `framework`, `google`, `hugging-face`, `intel`, `meta`, `mistral`,
-`moonshot`, `nike`, `nvidia`, `openai`, `oracle`, `perplexity`, `softbank`,
-`spacex`, `tesla`, `thinking-machines`, `tsmc`, `vmware`, `windsurf`, `xai`.
-The registry will of course also carry the remaining basket names (`microsoft`,
-`amazon`) per PLAN §3.
+Lab vs parent: where the registry carries a lab slug (`google-deepmind`,
+`meta-ai`, `microsoft-research`, `amazon-science`), model/benchmark items tag
+the lab and product/corporate items tag the parent — e.g. a Gemini release is
+`google-deepmind`, a NotebookLM launch is `alphabet`, Llama is `meta-ai`.
+Market moves on names outside `config/markets.json`'s basket + pure plays are
+`unsorted` (STYLE §8), company tag kept.
+
+Slugs used in this file: `alibaba-qwen`, `alphabet`, `amd`, `anthropic`,
+`anysphere`, `apple`, `arm`, `asml`, `broadcom`, `cloudflare`, `cognition`,
+`coreweave`, `deepseek`, `figure`, `framework`, `google-deepmind`,
+`hugging-face`, `intel`, `meta`, `meta-ai`, `mistral-ai`, `moonshot-ai`,
+`nike`, `nvidia`, `openai`, `oracle`, `perplexity`, `softbank`, `spacex`,
+`tesla`, `thinking-machines`, `tsmc`, `vmware`, `windsurf`, `xai`.
 
 ## Integrity rules (tested)
 
