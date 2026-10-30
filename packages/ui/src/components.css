@@ -514,7 +514,7 @@
  * token sizes render well under their nominal px. Step the SVG text up in
  * viewBox units to keep effective size ≥ ~8px; ≥901px uses tokens verbatim.
  * Scoped to `.w-chart` (every chart figure — MarketsChart, LineChart, …),
- * not just `.w-mchart`, per plan-defect #127 and DESIGN §1.5.4. */
+ * not just `.w-mchart`, per plan-defect i127 and DESIGN §1.5.4. */
 @media (max-width: 500px) {
   .w-mchart__ticker { font-size: 21px; }
   .w-mchart__value,
