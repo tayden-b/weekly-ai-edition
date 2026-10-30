@@ -58,6 +58,7 @@ domains:
   # Data providers
   stooq.com: Stooq
   exa.ai: Exa Markets
+  finance.yahoo.com: Yahoo Finance
   # Aggregator hosts map to themselves — identity, never a `via` rewrite
   # (an HN self-post or Reddit permalink is correctly attributed already).
   news.ycombinator.com: Hacker News
