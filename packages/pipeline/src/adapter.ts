@@ -171,6 +171,10 @@ export interface AdapterHealth {
  *   report via `health()`.
  * - `health` pings the endpoint cheaply and reports `{ok, detail}`; it never
  *   throws.
+ *
+ * No method may rely on `this` — callers destructure (`const { fetch } =
+ * adapter`), so `fetch` must reach `map` through a closure reference, never
+ * `this.map`. `runAdapterFixture` enforces this by invoking both detached.
  */
 export interface SourceAdapter {
   /** Adapter id — matches the `adapter:` field in `config/sources.yaml`. */

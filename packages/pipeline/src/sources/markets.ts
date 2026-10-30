@@ -229,7 +229,7 @@ export function createMarketsAdapter(opts: MarketsAdapterOptions): SourceAdapter
     return t >= window.from.getTime() && t <= window.to.getTime();
   }
 
-  return {
+  const adapter: SourceAdapter = {
     id: MARKETS_ADAPTER_ID,
 
     async fetch(window: FetchWindow, ctx?: Partial<AdapterContext>): Promise<RawItem[]> {
@@ -245,7 +245,7 @@ export function createMarketsAdapter(opts: MarketsAdapterOptions): SourceAdapter
           });
           if (!res.ok) continue; // one ticker's failure degrades it, never the run
           const csv = await res.text();
-          items.push(...this.map({ ticker: t.ticker, name: t.name, symbol, csv }, fetchedAt));
+          items.push(...adapter.map({ ticker: t.ticker, name: t.name, symbol, csv }, fetchedAt));
         } catch {
           continue;
         }
@@ -297,4 +297,6 @@ export function createMarketsAdapter(opts: MarketsAdapterOptions): SourceAdapter
       return bars.map((bar, i) => itemForBar(slice, bar, bars[i - 1], fetchedAt));
     },
   };
+
+  return adapter;
 }

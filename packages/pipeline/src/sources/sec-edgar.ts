@@ -366,7 +366,7 @@ export function createSecEdgarAdapter(opts: SecEdgarAdapterOptions): SourceAdapt
     return total?.value ?? 0;
   }
 
-  return {
+  const adapter: SourceAdapter = {
     id: SEC_EDGAR_ADAPTER_ID,
 
     async fetch(window: FetchWindow, ctx?: Partial<AdapterContext>): Promise<RawItem[]> {
@@ -377,7 +377,7 @@ export function createSecEdgarAdapter(opts: SecEdgarAdapterOptions): SourceAdapt
         try {
           const res = await fetcher(opts.endpoint, { headers });
           if (!res.ok) return [];
-          return dedupeByAccession(this.map(await res.text(), now())).filter((i) =>
+          return dedupeByAccession(adapter.map(await res.text(), now())).filter((i) =>
             keepItem(i, window),
           );
         } catch {
@@ -392,7 +392,7 @@ export function createSecEdgarAdapter(opts: SecEdgarAdapterOptions): SourceAdapt
           const res = await fetcher(ftsUrl(window, page * FTS_PAGE_SIZE), { headers });
           if (!res.ok) break;
           const body = (await res.json()) as EdgarFtsPayload;
-          const batch = this.map(body, now());
+          const batch = adapter.map(body, now());
           out.push(...batch);
           const pageHits = body.hits?.hits?.length ?? 0;
           if (pageHits < FTS_PAGE_SIZE || (page + 1) * FTS_PAGE_SIZE >= ftsTotal(body)) break;
@@ -443,4 +443,6 @@ export function createSecEdgarAdapter(opts: SecEdgarAdapterOptions): SourceAdapt
       );
     },
   };
+
+  return adapter;
 }

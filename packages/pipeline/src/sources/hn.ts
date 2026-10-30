@@ -230,7 +230,7 @@ export function createHnAlgoliaAdapter(opts: HnAdapterOptions = {}): SourceAdapt
     return (await res.json()) as unknown;
   }
 
-  return {
+  const adapter: SourceAdapter = {
     id: HN_ADAPTER_ID,
 
     async fetch(window: FetchWindow, ctx?: Partial<AdapterContext>): Promise<RawItem[]> {
@@ -242,7 +242,7 @@ export function createHnAlgoliaAdapter(opts: HnAdapterOptions = {}): SourceAdapt
       // front_page snapshot — per-query failure degrades, never kills the run.
       try {
         const body = await getJson(frontPageUrl, c, lastStart);
-        for (const item of this.map(body, fetchedAt)) byObjectId.set(item.source_ids.hn_object_id!, item);
+        for (const item of adapter.map(body, fetchedAt)) byObjectId.set(item.source_ids.hn_object_id!, item);
       } catch {
         // degraded: continue with show_hn
       }
@@ -255,7 +255,7 @@ export function createHnAlgoliaAdapter(opts: HnAdapterOptions = {}): SourceAdapt
         } catch {
           break; // degraded: keep what we have
         }
-        const items = this.map(body, fetchedAt);
+        const items = adapter.map(body, fetchedAt);
         for (const item of items) {
           const t = Date.parse(item.published_at);
           if (t >= window.from.getTime() && t <= window.to.getTime()) {
@@ -314,4 +314,6 @@ export function createHnAlgoliaAdapter(opts: HnAdapterOptions = {}): SourceAdapt
       return items;
     },
   };
+
+  return adapter;
 }

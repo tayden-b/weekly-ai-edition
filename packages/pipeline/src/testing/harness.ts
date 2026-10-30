@@ -153,12 +153,16 @@ export async function runAdapterFixture(
   const window: FetchWindow = opts.window ?? { from: new Date(0), to: now };
   const min = opts.expectMinItems ?? 1;
 
+  // Adapter methods must not rely on `this`: callers may destructure
+  // `const { fetch } = adapter`, so the harness invokes them detached.
+  const { map, fetch } = adapter;
+
   // 1. Pure path — the recorded bodies through map().
   const mapped: RawItem[] = [];
   for (const [r, recorded] of fixture.responses.entries()) {
     let out: RawItem[];
     try {
-      out = adapter.map(recorded.body, now);
+      out = map(recorded.body, now);
     } catch (err) {
       throw new Error(
         `${adapter.id}.map threw on responses[${r}] of ${fixturePath}: ${String(err)}`,
@@ -180,7 +184,7 @@ export async function runAdapterFixture(
 
   // 2. End-to-end path — fetch() with the replay fetcher, fixed clock, project UA.
   const ctx = adapterContext({ fetch: replayFetcher(fixture, fixturePath), now: () => now });
-  const items = await adapter.fetch(window, ctx);
+  const items = await fetch(window, ctx);
   for (const [i, item] of items.entries()) {
     try {
       validateRawItem(item);
