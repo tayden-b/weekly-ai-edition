@@ -1,6 +1,55 @@
 {
   "adapter": "arxiv",
   "source": "arxiv-lab-papers",
-  "fetched_at": "2026-10-30T01:06:41.669Z",
-  "items": []
+  "fetched_at": "2026-10-30T01:26:29.424Z",
+  "items": [
+    {
+      "headline": "MechAlign: Evaluating Semantic Alignment at the Project Level in Mathematical Formalization",
+      "canonical_url": "https://arxiv.org/abs/2610.35269",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T11:44:26.000Z",
+      "fetched_at": "2026-10-30T01:26:29.476Z",
+      "excerpt": "Lean verifies that a formal proof establishes its stated proposition under declared assumptions, but does not check whether that proposition faithfully expresses the mathematical claim in a manuscript. Assessing this correspondence requires interpreting the main theorem through its project",
+      "source_ids": {
+        "arxiv_id": "2610.35269"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Improving Instruction Hierarchy by Learning from Goal-Goal Conflicts",
+      "canonical_url": "https://arxiv.org/abs/2610.35093",
+      "publisher": "arXiv",
+      "published_at": "2026-10-26T09:33:17.000Z",
+      "fetched_at": "2026-10-30T01:26:29.476Z",
+      "excerpt": "The recent incident in which OpenAI agents autonomously compromised Hugging Face's infrastructure illustrates the importance of instruction hierarchy (IH): an LLM should follow lower-priority instructions, such as user requests, only when they do not conflict with higher-priority instructions, such",
+      "source_ids": {
+        "arxiv_id": "2610.35093"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Why Does Structured Output Fail? An Empirical Study of Prompt-Enforced Pydantic Schemas Across Nine LLMs",
+      "canonical_url": "https://arxiv.org/abs/2610.33949",
+      "publisher": "arXiv",
+      "published_at": "2026-10-24T23:30:38.000Z",
+      "fetched_at": "2026-10-30T01:26:29.476Z",
+      "excerpt": "Pipelines that require structured outputs from hosted language models often specify a Pydantic schema in the prompt, validate the response, and retry when validation fails. Although native structured-output modes provide an alternative, application-side validation remains important for enforcing",
+      "source_ids": {
+        "arxiv_id": "2610.33949"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?",
+      "canonical_url": "https://arxiv.org/abs/2610.33509",
+      "publisher": "arXiv",
+      "published_at": "2026-10-24T07:32:42.000Z",
+      "fetched_at": "2026-10-30T01:26:29.476Z",
+      "excerpt": "LLM agents have been increasingly adopted for security-focused code review, but existing benchmarks mostly derive the reviewed changes from their later fixes instead of the real-world bug-introducing commits. In this paper, we present SecPRBench, the first comprehensive benchmark for evaluating",
+      "source_ids": {
+        "arxiv_id": "2610.33509"
+      },
+      "adapter": "arxiv"
+    }
+  ]
 }
