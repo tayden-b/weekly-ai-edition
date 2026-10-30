@@ -33,6 +33,10 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm ingest
+        env:
+          # github-releases adapter auth — without it the run rides the
+          # 60 req/hr unauthenticated budget of the shared runner egress IP.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit the raw cache back via auto-merge PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
