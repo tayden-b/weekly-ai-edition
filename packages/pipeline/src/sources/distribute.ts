@@ -150,7 +150,7 @@ export function createDistributeAdapter(opts: DistributeAdapterOptions): SourceA
     return u.toString();
   }
 
-  return {
+  const adapter: SourceAdapter = {
     id: DISTRIBUTE_ADAPTER_ID,
 
     async fetch(window: FetchWindow, ctx?: Partial<AdapterContext>): Promise<RawItem[]> {
@@ -160,7 +160,7 @@ export function createDistributeAdapter(opts: DistributeAdapterOptions): SourceA
           headers: { "user-agent": userAgent },
         });
         if (!res.ok) return [];
-        return this.map(await res.json(), now()).filter((item) => {
+        return adapter.map(await res.json(), now()).filter((item) => {
           const t = Date.parse(item.published_at);
           return t >= window.from.getTime() && t <= window.to.getTime();
         });
@@ -195,6 +195,8 @@ export function createDistributeAdapter(opts: DistributeAdapterOptions): SourceA
         .filter((i): i is RawItem => i !== null);
     },
   };
+
+  return adapter;
 }
 
 function isoOrNull(raw: string | undefined): string | null {

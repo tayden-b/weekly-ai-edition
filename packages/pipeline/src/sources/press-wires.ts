@@ -284,7 +284,7 @@ export function createPressWireAdapter(opts: PressWireOptions): SourceAdapter {
     return item.excerpt === "" ? null : item;
   }
 
-  return {
+  const adapter: SourceAdapter = {
     id: PRESS_WIRE_ADAPTER_ID,
 
     async fetch(window: FetchWindow, ctx?: Partial<AdapterContext>): Promise<RawItem[]> {
@@ -301,7 +301,7 @@ export function createPressWireAdapter(opts: PressWireOptions): SourceAdapter {
         return [];
       }
       const byGuid = new Map<string, RawItem>();
-      for (const item of this.map(body, fetchedAt)) {
+      for (const item of adapter.map(body, fetchedAt)) {
         const t = Date.parse(item.published_at);
         if (t >= window.from.getTime() && t <= window.to.getTime()) {
           byGuid.set(item.source_ids.guid!, item);
@@ -336,4 +336,6 @@ export function createPressWireAdapter(opts: PressWireOptions): SourceAdapter {
       return items;
     },
   };
+
+  return adapter;
 }

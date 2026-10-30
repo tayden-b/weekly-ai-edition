@@ -142,7 +142,7 @@ export function createArxivAdapter(opts: ArxivAdapterOptions = {}): SourceAdapte
     `${baseUrl}?search_query=${encodeURIComponent(`all:"${org}" AND (${catClause})`)}` +
     `&sortBy=submittedDate&sortOrder=descending&max_results=${maxResults}`;
 
-  return {
+  const adapter: SourceAdapter = {
     id: ARXIV_ADAPTER_ID,
 
     async fetch(window: FetchWindow, ctx?: Partial<AdapterContext>): Promise<RawItem[]> {
@@ -165,7 +165,7 @@ export function createArxivAdapter(opts: ArxivAdapterOptions = {}): SourceAdapte
         } catch {
           continue; // org query failed — degrade to the other orgs
         }
-        for (const item of this.map(body, fetchedAt)) {
+        for (const item of adapter.map(body, fetchedAt)) {
           if (inWindow(item.published_at, window)) {
             byId.set(item.source_ids.arxiv_id!, item);
           }
@@ -191,6 +191,8 @@ export function createArxivAdapter(opts: ArxivAdapterOptions = {}): SourceAdapte
       return typeof payload === "string" ? mapAtom(payload, fetchedAt) : [];
     },
   };
+
+  return adapter;
 }
 
 function inWindow(iso: string, window: FetchWindow): boolean {

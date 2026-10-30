@@ -226,7 +226,7 @@ export function createRedditAdapter(opts: RedditAdapterOptions): SourceAdapter {
     return u.toString();
   }
 
-  return {
+  const adapter: SourceAdapter = {
     id: REDDIT_ADAPTER_ID,
 
     async fetch(window: FetchWindow, ctx?: Partial<AdapterContext>): Promise<RawItem[]> {
@@ -244,7 +244,7 @@ export function createRedditAdapter(opts: RedditAdapterOptions): SourceAdapter {
       }
       const from = window.from.getTime();
       const to = window.to.getTime();
-      return this.map(payload, fetchedAt).filter((item) => {
+      return adapter.map(payload, fetchedAt).filter((item) => {
         const t = Date.parse(item.published_at);
         return t >= from && t <= to;
       });
@@ -280,4 +280,6 @@ export function createRedditAdapter(opts: RedditAdapterOptions): SourceAdapter {
       return items;
     },
   };
+
+  return adapter;
 }

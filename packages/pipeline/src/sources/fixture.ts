@@ -46,7 +46,7 @@ export interface FixtureAdapterOptions {
 }
 
 export function createFixtureAdapter(opts: FixtureAdapterOptions): SourceAdapter {
-  return {
+  const adapter: SourceAdapter = {
     id: FIXTURE_ADAPTER_ID,
 
     async fetch(window: FetchWindow, ctx?: Partial<AdapterContext>): Promise<RawItem[]> {
@@ -58,7 +58,7 @@ export function createFixtureAdapter(opts: FixtureAdapterOptions): SourceAdapter
         throw new Error(`fixture adapter: HTTP ${res.status} from ${opts.endpoint}`);
       }
       const body = (await res.json()) as unknown;
-      return this.map(body, now()).filter((item) => {
+      return adapter.map(body, now()).filter((item) => {
         const t = Date.parse(item.published_at);
         return t >= window.from.getTime() && t <= window.to.getTime();
       });
@@ -99,4 +99,6 @@ export function createFixtureAdapter(opts: FixtureAdapterOptions): SourceAdapter
       });
     },
   };
+
+  return adapter;
 }
