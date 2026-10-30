@@ -6,12 +6,16 @@
  * `…/repos/<owner>/<repo>/releases` REST URL, and the adapter is built
  * per entry (the repo list lives in config, never in code).
  *
- * Unauthenticated rate limits apply (60 req/hr per IP): the adapter
- * fetches newest-first pages and stops as soon as the window is covered —
- * a short page, a page whose oldest release predates `window.from`, or
- * `maxPages`, whichever comes first. Requests run sequentially with ≥
- * `minRequestIntervalMs` between starts; a failed page degrades to
- * whatever earlier pages returned and `health()` never throws.
+ * Unauthenticated rate limits apply (60 req/hr per IP); set `opts.token`
+ * or `GITHUB_TOKEN` in the environment to send `Authorization: Bearer`
+ * and raise the budget. The adapter fetches newest-first pages and stops
+ * as soon as the window is covered — a short page, a page whose oldest
+ * release predates `window.from`, or `maxPages`, whichever comes first.
+ * Requests run sequentially with ≥ `minRequestIntervalMs` between starts.
+ * A page-1 failure throws (a dead endpoint is an outage — it must land
+ * as `ok: false` in the manifest, not a silent empty file); a failure on
+ * page ≥ 2 degrades to whatever earlier pages returned. `health()` never
+ * throws.
  *
  * Mapping (per release):
  *  - `headline`      ← release `name` (falls back to `tag_name`)
@@ -61,6 +65,12 @@ export interface GitHubReleasesAdapterOptions {
   endpoint: string;
   /** Publisher display name override. Default `GitHub: <owner>/<repo>`. */
   publisher?: string;
+  /**
+   * Bearer token for the GitHub API. Default: `process.env.GITHUB_TOKEN`,
+   * resolved per request so a token provisioned after construction still
+   * activates (Actions exposes it via the workflow's `env:`).
+   */
+  token?: string;
   /** Releases per page (GitHub max 100). Default 100. */
   perPage?: number;
   /** Page cap — courtesy under the 60 req/hr unauthenticated budget. Default 3. */
@@ -86,24 +96,53 @@ export function createGitHubReleasesAdapter(
   const minInterval = opts.minRequestIntervalMs ?? 1000;
   const base = opts.endpoint.replace(/\/+$/, "");
 
+  /** Empty string counts as unset — fall back to the unauthenticated budget. */
+  const resolveToken = () => opts.token ?? process.env.GITHUB_TOKEN;
+
+  const headers = (userAgent: string) => ({
+    "user-agent": userAgent,
+    accept: "application/vnd.github+json",
+    ...(resolveToken() ? { authorization: `Bearer ${resolveToken()}` } : {}),
+  });
+
   /** Sequential GETs ≥ minInterval apart; throws only to the caller's catch. */
   async function getJson(url: string, ctx: AdapterContext, lastStart: { t: number }) {
     const wait = lastStart.t + minInterval - Date.now();
     if (lastStart.t > 0 && wait > 0) await sleep(wait);
     lastStart.t = Date.now();
-    const res = await ctx.fetch(url, {
-      headers: {
-        "user-agent": ctx.userAgent,
-        accept: "application/vnd.github+json",
-      },
-    });
+    const res = await ctx.fetch(url, { headers: headers(ctx.userAgent) });
     if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
     return (await res.json()) as unknown;
   }
 
+  /** Kept off `this` so a destructured `adapter.fetch` still resolves it. */
+  const mapReleases = (payload: unknown, fetchedAt: Date = new Date()): RawItem[] => {
+    const releases = Array.isArray(payload) ? (payload as GitHubRelease[]) : [];
+    const items: RawItem[] = [];
+    for (const rel of releases) {
+      if (rel.draft === true) continue;
+      const published = rel.published_at ?? rel.created_at;
+      if (typeof rel.html_url !== "string" || published === null || published === undefined) {
+        continue;
+      }
+      const tag = rel.tag_name ?? "";
+      const headline = rel.name?.trim() ? rel.name.trim() : tag;
+      if (!headline) continue;
+      items.push({
+        headline,
+        canonical_url: rel.html_url,
+        publisher,
+        published_at: published,
+        fetched_at: fetchedAt.toISOString(),
+        excerpt: toExcerpt(rel.body?.trim() ? rel.body : headline),
+        source_ids: { github_repo: repo, github_release_tag: tag },
+      });
+    }
+    return items;
+  };
+
   const adapter: SourceAdapter = {
     id: GITHUB_RELEASES_ADAPTER_ID,
-
     async fetch(window: FetchWindow, ctx?: Partial<AdapterContext>): Promise<RawItem[]> {
       const c = adapterContext(ctx);
       const fetchedAt = c.now();
@@ -115,12 +154,15 @@ export function createGitHubReleasesAdapter(
         let body: unknown;
         try {
           body = await getJson(url, c, lastStart);
-        } catch {
+        } catch (err) {
+          // Page 1 down = the endpoint is down — surface it (the manifest
+          // records ok:false) instead of masquerading as a quiet window.
+          if (page === 1) throw err;
           break; // degraded: keep what earlier pages returned
         }
         const releases = Array.isArray(body) ? (body as GitHubRelease[]) : [];
         let oldest = Number.POSITIVE_INFINITY;
-        for (const item of adapter.map(releases, fetchedAt)) {
+        for (const item of mapReleases(releases, fetchedAt)) {
           const t = Date.parse(item.published_at);
           if (t >= window.from.getTime() && t <= window.to.getTime()) items.push(item);
           if (t < oldest) oldest = t;
@@ -137,10 +179,7 @@ export function createGitHubReleasesAdapter(
       const checked_at = c.now().toISOString();
       try {
         const res = await c.fetch(`${base}?per_page=1`, {
-          headers: {
-            "user-agent": c.userAgent,
-            accept: "application/vnd.github+json",
-          },
+          headers: headers(c.userAgent),
         });
         return { ok: res.ok, detail: `${base} → HTTP ${res.status}`, checked_at };
       } catch (err) {
@@ -148,30 +187,7 @@ export function createGitHubReleasesAdapter(
       }
     },
 
-    map(payload: unknown, fetchedAt: Date = new Date()): RawItem[] {
-      const releases = Array.isArray(payload) ? (payload as GitHubRelease[]) : [];
-      const items: RawItem[] = [];
-      for (const rel of releases) {
-        if (rel.draft === true) continue;
-        const published = rel.published_at ?? rel.created_at;
-        if (typeof rel.html_url !== "string" || published === null || published === undefined) {
-          continue;
-        }
-        const tag = rel.tag_name ?? "";
-        const headline = rel.name?.trim() ? rel.name.trim() : tag;
-        if (!headline) continue;
-        items.push({
-          headline,
-          canonical_url: rel.html_url,
-          publisher,
-          published_at: published,
-          fetched_at: fetchedAt.toISOString(),
-          excerpt: toExcerpt(rel.body?.trim() ? rel.body : headline),
-          source_ids: { github_repo: repo, github_release_tag: tag },
-        });
-      }
-      return items;
-    },
+    map: mapReleases,
   };
   return adapter;
 }

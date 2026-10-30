@@ -102,13 +102,71 @@ describe("github-releases endpoint parsing + health", () => {
     expect(health.detail).toContain("unrecorded URL");
   });
 
-  it("fetch() degrades to [] when every request fails", async () => {
+  it("fetch() throws on a page-1 failure so the manifest records ok:false", async () => {
     const empty = { responses: [{ url: "https://other.invalid/x", body: {} }] };
-    const items = await adapter().fetch(
+    await expect(
+      adapter().fetch(
+        { from: new Date(0), to: FIXTURE_NOW },
+        { fetch: replayFetcher(empty), now: () => FIXTURE_NOW },
+      ),
+    ).rejects.toThrow();
+  });
+
+  it("fetch() keeps page-1 items when a later page fails", async () => {
+    const release = {
+      tag_name: "v9.0.0",
+      name: "v9.0.0",
+      html_url: "https://github.com/fixture-oss/launchbox/releases/tag/v9.0.0",
+      published_at: FIXTURE_NOW.toISOString(),
+      draft: false,
+      prerelease: false,
+      body: "",
+    };
+    const page2Down: typeof fetch = async (input) => {
+      const url = new URL(String(input));
+      if (url.searchParams.get("page") === "1") {
+        return new Response(JSON.stringify([release]), { status: 200 });
+      }
+      return new Response("rate limited", { status: 403 });
+    };
+    const a = createGitHubReleasesAdapter({
+      endpoint: ENDPOINT,
+      perPage: 1,
+      minRequestIntervalMs: 0,
+    });
+    const items = await a.fetch(
       { from: new Date(0), to: FIXTURE_NOW },
-      { fetch: replayFetcher(empty), now: () => FIXTURE_NOW },
+      { fetch: page2Down, now: () => FIXTURE_NOW },
     );
-    expect(items).toEqual([]);
+    expect(items.map((i) => i.source_ids.github_release_tag)).toEqual(["v9.0.0"]);
+  });
+
+  it("sends Authorization: Bearer when a token is configured (opts or env)", async () => {
+    const seen: (string | null)[] = [];
+    const spy: typeof fetch = async (_input, init) => {
+      seen.push(new Headers(init?.headers).get("authorization"));
+      return new Response("[]", { status: 200 });
+    };
+    const window = { from: new Date(0), to: FIXTURE_NOW };
+    const ctx = { fetch: spy, now: () => FIXTURE_NOW };
+
+    await createGitHubReleasesAdapter({
+      endpoint: ENDPOINT,
+      token: "tok-opt",
+      minRequestIntervalMs: 0,
+    }).fetch(window, ctx);
+    expect(seen.pop()).toBe("Bearer tok-opt");
+
+    process.env.GITHUB_TOKEN = "tok-env";
+    try {
+      await adapter().fetch(window, ctx);
+      expect(seen.pop()).toBe("Bearer tok-env");
+    } finally {
+      delete process.env.GITHUB_TOKEN;
+    }
+
+    await adapter().fetch(window, ctx);
+    expect(seen.pop()).toBeNull();
   });
 });
 
