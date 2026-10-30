@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "ran_at": "2026-10-30T01:06:41.669Z",
+  "ran_at": "2026-10-30T01:26:29.424Z",
   "window": {
     "from": "2026-10-24T00:00:00.000Z",
     "to": "2026-10-30T23:59:59.999Z"
@@ -100,7 +100,7 @@
       "source": "gh-llama-cpp",
       "adapter": "github-releases",
       "ok": true,
-      "count": 100
+      "count": 101
     },
     {
       "source": "gh-ollama",
@@ -160,7 +160,7 @@
       "source": "arxiv-lab-papers",
       "adapter": "arxiv",
       "ok": true,
-      "count": 0
+      "count": 4
     },
     {
       "source": "hn-algolia",
@@ -208,7 +208,7 @@
       "source": "sec-edgar-fts",
       "adapter": "sec-edgar",
       "ok": true,
-      "count": 0
+      "count": 61
     },
     {
       "source": "sec-edgar-current-feed",
@@ -311,6 +311,6 @@
     "sources": 50,
     "ok": 50,
     "failed": 0,
-    "items": 904
+    "items": 970
   }
 }
