@@ -26,7 +26,7 @@ export function TrendDelta({
 
 /**
  * TrendArrow — the bare "trend arrow" of the Most Covered table (§2.2, the
- * distribute Tech Index: rank · logo · name · stories · trend arrow). The
+ * distribute Tech Index: rank · name · stories · trend arrow). The
  * direction is known but no delta value exists, so unlike TrendDelta it
  * renders no fabricated number; the arrow alone in the trend colour, with
  * an accessible name for AT.
