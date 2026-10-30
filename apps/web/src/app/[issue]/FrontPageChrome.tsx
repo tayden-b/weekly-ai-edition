@@ -32,6 +32,7 @@ export function FrontPageChrome({
   const [barVisible, setBarVisible] = useState(false);
   const [sheetOpen, setSheetOpen] = useState(false);
   const sheetRef = useRef<HTMLDivElement>(null);
+  const topbarRef = useRef<HTMLDivElement>(null);
 
   // Reveal the bar only after the masthead band scrolls out of view.
   useEffect(() => {
@@ -74,6 +75,9 @@ export function FrontPageChrome({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
+      // Hidden half of the split (deck.css display:none → clientWidth 0):
+      // leave the keys — and their defaults — to the visible layer.
+      if (topbarRef.current?.clientWidth === 0) return;
       const el = e.target as HTMLElement | null;
       if (el?.closest("input, textarea, select, [contenteditable='true']")) {
         return;
@@ -107,6 +111,7 @@ export function FrontPageChrome({
   return (
     <>
       <div
+        ref={topbarRef}
         className="w-topbar"
         data-show={barVisible || undefined}
         inert={!barVisible}
