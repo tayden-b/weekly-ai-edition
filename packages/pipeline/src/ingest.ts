@@ -186,7 +186,7 @@ export function sourceAdapterFromEntry(entry: SourceEntry, deps: IngestDeps = {}
     case "reddit-json":
       return redditAdapterFromEntry(entry) ?? failNull(entry);
     case "distribute-software":
-      return createDistributeAdapter({ endpoint: entry.endpoint });
+      return createDistributeAdapter({ id: entry.id, endpoint: entry.endpoint });
     case "fixture":
       return createFixtureAdapter({ endpoint: entry.endpoint });
     default:

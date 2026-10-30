@@ -22,8 +22,10 @@ const STORIES_ENDPOINT = "https://distribute.software/api/v1/stories";
 /** Window covering the recorded week (Oct 2026); fixture clock stays fixed. */
 const WINDOW = { from: new Date("2026-10-24T00:00:00Z"), to: new Date("2026-10-31T23:59:59Z") };
 
-const releasesAdapter = () => createDistributeAdapter({ endpoint: RELEASES_ENDPOINT });
-const storiesAdapter = () => createDistributeAdapter({ endpoint: STORIES_ENDPOINT });
+const releasesAdapter = () =>
+  createDistributeAdapter({ id: "distribute-releases", endpoint: RELEASES_ENDPOINT });
+const storiesAdapter = () =>
+  createDistributeAdapter({ id: "distribute-stories", endpoint: STORIES_ENDPOINT });
 
 describe("distribute-software adapter — releases feed", () => {
   it("replays recorded releases through the harness: outbound canonical URLs, no network", async () => {
@@ -48,6 +50,7 @@ describe("distribute-software adapter — releases feed", () => {
     // excerpt is the record's own title text, ≤300 chars.
     expect(gemini.excerpt).toBe("Gemini 4 Carbon: Our next frontier model");
     expect(gemini.source_ids).toEqual({
+      feed: "distribute-releases",
       distribute_id: "release-1074",
       distribute_url: "https://distribute.software/companies/google",
       distribute_source: "lab",

@@ -248,4 +248,19 @@ describe("rank — config weight resolution", () => {
     const primary = sources.find((s) => s.tier === "primary")!;
     expect(configuredWeight(primary)).toBeUndefined();
   });
+
+  it("resolves distribute-* members to their configured weight via source_ids.feed", () => {
+    // Regression for #76: distribute items stamp the outbound outlet as
+    // `publisher`, so name-matching could never reach the entries'
+    // `meta.weight: 0.6` — feed-id provenance is the only path.
+    const realSources = loadSourcesConfig(repo("config/sources.yaml"));
+    const member = mkMember({
+      adapter: "distribute-software",
+      canonical_url: "https://deepmind.google/blog/gemini-4/",
+      publisher: "Google DeepMind",
+      source_ids: { feed: "distribute-releases", distribute_source: "lab" },
+    });
+    const [r] = rank([mkCluster("d", [member])], { sources: realSources, now: () => NOW });
+    expect(r!.score_breakdown.publisher_weight).toBe(0.6);
+  });
 });
