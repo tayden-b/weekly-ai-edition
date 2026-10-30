@@ -68,6 +68,9 @@ export const DISTRIBUTE_PUBLISHER = "distribute.software";
 export const DISTRIBUTE_DEFAULT_LIMIT = 250;
 
 export interface DistributeAdapterOptions {
+  /** sources.yaml entry id, e.g. "distribute-releases" — stamped on
+   * `source_ids.feed` so rank's weight provenance can reach `meta.weight`. */
+  id: string;
   /** Endpoint URL from `config/sources.yaml` (`/api/v1/releases` or `/api/v1/stories`). */
   endpoint: string;
   /** Records requested per fetch (default `DISTRIBUTE_DEFAULT_LIMIT`). */
@@ -120,7 +123,7 @@ export function createDistributeAdapter(opts: DistributeAdapterOptions): SourceA
     const published_at = isoOrNull(r.publishedAt) ?? isoOrNull(r.date);
     if (!title || !url || !published_at) return null;
 
-    const source_ids: Record<string, string> = {};
+    const source_ids: Record<string, string> = { feed: opts.id };
     if (r.id) source_ids.distribute_id = r.id;
     if (r.siteUrl) source_ids.distribute_url = r.siteUrl;
     if (r.source) source_ids.distribute_source = r.source;
