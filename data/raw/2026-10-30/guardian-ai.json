@@ -1,18 +1,44 @@
 {
   "adapter": "press-wire-rss",
   "source": "guardian-ai",
-  "fetched_at": "2026-10-30T01:26:29.424Z",
+  "fetched_at": "2026-10-30T16:58:37.362Z",
   "items": [
     {
-      "headline": "Computerized clairvoyance: psychics push back against AI-generated readings",
-      "canonical_url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/29/psychics-push-back-ai-readings",
+      "headline": "How do we make new economic ideas a reality? – Aditya Chakrabortty answered your questions",
+      "canonical_url": "https://www.theguardian.com/community/live/2026/oct/29/reader-qa-aditya-chakrabortty-answers-your-questions",
       "publisher": "The Guardian",
-      "published_at": "2026-10-29T11:00:31.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
-      "excerpt": "Human practitioners warn computer-generated offerings lack the empathy and connection central to divination “This journey isn’t just about algorithms or data,” an AI psychic named Urban Mystic recently told me. The chatbot, featuring an AI-generated profile photo of a smiling woman surrounded by",
+      "published_at": "2026-10-30T16:21:29.000Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
+      "excerpt": "Guardian columnist, senior economics commentator and host of the new Radical Thinking podcast Aditya Chakrabortty answered your questions on the big ideas around economics, society and democracy, and his new podcast thegreatfatsby asks : Do you think the fact that Gabriel Zucman, who is a",
       "source_ids": {
         "feed": "guardian-ai",
-        "guid": "https://www.theguardian.com/technology/ng-interactive/2026/oct/29/psychics-push-back-ai-readings"
+        "guid": "https://www.theguardian.com/community/live/2026/oct/29/reader-qa-aditya-chakrabortty-answers-your-questions"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Ghost in the machine: how AI is haunting the search for the supernatural",
+      "canonical_url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/30/ai-ghost-hunting",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-30T15:00:16.000Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
+      "excerpt": "Ghost hunting has changed in recent years due to AI chatbots, and paranormal enthusiasts are concerned Ghost hunting is a tech-heavy pursuit. When Amy Waine and Jarrad Cutting investigate haunted locations, they’re loaded up with software of their own design, such as an app that assigns signals",
+      "source_ids": {
+        "feed": "guardian-ai",
+        "guid": "https://www.theguardian.com/technology/ng-interactive/2026/oct/30/ai-ghost-hunting"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
+      "canonical_url": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-30T14:00:18.000Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
+      "excerpt": "Scraping copyrighted material from internet could ‘potentially’ amount to acquisition of property by government, Anne Twomey says Get our daily political email , free app or daily news podcast Altering copyright law to allow AI companies to scrape music, books and journalism could trigger a",
+      "source_ids": {
+        "feed": "guardian-ai",
+        "guid": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case"
       },
       "adapter": "press-wire-rss"
     },
@@ -21,7 +47,7 @@
       "canonical_url": "https://www.theguardian.com/law/2026/oct/30/victorian-lawyers-ai-clients-fees",
       "publisher": "The Guardian",
       "published_at": "2026-10-29T23:00:37.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Research finds 55% of lawyers are using AI in legal practices, up from 37% last year, though efficiency gains aren’t as high as expected Get our breaking news email , free app or daily news podcast More than half of Victoria’s lawyers have reported using AI in their work, according to a new study,",
       "source_ids": {
         "feed": "guardian-ai",
@@ -34,7 +60,7 @@
       "canonical_url": "https://www.theguardian.com/technology/2026/oct/29/amazon-earnings-report-mixed-picture",
       "publisher": "The Guardian",
       "published_at": "2026-10-29T21:23:02.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "E-commerce company posts high cloud computing sales but gives a cautious sales forecast for the fourth quarter Amazon offered a mixed picture of its financial health on Thursday in its quarterly earnings report. The e-commerce company gave a cautious sales forecast for the current fourth quarter,",
       "source_ids": {
         "feed": "guardian-ai",
@@ -43,24 +69,11 @@
       "adapter": "press-wire-rss"
     },
     {
-      "headline": "Reader Q&A: Send a question to Guardian columnist Aditya Chakrabortty",
-      "canonical_url": "https://www.theguardian.com/community/live/2026/oct/29/reader-qa-aditya-chakrabortty-answers-your-questions",
-      "publisher": "The Guardian",
-      "published_at": "2026-10-29T15:31:25.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
-      "excerpt": "Guardian columnist, senior economics commentator and host of the new Radical Thinking podcast Aditya Chakrabortty will be online at 2pm GMT (9am EDT) on Friday to answer your questions on the big ideas around economics, society and democracy Send your questions to conversations@theguardian.com or",
-      "source_ids": {
-        "feed": "guardian-ai",
-        "guid": "https://www.theguardian.com/community/live/2026/oct/29/reader-qa-aditya-chakrabortty-answers-your-questions"
-      },
-      "adapter": "press-wire-rss"
-    },
-    {
       "headline": "What is it like to work when your co-workers are AI agents?",
       "canonical_url": "https://www.theguardian.com/technology/2026/oct/29/ai-agent-coworker",
       "publisher": "The Guardian",
       "published_at": "2026-10-29T15:00:46.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Using AI for roles from executive assistants to chiefs of staff, companies are boasting about doing more with less, creating tension with their human workers On an average workday, Dhruv Amin chats with dozens of colleagues to get things done at his AI startup Anything. He might ask Gwen, his",
       "source_ids": {
         "feed": "guardian-ai",
@@ -73,7 +86,7 @@
       "canonical_url": "https://www.theguardian.com/commentisfree/2026/oct/29/abdul-el-sayed-ai-companies-public-ownership",
       "publisher": "The Guardian",
       "published_at": "2026-10-29T13:00:44.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "The Michigan Senate candidate is calling for public ownership and other reforms, offering a potential antidote to ideological gridlock The Michigan senatorial candidate Abdul El-Sayed, a Democrat, occupies a strange but increasingly common place in modern American politics. He’s praised by",
       "source_ids": {
         "feed": "guardian-ai",
@@ -82,11 +95,24 @@
       "adapter": "press-wire-rss"
     },
     {
+      "headline": "Computerized clairvoyance: psychics push back against AI-generated readings",
+      "canonical_url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/29/psychics-push-back-ai-readings",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-29T11:00:31.000Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
+      "excerpt": "Human practitioners warn computer-generated offerings lack the empathy and connection central to divination “This journey isn’t just about algorithms or data,” an AI psychic named Urban Mystic recently told me. The chatbot, featuring an AI-generated profile photo of a smiling woman surrounded by",
+      "source_ids": {
+        "feed": "guardian-ai",
+        "guid": "https://www.theguardian.com/technology/ng-interactive/2026/oct/29/psychics-push-back-ai-readings"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
       "headline": "‘Elonville’: US residents say Musk’s xAI offered to buy homes if they don’t sue over datacenter noise",
       "canonical_url": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
       "publisher": "The Guardian",
       "published_at": "2026-10-28T15:32:41.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Several Mississippi homes have been purchased near datacenters and one resident said realtor outlined target to buy more than 400 People in a Mississippi neighborhood, many of whom dislike a nearby power plant central to Elon Musk ’s artificial intelligence ambitions, have received a stark offer –",
       "source_ids": {
         "feed": "guardian-ai",
@@ -99,7 +125,7 @@
       "canonical_url": "https://www.theguardian.com/games/2026/oct/28/social-media-is-full-of-weird-video-game-mashups-where-are-they-all-coming-from",
       "publisher": "The Guardian",
       "published_at": "2026-10-28T15:00:05.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "AI tools are making it easier to modify and recreate games, raising questions about piracy, copyright and how far the technology could disrupt the industry • Don’t get Pushing Buttons delivered to your inbox? Sign up here If your social media algorithms have clocked that you’re into video games,",
       "source_ids": {
         "feed": "guardian-ai",
@@ -112,7 +138,7 @@
       "canonical_url": "https://www.theguardian.com/tv-and-radio/2026/oct/29/castle-walls-review-prime-first-fully-ai-generated-tv-show",
       "publisher": "The Guardian",
       "published_at": "2026-10-28T14:00:05.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Billed as the first end-to-end AI-created series on a major streaming service, this Turkish show looks like the result of the prompt ‘make it cinematic’ Just as the world reels from Elon Musk’s AI-powered The Odyssey remake – though “remake” feels rather generous for a seven-minute splat of",
       "source_ids": {
         "feed": "guardian-ai",
@@ -125,7 +151,7 @@
       "canonical_url": "https://www.theguardian.com/commentisfree/2026/oct/28/ai-climate-crisis-humanity",
       "publisher": "The Guardian",
       "published_at": "2026-10-28T12:00:04.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Both of these threats have the same roots: private entities seeking to cash in. We have the power to stand against them A summer of extreme heat, entire villages obliterated in Nepal, a super El Niño breaking records, Exxon publicly saying we may reach 3C by 2050 – could it possibly be any worse?",
       "source_ids": {
         "feed": "guardian-ai",
@@ -138,7 +164,7 @@
       "canonical_url": "https://www.theguardian.com/books/2026/oct/28/no-inevitable-dystopia-jeanette-winterson-ai-future-of-humanity",
       "publisher": "The Guardian",
       "published_at": "2026-10-28T10:00:05.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "The author believes we are at a turning point as a species – and even in the shadow of big tech it’s up to us how we want to proceed ‘I am a storyteller by trade,” writes Jeanette Winterson on the first page of her 2021 book 12 Bytes , an idiosyncratic and thought-provoking series of essays in",
       "source_ids": {
         "feed": "guardian-ai",
@@ -151,7 +177,7 @@
       "canonical_url": "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics",
       "publisher": "The Guardian",
       "published_at": "2026-10-28T05:31:55.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Labor government under pressure to create social media watchdog as new online safety standards bill passes lower house Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast The federal government wants to ban AI chatbots which seek",
       "source_ids": {
         "feed": "guardian-ai",
@@ -164,7 +190,7 @@
       "canonical_url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
       "publisher": "The Guardian",
       "published_at": "2026-10-27T22:30:45.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Three-quarters of all responses were machine-generated in failed attempt to stop bill from passing into law, research finds AI bots flooded a government consultation with tens of thousands of fake responses in a failed attempt to stop the UK’s ban on disposable vapes. Three-quarters of all the",
       "source_ids": {
         "feed": "guardian-ai",
@@ -177,7 +203,7 @@
       "canonical_url": "https://www.theguardian.com/commentisfree/2026/oct/27/elon-musk-cyber-psychosis-ai-tech",
       "publisher": "The Guardian",
       "published_at": "2026-10-27T15:01:14.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Whether using chatbots for childcare or taking up smoking, a new affliction is sweeping through the tech world. Here are the signs In the least surprising news you’ll hear all week, Elon Musk has said he’s not entirely right in the head. “I’ve got a little bit of cyber psychosis,” the world’s",
       "source_ids": {
         "feed": "guardian-ai",
@@ -190,7 +216,7 @@
       "canonical_url": "https://www.theguardian.com/technology/2026/oct/27/reviewers-slate-musk-ai-grok-odyssey-film-nolan",
       "publisher": "The Guardian",
       "published_at": "2026-10-27T14:08:41.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Tesla tycoon launched Grok project after criticising Christoper Nolan’s diverse casting for his Homeric blockbuster Elon Musk has released an AI-generated rival to Christopher Nolan’s The Odyssey after pledging to make a version “true to the art of Homer”. Having criticised the hit movie in the",
       "source_ids": {
         "feed": "guardian-ai",
@@ -203,7 +229,7 @@
       "canonical_url": "https://www.theguardian.com/film/2026/oct/27/elon-musk-ai-odyssey-movie-grok-christopher-nolan",
       "publisher": "The Guardian",
       "published_at": "2026-10-27T13:01:46.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "It is hardly a shock that Grok AI’s interpretation of Homer is as meaningless as a laptop screensaver. The only surprise would be if Musk accepted defeat graciously. Which he won’t Think back. Do you remember when Elon Musk, in a weird online tantrum, and without having seen the film, condemned the",
       "source_ids": {
         "feed": "guardian-ai",
@@ -216,7 +242,7 @@
       "canonical_url": "https://www.theguardian.com/us-news/2026/oct/27/ai-disinformation-social-media-midterm-elections",
       "publisher": "The Guardian",
       "published_at": "2026-10-27T10:00:10.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Social media companies including Meta have pulled back on efforts to protect voters from election-meddling lies Social media feeds are awash with an unprecedented flood of AI -driven disinformation ahead of November’s US midterm elections , according to experts, who warn many posts are probably",
       "source_ids": {
         "feed": "guardian-ai",
@@ -229,37 +255,11 @@
       "canonical_url": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation",
       "publisher": "The Guardian",
       "published_at": "2026-10-27T07:00:04.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
       "excerpt": "Investigation finds dozens of ministers and civil servants moved into AI roles as government developed datacentre expansion plans The UK’s policy on datacentres and AI was developed without any meetings with environmental groups, an investigation has found. The nonprofit organisation Spotlight on",
       "source_ids": {
         "feed": "guardian-ai",
         "guid": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation"
-      },
-      "adapter": "press-wire-rss"
-    },
-    {
-      "headline": "Four takeaways from Anthropic’s potentially record-breaking stock market filing",
-      "canonical_url": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways",
-      "publisher": "The Guardian",
-      "published_at": "2026-10-27T05:00:04.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
-      "excerpt": "The AI company’s first public financial disclosures reveal explosive growth, huge costs and risks ranging from cyber-attacks to the limits of safeguards Anthropic has filed to go public on the US stock market, revealing for the first time the AI research lab’s financials and all the risks – more",
-      "source_ids": {
-        "feed": "guardian-ai",
-        "guid": "https://www.theguardian.com/technology/2026/oct/26/anthropic-stock-market-filing-takeaways"
-      },
-      "adapter": "press-wire-rss"
-    },
-    {
-      "headline": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
-      "canonical_url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
-      "publisher": "The Guardian",
-      "published_at": "2026-10-27T04:42:50.000Z",
-      "fetched_at": "2026-10-30T01:26:29.487Z",
-      "excerpt": "Lack of profits and the threat posed by western countries are raising concern about the sustainability of Beijing’s AI boom Trillions of dollars have been wiped from China’s stock markets in recent months amid increasing anxiety about the future of artificial intelligence, as Beijing races against",
-      "source_ids": {
-        "feed": "guardian-ai",
-        "guid": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing"
       },
       "adapter": "press-wire-rss"
     }

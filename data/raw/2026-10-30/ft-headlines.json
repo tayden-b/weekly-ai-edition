@@ -1,18 +1,31 @@
 {
   "adapter": "press-wire-rss",
   "source": "ft-headlines",
-  "fetched_at": "2026-10-30T01:26:29.424Z",
+  "fetched_at": "2026-10-30T16:58:37.362Z",
   "items": [
     {
-      "headline": "Two fears will decide the fate of Anthropic’s giant IPO",
-      "canonical_url": "https://www.ft.com/content/9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f?syn-25a6b1a6=1",
+      "headline": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "canonical_url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f?syn-25a6b1a6=1",
       "publisher": "Financial Times",
-      "published_at": "2026-10-29T14:41:41.000Z",
-      "fetched_at": "2026-10-30T01:26:29.486Z",
-      "excerpt": "Two fears will decide the fate of Anthropic’s giant IPO",
+      "published_at": "2026-10-30T16:45:48.000Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
+      "excerpt": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
       "source_ids": {
         "feed": "ft-headlines",
-        "guid": "9fd6faa4-0e06-4b2b-975a-3e6d3a7f3d7f"
+        "guid": "59383c7f-8d82-493f-bf01-d2e862a1018f"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Inside the make-or-break AI mega-project behind Nscale’s $35bn IPO",
+      "canonical_url": "https://www.ft.com/content/ee86c4b6-1fe4-467e-8f18-9c08df288aff?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:13.000Z",
+      "fetched_at": "2026-10-30T16:58:37.428Z",
+      "excerpt": "Inside the make-or-break AI mega-project behind Nscale’s $35bn IPO",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "ee86c4b6-1fe4-467e-8f18-9c08df288aff"
       },
       "adapter": "press-wire-rss"
     }
