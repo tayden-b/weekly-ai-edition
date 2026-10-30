@@ -974,7 +974,15 @@ sources:
     license: "Reddit public JSON listing; declared UA required; store post id, score, num_comments, permalink — never comment bodies."
     rate_limit: "Reddit courtesy; cache; ≤1 req/s"
     enabled: true
-    meta: { params: { t: week } }
+    meta:
+      params: { t: week }
+      # plan-defect #57: adapters own their relevance terms as config — the
+      # key exists on every adapter; deliberately EMPTY here. The subreddit
+      # scope IS the AI-relevance filter for these three AI-topical subs —
+      # an HN-shaped keyword list would drop flagship content (fixtures:
+      # the weekly megathread and GPU-deal posts carry no listed term).
+      # Wired to the same word-boundary matcher when populated.
+      ai_terms: []
   - id: reddit-localllama
     pages: [discourse]
     tier: primary
@@ -984,7 +992,9 @@ sources:
     license: "Reddit public JSON listing; declared UA required; post id, score, num_comments, permalink only."
     rate_limit: "Reddit courtesy; cache; ≤1 req/s"
     enabled: true
-    meta: { params: { t: week } }
+    meta:
+      params: { t: week }
+      ai_terms: []  # deliberately empty — subreddit scope is the filter (#57)
   - id: reddit-artificial
     pages: [discourse]
     tier: primary
@@ -994,7 +1004,9 @@ sources:
     license: "Reddit public JSON listing; declared UA required; post id, score, num_comments, permalink only."
     rate_limit: "Reddit courtesy; cache; ≤1 req/s"
     enabled: true
-    meta: { params: { t: week } }
+    meta:
+      params: { t: week }
+      ai_terms: []  # deliberately empty — subreddit scope is the filter (#57)
 
   # =========================================================================
   # Secondary — distribute.software (adapter A10: distribute-software.ts)
