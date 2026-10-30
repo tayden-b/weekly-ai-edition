@@ -202,6 +202,46 @@ describe("reddit-json config wiring", () => {
     });
     expect(items.every((i) => i.publisher === "LocalLLaMA Community")).toBe(true);
   });
+
+  it("meta.ai_terms is present and deliberately empty on the configured subs (#57)", () => {
+    // The three subs are AI-topical — the subreddit scope IS the relevance
+    // filter, so the key exists on every entry but stays empty by design.
+    // The adapter still honours a populated list for future/non-topical subs.
+    for (const e of sources.filter((x) => x.adapter === REDDIT_ADAPTER_ID)) {
+      expect(e.meta?.ai_terms).toEqual([]);
+    }
+  });
+
+  it("meta.ai_terms filters map() on raw title + selftext when populated", () => {
+    const fixtureDoc = loadAdapterFixture(fixture("localllama"));
+    const body = fixtureDoc.responses[0]!.body;
+
+    const openaiOnly = createRedditAdapter({
+      id: "reddit-test",
+      endpoint: "https://www.reddit.com/r/LocalLLaMA/top.json",
+      aiTerms: ["OpenAI"],
+    }).map(body, FIXTURE_NOW);
+    expect(openaiOnly).toHaveLength(1);
+    expect(openaiOnly[0]!.headline).toContain("OpenAI");
+
+    // A term that only appears inside selftext still matches — the filter
+    // runs on the raw post text, not the ≤300-char excerpt.
+    const strataOnly = createRedditAdapter({
+      id: "reddit-test",
+      endpoint: "https://www.reddit.com/r/LocalLLaMA/top.json",
+      aiTerms: ["Strata"],
+    }).map(body, FIXTURE_NOW);
+    expect(strataOnly).toHaveLength(1);
+    expect(strataOnly[0]!.headline).toContain("local");
+
+    // The wired path: meta.ai_terms on the entry flows into the adapter.
+    const entry = sources.find((e) => e.id === "reddit-localllama")!;
+    const wired = redditAdapterFromEntry({
+      ...entry,
+      meta: { ...entry.meta, ai_terms: ["OpenAI"] },
+    })!;
+    expect(wired.map(body, FIXTURE_NOW)).toHaveLength(1);
+  });
 });
 
 // ---------------------------------------------------------------------------

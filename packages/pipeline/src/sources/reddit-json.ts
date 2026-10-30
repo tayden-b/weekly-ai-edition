@@ -15,6 +15,16 @@
  * bodies. Cross-source corroboration (the ≥2-publishers discourse rule) is
  * enforced downstream (P7/P4), not here.
  *
+ * AI-relevance filter (plan-defect #57): like every other adapter the
+ * relevance terms live in config — entry `meta.ai_terms` seeds
+ * `opts.aiTerms`, matched on word boundaries over the post's title +
+ * selftext in `map` (same `compileAiTermMatcher` hn-algolia and sec-edgar
+ * use). For the three configured subs the subreddit choice itself is the
+ * relevance bound and `meta.ai_terms` is deliberately empty — the fixtures
+ * show an HN-shaped term list would cut flagship content (the weekly
+ * megathread carries no keyword). The key exists for future/non-topical
+ * subs; unset or empty = unfiltered.
+ *
  * Licence/rate posture (sources.yaml): Reddit API terms posture for
  * read-only public JSON — declared UA required, ≤1 req/s courtesy. One
  * request per instance per run meets that structurally. Note: Reddit 403s
@@ -33,6 +43,7 @@ import {
   toExcerpt,
 } from "../adapter.js";
 import type { SourceEntry } from "../config.js";
+import { compileAiTermMatcher } from "./hn-algolia.js";
 
 export const REDDIT_ADAPTER_ID = "reddit-json";
 
@@ -61,6 +72,13 @@ export interface RedditAdapterOptions {
   params?: Record<string, string>;
   /** `limit` listing param (default 25); entry `meta.limit`, a `limit` in `params` wins. */
   limit?: number;
+  /**
+   * AI-relevance terms (entry `meta.ai_terms`): an item survives `map` iff
+   * ≥1 term matches on a word boundary over the raw title + selftext,
+   * case-insensitive. Undefined/empty = unfiltered — sourced from config
+   * like `hn-algolia`/`sec-edgar`, never a code default.
+   */
+  aiTerms?: readonly string[];
 }
 
 /**
@@ -83,6 +101,9 @@ export function redditAdapterFromEntry(entry: SourceEntry): SourceAdapter | null
     ...(typeof meta.publisher === "string" ? { publisher: meta.publisher } : {}),
     ...(typeof meta.subreddit === "string" ? { subreddit: meta.subreddit } : {}),
     ...(typeof meta.limit === "number" ? { limit: meta.limit } : {}),
+    ...(Array.isArray(meta.ai_terms)
+      ? { aiTerms: meta.ai_terms.filter((t): t is string => typeof t === "string") }
+      : {}),
     params,
   });
 }
@@ -166,13 +187,15 @@ function outboundUrl(post: RedditPost): string | null {
   return /^https?:\/\//.test(url) ? url : null;
 }
 
-/** One t3 child → RawItem; null when required fields are absent. */
+/** One t3 child → RawItem; null when required fields are absent or filtered. */
 function postToItem(
   post: RedditPost,
   opts: RedditAdapterOptions,
   fetchedAt: Date,
+  matchesAi: ((text: string) => boolean) | null,
 ): RawItem | null {
   const headline = (post.title ?? "").trim();
+  if (matchesAi !== null && !matchesAi(`${headline} ${postSelftext(post)}`)) return null;
   const created = post.created_utc;
   const canonical_url = postUrl(post, opts.subreddit ?? "");
   if (headline === "" || canonical_url === "" || created === undefined || !Number.isFinite(created)) {
@@ -218,6 +241,10 @@ function postToItem(
 
 export function createRedditAdapter(opts: RedditAdapterOptions): SourceAdapter {
   const limit = opts.limit ?? DEFAULT_LIMIT;
+  const matchesAi =
+    opts.aiTerms !== undefined && opts.aiTerms.length > 0
+      ? compileAiTermMatcher(opts.aiTerms)
+      : null;
 
   function requestUrl(): string {
     const u = new URL(opts.endpoint);
@@ -270,7 +297,7 @@ export function createRedditAdapter(opts: RedditAdapterOptions): SourceAdapter {
       const items: RawItem[] = [];
       for (const child of children) {
         if (child.kind !== "t3" || child.data === undefined) continue;
-        const item = postToItem(child.data, opts, fetchedAt);
+        const item = postToItem(child.data, opts, fetchedAt, matchesAi);
         if (item === null) continue;
         const key = item.source_ids.reddit_id || item.canonical_url;
         if (seen.has(key)) continue;
