@@ -319,8 +319,23 @@ describe("config wiring", () => {
   it("newsroomFeedsFromSources picks up exactly the §5.1 set from sources.yaml", () => {
     const configPath = fileURLToPath(new URL("../../../../config/sources.yaml", import.meta.url));
     const feeds = newsroomFeedsFromSources(loadSourcesConfig(configPath));
+    // The newsroom news set + the i50 newsletter/digest corroboration tier
+    // (creati-ai is enabled:false — Cloudflare-gated, documented-off).
     expect(feeds.map((f) => f.id).sort()).toEqual(
-      ["ars-ai", "bloomberg-tech", "mit-tr-ai", "reuters-tech", "techcrunch-ai", "theverge-ai"].sort(),
+      [
+        "ai-atlas",
+        "ai-lately",
+        "ars-ai",
+        "bloomberg-tech",
+        "funding-index",
+        "mit-tr-ai",
+        "reuters-tech",
+        "silicon-report",
+        "techcrunch-ai",
+        "the-morning-build",
+        "theverge-ai",
+        "third-run-time",
+      ].sort(),
     );
     for (const f of feeds) {
       expect(f.publisher).toBeTruthy();
