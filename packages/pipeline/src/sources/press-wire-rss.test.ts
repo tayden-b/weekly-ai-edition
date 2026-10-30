@@ -16,7 +16,7 @@ import {
   parseWireFeed,
   PRESS_WIRE_ADAPTER_ID,
   pressWireAdapterFromEntry,
-} from "./press-wires.js";
+} from "./press-wire-rss.js";
 
 const fixture = (name: string) =>
   fileURLToPath(new URL(`./__fixtures__/press-wires-${name}.json`, import.meta.url));

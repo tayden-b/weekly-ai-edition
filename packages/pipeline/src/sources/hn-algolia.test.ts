@@ -17,7 +17,7 @@ import {
   createHnAlgoliaAdapter,
   HN_ADAPTER_ID,
   HN_AI_TERMS,
-} from "./hn.js";
+} from "./hn-algolia.js";
 
 const FIXTURE_PATH = fileURLToPath(new URL("./__fixtures__/hn.json", import.meta.url));
 const repo = (p: string) => fileURLToPath(new URL(`../../../../${p}`, import.meta.url));

@@ -15,7 +15,7 @@ import {
   NEWSROOM_ADAPTER_ID,
   type NewsroomFeed,
   newsroomFeedsFromSources,
-} from "./newsrooms.js";
+} from "./newsroom-rss.js";
 
 const fixturePath = (name: string) =>
   fileURLToPath(new URL(`./__fixtures__/newsroom-rss-${name}.json`, import.meta.url));
