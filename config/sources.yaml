@@ -351,7 +351,7 @@ sources:
       # types ARE the taxonomy: models, performance, launches, funding, deals,
       # markets, discourse). Matched on word boundaries, case-insensitive, over
       # hit title + story_text. Kept in sync with HN_AI_TERMS in
-      # packages/pipeline/src/sources/hn.ts by test — edit both together.
+      # packages/pipeline/src/sources/hn-algolia.ts by test — edit both together.
       ai_terms:
         # umbrella
         - AI
@@ -436,7 +436,7 @@ sources:
     enabled: false
     meta:
       topics: [artificial-intelligence]
-  # --- newsroom RSS (adapter A3: newsrooms.ts); headline+link only everywhere
+  # --- newsroom RSS (adapter A3: newsroom-rss.ts); headline+link only everywhere
   # Live-verified 2026-10-28 with the project UA — see PR/issue A3 notes.
   - id: techcrunch-ai
     pages: [launches, deals, discourse]
@@ -539,7 +539,7 @@ sources:
       # The feed has no server-side query — the adapter word-matches these
       # on the filer title/summary (same interim list as sec-edgar-fts).
       ai_terms: ["artificial intelligence", "machine learning", "large language model", "generative ai", "foundation model", "ai"]
-  # --- press wires + funding feeds (adapter A5: press-wires.ts) ------------
+  # --- press wires + funding feeds (adapter A5: press-wire-rss.ts) ------------
   # Filter strategy (A5): filters live here in config, never in code.
   # meta.filter_groups is an AND-of-ORs keyword filter over headline+summary —
   # an item survives iff EVERY group has >=1 word-boundary, case-insensitive
@@ -787,7 +787,7 @@ sources:
     enabled: false
 
   # =========================================================================
-  # Discourse — Reddit public JSON (adapter A9: reddit.ts)
+  # Discourse — Reddit public JSON (adapter A9: reddit-json.ts)
   # =========================================================================
   - id: reddit-machinelearning
     pages: [discourse]
@@ -821,7 +821,7 @@ sources:
     meta: { params: { t: week } }
 
   # =========================================================================
-  # Secondary — distribute.software (adapter A10: distribute.ts)
+  # Secondary — distribute.software (adapter A10: distribute-software.ts)
   # =========================================================================
   - id: distribute-releases
     pages: [models]

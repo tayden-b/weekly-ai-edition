@@ -13,7 +13,7 @@ import {
   createDistributeAdapter,
   DISTRIBUTE_ADAPTER_ID,
   DISTRIBUTE_PUBLISHER,
-} from "./distribute.js";
+} from "./distribute-software.js";
 
 const FIXTURE_PATH = fileURLToPath(new URL("./__fixtures__/distribute.json", import.meta.url));
 const RELEASES_ENDPOINT = "https://distribute.software/api/v1/releases";

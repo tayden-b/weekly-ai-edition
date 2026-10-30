@@ -372,7 +372,7 @@ export {
   HN_AI_TERMS,
   HN_API_BASE,
   type HnAdapterOptions,
-} from "./sources/hn.js";
+} from "./sources/hn-algolia.js";
 
 // A3 — newsroom RSS set (Launches / Deals / Discourse, PLAN §5.1)
 export {
@@ -381,7 +381,7 @@ export {
   type NewsroomAdapterOptions,
   type NewsroomFeed,
   newsroomFeedsFromSources,
-} from "./sources/newsrooms.js";
+} from "./sources/newsroom-rss.js";
 
 // A5 — press-wire RSS: Money + Deals wires, funding feeds, corroboration
 export {
@@ -391,7 +391,7 @@ export {
   PRESS_WIRE_ADAPTER_ID,
   pressWireAdapterFromEntry,
   type PressWireOptions,
-} from "./sources/press-wires.js";
+} from "./sources/press-wire-rss.js";
 
 // A6 — Product Hunt + GitHub Releases + HF Hub adapters
 export {
@@ -431,7 +431,7 @@ export {
   DISTRIBUTE_DEFAULT_LIMIT,
   DISTRIBUTE_PUBLISHER,
   type DistributeAdapterOptions,
-} from "./sources/distribute.js";
+} from "./sources/distribute-software.js";
 
 // A8 — market data adapter (weekly close of the markets.json basket)
 export {
