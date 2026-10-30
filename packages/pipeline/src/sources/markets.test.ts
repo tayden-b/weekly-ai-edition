@@ -12,14 +12,21 @@ import {
   runAdapterFixture,
 } from "../testing/harness.js";
 import {
+  collapseToWeeklyBars,
   createMarketsAdapter,
   MARKETS_ADAPTER_ID,
   MARKETS_PUBLISHER,
   parseWeeklyBars,
+  parseYahooDailyBars,
   STOOQ_WEEKLY_PROVIDER,
+  YAHOO_MARKETS_PUBLISHER,
+  YAHOO_WEEKLY_PROVIDER,
 } from "./markets.js";
 
 const FIXTURE_PATH = fileURLToPath(new URL("./__fixtures__/markets.json", import.meta.url));
+const YAHOO_FIXTURE_PATH = fileURLToPath(
+  new URL("./__fixtures__/markets-yahoo.json", import.meta.url),
+);
 const repo = (p: string) => fileURLToPath(new URL(`../../../../${p}`, import.meta.url));
 
 const ENDPOINT = "https://stooq.com/q/d/l/";
@@ -229,5 +236,123 @@ describe("markets adapter — provider selection + health", () => {
     const a = await runAdapterFixture(adapter(), FIXTURE_PATH, { window: WINDOW });
     const b = await runAdapterFixture(adapter(), FIXTURE_PATH, { window: WINDOW });
     expect(a).toEqual(b);
+  });
+});
+
+describe("markets adapter — Yahoo Finance daily chart", () => {
+  const YAHOO_ENDPOINT = "https://query1.finance.yahoo.com/v8/finance/chart/";
+  const yahoo = (o: Partial<Parameters<typeof createMarketsAdapter>[0]> = {}) =>
+    createMarketsAdapter({
+      endpoint: YAHOO_ENDPOINT,
+      basket: BASKET,
+      provider: YAHOO_WEEKLY_PROVIDER,
+      ...o,
+    });
+
+  it("replays the recorded chart bodies: one item per ticker, last trading day per week", async () => {
+    const { items, mapped } = await runAdapterFixture(yahoo(), YAHOO_FIXTURE_PATH, {
+      window: WINDOW,
+    });
+    expect(yahoo().id).toBe(MARKETS_ADAPTER_ID);
+
+    // fetch path: the full 10-name basket, one item per ticker for the
+    // week ending 2026-10-29 (Oct-30 had not traded when the slice was
+    // recorded — the week's last bar is Thursday).
+    expect(items).toHaveLength(10);
+    for (const item of items) {
+      expect(isRawItem(item)).toBe(true);
+      expect(item.publisher).toBe(YAHOO_MARKETS_PUBLISHER);
+      expect(item.source_ids.provider).toBe(YAHOO_WEEKLY_PROVIDER);
+      expect(item.source_ids.week_ending).toBe("2026-10-29");
+      expect(item.source_ids.yahoo_symbol).toMatch(/^[A-Z]+$/);
+      expect(item.fetched_at).toBe(FIXTURE_NOW.toISOString());
+    }
+
+    // Real recorded closes — provenance-grade verbatim numbers.
+    const nvda = items.find((i) => i.source_ids.ticker === "NVDA")!;
+    expect(nvda.headline).toBe("NVDA weekly close 213.66 (+1.3% WoW)");
+    expect(nvda.canonical_url).toBe("https://finance.yahoo.com/quote/NVDA");
+    expect(nvda.source_ids.weekly_close).toBe("213.66");
+    expect(nvda.source_ids.prior_weekly_close).toBe("210.96");
+    expect(nvda.source_ids.wow_delta_pct).toBe("1.3");
+    expect(nvda.excerpt).toContain("close 213.66");
+    expect(nvda.excerpt).toContain("Yahoo Finance daily closes");
+
+    const meta = items.find((i) => i.source_ids.ticker === "META")!;
+    expect(meta.source_ids.wow_delta_pct).toBe("-2.8");
+
+    // pure path: recorded bodies replay bare (parsed JSON objects) →
+    // symbol-blind items, canonical_url = the endpoint.
+    expect(mapped).toHaveLength(40); // 4 weekly bars × 10 tickers
+    for (const item of mapped) {
+      expect(item.source_ids.ticker).toBeUndefined();
+      expect(item.source_ids.yahoo_symbol).toBeUndefined();
+      expect(item.canonical_url).toBe(YAHOO_ENDPOINT);
+    }
+  });
+
+  it("builds per-ticker chart requests: interval=1d + lookback period1", async () => {
+    const fixture = loadAdapterFixture(YAHOO_FIXTURE_PATH);
+    const seen: string[] = [];
+    const spy: Fetcher = (url, init) => {
+      seen.push(String(url));
+      return replayFetcher(fixture, YAHOO_FIXTURE_PATH)(url, init);
+    };
+    await yahoo().fetch(WINDOW, { fetch: spy, now: () => FIXTURE_NOW });
+    expect(seen).toHaveLength(10);
+    const nvdaUrl = seen.find((u) => u.includes("chart/NVDA"))!;
+    expect(nvdaUrl).toContain("interval=1d");
+    expect(nvdaUrl).toContain("period1=");
+    expect(nvdaUrl).toContain("period2=");
+    expect(seen.every((u) => u.startsWith(YAHOO_ENDPOINT))).toBe(true);
+  });
+
+  it("health() verifies a parseable chart body, not just HTTP 200", async () => {
+    const fixture = loadAdapterFixture(YAHOO_FIXTURE_PATH);
+    const health = await yahoo().health({
+      fetch: replayFetcher(fixture, YAHOO_FIXTURE_PATH),
+      now: () => FIXTURE_NOW,
+    });
+    expect(health.ok).toBe(true);
+    expect(health.detail).toContain("chart JSON");
+
+    const challenge: AdapterFixture = {
+      responses: [{ body: "<html>browser verification required</html>" }],
+    };
+    const h = await yahoo().health({ fetch: replayFetcher(challenge) });
+    expect(h.ok).toBe(false);
+    expect(h.detail).toContain("non-chart");
+  });
+
+  it("parseYahooDailyBars skips null closes and keeps verbatim close text", () => {
+    const bars = parseYahooDailyBars(
+      JSON.stringify({
+        chart: {
+          result: [
+            {
+              meta: { gmtoffset: -14400 },
+              timestamp: [1792762200, 1792848600],
+              indicators: { quote: [{ close: [210.9600067138672, null] }] },
+            },
+          ],
+        },
+      }),
+    );
+    expect(bars).toHaveLength(1);
+    expect(bars[0]!.date).toBe("2026-10-23"); // ts + gmtoffset → exchange-local day
+    expect(bars[0]!.closeText).toBe("210.96");
+  });
+
+  it("collapseToWeeklyBars carries the last trading day of each Mon–Sun week", () => {
+    const weekly = collapseToWeeklyBars([
+      { date: "2026-10-27", closeText: "1", close: 1 }, // Tue
+      { date: "2026-10-28", closeText: "2", close: 2 }, // Wed — last of week
+      { date: "2026-10-29", closeText: "3", close: 3 }, // Thu — same week
+      { date: "2026-11-02", closeText: "4", close: 4 }, // next week
+    ]);
+    expect(weekly).toEqual([
+      { date: "2026-10-29", closeText: "3", close: 3 },
+      { date: "2026-11-02", closeText: "4", close: 4 },
+    ]);
   });
 });

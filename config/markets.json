@@ -26,6 +26,12 @@
       "rationale": "The CPU IP layer under nearly every AI device and an increasing share of AI datacenter silicon (Neoverse)."
     }
   ],
-  "provider": "stooq-weekly",
-  "provider_priority": ["stooq-weekly", "alpha-vantage", "finnhub", "twelve-data"]
+  "provider": "yahoo-weekly",
+  "provider_priority": [
+    "yahoo-weekly",
+    "stooq-weekly",
+    "alpha-vantage",
+    "finnhub",
+    "twelve-data"
+  ]
 }

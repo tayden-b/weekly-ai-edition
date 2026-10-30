@@ -836,6 +836,19 @@ sources:
   # =========================================================================
   # Markets (adapter A8: markets.ts) — provider order per PLAN §5.1
   # =========================================================================
+  - id: yahoo-weekly
+    pages: [markets]
+    tier: primary
+    adapter: markets
+    endpoint: https://query1.finance.yahoo.com/v8/finance/chart/
+    kind: json-api
+    mode: link
+    license: "Undocumented chart endpoint — Yahoo ToS grant no redistribution rights (same DOUBTFUL class as stooq) → links-only; numbers captured for provenance. Live provider since 2026-10-30: only keyless endpoint still answering datacenter IPs (verified HTTP 200 real bars; stooq PoW-walls the same egress). Daily bars (interval=1d) collapse to last-trading-day weekly closes in the adapter."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      publisher: Yahoo Finance
+      params: { interval: 1d }
   - id: stooq-weekly
     pages: [markets]
     tier: primary
@@ -843,9 +856,9 @@ sources:
     endpoint: https://stooq.com/q/d/l/
     kind: csv
     mode: link
-    license: "A8 finding (2026-10-28): ToS §5.3 bars redistribution without Stooq consent (stooq.com/terms) — DOUBTFUL → links-only. JS PoW-wall to datacenter IPs. Numbers still captured for provenance; flip mode once consent/licensed feed exists."
+    license: "A8 finding (2026-10-28): ToS §5.3 bars redistribution without Stooq consent (stooq.com/terms) — DOUBTFUL → links-only. JS PoW-wall to datacenter IPs (verified dead 2026-10-28/29, #115). Disabled 2026-10-30 — superseded by yahoo-weekly; row kept for citation resolution of committed editions and as the documented fallback."
     rate_limit: "≤1 req/s courtesy"
-    enabled: true
+    enabled: false
     meta:
       params: { i: w }
   - id: alpha-vantage
