@@ -46,7 +46,7 @@
       "publisher": "Google",
       "published_at": "2025-11-18",
       "excerpt": "Google introduces Gemini 3, its next-generation model, rolling out across Search and the Gemini app.",
-      "expect": { "page": "models", "companies": ["google"] }
+      "expect": { "page": "models", "companies": ["google-deepmind"] }
     },
     {
       "id": "models-006",
@@ -55,7 +55,7 @@
       "publisher": "Google",
       "published_at": "2026-09-30",
       "excerpt": "Google DeepMind's announcement of Gemini 4 Argon in the Gemini model series.",
-      "expect": { "page": "models", "companies": ["google"] }
+      "expect": { "page": "models", "companies": ["google-deepmind"] }
     },
     {
       "id": "models-007",
@@ -64,7 +64,7 @@
       "publisher": "Meta AI",
       "published_at": "2025-04-05",
       "excerpt": "Meta releases the Llama 4 family of open-weight multimodal models, including Scout and Maverick.",
-      "expect": { "page": "models", "companies": ["meta"] }
+      "expect": { "page": "models", "companies": ["meta-ai"] }
     },
     {
       "id": "models-008",
@@ -73,7 +73,7 @@
       "publisher": "Mistral AI",
       "published_at": "2026-10-06",
       "excerpt": "Mistral AI announces Mistral Large 4, its flagship open-weight model.",
-      "expect": { "page": "models", "companies": ["mistral"] }
+      "expect": { "page": "models", "companies": ["mistral-ai"] }
     },
     {
       "id": "models-009",
@@ -91,7 +91,7 @@
       "publisher": "Moonshot AI",
       "published_at": "2026-07-16",
       "excerpt": "Moonshot AI releases Kimi K3, an open-weight frontier model.",
-      "expect": { "page": "models", "companies": ["moonshot"] }
+      "expect": { "page": "models", "companies": ["moonshot-ai"] }
     },
     {
       "id": "models-011",
@@ -100,7 +100,7 @@
       "publisher": "Hugging Face",
       "published_at": "2026-08-14",
       "excerpt": "New Qwen 3.8 27B FP8 model repository published on the Hugging Face Hub by the Qwen org.",
-      "expect": { "page": "models", "companies": ["alibaba"] }
+      "expect": { "page": "models", "companies": ["alibaba-qwen"] }
     },
     {
       "id": "models-012",
@@ -229,7 +229,7 @@
       "publisher": "Google",
       "published_at": "2026-07-16",
       "excerpt": "Google rebrands NotebookLM to Gemini Notebook — a product change shipped to users.",
-      "expect": { "page": "launches", "companies": ["google"] }
+      "expect": { "page": "launches", "companies": ["alphabet"] }
     },
     {
       "id": "launches-005",
@@ -238,7 +238,7 @@
       "publisher": "Google",
       "published_at": "2025-04-30",
       "excerpt": "Google expands NotebookLM's Audio Overviews feature to more than 50 languages.",
-      "expect": { "page": "launches", "companies": ["google"] }
+      "expect": { "page": "launches", "companies": ["alphabet"] }
     },
     {
       "id": "launches-006",
@@ -330,7 +330,7 @@
       "publisher": "Mistral AI",
       "published_at": "2025-09-09",
       "excerpt": "Mistral AI announces a €1.7B raise alongside a strategic partnership with ASML.",
-      "expect": { "page": "funding", "companies": ["mistral", "asml"] }
+      "expect": { "page": "funding", "companies": ["mistral-ai", "asml"] }
     },
     {
       "id": "funding-008",
@@ -430,7 +430,8 @@
       "publisher": "CNBC",
       "published_at": "2025-09-10",
       "excerpt": "CNBC reports Oracle's 36% single-day gain on AI cloud backlog — the stock's best day since 1992.",
-      "expect": { "page": "markets", "companies": ["oracle"] }
+      "expect": { "page": "unsorted", "companies": ["oracle"] },
+      "notes": "Non-basket name: STYLE §8 markets covers the config/markets.json basket + AI pure plays only; Oracle is neither, so this market-cap move is unsorted (company tag kept, per unsorted-005/009/010)."
     },
     {
       "id": "markets-003",
@@ -439,7 +440,8 @@
       "publisher": "CNBC",
       "published_at": "2025-12-10",
       "excerpt": "CNBC reports Oracle shares fell 11% after a quarterly revenue miss.",
-      "expect": { "page": "markets", "companies": ["oracle"] }
+      "expect": { "page": "unsorted", "companies": ["oracle"] },
+      "notes": "Non-basket name: STYLE §8 markets covers the config/markets.json basket + AI pure plays only; Oracle is neither, so this market-cap move is unsorted (company tag kept, per unsorted-005/009/010)."
     },
     {
       "id": "markets-004",
