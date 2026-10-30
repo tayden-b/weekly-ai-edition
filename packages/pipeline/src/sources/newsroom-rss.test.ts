@@ -335,6 +335,7 @@ describe("config wiring", () => {
         "the-morning-build",
         "theverge-ai",
         "third-run-time",
+        "venturebeat-ai",
       ].sort(),
     );
     for (const f of feeds) {

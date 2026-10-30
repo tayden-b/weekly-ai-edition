@@ -178,6 +178,18 @@ sources:
     enabled: true
     meta:
       publisher: "Hugging Face"
+  - id: microsoft-ai
+    pages: [models, performance]
+    tier: primary
+    adapter: lab-blogs
+    endpoint: https://microsoft.ai/new-sitemap.xml
+    kind: sitemap
+    license: "No RSS (verified 2026-10-30); microsoft.ai/sitemap.xml 301→sitemap_index.xml whose new-sitemap.xml urlset is the /news/ feed (MAI model posts live here — the outlet editions cite as 'Microsoft AI', distinct from configured microsoft-research-blog). Endpoint pinned to the urlset: walking the 8-child index needs 9 rate-gapped fetches for the same result. Headline+link only, published_at = lastmod."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      publisher: "Microsoft AI"
+      include_paths: ["/news/"]
 
   # --- HF Hub model repos (adapter A6: hf-hub.ts) --------------------------
   - id: hf-hub-models
@@ -436,6 +448,19 @@ sources:
     enabled: false
     meta:
       topics: [artificial-intelligence]
+  - id: launch-index
+    pages: [launches]
+    tier: secondary
+    adapter: product-hunt
+    endpoint: https://launchindex.ai/
+    kind: html-index
+    license: "Citation row (i151): editions cite 'Launch Index' under the product-hunt adapter. launchindex.ai returns HTTP 402 and serves no public listing (verified 2026-10-30) — disabled; kept so cited publishers resolve to a configured entry (§5.1)."
+    rate_limit: "n/a — disabled"
+    enabled: false
+    meta:
+      publisher: "Launch Index"
+      weight: 0.6
+
   # --- newsroom RSS (adapter A3: newsroom-rss.ts); headline+link only everywhere
   # Live-verified 2026-10-28 with the project UA — see PR/issue A3 notes.
   - id: techcrunch-ai
@@ -505,6 +530,41 @@ sources:
     enabled: true
     meta:
       publisher: "Bloomberg"
+  - id: venturebeat-ai
+    pages: [launches, models, performance, deals, discourse]
+    tier: primary
+    adapter: newsroom-rss
+    endpoint: https://venturebeat.com/ai/feed/
+    kind: rss
+    license: "Public RSS at /ai/feed/ (real feed; HTTP 429 rate-limit bursts to datacenter UAs observed 2026-10-30 — stays enabled, adapter degrades gracefully, same posture as reuters-tech). Headline, link, timestamps, ≤300-char excerpt — never bodies."
+    rate_limit: "≤1 req/s courtesy; 429 bursts observed"
+    enabled: true
+    meta:
+      publisher: "VentureBeat"
+  - id: cbc-globe
+    pages: [markets, back_page]
+    tier: secondary
+    adapter: newsroom-rss
+    endpoint: https://cbcglobe.com/feed
+    kind: rss
+    license: "Citation row (i151): fixture/edition markets items cite 'CBC Globe' (cbcglobe.com). Domain serves no public feed (HTTP 404 verified 2026-10-30) — disabled; kept so cited publishers resolve to a configured entry (§5.1)."
+    rate_limit: "n/a — disabled"
+    enabled: false
+    meta:
+      publisher: "CBC Globe"
+      weight: 0.6
+  - id: associated-press
+    pages: [discourse, back_page]
+    tier: secondary
+    adapter: newsroom-rss
+    endpoint: https://apnews.com/rss
+    kind: rss
+    license: "Citation row (i151): editions cite 'Associated Press'. AP retired public RSS (apnews.com/rss HTTP 403 to datacenter UAs; apf-technology feeds dead — verified 2026-10-30) — disabled; kept so cited publishers resolve to a configured entry (§5.1)."
+    rate_limit: "n/a — disabled"
+    enabled: false
+    meta:
+      publisher: "Associated Press"
+      weight: 0.6
 
   # --- AI newsletters & digests (adapter: newsroom-rss) -------------------
   # §5.1 trust-boundary entries for the secondary sources editions cite
@@ -875,6 +935,19 @@ sources:
     license: "Fallback #4 — individual plans are internal-use only; redistribution needs a paid add-on (A8). Needs a free key — disabled (no-secrets rule)."
     rate_limit: "8 req/min free tier (with key)"
     enabled: false
+  - id: exa-markets
+    pages: [markets, back_page]
+    tier: secondary
+    adapter: markets
+    endpoint: https://exa.ai/
+    kind: json-api
+    mode: link
+    license: "Citation row (i151): fixture/edition markets items cite 'Exa Markets' (exa.ai, already mapped in publishers.yaml domains). Exa's search API needs a key — disabled (no-secrets rule); kept so cited publishers resolve to a configured entry (§5.1)."
+    rate_limit: "n/a — disabled"
+    enabled: false
+    meta:
+      publisher: "Exa Markets"
+      weight: 0.6
 
   # =========================================================================
   # Discourse — Reddit public JSON (adapter A9: reddit-json.ts)
