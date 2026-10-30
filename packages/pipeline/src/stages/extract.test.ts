@@ -356,7 +356,7 @@ describe("buildExtractionRequest", () => {
       "Acme Corp announced its $100 million Series A funding round led by Marlinspike Partners.",
     ]);
     const gap = mkCluster("funding", ["Acme Corp announced $12.85M in funding led by Greycroft."]);
-    const other = mkCluster("models", ["Acme shipped a model."]);
+    const other = mkCluster("launches", ["Acme shipped a launch."]);
     const req = buildExtractionRequest([full, gap, other], { week: "w", styleRev: "abc" });
     expect(req.items.map((i) => i.id)).toEqual([gap.id]);
     expect(req.items[0]!.missing_fields).toEqual(["stage"]);
@@ -403,7 +403,7 @@ describe("extract", () => {
     const full = mkCluster("funding", [
       "Acme announced its $100 million Series A funding round led by Marlinspike Partners.",
     ]);
-    const other = mkCluster("models", ["Acme shipped a model."]);
+    const other = mkCluster("launches", ["Acme shipped a launch."]);
     const llm = {
       extract: async () => {
         throw new Error("seam must not be called");

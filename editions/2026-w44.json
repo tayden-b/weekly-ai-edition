@@ -64,7 +64,12 @@
                 "source": "hn-algolia"
               }
             }
-          ]
+          ],
+          "number": "4 Carbon",
+          "evidence": {
+            "source_index": 0,
+            "quote": "Gemini 4 Carbon"
+          }
         },
         {
           "headline": "Genie 4: A new generation of world simulation",
@@ -102,7 +107,12 @@
                 "hn_discussion_url": "https://news.ycombinator.com/item?id=50261319"
               }
             }
-          ]
+          ],
+          "number": "4",
+          "evidence": {
+            "source_index": 1,
+            "quote": "Genie 4: A new generation of world simulation"
+          }
         },
         {
           "headline": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
@@ -147,7 +157,12 @@
                 "source": "theverge-ai"
               }
             }
-          ]
+          ],
+          "number": "4 Carbon",
+          "evidence": {
+            "source_index": 0,
+            "quote": "Gemini 4 Carbon"
+          }
         },
         {
           "headline": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
@@ -170,7 +185,12 @@
                 "source": "ars-ai"
               }
             }
-          ]
+          ],
+          "number": "4 Carbon",
+          "evidence": {
+            "source_index": 0,
+            "quote": "Gemini 4 Carbon"
+          }
         },
         {
           "headline": "Voice AI in vogue: Nvidia releases new open transcription model",
@@ -622,6 +642,23 @@
                 "hn_discussion_url": "https://news.ycombinator.com/item?id=50272145",
                 "source": "distribute-stories"
               }
+            },
+            {
+              "url": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14",
+              "publisher": "Reuters",
+              "via": "Hacker News",
+              "published_at": "2026-10-28T11:54:23.000Z",
+              "fetched_at": "2026-10-29T13:43:57.915Z",
+              "adapter": "distribute-software",
+              "excerpt": "Amazon to buy satellite firm Globalstar in $11.57B deal",
+              "source_ids": {
+                "distribute_id": "story-25494",
+                "distribute_url": "https://distribute.software/stories/25494",
+                "distribute_source": "hn",
+                "distribute_companies": "amazon",
+                "hn_discussion_url": "https://news.ycombinator.com/item?id=50272145",
+                "source": "distribute-stories"
+              }
             }
           ],
           "acquirer": "Amazon Leo",
@@ -682,38 +719,29 @@
           "target": "Pipecat"
         },
         {
-          "headline": "Amazon to buy satellite firm Globalstar in $11.57B deal",
-          "one_liner": "Amazon agreed to buy satellite operator Globalstar for $11.57 billion to build out its Leo network.",
+          "headline": "Marvell Is Said to Near Megadeal for Lumentum in AI Push",
+          "one_liner": "Marvell is in advanced talks to buy data-center optics maker Lumentum in an AI-related megadeal.",
           "companies": [
-            "amazon",
-            "globalstar"
+            "lumentum",
+            "marvell"
           ],
           "sources": [
             {
-              "url": "https://www.reuters.com/business/media-telecom/amazon-signs-1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14/1157-billion-deal-satellite-firm-globalstar-challenge-starlink-2026-04-14",
-              "publisher": "Reuters",
-              "via": "Hacker News",
-              "published_at": "2026-10-28T11:54:23.000Z",
-              "fetched_at": "2026-10-29T13:43:57.915Z",
-              "adapter": "distribute-software",
-              "excerpt": "Amazon to buy satellite firm Globalstar in $11.57B deal",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/marvell-is-said-to-near-deal-for-lumentum-in-ai-related-megadeal",
+              "publisher": "Bloomberg",
+              "published_at": "2026-10-28T21:05:20.000Z",
+              "fetched_at": "2026-10-29T13:43:57.267Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Marvell Technology Inc. is in advanced talks to buy data center optics maker Lumentum Holdings Inc., according to people familiar with the matter, putting it on the cusp of a potential megadeal amid the race to scale up in the artificial intelligence sector.",
               "source_ids": {
-                "distribute_id": "story-25494",
-                "distribute_url": "https://distribute.software/stories/25494",
-                "distribute_source": "hn",
-                "distribute_companies": "amazon",
-                "hn_discussion_url": "https://news.ycombinator.com/item?id=50272145",
-                "source": "distribute-stories"
+                "rss_guid": "TNMSE6T96OSM00",
+                "newsroom_feed": "bloomberg-tech",
+                "source": "bloomberg-tech"
               }
             }
           ],
-          "acquirer": "Amazon",
-          "target": "Globalstar",
-          "amount": "$11.57B",
-          "evidence": {
-            "source_index": 0,
-            "quote": "$11.57B"
-          }
+          "acquirer": "Inc. is in advanced talks",
+          "target": "Lumentum Holdings Inc"
         }
       ]
     },
@@ -1083,7 +1111,7 @@
         {
           "company": "amazon",
           "name": "Amazon",
-          "stories": 3,
+          "stories": 2,
           "trend": "up"
         },
         {
@@ -1093,8 +1121,8 @@
           "trend": "up"
         },
         {
-          "company": "globalstar",
-          "name": "Globalstar",
+          "company": "meta",
+          "name": "Meta",
           "stories": 2,
           "trend": "up"
         }
@@ -1102,7 +1130,7 @@
     },
     {
       "type": "back_page",
-      "sources_total": 43,
+      "sources_total": 44,
       "source_counts": [
         {
           "publisher": "Exa Markets",
@@ -1110,7 +1138,7 @@
         },
         {
           "publisher": "Bloomberg",
-          "count": 5
+          "count": 6
         },
         {
           "publisher": "TechCrunch",

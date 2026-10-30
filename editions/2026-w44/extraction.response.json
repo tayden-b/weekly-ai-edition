@@ -93,9 +93,9 @@
       "fields": [
         {
           "field": "metric_name",
-          "value": "Alphabet Inc.\u2019s shares",
+          "value": "Alphabet Inc.’s shares",
           "source_index": 0,
-          "quote": "Alphabet Inc.\u2019s shares fell more than 13%"
+          "quote": "Alphabet Inc.’s shares fell more than 13%"
         },
         {
           "field": "metric_value",
@@ -527,6 +527,117 @@
           "value": "USD",
           "source_index": 0,
           "quote": "2026-10-27 USD 217.94."
+        }
+      ]
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+      "fields": [
+        {
+          "field": "version",
+          "value": "4 Carbon",
+          "source_index": 0,
+          "quote": "Gemini 4 Carbon"
+        }
+      ]
+    },
+    {
+      "id": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "fields": [
+        {
+          "field": "version",
+          "value": "4",
+          "source_index": 1,
+          "quote": "Genie 4: A new generation of world simulation"
+        }
+      ]
+    },
+    {
+      "id": "https://huggingface.co/blog/anydecisionmodel",
+      "fields": []
+    },
+    {
+      "id": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "fields": [
+        {
+          "field": "version",
+          "value": "4 Carbon",
+          "source_index": 0,
+          "quote": "Gemini 4 Carbon"
+        }
+      ]
+    },
+    {
+      "id": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use",
+      "fields": [
+        {
+          "field": "version",
+          "value": "4 Carbon",
+          "source_index": 0,
+          "quote": "Gemini 4 Carbon"
+        }
+      ]
+    },
+    {
+      "id": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+      "fields": []
+    },
+    {
+      "id": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "fields": [
+        {
+          "field": "version",
+          "value": "3.5",
+          "source_index": 0,
+          "quote": "NVIDIA Nemotron 3.5 Transcribe"
+        }
+      ]
+    },
+    {
+      "id": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "fields": [
+        {
+          "field": "version",
+          "value": "4 Carbon",
+          "source_index": 0,
+          "quote": "Gemini 4 Carbon: Our next frontier model"
+        }
+      ]
+    },
+    {
+      "id": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "fields": [
+        {
+          "field": "version",
+          "value": "3",
+          "source_index": 0,
+          "quote": "LFM3"
+        }
+      ]
+    },
+    {
+      "id": "https://mistral.ai/fr/news/timestral",
+      "fields": []
+    },
+    {
+      "id": "https://mistral.ai/fr/news/voxtral-3",
+      "fields": [
+        {
+          "field": "version",
+          "value": "3",
+          "source_index": 0,
+          "quote": "Voxtral 3"
+        }
+      ]
+    },
+    {
+      "id": "https://www.kimi.com/en/blog/kimi-k3-1-pro",
+      "fields": [
+        {
+          "field": "version",
+          "value": "K3.1",
+          "source_index": 0,
+          "quote": "Kimi K3.1 Pro"
         }
       ]
     }

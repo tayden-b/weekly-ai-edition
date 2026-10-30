@@ -175,6 +175,14 @@ function emitItemPage<T extends DraftedCluster>(
   const pool = [...real, ...fixture];
   const out: PageItem<T>[] = [];
   const seenHeadline = new Set<string>();
+  // i116: deals-page emit-time guard. Title dedupe (P1) misses same-deal
+  // announcements whose headlines share no tokens ("approves … acquisition"
+  // vs "to buy … deal"), so one transaction may occupy two page slots. A
+  // later cluster is the same deal when its normalized (acquirer,target)
+  // pair matches a survivor's, or its company-slug set (≥2 slugs, which
+  // absorbs spellings like "Amazon Leo" vs "Amazon") equals one. The
+  // survivor keeps the slot and inherits the dup's distinct sources.
+  const dealSurvivor = new Map<string, number>();
 
   for (const cluster of pool) {
     if (out.length >= cap) break;
@@ -182,10 +190,54 @@ function emitItemPage<T extends DraftedCluster>(
     if (item === undefined) continue;
     const key = item.headline.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
     if (seenHeadline.has(key)) continue;
+    if (page === "deals") {
+      const keys = dealClusterKeys(cluster);
+      const survivorAt = keys.map((k) => dealSurvivor.get(k)).find((i) => i !== undefined);
+      if (survivorAt !== undefined) {
+        mergeDealSources(out[survivorAt]!.item as EditionItemDeal, cluster);
+        continue;
+      }
+      for (const k of keys) dealSurvivor.set(k, out.length);
+    }
     seenHeadline.add(key);
     out.push({ item, cluster });
   }
   return out;
+}
+
+/** Normalize a deal party name for key comparison. */
+function dealNorm(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+/** The dedupe keys a deals cluster answers to: its normalized
+ * (acquirer,target) extraction pair, and its sorted company-slug set when it
+ * names ≥2 companies (a one-slug set can't pin down a two-party deal). */
+function dealClusterKeys(cluster: DraftedCluster): string[] {
+  const keys: string[] = [];
+  const f = cluster.extraction?.fields ?? {};
+  const acquirer = f.acquirer?.value;
+  const target = f.target?.value;
+  if (typeof acquirer === "string" && typeof target === "string") {
+    keys.push(`pair:${dealNorm(acquirer)}|${dealNorm(target)}`);
+  }
+  const slugs = [...cluster.classification.company_slugs].sort();
+  if (slugs.length >= 2) keys.push(`slugs:${slugs.join("|")}`);
+  return keys;
+}
+
+/** Fold a dropped same-deal cluster's distinct sources (by URL) and company
+ * slugs into the surviving item — the slot collapses, the links stay. */
+function mergeDealSources(item: EditionItemDeal, cluster: DraftedCluster): void {
+  const have = new Set(item.sources.map((s) => s.url));
+  for (const s of editionSources(cluster)) {
+    if (!have.has(s.url)) item.sources.push(s);
+  }
+  const slugs = new Set(item.companies ?? []);
+  for (const slug of cluster.classification.company_slugs) {
+    if (!slugs.has(slug)) (item.companies ??= []).push(slug);
+  }
+  item.companies?.sort();
 }
 
 function buildPageItem<T extends DraftedCluster>(
@@ -243,6 +295,13 @@ function buildPageItem<T extends DraftedCluster>(
           ? { amount: String(amount.value), evidence: { ...amount.evidence } }
           : {}),
       };
+    }
+    case "models": {
+      // DESIGN §3: a model version goes in the mono `number` slot when the
+      // evidence carries one — versionless releases emit without it.
+      const version = fields["version"];
+      if (version === undefined) return { ...base };
+      return { ...base, number: String(version.value), evidence: { ...version.evidence } };
     }
     case "discourse": {
       // §5.3 / DESIGN §3: a question headline + ≥2 sources from ≥2
