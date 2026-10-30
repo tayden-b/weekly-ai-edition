@@ -506,6 +506,96 @@ sources:
     meta:
       publisher: "Bloomberg"
 
+  # --- AI newsletters & digests (adapter: newsroom-rss) -------------------
+  # §5.1 trust-boundary entries for the secondary sources editions cite
+  # (i50). All corroboration-tier digests — rank weight 0.6 per the header
+  # convention; not origin reporting. Endpoints live-verified 2026-10-30.
+  - id: ai-lately
+    pages: [models, launches, discourse]
+    tier: secondary
+    adapter: newsroom-rss
+    endpoint: https://ailately.com/feed.xml
+    kind: rss
+    license: "Public RSS (HTTP 200, application/rss+xml verified 2026-10-30). Store headline, link, timestamps, ≤300-char excerpt — never bodies."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      publisher: "AI Lately"
+      weight: 0.6
+  - id: ai-atlas
+    pages: [models, performance, discourse]
+    tier: secondary
+    adapter: newsroom-rss
+    endpoint: https://atlas.prashish.com/feed.xml
+    kind: rss
+    license: "Public RSS 2.0 (HTTP 200, verified 2026-10-30). Store headline, link, timestamps, ≤300-char excerpt — never bodies."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      publisher: "AI Atlas"
+      weight: 0.6
+  - id: third-run-time
+    pages: [models, launches, discourse]
+    tier: secondary
+    adapter: newsroom-rss
+    endpoint: https://www.thirdruntime.com/feed
+    kind: rss
+    license: "Public RSS (HTTP 200, application/rss+xml verified 2026-10-30). Store headline, link, timestamps, ≤300-char excerpt — never bodies."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      publisher: "Third Run Time"
+      weight: 0.6
+  - id: the-morning-build
+    pages: [models, launches, funding, discourse]
+    tier: secondary
+    adapter: newsroom-rss
+    endpoint: https://themorningbuild.com/rss.xml
+    kind: rss
+    license: "Public RSS (HTTP 200, verified 2026-10-30). Store headline, link, timestamps, ≤300-char excerpt — never bodies."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      publisher: "The Morning Build"
+      weight: 0.6
+  - id: creati-ai
+    pages: [models, launches, discourse]
+    tier: secondary
+    adapter: newsroom-rss
+    endpoint: https://creati.ai/
+    kind: html-index
+    mode: link
+    license: "Documented-off: creati.ai sits behind Cloudflare bot protection — every path 403s datacenter UAs (verified 2026-10-30), feed endpoint unverifiable. Recorded so fixture citations resolve to a table entry; enable if a feed URL is confirmed."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: false
+    meta:
+      publisher: "Creati AI"
+      weight: 0.6
+  - id: silicon-report
+    pages: [funding, deals]
+    tier: secondary
+    adapter: newsroom-rss
+    endpoint: https://www.siliconreport.com/feed
+    kind: rss
+    license: "Public RSS (HTTP 200, application/rss+xml verified 2026-10-30). Store headline, link, timestamps, ≤300-char excerpt — never bodies."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      publisher: "SiliconReport"
+      weight: 0.6
+  - id: funding-index
+    pages: [funding]
+    tier: secondary
+    adapter: newsroom-rss
+    endpoint: https://funding.fru.dev/api/feed.xml
+    kind: rss
+    license: "Public RSS at /api/feed.xml (advertised via <link rel=alternate>, HTTP 200 verified 2026-10-30). Store headline, link, timestamps, ≤300-char excerpt — never bodies."
+    rate_limit: "≤1 req/s courtesy"
+    enabled: true
+    meta:
+      publisher: "Funding Index"
+      weight: 0.6
+
   # =========================================================================
   # Funding + Deals — SEC EDGAR (A4), press wires (A5)
   # =========================================================================
