@@ -239,6 +239,69 @@ describe("emitEdition", () => {
     expect((deals as { items: unknown[] }).items).toHaveLength(3);
   });
 
+  it("collapses same-version models clusters with overlapping company slugs into one item", () => {
+    const clusters = [
+      ...fullWeek(),
+      mkDrafted("models-a", {
+        page: "models",
+        companySlugs: ["alphabet", "google-deepmind"],
+        extracted: { version: "4 Carbon" },
+        draftHeadline: "Gemini 4 Carbon",
+      }),
+      mkDrafted("models-b", {
+        page: "models",
+        companySlugs: ["google-deepmind"],
+        extracted: { version: "4 Carbon" },
+        draftHeadline: "Google launches Gemini 4 Carbon with a 'significant leap'",
+      }),
+      mkDrafted("models-c", {
+        page: "models",
+        companySlugs: ["alphabet", "google-deepmind"],
+        extracted: { version: "4" },
+        draftHeadline: "Genie 4: A new generation of world simulation",
+      }),
+    ];
+    const { edition, emitted } = emitEdition(clusters, BRIEFING, emitOpts);
+    const models = edition.pages.find((p) => p.type === "models")!;
+    const items = (models as { items: { headline: string; sources: unknown[] }[] }).items;
+    expect(items.map((i) => i.headline)).toEqual([
+      "H0", // the baseline fullWeek models item
+      "Gemini 4 Carbon",
+      "Genie 4: A new generation of world simulation",
+    ]);
+    // The survivor inherits the dup's distinct source links.
+    expect(items[1]!.sources).toHaveLength(2);
+    expect(emitted.filter((r) => r.page === "models")).toHaveLength(3);
+  });
+
+  it("does not collapse models clusters that share a version but no company slug", () => {
+    const clusters = [
+      ...fullWeek(),
+      mkDrafted("models-a", {
+        page: "models",
+        companySlugs: ["google-deepmind"],
+        extracted: { version: "4" },
+        draftHeadline: "DeepMind ships model 4",
+      }),
+      mkDrafted("models-b", {
+        page: "models",
+        companySlugs: ["meta"],
+        extracted: { version: "4" },
+        draftHeadline: "Meta ships model 4",
+      }),
+      // A versionless cluster never merges, even with overlapping slugs.
+      mkDrafted("models-c", {
+        page: "models",
+        companySlugs: ["meta"],
+        draftHeadline: "Meta ships something versionless",
+      }),
+    ];
+    const { edition } = emitEdition(clusters, BRIEFING, emitOpts);
+    const models = edition.pages.find((p) => p.type === "models")!;
+    // Baseline models item + all three survive.
+    expect((models as { items: unknown[] }).items).toHaveLength(4);
+  });
+
   it("emits a models item's extracted version in the mono number slot", () => {
     const clusters = [
       ...fullWeek(),

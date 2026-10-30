@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   
-  <filter id="soft"><feGaussianBlur stdDeviation="47"/></filter>
-  <rect width="1200" height="630" fill="#EEF0EB"/>
-  <g filter="url(#soft)"><ellipse cx="184.85" cy="320.49" rx="701.6" ry="249.82" fill="#E0E5DD" opacity="0.64"/><ellipse cx="565.56" cy="95.47" rx="665.58" ry="288.35" fill="#CCD5C6" opacity="0.91"/><ellipse cx="164.55" cy="489.83" rx="742.97" ry="214.08" fill="#B4C1AC" opacity="0.89"/><ellipse cx="495.1" cy="107.83" rx="507.07" ry="290.62" fill="#9DAE96" opacity="0.85"/><ellipse cx="962.96" cy="437.68" rx="132" ry="56.7" fill="#B4653C" opacity="0.72"/></g>
+  <filter id="soft"><feGaussianBlur stdDeviation="52"/></filter>
+  <rect width="1200" height="630" fill="#F1EDE3"/>
+  <g filter="url(#soft)"><ellipse cx="863.49" cy="568" rx="513.57" ry="334.42" fill="#E7DFCA" opacity="0.93"/><ellipse cx="164.19" cy="128.45" rx="489.06" ry="361.79" fill="#DCCFB2" opacity="0.72"/><ellipse cx="989.23" cy="528.99" rx="556.25" ry="362.96" fill="#CABD9D" opacity="0.65"/><ellipse cx="189.22" cy="441.17" rx="132" ry="56.7" fill="#B86038" opacity="0.72"/></g>
   
   <linearGradient id="light" x1="1" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="white" stop-opacity="0.14"/>
@@ -11,9 +11,9 @@
   <rect width="1200" height="630" fill="url(#light)"/>
   
   <filter id="grain" x="0%" y="0%" width="100%" height="100%">
-    <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" seed="53749" stitchTiles="stitch"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" seed="39045" stitchTiles="stitch"/>
     <feColorMatrix type="saturate" values="0"/>
-    <feComponentTransfer><feFuncA type="linear" slope="0.07" intercept="0"/></feComponentTransfer>
+    <feComponentTransfer><feFuncA type="linear" slope="0.09" intercept="0"/></feComponentTransfer>
     <feComposite operator="in" in2="SourceGraphic"/>
   </filter>
   <radialGradient id="vignette" cx="50%" cy="42%" r="75%">

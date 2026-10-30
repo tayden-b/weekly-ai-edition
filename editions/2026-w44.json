@@ -63,6 +63,59 @@
                 "hn_object_id": "50276792",
                 "source": "hn-algolia"
               }
+            },
+            {
+              "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+              "publisher": "The Verge",
+              "published_at": "2026-10-28T20:03:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.940Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and",
+              "source_ids": {
+                "atom_id": "https://www.theverge.com/?p=1021339",
+                "newsroom_feed": "theverge-ai",
+                "source": "theverge-ai"
+              }
+            },
+            {
+              "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use",
+              "publisher": "Ars Technica",
+              "published_at": "2026-10-28T18:47:27.000Z",
+              "fetched_at": "2026-10-29T13:43:57.274Z",
+              "adapter": "newsroom-rss",
+              "excerpt": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+              "source_ids": {
+                "rss_guid": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+                "newsroom_feed": "ars-ai",
+                "source": "ars-ai"
+              }
+            },
+            {
+              "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+              "publisher": "Google DeepMind",
+              "published_at": "2026-10-28T00:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.483Z",
+              "adapter": "lab-blogs",
+              "excerpt": "Gemini 4 Carbon: Our next frontier model",
+              "source_ids": {
+                "guid": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+                "source": "google-deepmind-blog"
+              }
+            },
+            {
+              "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+              "publisher": "Google DeepMind",
+              "published_at": "2026-10-28T17:00:58.000Z",
+              "fetched_at": "2026-10-29T13:43:57.830Z",
+              "adapter": "distribute-software",
+              "excerpt": "Gemini 4 Carbon: Our next frontier model",
+              "source_ids": {
+                "distribute_id": "release-1074",
+                "distribute_url": "https://distribute.software/companies/google",
+                "distribute_source": "lab",
+                "distribute_companies": "google",
+                "source": "distribute-releases"
+              }
             }
           ],
           "number": "4 Carbon",
@@ -137,62 +190,6 @@
           ]
         },
         {
-          "headline": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-          "one_liner": "Google says Gemini 4 Carbon brings significant gains in coding, agentic tasks, and cybersecurity.",
-          "companies": [
-            "alphabet",
-            "google-deepmind"
-          ],
-          "sources": [
-            {
-              "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
-              "publisher": "The Verge",
-              "published_at": "2026-10-28T20:03:00.000Z",
-              "fetched_at": "2026-10-29T13:43:56.940Z",
-              "adapter": "newsroom-rss",
-              "excerpt": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and",
-              "source_ids": {
-                "atom_id": "https://www.theverge.com/?p=1021339",
-                "newsroom_feed": "theverge-ai",
-                "source": "theverge-ai"
-              }
-            }
-          ],
-          "number": "4 Carbon",
-          "evidence": {
-            "source_index": 0,
-            "quote": "Gemini 4 Carbon"
-          }
-        },
-        {
-          "headline": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
-          "one_liner": "Ars reports Gemini 4 Carbon is a modest upgrade over Argon rather than a leap.",
-          "companies": [
-            "alphabet",
-            "google-deepmind"
-          ],
-          "sources": [
-            {
-              "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use",
-              "publisher": "Ars Technica",
-              "published_at": "2026-10-28T18:47:27.000Z",
-              "fetched_at": "2026-10-29T13:43:57.274Z",
-              "adapter": "newsroom-rss",
-              "excerpt": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
-              "source_ids": {
-                "rss_guid": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
-                "newsroom_feed": "ars-ai",
-                "source": "ars-ai"
-              }
-            }
-          ],
-          "number": "4 Carbon",
-          "evidence": {
-            "source_index": 0,
-            "quote": "Gemini 4 Carbon"
-          }
-        },
-        {
           "headline": "Voice AI in vogue: Nvidia releases new open transcription model",
           "one_liner": "Nvidia's free transcription model handles recordings in 40 languages but not live audio.",
           "companies": [
@@ -213,6 +210,71 @@
               }
             }
           ]
+        },
+        {
+          "headline": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+          "one_liner": "Nvidia open-sourced Nemotron 3.5 Transcribe and Granary v2, promptable transcription models covering 40 languages.",
+          "companies": [
+            "nvidia"
+          ],
+          "sources": [
+            {
+              "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+              "publisher": "Hugging Face",
+              "published_at": "2026-10-28T00:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.490Z",
+              "adapter": "lab-blogs",
+              "excerpt": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+              "source_ids": {
+                "guid": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+                "source": "huggingface-blog"
+              }
+            },
+            {
+              "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+              "publisher": "Hugging Face",
+              "via": "Hacker News",
+              "published_at": "2026-10-28T15:17:53.000Z",
+              "fetched_at": "2026-10-28T19:44:16.803Z",
+              "adapter": "hn-algolia",
+              "excerpt": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
+              "source_ids": {
+                "hn_object_id": "50275128",
+                "source": "hn-algolia"
+              }
+            }
+          ],
+          "number": "3.5",
+          "evidence": {
+            "source_index": 0,
+            "quote": "NVIDIA Nemotron 3.5 Transcribe"
+          }
+        },
+        {
+          "headline": "Build specialized multimodal models with LFM3",
+          "one_liner": "Liquid AI's LFM3 is a base for building specialized multimodal models.",
+          "companies": [
+            "liquid-ai"
+          ],
+          "sources": [
+            {
+              "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+              "publisher": "Hugging Face",
+              "published_at": "2026-10-27T00:00:00.000Z",
+              "fetched_at": "2026-10-29T13:43:56.490Z",
+              "adapter": "lab-blogs",
+              "excerpt": "Build specialized multimodal models with LFM3",
+              "source_ids": {
+                "guid": "https://huggingface.co/blog/LiquidAI/lfm3",
+                "source": "huggingface-blog"
+              }
+            }
+          ],
+          "number": "3",
+          "evidence": {
+            "source_index": 0,
+            "quote": "LFM3"
+          }
         }
       ]
     },
@@ -1099,13 +1161,7 @@
         {
           "company": "alphabet",
           "name": "Alphabet (Google)",
-          "stories": 5,
-          "trend": "up"
-        },
-        {
-          "company": "google-deepmind",
-          "name": "Google DeepMind",
-          "stories": 4,
+          "stories": 3,
           "trend": "up"
         },
         {
@@ -1121,6 +1177,12 @@
           "trend": "up"
         },
         {
+          "company": "google-deepmind",
+          "name": "Google DeepMind",
+          "stories": 2,
+          "trend": "up"
+        },
+        {
           "company": "meta",
           "name": "Meta",
           "stories": 2,
@@ -1130,7 +1192,7 @@
     },
     {
       "type": "back_page",
-      "sources_total": 44,
+      "sources_total": 49,
       "source_counts": [
         {
           "publisher": "Exa Markets",
@@ -1153,11 +1215,15 @@
           "count": 4
         },
         {
-          "publisher": "Google",
-          "count": 2
+          "publisher": "Google DeepMind",
+          "count": 4
         },
         {
-          "publisher": "Google DeepMind",
+          "publisher": "Hugging Face",
+          "count": 4
+        },
+        {
+          "publisher": "Google",
           "count": 2
         },
         {
@@ -1186,10 +1252,6 @@
         },
         {
           "publisher": "GitHub",
-          "count": 1
-        },
-        {
-          "publisher": "Hugging Face",
           "count": 1
         },
         {
