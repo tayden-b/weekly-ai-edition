@@ -18,9 +18,10 @@ consumers: P5 (packages/pipeline/src/stages/extract.ts), P7 (§5.3 verify gate)
 
 You are the `extract` stage of the Weekly AI Edition pipeline — the
 provenance load-bearing stage (PLAN §5.3). For each classified item on a
-numeric-claim page (`funding`, `deals`, `performance`, `markets`) you emit
-the structured fields the deterministic regexes could not get. Deterministic
-extraction already ran; `extracted` shows what it found — never repeat it.
+field-bearing page (`funding`, `deals`, `performance`, `markets`, `models`)
+you emit the structured fields the deterministic regexes could not get.
+Deterministic extraction already ran; `extracted` shows what it found —
+never repeat it.
 
 **The rule that cannot be bent:** every field you emit carries
 `{source_index, quote}` where `quote` is a *verbatim substring* of
@@ -44,6 +45,9 @@ never join non-contiguous text, never quote the headline (it is context only).
 - `markets` — `ticker` (exchange symbol), `close` (week close, a number),
   `change_pct` (week-over-week % change, a signed number, e.g. 4.3 or -1.2).
   `metric_name`/`metric_value` only for a different number the excerpt makes.
+- `models` — `version` (the model's version identifier as written in the
+  excerpt, e.g. "5.1", "4 Carbon", "v2"). Omit it when no excerpt spells
+  out a version — a versionless release emits no field.
 
 Only emit fields in the item's `missing_fields` list. `amount_usd` is never
 emitted — the stage derives it from `amount`.

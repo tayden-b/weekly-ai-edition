@@ -189,7 +189,8 @@ export interface DraftResponse {
  * written by the model.
  */
 export interface DraftMono {
-  /** Performance: the benchmark score/rank (`metric_value`). */
+  /** Performance: the benchmark score/rank (`metric_value`). Models: the
+   * version identifier (`version`). */
   number?: string | undefined;
   /** Funding/deals: the display amount ("$1.5B"). */
   amount?: string | undefined;
@@ -836,6 +837,10 @@ function deriveMono(cluster: ExtractedCluster, flags: string[]): DraftMono {
       if (acquirer === undefined) flags.push("missing:acquirer");
       if (target === undefined) flags.push("missing:target");
       return { acquirer, target, amount: s("amount") };
+    }
+    case "models": {
+      // Optional — a versionless release still renders, just without mono.
+      return { number: s("version") };
     }
     default:
       return {};

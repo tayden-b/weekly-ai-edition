@@ -855,7 +855,7 @@
     "fixtures/2026-w44/edition.json": "sha256:f3a6d138cde84822b79aac27d09c57798d7810f82e2625170e27a105ef26b1ac"
   },
   "back_page": {
-    "sources_total": 43,
+    "sources_total": 44,
     "source_counts": [
       {
         "publisher": "Exa Markets",
@@ -863,7 +863,7 @@
       },
       {
         "publisher": "Bloomberg",
-        "count": 5
+        "count": 6
       },
       {
         "publisher": "TechCrunch",
@@ -929,7 +929,7 @@
   },
   "cover": {
     "generator": "@weekly/cover",
-    "seed": "3239c00c13f7d5d05a3666974af8370d95cc2583555203518a5ca92e2a99afb8",
-    "composition": "ridge"
+    "seed": "66f7116cb505d1f59a57f8de3eeb8c753f01c8c3737c1c6fcdc708212656493e",
+    "composition": "field"
   }
 }

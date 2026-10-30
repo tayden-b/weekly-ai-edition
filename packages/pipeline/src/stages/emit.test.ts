@@ -181,6 +181,82 @@ describe("emitEdition", () => {
     expect(emitted.filter((r) => r.page === "models")).toHaveLength(2);
   });
 
+  it("collapses two clusters for the same deal into one item with merged sources", () => {
+    const clusters = [
+      ...fullWeek(),
+      mkDrafted("deals-a", {
+        page: "deals",
+        companySlugs: ["amazon", "globalstar"],
+        extracted: { acquirer: "Amazon Leo", target: "Globalstar" },
+        draftHeadline: "US agency approves Amazon Leo's $11.5B acquisition of Globalstar",
+      }),
+      mkDrafted("deals-b", {
+        page: "deals",
+        companySlugs: ["amazon", "globalstar"],
+        extracted: { acquirer: "Amazon", target: "Globalstar" },
+        draftHeadline: "Amazon to buy satellite firm Globalstar in $11.57B deal",
+      }),
+      mkDrafted("deals-c", {
+        page: "deals",
+        companySlugs: ["xsolla"],
+        extracted: { acquirer: "Xsolla", target: "GamePix" },
+        draftHeadline: "Xsolla Acquires GamePix",
+      }),
+    ];
+    const { edition, emitted } = emitEdition(clusters, BRIEFING, emitOpts);
+    const deals = edition.pages.find((p) => p.type === "deals")!;
+    const items = (deals as { items: { headline: string; sources: unknown[] }[] }).items;
+    expect(items.map((i) => i.headline)).toEqual([
+      "H0", // the baseline fullWeek deal
+      "US agency approves Amazon Leo's $11.5B acquisition of Globalstar",
+      "Xsolla Acquires GamePix",
+    ]);
+    // The survivor inherits the dup's distinct source links.
+    expect(items[1]!.sources).toHaveLength(2);
+    // And the dropped cluster is not counted among emitted refs.
+    expect(emitted.filter((r) => r.page === "deals")).toHaveLength(3);
+  });
+
+  it("does not collapse deals sharing only a single company slug", () => {
+    const clusters = [
+      ...fullWeek(),
+      mkDrafted("deals-a", {
+        page: "deals",
+        companySlugs: ["acme"],
+        extracted: { acquirer: "Acme", target: "Foo" },
+        draftHeadline: "Acme buys Foo",
+      }),
+      mkDrafted("deals-b", {
+        page: "deals",
+        companySlugs: ["acme"],
+        extracted: { acquirer: "Acme", target: "Bar" },
+        draftHeadline: "Acme buys Bar",
+      }),
+    ];
+    const { edition } = emitEdition(clusters, BRIEFING, emitOpts);
+    const deals = edition.pages.find((p) => p.type === "deals")!;
+    // Baseline deal + both Acme deals survive: one shared slug is not enough.
+    expect((deals as { items: unknown[] }).items).toHaveLength(3);
+  });
+
+  it("emits a models item's extracted version in the mono number slot", () => {
+    const clusters = [
+      ...fullWeek(),
+      mkDrafted("models-v", {
+        page: "models",
+        extracted: { version: "4 Carbon" },
+        draftHeadline: "Gemini 4 Carbon",
+      }),
+    ];
+    const { edition } = emitEdition(clusters, BRIEFING, emitOpts);
+    const models = edition.pages.find((p) => p.type === "models")!;
+    const items = (models as { items: { headline: string; number?: string; evidence?: unknown }[] }).items;
+    const v = items.find((i) => i.headline === "Gemini 4 Carbon")!;
+    expect(v.number).toBe("4 Carbon");
+    expect(v.evidence).toBeDefined();
+    expect(items[0]!.number).toBeUndefined();
+  });
+
   it("parses Stooq-style 'week ending …: close …' series for markets rows", () => {
     const { edition } = emitEdition(fullWeek(), BRIEFING, emitOpts);
     const markets = edition.pages.find((p) => p.type === "markets")!;

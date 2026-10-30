@@ -53,7 +53,7 @@ import type { ItemCluster } from "./dedupe.js";
 // ---------------------------------------------------------------------------
 
 /** The classified pages that carry numeric claims (PLAN §5.3). */
-export const EXTRACT_PAGES = ["funding", "deals", "performance", "markets"] as const;
+export const EXTRACT_PAGES = ["funding", "deals", "performance", "markets", "models"] as const;
 export type ExtractPage = (typeof EXTRACT_PAGES)[number];
 
 const EXTRACT_PAGE_SET = new Set<string>(EXTRACT_PAGES);
@@ -86,6 +86,8 @@ export const EXTRACT_FIELD_NAMES = [
   "close",
   /** Week-over-week % change — markets. */
   "change_pct",
+  /** Model version identifier as written, e.g. "5.1", "4 Carbon" — models. */
+  "version",
 ] as const;
 
 export type ExtractFieldName = (typeof EXTRACT_FIELD_NAMES)[number];
@@ -125,6 +127,13 @@ export const PAGE_FIELD_SPECS: Record<ExtractPage, PageFieldSpec> = {
     required: ["ticker", "close", "change_pct"],
     llm: ["ticker", "close", "change_pct", "metric_name", "metric_value"],
   },
+  models: {
+    // DESIGN §3 renders model versions in the mono `number` slot. Optional:
+    // a release with no version in evidence still emits the item.
+    allowed: ["version"],
+    required: [],
+    llm: ["version"],
+  },
 };
 
 /** The value type each field stores — checked at admission. */
@@ -140,6 +149,7 @@ export const FIELD_VALUE_TYPE: Record<ExtractFieldName, "string" | "number"> = {
   ticker: "string",
   close: "number",
   change_pct: "number",
+  version: "string",
 };
 
 // ---------------------------------------------------------------------------
@@ -691,6 +701,10 @@ export function regexExtractCandidates(cluster: ItemCluster, page: ExtractPage):
         break;
       case "markets":
         out.push(...marketsCandidates(e, i), ...metricCandidates(e, i));
+        break;
+      case "models":
+        // No deterministic candidate: a version is only a version in the
+        // context of its model's name — the model fills `version`.
         break;
     }
   });
