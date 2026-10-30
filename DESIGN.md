@@ -83,9 +83,8 @@ No article photographs. Reasons: licence, inconsistency, and it is what every ag
 
 1. **Typographic first.** Most pages carry no image; type and rules carry them.
 2. **Cover**: one full-bleed image per issue — generated abstract/material imagery (soft colour fields, light, texture — cf. the A17.2 red blur and the Enfold stills), muted, never depicting people or products. Stored in `editions/<week>/cover.jpg`, 2000×2500 portrait + 2400×1350 landscape crop.
-3. **Company logos**: official marks, monochrome `--ink` at ≤ 24px, only on Most Covered and Markets.
-4. **Charts**: Markets and One Chart drawn in-house (SVG), 1.5px lines, `--ink` + one tint; axis labels in mono `--t-xs`.
-5. **OG images**: generated per page from the template — paper ground, masthead, page kicker, headline. 1200×630.
+3. **Charts**: Markets and One Chart drawn in-house (SVG), 1.5px lines, `--ink` + one tint; axis labels in mono `--t-xs`.
+4. **OG images**: generated per page from the template — paper ground, masthead, page kicker, headline. 1200×630.
 
 ## 2. Two renderers, one edition
 
@@ -121,7 +120,7 @@ Layout, top to bottom (12-col grid):
 3. **The Briefing**: cols 3–10, `--t-2xl` first sentence as a drop lead, remaining in `--t-lg`. Hairline above and below. This is the screenshot block; it is also the OG image for the issue root.
 4. **Section band pattern** (used for Models, Performance, Launches, Funding, Deals, Discourse): heavy section head (`--t-xl` uppercase Inter Tight 700, 2px rule under it, like Fox) then items in a 3-column rule-separated grid (4 cols each), max 6 items → two rows. Item = headline / one-liner / source line, no image.
 5. **Markets**: cols 1–7 the chart, cols 8–12 a mono table: ticker · close · Δ week with `--up/--down`. Caption below with data source.
-6. **Most Covered**: 5-row table across cols 4–9 modelled on distribute's Tech Index: rank · logo · name · stories · trend arrow. Rules on all sides here (the one boxed element).
+6. **Most Covered**: 5-row table across cols 4–9 modelled on distribute's Tech Index: rank · name · stories · trend arrow. Rules on all sides here (the one boxed element).
 7. **Back page / footer**: three columns: Sources (count by outlet, mono), How this issue was made (3 lines), For agents (`.md`, `.json`, `llms.txt`, feed links in mono). Copyright line and licence.
 
 Page density target: whole issue readable in ~4 minutes of scrolling. No sidebars, no "related", no infinite feed.
