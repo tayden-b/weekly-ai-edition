@@ -50,9 +50,15 @@ jobs:
             -m "ingest: data/raw/$(date -u +%F)" \
             -m "run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           git push -u origin "$branch"
-          gh pr create \
+          if gh pr create \
             --title "ingest: data/raw/$(date -u +%F)" \
             --body "Automated daily ingest of \`data/raw\`. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
-            --base main --head "$branch"
-          gh pr merge --auto --squash "$branch" \
-            || echo "auto-merge unavailable — Supervisor merges on green"
+            --base main --head "$branch"; then
+            gh pr merge --auto --squash "$branch" \
+              || echo "auto-merge unavailable — Supervisor merges on green"
+          else
+            # Repo setting "Allow GitHub Actions to create PRs" is off:
+            # leave the pushed branch — the Supervisor opens the PR and
+            # arms auto-merge on its next run. Not a failure (#138).
+            echo "::notice::branch $branch pushed; Actions cannot open PRs — Supervisor will open the ingest PR"
+          fi
