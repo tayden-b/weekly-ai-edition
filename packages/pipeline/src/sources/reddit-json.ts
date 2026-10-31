@@ -31,7 +31,20 @@
  * datacenter IPs (verified 2026-10-28 — the `.rss` sibling endpoint stayed
  * reachable); the adapter treats any non-2xx as "zero items this run" and
  * `health()` surfaces the status rather than throwing.
+ *
+ * `.rss` fallback (plan-defect #67): the `.json` block is an edge block
+ * (`retry-after: 0`, no `x-ratelimit-*` headers — it doesn't consume the
+ * rate bucket), while the sibling `<same path>.rss` Atom feed stays
+ * reachable but rate-limits to ~1 req/min per egress IP. So `fetch` tries
+ * `.json` first — the richer path carrying score/num_comments — and on any
+ * non-2xx/parse failure falls back to the `.rss` sibling, honouring
+ * `x-ratelimit-reset` on a single 429 retry. All instances share one
+ * process-wide request queue so a run's N subreddit fetches never burst
+ * into the tiny bucket; engagement fields are absent on the Atom path
+ * (the feed carries none) — tolerated downstream, contract stays valid.
  */
+
+import { XMLParser } from "fast-xml-parser";
 
 import {
   adapterContext,
@@ -44,6 +57,7 @@ import {
 } from "../adapter.js";
 import type { SourceEntry } from "../config.js";
 import { compileAiTermMatcher } from "./hn-algolia.js";
+import { decodeEntities, htmlToText } from "./newsroom-rss.js";
 
 export const REDDIT_ADAPTER_ID = "reddit-json";
 
@@ -79,6 +93,14 @@ export interface RedditAdapterOptions {
    * like `hn-algolia`/`sec-edgar`, never a code default.
    */
   aiTerms?: readonly string[];
+  /**
+   * Cap (ms) on the 429 `x-ratelimit-reset` wait before the `.rss` fallback
+   * gives up — default 75s (the observed bucket resets inside ~60s). A
+   * hint beyond the cap skips the retry rather than parking the run.
+   */
+  rateLimitWaitCapMs?: number;
+  /** Injectable waiter for the 429 retry — tests pass a no-op. */
+  sleep?: (ms: number) => Promise<void>;
 }
 
 /**
@@ -146,12 +168,88 @@ interface RedditListing {
 }
 
 // ---------------------------------------------------------------------------
+// `.rss` fallback — Atom payload shapes (fxp-parsed; see plan-defect #67)
+// ---------------------------------------------------------------------------
+
+const atomParser = new XMLParser({
+  ignoreAttributes: false,
+  attributeNamePrefix: "@_",
+  parseTagValue: false,
+  trimValues: true,
+});
+
+type XmlNode = Record<string, unknown>;
+
+function asList<T>(value: T | T[] | undefined): T[] {
+  if (value === undefined || value === null) return [];
+  return Array.isArray(value) ? value : [value];
+}
+
+/** Pull text out of a parsed node: "x", 5, or { "#text": "x", "@_a": "b" }. */
+function textOf(node: unknown): string {
+  if (typeof node === "string") return node;
+  if (typeof node === "number" || typeof node === "boolean") return String(node);
+  if (node !== null && typeof node === "object" && "#text" in node) {
+    const t = (node as { "#text"?: unknown })["#text"];
+    if (typeof t === "string") return t;
+    if (t !== undefined && t !== null) return String(t);
+  }
+  return "";
+}
+
+/** One `<entry>` of a subreddit `.rss` Atom feed. */
+interface AtomEntry {
+  id: string;
+  title: string;
+  link: string;
+  updated: string;
+  categoryTerm: string;
+  /** Still entity-escaped inner HTML (selftext + the "submitted by" tail). */
+  contentHtml: string;
+}
+
+/** `<content type="html">` → the post's own text (the "submitted by /u/…
+ *  [link] [comments]" footer is reddit chrome, not publisher text). */
+function rssSelftext(contentHtml: string): string {
+  const html = decodeEntities(contentHtml);
+  const tail = html.search(/\ssubmitted by\s/i);
+  return htmlToText(tail >= 0 ? html.slice(0, tail) : html).trim();
+}
+
+/** The `[link]` footer anchor is a link post's outbound URL (the permalink
+ *  itself on self posts) — kept for cross-source dedupe like `data.url`. */
+function rssOutboundUrl(contentHtml: string): string | null {
+  const html = decodeEntities(contentHtml);
+  const href = /<a[^>]+href="([^"]+)"[^>]*>\s*\[link\]\s*<\/a>/i.exec(html)?.[1];
+  if (href === undefined) return null;
+  try {
+    const host = new URL(href).hostname;
+    return host === "reddit.com" || host.endsWith(".reddit.com") ? null : href;
+  } catch {
+    return null;
+  }
+}
+
+// ---------------------------------------------------------------------------
 // helpers
 // ---------------------------------------------------------------------------
 
 /** `…/r/LocalLLaMA/top.json` → `LocalLLaMA`; "" when the URL has no /r/ segment. */
 export function subredditFromEndpoint(endpoint: string): string {
   return /\/r\/([^/?#]+)/.exec(endpoint)?.[1] ?? "";
+}
+
+/** `…/r/LocalLLaMA/top.json` → `…/r/LocalLLaMA/top.rss`; "" when the path
+ *  doesn't end in `.json` — the fallback only exists for `.json` listings. */
+function rssEndpoint(endpoint: string): string {
+  try {
+    const u = new URL(endpoint);
+    if (!u.pathname.endsWith(".json")) return "";
+    u.pathname = u.pathname.slice(0, -".json".length) + ".rss";
+    return u.toString();
+  } catch {
+    return "";
+  }
 }
 
 /**
@@ -235,12 +333,76 @@ function postToItem(
   };
 }
 
+/** One Atom `<entry>` → RawItem; null when required fields are absent or
+ *  filtered. The feed carries no score/num_comments — engagement fields
+ *  stay absent (schema-optional, tolerated by rank/dedupe). */
+function entryToItem(
+  entry: AtomEntry,
+  opts: RedditAdapterOptions,
+  fetchedAt: Date,
+  matchesAi: ((text: string) => boolean) | null,
+): RawItem | null {
+  const headline = entry.title.trim();
+  const selftext = rssSelftext(entry.contentHtml);
+  if (matchesAi !== null && !matchesAi(`${headline} ${selftext}`)) return null;
+  const canonical_url = entry.link.trim();
+  const published = Date.parse(entry.updated);
+  if (headline === "" || canonical_url === "" || Number.isNaN(published)) return null;
+  const subreddit =
+    entry.categoryTerm || opts.subreddit || subredditFromEndpoint(opts.endpoint);
+  const publisher = opts.publisher ?? (subreddit !== "" ? `r/${subreddit}` : "Reddit");
+
+  const source_ids: Record<string, string> = {
+    reddit_feed: opts.id,
+    reddit_id: entry.id,
+    reddit_subreddit: subreddit,
+  };
+  const outbound = rssOutboundUrl(entry.contentHtml);
+  if (outbound !== null) source_ids.reddit_url = outbound;
+
+  return {
+    headline,
+    canonical_url,
+    publisher,
+    published_at: new Date(published).toISOString(),
+    fetched_at: fetchedAt.toISOString(),
+    excerpt: toExcerpt(selftext || headline),
+    source_ids,
+  };
+}
+
 // ---------------------------------------------------------------------------
 // The adapter
 // ---------------------------------------------------------------------------
 
+const sleep = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
+
+/** Default cap on a 429 `x-ratelimit-reset` wait — the observed `.rss`
+ *  bucket resets inside ~60s, so anything past 75s is a lost window. */
+const DEFAULT_RATELIMIT_WAIT_CAP_MS = 75_000;
+
+/**
+ * Process-wide serial queue for every reddit request this module makes.
+ * The `.rss` bucket is ~1 req/min PER EGRESS IP — ingest fires all adapter
+ * fetches via `Promise.all`, so without this the three configured subs
+ * would burst into 429s. Each `fetch`/`health` call is one queued job;
+ * inside a job the .json→.rss→429-retry sequence runs back-to-back.
+ */
+let redditQueue: Promise<void> = Promise.resolve();
+
+function enqueueReddit<T>(job: () => Promise<T>): Promise<T> {
+  const next = redditQueue.then(job);
+  redditQueue = next.then(
+    () => undefined,
+    () => undefined,
+  );
+  return next;
+}
+
 export function createRedditAdapter(opts: RedditAdapterOptions): SourceAdapter {
   const limit = opts.limit ?? DEFAULT_LIMIT;
+  const waitCapMs = opts.rateLimitWaitCapMs ?? DEFAULT_RATELIMIT_WAIT_CAP_MS;
+  const wait = opts.sleep ?? sleep;
   const matchesAi =
     opts.aiTerms !== undefined && opts.aiTerms.length > 0
       ? compileAiTermMatcher(opts.aiTerms)
@@ -253,22 +415,58 @@ export function createRedditAdapter(opts: RedditAdapterOptions): SourceAdapter {
     return u.toString();
   }
 
+  /** `.rss` sibling of requestUrl() — same params (`t` filters top.rss too,
+   *  verified 2026-10-31); "" when the endpoint isn't a `.json` URL. */
+  function rssRequestUrl(): string {
+    const base = rssEndpoint(opts.endpoint);
+    if (base === "") return "";
+    const u = new URL(base);
+    for (const [k, v] of Object.entries(opts.params ?? {})) u.searchParams.set(k, v);
+    return u.toString();
+  }
+
+  const init = (c: AdapterContext, accept: string): RequestInit => ({
+    headers: { "user-agent": c.userAgent, accept },
+  });
+
+  /** `.json` first (score/num_comments live only there), then the `.rss`
+   *  sibling with one 429 retry honouring `x-ratelimit-reset`. Returns the
+   *  body `map` understands, or null when every path degraded this run. */
+  async function getListing(c: AdapterContext): Promise<unknown | null> {
+    try {
+      const res = await c.fetch(requestUrl(), init(c, "application/json"));
+      if (res.ok) return await res.json();
+    } catch {
+      // fall through to the .rss sibling
+    }
+    const rss = rssRequestUrl();
+    if (rss === "") return null;
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const res = await c.fetch(rss, init(c, "application/atom+xml"));
+        if (res.ok) return await res.text();
+        if (res.status !== 429 || attempt === 1) return null;
+        const reset = Number(res.headers.get("x-ratelimit-reset"));
+        const waitMs =
+          Number.isFinite(reset) && reset > 0 ? reset * 1000 : DEFAULT_RATELIMIT_WAIT_CAP_MS / 2;
+        if (waitMs > waitCapMs) return null; // don't park the run on a dead window
+        await wait(waitMs);
+      } catch {
+        return null;
+      }
+    }
+    return null;
+  }
+
   const adapter: SourceAdapter = {
     id: REDDIT_ADAPTER_ID,
 
     async fetch(window: FetchWindow, ctx?: Partial<AdapterContext>): Promise<RawItem[]> {
       const c = adapterContext(ctx);
       const fetchedAt = c.now();
-      let payload: unknown;
-      try {
-        const res = await c.fetch(requestUrl(), {
-          headers: { "user-agent": c.userAgent, accept: "application/json" },
-        });
-        if (!res.ok) return []; // a gated/dead sub degrades itself, never the run
-        payload = await res.json();
-      } catch {
-        return [];
-      }
+      // a gated/dead sub degrades itself, never the run
+      const payload = await enqueueReddit(() => getListing(c));
+      if (payload === null) return [];
       const from = window.from.getTime();
       const to = window.to.getTime();
       return adapter.map(payload, fetchedAt).filter((item) => {
@@ -280,17 +478,75 @@ export function createRedditAdapter(opts: RedditAdapterOptions): SourceAdapter {
     async health(ctx?: Partial<AdapterContext>): Promise<AdapterHealth> {
       const c = adapterContext(ctx);
       const checked_at = c.now().toISOString();
-      try {
-        const res = await c.fetch(requestUrl(), {
-          headers: { "user-agent": c.userAgent, accept: "application/json" },
-        });
-        return { ok: res.ok, detail: `${opts.id} → HTTP ${res.status}`, checked_at };
-      } catch (err) {
-        return { ok: false, detail: `${opts.id} → ${String(err)}`, checked_at };
-      }
+      return enqueueReddit(async () => {
+        try {
+          const res = await c.fetch(requestUrl(), init(c, "application/json"));
+          if (res.ok) return { ok: true, detail: `${opts.id} → HTTP 200`, checked_at };
+          const jsonStatus = res.status;
+          const rss = rssRequestUrl();
+          if (rss !== "") {
+            const rssRes = await c.fetch(rss, init(c, "application/atom+xml"));
+            if (rssRes.ok) {
+              return {
+                ok: true,
+                detail: `${opts.id} → json HTTP ${jsonStatus}, rss HTTP 200`,
+                checked_at,
+              };
+            }
+            return {
+              ok: false,
+              detail: `${opts.id} → json HTTP ${jsonStatus}, rss HTTP ${rssRes.status}`,
+              checked_at,
+            };
+          }
+          return { ok: false, detail: `${opts.id} → HTTP ${jsonStatus}`, checked_at };
+        } catch (err) {
+          return { ok: false, detail: `${opts.id} → ${String(err)}`, checked_at };
+        }
+      });
     },
 
     map(payload: unknown, fetchedAt: Date = new Date()): RawItem[] {
+      // `.rss` fallback bodies arrive as XML text — anything else is the
+      // t3 listing JSON.
+      if (typeof payload === "string") {
+        let feed: XmlNode;
+        try {
+          feed = atomParser.parse(payload) as XmlNode;
+        } catch {
+          return [];
+        }
+        const f = feed.feed as XmlNode | undefined;
+        const seen = new Set<string>();
+        const items: RawItem[] = [];
+        for (const raw of asList(f?.entry as XmlNode | XmlNode[] | undefined)) {
+          const linkNode = raw.link;
+          const entry: AtomEntry = {
+            id: textOf(raw.id),
+            title: decodeEntities(textOf(raw.title)),
+            link:
+              typeof linkNode === "object" && linkNode !== null
+                ? String((linkNode as XmlNode)["@_href"] ?? "")
+                : textOf(linkNode),
+            updated: textOf(raw.updated) || textOf(raw.published),
+            categoryTerm: asList(raw.category as XmlNode | XmlNode[] | undefined)
+              .map((cat) =>
+                typeof cat === "object" && cat !== null
+                  ? String(cat["@_term"] ?? "")
+                  : textOf(cat),
+              )
+              .find((t) => t !== "") ?? "",
+            contentHtml: textOf(raw.content),
+          };
+          const item = entryToItem(entry, opts, fetchedAt, matchesAi);
+          if (item === null) continue;
+          const key = item.source_ids.reddit_id || item.canonical_url;
+          if (seen.has(key)) continue;
+          seen.add(key);
+          items.push(item);
+        }
+        return items;
+      }
       if (typeof payload !== "object" || payload === null) return [];
       const children = (payload as RedditListing).data?.children ?? [];
       const seen = new Set<string>();

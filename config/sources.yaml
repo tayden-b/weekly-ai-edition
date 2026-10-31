@@ -964,6 +964,11 @@ sources:
 
   # =========================================================================
   # Discourse — Reddit public JSON (adapter A9: reddit-json.ts)
+  #
+  # plan-defect #67: `.json` 403s all datacenter IPs (edge block, doesn't
+  # consume the rate bucket) — the adapter falls back per-run to the sibling
+  # `top.rss` Atom feed (same `t` window; no score/num_comments on that path)
+  # with a process-wide serial queue + one x-ratelimit-reset-honoured retry.
   # =========================================================================
   - id: reddit-machinelearning
     pages: [discourse]

@@ -131,8 +131,12 @@ const NAMED_ENTITIES: Record<string, string> = {
   trade: "™",
 };
 
-/** Decode entities inside CDATA/HTML fragments (fxp leaves CDATA text raw). */
-function decodeEntities(text: string): string {
+/**
+ * Decode entities inside CDATA/HTML fragments (fxp leaves CDATA text raw).
+ * Exported for the other feed adapters (reddit-json's `.rss` fallback) —
+ * same convention as hn-algolia's `compileAiTermMatcher`.
+ */
+export function decodeEntities(text: string): string {
   return text.replace(/&(#[0-9]+|#[xX][0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);/g, (m, body: string) => {
     if (body.startsWith("#")) {
       const hex = body.startsWith("#x") || body.startsWith("#X");
@@ -146,7 +150,7 @@ function decodeEntities(text: string): string {
 }
 
 /** Reduce an HTML fragment to plain text: strip tags, decode entities. */
-function htmlToText(fragment: string): string {
+export function htmlToText(fragment: string): string {
   return decodeEntities(
     fragment
       .replace(/<!--[\s\S]*?-->/g, " ")
