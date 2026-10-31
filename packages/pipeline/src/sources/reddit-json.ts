@@ -213,7 +213,10 @@ interface AtomEntry {
 function rssSelftext(contentHtml: string): string {
   const html = decodeEntities(contentHtml);
   const tail = html.search(/\ssubmitted by\s/i);
-  return htmlToText(tail >= 0 ? html.slice(0, tail) : html).trim();
+  const text = htmlToText(tail >= 0 ? html.slice(0, tail) : html).trim();
+  // postSelftext's tombstones apply here too — a deleted self-post's Atom
+  // content still reads "[removed]"/"[deleted]", which is not publisher text
+  return text === "[removed]" || text === "[deleted]" ? "" : text;
 }
 
 /** The `[link]` footer anchor is a link post's outbound URL (the permalink
@@ -415,13 +418,15 @@ export function createRedditAdapter(opts: RedditAdapterOptions): SourceAdapter {
     return u.toString();
   }
 
-  /** `.rss` sibling of requestUrl() — same params (`t` filters top.rss too,
-   *  verified 2026-10-31); "" when the endpoint isn't a `.json` URL. */
+  /** `.rss` sibling of requestUrl() — same params + limit (`t` filters
+   *  top.rss too, verified 2026-10-31); "" when the endpoint isn't a
+   *  `.json` URL. */
   function rssRequestUrl(): string {
     const base = rssEndpoint(opts.endpoint);
     if (base === "") return "";
     const u = new URL(base);
     for (const [k, v] of Object.entries(opts.params ?? {})) u.searchParams.set(k, v);
+    if (!u.searchParams.has("limit")) u.searchParams.set("limit", String(limit));
     return u.toString();
   }
 

@@ -465,4 +465,60 @@ describe("reddit-json — .rss fallback (#67)", () => {
     expect(h.detail).toContain("json HTTP 403");
     expect(h.detail).toContain("rss HTTP 403");
   });
+
+  // plan-defect #174 — the two review nits on the #67 fallback
+
+  it("a [removed]/[deleted] Atom self-post falls back to the title, never the tombstone", () => {
+    const atom = `<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom"><entry><author><name>/u/gone</name></author><category term="MachineLearning"/><content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;[removed]&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/gone&quot;&gt; /u/gone &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/MachineLearning/comments/1xdead0/deleted_post/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/MachineLearning/comments/1xdead0/deleted_post/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content><id>t3_1xdead0</id><link href="https://www.reddit.com/r/MachineLearning/comments/1xdead0/deleted_post/" /><updated>2026-10-29T10:00:00+00:00</updated><title>A removed self post</title></entry><entry><author><name>/u/gone2</name></author><category term="MachineLearning"/><content type="html">&lt;!-- SC_OFF --&gt;&lt;div class=&quot;md&quot;&gt;&lt;p&gt;[deleted]&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt; &amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/gone2&quot;&gt; /u/gone2 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/MachineLearning/comments/1xdead1/deleted_post2/"&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/MachineLearning/comments/1xdead1/deleted_post2/"&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content><id>t3_1xdead1</id><link href="https://www.reddit.com/r/MachineLearning/comments/1xdead1/deleted_post2/" /><updated>2026-10-29T11:00:00+00:00</updated><title>A deleted self post</title></entry></feed>`;
+    const items = createRedditAdapter({
+      id: "reddit-test",
+      endpoint: "https://www.reddit.com/r/MachineLearning/top.json",
+    }).map(atom, FIXTURE_NOW);
+    expect(items).toHaveLength(2);
+    expect(items[0]!.excerpt).toBe("A removed self post");
+    expect(items[1]!.excerpt).toBe("A deleted self post");
+    for (const i of items) {
+      expect(i.excerpt).not.toContain("[removed]");
+      expect(i.excerpt).not.toContain("[deleted]");
+    }
+  });
+
+  it("meta.limit propagates to the .rss sibling URL; params.limit still wins", async () => {
+    const atom = loadAdapterFixture(atomFixture());
+    const rssBody = atom.responses[1]!.body as string;
+    const urls: string[] = [];
+    const fetcher: Fetcher = async (url) => {
+      const u = typeof url === "string" ? url : url instanceof URL ? url.toString() : url.url;
+      urls.push(u);
+      if (u.includes("top.json")) return new Response("{}", { status: 403 });
+      return new Response(rssBody, {
+        status: 200,
+        headers: { "content-type": "application/atom+xml" },
+      });
+    };
+    const ctx = { fetch: fetcher, now: () => FIXTURE_NOW };
+
+    const metaLimited = createRedditAdapter({
+      id: "reddit-test",
+      endpoint: "https://www.reddit.com/r/MachineLearning/top.json",
+      params: { t: "week" },
+      limit: 7,
+      sleep: async () => {},
+    });
+    await metaLimited.fetch(ATOM_WINDOW, ctx);
+    const metaRss = urls.find((u) => u.includes("top.rss"))!;
+    expect(metaRss).toContain("limit=7");
+    expect(metaRss).toContain("t=week");
+
+    const paramsWin = createRedditAdapter({
+      id: "reddit-test",
+      endpoint: "https://www.reddit.com/r/MachineLearning/top.json",
+      params: { t: "week", limit: "3" },
+      limit: 7,
+      sleep: async () => {},
+    });
+    await paramsWin.fetch(ATOM_WINDOW, ctx);
+    const paramRss = urls.filter((u) => u.includes("top.rss"))[1]!;
+    expect(paramRss).toContain("limit=3");
+  });
 });
