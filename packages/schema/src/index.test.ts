@@ -8,6 +8,7 @@ import {
   EDITION_SCHEMA_VERSION,
   assertEdition,
   isEditionWeekId,
+  pageDropped,
   validateEdition,
 } from "./index.js";
 
@@ -85,6 +86,40 @@ describe("validateEdition — 2026-w44 fixture", () => {
 
   it("assertEdition does not throw", () => {
     expect(() => assertEdition(fixtureJson)).not.toThrow();
+  });
+
+  it("accepts a page with nothing to say (empty content array, PLAN §3)", () => {
+    const e = clone();
+    e.pages[5]!.items = []; // funding
+    e.pages[6]!.items = []; // deals
+    e.pages[7]!.tickers = []; // markets
+    e.pages[7]!.sources = [];
+    (e.pages[7]!["chart"] as MutValue)["series"] = [];
+    e.pages[9]!.entries = []; // most_covered
+    const result = validateEdition(e);
+    expect(result.errors).toEqual([]);
+    expect(result.ok).toBe(true);
+  });
+});
+
+describe("pageDropped (PLAN §3 drop rule)", () => {
+  it("is true for an empty items/tickers/entries array, false otherwise", () => {
+    const e = clone();
+    const pages = e.pages as unknown as Edition["pages"];
+    expect(pages.every((p) => !pageDropped(p))).toBe(true);
+
+    const sparse = JSON.parse(JSON.stringify(fixtureJson)) as Edition;
+    sparse.pages[2].items = [];
+    sparse.pages[7].tickers = [];
+    sparse.pages[9].entries = [];
+    const dropped = sparse.pages.map(pageDropped);
+    expect(dropped).toEqual([
+      false, false, true, false, false, false, false, true, false, true, false,
+    ]);
+    // cover, briefing and back_page never drop
+    expect(pageDropped(sparse.pages[0])).toBe(false);
+    expect(pageDropped(sparse.pages[1])).toBe(false);
+    expect(pageDropped(sparse.pages[10])).toBe(false);
   });
 });
 

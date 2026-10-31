@@ -572,17 +572,13 @@ function emitMarketsPage<T extends DraftedCluster>(
   const chart = {
     title: "AI basket index, week to date",
     unit: "index" as const,
-    series: basketChart(keptRows, opts.date_start, opts.date_end) as [
-      { date: string; value: number },
-      { date: string; value: number },
-      ...{ date: string; value: number }[],
-    ],
+    series: basketChart(keptRows, opts.date_start, opts.date_end),
   };
 
   return {
     page: {
       type: "markets",
-      sources: sources as [EditionSource, ...EditionSource[]],
+      sources,
       chart,
       tickers: tickers as EditionMarketsPage["tickers"],
     },
@@ -655,15 +651,15 @@ export function emitEdition<T extends DraftedCluster>(
   briefing: BriefingDraft,
   opts: EmitOptions,
 ): EmitResult {
-  const issues: string[] = [];
   const emitted: EmittedItemRef[] = [];
   const allPageItems: PageItem<T>[] = [];
 
+  // PLAN §3: a page with nothing to say is dropped, never padded — the page
+  // keeps its tuple position with an empty content array and renderers skip it.
   const itemPages: Record<string, PageItem<T>[]> = {};
   for (const page of ["models", "performance", "launches", "funding", "deals", "discourse"]) {
     const items = emitItemPage(page, clusters);
-    if (items.length === 0) issues.push(`page "${page}" has no emittable items`);
-    else itemPages[page] = items;
+    itemPages[page] = items;
     allPageItems.push(...items);
     for (const [i, it] of items.entries()) {
       emitted.push({ ref_id: `${page}-${i}`, cluster_id: it.cluster.id, page });
@@ -671,10 +667,13 @@ export function emitEdition<T extends DraftedCluster>(
   }
 
   const markets = emitMarketsPage<T>(clusters, opts);
-  if (markets === undefined) issues.push('page "markets" has no emittable tickers');
-  else emitted.push(...markets.refs);
+  if (markets !== undefined) emitted.push(...markets.refs);
 
-  if (issues.length > 0) throw new EmitError(issues);
+  // Cover + most_covered derive from the item pages — a week with nothing at
+  // all still can't emit.
+  if (allPageItems.length === 0) {
+    throw new EmitError(["no emittable items across all item pages"]);
+  }
 
   // Cover: the highest-ranked emitted cluster, real pool preferred.
   const coverPool = allPageItems.filter((p) => !isFixtureCluster(p.cluster));
@@ -686,8 +685,9 @@ export function emitEdition<T extends DraftedCluster>(
     throw new EmitError([`briefing has ${sentences.length} sentences — schema needs 5–7`]);
   }
 
+  // most_covered derives from emitted items; no company tags → entries: []
+  // and the page is dropped at render like any other empty page.
   const covered = mostCovered(allPageItems, opts);
-  if (covered.length === 0) throw new EmitError(["most_covered has no entries"]);
 
   // L1: the cover headline links to the covered story's origin source.
   const coverUrl = primarySource(editionSources(cover.cluster))?.url;
@@ -706,7 +706,12 @@ export function emitEdition<T extends DraftedCluster>(
       { type: "launches", items: itemPages["launches"]!.map((p) => p.item) },
       { type: "funding", items: itemPages["funding"]!.map((p) => p.item) },
       { type: "deals", items: itemPages["deals"]!.map((p) => p.item) },
-      markets!.page,
+      markets?.page ?? {
+        type: "markets",
+        sources: [],
+        chart: { title: "AI basket index, week to date", unit: "index" as const, series: [] },
+        tickers: [],
+      },
       { type: "discourse", items: itemPages["discourse"]!.map((p) => p.item) },
       { type: "most_covered", entries: covered },
       { type: "back_page", sources_total: 0, source_counts: [], how_made: "", agent_links: {} },

@@ -4,7 +4,7 @@
  * briefing + every page's items in clean Markdown, no nav chrome. Also the
  * `Accept: text/markdown` negotiation used by `src/proxy.ts` on `/{issue}`.
  */
-import { primarySource } from "@weekly/schema";
+import { pageDropped, primarySource } from "@weekly/schema";
 import type {
   Edition,
   EditionBackPage,
@@ -202,7 +202,7 @@ function frontmatter(ed: Edition, backPage: EditionBackPage): string {
     `date_start: ${ed.date_start}`,
     `date_end: ${ed.date_end}`,
     "pages:",
-    ...ed.pages.map((p) => `  - ${p.type}`),
+    ...ed.pages.filter((p) => !pageDropped(p)).map((p) => `  - ${p.type}`),
     `sources_total: ${backPage.sources_total}`,
     "source_counts:",
     ...backPage.source_counts.map(
@@ -239,6 +239,7 @@ export function editionToMarkdown(ed: Edition): string {
   if (cover.deck) doc.push("", cover.deck);
 
   for (const page of ed.pages.slice(1)) {
+    if (pageDropped(page)) continue;
     doc.push("", pageBlock(page));
   }
   return `${doc.join("\n")}\n`;

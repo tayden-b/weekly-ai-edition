@@ -72,7 +72,7 @@ export default async function IssuePage({
             briefing={view.briefing}
             sections={view.sections}
             {...(view.markets ? { markets: view.markets } : {})}
-            mostCovered={view.mostCovered}
+            {...(view.mostCovered ? { mostCovered: view.mostCovered } : {})}
             backPage={view.backPage}
           />
         </main>

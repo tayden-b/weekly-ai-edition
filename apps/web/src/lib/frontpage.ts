@@ -121,7 +121,7 @@ export interface FrontPageView {
   briefing: string[];
   sections: FrontPageSection[];
   markets?: FrontPageMarkets;
-  mostCovered: CoveredRowView[];
+  mostCovered?: CoveredRowView[];
   backPage: FrontPageBackPage;
   navSections: NavSection[];
 }
@@ -140,13 +140,25 @@ export function assembleFrontPage(ed: Edition): FrontPageView {
   const byType = new Map<string, Edition["pages"][number]>(
     ed.pages.map((p) => [p.type, p]),
   );
-  const sections: FrontPageSection[] = SECTION_BANDS.map(({ id, title }) => {
-    const page = byType.get(id);
-    const items =
-      page && "items" in page
-        ? (page.items as SectionItem[]).map((i) => mapItem(i, id))
-        : [];
-    return { id, title, items };
+  // Dropped pages (empty content array, PLAN §3) render no band and no nav
+  // entry; their tuple position is kept so page numbers stay stable.
+  const sections: FrontPageSection[] = SECTION_BANDS.flatMap(
+    ({ id, title }) => {
+      const page = byType.get(id);
+      const items =
+        page && "items" in page
+          ? (page.items as SectionItem[]).map((i) => mapItem(i, id))
+          : [];
+      return items.length === 0 ? [] : [{ id, title, items }];
+    },
+  );
+  const marketsDropped = markets.tickers.length === 0;
+  const mostCoveredDropped = mostCovered.entries.length === 0;
+  const navSections = NAV_SECTIONS.filter(({ id }) => {
+    if (id === "markets") return !marketsDropped;
+    if (id === "most-covered") return !mostCoveredDropped;
+    if (id === "back-page") return true;
+    return sections.some((s) => s.id === id);
   });
 
   const view: FrontPageView = {
@@ -163,14 +175,18 @@ export function assembleFrontPage(ed: Edition): FrontPageView {
     },
     briefing: [...briefing.sentences],
     sections,
-    mostCovered: mostCovered.entries.map(
-      (e, i): CoveredRowView => ({
-        rank: i + 1,
-        name: e.name,
-        stories: e.stories,
-        trend: e.trend,
-      }),
-    ),
+    ...(mostCoveredDropped
+      ? {}
+      : {
+          mostCovered: mostCovered.entries.map(
+            (e, i): CoveredRowView => ({
+              rank: i + 1,
+              name: e.name,
+              stories: e.stories,
+              trend: e.trend,
+            }),
+          ),
+        }),
     backPage: {
       sources: backPage.source_counts.map(
         (c): [string, number] => [c.publisher, c.count],
@@ -189,11 +205,12 @@ export function assembleFrontPage(ed: Edition): FrontPageView {
         backPage.colophon ? ` ${backPage.colophon}` : ""
       }`,
     },
-    navSections: NAV_SECTIONS,
+    navSections,
   };
 
-  const mv = marketsView(markets);
-  view.markets = {
+  if (!marketsDropped) {
+    const mv = marketsView(markets);
+    view.markets = {
     data: mv.data,
     missing: mv.missing,
     index: {
@@ -203,9 +220,10 @@ export function assembleFrontPage(ed: Edition): FrontPageView {
         ? { xLabels: mv.index.xLabels.map(shortDate) }
         : {}),
     },
-    tickers: mv.tickers,
-    caption: mv.caption,
-  };
+      tickers: mv.tickers,
+      caption: mv.caption,
+    };
+  }
 
   return view;
 }

@@ -72,10 +72,10 @@ sentences: [string, string, string, string, string]|[string, string, string, str
 export interface EditionModelsPage {
 type: "models"
 /**
- * @minItems 1
+ * @minItems 0
  * @maxItems 6
  */
-items: [EditionItem]|[EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem, EditionItem, EditionItem]
+items: []|[EditionItem]|[EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem, EditionItem, EditionItem]
 }
 /**
  * Standard page item (models, launches).
@@ -129,10 +129,10 @@ quote: string
 export interface EditionPerformancePage {
 type: "performance"
 /**
- * @minItems 1
+ * @minItems 0
  * @maxItems 5
  */
-items: [EditionItemNumbered]|[EditionItemNumbered, EditionItemNumbered]|[EditionItemNumbered, EditionItemNumbered, EditionItemNumbered]|[EditionItemNumbered, EditionItemNumbered, EditionItemNumbered, EditionItemNumbered]|[EditionItemNumbered, EditionItemNumbered, EditionItemNumbered, EditionItemNumbered, EditionItemNumbered]
+items: []|[EditionItemNumbered]|[EditionItemNumbered, EditionItemNumbered]|[EditionItemNumbered, EditionItemNumbered, EditionItemNumbered]|[EditionItemNumbered, EditionItemNumbered, EditionItemNumbered, EditionItemNumbered]|[EditionItemNumbered, EditionItemNumbered, EditionItemNumbered, EditionItemNumbered, EditionItemNumbered]
 }
 /**
  * Performance item — always carries a number in mono, and that number always carries evidence (DESIGN §3 + PLAN §5.3).
@@ -152,18 +152,18 @@ evidence: EditionEvidence
 export interface EditionLaunchesPage {
 type: "launches"
 /**
- * @minItems 1
+ * @minItems 0
  * @maxItems 6
  */
-items: [EditionItem]|[EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem, EditionItem, EditionItem]
+items: []|[EditionItem]|[EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem, EditionItem]|[EditionItem, EditionItem, EditionItem, EditionItem, EditionItem, EditionItem]
 }
 export interface EditionFundingPage {
 type: "funding"
 /**
- * @minItems 1
+ * @minItems 0
  * @maxItems 6
  */
-items: [EditionItemFunding]|[EditionItemFunding, EditionItemFunding]|[EditionItemFunding, EditionItemFunding, EditionItemFunding]|[EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding]|[EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding]|[EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding]
+items: []|[EditionItemFunding]|[EditionItemFunding, EditionItemFunding]|[EditionItemFunding, EditionItemFunding, EditionItemFunding]|[EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding]|[EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding]|[EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding, EditionItemFunding]
 }
 /**
  * Funding item — `Company raised $Xm Stage led by Lead`; the amount is a numeric claim so `evidence` is required (§5.3). IPOs/offerings carry the disclosed figure in `number`.
@@ -195,10 +195,10 @@ evidence: EditionEvidence
 export interface EditionDealsPage {
 type: "deals"
 /**
- * @minItems 1
+ * @minItems 0
  * @maxItems 4
  */
-items: [EditionItemDeal]|[EditionItemDeal, EditionItemDeal]|[EditionItemDeal, EditionItemDeal, EditionItemDeal]|[EditionItemDeal, EditionItemDeal, EditionItemDeal, EditionItemDeal]
+items: []|[EditionItemDeal]|[EditionItemDeal, EditionItemDeal]|[EditionItemDeal, EditionItemDeal, EditionItemDeal]|[EditionItemDeal, EditionItemDeal, EditionItemDeal, EditionItemDeal]
 }
 /**
  * Deals item — acquirer → target; `amount` when public, otherwise omitted (the renderer writes "undisclosed"). A present `amount` requires `evidence` (§5.3).
@@ -224,23 +224,23 @@ evidence?: EditionEvidence
 export interface EditionMarketsPage {
 type: "markets"
 /**
- * @minItems 1
+ * @minItems 0
  */
-sources: [EditionSource, ...(EditionSource)[]]
+sources: EditionSource[]
 chart: EditionMarketsChart
 /**
- * @minItems 1
+ * @minItems 0
  * @maxItems 10
  */
-tickers: [EditionTicker]|[EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]
+tickers: []|[EditionTicker]|[EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]|[EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker, EditionTicker]
 }
 export interface EditionMarketsChart {
 title: string
 unit: ("index" | "percent" | "usd")
 /**
- * @minItems 2
+ * @minItems 0
  */
-series: [EditionChartPoint, EditionChartPoint, ...(EditionChartPoint)[]]
+series: EditionChartPoint[]
 }
 export interface EditionChartPoint {
 date: string
@@ -260,10 +260,10 @@ evidence: EditionEvidence
 export interface EditionDiscoursePage {
 type: "discourse"
 /**
- * @minItems 1
+ * @minItems 0
  * @maxItems 3
  */
-items: [EditionItemDiscourse]|[EditionItemDiscourse, EditionItemDiscourse]|[EditionItemDiscourse, EditionItemDiscourse, EditionItemDiscourse]
+items: []|[EditionItemDiscourse]|[EditionItemDiscourse, EditionItemDiscourse]|[EditionItemDiscourse, EditionItemDiscourse, EditionItemDiscourse]
 }
 /**
  * Discourse item — framed as a question, ≥2 sources from ≥2 distinct publishers (sources count is schema-enforced; publisher distinctness is a verify-time rule).
@@ -288,10 +288,10 @@ evidence?: EditionEvidence
 export interface EditionMostCoveredPage {
 type: "most_covered"
 /**
- * @minItems 1
+ * @minItems 0
  * @maxItems 5
  */
-entries: [EditionMostCoveredEntry]|[EditionMostCoveredEntry, EditionMostCoveredEntry]|[EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry]|[EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry]|[EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry]
+entries: []|[EditionMostCoveredEntry]|[EditionMostCoveredEntry, EditionMostCoveredEntry]|[EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry]|[EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry]|[EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry, EditionMostCoveredEntry]
 }
 export interface EditionMostCoveredEntry {
 company: Slug

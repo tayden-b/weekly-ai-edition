@@ -56,6 +56,19 @@ import type { Edition } from "./edition.types";
 /** Union of the 11 page types, in fixed template order. */
 export type EditionPage = Edition["pages"][number];
 
+/**
+ * PLAN §3 drop rule: a page with nothing to say keeps its tuple position
+ * with an empty content array and is dropped at render. Cover, briefing
+ * and back_page always render (the cover/briefing are derivable and the
+ * back page counts whatever sources remain).
+ */
+export function pageDropped(page: EditionPage): boolean {
+  if ("items" in page) return page.items.length === 0;
+  if (page.type === "markets") return page.tickers.length === 0;
+  if (page.type === "most_covered") return page.entries.length === 0;
+  return false;
+}
+
 export { assertEdition, validateEdition } from "./validate";
 export type { EditionValidationResult } from "./validate";
 

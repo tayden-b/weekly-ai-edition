@@ -200,6 +200,16 @@ export function mapEdition(source: Edition): FixtureEdition {
 
 export const edition: FixtureEdition = mapEdition(raw);
 
+/** PLAN §3 drop rule, view-side: a page whose content array is empty is
+ * dropped at render (schema contract keeps its tuple position). Mirrors
+ * `pageDropped` in @weekly/schema for the FixturePage view shape. */
+export function fixturePageDropped(page: FixturePage): boolean {
+  if (page.items !== undefined) return page.items.length === 0;
+  if (page.type === "markets") return (page.tickers?.length ?? 0) === 0;
+  if (page.type === "most_covered") return (page.rows?.length ?? 0) === 0;
+  return false;
+}
+
 export function pageOfType(type: string): FixturePage | undefined {
   return edition.pages.find((p) => p.type === type);
 }

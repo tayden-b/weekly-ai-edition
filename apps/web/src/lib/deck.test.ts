@@ -60,6 +60,22 @@ describe("buildDeck", () => {
     expect(byType.briefing).toBe(total);
     expect(byType.most_covered).toBe(total);
   });
+
+  it("drops a page whose content array is empty, keeping tuple positions", () => {
+    const sparse = structuredClone(rawEdition);
+    sparse.pages[6].items = []; // deals
+    sparse.pages[7].tickers = []; // markets
+    sparse.pages[9].entries = []; // most_covered
+    const sparseCards = buildDeck(sparse);
+    expect(sparseCards.map((c) => c.type)).toEqual(
+      ORDER.filter((t) => !["deals", "markets", "most_covered"].includes(t)),
+    );
+    // `index` keeps the tuple position so "page n" matches the routes.
+    expect(sparseCards.map((c) => c.index)).toEqual([0, 1, 2, 3, 4, 5, 8, 10]);
+    // cover, briefing and back_page never drop
+    expect(sparseCards[0]!.type).toBe("cover");
+    expect(sparseCards.at(-1)!.type).toBe("back_page");
+  });
 });
 
 describe("mapItem", () => {
