@@ -99,7 +99,7 @@ describe("assembleFrontPage (DESIGN §2.2)", () => {
 
   it("ranks most-covered entries by position", () => {
     expect(view.mostCovered).toHaveLength(5);
-    expect(view.mostCovered[0]).toEqual({
+    expect(view.mostCovered![0]).toEqual({
       rank: 1,
       name: "OpenAI",
       stories: 3,
@@ -119,7 +119,31 @@ describe("assembleFrontPage (DESIGN §2.2)", () => {
       "most-covered",
       "back-page",
     ]);
-    expect(view.navSections).toBe(NAV_SECTIONS);
+    expect(view.navSections).toEqual(NAV_SECTIONS);
+  });
+
+  it("omits dropped pages from bands, markets, most-covered and nav", () => {
+    const sparse = structuredClone(rawEdition);
+    sparse.pages[5].items = []; // funding
+    sparse.pages[6].items = []; // deals
+    sparse.pages[7].tickers = []; // markets
+    sparse.pages[9].entries = []; // most_covered
+    const v = assembleFrontPage(sparse);
+    expect(v.sections.map((s) => s.id)).toEqual([
+      "models",
+      "performance",
+      "launches",
+      "discourse",
+    ]);
+    expect(v.markets).toBeUndefined();
+    expect(v.mostCovered).toBeUndefined();
+    expect(v.navSections.map((s) => s.id)).toEqual([
+      "models",
+      "performance",
+      "launches",
+      "discourse",
+      "back-page",
+    ]);
   });
 });
 

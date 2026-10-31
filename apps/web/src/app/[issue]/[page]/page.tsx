@@ -15,7 +15,11 @@ import {
 import type { ItemView } from "@weekly/ui";
 
 import { feedLinkTypes } from "../../../lib/feeds";
-import type { FixtureEdition, FixturePage } from "../../../lib/fixture";
+import {
+  fixturePageDropped,
+  type FixtureEdition,
+  type FixturePage,
+} from "../../../lib/fixture";
 import {
   allPageParams,
   getEdition,
@@ -69,9 +73,25 @@ export default async function Page({
   const n = parsePageParam(page);
   if (!ed || n == null) notFound();
   const p = ed.pages[n - 1];
-  if (!p) notFound();
-  const prev = n > 1 ? ed.pages[n - 2] : undefined;
-  const next = n < ed.pages.length ? ed.pages[n] : undefined;
+  if (!p || fixturePageDropped(p)) notFound();
+  // Prev/next walk past dropped pages (empty content array, PLAN §3) — they
+  // have no route.
+  let prevIdx = -1;
+  for (let i = n - 2; i >= 0; i--) {
+    if (!fixturePageDropped(ed.pages[i]!)) {
+      prevIdx = i;
+      break;
+    }
+  }
+  let nextIdx = -1;
+  for (let i = n; i < ed.pages.length; i++) {
+    if (!fixturePageDropped(ed.pages[i]!)) {
+      nextIdx = i;
+      break;
+    }
+  }
+  const prev = prevIdx >= 0 ? ed.pages[prevIdx] : undefined;
+  const next = nextIdx >= 0 ? ed.pages[nextIdx] : undefined;
   const meta = { issue: ed.issue, dateRange: ed.date_range.label };
   const sources = p.sourceCount ?? 0;
   return (
@@ -105,7 +125,7 @@ export default async function Page({
       <nav className="w-sp__nav" aria-label="Pages">
         <span className="w-sp__nav-side">
           {prev ? (
-            <a className="w-mono-link" href={pageHref(ed.id, n - 1)}>
+            <a className="w-mono-link" href={pageHref(ed.id, prevIdx + 1)}>
               ← {pageKicker(prev)}
             </a>
           ) : null}
@@ -115,7 +135,7 @@ export default async function Page({
         </a>
         <span className="w-sp__nav-side w-sp__nav-side--right">
           {next ? (
-            <a className="w-mono-link" href={pageHref(ed.id, n + 1)}>
+            <a className="w-mono-link" href={pageHref(ed.id, nextIdx + 1)}>
               {pageKicker(next)} →
             </a>
           ) : null}

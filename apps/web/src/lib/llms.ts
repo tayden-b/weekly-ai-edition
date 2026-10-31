@@ -4,6 +4,7 @@
  * `/llms-full.txt` (all pages + the sources list). Pure string builders fed
  * by `listEditions()` — both artifacts regenerate from `editions/` at build.
  */
+import { pageDropped } from "@weekly/schema";
 import type {
   Edition,
   EditionPage,
@@ -172,7 +173,7 @@ export function llmsFullTxt(edition: Edition): string {
     ``,
     `> The complete latest issue of ${site.name} — ${site.tagline} Flattened into a single document for agents. Canonical twins: [${edition.id}.md](/${edition.id}.md) (Markdown) and [${edition.id}.json](/${edition.id}.json) (the edition object).`,
     ``,
-    ...edition.pages.flatMap(pageLines),
+    ...edition.pages.filter((p) => !pageDropped(p)).flatMap(pageLines),
     `## Agent access`,
     ``,
     `- [${edition.id}.md](/${edition.id}.md): this issue as Markdown`,

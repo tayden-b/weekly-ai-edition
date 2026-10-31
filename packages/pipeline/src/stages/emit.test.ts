@@ -331,14 +331,34 @@ describe("emitEdition", () => {
     expect(amd!.change_pct).toBeCloseTo(7.74, 1);
   });
 
-  it("throws EmitError naming pages with no emittable items", () => {
-    const onlyModels = [mkDrafted("models-1", { page: "models" })];
-    expect(() => emitEdition(onlyModels, BRIEFING, emitOpts)).toThrow(EmitError);
+  it("emits empty content arrays for pages with nothing to say (PLAN §3 drop)", () => {
+    const onlyModels = [mkDrafted("models-1", { page: "models", companySlugs: ["anthropic"] })];
+    const { edition, emitted } = emitEdition(onlyModels, BRIEFING, emitOpts);
+    expect(edition.pages.map((p) => p.type)).toHaveLength(11);
+    for (const page of edition.pages) {
+      if ("items" in page) {
+        expect(page.items).toEqual(page.type === "models" ? expect.any(Array) : []);
+      }
+    }
+    const models = edition.pages.find((p) => p.type === "models")!;
+    expect((models as { items: unknown[] }).items).toHaveLength(1);
+    for (const empty of ["performance", "launches", "funding", "deals", "discourse"]) {
+      const p = edition.pages.find((pg) => pg.type === empty)!;
+      expect((p as { items: unknown[] }).items).toEqual([]);
+    }
+    const markets = edition.pages.find((p) => p.type === "markets")!;
+    expect((markets as { tickers: unknown[] }).tickers).toEqual([]);
+    expect(emitted.filter((e) => e.page === "models")).toHaveLength(1);
+    expect(emitted.some((e) => e.page === "markets")).toBe(false);
+  });
+
+  it("still throws when nothing at all is emittable", () => {
+    expect(() => emitEdition([], BRIEFING, emitOpts)).toThrow(EmitError);
     try {
-      emitEdition(onlyModels, BRIEFING, emitOpts);
+      emitEdition([], BRIEFING, emitOpts);
       expect.unreachable();
     } catch (err) {
-      expect((err as EmitError).issues.join(" ")).toContain('page "performance"');
+      expect((err as EmitError).issues.join(" ")).toContain("no emittable items");
     }
   });
 });

@@ -182,7 +182,7 @@ export function DeckCards({
             <>
               <span>{card.sourceCount} sources</span>
               <span>
-                {card.index + 1}/{cards.length}
+                {card.index + 1}/{edition.pages.length}
               </span>
             </>
           }

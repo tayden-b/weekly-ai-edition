@@ -3,6 +3,8 @@
  * (`/{issue}/{n}`). Pure functions over the editions on disk; the routes and
  * metadata image generators share them.
  */
+import { pageDropped } from "@weekly/schema";
+
 import { editionView, getEdition as getCanonicalEdition, listEditions } from "./editions";
 import type { FixtureEdition, FixturePage } from "./fixture";
 
@@ -12,10 +14,13 @@ export function getEdition(issueId: string): FixtureEdition | undefined {
   return canonical ? editionView(canonical) : undefined;
 }
 
-/** Static params for `/{issue}/{n}`: every page of every edition on disk. */
+/** Static params for `/{issue}/{n}`: every rendered page of every edition —
+ * dropped pages (empty content array, PLAN §3) get no route. */
 export function allPageParams(): { issue: string; page: string }[] {
   return listEditions().flatMap((ed) =>
-    ed.pages.map((_, i) => ({ issue: ed.id, page: String(i + 1) })),
+    ed.pages.flatMap((p, i) =>
+      pageDropped(p) ? [] : [{ issue: ed.id, page: String(i + 1) }],
+    ),
   );
 }
 

@@ -3,7 +3,7 @@
  * `/{issue}` mobile deck renders — fixed 11-page order, per-page source counts,
  * footer strings, item views. Pure; the `/{issue}` route + DeckView consume it.
  */
-import { discussionUrl } from "@weekly/schema";
+import { discussionUrl, pageDropped } from "@weekly/schema";
 import type {
   Edition,
   EditionItem,
@@ -116,18 +116,27 @@ export function buildDeck(edition: Edition): DeckCardModel[] {
   const backPage = edition.pages.find((p) => p.type === "back_page");
   const issueTotal =
     backPage && backPage.type === "back_page" ? backPage.sources_total : 0;
-  return edition.pages.map((page, index) => ({
-    index,
-    type: page.type,
-    kicker: DECK_PAGE_NAMES[page.type],
-    kickerAccent: page.type === "cover",
-    title: page.type === "cover" ? page.headline : DECK_PAGE_NAMES[page.type],
-    ...(page.type === "cover" && page.url !== undefined
-      ? { titleUrl: page.url }
-      : {}),
-    sourceCount: pageSourceCount(page, issueTotal),
-    page,
-  }));
+  // Dropped pages (empty content array, PLAN §3) produce no card; `index`
+  // keeps the tuple position so the footer's page numbers match the routes.
+  return edition.pages.flatMap((page, index) =>
+    pageDropped(page)
+      ? []
+      : [
+          {
+            index,
+            type: page.type,
+            kicker: DECK_PAGE_NAMES[page.type],
+            kickerAccent: page.type === "cover",
+            title:
+              page.type === "cover" ? page.headline : DECK_PAGE_NAMES[page.type],
+            ...(page.type === "cover" && page.url !== undefined
+              ? { titleUrl: page.url }
+              : {}),
+            sourceCount: pageSourceCount(page, issueTotal),
+            page,
+          },
+        ],
+  );
 }
 
 /** Edition meta shared by every card's masthead row. */
