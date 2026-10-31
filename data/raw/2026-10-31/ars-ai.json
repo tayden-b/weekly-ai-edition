@@ -1,0 +1,95 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ars-ai",
+  "fetched_at": "2026-10-31T15:59:31.570Z",
+  "items": [
+    {
+      "headline": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says",
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-10-29T18:29:12.000Z",
+      "fetched_at": "2026-10-31T15:59:32.433Z",
+      "excerpt": "Spy accused of exploiting Trump ties to Huang, funneling secrets to China.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "Policy",
+        "ai race",
+        "Artificial Intelligence",
+        "Donald Trump",
+        "Jensen Huang",
+        "NVIDIA",
+        "spying",
+        "us-china trade war"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google admits AI search makes less money, but it's fixing that with more ads",
+      "canonical_url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-10-29T16:24:55.000Z",
+      "fetched_at": "2026-10-31T15:59:32.433Z",
+      "excerpt": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Tech",
+        "ai search",
+        "Artificial Intelligence",
+        "finance",
+        "google",
+        "quarterly earnings"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+      "canonical_url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-10-28T18:47:27.000Z",
+      "fetched_at": "2026-10-31T15:59:32.433Z",
+      "excerpt": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "gemini",
+        "gemini 4",
+        "google"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "canonical_url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-10-27T16:00:22.000Z",
+      "fetched_at": "2026-10-31T15:59:32.433Z",
+      "excerpt": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "deepmind",
+        "google",
+        "world models"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
