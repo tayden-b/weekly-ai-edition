@@ -1,0 +1,1597 @@
+{
+  "adapter": "distribute-software",
+  "source": "distribute-stories",
+  "fetched_at": "2026-10-31T15:59:31.570Z",
+  "items": [
+    {
+      "headline": "How Binance’s $6.3 Billion Hack Went Down",
+      "canonical_url": "https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-31T14:29:34.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "How Binance’s $6.3 Billion Hack Went Down",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25667",
+        "distribute_url": "https://distribute.software/stories/25667",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Investors trim growth bets over fears of US economy’s AI exposure",
+      "canonical_url": "https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-31T14:00:02.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Investors trim growth bets over fears of US economy’s AI exposure",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25668",
+        "distribute_url": "https://distribute.software/stories/25668",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Is AI your new wingman? How chatbots are transforming dating",
+      "canonical_url": "https://www.theguardian.com/lifeandstyle/2026/oct/31/ai-your-wingman-chatbots-transforming-dating",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-31T12:00:42.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Is AI your new wingman? How chatbots are transforming dating",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25664",
+        "distribute_url": "https://distribute.software/stories/25664",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Prospero: A new coding harness for a more civilized age",
+      "canonical_url": "https://nullprogram.com/blog/2026/10/31/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-31T11:54:59.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Prospero: A new coding harness for a more civilized age",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25666",
+        "distribute_url": "https://distribute.software/stories/25666",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50315226"
+      },
+      "hn_points": 83,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "French lawmakers approved a tax of €0.055 for every gigabyte of internet traffic",
+      "canonical_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus/seance/session-ordinaire-de-2026-2027/premiere-seance-du-vendredi-30-octobre-2026",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-31T11:28:46.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "French lawmakers approved a tax of €0.055 for every gigabyte of internet traffic",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25662",
+        "distribute_url": "https://distribute.software/stories/25662",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50315047"
+      },
+      "hn_points": 87,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
+      "canonical_url": "https://www.ft.com/content/c7062e37-86fd-45ef-8f58-573de0fcaaf0",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-31T10:38:18.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Crypto exchanges rush to tighten security after $6.3bn Binance heist",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25661",
+        "distribute_url": "https://distribute.software/stories/25661",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "We Took over ChatGPT Accounts",
+      "canonical_url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-31T10:30:11.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "We Took over ChatGPT Accounts",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25665",
+        "distribute_url": "https://distribute.software/stories/25665",
+        "distribute_source": "hn",
+        "distribute_companies": "openai",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50314699"
+      },
+      "hn_points": 155,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+      "canonical_url": "https://piefed.world/post/1503394",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-31T10:23:41.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25663",
+        "distribute_url": "https://distribute.software/stories/25663",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50314666"
+      },
+      "hn_points": 150,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Serbia just elected the world's brainiest parliament",
+      "canonical_url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-31T10:21:30.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Serbia just elected the world's brainiest parliament",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25659",
+        "distribute_url": "https://distribute.software/stories/25659",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50314654"
+      },
+      "hn_points": 538,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "In San Francisco’s A.I. Boom, a First Date Has Become an Interview",
+      "canonical_url": "https://www.nytimes.com/2026/10/31/technology/san-francisco-ai-boom-dating.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-31T09:00:53.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "In San Francisco’s A.I. Boom, a First Date Has Become an Interview",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25655",
+        "distribute_url": "https://distribute.software/stories/25655",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Switch Lowering in GCC",
+      "canonical_url": "https://xoranth.net/gcc-switch/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-31T08:02:26.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Switch Lowering in GCC",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25658",
+        "distribute_url": "https://distribute.software/stories/25658",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50314085"
+      },
+      "hn_points": 125,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Digital minimalism",
+      "canonical_url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-31T06:16:36.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Digital minimalism",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25660",
+        "distribute_url": "https://distribute.software/stories/25660",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50313661"
+      },
+      "hn_points": 152,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "US midterms loom over jittery investors",
+      "canonical_url": "https://www.ft.com/content/6c099dc6-1fb3-44fc-b011-70229e3755cb",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-31T05:00:39.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "US midterms loom over jittery investors",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25653",
+        "distribute_url": "https://distribute.software/stories/25653",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Is this the first clear evidence of AI’s impact on the labour market?",
+      "canonical_url": "https://www.ft.com/content/7f27aa5f-5994-4f82-aed8-1cade18fb487",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-31T05:00:31.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Is this the first clear evidence of AI’s impact on the labour market?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25654",
+        "distribute_url": "https://distribute.software/stories/25654",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "OpenAI raises less than half of $30B target",
+      "canonical_url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-31T03:22:44.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "OpenAI raises less than half of $30B target",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25651",
+        "distribute_url": "https://distribute.software/stories/25651",
+        "distribute_source": "hn",
+        "distribute_companies": "openai",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50312922"
+      },
+      "hn_points": 165,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Tell HN: Scribd Breached",
+      "canonical_url": "https://news.ycombinator.com/item?id=50312756",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-31T02:46:36.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Tell HN: Scribd Breached",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25650",
+        "distribute_url": "https://distribute.software/stories/25650",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50312756"
+      },
+      "hn_points": 287,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Flock camera searches fell 95% after a dispatcher's misconduct was caught",
+      "canonical_url": "https://www.wkyc.com/article/news/investigations/flock-camera-searches-fall-95-percent-highland-heights-dispatcher-misconduct-caught/95-94b18f33-60e2-4bc7-a00f-d71d1e1fdd5e",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-31T02:42:02.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Flock camera searches fell 95% after a dispatcher's misconduct was caught",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25652",
+        "distribute_url": "https://distribute.software/stories/25652",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50312739"
+      },
+      "hn_points": 84,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o",
+      "publisher": "BBC News",
+      "published_at": "2026-10-31T02:12:19.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25649",
+        "distribute_url": "https://distribute.software/stories/25649",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "OpenAI slashes funding target by $10bn as tech anxieties mount",
+      "canonical_url": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-31T00:05:08.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "OpenAI slashes funding target by $10bn as tech anxieties mount",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25648",
+        "distribute_url": "https://distribute.software/stories/25648",
+        "distribute_source": "media",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Hack Could Leave AO3, a Popular Fan Fiction Site, Offline for Weeks",
+      "canonical_url": "https://www.nytimes.com/2026/10/30/arts/ao3-fan-fiction-site-down.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-30T22:09:18.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Hack Could Leave AO3, a Popular Fan Fiction Site, Offline for Weeks",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25647",
+        "distribute_url": "https://distribute.software/stories/25647",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+      "canonical_url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T20:23:30.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25657",
+        "distribute_url": "https://distribute.software/stories/25657",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50309647"
+      },
+      "hn_points": 346,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "House Democrats Criticize Justice Dept. Support of OpenAI in Copyright Suit",
+      "canonical_url": "https://www.nytimes.com/2026/10/30/technology/house-democrats-openai-copyright-lawsuit.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-30T20:20:18.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "House Democrats Criticize Justice Dept. Support of OpenAI in Copyright Suit",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25646",
+        "distribute_url": "https://distribute.software/stories/25646",
+        "distribute_source": "media",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "I read Anthropic's 92-page risk factor document, so you don't have to – video explainer",
+      "canonical_url": "https://www.theguardian.com/global/video/2026/oct/30/anthropic-92-page-risk-factor-document-ipo-filing-video-explainer",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-30T19:57:13.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "I read Anthropic's 92-page risk factor document, so you don't have to – video explainer",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25656",
+        "distribute_url": "https://distribute.software/stories/25656",
+        "distribute_source": "media",
+        "distribute_companies": "anthropic"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
+      "canonical_url": "https://www.ft.com/content/e84eceda-040b-4e5f-b906-09768085933a",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T18:44:53.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "$6.3bn in 30 minutes: how the world’s biggest heist unfolded",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25645",
+        "distribute_url": "https://distribute.software/stories/25645",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "You Can See Everything That Billy Evans Watched on 2x Speed",
+      "canonical_url": "https://www.nytimes.com/2026/10/30/upshot/billy-evans-you-can-see-everything.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-30T17:24:13.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "You Can See Everything That Billy Evans Watched on 2x Speed",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25641",
+        "distribute_url": "https://distribute.software/stories/25641",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Binance’s $6.3 Billion Hack Is Just the Start of a Risky New Era",
+      "canonical_url": "https://www.nytimes.com/2026/10/30/technology/binance-hack-ai-north-korea.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-30T17:07:20.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Binance’s $6.3 Billion Hack Is Just the Start of a Risky New Era",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25642",
+        "distribute_url": "https://distribute.software/stories/25642",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "canonical_url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T16:45:48.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25639",
+        "distribute_url": "https://distribute.software/stories/25639",
+        "distribute_source": "media",
+        "distribute_companies": "anthropic"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "AI isn't replacing SREs, it's deskilling them",
+      "canonical_url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T15:52:18.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "AI isn't replacing SREs, it's deskilling them",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25640",
+        "distribute_url": "https://distribute.software/stories/25640",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50305693"
+      },
+      "hn_points": 620,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "ICE wants its mask back, and hired a company to ask",
+      "canonical_url": "https://blog.flokinet.is/2026/10/29/ice-wants-its-mask-back-and-hired-a-company-to-ask/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T15:26:58.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "ICE wants its mask back, and hired a company to ask",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25637",
+        "distribute_url": "https://distribute.software/stories/25637",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50305272"
+      },
+      "hn_points": 144,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Northflank Breached",
+      "canonical_url": "https://status.northflank.com/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T15:10:31.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Northflank Breached",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25644",
+        "distribute_url": "https://distribute.software/stories/25644",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50305025"
+      },
+      "hn_points": 460,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Polymarket and Kalshi Face a Major Accuracy Test: The Midterms",
+      "canonical_url": "https://www.nytimes.com/2026/10/30/technology/polymarket-kalshi-midterm-elections.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-30T15:10:13.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Polymarket and Kalshi Face a Major Accuracy Test: The Midterms",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25633",
+        "distribute_url": "https://distribute.software/stories/25633",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Billionaire tax: how a union leader’s ‘crazy’ idea became the defining issue of California’s midterms",
+      "canonical_url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/30/california-billionaire-tax",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-30T15:00:19.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Billionaire tax: how a union leader’s ‘crazy’ idea became the defining issue of California’s midterms",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25643",
+        "distribute_url": "https://distribute.software/stories/25643",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Buy a wind-up radio – and don’t forget the chocolate: survival experts on how to prepare for an emergency",
+      "canonical_url": "https://www.theguardian.com/thefilter/2026/oct/30/expert-guide-prepare-stockpile-emergency-uk",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-30T15:00:17.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Buy a wind-up radio – and don’t forget the chocolate: survival experts on how to prepare for an emergency",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25635",
+        "distribute_url": "https://distribute.software/stories/25635",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Ghost in the machine: how AI is haunting the search for the supernatural",
+      "canonical_url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/30/ai-ghost-hunting",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-30T15:00:16.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Ghost in the machine: how AI is haunting the search for the supernatural",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25636",
+        "distribute_url": "https://distribute.software/stories/25636",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "publisher": "BBC News",
+      "published_at": "2026-10-30T14:50:37.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25632",
+        "distribute_url": "https://distribute.software/stories/25632",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Medicare Will Pay $50k for Your Heart Attack. It Should Pay $100 to Prevent It",
+      "canonical_url": "https://www.medpagetoday.com/opinion/second-opinions/123553?trw=no",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T14:27:44.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Medicare Will Pay $50k for Your Heart Attack. It Should Pay $100 to Prevent It",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25638",
+        "distribute_url": "https://distribute.software/stories/25638",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50304419"
+      },
+      "hn_points": 260,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
+      "canonical_url": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-30T14:00:18.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25634",
+        "distribute_url": "https://distribute.software/stories/25634",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "What we know about the $6.3bn Binance hack",
+      "canonical_url": "https://www.ft.com/content/58fee10f-8a99-4e8b-835d-ddba5e434ce3",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T13:23:45.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "What we know about the $6.3bn Binance hack",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25629",
+        "distribute_url": "https://distribute.software/stories/25629",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The $6.3B Binance hack was pulled off in just 20 minutes",
+      "canonical_url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T12:50:01.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "The $6.3B Binance hack was pulled off in just 20 minutes",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25631",
+        "distribute_url": "https://distribute.software/stories/25631",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50303172"
+      },
+      "hn_points": 525,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Did Anthropic value itself at $1.2tn in August?",
+      "canonical_url": "https://www.ft.com/content/60fb40ed-f1bf-416e-982b-1b9b80582ab4",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T12:36:54.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Did Anthropic value itself at $1.2tn in August?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25627",
+        "distribute_url": "https://distribute.software/stories/25627",
+        "distribute_source": "media",
+        "distribute_companies": "anthropic"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+      "canonical_url": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T12:08:00.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25628",
+        "distribute_url": "https://distribute.software/stories/25628",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50302814"
+      },
+      "hn_points": 651,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Who could be behind the Binance hack and what we know so far",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cm5yn8eqg3npo",
+      "publisher": "BBC News",
+      "published_at": "2026-10-30T11:57:33.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Who could be behind the Binance hack and what we know so far",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25622",
+        "distribute_url": "https://distribute.software/stories/25622",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "From Bitcoin to Binance: Crypto terms and what they mean",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cy5w2k5k5ylo",
+      "publisher": "BBC News",
+      "published_at": "2026-10-30T11:35:51.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "From Bitcoin to Binance: Crypto terms and what they mean",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25623",
+        "distribute_url": "https://distribute.software/stories/25623",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How North Korea became a hacking superpower",
+      "canonical_url": "https://www.ft.com/content/46c03338-63d5-43fc-a946-ebcbe9e1c07a",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T11:20:19.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "How North Korea became a hacking superpower",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25624",
+        "distribute_url": "https://distribute.software/stories/25624",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Backdoors in official Claude Code extensions",
+      "canonical_url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T11:05:53.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Backdoors in official Claude Code extensions",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25619",
+        "distribute_url": "https://distribute.software/stories/25619",
+        "distribute_source": "hn",
+        "distribute_companies": "anthropic",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50302334"
+      },
+      "hn_points": 655,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Binance’s $6.3bn heist is the biggest . . . but not the first",
+      "canonical_url": "https://www.ft.com/content/95d38ca9-9a70-4982-a797-cdad2afa3acf",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T10:50:37.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Binance’s $6.3bn heist is the biggest . . . but not the first",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25625",
+        "distribute_url": "https://distribute.software/stories/25625",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "After 50 years of playing video games, I’m finally starring in one",
+      "canonical_url": "https://www.theguardian.com/games/2026/oct/30/after-50-years-of-playing-video-games-im-finally-starring-in-one",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-30T10:30:51.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "After 50 years of playing video games, I’m finally starring in one",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25618",
+        "distribute_url": "https://distribute.software/stories/25618",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+      "canonical_url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T10:22:51.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25620",
+        "distribute_url": "https://distribute.software/stories/25620",
+        "distribute_source": "hn",
+        "distribute_companies": "anthropic,microsoft",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50301983"
+      },
+      "hn_points": 399,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "canonical_url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T10:06:15.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25626",
+        "distribute_url": "https://distribute.software/stories/25626",
+        "distribute_source": "hn",
+        "distribute_companies": "microsoft",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50301854"
+      },
+      "hn_points": 310,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Are We in an A.I. Bubble? We’re About to Find Out.",
+      "canonical_url": "https://www.nytimes.com/2026/10/30/podcasts/hardfork-anthropic-ipo.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-30T10:00:24.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Are We in an A.I. Bubble? We’re About to Find Out.",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25616",
+        "distribute_url": "https://distribute.software/stories/25616",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Big Tech sheds nearly $900bn in rout over soaring AI spending",
+      "canonical_url": "https://www.ft.com/content/c695558e-11e6-494c-aeee-0f9fb5c75afc",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T10:00:02.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Big Tech sheds nearly $900bn in rout over soaring AI spending",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25617",
+        "distribute_url": "https://distribute.software/stories/25617",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Ask HN: Are you tired too in this AI era?",
+      "canonical_url": "https://news.ycombinator.com/item?id=50301479",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T09:17:43.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Ask HN: Are you tired too in this AI era?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25614",
+        "distribute_url": "https://distribute.software/stories/25614",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50301479"
+      },
+      "hn_points": 126,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "elect.horse",
+      "canonical_url": "https://elect.horse/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T09:14:34.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "elect.horse",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25621",
+        "distribute_url": "https://distribute.software/stories/25621",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50301462"
+      },
+      "hn_points": 549,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How video game remakes tap the power of nostalgia",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cm9qz428nnljo",
+      "publisher": "BBC News",
+      "published_at": "2026-10-30T07:45:00.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "How video game remakes tap the power of nostalgia",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25607",
+        "distribute_url": "https://distribute.software/stories/25607",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "'Elite North Korean hackers' blamed for $6.3B Binance hack",
+      "canonical_url": "https://www.theguardian.com/business/live/2026/oct/30/uk-house-price-growth-crypto-industry-6bn-binance-hack-eurozone-france-gdp-latest-news-updates",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T07:41:13.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "'Elite North Korean hackers' blamed for $6.3B Binance hack",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25615",
+        "distribute_url": "https://distribute.software/stories/25615",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50300853"
+      },
+      "hn_points": 72,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "canonical_url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T07:09:12.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25630",
+        "distribute_url": "https://distribute.software/stories/25630",
+        "distribute_source": "hn",
+        "distribute_companies": "anthropic,microsoft",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50300683"
+      },
+      "hn_points": 934,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
+      "canonical_url": "https://www.arsaze.com/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T06:55:33.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25613",
+        "distribute_url": "https://distribute.software/stories/25613",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50300618"
+      },
+      "hn_points": 60,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "What moves hyperscaler stocks?",
+      "canonical_url": "https://www.ft.com/content/e7f0fb01-fc76-4330-9015-e53096585a5a",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:30:01.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "What moves hyperscaler stocks?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25605",
+        "distribute_url": "https://distribute.software/stories/25605",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’",
+      "canonical_url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-30T05:06:47.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "North Korea is likely culprit behind $6.3bn crypto hack, ‘largest heist in history’",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25610",
+        "distribute_url": "https://distribute.software/stories/25610",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "AI and Leadership",
+      "canonical_url": "https://www.ft.com/reports/ai-leadership",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:03:00.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "AI and Leadership",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25591",
+        "distribute_url": "https://distribute.software/stories/25591",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Electrocutions, disease and no pay: how workers risk exploitation in Europe’s datacentres",
+      "canonical_url": "https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-30T05:00:46.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Electrocutions, disease and no pay: how workers risk exploitation in Europe’s datacentres",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25611",
+        "distribute_url": "https://distribute.software/stories/25611",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The story of Anthropic in three numbers",
+      "canonical_url": "https://www.ft.com/content/fe539e51-61d4-49e8-ab1f-65fd19a74b66",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:31.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "The story of Anthropic in three numbers",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25592",
+        "distribute_url": "https://distribute.software/stories/25592",
+        "distribute_source": "media",
+        "distribute_companies": "anthropic"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Spotify aims to launch AI music remix service early next year",
+      "canonical_url": "https://www.ft.com/content/50286bd0-7158-4347-81d8-011cd164f75b",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:21.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Spotify aims to launch AI music remix service early next year",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25593",
+        "distribute_url": "https://distribute.software/stories/25593",
+        "distribute_source": "media",
+        "distribute_companies": "spotify"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Killer App — Pavel Durov and the story of Telegram",
+      "canonical_url": "https://www.ft.com/content/f006c111-e683-4dbb-8104-40a8df131ee6",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:13.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Killer App — Pavel Durov and the story of Telegram",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25594",
+        "distribute_url": "https://distribute.software/stories/25594",
+        "distribute_source": "media",
+        "distribute_companies": "telegram"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Inside the make-or-break AI mega-project behind Nscale’s $35bn IPO",
+      "canonical_url": "https://www.ft.com/content/ee86c4b6-1fe4-467e-8f18-9c08df288aff",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:13.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Inside the make-or-break AI mega-project behind Nscale’s $35bn IPO",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25595",
+        "distribute_url": "https://distribute.software/stories/25595",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Why Trump’s tech dreams are quietly crumbling",
+      "canonical_url": "https://www.ft.com/content/9cc8d4ce-22ec-45d7-8b74-71a1dfe9abcc",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:13.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Why Trump’s tech dreams are quietly crumbling",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25596",
+        "distribute_url": "https://distribute.software/stories/25596",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Channel 4’s Disney deal goes back to its disruptive roots",
+      "canonical_url": "https://www.ft.com/content/9e307967-4b12-42cd-a680-418ef2c572a7",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:13.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Channel 4’s Disney deal goes back to its disruptive roots",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25597",
+        "distribute_url": "https://distribute.software/stories/25597",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "AI agents free up CEOs’ time to think ahead",
+      "canonical_url": "https://www.ft.com/content/5f4ebe87-8639-4531-b93b-5add380cb3de",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:03.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "AI agents free up CEOs’ time to think ahead",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25598",
+        "distribute_url": "https://distribute.software/stories/25598",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How best to avoid a bad AI rollout",
+      "canonical_url": "https://www.ft.com/content/c7434dfb-0647-4ad2-9bc5-067b07431029",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:03.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "How best to avoid a bad AI rollout",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25599",
+        "distribute_url": "https://distribute.software/stories/25599",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How leaders can adapt to an unknowable AI future",
+      "canonical_url": "https://www.ft.com/content/2ab942a6-3430-4517-b09b-75ec8c2c7ada",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:03.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "How leaders can adapt to an unknowable AI future",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25600",
+        "distribute_url": "https://distribute.software/stories/25600",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Judgment replaces expertise for leaders in the age of AI",
+      "canonical_url": "https://www.ft.com/content/a898fc98-b983-49d6-817a-6dc33ab41162",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:03.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Judgment replaces expertise for leaders in the age of AI",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25601",
+        "distribute_url": "https://distribute.software/stories/25601",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "AI tools aim to support staff without judgment",
+      "canonical_url": "https://www.ft.com/content/50b7ed72-30d0-4120-b271-f3003068db9a",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:03.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "AI tools aim to support staff without judgment",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25602",
+        "distribute_url": "https://distribute.software/stories/25602",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Executives play catch-up as AI governance risks evolve",
+      "canonical_url": "https://www.ft.com/content/1f353024-5cad-47f9-a2da-8a6097b8f461",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:03.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Executives play catch-up as AI governance risks evolve",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25603",
+        "distribute_url": "https://distribute.software/stories/25603",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Alphabet’s brutal day on the stock market",
+      "canonical_url": "https://www.ft.com/content/4ca8c7a2-1b83-4bfd-92d4-a17261d0b325",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T05:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Alphabet’s brutal day on the stock market",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25604",
+        "distribute_url": "https://distribute.software/stories/25604",
+        "distribute_source": "media",
+        "distribute_companies": "google"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "This Device Uses A.I. and Lasers to Kill Mosquitoes",
+      "canonical_url": "https://www.nytimes.com/video/technology/100000011221955/ai-lasers-mosquitoes.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-30T04:01:06.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "This Device Uses A.I. and Lasers to Kill Mosquitoes",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25590",
+        "distribute_url": "https://distribute.software/stories/25590",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "US tech stocks tumble as concerns over AI spending intensify",
+      "canonical_url": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T03:14:24.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "US tech stocks tumble as concerns over AI spending intensify",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25589",
+        "distribute_url": "https://distribute.software/stories/25589",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Binance Suspends Withdrawals After Crypto Hackers Steal $6.3 Billion",
+      "canonical_url": "https://www.nytimes.com/2026/10/29/technology/binance-hack-crypto.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-30T03:07:38.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Binance Suspends Withdrawals After Crypto Hackers Steal $6.3 Billion",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25609",
+        "distribute_url": "https://distribute.software/stories/25609",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Binance Grapples With ‘Security Incident’ That May Cause $6.3 Billion in Losses",
+      "canonical_url": "https://www.nytimes.com/2026/10/29/technology/binance-grapples-with-security-incident-that-may-cause-6-3-billion-in-losses.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-30T03:07:37.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Binance Grapples With ‘Security Incident’ That May Cause $6.3 Billion in Losses",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25586",
+        "distribute_url": "https://distribute.software/stories/25586",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
+      "canonical_url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T02:33:04.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25606",
+        "distribute_url": "https://distribute.software/stories/25606",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50299182"
+      },
+      "hn_points": 58,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Pico CSS is no longer maintained",
+      "canonical_url": "https://github.com/picocss/pico/discussions/754",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T01:58:44.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Pico CSS is no longer maintained",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25587",
+        "distribute_url": "https://distribute.software/stories/25587",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50298964"
+      },
+      "hn_points": 178,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "India could become digital colony without sovereign AI, says Sarvam’s Vivek Raghavan",
+      "canonical_url": "https://www.ft.com/content/b662e99e-764c-42cc-a2df-391214b2a56f",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T01:30:09.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "India could become digital colony without sovereign AI, says Sarvam’s Vivek Raghavan",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25585",
+        "distribute_url": "https://distribute.software/stories/25585",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o",
+      "publisher": "BBC News",
+      "published_at": "2026-10-30T00:59:04.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25584",
+        "distribute_url": "https://distribute.software/stories/25584",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Herdr has released native app",
+      "canonical_url": "https://github.com/herdrdev/herdr-app",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T00:42:41.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Herdr has released native app",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25588",
+        "distribute_url": "https://distribute.software/stories/25588",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50298436"
+      },
+      "hn_points": 357,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Cormac McCarthy's Library",
+      "canonical_url": "https://cormacmccarthy.lib.utk.edu/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-30T00:31:00.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Cormac McCarthy's Library",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25608",
+        "distribute_url": "https://distribute.software/stories/25608",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50298318"
+      },
+      "hn_points": 84,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "More than half of Victorian lawyers use AI – but only a quarter have cut client fees as a result",
+      "canonical_url": "https://www.theguardian.com/law/2026/oct/30/victorian-lawyers-ai-clients-fees",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-29T23:00:37.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "More than half of Victorian lawyers use AI – but only a quarter have cut client fees as a result",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25583",
+        "distribute_url": "https://distribute.software/stories/25583",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "canonical_url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-29T21:38:59.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25581",
+        "distribute_url": "https://distribute.software/stories/25581",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50296470"
+      },
+      "hn_points": 1719,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Google value plunges by $500bn as its own AI search hits ad sales",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o",
+      "publisher": "BBC News",
+      "published_at": "2026-10-29T21:29:51.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Google value plunges by $500bn as its own AI search hits ad sales",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25579",
+        "distribute_url": "https://distribute.software/stories/25579",
+        "distribute_source": "media",
+        "distribute_companies": "google"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Amazon gives Wall Street mixed financial picture in earnings report",
+      "canonical_url": "https://www.theguardian.com/technology/2026/oct/29/amazon-earnings-report-mixed-picture",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-29T21:23:02.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Amazon gives Wall Street mixed financial picture in earnings report",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25582",
+        "distribute_url": "https://distribute.software/stories/25582",
+        "distribute_source": "media",
+        "distribute_companies": "amazon"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "FirstFT: Intel stock drops 20% as it forecasts weaker chip sales",
+      "canonical_url": "https://www.ft.com/content/1e319b52-f31f-4dde-90b7-e01e2f199817",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-29T21:22:45.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "FirstFT: Intel stock drops 20% as it forecasts weaker chip sales",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25580",
+        "distribute_url": "https://distribute.software/stories/25580",
+        "distribute_source": "media",
+        "distribute_companies": "intel"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Intel’s Shares Plunge 20% as A.I. Hinders Some Parts of Its Business",
+      "canonical_url": "https://www.nytimes.com/2026/10/29/technology/intel-earnings.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-29T21:17:40.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Intel’s Shares Plunge 20% as A.I. Hinders Some Parts of Its Business",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25578",
+        "distribute_url": "https://distribute.software/stories/25578",
+        "distribute_source": "media",
+        "distribute_companies": "intel"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Amazon shares slide on lower Christmas sales forecast",
+      "canonical_url": "https://www.ft.com/content/8affd8dd-b783-48c8-86e2-ac4a647fa0f3",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-29T20:55:16.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Amazon shares slide on lower Christmas sales forecast",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25576",
+        "distribute_url": "https://distribute.software/stories/25576",
+        "distribute_source": "media",
+        "distribute_companies": "amazon"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Big Tech’s Data Center Blitz Is Burning Through Cash and Scaring Wall St.",
+      "canonical_url": "https://www.nytimes.com/2026/10/29/technology/amazon-earnings-tech-spending.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-10-29T20:53:41.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Big Tech’s Data Center Blitz Is Burning Through Cash and Scaring Wall St.",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25575",
+        "distribute_url": "https://distribute.software/stories/25575",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Intel shares fall 22% as weak sales outlook dents turnaround",
+      "canonical_url": "https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-29T20:02:33.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Intel shares fall 22% as weak sales outlook dents turnaround",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25573",
+        "distribute_url": "https://distribute.software/stories/25573",
+        "distribute_source": "media",
+        "distribute_companies": "intel"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Patrick Stewart has died",
+      "canonical_url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-29T19:41:39.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Patrick Stewart has died",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25572",
+        "distribute_url": "https://distribute.software/stories/25572",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50294702"
+      },
+      "hn_points": 3234,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "DoorDash buys Instacart just as AI rewrites the menu",
+      "canonical_url": "https://www.ft.com/content/13c96ad2-6aee-4c28-9f3c-d2ad9ca1c3d0",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-29T18:33:48.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "DoorDash buys Instacart just as AI rewrites the menu",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25571",
+        "distribute_url": "https://distribute.software/stories/25571",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Google is eating itself — but it could still eat everyone else too",
+      "canonical_url": "https://www.ft.com/content/245107d8-ef54-4b30-a75a-538d055bc6d7",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-29T18:00:36.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Google is eating itself — but it could still eat everyone else too",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25570",
+        "distribute_url": "https://distribute.software/stories/25570",
+        "distribute_source": "media",
+        "distribute_companies": "google"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Meta discussed ‘whisper strategy’ against social media critic Jonathan Haidt, files show",
+      "canonical_url": "https://www.theguardian.com/technology/2026/oct/29/meta-staff-us-social-media-critic-jonathan-haidt-court-documents",
+      "publisher": "The Guardian",
+      "published_at": "2026-10-29T17:20:57.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Meta discussed ‘whisper strategy’ against social media critic Jonathan Haidt, files show",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25612",
+        "distribute_url": "https://distribute.software/stories/25612",
+        "distribute_source": "media",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "NYSE owner’s tokenised stock plan hits hurdle as big companies object",
+      "canonical_url": "https://www.ft.com/content/b6fe5be5-b508-4fe5-b705-955ae77f208b",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-29T16:42:40.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "NYSE owner’s tokenised stock plan hits hurdle as big companies object",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25568",
+        "distribute_url": "https://distribute.software/stories/25568",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Google Search is now less than half of Alphabet’s revenue",
+      "canonical_url": "https://www.kadoa.com/companies/insights/google-search-below-half",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-29T16:42:17.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "Google Search is now less than half of Alphabet’s revenue",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25569",
+        "distribute_url": "https://distribute.software/stories/25569",
+        "distribute_source": "hn",
+        "distribute_companies": "google",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50291945"
+      },
+      "hn_points": 425,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "I went to Mexico to test-drive the cars Americans can’t buy",
+      "canonical_url": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
+      "publisher": "Hacker News",
+      "published_at": "2026-10-29T15:30:22.000Z",
+      "fetched_at": "2026-10-31T15:59:33.346Z",
+      "excerpt": "I went to Mexico to test-drive the cars Americans can’t buy",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-25574",
+        "distribute_url": "https://distribute.software/stories/25574",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50290668"
+      },
+      "hn_points": 260,
+      "adapter": "distribute-software"
+    }
+  ]
+}

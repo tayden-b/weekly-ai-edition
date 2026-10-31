@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-deepmind-blog",
+  "fetched_at": "2026-10-31T15:59:31.570Z",
+  "items": [
+    {
+      "headline": "Gemini 4 Carbon: Our next frontier model",
+      "canonical_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:31.595Z",
+      "excerpt": "Gemini 4 Carbon: Our next frontier model",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Genie 4: A new generation of world simulation",
+      "canonical_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-10-27T00:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:31.595Z",
+      "excerpt": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

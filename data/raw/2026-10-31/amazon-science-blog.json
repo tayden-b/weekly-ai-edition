@@ -1,0 +1,19 @@
+{
+  "adapter": "lab-blogs",
+  "source": "amazon-science-blog",
+  "fetched_at": "2026-10-31T15:59:31.570Z",
+  "items": [
+    {
+      "headline": "Speeding up language models for travel applications",
+      "canonical_url": "https://www.amazon.science/blog/speeding-up-language-models-for-travel-applications",
+      "publisher": "Amazon Science",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:31.599Z",
+      "excerpt": "Two optimization techniques, when combined, can significantly improve a model’s speed and cost effectiveness without sacrificing quality.",
+      "source_ids": {
+        "guid": "https://www.amazon.science/blog/speeding-up-language-models-for-travel-applications"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

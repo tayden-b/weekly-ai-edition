@@ -1,0 +1,204 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "theverge-ai",
+  "fetched_at": "2026-10-31T15:59:31.570Z",
+  "items": [
+    {
+      "headline": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "canonical_url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "publisher": "The Verge",
+      "published_at": "2026-10-30T22:32:53.000Z",
+      "fetched_at": "2026-10-31T15:59:32.353Z",
+      "excerpt": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1023974",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Apple",
+        "iOS",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "publisher": "The Verge",
+      "published_at": "2026-10-30T20:48:43.000Z",
+      "fetched_at": "2026-10-31T15:59:32.353Z",
+      "excerpt": "Asked about supply chain shortages, like the ongoing RAM shortage, OpenAI CEO Sam Altman said in an interview that it's \"terrible\" to have RAM in personal PCs instead of data centers. During his appearance on the Cheeky Pint podcast, where he also commented on AI's impact on math, Altman said: \"A",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1023820",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The biggest names in AI are backing a new way to opt out of scraping",
+      "canonical_url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "publisher": "The Verge",
+      "published_at": "2026-10-30T20:26:10.000Z",
+      "fetched_at": "2026-10-31T15:59:32.353Z",
+      "excerpt": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1023763",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Google",
+        "Microsoft",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google’s satellite AI server transmits its first response to Earth",
+      "canonical_url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "publisher": "The Verge",
+      "published_at": "2026-10-30T18:21:38.000Z",
+      "fetched_at": "2026-10-31T15:59:32.353Z",
+      "excerpt": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space:",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1023528",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Science",
+        "Space",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "publisher": "The Verge",
+      "published_at": "2026-10-30T17:38:04.000Z",
+      "fetched_at": "2026-10-31T15:59:32.353Z",
+      "excerpt": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1023440",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "publisher": "The Verge",
+      "published_at": "2026-10-30T14:58:06.000Z",
+      "fetched_at": "2026-10-31T15:59:32.353Z",
+      "excerpt": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1023188",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Silicon Valley wants you to invest in miracles",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "publisher": "The Verge",
+      "published_at": "2026-10-30T13:11:05.000Z",
+      "fetched_at": "2026-10-31T15:59:32.353Z",
+      "excerpt": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1023070",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Analysis",
+        "Anthropic",
+        "Business",
+        "Report"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "publisher": "The Verge",
+      "published_at": "2026-10-30T13:01:14.000Z",
+      "fetched_at": "2026-10-31T15:59:32.353Z",
+      "excerpt": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1023054",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI",
+        "Science"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Maine’s data center revolt will decide who controls the Senate",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "publisher": "The Verge",
+      "published_at": "2026-10-30T11:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:32.353Z",
+      "excerpt": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1021080",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Policy",
+        "Politics",
+        "Report",
+        "Science"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "canonical_url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "publisher": "The Verge",
+      "published_at": "2026-10-30T09:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:32.353Z",
+      "excerpt": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1022880",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Copyright",
+        "Law",
+        "Microsoft",
+        "OpenAI",
+        "Policy",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
