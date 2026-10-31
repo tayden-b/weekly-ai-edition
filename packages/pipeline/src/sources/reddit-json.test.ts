@@ -323,3 +323,146 @@ describe("subredditFromEndpoint", () => {
     expect(subredditFromEndpoint("https://www.reddit.com/top.json")).toBe("");
   });
 });
+
+// ---------------------------------------------------------------------------
+// `.rss` fallback — plan-defect #67: `.json` 403s datacenter IPs; the Atom
+// sibling stays reachable (rate-limited ~1/min per IP) and keeps the window
+// param, so fetch degrades to it rather than to zero items.
+// ---------------------------------------------------------------------------
+
+describe("reddit-json — .rss fallback (#67)", () => {
+  // Entries sit at 2026-10-28/29 — one day past the JSON fixtures' `to`.
+  const ATOM_WINDOW = { from: new Date("2026-10-20T00:00:00Z"), to: new Date("2026-10-30T00:00:00Z") };
+  const atomFixture = () =>
+    fileURLToPath(
+      new URL(`./__fixtures__/reddit-atom-machinelearning.json`, import.meta.url),
+    );
+
+  it("json 403 → Atom sibling: items map; engagement fields absent, contract intact", async () => {
+    const { items, mapped } = await runAdapterFixture(
+      adapterFor("reddit-machinelearning"),
+      atomFixture(),
+      { window: ATOM_WINDOW },
+    );
+    expect(items).toHaveLength(2); // 3 entries − 1 out-of-window (map stays pure)
+    expect(mapped).toHaveLength(3); // the 403's `{}` maps to zero; the XML maps to 3
+
+    const selfPost = items.find((i) => i.source_ids.reddit_id === "t3_1xil53d")!;
+    expect(selfPost.headline).toContain("Old-school classifiers");
+    expect(selfPost.canonical_url).toBe(
+      "https://www.reddit.com/r/MachineLearning/comments/1xil53d/oldschool_classifiers_are_still_generally_better/",
+    );
+    expect(selfPost.publisher).toBe("r/MachineLearning");
+    expect(selfPost.published_at).toBe("2026-10-29T14:13:05.000Z");
+    expect(selfPost.fetched_at).toBe(FIXTURE_NOW.toISOString());
+    // the Atom feed carries no score/num_comments — fields stay absent
+    expect(selfPost.reddit_score).toBeUndefined();
+    expect(selfPost.reddit_comments).toBeUndefined();
+    // self post → its [link] anchor is the permalink, not an outbound URL
+    expect(selfPost.source_ids.reddit_url).toBeUndefined();
+    // content html → selftext, minus the "submitted by /u/… [link]" chrome;
+    // double-escaped entities decode through both passes
+    expect(selfPost.excerpt).toContain("old-school approach");
+    expect(selfPost.excerpt).toContain("It's cheaper");
+    expect(selfPost.excerpt).not.toContain("submitted by");
+    expect(selfPost.excerpt).not.toContain("<");
+
+    // link post → outbound URL captured for cross-source dedupe
+    const linkPost = items.find((i) => i.source_ids.reddit_id === "t3_1xmndelb")!;
+    expect(linkPost.source_ids.reddit_url).toBe("https://www.youtube.com/watch?v=coMcHZ2fFfU");
+
+    for (const i of [...items, ...mapped]) expect(isRawItem(i)).toBe(true);
+  });
+
+  it("429 on .rss waits x-ratelimit-reset once, then retries and succeeds", async () => {
+    const atom = loadAdapterFixture(atomFixture());
+    const rssBody = atom.responses[1]!.body as string;
+    const calls: string[] = [];
+    let rssHits = 0;
+    const fetcher: Fetcher = async (url) => {
+      const u = typeof url === "string" ? url : url instanceof URL ? url.toString() : url.url;
+      calls.push(u);
+      if (u.includes("top.json")) return new Response("{}", { status: 403 });
+      rssHits += 1;
+      if (rssHits === 1) {
+        return new Response("", {
+          status: 429,
+          headers: { "x-ratelimit-reset": "5" },
+        });
+      }
+      return new Response(rssBody, {
+        status: 200,
+        headers: { "content-type": "application/atom+xml" },
+      });
+    };
+    const adapter = createRedditAdapter({
+      id: "reddit-test",
+      endpoint: "https://www.reddit.com/r/MachineLearning/top.json",
+      params: { t: "week" },
+      sleep: async () => {},
+    });
+    const items = await adapter.fetch(ATOM_WINDOW, {
+      fetch: fetcher,
+      now: () => FIXTURE_NOW,
+    });
+    expect(items).toHaveLength(2);
+    expect(calls.filter((u) => u.includes("top.json"))).toHaveLength(1);
+    expect(calls.filter((u) => u.includes("top.rss"))).toHaveLength(2);
+  });
+
+  it("a reset hint beyond the wait cap degrades to zero items without waiting", async () => {
+    let rssHits = 0;
+    const fetcher: Fetcher = async (url) => {
+      const u = typeof url === "string" ? url : url instanceof URL ? url.toString() : url.url;
+      if (u.includes("top.json")) return new Response("{}", { status: 403 });
+      rssHits += 1;
+      return new Response("", { status: 429, headers: { "x-ratelimit-reset": "600" } });
+    };
+    const adapter = createRedditAdapter({
+      id: "reddit-test",
+      endpoint: "https://www.reddit.com/r/MachineLearning/top.json",
+      sleep: async () => {},
+    });
+    const items = await adapter.fetch(WINDOW, {
+      fetch: fetcher,
+      now: () => FIXTURE_NOW,
+    });
+    expect(items).toEqual([]);
+    expect(rssHits).toBe(1); // gave up instead of parking the run
+  });
+
+  it("a dead .rss sibling (403 on both) still yields zero items", async () => {
+    const dead = {
+      responses: [{ url_contains: "/r/MachineLearning/", status: 403, body: "" }],
+    };
+    const items = await adapterFor("reddit-machinelearning").fetch(WINDOW, {
+      fetch: replayFetcher(dead),
+      now: () => FIXTURE_NOW,
+    });
+    expect(items).toEqual([]);
+  });
+
+  it("health() reports ok via the .rss sibling when .json is blocked", async () => {
+    const f = replayFetcher(loadAdapterFixture(atomFixture()));
+    const h = await adapterFor("reddit-machinelearning").health({
+      fetch: f,
+      now: () => FIXTURE_NOW,
+    });
+    expect(h.ok).toBe(true);
+    expect(h.detail).toContain("json HTTP 403");
+    expect(h.detail).toContain("rss HTTP 200");
+  });
+
+  it("health() reports both statuses when every path is blocked", async () => {
+    const dead = {
+      responses: [{ url_contains: "/r/MachineLearning/", status: 403, body: "" }],
+    };
+    const h = await adapterFor("reddit-machinelearning").health({
+      fetch: replayFetcher(dead),
+      now: () => FIXTURE_NOW,
+    });
+    expect(h.ok).toBe(false);
+    expect(h.detail).toContain("json HTTP 403");
+    expect(h.detail).toContain("rss HTTP 403");
+  });
+});
