@@ -1,0 +1,19 @@
+{
+  "adapter": "hf-hub",
+  "source": "hf-hub-models",
+  "fetched_at": "2026-11-01T17:03:59.115Z",
+  "items": [
+    {
+      "headline": "microsoft/Mage-VL-Cowork",
+      "canonical_url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+      "publisher": "microsoft",
+      "published_at": "2026-10-30T12:13:24.000Z",
+      "fetched_at": "2026-11-01T17:03:59.160Z",
+      "excerpt": "microsoft/Mage-VL-Cowork — image-text-to-text",
+      "source_ids": {
+        "hf_model_id": "microsoft/Mage-VL-Cowork"
+      },
+      "adapter": "hf-hub"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "the-morning-build",
+  "fetched_at": "2026-11-01T17:03:59.115Z",
+  "items": [
+    {
+      "headline": "The Morning Build for November 1, 2026: OpenAI Merges Chat and Work, Intel Share Plunge, xAI Permit Suit",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-01/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-01T00:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.548Z",
+      "excerpt": "OpenAI merges Chat and Work with shared token budgets in December; OpenAI will train on Daybreak Blue from Nov 29; judge lets NAACP v. xAI proceed; Intel warns on Q4.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-01/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "chips",
+        "policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for October 31, 2026: OpenAI’s stalled raise, Claude agents in the lab, and moonshot infra",
+      "canonical_url": "https://themorningbuild.com/digest/2026-10-31/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-10-31T00:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.548Z",
+      "excerpt": "OpenAI raised $11B of a $30B target; a Claude agent performed an autonomous mouse surgery; a backdoor hit Claude Code; Nvidia may cosign Nscale debt; Google’s TPU satellite is online.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-10-31/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "chips",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for October 30, 2026: Mistral's Le Chonk, Google BYOA for Android, AWS's $220B capex, and Dream's world models",
+      "canonical_url": "https://themorningbuild.com/digest/2026-10-30/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-10-30T00:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.548Z",
+      "excerpt": "Mistral releases Large 4 weights; Google opens Android Studio to external agents; AWS plans $220B 2026 capex; Dream raises $17M for construction world models.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-10-30/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for October 29, 2026: Gemini 4 Carbon, Microsoft’s OpenAI Billings, Nvidia Nemotron 3.5, Claude Code telemetry, and Anthropic’s hiring shift",
+      "canonical_url": "https://themorningbuild.com/digest/2026-10-29/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.548Z",
+      "excerpt": "Google launches Gemini 4 Carbon for cyberdefense; Microsoft reports $10B from OpenAI; Nvidia open-sources Nemotron 3.5; Claude Code telemetry exposes agent transcripts.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-10-29/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for October 28, 2026: Google’s Genie 4 Launches, Anthropic Files to Go Public, and Delaware’s AI-Run Company Plan",
+      "canonical_url": "https://themorningbuild.com/digest/2026-10-28/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.548Z",
+      "excerpt": "Genie 4 research preview from DeepMind, Anthropic's S-1 with $16.3B H1 revenue and Founder LLC control, OpenAI partner pipeline analysis, and Delaware’s AI-run company draft.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-10-28/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for October 27, 2026: OpenAI's always-on 'dots', GPT-6.1 Terra price cut, and Anthropic's S-1",
+      "canonical_url": "https://themorningbuild.com/digest/2026-10-27/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-10-27T00:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.548Z",
+      "excerpt": "OpenAI launches always-on assistant dots for Pro subscribers; GPT-6.1 Terra halves API prices; Anthropic files S-1 showing $11.6B Q2 revenue and $780B compute commitments.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-10-27/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for October 26, 2026: Nvidia open-sources Flora, LLM prices fall, and agents compress",
+      "canonical_url": "https://themorningbuild.com/digest/2026-10-26/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-10-26T00:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.548Z",
+      "excerpt": "Nvidia open-sources Flora for robot video labeling; OpenAI and Anthropic cut token prices; Anthropic publishes a single-agent migration kit; plus a roundup of SMS agents.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-10-26/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
