@@ -1,0 +1,85 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ai-atlas",
+  "fetched_at": "2026-11-01T17:03:59.115Z",
+  "items": [
+    {
+      "headline": "Xiaomi open-sourced Xiaomi-OCR-0, a 0.8B document model scoring 96.83 on OmniDocBench",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-10-31",
+      "publisher": "AI Atlas",
+      "published_at": "2026-10-31T21:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:01.065Z",
+      "excerpt": "Xiaomi open-sourced Xiaomi-OCR-0 on 30 October, a 0.8-billion-parameter document model that Xiaomi reports scores 96.83 on OmniDocBench v1.6, the highest of any model under 1 billion parameters.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-10-31",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic renamed Max 20x to Ultra and lifted its 5-hour limit for verified accounts",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-10-30",
+      "publisher": "AI Atlas",
+      "published_at": "2026-10-30T21:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:01.065Z",
+      "excerpt": "Anthropic renamed its Max 20x plan to Ultra on 30 October, kept the price at $200 a month, and removed the 5-hour usage limit for verified Ultra accounts.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-10-30",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DiffuSpace open-sourced Clover, a diffusion coding model reporting 73.6 on SWE-bench Verified",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-10-29",
+      "publisher": "AI Atlas",
+      "published_at": "2026-10-29T21:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:01.065Z",
+      "excerpt": "DiffuSpace released open weights for Clover-35B-A3B-Preview on 29 October, a diffusion language model that the team says scores 73.6 on SWE-bench Verified.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-10-29",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google announced Gemini 4 Carbon for cyber defenders first, at 88.2% on SEC-bench Pro",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-10-28",
+      "publisher": "AI Atlas",
+      "published_at": "2026-10-28T21:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:01.065Z",
+      "excerpt": "Google announced Gemini 4 Carbon on 28 October, scoring 88.2% on SEC-bench Pro by its own measure, and opened it first to a small group of cyber defenders.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-10-28",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI says its models refuted the Exponential Time Hypothesis, with outside experts reviewing",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-10-27",
+      "publisher": "AI Atlas",
+      "published_at": "2026-10-27T21:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:01.065Z",
+      "excerpt": "OpenAI announced on 26 October that its models produced three results in maths, computer science and physics, one of them a claim that the Exponential Time Hypothesis is false.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-10-27",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI released GPT-6.1 Terra at $1 per million input tokens, half its predecessor's price",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-10-26",
+      "publisher": "AI Atlas",
+      "published_at": "2026-10-26T21:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:01.065Z",
+      "excerpt": "OpenAI released GPT-6.1 Terra on 26 October, priced at $1 per million input tokens and $5 per million output tokens, half the price of GPT-5.6 Terra.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-10-26",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

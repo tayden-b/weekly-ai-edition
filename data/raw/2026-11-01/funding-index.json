@@ -1,0 +1,967 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "funding-index",
+  "fetched_at": "2026-11-01T17:03:59.115Z",
+  "items": [
+    {
+      "headline": "Sebastian Thrun raised $130M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/sebastian-thrun-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-30T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Dulo Inc., a startup co-founded by prominent artificial intelligence researcher Sebastian Thrun, has raised $130 million in funding.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/sebastian-thrun-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Easol raised $31M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/easol-series-a-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-30T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Easol, a London-based experience commerce platform, has closed a €26.78 million ($30 million) Series A extension round, bringing its total raised to date to €53.57 million ($60 million). Led by Y Combinator.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/easol-series-a-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AvalonX raised $10M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/avalonx-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-30T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "AvalonX provides continuous AI-powered automated penetration testing for small and midsize businesses. Led by RIDOWN Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/avalonx-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ares Intelligence raised $3M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/ares-intelligence-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-30T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Ares Intelligence, a London-based startup building what it describes as an evidence-based platform for AI transformation, has secured €2.6 million in funding.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/ares-intelligence-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Developer tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Talky raised $1.8M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/talky-pre-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-30T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Talky Labs, a Spanish startup developing AI-powered technology to automate accounting and financial operations, has raised €1.5 million in a pre-Seed funding round to support team expansion, further product development and improvements to t",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/talky-pre-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Fractile raised $700M (Series C) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/fractile-series-c-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Fractile designs high-performance computing hardware and chips optimized for AI model inference.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/fractile-series-c-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "FuriosaAI raised $620M (Growth) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/furiosaai-growth-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "FuriosaAI develops energy-efficient inference chips for artificial intelligence. Valued at $2.9B.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/furiosaai-growth-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Serval raised $150M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/serval-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Enterprise service management startup Serval Inc.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/serval-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Entourage raised $117M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/entourage-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Europeanearly-stage venture capital firm Entourage has closed its second fund at €100million, just over two years after launching its first fund in 2024.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/entourage-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "NexGen Cloud raised $106M (Debt) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/nexgen-cloud-debt-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "NexGen Cloud is a specialized cloud platform provider financing and hosting GPU infrastructure for AI applications. Led by USD.AI.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/nexgen-cloud-debt-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Collective raised $100M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/collective-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Collective operates an AI-native financial operating system powering solo businesses and freelancers.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/collective-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Wabi raised $55M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/wabi-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Founded by Replika creator Eugenia Kuyda, Wabi is redefining personal AI as something people can use together, combining an AI agent and personalized mini-apps to help people pursue interests, navigate life's challenges, and do more of what",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/wabi-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Opentrons raised $40M (Series E) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/opentrons-series-e-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Opentrons Labworks Inc., a leader in artificial intelligence-driven robotic laboratory automation, today announced it has raised $40 million in new funding to scale its robotics, software and data infrastructure tools.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/opentrons-series-e-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bites raised $40M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/bites-series-a-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Bites builds an AI platform delivering micro-learning video training to deskless frontline workers. Led by PeakSpan Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/bites-series-a-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Braid raised $38M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/braid-series-a-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Braid enables enterprises to launch their own branded mobile connectivity. Led by Octopus.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/braid-series-a-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Other"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ravical raised $17M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/ravical-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Ravical is an AI startup developing technology for accounting and tax firms. Led by MMC.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/ravical-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Reflex raised $14M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/reflex-series-a-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Reflex, a startup that uses artificial intelligence agents to build, deploy and maintain custom business software for enterprises, said today it has closed on a $14 million Series A round of funding.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/reflex-series-a-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "ALLOX raised $11M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/allox-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "ALLOX operates an AI-driven biotechnology platform focused on discovering and developing allosteric drug candidates. Led by Asabys.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/allox-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Afolami raised $6.8M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/afolami-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "A former UK government minister has launched an AI insurance startup, his co-founder has confirmed, which has reportedly raised nearly £5m in seed funding.Bim Afolami, who served as the UK’s economic ...",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/afolami-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Crux Labs raised $6M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/crux-labs-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Crux Labs develops platform solutions to align enterprise AI agents with expert human judgment.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/crux-labs-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bleu Robotics raised $5.9M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/bleu-robotics-pre-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Bleu Robotics, a Paris-based startup building AI models for industrial humanoid robots, has raised a €5 million pre-Seed round, to reach its goal of reducing the full humanoid robot deployment process to one hour or shorter. Led by Contrarian Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/bleu-robotics-pre-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Pixel Systems raised $3.1M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/pixel-systems-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Pixel Systems develops software tools that identify synthetic AI-generated content and digital image manipulation. Led by Unconventional Ventures. Valued at $21M.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/pixel-systems-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Wrapped Health raised $2.1M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/wrapped-health-pre-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Co-led by Lightbank VC and Arteria Capital, the pre-seed round will accelerate the expansion of Wrapped Health's AI-native infrastructure across independent practices, health systems, and digital health platforms WASHINGTON, Oct. Led by Lightbank VC.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/wrapped-health-pre-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Fronted raised $1.9M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/fronted-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Fronted provides an AI-powered platform designed to streamline global employment and international hiring operations.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/fronted-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "VUSE XR raised $1.4M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/vuse-xr-pre-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "VUSE XR, a Freiburg-based startup developing enterprise software for mixed reality training, today announced the closing of a €1.2 million pre-Seed financing round. Led by IACD.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/vuse-xr-pre-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "KineDB raised $900K (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/kinedb-pre-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-29T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "KineDB is developing database technology for cloud infrastructure and offline devices. Led by Superhero Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/kinedb-pre-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Databases"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Upwind Security raised $400M (Series C) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/upwind-security-series-c-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Upwind Security provides cloud and AI security solutions. Valued at $3.8B.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/upwind-security-series-c-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Casap raised $56M (Series B) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/casap-series-b-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Casap builds AI software systems helping financial institutions detect card fraud and automate dispute management.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/casap-series-b-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Numeracle raised $28M (Series B) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/numeracle-series-b-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Numeracle verifies business identities to prevent legitimate calls from being labeled as spam. Led by Edison Partners.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/numeracle-series-b-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Samplix raised $27M (Series B) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/samplix-series-b-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Samplix develops droplet microfluidics technology for functional single-cell analysis. Led by WLanholding GmbH.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/samplix-series-b-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Other"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Circuit Mind raised $25M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/circuit-mind-series-a-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Circuit Mind uses AI agents to automate and verify circuit board schematics.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/circuit-mind-series-a-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Rendezvous Robotics raised $20M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/rendezvous-robotics-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Rendezvous Robotics builds modular spacecraft that autonomously assemble and reconfigure in orbit. Led by MaC Venture Capital, Toyota Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/rendezvous-robotics-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Plato raised $16M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/plato-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Plato builds simulated workplaces where AI can learn to perform real jobs.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/plato-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "American Advanced Materials raised $13M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/american-advanced-materials-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "American Advanced Materials is an advanced materials platform producing titanium sponge. Led by Amity Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/american-advanced-materials-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Other"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sava raised $10M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/sava-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Sava is an AI-native, Nevada-chartered trust company. Led by Gradient Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/sava-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Northstar Security raised $7M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/northstar-security-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Northstar Security provides a platform that gives AI agents context to act on security risks. Led by Wing Venture Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/northstar-security-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Autofixer raised $3.3M (Debt) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/autofixer-debt-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Autofixer is an online car parts platform. Led by Orbit Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/autofixer-debt-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Other"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Artiso raised $3.3M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/artiso-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Artiso builds an AI operating system for fashion teams. Led by Criteria Venture Tech.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/artiso-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Magic Vision raised $700K (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/magic-vision-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Magic Vision develops AI and computer vision technologies to monitor older people and vulnerable individuals.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/magic-vision-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "General Compute raised $100M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/general-compute-series-a-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "General Compute builds specialized cloud computing infrastructure and chips for AI inference.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/general-compute-series-a-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Hyphenate raised $45M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/hyphenate-series-a-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Hyphenate develops autonomous AI agent systems for enterprise financial operations. Led by Nexus Venture Partners.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/hyphenate-series-a-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Infisical raised $40M (Series B) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/infisical-series-b-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Infisical provides secrets management infrastructure to secure enterprise systems and AI agents. Led by Elad Gil. Valued at $600M.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/infisical-series-b-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Machenta raised $40M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/machenta-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Machenta develops AI models designed to accelerate physical task training for industrial robots.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/machenta-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Vera Health raised $29M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/vera-health-series-a-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Vera Health develops an AI-powered clinical intelligence platform to assist medical professionals with decision-making. Led by Threshold Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/vera-health-series-a-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Luxor Technology raised $16M (Strategic) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/luxor-technology-strategic-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Luxor Technology operates a platform for trading compute capacity and hardware for AI and Bitcoin mining. Led by CMT Digital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/luxor-technology-strategic-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Atlas Bio raised $13M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/atlas-bio-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Atlas Bio is a tech-bio firm focused on drug development. Led by Creandum.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/atlas-bio-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Other"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lette raised $6.5M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/lette-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Lette, an AI-powered platform forresidential property operators, has raised $6.5 million in seed funding toexpand its operations in the UK and support its planned European expansion.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/lette-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Querio raised $5M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/querio-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Querio builds an AI-native analytics platform to unify business data access for human teams and AI agents. Led by BMW i Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/querio-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Analytics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Agora Labs raised $4.7M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/agora-labs-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Agora Labs expands clinical data infrastructure for medical research. Led by P101 SGR.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/agora-labs-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Data infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Edge Sound Research raised $2M (Strategic) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/edge-sound-research-strategic-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Edge Sound Research builds audio perception infrastructure to help physical AI and robotic systems interpret real-time audio data. Led by Stormbreaker Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/edge-sound-research-strategic-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "PropTech Cortas raised $1.7M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/proptech-cortas-pre-seed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-27T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Cortas, a Copenhagen-based PropTech startup building what it calls an entirely new operating model for property management, has raised €1.47 million in pre-Seed funding. Led by PSV Tech Cortas.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/proptech-cortas-pre-seed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Other"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bedrock Robotics raised $600M (Series C) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/bedrock-robotics-series-c-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-26T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Bedrock Robotics Inc. Led by Alphabet Inc.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/bedrock-robotics-series-c-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Halo Labs I raised $85M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/halo-labs-i-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-26T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Known from its SEC Form D filing, not from an announcement.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/halo-labs-i-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Other"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nevis raised $73M (Series B) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/nevis-series-b-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-26T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "London/NY-based Nevis, an AI OS for wealth management, today announced its €62 million ($70 million) Series B in order to expand agent capabilities, deepen integrations across the custodian and WealthTech ecosystem, and grow its product and Led by EQT Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/nevis-series-b-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DIFFERENT LABS raised $48M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/different-labs-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-26T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Known from its SEC Form D filing, not from an announcement.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/different-labs-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Other"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nous raised $17M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/nous-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-26T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Nous is an AI startup building autonomous agents.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/nous-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Overwatch Data raised $15M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/overwatch-data-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-26T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Known from its SEC Form D filing, not from an announcement.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/overwatch-data-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Data infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "adsilico raised $13M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/adsilico-series-a-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-26T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "adsilico creates AI-driven simulation technology to evaluate medical devices across synthetic virtual patient cohorts.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/adsilico-series-a-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ailytics raised $7.4M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/ailytics-series-a-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-26T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Ailytics provides a vision AI platform that turns existing industrial CCTV into a real-time safety and operations layer. Led by Tin Men Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/ailytics-series-a-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sonexos raised $6.3M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/sonexos-undisclosed-2026-10",
+      "publisher": "Funding Index",
+      "published_at": "2026-10-26T12:00:00.000Z",
+      "fetched_at": "2026-11-01T17:04:00.607Z",
+      "excerpt": "Sonexos, a Lausanne-based DeepTech company, has raised approximately €5.4 million (CHF 5 million/USD 6.1 million) in new equity financing to take its solid-state noise control from working prototypes to industrial production. Led by Valquest Partners.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/sonexos-undisclosed-2026-10",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

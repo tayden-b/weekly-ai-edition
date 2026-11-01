@@ -1,0 +1,85 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "crunchbase-news",
+  "fetched_at": "2026-11-01T17:03:59.115Z",
+  "items": [
+    {
+      "headline": "The Week’s 10 Biggest Funding Rounds: Physical AI And Predictions Lead The Lineup",
+      "canonical_url": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-30T16:33:59.000Z",
+      "fetched_at": "2026-11-01T17:03:59.180Z",
+      "excerpt": "This week featured a robust lineup of large rounds, led by manufacturing startup Re:Build, which closed on $2.1 billion, and predictions marketplace Kalshi, which picked up another $1 billion.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94308"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Sector Snapshot: Travel Tech Funding Heads Toward Multiyear Low Despite AI Push",
+      "canonical_url": "https://news.crunchbase.com/travel-tourism/travel-tech-startup-venture-funding-low-ai/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-30T11:00:49.000Z",
+      "fetched_at": "2026-11-01T17:03:59.180Z",
+      "excerpt": "Travel demand appears to be holding up, but at the same time, investor appetite for travel tech startups has cooled. Even a wave of startups promising to improve travel with AI hasn’t managed to reverse the funding slowdown. We share what a review of Crunchbase data shows.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94304"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
+      "canonical_url": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-29T11:00:12.000Z",
+      "fetched_at": "2026-11-01T17:03:59.180Z",
+      "excerpt": "AI megarounds are masking a shrinking Series A market, leaving seed founders facing higher revenue expectations and longer timelines despite larger seed checks. To improve their chances, MGV's Marc Schröder says, founders should size their seed funding around Series A milestones.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94300"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "From Monk To Startups: One Founder’s Unusual Path To Building Government Software",
+      "canonical_url": "https://news.crunchbase.com/startups/nontech-founder-government-ai-software-chen-fsh/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-28T11:00:00.000Z",
+      "fetched_at": "2026-11-01T17:03:59.180Z",
+      "excerpt": "After living as a monk while managing Graves’ disease, a former Facebook engineer left Big Tech to pursue meaningful work, eventually founding government software startup FSH Technologies which aims to improve processes such as school food services and public records management through the use of",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94290"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Crunchbase Data Shows Q3 Robotics Startup Funding Jumps 185% As US And China Lead Physical AI Push",
+      "canonical_url": "https://news.crunchbase.com/venture/q3-2026-us-china-robotics-startup-funding-jumps-physical-ai-push/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-27T11:00:53.000Z",
+      "fetched_at": "2026-11-01T17:03:59.180Z",
+      "excerpt": "Venture funding to robotics startups has soared in 2026, with the bulk of investment going to companies based in China and the U.S., Crunchbase data shows. All told, global venture funding to robotics startups totaled $9.9 billion in Q3, more than double the $4.3 billion invested in Q3 2025, per",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94284"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Your AI Agents Need A Chief Operating Officer, Too",
+      "canonical_url": "https://news.crunchbase.com/real-estate-property-tech/agentic-ai-staffing-coo-folgmann-get-covered/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-27T11:00:44.000Z",
+      "fetched_at": "2026-11-01T17:03:59.180Z",
+      "excerpt": "Scaling AI agents requires treating them like employees in regulated roles, with written rules, clearly defined responsibilities and a named human manager accountable for their performance. Guest author Rick Folgmann, COO at Get Covered, tells companies they should start with tasks governed by",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94280"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}
