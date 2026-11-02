@@ -1,3 +1,6 @@
+import { existsSync, readFileSync } from "node:fs";
+import path from "node:path";
+
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { preload } from "react-dom";
@@ -55,27 +58,59 @@ export default async function IssuePage({
   // fetch runs parallel to render-blocking CSS instead of after it (T3).
   if (view.cover.src) preload(view.cover.src, { as: "image", fetchPriority: "high" });
 
+  // Both renderers' markup arrives as build-time fragments from
+  // scripts/gen-frontpage-fragments.mts (#95 — details on the frontpage
+  // half below). The deck's cards are injected the same way: the served DOM
+  // is identical and DeckView manipulates `.w-deck-card` nodes imperatively,
+  // but ~570 elements stop occupying the RSC-flight payload + hydration
+  // tree whose eval sits inside the LCP-gating main-thread window.
+  // `display:contents` keeps the cards laid out as direct scroller children.
+  // A missing fragment (e.g. a bare `next build`/`next dev` outside the
+  // package scripts) falls back to the normal React render — identical DOM.
+  const fragmentPath = (name: string) =>
+    path.join(process.cwd(), "public/fragments", name);
+  const readFragment = (name: string): string | null =>
+    existsSync(fragmentPath(name))
+      ? readFileSync(fragmentPath(name), "utf8")
+      : null;
+  const deckHtml = readFragment(`deck-${issue}.html`);
+  const frontpageSrc = existsSync(fragmentPath(`frontpage-${issue}.html`))
+    ? `/fragments/frontpage-${issue}.html`
+    : null;
+
   return (
     <>
+      {/* §2.2 markup is a static fragment emitted once per build by
+          scripts/gen-frontpage-fragments.mts and mounted by FrontPageChrome
+          only at the ≥768px front-page breakpoint — the dual-renderer's
+          ~1.2k-node DOM + RSC payload kept the sim main thread busy past
+          the LCP window, pinning the LHCI gate at ~0.94 vs 0.95 (#95).
+          `main` stays empty in the document; deck.css still toggles the
+          layer, and every e2e/frontpage assertion sees the same DOM. */}
       <div className="issue-split__frontpage">
         <FrontPageChrome
           siteName={site.name}
           meta={view.meta}
           sections={view.navSections}
+          {...(frontpageSrc ? { frontpageSrc } : {})}
         />
-        <main>
-          <FrontPage
-            siteName={site.name}
-            tagline={site.tagline}
-            meta={view.meta}
-            cover={view.cover}
-            briefing={view.briefing}
-            sections={view.sections}
-            {...(view.markets ? { markets: view.markets } : {})}
-            {...(view.mostCovered ? { mostCovered: view.mostCovered } : {})}
-            backPage={view.backPage}
-          />
-        </main>
+        {frontpageSrc ? (
+          <main />
+        ) : (
+          <main>
+            <FrontPage
+              siteName={site.name}
+              tagline={site.tagline}
+              meta={view.meta}
+              cover={view.cover}
+              briefing={view.briefing}
+              sections={view.sections}
+              {...(view.markets ? { markets: view.markets } : {})}
+              {...(view.mostCovered ? { mostCovered: view.mostCovered } : {})}
+              backPage={view.backPage}
+            />
+          </main>
+        )}
       </div>
       <main className="issue-split__deck">
         <DeckView
@@ -83,7 +118,15 @@ export default async function IssuePage({
           headline={`${site.name} — № ${ed.issue_number} (${editionMeta(ed).dateRange})`}
           scrollerLabel={`${site.name} № ${ed.issue_number} — ${buildDeck(ed).length} pages; arrow keys or tap edges to turn`}
         >
-          <DeckCards edition={ed} siteName={site.name} />
+          {deckHtml !== null ? (
+            /* Build-time fragment — byte-for-byte DeckCards' markup. */
+            <div
+              style={{ display: "contents" }}
+              dangerouslySetInnerHTML={{ __html: deckHtml }}
+            />
+          ) : (
+            <DeckCards edition={ed} siteName={site.name} />
+          )}
         </DeckView>
       </main>
     </>

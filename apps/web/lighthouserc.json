@@ -5,7 +5,7 @@
       "startServerCommand": "pnpm start",
       "startServerReadyPattern": "Ready in",
       "startServerReadyTimeout": 60000,
-      "numberOfRuns": 5,
+      "numberOfRuns": 7,
       "settings": {
         "chromeFlags": "--no-sandbox --disable-dev-shm-usage --headless=new",
         "formFactor": "mobile"

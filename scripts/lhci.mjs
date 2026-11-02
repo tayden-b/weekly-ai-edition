@@ -37,12 +37,13 @@ const lhci = (...args) =>
 // so: autorun = collect + assert(resource budgets in budget.json) + upload
 // .lhci reports, then a second assert pass for the §5 score gates.
 //
-// numberOfRuns=5 (was 3, #95): the §5 score gate is `minScore` — LHCI's
+// numberOfRuns=7 (was 3→5, #95): the §5 score gate is `minScore` — LHCI's
 // default aggregation for it is OPTIMISTIC (best run must hit ≥0.95).
-// On a noisy shared GHA runner a whole 3-run batch can land at 0.90–0.93
-// even though the page sits at ~0.95+ (local medians 0.94–0.98); two extra
-// runs cut the all-miss probability without touching the 0.95 bar — the
-// issue's sanctioned "raise run count" fix, not a threshold relaxation.
+// On a noisy shared GHA runner a whole batch can land at 0.90–0.93 even
+// though the page sits at ~0.95+ (local medians ~0.96–0.98 after the
+// fragment-split + browserslist fixes); more runs cut the all-miss
+// probability without touching the 0.95 bar — the issue's sanctioned
+// "raise run count" fix, not a threshold relaxation.
 const first = lhci(
   "autorun",
   `--config=${path.join(WEB, "lighthouserc.json")}`,

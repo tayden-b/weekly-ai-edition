@@ -24,30 +24,70 @@ export function FrontPageChrome({
   siteName,
   meta,
   sections,
+  frontpageSrc,
 }: {
   siteName: string;
   meta: IssueMetaView;
   sections: NavSection[];
+  /** Static §2.2 markup fragment (build-generated) to mount at the
+      front-page breakpoint — see page.tsx / #95. */
+  frontpageSrc?: string;
 }) {
   const [barVisible, setBarVisible] = useState(false);
   const [sheetOpen, setSheetOpen] = useState(false);
   const sheetRef = useRef<HTMLDivElement>(null);
   const topbarRef = useRef<HTMLDivElement>(null);
 
-  // Reveal the bar only after the masthead band scrolls out of view.
+  // The §2.2 markup is a build-time static fragment (#95 — kept out of the
+  // mobile document for the LHCI gate). Fetch + mount it once the viewport
+  // reaches the ≥768px front-page breakpoint, then (re)attach the masthead
+  // observer: on desktop the mount runs here at hydration, on
+  // mobile→desktop resizes it runs on the media-query change.
   useEffect(() => {
-    const masthead = document.querySelector(".w-masthead--band");
-    if (!masthead || typeof IntersectionObserver === "undefined") {
-      setBarVisible(true);
-      return;
-    }
-    const io = new IntersectionObserver(
-      ([entry]) => setBarVisible(!(entry?.isIntersecting ?? true)),
-      { threshold: 0 },
+    const host = document.querySelector<HTMLElement>(
+      ".issue-split__frontpage main",
     );
-    io.observe(masthead);
-    return () => io.disconnect();
-  }, []);
+    const mq = window.matchMedia("(min-width: 768px)");
+    let io: IntersectionObserver | null = null;
+    let mounted = false;
+
+    // Reveal the bar only after the masthead band scrolls out of view.
+    const observeMasthead = () => {
+      const masthead = document.querySelector(".w-masthead--band");
+      if (!masthead || typeof IntersectionObserver === "undefined") {
+        setBarVisible(true);
+        return;
+      }
+      io?.disconnect();
+      io = new IntersectionObserver(
+        ([entry]) => setBarVisible(!(entry?.isIntersecting ?? true)),
+        { threshold: 0 },
+      );
+      io.observe(masthead);
+    };
+
+    const mount = () => {
+      if (!mq.matches || !host || !frontpageSrc || mounted) return;
+      mounted = true;
+      void fetch(frontpageSrc)
+        .then((r) => (r.ok ? r.text() : Promise.reject(r.status)))
+        .then((html) => {
+          host.innerHTML = html;
+          observeMasthead();
+        })
+        .catch(() => {
+          mounted = false; // retry on the next breakpoint crossing
+        });
+    };
+
+    mount();
+    if (!mounted) observeMasthead(); // mobile: no masthead yet → fallback
+    mq.addEventListener("change", mount);
+    return () => {
+      mq.removeEventListener("change", mount);
+      io?.disconnect();
+    };
+  }, [frontpageSrc]);
 
   const jump = useCallback(
     (dir: 1 | -1) => {
