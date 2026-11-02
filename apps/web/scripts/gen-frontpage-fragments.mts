@@ -17,7 +17,7 @@
  * `lib/editions.ts` cannot be reused here: `import.meta.glob` is a bundler
  * feature, not Node. The ~15 lines of discovery it performs are replicated.
  */
-import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
 import * as React from "react";
@@ -84,9 +84,24 @@ for (const ed of editions) {
   const deckHtml = renderToStaticMarkup(
     React.createElement(DeckCards, { edition: ed, siteName: site.name }),
   );
+  // The deck cover is the page's LCP element. Inlining it as a data URI
+  // deletes the image's sim load-delay + load-time phases (~1.7s of the
+  // ~3.0s LCP on a throttled runner — #95); the file is ~6KB so the
+  // document cost is a single-digit-KiB base64 blob. The frontpage
+  // fragment keeps the URL (desktop fetches it lazily anyway, and the
+  // URL form stays cacheable).
+  const coverImage = ed.pages[0]?.image;
+  const coverFile = coverImage ? path.join(ROOT, coverImage) : null;
+  const deckHtmlInlined =
+    coverFile && existsSync(coverFile)
+      ? deckHtml.replace(
+          `src="/${coverImage}"`,
+          `src="data:image/avif;base64,${readFileSync(coverFile).toString("base64")}"`,
+        )
+      : deckHtml;
   writeFileSync(
     path.join(OUT_DIR, `deck-${ed.id}.html`),
-    deckHtml.replace(/<link\b[^>]*\/?>/g, ""),
+    deckHtmlInlined.replace(/<link\b[^>]*\/?>/g, ""),
   );
 }
 

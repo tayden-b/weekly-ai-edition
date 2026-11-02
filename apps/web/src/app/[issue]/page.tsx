@@ -113,21 +113,34 @@ export default async function IssuePage({
         )}
       </div>
       <main className="issue-split__deck">
-        <DeckView
-          total={buildDeck(ed).length}
-          headline={`${site.name} — № ${ed.issue_number} (${editionMeta(ed).dateRange})`}
-          scrollerLabel={`${site.name} № ${ed.issue_number} — ${buildDeck(ed).length} pages; arrow keys or tap edges to turn`}
-        >
-          {deckHtml !== null ? (
-            /* Build-time fragment — byte-for-byte DeckCards' markup. */
-            <div
-              style={{ display: "contents" }}
-              dangerouslySetInnerHTML={{ __html: deckHtml }}
-            />
-          ) : (
-            <DeckCards edition={ed} siteName={site.name} />
-          )}
-        </DeckView>
+        {/* .dv-root + the scroller are server markup so the ~570-node card
+            DOM stays out of the RSC-flight payload + hydration tree (#95).
+            DeckView attaches its listeners by selector at hydration. */}
+        <div className="dv-root">
+          {/* The compact masthead is not a heading — the deck still needs one h1. */}
+          <h1 className="dv-sr-only">
+            {`${site.name} — № ${ed.issue_number} (${editionMeta(ed).dateRange})`}
+          </h1>
+          <DeckView total={buildDeck(ed).length} />
+          <div
+            className="dv-scroller"
+            role="group"
+            aria-roledescription="carousel"
+            aria-label={`${site.name} № ${ed.issue_number} — ${buildDeck(ed).length} pages; arrow keys or tap edges to turn`}
+            aria-keyshortcuts="ArrowLeft ArrowRight Home End"
+            tabIndex={0}
+          >
+            {deckHtml !== null ? (
+              /* Build-time fragment — byte-for-byte DeckCards' markup. */
+              <div
+                style={{ display: "contents" }}
+                dangerouslySetInnerHTML={{ __html: deckHtml }}
+              />
+            ) : (
+              <DeckCards edition={ed} siteName={site.name} />
+            )}
+          </div>
+        </div>
       </main>
     </>
   );
