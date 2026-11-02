@@ -1,0 +1,129 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "mit-tr-ai",
+  "fetched_at": "2026-11-02T20:40:50.470Z",
+  "items": [
+    {
+      "headline": "Raising the quality of insights in agentic analytics",
+      "canonical_url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-02T17:00:00.000Z",
+      "fetched_at": "2026-11-02T20:40:51.840Z",
+      "excerpt": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147660",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Stop counting tokens, start counting what ships",
+      "canonical_url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-02T13:10:32.000Z",
+      "fetched_at": "2026-11-02T20:40:51.840Z",
+      "excerpt": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls…",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147702",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The agentic web is here",
+      "canonical_url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-02T09:35:19.000Z",
+      "fetched_at": "2026-11-02T20:40:51.840Z",
+      "excerpt": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147846",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "We urgently need to monitor AI agents’ actions in real time",
+      "canonical_url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-10-29T10:11:12.000Z",
+      "fetched_at": "2026-11-02T20:40:51.840Z",
+      "excerpt": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147824",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "Opinion"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Creating AI value with enterprise context",
+      "canonical_url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-10-28T20:32:02.000Z",
+      "fetched_at": "2026-11-02T20:40:51.840Z",
+      "excerpt": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147709",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Pairing industrial AI autonomy and human control",
+      "canonical_url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-10-28T12:00:00.000Z",
+      "fetched_at": "2026-11-02T20:40:51.840Z",
+      "excerpt": "Pairing industrial AI autonomy and human control",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147637",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "canonical_url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-10-27T11:19:18.000Z",
+      "fetched_at": "2026-11-02T20:40:51.840Z",
+      "excerpt": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves,",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147142",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
