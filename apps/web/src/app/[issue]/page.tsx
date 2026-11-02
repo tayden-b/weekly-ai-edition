@@ -80,6 +80,17 @@ export default async function IssuePage({
 
   return (
     <>
+      {/* Without JS the fragment can't mount — fall back to the deck on
+          desktop too (native scroll-snap still pages it). Keeps §2's
+          "neither is a fallback" on the no-JS path (#95). */}
+      <noscript>
+        <style>{`
+          @media (min-width: 768px) {
+            .issue-split__frontpage { display: none; }
+            .issue-split__deck { display: block; }
+          }
+        `}</style>
+      </noscript>
       {/* §2.2 markup is a static fragment emitted once per build by
           scripts/gen-frontpage-fragments.mts and mounted by FrontPageChrome
           only at the ≥768px front-page breakpoint — the dual-renderer's
