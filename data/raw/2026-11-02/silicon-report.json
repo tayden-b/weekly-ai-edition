@@ -1,0 +1,807 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "silicon-report",
+  "fetched_at": "2026-11-02T20:40:50.470Z",
+  "items": [
+    {
+      "headline": "Russia orders private data centers to reserve 10% capacity for state",
+      "canonical_url": "https://www.siliconreport.com/russia-orders-private-data-centers-to-reserve-10-capacity-for-state",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T20:38:13.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Operators must provide the compute within 24 hours of notice following drone strikes on Russian facilities.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/russia-orders-private-data-centers-to-reserve-10-capacity-for-state",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic revises Claude Code prompt to curb game recreations",
+      "canonical_url": "https://www.siliconreport.com/anthropic-revises-claude-code-prompt-to-curb-game-recreations",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T20:13:24.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Rules on Opus 5.5 aim to prevent intellectual property infringement while permitting original game development.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-revises-claude-code-prompt-to-curb-game-recreations",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "German Linux maker SUSE cuts about 10% of its workforce",
+      "canonical_url": "https://www.siliconreport.com/german-linux-maker-suse-cuts-about-10-of-its-workforce",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T20:10:26.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "CEO Dirk-Peter van Leeuwen told staff automation and AI are fundamentally shifting how software companies operate.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/german-linux-maker-suse-cuts-about-10-of-its-workforce",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Leak points to improved Privacy Display on Galaxy S27 Pro and Ultra",
+      "canonical_url": "https://www.siliconreport.com/leak-points-to-improved-privacy-display-on-galaxy-s27-pro-and-ultra",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T17:39:33.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Leaked component details suggest the upper-tier devices will feature brighter screens that restrict viewing angles.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/leak-points-to-improved-privacy-display-on-galaxy-s27-pro-and-ultra",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "LinearB launches Agentic Studio to give coding agents delivery context",
+      "canonical_url": "https://www.siliconreport.com/linearb-launches-agentic-studio-to-give-coding-agents-delivery-context",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T16:16:56.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The platform links delivery data with an early-access effort skill to calibrate AI reasoning and review workloads.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/linearb-launches-agentic-studio-to-give-coding-agents-delivery-context",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Alphabet to raise €6B in euro bond sale as AI yields climb",
+      "canonical_url": "https://www.siliconreport.com/alphabet-to-raise-6b-in-euro-bond-sale-as-ai-yields-climb",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T16:13:09.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Order books topped €17 billion in seven tranches as debt markets test big tech infrastructure spending.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/alphabet-to-raise-6b-in-euro-bond-sale-as-ai-yields-climb",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Oracle starts $20 billion debt and equity raise for AI",
+      "canonical_url": "https://www.siliconreport.com/oracle-starts-20-billion-debt-and-equity-raise-for-ai",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T16:11:09.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The company is issuing $10 billion in bonds alongside $10 billion in common stock to finance operations.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/oracle-starts-20-billion-debt-and-equity-raise-for-ai",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI rolls Work into regular Chat, combines usage with Codex",
+      "canonical_url": "https://www.siliconreport.com/openai-rolls-work-into-regular-chat-combines-usage-with-codex",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T15:18:39.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "A shared token allowance across ChatGPT and Codex will take effect in December 2026 for Plus, Pro, and Business plans.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-rolls-work-into-regular-chat-combines-usage-with-codex",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Marvell to merge with Lumentum in about $115B all-stock deal",
+      "canonical_url": "https://www.siliconreport.com/marvell-to-merge-with-lumentum-in-about-115b-all-stock-deal",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T15:13:34.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Lumentum stockholders will receive 4.5 Marvell shares in a transaction expected to close in the first half of 2028.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/marvell-to-merge-with-lumentum-in-about-115b-all-stock-deal",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Wired finds over 400 domains and apps hid explicit AI features",
+      "canonical_url": "https://www.siliconreport.com/wired-finds-over-400-domains-and-apps-hid-explicit-ai-features",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T14:40:25.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Apple and Google pulled software after developers used bait-and-switch code to bypass mobile store reviews.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/wired-finds-over-400-domains-and-apps-hid-explicit-ai-features",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Elon Musk says Grok Bot serving costs are unsustainably high",
+      "canonical_url": "https://www.siliconreport.com/elon-musk-says-grok-bot-serving-costs-are-unsustainably-high",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T13:46:30.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The admission follows user complaints over weekly limits despite Grok Bot reaching 800,000 paid weekly users.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/elon-musk-says-grok-bot-serving-costs-are-unsustainably-high",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lazarus AI strips censorship from Alibaba's Qwen models",
+      "canonical_url": "https://www.siliconreport.com/lazarus-ai-strips-censorship-from-alibaba-s-qwen-models",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T13:13:44.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Startups edit Chinese model weights to remove state censorship and security flaws for Western enterprises.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/lazarus-ai-strips-censorship-from-alibaba-s-qwen-models",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lee proposes 21.3 trillion won for AI and chips in 2027 budget",
+      "canonical_url": "https://www.siliconreport.com/lee-proposes-21-3-trillion-won-for-ai-and-chips-in-2027-budget",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T13:10:37.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "A separate 4.7 trillion won will fund a sovereign AI model targeting what Lee called the world's highest performance.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/lee-proposes-21-3-trillion-won-for-ai-and-chips-in-2027-budget",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "SpaceX in talks to buy Boost Mobile or network access, Post reports",
+      "canonical_url": "https://www.siliconreport.com/spacex-in-talks-to-buy-boost-mobile-or-network-access-post-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T12:42:21.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "A potential transaction would give Starlink a path to sell US mobile service directly to consumers.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/spacex-in-talks-to-buy-boost-mobile-or-network-access-post-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ukraine and Russia claim emergency alert apps were hacked",
+      "canonical_url": "https://www.siliconreport.com/ukraine-and-russia-claim-emergency-alert-apps-were-hacked",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T12:14:24.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Compromised systems sent false nuclear warnings to millions of users on Sunday before officials contained the breach.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/ukraine-and-russia-claim-emergency-alert-apps-were-hacked",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Suspected hacks hit Swedish and Belgian grocery cooling systems",
+      "canonical_url": "https://www.siliconreport.com/suspected-hacks-hit-swedish-and-belgian-grocery-cooling-systems",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T12:10:38.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Unauthorized actors altered temperatures overnight, forcing at least one retailer to discard spoiled food.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/suspected-hacks-hit-swedish-and-belgian-grocery-cooling-systems",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Marble Cognition raises $3.75M in pre-seed funding",
+      "canonical_url": "https://www.siliconreport.com/marble-cognition-raises-3-75m-in-pre-seed-funding",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T09:38:10.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Heartcore and Seedcamp co-led the round to back software that observes staff workflows and automates tasks.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/marble-cognition-raises-3-75m-in-pre-seed-funding",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Researchers test AI agent swarms in Minecraft",
+      "canonical_url": "https://www.siliconreport.com/researchers-test-ai-agent-swarms-in-minecraft",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T08:10:00.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "GPT teams formed decentralized hives while Claude agents established democratic hierarchies in gaming trials.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/researchers-test-ai-agent-swarms-in-minecraft",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Iluvatar CoreX benchmarks claim Tiangai 300 tops Nvidia H200",
+      "canonical_url": "https://www.siliconreport.com/iluvatar-corex-benchmarks-claim-tiangai-300-tops-nvidia-h200",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T05:44:34.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Testing cited by the Chinese chipmaker showed inference throughput gains in select long-context workloads.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/iluvatar-corex-benchmarks-claim-tiangai-300-tops-nvidia-h200",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Samsung chairman visits Japan lab to strengthen packaging",
+      "canonical_url": "https://www.siliconreport.com/samsung-chairman-visits-japan-lab-to-strengthen-packaging",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T05:37:36.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Lee inspected materials research in Yokohama in his first public visit since marking four years as chairman.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/samsung-chairman-visits-japan-lab-to-strengthen-packaging",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Casap raises $56 million Series B led by Base10 Partners",
+      "canonical_url": "https://www.siliconreport.com/casap-raises-56-million-series-b-led-by-base10-partners",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T05:10:07.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Experian and Synchrony joined the round, lifting the banking AI startup's total capital to $90 million.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/casap-raises-56-million-series-b-led-by-base10-partners",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Walden Catalyst leads $30M round for AI cloud startup",
+      "canonical_url": "https://www.siliconreport.com/walden-catalyst-leads-30m-round-for-ai-cloud-startup",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T04:44:34.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Hyperbolic raised the Series A-1 round to expand software tools for managing AI chips from multiple neoclouds.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/walden-catalyst-leads-30m-round-for-ai-cloud-startup",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI announces safeguards report and firearms limits for minors",
+      "canonical_url": "https://www.siliconreport.com/openai-announces-safeguards-report-and-firearms-limits-for-minors",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T03:13:04.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "OpenAI said it will restrict ChatGPT mass-attack details and enable automated chat terminations when users fixate on violence.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-announces-safeguards-report-and-firearms-limits-for-minors",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Foxconn is working on new OpenAI partnership, Reuters reports",
+      "canonical_url": "https://www.siliconreport.com/foxconn-is-working-on-new-openai-partnership-reuters-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T03:08:04.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Chairman Young Liu met Sam Altman in Taipei and projected double-digit company growth next year.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/foxconn-is-working-on-new-openai-partnership-reuters-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Broccoli AI raises $52 million in Series A and B rounds",
+      "canonical_url": "https://www.siliconreport.com/broccoli-ai-raises-52-million-in-series-a-and-b-rounds",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T02:43:13.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Khosla Ventures led both rounds, valuing the contractor-automation startup at a reported $300 million.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/broccoli-ai-raises-52-million-in-series-a-and-b-rounds",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Aramco acquires 49% stake in AI company HUMAIN",
+      "canonical_url": "https://www.siliconreport.com/aramco-acquires-49-stake-in-ai-company-humain",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T02:07:31.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The oil producer contributed $2.6 billion in cash and AI assets, while Saudi Arabia's PIF retains 51% ownership.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/aramco-acquires-49-stake-in-ai-company-humain",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Android Auto teardown suggests Google may test Work Profile controls",
+      "canonical_url": "https://www.siliconreport.com/android-auto-teardown-suggests-google-may-test-work-profile-controls",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T01:15:58.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "An experimental tile surfaces a briefcase icon over the car's app drawer but remains inactive.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/android-auto-teardown-suggests-google-may-test-work-profile-controls",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple could add security camera features to HomeView",
+      "canonical_url": "https://www.siliconreport.com/apple-could-add-security-camera-features-to-homeview",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T01:12:57.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Code in HomeView 27.2 references HomeKit Secure Video support alongside motion detection and streaming controls.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-could-add-security-camera-features-to-homeview",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "JPMorgan and Amazon move to block personal AI agents",
+      "canonical_url": "https://www.siliconreport.com/jpmorgan-and-amazon-move-to-block-personal-ai-agents",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T01:09:43.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Incumbents cite security risks as rival stores partner with Meta's Muse to handle automated purchases.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/jpmorgan-and-amazon-move-to-block-personal-ai-agents",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Advocates warn California Prop 45 could give data centers a loophole",
+      "canonical_url": "https://www.siliconreport.com/advocates-warn-california-prop-45-could-give-data-centers-a-loophole",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T00:42:26.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The ballot measure would cap environmental reviews at 365 days and limit court challenges for eligible projects.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/advocates-warn-california-prop-45-could-give-data-centers-a-loophole",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI plans post-midterm push for AI speed limits, Axios reports",
+      "canonical_url": "https://www.siliconreport.com/openai-plans-post-midterm-push-for-ai-speed-limits-axios-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T00:38:21.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The proposals include rebranding data centers as compute campuses ahead of expected regulatory shifts.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-plans-post-midterm-push-for-ai-speed-limits-axios-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Binance posts $3.6B in net outflows after reopening withdrawals",
+      "canonical_url": "https://www.siliconreport.com/binance-posts-3-6b-in-net-outflows-after-reopening-withdrawals",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T00:08:47.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Net outflows of about $3.6 billion represented 2.1% of the exchange's $171 billion in assets under management.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/binance-posts-3-6b-in-net-outflows-after-reopening-withdrawals",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Cities find canceling Flock Safety contracts difficult",
+      "canonical_url": "https://www.siliconreport.com/cities-find-canceling-flock-safety-contracts-difficult",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-02T00:05:45.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Minnesota officials disconnected surveillance cameras after the vendor failed to respond to cancellation requests.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/cities-find-canceling-flock-safety-contracts-difficult",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Federal judge denies xAI bid to dismiss NAACP clean air lawsuit",
+      "canonical_url": "https://www.siliconreport.com/federal-judge-denies-xai-bid-to-dismiss-naacp-clean-air-lawsuit",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T20:10:50.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The ruling rejected claims that gas turbines running the Memphis-area data center are exempt mobile power sources.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/federal-judge-denies-xai-bid-to-dismiss-naacp-clean-air-lawsuit",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Pope Leo XIV delivers speech on AI at the Vatican",
+      "canonical_url": "https://www.siliconreport.com/pope-leo-xiv-delivers-speech-on-ai-at-the-vatican",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T19:12:44.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The pontiff urged global governance and called on nations meeting in Geneva to ban lethal autonomous weapons.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/pope-leo-xiv-delivers-speech-on-ai-at-the-vatican",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "At least 20 gubernatorial candidates pledge data center pauses",
+      "canonical_url": "https://www.siliconreport.com/at-least-20-gubernatorial-candidates-pledge-data-center-pauses",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T19:10:57.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Even more hopefuls have promised stricter industry regulations, according to research compiled by MultiState.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/at-least-20-gubernatorial-candidates-pledge-data-center-pauses",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Developer uses Claude to reverse-engineer Adobe Creative Cloud apps",
+      "canonical_url": "https://www.siliconreport.com/developer-uses-claude-to-reverse-engineer-adobe-creative-cloud-apps",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T18:08:24.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "A coding team built open-source Rust clones of Photoshop and Lightroom after deconstructing Adobe software.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/developer-uses-claude-to-reverse-engineer-adobe-creative-cloud-apps",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta builds prototype humanoid robot with Fourier",
+      "canonical_url": "https://www.siliconreport.com/meta-builds-prototype-humanoid-robot-with-fourier",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T17:06:57.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "A second version of the internal research machine is already in development.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/meta-builds-prototype-humanoid-robot-with-fourier",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Open-source UEFI tool unlocks Nvidia GPU tensor performance",
+      "canonical_url": "https://www.siliconreport.com/open-source-uefi-tool-unlocks-nvidia-gpu-tensor-performance",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T16:12:37.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The USB utility lifts FP16 compute by up to 65 percent on Windows without permanent VBIOS flashing.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/open-source-uefi-tool-unlocks-nvidia-gpu-tensor-performance",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "HomePod 27.2 brings Mac speaker support, but test setup fails",
+      "canonical_url": "https://www.siliconreport.com/homepod-27-2-brings-mac-speaker-support-but-test-setup-fails",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T15:13:54.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Early hands-on testing shows persistent AirPlay audio routing to HomePods fails on general release software.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/homepod-27-2-brings-mac-speaker-support-but-test-setup-fails",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Binance begins restoring customer withdrawals after about $6.3B theft",
+      "canonical_url": "https://www.siliconreport.com/binance-begins-restoring-customer-withdrawals-after-about-6-3b-theft",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T15:09:46.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The exchange replaced about 95 percent of affected tokens and said it will absorb the financial losses.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/binance-begins-restoring-customer-withdrawals-after-about-6-3b-theft",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google-led team introduces StreamVibe video agent",
+      "canonical_url": "https://www.siliconreport.com/google-led-team-introduces-streamvibe-video-agent",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T12:40:28.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The system trains models to decide when to offer spoken help during tasks without waiting for explicit prompts.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-led-team-introduces-streamvibe-video-agent",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DeepSeek releases open-source super agent prototype on GitHub",
+      "canonical_url": "https://www.siliconreport.com/deepseek-releases-open-source-super-agent-prototype-on-github",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T10:40:22.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The proposed system explores how parallel agents could execute tasks to reduce the need for human oversight.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/deepseek-releases-open-source-super-agent-prototype-on-github",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Next Technology board authorizes selling or pledging 5,833 Bitcoin",
+      "canonical_url": "https://www.siliconreport.com/next-technology-board-authorizes-selling-or-pledging-5-833-bitcoin",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T07:08:52.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The company cited exchange risks after the Binance hack, despite holding no coins on the breached platform.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/next-technology-board-authorizes-selling-or-pledging-5-833-bitcoin",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Local pushback delays nearly $200B in US data centers",
+      "canonical_url": "https://www.siliconreport.com/local-pushback-delays-nearly-200b-in-us-data-centers",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T06:10:21.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Opposition over grid strain, jobs and health risks has turned approvals into a flash point in the midterm elections.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/local-pushback-delays-nearly-200b-in-us-data-centers",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "S&P gives Meta negative outlook over capex and negative cash flow",
+      "canonical_url": "https://www.siliconreport.com/s-p-gives-meta-negative-outlook-over-capex-and-negative-cash-flow",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T05:40:09.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The rating agency warned that surging AI data center investments could keep cash deficits running past 2028.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/s-p-gives-meta-negative-outlook-over-capex-and-negative-cash-flow",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Motorola Signature 27 specs detailed in video ahead of launch",
+      "canonical_url": "https://www.siliconreport.com/motorola-signature-27-specs-detailed-in-video-ahead-of-launch",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T04:39:15.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "A hands-on video reveals Danny Winget's look at a reported 12,000-nit Tandem OLED screen and 200MP zoom camera.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/motorola-signature-27-specs-detailed-in-video-ahead-of-launch",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "FBI blames North Korea for $6B Binance hack",
+      "canonical_url": "https://www.siliconreport.com/fbi-blames-north-korea-for-6b-binance-hack",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T03:36:26.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "The FBI blamed cyber unit TraderTraitor and said stolen funds are being converted into Ethereum.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/fbi-blames-north-korea-for-6b-binance-hack",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia cuts Vera Rubin HBM4 bandwidth by about 13%",
+      "canonical_url": "https://www.siliconreport.com/nvidia-cuts-vera-rubin-hbm4-bandwidth-by-about-13",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T03:10:49.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "Per-GPU memory bandwidth falls to about 19.2 TB/s and NVLink to 3 TB/s as production hardware reaches cloud partners.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-cuts-vera-rubin-hbm4-bandwidth-by-about-13",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bolt Graphics powers on first silicon for Zeus GPU",
+      "canonical_url": "https://www.siliconreport.com/bolt-graphics-powers-on-first-silicon-for-zeus-gpu",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-01T01:11:45.000Z",
+      "fetched_at": "2026-11-02T20:40:53.104Z",
+      "excerpt": "A 12nm TSMC test chip validated the architecture ahead of targeted volume production in 2028.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/bolt-graphics-powers-on-first-silicon-for-zeus-gpu",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

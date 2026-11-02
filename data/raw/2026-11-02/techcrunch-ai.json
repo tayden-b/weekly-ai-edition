@@ -1,0 +1,413 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "techcrunch-ai",
+  "fetched_at": "2026-11-02T20:40:50.470Z",
+  "items": [
+    {
+      "headline": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "canonical_url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-02T19:19:17.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184280",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Brave",
+        "In Brief",
+        "new york times"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "canonical_url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-02T16:30:00.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184087",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "behavioral analysis",
+        "Exclusive",
+        "predictive analytics",
+        "world models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "canonical_url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-02T16:23:21.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184148",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Elon Musk",
+        "Grok",
+        "In Brief"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "canonical_url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-02T15:00:00.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184108",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "data centers",
+        "Exclusive",
+        "infrastructure",
+        "Mergers and Acquisitions",
+        "omen ai"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+      "canonical_url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-02T14:00:00.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184073",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "TC",
+        "Startups",
+        "Climate",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Robotics",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+      "canonical_url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-02T13:57:53.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184089",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "ChatGPT",
+        "In Brief",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "canonical_url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-01T21:55:23.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184048",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Chris Lehane",
+        "In Brief",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "canonical_url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-01T20:57:58.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184041",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Equity podcast",
+        "Marissa Mayer",
+        "Mark Zuckerberg",
+        "sam altman",
+        "Whitney Wolfe Herd"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Data centers are now a midterm issue, even in Brooklyn",
+      "canonical_url": "https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-01T02:22:10.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI and data centers.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3183712",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Media & Entertainment",
+        "data centers",
+        "elections"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "canonical_url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-31T21:41:00.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184023",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apple",
+        "In Brief",
+        "John Ternus"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "canonical_url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-31T21:36:07.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184015",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Biotech & Health",
+        "Climate",
+        "Fintech",
+        "Fundraising",
+        "Startups",
+        "Venture",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "canonical_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-31T21:17:03.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184013",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "SpaceX",
+        "xAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI reportedly lowers funding target for new round",
+      "canonical_url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-31T16:12:55.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184004",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Fundraising",
+        "In Brief",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "canonical_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-31T01:20:05.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3183989",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "data centers",
+        "nscale",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "canonical_url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-30T22:56:13.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3183846",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Startups",
+        "AI assistant",
+        "ollie"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "canonical_url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-30T21:54:34.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3183862",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Enterprise",
+        "TC",
+        "Intel"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "canonical_url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-30T21:52:03.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3183715",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "In Brief",
+        "IPO"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Last-minute Halloween costumes for tech nerds",
+      "canonical_url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-30T21:26:59.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3183738",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "TC",
+        "Media & Entertainment",
+        "AI",
+        "Halloween"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Cracks are emerging in the AI spending boom",
+      "canonical_url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-30T21:17:40.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3183832",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Enterprise",
+        "ai infrastructure",
+        "Alphabet",
+        "Amazon",
+        "big tech",
+        "Google",
+        "Meta",
+        "Microsoft"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "canonical_url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-10-30T17:47:12.000Z",
+      "fetched_at": "2026-11-02T20:40:51.777Z",
+      "excerpt": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3183083",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "AI agents",
+        "dining",
+        "zest"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
