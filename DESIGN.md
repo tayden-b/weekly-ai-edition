@@ -150,7 +150,7 @@ Page density target: whole issue readable in ~4 minutes of scrolling. No sidebar
 - WCAG AA contrast on all text; `--ink-3` is never used for text under 14px.
 - Deck is fully operable by keyboard and screen reader (cards are `role="region"` with page name; progress is `aria-valuenow`).
 - Lighthouse mobile ≥ 95 performance / 100 accessibility on the deck. Fonts self-hosted, subset, `font-display: swap`; cover image ≤ 180KB AVIF.
-- No client JS on the front page except the sticky bar, keyboard nav, and chart hydration.
+- No client JS on the front page except the sticky bar, keyboard nav, chart hydration, and the §2.2 markup mount (build-time static fragment fetched at the ≥768px breakpoint — #95).
 
 ## 6. Don'ts
 

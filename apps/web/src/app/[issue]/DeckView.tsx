@@ -1,6 +1,5 @@
 "use client";
 
-import type { MouseEvent, ReactNode } from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { ProgressSegments } from "@weekly/ui";
@@ -34,7 +33,6 @@ function easePage(x: number): number {
     if (Math.abs(v - x) < 1e-6) break;
     if (v < x) lo = (lo + hi) / 2;
     else hi = (lo + hi) / 2;
-    t = (lo + hi) / 2;
   }
   return ys(t);
 }
@@ -45,31 +43,18 @@ function prefersReducedMotion(): boolean {
 
 /**
  * The client island for the §2.1 deck: progress bar, eased programmatic
- * nav, arrow keys and tap zones. The cards themselves arrive as server
- * components via `children` — React never hydrates them, which keeps the
- * first paint (and the cover's LCP) ahead of the deck's interactivity.
- * Per-card `active` semantics (aria-hidden + inert so only the current
- * card is perceivable) are applied imperatively on the DOM — identical
- * attributes to what DeckCard renders, toggled on scroll/resize.
+ * nav, arrow keys and tap zones. It renders ONLY the `.dv-progress`
+ * chrome — the scroller and the cards are plain server markup (page.tsx),
+ * found via `document.querySelector`, so nothing of the ~570-node card
+ * DOM joins the RSC-flight payload or the hydration tree (#95: that
+ * eval sat inside the LCP-gating main-thread window). Per-card `active`
+ * semantics (aria-hidden + inert so only the current card is perceivable)
+ * are applied imperatively — identical attributes to what the markup
+ * renders at SSR.
  */
-export function DeckView({
-  total,
-  headline,
-  scrollerLabel,
-  children,
-}: {
-  /** Number of cards inside `children` — progress + nav bounds. */
-  total: number;
-  /** Visually-hidden h1 text (siteName — № issue (date range)). */
-  headline: string;
-  /** aria-label for the scroll-snap region. */
-  scrollerLabel: string;
-  /** The <Deck> of <DeckCard>s, rendered server-side. */
-  children: ReactNode;
-}) {
+export function DeckView({ total }: { total: number }) {
   const [index, setIndex] = useState(0);
   const indexRef = useRef(0);
-  const wrapRef = useRef<HTMLDivElement>(null);
   const rafRef = useRef(0);
   const keyboardNav = useRef(false);
 
@@ -77,9 +62,14 @@ export function DeckView({
     indexRef.current = index;
   }, [index]);
 
+  /* `.w-deck` is the scroll-snap container inside `.dv-scroller`; both are
+   * server markup — see page.tsx. */
   const deckEl = useCallback(
-    () =>
-      wrapRef.current?.querySelector<HTMLElement>(".w-deck") ?? null,
+    () => document.querySelector<HTMLElement>(".w-deck"),
+    [],
+  );
+  const scrollerEl = useCallback(
+    () => document.querySelector<HTMLElement>(".dv-scroller"),
     [],
   );
 
@@ -191,49 +181,42 @@ export function DeckView({
     };
   }, [total, deckEl, scrollToIndex]);
 
+  /* Stories-style tap zones: left third → back, rest → forward. Links and
+   * other interactive elements keep their own clicks. Attached here
+   * (the scroller is server markup, so a JSX onClick can't be). */
+  useEffect(() => {
+    const el = scrollerEl();
+    if (!el) return;
+    const onClick = (e: Event) => {
+      const me = e as MouseEvent;
+      if (
+        (me.target as HTMLElement).closest(
+          "a, button, input, select, textarea, [role='button']",
+        )
+      ) {
+        return;
+      }
+      const frac =
+        (me.clientX - el.getBoundingClientRect().left) / el.clientWidth;
+      scrollToIndex(
+        frac < 1 / 3 ? indexRef.current - 1 : indexRef.current + 1,
+      );
+    };
+    el.addEventListener("click", onClick);
+    return () => el.removeEventListener("click", onClick);
+  }, [scrollerEl, scrollToIndex]);
+
   /* Cancel an in-flight nav animation on unmount only — NOT on index
    * changes (the scroll listener updates index mid-animation). */
   useEffect(() => () => cancelAnimationFrame(rafRef.current), []);
 
-  /* Stories-style tap zones: left third → back, rest → forward. Links and
-   * other interactive elements keep their own clicks. */
-  const onClick = (e: MouseEvent<HTMLDivElement>) => {
-    if (
-      (e.target as HTMLElement).closest(
-        "a, button, input, select, textarea, [role='button']",
-      )
-    ) {
-      return;
-    }
-    const el = wrapRef.current;
-    if (!el) return;
-    const frac = (e.clientX - el.getBoundingClientRect().left) / el.clientWidth;
-    scrollToIndex(frac < 1 / 3 ? index - 1 : index + 1);
-  };
-
   return (
-    <div className="dv-root">
-      {/* The compact masthead is not a heading — the deck still needs one h1. */}
-      <h1 className="dv-sr-only">{headline}</h1>
-      <div className="dv-progress">
-        <ProgressSegments
-          total={total}
-          current={index + 1}
-          label="Issue progress"
-        />
-      </div>
-      <div
-        ref={wrapRef}
-        className="dv-scroller"
-        role="group"
-        aria-roledescription="carousel"
-        aria-label={scrollerLabel}
-        aria-keyshortcuts="ArrowLeft ArrowRight Home End"
-        tabIndex={0}
-        onClick={onClick}
-      >
-        {children}
-      </div>
+    <div className="dv-progress">
+      <ProgressSegments
+        total={total}
+        current={index + 1}
+        label="Issue progress"
+      />
     </div>
   );
 }
