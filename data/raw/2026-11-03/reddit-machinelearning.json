@@ -1,0 +1,332 @@
+{
+  "adapter": "reddit-json",
+  "source": "reddit-machinelearning",
+  "fetched_at": "2026-11-03T18:18:55.743Z",
+  "items": [
+    {
+      "headline": "Freind of mine published a paper with fabricated results in a top journal and got accepted and i feel disgusted [d]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xj8tvc/freind_of_mine_published_a_paper_with_fabricated/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-10-30T07:25:23.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "A friend of mine was doing a gap analysis as a project. The results he got weren't that big compared to the original papers, so he simply fabricated and increased the metrics here and there, AND IT GOT ACCEPTED IN AAAI. HOW DO THEY CHECK THE PAPERS, DUDE? I was in a group with two others and worked",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xj8tvc",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Old-school classifiers are still generally better than Jev [P]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xil53d/oldschool_classifiers_are_still_generally_better/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-10-29T14:13:05.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "There’s a lot of hype right now around decision models like Jev. But in most real use cases, you have some labeled data, and can use it to personalize your model. So we tested the old-school approach to classification and regression: Embed your inputs with an open-source or cheap embedding model",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xil53d",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Multi-Token Prediction Done Right [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xjnz40/multitoken_prediction_done_right_r/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-10-30T18:53:20.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "Sharing one of our latest papers on Multi-Token Prediction (MTP). MTP is now a standard recipe for frontier pre-training but turns out, it can be done much better. We show the standard MTP gradient hides a KL self-distillation signal (which we want for improving speculative decoding) behind a noisy",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xjnz40",
+        "reddit_subreddit": "MachineLearning",
+        "reddit_url": "https://i.redd.it/pdz8voy3inyh1.png"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xm89ef/sparks_of_weightspace_programming_llms_can/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T20:18:26.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "Link: https://rikiyat.github.io/blog/weight-space-programming/ Snippet: “We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights , well past what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xm89ef",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "To all ML PhDs, how are you guys doing these days? [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xm5w5i/to_all_ml_phds_how_are_you_guys_doing_these_days_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T18:52:17.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "Given how competitive AI research has become, and how much luck is involved in landing an actual research role at Big Tech or an AI startup, do you still think your PhD was worth it? Yes, i know a PhD should primarily be about enjoying research, not getting an industry job. But realistically, we",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xm5w5i",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Leaving a job to pursue a PhD [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xif85l/leaving_a_job_to_pursue_a_phd_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-10-29T09:28:28.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "I have been working as a ML Engineer at a startup for 4 years and while the environment is very good and the pay is higher than average, I'm thinking whether I want to pursue a PhD. Working and doing the PhD at the same time is not really viable so this would also potentially mean quitting. What I",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xif85l",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "ML PhDs: Would you rather have done your PhD before or after the rise of AI chatbots? [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xlt9wm/ml_phds_would_you_rather_have_done_your_phd/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T10:04:25.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "For those doing or having completed a PhD in ML, I’m curious: If you had the choice, would you rather have done your PhD before ChatGPT and other AI chatbots became widely available, or in today’s AI era?",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xlt9wm",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "We turned 10 years of ML papers into one page per topic: benchmark records, what got tried, what reviewers expect [P]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-03T05:09:18.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "We've been working on this for a while and shipped it today. We took every accepted paper from ICML, NeurIPS, ICLR, CVPR and AAAI since 2016 (about 109k), grouped them into ~1,260 topics, and pulled the results tables and ablations out of the full text of 79k of them. The research map just shows",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xmk8rx",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Why do all NN optimizers have weird names? [d]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xl7yv0/why_do_all_nn_optimizers_have_weird_names_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-01T16:51:18.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "SOAP, Shampoo, FOAM. Muon is a bit better but it has the same name as the particle from physics. Whenever I want to search about these tones of completely irrelevant results come up because of their non-unqiue names. Adam would have the same problem if it wasn't so famous. This has been giving me a",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xl7yv0",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "[R] Taking EmbeddingGemma-2 (577M) from Rank #26 to #1 on the MAEB audio benchmark by filling its 256d null space with PCA-reduced intermediate Conformer layers (zero training) [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xho7pr/r_taking_embeddinggemma2_577m_from_rank_26_to_1/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-10-28T13:34:01.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "Model & weights: BrunoHays/embeddinggemma-2-nullspace-audio I wanted to share an experiment on google/embeddinggemma-2 (577M) for MAEB, the 30-task audio benchmark on the MTEB leaderboard . By projecting intermediate Conformer layers into the unused null space of the model's final projection matrix",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xho7pr",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "ICLR 2027 review results [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xm8vik/iclr_2027_review_results_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T20:41:35.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "The reviews will be out this week. What are the expectations with 60K+ submissions and the small scale of review rating?",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xm8vik",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Are there fundamental repeating patterns in ML techniques across modalities (text, image, audio) that let us group them? [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-01T00:07:04.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "I’ve been noticing that a lot of techniques seem to repeat across modalities with just a different name. For example, tokenisation, masking (MLM / MAE / audio masking), diffusion, next-token / next-frame prediction, etc. Is there an existing taxonomy or mental model that groups ML techniques by",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xkp8e9",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Couldn't reproduce a published paper's numbers with its own code and settings. How do I present this? [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xm64of/couldnt_reproduce_a_published_papers_numbers_with/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T19:00:24.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "I'm writing a machine learning paper. One of my baselines is a published method. I reran it with the authors' released code and the exact hyperparameters listed in their paper. On most benchmarks my numbers match theirs within noise, but on two benchmarks my reproduction is clearly lower, by",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xm64of",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "What did Ilya Sutskever mean when he said \"The models, they just want to learn\"? [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xlyr77/what_did_ilya_sutskever_mean_when_he_said_the/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T14:32:14.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "It was just before OpenAI started that I met Ilya, who you interviewed . One of the first things he said to me was — “ Look. The models, they just want to learn. You have to understand this. The models, they just want to learn. ” And it was a bit like a Zen Koan. I listened to this and I became",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xlyr77",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Small-scale check of \"good views beat next-token prediction\" (Balestriero & LeCun 2026): human captions only, 11M-param encoders [P]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xlzoze/smallscale_check_of_good_views_beat_nexttoken/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T15:08:41.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "The paper claims text models align with image models faster when trained on \"good views\" (two different captions of one photo) than on bad views (one caption, words hidden) or next-token prediction. Its largest run used captions written by an image captioner, so image information could have leaked",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xlzoze",
+        "reddit_subreddit": "MachineLearning",
+        "reddit_url": "https://i.redd.it/j2humdsjq7zh1.png"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "any fun casual podcasts? [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xi7cvk/any_fun_casual_podcasts_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-10-29T01:55:38.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "Does anyone know any fun casual conversational style podcasts that discuss current papers/industry trends, with discussions at a high to mid technical level? Edit: small preference for conversation discussion styles between two constant hosts",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xi7cvk",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "[D] Simple Questions Thread",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xl6og2/d_simple_questions_thread/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-01T16:00:36.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. Thanks to everyone for answering questions in the previous thread!",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xl6og2",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xjyo89/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-10-31T02:30:21.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this template Want to be Hired: [Location], Salary Expectation:[], [Remote |",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xjyo89",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Arc: a ~70 MB streaming speech model that transcribes links names and metadata to your own list as they're spoken, with no second model [p]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xiyuoj/arc_a_70_mb_streaming_speech_model_that/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-10-29T22:51:57.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "I built Arc-Transcriber, which does ASR-NL in 1-step. Every 100 ms, one model returns the transcript plus: - Names linked to a list you give it (a roster, contacts, product names); new names are flagged \"not on the list\" - Numbers with their values (scores, clocks, money, dates) - Speakers and",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xiyuoj",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "[D] Self-Promotion Thread",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xlmffv/d_selfpromotion_thread/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T03:15:07.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xlmffv",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Best option for local models [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-01T07:16:53.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "Hi there, wanted a suggestion from the community regarding the hardware to run local models. The first option was just to get a MacBook Pro with 32 GB RAM, and the second one was to invest into Mac Mini (256 GB SSD and 32 GB RAM), and get an iPAD as well PS; I have access to B200, and multiple",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xkwrp3",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "LightMIS: Ultra-lightweight medical image segmentation for edge devices [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xm8dbo/lightmis_ultralightweight_medical_image/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T20:22:30.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "Hi everyone, I am one of the authors of LightMIS, and I would like to share our work on 2D binary medical image segmentation. LightMIS has 131K parameters and aggregates multi-scale encoder features directly, without a learned stage-wise decoder. It achieves close observed modality-macro Dice and",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xm8dbo",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Hierarchical detection of neonatal brain pathologies using a two-stage deep learning framework from magnetic resonance imaging [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xkcy83/hierarchical_detection_of_neonatal_brain/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-10-31T15:21:39.000Z",
+      "fetched_at": "2026-11-03T18:18:55.814Z",
+      "excerpt": "Hierarchical detection of neonatal brain pathologies using a two-stage deep learning framework from magnetic resonance imaging [R]",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xkcy83",
+        "reddit_subreddit": "MachineLearning",
+        "reddit_url": "https://www.frontiersin.org/journals/neuroimaging/articles/10.3389/fnimg.2026.1981436"
+      },
+      "adapter": "reddit-json"
+    }
+  ]
+}

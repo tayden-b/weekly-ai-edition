@@ -1,0 +1,43 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-deepmind-blog",
+  "fetched_at": "2026-11-03T18:18:55.743Z",
+  "items": [
+    {
+      "headline": "Agentic cheminformatics with Google Antigravity",
+      "canonical_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.778Z",
+      "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Speeding up planning decisions with AI",
+      "canonical_url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-10-30T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.778Z",
+      "excerpt": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Gemini 4 Carbon: Our next frontier model",
+      "canonical_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-10-28T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.778Z",
+      "excerpt": "Gemini 4 Carbon: Our next frontier model",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

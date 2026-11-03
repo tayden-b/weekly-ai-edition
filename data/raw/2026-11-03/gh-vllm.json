@@ -1,0 +1,20 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-vllm",
+  "fetched_at": "2026-11-03T18:18:55.743Z",
+  "items": [
+    {
+      "headline": "v0.33.0",
+      "canonical_url": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3",
+      "publisher": "GitHub: vllm-project/vllm",
+      "published_at": "2026-11-02T10:10:05Z",
+      "fetched_at": "2026-11-03T18:18:55.792Z",
+      "excerpt": "# v0.33.0 ## Highlights This release features 927 commits from 389 contributors (122 new)! * **New models**: Reflection Beam-1.0 (501B MoE, 23B active) with its DFlash2 drafter (#62074), Yandex AliceAI-Foundation-80B-A3B (#57963), Recursive Flint (40B MoE, 2.5B active) (#62938), Muse Spark Open",
+      "source_ids": {
+        "github_repo": "vllm-project/vllm",
+        "github_release_tag": "v0.33.0rc3"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}
