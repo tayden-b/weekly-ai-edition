@@ -1,0 +1,85 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "crunchbase-news",
+  "fetched_at": "2026-11-03T18:18:55.743Z",
+  "items": [
+    {
+      "headline": "China’s Largest Startup Deal Ever Lifts Global Venture Funding To $59B In October",
+      "canonical_url": "https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-03T12:00:44.000Z",
+      "fetched_at": "2026-11-03T18:18:55.811Z",
+      "excerpt": "Global venture funding in October totaled $59 billion, a 45% jump from a year earlier, per Crunchbase data, in large part due to a record-setting $15.9 billion funding round for China’s DeepSeek.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94315"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "More Money, Fewer Checks: These 3 Charts Show The Divide Behind VC&#8217;s Record Funding Year",
+      "canonical_url": "https://news.crunchbase.com/venture/q3-2026-charts-funding-amounts-vs-round-counts/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-02T12:00:28.000Z",
+      "fetched_at": "2026-11-03T18:18:55.811Z",
+      "excerpt": "Record venture funding in 2026 has been increasingly concentrated in massive AI rounds, while seed- and early-stage deal counts are on the decline. Using Crunchbase data we provide a look at how third-quarter funding continued the year's dollars-up-but-deals-down trend.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94310"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "The Week’s 10 Biggest Funding Rounds: Physical AI And Predictions Lead The Lineup",
+      "canonical_url": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-30T16:33:59.000Z",
+      "fetched_at": "2026-11-03T18:18:55.811Z",
+      "excerpt": "This week featured a robust lineup of large rounds, led by manufacturing startup Re:Build, which closed on $2.1 billion, and predictions marketplace Kalshi, which picked up another $1 billion.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94308"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Sector Snapshot: Travel Tech Funding Heads Toward Multiyear Low Despite AI Push",
+      "canonical_url": "https://news.crunchbase.com/travel-tourism/travel-tech-startup-venture-funding-low-ai/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-30T11:00:49.000Z",
+      "fetched_at": "2026-11-03T18:18:55.811Z",
+      "excerpt": "Travel demand appears to be holding up, but at the same time, investor appetite for travel tech startups has cooled. Even a wave of startups promising to improve travel with AI hasn’t managed to reverse the funding slowdown. We share what a review of Crunchbase data shows.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94304"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups",
+      "canonical_url": "https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-29T11:00:12.000Z",
+      "fetched_at": "2026-11-03T18:18:55.811Z",
+      "excerpt": "AI megarounds are masking a shrinking Series A market, leaving seed founders facing higher revenue expectations and longer timelines despite larger seed checks. To improve their chances, MGV's Marc Schröder says, founders should size their seed funding around Series A milestones.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94300"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "From Monk To Startups: One Founder’s Unusual Path To Building Government Software",
+      "canonical_url": "https://news.crunchbase.com/startups/nontech-founder-government-ai-software-chen-fsh/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-28T11:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.811Z",
+      "excerpt": "After living as a monk while managing Graves’ disease, a former Facebook engineer left Big Tech to pursue meaningful work, eventually founding government software startup FSH Technologies which aims to improve processes such as school food services and public records management through the use of",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94290"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

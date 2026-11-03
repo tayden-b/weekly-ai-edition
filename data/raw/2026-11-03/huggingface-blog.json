@@ -1,0 +1,115 @@
+{
+  "adapter": "lab-blogs",
+  "source": "huggingface-blog",
+  "fetched_at": "2026-11-03T18:18:55.743Z",
+  "items": [
+    {
+      "headline": "StateBench: Testing how language models track state changes over long documents",
+      "canonical_url": "https://huggingface.co/blog/allenai/statebench",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.789Z",
+      "excerpt": "StateBench: Testing how language models track state changes over long documents",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/allenai/statebench"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Palette: teaching a small model to build decks in your design language",
+      "canonical_url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.789Z",
+      "excerpt": "Palette: teaching a small model to build decks in your design language",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-research/palette-deck-building"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "CWE-bench v2: More coverage, quality, and transparency",
+      "canonical_url": "https://huggingface.co/blog/cwe-bench",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.789Z",
+      "excerpt": "CWE-bench v2: More coverage, quality, and transparency",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/cwe-bench"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Transformers Model Integration Contracts",
+      "canonical_url": "https://huggingface.co/blog/transformers-mic",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.789Z",
+      "excerpt": "Transformers Model Integration Contracts",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/transformers-mic"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "nemotron-halloween",
+      "canonical_url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-30T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.789Z",
+      "excerpt": "nemotron-halloween",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/nvidia/nemotron-halloween"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Granite Switch 4.1.1 — Update models like you update software",
+      "canonical_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.789Z",
+      "excerpt": "Granite Switch 4.1.1 — Update models like you update software",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "canonical_url": "https://huggingface.co/blog/announcing-project-protostar",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.789Z",
+      "excerpt": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/announcing-project-protostar"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/mistral-large4",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.789Z",
+      "excerpt": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/mistral-large4"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "canonical_url": "https://huggingface.co/blog/anydecisionmodel",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "fetched_at": "2026-11-03T18:18:55.789Z",
+      "excerpt": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/anydecisionmodel"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
