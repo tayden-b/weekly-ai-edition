@@ -1,0 +1,22 @@
+{
+  "adapter": "sec-edgar",
+  "source": "sec-edgar-current-feed",
+  "fetched_at": "2026-11-04T18:31:26.209Z",
+  "items": [
+    {
+      "headline": "D — Hanwha Next Generation AI Fund II LP",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2161385/000092963826004230/0000929638-26-004230-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-04T18:22:53.000Z",
+      "fetched_at": "2026-11-04T18:31:27.401Z",
+      "excerpt": "Filed: 2026-11-04 AccNo: 0000929638-26-004230 Size: 9 KB Item 3C: Investment Company Act Section 3(c) Item 3C.1: Section 3(c)(1) Item 3C.7: Section 3(c)(7)",
+      "source_ids": {
+        "edgar_accession": "0000929638-26-004230",
+        "edgar_cik": "0002161385",
+        "edgar_form": "D",
+        "edgar_items": "3C,3C.1,3C.7"
+      },
+      "adapter": "sec-edgar"
+    }
+  ]
+}
