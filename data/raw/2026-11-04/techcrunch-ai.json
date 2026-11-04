@@ -1,0 +1,417 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "techcrunch-ai",
+  "fetched_at": "2026-11-04T18:31:26.209Z",
+  "items": [
+    {
+      "headline": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+      "canonical_url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T16:51:35.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185071",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Hardware",
+        "Apple",
+        "Apple Intelligence",
+        "Apple Watch",
+        "audio",
+        "iPhone",
+        "siri",
+        "siri ai"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+      "canonical_url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T16:17:22.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185072",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Google Search"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+      "canonical_url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T13:00:00.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185013",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "TC",
+        "Startups",
+        "Climate",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Robotics",
+        "Fundraising",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic is working on a system to prove AI models’ identity",
+      "canonical_url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T22:41:03.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184891",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "cryptography",
+        "inference"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Data centers are turning to old jet engines as the wait for power grows",
+      "canonical_url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T22:19:53.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184896",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "data centers"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "canonical_url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T21:43:08.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184842",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "Venture",
+        "Ballistic Ventures",
+        "Exclusive"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+      "canonical_url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T21:05:55.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184699",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Enterprise",
+        "TC",
+        "Palantir"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "canonical_url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T19:34:43.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "The five-year-old startup raised a $1.3 billion round led by Bessemer.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184774",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "Bessemer Venture Partners",
+        "In Brief",
+        "inference",
+        "infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "canonical_url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T18:42:16.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184717",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Media & Entertainment",
+        "Netflix"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic is still grappling with the economics of compute",
+      "canonical_url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T17:07:01.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184638",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "canonical_url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T16:30:34.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184603",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Education",
+        "Google",
+        "Google Search"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple restricts dating apps and AI companions to users 18 and up",
+      "canonical_url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T15:38:27.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184598",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "ai companion",
+        "app store",
+        "Apple",
+        "online dating"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The TechCrunch Founder Summit agenda is only half the reason to be in Boston on November 4",
+      "canonical_url": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T14:30:00.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "On November 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184579",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Biotech & Health",
+        "Climate",
+        "Crypto",
+        "Fintech",
+        "Fundraising",
+        "Startups",
+        "TC",
+        "Venture",
+        "TechCrunch Founder Summit 2026"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase",
+      "canonical_url": "https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T14:00:00.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184568",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "TC",
+        "Startups",
+        "Climate",
+        "Fintech",
+        "Biotech & Health",
+        "Venture",
+        "AI",
+        "Fundraising"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "canonical_url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T07:20:00.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184378",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Hardware",
+        "Apple",
+        "Apple Intelligence",
+        "Apple Watch",
+        "audio",
+        "iOS"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "canonical_url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T03:30:00.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184353",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Android",
+        "Dreambeans",
+        "Google",
+        "iOS"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "canonical_url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T01:49:52.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184506",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "TC",
+        "Apple",
+        "earnings"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "canonical_url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-03T00:35:52.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184485",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "garry tan",
+        "Y Combinator"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "canonical_url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-02T23:13:53.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "The one-year-old startup is now valued at $300 million.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184455",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Fundraising",
+        "Startups",
+        "Venture",
+        "fine-tuning",
+        "Sequoia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "canonical_url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-02T22:14:50.000Z",
+      "fetched_at": "2026-11-04T18:31:27.277Z",
+      "excerpt": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3184332",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "TC",
+        "AI",
+        "Anthropic",
+        "RSI"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
