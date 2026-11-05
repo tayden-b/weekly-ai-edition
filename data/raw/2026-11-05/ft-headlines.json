@@ -1,0 +1,20 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-05T18:36:59.027Z",
+  "items": [
+    {
+      "headline": "So, about that Anthropic IPO . . .",
+      "canonical_url": "https://www.ft.com/content/2fbd60ee-060a-4957-b9c5-3b5a0ce88e1a?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-05T17:01:56.000Z",
+      "fetched_at": "2026-11-05T18:36:59.087Z",
+      "excerpt": "So, about that Anthropic IPO . . .",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "2fbd60ee-060a-4957-b9c5-3b5a0ce88e1a"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

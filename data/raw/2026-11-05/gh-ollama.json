@@ -1,0 +1,33 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-ollama",
+  "fetched_at": "2026-11-05T18:36:59.027Z",
+  "items": [
+    {
+      "headline": "v0.40.15",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.15-rc1",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-11-03T22:52:31Z",
+      "fetched_at": "2026-11-05T18:36:59.072Z",
+      "excerpt": "## What's Changed * mlx: load bundled CUDA libraries in-process on Linux by @dhiltgen in https://github.com/ollama/ollama/pull/19433 * model: add MiMo V2.6 model support by @dhiltgen in https://github.com/ollama/ollama/pull/19400 **Full Changelog**:",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.15-rc1"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "v0.40.14",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-11-03T01:40:40Z",
+      "fetched_at": "2026-11-05T18:36:59.072Z",
+      "excerpt": "## What's Changed * `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap * Cloud web search responses on `/api/chat` are now decoded correctly, including compressed responses * OpenAI-compatible endpoints no",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.14"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

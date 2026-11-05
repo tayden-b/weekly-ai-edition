@@ -1,0 +1,85 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "crunchbase-news",
+  "fetched_at": "2026-11-05T18:36:59.027Z",
+  "items": [
+    {
+      "headline": "Exclusive: Nurx And Journey Clinical Co-Founders Raise $6M For Mental Health Startup Siggy",
+      "canonical_url": "https://news.crunchbase.com/venture/nurx-journey-clinical-founders-raise-mental-health-startup-siggy/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-05T16:00:40.000Z",
+      "fetched_at": "2026-11-05T18:36:59.087Z",
+      "excerpt": "Siggy has raised $6 million in pre-seed funding to build a mental health service that uses AI to collect patients’ histories and track progress between appointments with licensed clinicians, the startup told Crunchbase News exclusively.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94329"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Dropbox Plans $350M AI Infrastructure Deal With Tigris Buy, Its Biggest Acquisition Yet",
+      "canonical_url": "https://news.crunchbase.com/ma/dbx-ai-infrastructure-deal-tigris-acquisition/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-05T14:00:20.000Z",
+      "fetched_at": "2026-11-05T18:36:59.087Z",
+      "excerpt": "Dropbox has announced plans to acquire Tigris Data for $350 million in a transaction the company told Crunchbase News would mark its largest acquisition since its founding in 2007.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94328"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "China’s Largest Startup Deal Ever Lifts Global Venture Funding To $59B In October",
+      "canonical_url": "https://news.crunchbase.com/venture/october-2026-global-startup-funding-strong-china-deepseek/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-03T12:00:44.000Z",
+      "fetched_at": "2026-11-05T18:36:59.087Z",
+      "excerpt": "Global venture funding in October totaled $59 billion, a 45% jump from a year earlier, per Crunchbase data, in large part due to a record-setting $15.9 billion funding round for China’s DeepSeek.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94315"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "More Money, Fewer Checks: These 3 Charts Show The Divide Behind VC&#8217;s Record Funding Year",
+      "canonical_url": "https://news.crunchbase.com/venture/q3-2026-charts-funding-amounts-vs-round-counts/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-02T12:00:28.000Z",
+      "fetched_at": "2026-11-05T18:36:59.087Z",
+      "excerpt": "Record venture funding in 2026 has been increasingly concentrated in massive AI rounds, while seed- and early-stage deal counts are on the decline. Using Crunchbase data we provide a look at how third-quarter funding continued the year's dollars-up-but-deals-down trend.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94310"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "The Week’s 10 Biggest Funding Rounds: Physical AI And Predictions Lead The Lineup",
+      "canonical_url": "https://news.crunchbase.com/venture/biggest-rounds-startups-physical-ai-predictions-robotics-rebuild/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-30T16:33:59.000Z",
+      "fetched_at": "2026-11-05T18:36:59.087Z",
+      "excerpt": "This week featured a robust lineup of large rounds, led by manufacturing startup Re:Build, which closed on $2.1 billion, and predictions marketplace Kalshi, which picked up another $1 billion.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94308"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Sector Snapshot: Travel Tech Funding Heads Toward Multiyear Low Despite AI Push",
+      "canonical_url": "https://news.crunchbase.com/travel-tourism/travel-tech-startup-venture-funding-low-ai/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-10-30T11:00:49.000Z",
+      "fetched_at": "2026-11-05T18:36:59.087Z",
+      "excerpt": "Travel demand appears to be holding up, but at the same time, investor appetite for travel tech startups has cooled. Even a wave of startups promising to improve travel with AI hasn’t managed to reverse the funding slowdown. We share what a review of Crunchbase data shows.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94304"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

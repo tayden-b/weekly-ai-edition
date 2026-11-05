@@ -1,0 +1,403 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "techcrunch-ai",
+  "fetched_at": "2026-11-05T18:36:59.027Z",
+  "items": [
+    {
+      "headline": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+      "canonical_url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-05T18:02:27.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "OpenAI President Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185500",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Claude can now analyze your spending with its new Personal Finance tool",
+      "canonical_url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-05T18:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185468",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Anthropic",
+        "Claude"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Axiom Math wants to keep AI slop out of mathematics",
+      "canonical_url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-05T16:16:45.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185344",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "TC",
+        "agents",
+        "math"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "canonical_url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-05T15:19:05.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185428",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Enterprise",
+        "cloud storage",
+        "Dropbox",
+        "Mergers and Acquisitions",
+        "Tigris Data"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+      "canonical_url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-05T14:42:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185356",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Gadgets",
+        "Hardware",
+        "Startups",
+        "AI agents",
+        "smart ring",
+        "wearables"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+      "canonical_url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-05T14:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185377",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Box",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
+      "canonical_url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-05T13:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185211",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "Exclusive",
+        "yc"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+      "canonical_url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185147",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Robotics",
+        "agility robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple is reportedly cutting budgets for its internal AI usage",
+      "canonical_url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-05T01:26:22.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185305",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apple",
+        "In Brief",
+        "tokenmaxxing"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "After the midterms, a bigger clash over data centers could be coming",
+      "canonical_url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-05T01:02:14.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "Data center opposition crossed party lines in Tuesday’s midterms.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185307",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "data centers"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "canonical_url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T22:45:09.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185268",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "election",
+        "guardrails alliance",
+        "leading the future",
+        "Public First"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "canonical_url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T22:13:16.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185172",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "AI hardware",
+        "hardware",
+        "In Brief",
+        "nothing phone"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Almost no one uses AI agents to book their Uber, company says",
+      "canonical_url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T21:56:01.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185205",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Transportation",
+        "AI agents",
+        "Uber"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI is already trying to shape the 2028 election",
+      "canonical_url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T21:25:44.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185152",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "AI policy",
+        "Chris Lehane",
+        "election",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta acquires AI coding startup Conductor",
+      "canonical_url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T21:10:56.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185181",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "conductor",
+        "Mergers and Acquisitions",
+        "Meta"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Open source AI is booming. Hugging Face explains who profits.",
+      "canonical_url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T19:30:04.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?post_type=tc_video&#038;p=3185186",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "Hugging Face",
+        "Irene Solaiman",
+        "nvidia",
+        "open source"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+      "canonical_url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T19:29:52.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185129",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "DuckDuckGo",
+        "Google",
+        "search engines"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "canonical_url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T18:44:57.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3185167",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "Startups",
+        "Equity podcast",
+        "Hugging Face",
+        "open source"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "I tried Apple’s Siri Recaps. They’re surprisingly useful — and a little unsettling",
+      "canonical_url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T16:51:35.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "Apple's AI-powered Siri Recaps won me over in just one day, despite my privacy reservations. But there's still room for improvement.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185071",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Hardware",
+        "Apple",
+        "Apple Intelligence",
+        "Apple Watch",
+        "audio",
+        "iPhone",
+        "siri",
+        "siri ai"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+      "canonical_url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-04T16:17:22.000Z",
+      "fetched_at": "2026-11-05T18:36:59.852Z",
+      "excerpt": "Politicians on the left, like NYC mayor Zohran Mamdani and former FTC chair Lina Khan, accused Google of acting as an unregulated monopoly.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185072",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Google Search"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
