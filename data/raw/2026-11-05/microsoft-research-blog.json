@@ -1,0 +1,43 @@
+{
+  "adapter": "lab-blogs",
+  "source": "microsoft-research-blog",
+  "fetched_at": "2026-11-05T18:36:59.027Z",
+  "items": [
+    {
+      "headline": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+      "publisher": "Microsoft Research",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.060Z",
+      "excerpt": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus specification, proves AI-generated code",
+      "source_ids": {
+        "guid": "https://www.microsoft.com/en-us/research/?p=1191852"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Learn the rules: The hacker mindset",
+      "canonical_url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/",
+      "publisher": "Microsoft Research",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.060Z",
+      "excerpt": "Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules. The post Learn the rules: The hacker",
+      "source_ids": {
+        "guid": "https://www.microsoft.com/en-us/research/?p=1192298"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/",
+      "publisher": "Microsoft Research",
+      "published_at": "2026-10-30T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.060Z",
+      "excerpt": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations, yet real enterprise data contains sensitive information that cannot be used for evaluation under any circumstances. The post From synthetic enterprise data evaluations to",
+      "source_ids": {
+        "guid": "https://www.microsoft.com/en-us/research/?p=1191770"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

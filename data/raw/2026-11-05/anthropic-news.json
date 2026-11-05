@@ -1,0 +1,139 @@
+{
+  "adapter": "lab-blogs",
+  "source": "anthropic-news",
+  "fetched_at": "2026-11-05T18:36:59.027Z",
+  "items": [
+    {
+      "headline": "The Long Term Benefit Trust",
+      "canonical_url": "https://www.anthropic.com/news/the-long-term-benefit-trust",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-05T15:44:46.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "The Long Term Benefit Trust",
+      "source_ids": {
+        "slug": "the-long-term-benefit-trust"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Alignment Assessment Ukaisi",
+      "canonical_url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-05T14:10:48.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "Alignment Assessment Ukaisi",
+      "source_ids": {
+        "slug": "alignment-assessment-ukaisi"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Accelerates Protein Design",
+      "canonical_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-02T10:11:06.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "Claude Accelerates Protein Design",
+      "source_ids": {
+        "slug": "Claude-accelerates-protein-design"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Shaped Science",
+      "canonical_url": "https://www.anthropic.com/research/claude-shaped-science",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-02T10:11:59.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "Claude Shaped Science",
+      "source_ids": {
+        "slug": "claude-shaped-science"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Discovering Vulnerabilities With Claude",
+      "canonical_url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-10-30T15:24:16.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "Discovering Vulnerabilities With Claude",
+      "source_ids": {
+        "slug": "discovering-vulnerabilities-with-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Enabling Independent Research",
+      "canonical_url": "https://www.anthropic.com/research/enabling-independent-research",
+      "publisher": "Anthropic",
+      "published_at": "2026-10-31T02:38:41.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "Enabling Independent Research",
+      "source_ids": {
+        "slug": "enabling-independent-research"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How Researchers Use Claude",
+      "canonical_url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-05T16:54:05.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "How Researchers Use Claude",
+      "source_ids": {
+        "slug": "how-researchers-use-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Investigating Vault Particles With Claude",
+      "canonical_url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-05T13:56:41.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "Investigating Vault Particles With Claude",
+      "source_ids": {
+        "slug": "investigating-vault-particles-with-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Managed Agents",
+      "canonical_url": "https://www.anthropic.com/research/managed-agents",
+      "publisher": "Anthropic",
+      "published_at": "2026-10-30T15:51:07.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "Managed Agents",
+      "source_ids": {
+        "slug": "managed-agents"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Provable Inference",
+      "canonical_url": "https://www.anthropic.com/research/provable-inference",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-03T19:10:19.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "Provable Inference",
+      "source_ids": {
+        "slug": "provable-inference"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Vibe Physics",
+      "canonical_url": "https://www.anthropic.com/research/vibe-physics",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-02T10:12:52.000Z",
+      "fetched_at": "2026-11-05T18:36:59.055Z",
+      "excerpt": "Vibe Physics",
+      "source_ids": {
+        "slug": "vibe-physics"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "silicon-report",
+  "fetched_at": "2026-11-05T18:36:59.027Z",
+  "items": [
+    {
+      "headline": "Food delivery startup Wonder files confidentially for US IPO",
+      "canonical_url": "https://www.siliconreport.com/food-delivery-startup-wonder-files-confidentially-for-us-ipo",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T18:14:38.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The Marc Lore-led startup reached a $9 billion valuation in July following extensive acquisitions.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/food-delivery-startup-wonder-files-confidentially-for-us-ipo",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google rolls out Gemini Omni 1.2 Flash with 15-second video creation",
+      "canonical_url": "https://www.siliconreport.com/google-rolls-out-gemini-omni-1-2-flash-with-15-second-video-creation",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T18:10:05.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The release cuts generation prices by 30% to $0.07 per second for 720p video in developer and enterprise tools.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-rolls-out-gemini-omni-1-2-flash-with-15-second-video-creation",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta, TikTok, and Google challenge California youth feed law",
+      "canonical_url": "https://www.siliconreport.com/meta-tiktok-and-google-challenge-california-youth-feed-law",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T18:07:15.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Federal lawsuits target state restrictions on personalized recommendations and autoplay video for users under 16.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/meta-tiktok-and-google-challenge-california-youth-feed-law",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Aina releases smart ring with screen, joystick, and mic",
+      "canonical_url": "https://www.siliconreport.com/aina-releases-smart-ring-with-screen-joystick-and-mic",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T17:40:35.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Pre-orders opened Thursday at an early-bird price of $399, with shipments scheduled for January 2027.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/aina-releases-smart-ring-with-screen-joystick-and-mic",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Humble Robotics raises $51M for cabless autonomous trucks",
+      "canonical_url": "https://www.siliconreport.com/humble-robotics-raises-51m-for-cabless-autonomous-trucks",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T17:38:40.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Obvious Ventures led the round, bringing the electric freight startup's total funding to $75 million.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/humble-robotics-raises-51m-for-cabless-autonomous-trucks",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Discord is moving its desktop app fully to Rust",
+      "canonical_url": "https://www.siliconreport.com/discord-is-moving-its-desktop-app-fully-to-rust",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T16:15:37.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The rebuild aims to cut memory usage, with early Windows tests showing about 290MB of RAM consumption.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/discord-is-moving-its-desktop-app-fully-to-rust",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Zipline raises $1.5 billion to build nationwide U.S. drone network",
+      "canonical_url": "https://www.siliconreport.com/zipline-raises-1-5-billion-to-build-nationwide-u-s-drone-network",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T16:12:49.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The company plans to expand manufacturing operations and ramp up hiring to support its delivery network.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/zipline-raises-1-5-billion-to-build-nationwide-u-s-drone-network",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Micron pauses Taoyuan Fab 11E construction over profit-sharing terms",
+      "canonical_url": "https://www.siliconreport.com/micron-pauses-taoyuan-fab-11e-construction-over-profit-sharing-terms",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T16:10:27.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Site work has all but halted, Bloomberg reported, as the chipmaker and its local union prepare to meet on Nov. 6.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/micron-pauses-taoyuan-fab-11e-construction-over-profit-sharing-terms",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "MacBook Pro M5 Pro and Max models go on sale online Nov. 6",
+      "canonical_url": "https://www.siliconreport.com/macbook-pro-m5-pro-and-max-models-go-on-sale-online-nov-6",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T15:18:45.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Starting prices reach $2,899 as tandem OLED screens reduce laptop weight by 14%.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/macbook-pro-m5-pro-and-max-models-go-on-sale-online-nov-6",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Box expands Nvidia pact, says search engine could cut token use 90%",
+      "canonical_url": "https://www.siliconreport.com/box-expands-nvidia-pact-says-search-engine-could-cut-token-use-90",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T15:12:59.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Box said the Nemotron-based retrieval tool could cut token use by 90% and accelerate agent responses fourfold.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/box-expands-nvidia-pact-says-search-engine-could-cut-token-use-90",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nintendo Switch 2 sales drop as memory costs force price hikes",
+      "canonical_url": "https://www.siliconreport.com/nintendo-switch-2-sales-drop-as-memory-costs-force-price-hikes",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T14:46:11.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Quarterly shipments fell 41% to 2.67 million units as operating profit declined 16%.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nintendo-switch-2-sales-drop-as-memory-costs-force-price-hikes",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta says building data centers will be harder after midterm defeats",
+      "canonical_url": "https://www.siliconreport.com/meta-says-building-data-centers-will-be-harder-after-midterm-defeats",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T13:47:39.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Dina Powell McCormick said hyperscalers are evaluating whether they need to build infrastructure outside the U.S.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/meta-says-building-data-centers-will-be-harder-after-midterm-defeats",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google backs debt for TeraWulf's roughly $19B Anthropic lease",
+      "canonical_url": "https://www.siliconreport.com/google-backs-debt-for-terawulf-s-roughly-19b-anthropic-lease",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T13:44:13.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The credit agreements give Google step-in rights and require Anthropic to deploy approved TPUs.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-backs-debt-for-terawulf-s-roughly-19b-anthropic-lease",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ocient raises $100 million to expand agentic AI analytics",
+      "canonical_url": "https://www.siliconreport.com/ocient-raises-100-million-to-expand-agentic-ai-analytics",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T13:09:18.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The Series C round co-led by BOKA Capital and OCA Ventures brings total capital raised to $260 million.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/ocient-raises-100-million-to-expand-agentic-ai-analytics",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI pledges to cover power costs for future data centers",
+      "canonical_url": "https://www.siliconreport.com/openai-pledges-to-cover-power-costs-for-future-data-centers",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T11:42:13.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The company promised to pay full energy costs and avoid public nondisclosure agreements for its future campuses.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-pledges-to-cover-power-costs-for-future-data-centers",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ricursive releases Ripple-65B Preview on Hugging Face and APIs",
+      "canonical_url": "https://www.siliconreport.com/ricursive-releases-ripple-65b-preview-on-hugging-face-and-apis",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T11:40:14.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The 65-billion-parameter model carries an Apache 2.0 license and starts at $0.60 per million output tokens.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/ricursive-releases-ripple-65b-preview-on-hugging-face-and-apis",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Snap surpasses 30 million paid subscribers across its plans",
+      "canonical_url": "https://www.siliconreport.com/snap-surpasses-30-million-paid-subscribers-across-its-plans",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T07:47:47.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Non-advertising revenue climbed 84% as the company's Lens+ tier expanded nearly 600% since January.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/snap-surpasses-30-million-paid-subscribers-across-its-plans",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "NextDC shares jump 51% after Goodman and Digital Realty seek stake",
+      "canonical_url": "https://www.siliconreport.com/nextdc-shares-jump-51-after-goodman-and-digital-realty-seek-stake",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T07:41:32.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "NextDC said Ackland Investments launched an aftermarket bookbuild for up to a 9.9% stake priced at A$9.50 a share.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nextdc-shares-jump-51-after-goodman-and-digital-realty-seek-stake",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "YMTC puts Shanghai IPO on hold as regulators tighten approvals",
+      "canonical_url": "https://www.siliconreport.com/ymtc-puts-shanghai-ipo-on-hold-as-regulators-tighten-approvals",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T06:42:39.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The Chinese chipmaker had aimed to raise $4.9 billion on Shanghai's STAR market to fund expansion.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/ymtc-puts-shanghai-ipo-on-hold-as-regulators-tighten-approvals",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta decides to stop naming AI models after fruit",
+      "canonical_url": "https://www.siliconreport.com/meta-decides-to-stop-naming-ai-models-after-fruit",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T05:09:35.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The internal branding shift follows projects like Watermelon, the codename for Meta's Wonder Full frontier model.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/meta-decides-to-stop-naming-ai-models-after-fruit",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic struck AP licensing deal ahead of midterms, Adweek reports",
+      "canonical_url": "https://www.siliconreport.com/anthropic-struck-ap-licensing-deal-ahead-of-midterms-adweek-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T05:06:34.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The deal gave Claude attributed election updates on Election Night, Adweek reported.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-struck-ap-licensing-deal-ahead-of-midterms-adweek-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Pliant raises $80M to connect B2B payments to AI agents",
+      "canonical_url": "https://www.siliconreport.com/pliant-raises-80m-to-connect-b2b-payments-to-ai-agents",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T04:17:42.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Seaya Nova and Speedinvest led the Series C to fund North American expansion and agent payment integrations.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/pliant-raises-80m-to-connect-b2b-payments-to-ai-agents",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Waymo will end Uber exclusivity in Austin and Atlanta in January 2028",
+      "canonical_url": "https://www.siliconreport.com/waymo-will-end-uber-exclusivity-in-austin-and-atlanta-in-january-2028",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T04:12:13.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The autonomous vehicle company plans to offer direct bookings through its own app in both cities.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/waymo-will-end-uber-exclusivity-in-austin-and-atlanta-in-january-2028",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI says pipeline found and exploited 948 Linux flaws",
+      "canonical_url": "https://www.siliconreport.com/openai-says-pipeline-found-and-exploited-948-linux-flaws",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T03:10:58.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "OpenAI said the automated run generated candidate patches while consuming $1,213,430 in API credits.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-says-pipeline-found-and-exploited-948-linux-flaws",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "VMware returns to low-end server virtualization with vSphere Express",
+      "canonical_url": "https://www.siliconreport.com/vmware-returns-to-low-end-server-virtualization-with-vsphere-express",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T03:09:20.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The subscription software runs on up to 128 cores without central management, priced at $9,600 annually by TD Synnex.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/vmware-returns-to-low-end-server-virtualization-with-vsphere-express",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Voters side against data centers in all but one local ballot measure",
+      "canonical_url": "https://www.siliconreport.com/voters-side-against-data-centers-in-all-but-one-local-ballot-measure",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T02:42:21.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Voters across 10 states rejected data centers in 40 of 41 measures, passing bans and power caps.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/voters-side-against-data-centers-in-all-but-one-local-ballot-measure",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "APT29 targets iOS and Android users with patched flaws, Sekoia says",
+      "canonical_url": "https://www.siliconreport.com/apt29-targets-ios-and-android-users-with-patched-flaws-sekoia-says",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T02:37:55.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Attackers compromised analytics and set up lookalike sites to siphon data, Sekoia says.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apt29-targets-ios-and-android-users-with-patched-flaws-sekoia-says",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Phaze raises $8.75M seed round led by a16z",
+      "canonical_url": "https://www.siliconreport.com/phaze-raises-8-75m-seed-round-led-by-a16z",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T02:14:09.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The startup pools high-end enterprise workstations for remote operation by people and AI agents.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/phaze-raises-8-75m-seed-round-led-by-a16z",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Kyndryl shares surge 30% on fiscal second-quarter earnings",
+      "canonical_url": "https://www.siliconreport.com/kyndryl-shares-surge-30-on-fiscal-second-quarter-earnings",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T02:12:45.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Hyperscaler-related revenue grew more than 27% to over $550 million during the quarter ended Sept. 30.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/kyndryl-shares-surge-30-on-fiscal-second-quarter-earnings",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Qualcomm tops estimates but stock slides 7% on light forecast",
+      "canonical_url": "https://www.siliconreport.com/qualcomm-tops-estimates-but-stock-slides-7-on-light-forecast",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T01:43:06.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "First-quarter profit guidance fell short of consensus as surging memory costs depressed smartphone chip demand.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/qualcomm-tops-estimates-but-stock-slides-7-on-light-forecast",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple rolls out subscription retention tool for developers",
+      "canonical_url": "https://www.siliconreport.com/apple-rolls-out-subscription-retention-tool-for-developers",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T01:09:40.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Developers can display custom messages and discount offers directly in the App Store cancellation flow.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-rolls-out-subscription-retention-tool-for-developers",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Uber says only four rides were ordered through AI agents",
+      "canonical_url": "https://www.siliconreport.com/uber-says-only-four-rides-were-ordered-through-ai-agents",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T01:07:47.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Third-party assistants placed roughly 500 food orders out of 320 million total transactions during Halloween week.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/uber-says-only-four-rides-were-ordered-through-ai-agents",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Hinojosa win could stall 13 gigawatts of data center power, GLJ says",
+      "canonical_url": "https://www.siliconreport.com/hinojosa-win-could-stall-13-gigawatts-of-data-center-power-glj-says",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T00:45:00.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Incoming governors in Texas and Georgia plan construction pauses as voters pass 38 local data center restrictions.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/hinojosa-win-could-stall-13-gigawatts-of-data-center-power-glj-says",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Docusign acquires AI spending analysis startup Suplari",
+      "canonical_url": "https://www.siliconreport.com/docusign-acquires-ai-spending-analysis-startup-suplari",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T00:40:01.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The deal gives the Seattle startup a second corporate exit following its late 2023 spinout from Microsoft.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/docusign-acquires-ai-spending-analysis-startup-suplari",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Figma revenue grew about 43% as shares tumble 7%",
+      "canonical_url": "https://www.siliconreport.com/figma-revenue-grew-about-43-as-shares-tumble-7",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T00:17:39.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The design software maker lifted full-year guidance despite an 80% gross margin missing analyst expectations.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/figma-revenue-grew-about-43-as-shares-tumble-7",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "GlobalFoundries enters $2B TSMC interposer deal",
+      "canonical_url": "https://www.siliconreport.com/globalfoundries-enters-2b-tsmc-interposer-deal",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T00:14:13.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The multi-year deal creates U.S. CoWoS packaging supply as Q3 non-IFRS operating margin reached 17.9%.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/globalfoundries-enters-2b-tsmc-interposer-deal",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple cuts daily AI spending cap to $200 for some engineers",
+      "canonical_url": "https://www.siliconreport.com/apple-cuts-daily-ai-spending-cap-to-200-for-some-engineers",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T00:12:54.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Apple lowered the previous $300 limit and plans further reductions to as little as $100.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-cuts-daily-ai-spending-cap-to-200-for-some-engineers",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nothing will ship its first AI-native product in December",
+      "canonical_url": "https://www.siliconreport.com/nothing-will-ship-its-first-ai-native-product-in-december",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T00:11:21.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Chief executive Carl Pei described the upcoming hardware as a screenless productivity tool rather than an app.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nothing-will-ship-its-first-ai-native-product-in-december",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Crypto crime initiative quietly dissolved in August, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/crypto-crime-initiative-quietly-dissolved-in-august-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T00:10:13.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Tron, Tether, and TRM confirmed the T3 unit wound down after freezing $250 million in assets.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/crypto-crime-initiative-quietly-dissolved-in-august-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta acquires AI coding startup Conductor",
+      "canonical_url": "https://www.siliconreport.com/meta-acquires-ai-coding-startup-conductor",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T22:17:55.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The startup's team will join Meta Superintelligence Labs while its cloud service shuts down on Nov. 20.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/meta-acquires-ai-coding-startup-conductor",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sequoia closes London office and sunsets accelerator, Scouts programs",
+      "canonical_url": "https://www.siliconreport.com/sequoia-closes-london-office-and-sunsets-accelerator-scouts-programs",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T21:09:16.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The firm is flattening its investing partnership and moving European coverage back to its California headquarters.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/sequoia-closes-london-office-and-sunsets-accelerator-scouts-programs",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google offers voluntary exit packages in five countries",
+      "canonical_url": "https://www.siliconreport.com/google-offers-voluntary-exit-packages-in-five-countries",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T21:08:43.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The buyout program excludes key artificial intelligence and cloud divisions as Alphabet reallocates budget.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-offers-voluntary-exit-packages-in-five-countries",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple Music adds Selfie Sing video karaoke in iOS 27.3 beta",
+      "canonical_url": "https://www.siliconreport.com/apple-music-adds-selfie-sing-video-karaoke-in-ios-27-3-beta",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T19:15:41.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The update also brings expanded artwork in landscape lyrics mode to all iPhone models ahead of a release next month.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-music-adds-selfie-sing-video-karaoke-in-ios-27-3-beta",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Smartsheet introduces AI planning and execution platform",
+      "canonical_url": "https://www.siliconreport.com/smartsheet-introduces-ai-planning-and-execution-platform",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T19:12:17.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The vsActual system links third-party enterprise tools to map project progress against strategic goals.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/smartsheet-introduces-ai-planning-and-execution-platform",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "ChatGPT can now create GIFs using prompts or photos",
+      "canonical_url": "https://www.siliconreport.com/chatgpt-can-now-create-gifs-using-prompts-or-photos",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T19:09:28.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The Images 2.6 rollout lets users edit individual animation frames and adjust playback speed directly in the chatbot.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/chatgpt-can-now-create-gifs-using-prompts-or-photos",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Industry PACs spent nearly $250M on federal races as candidates lost",
+      "canonical_url": "https://www.siliconreport.com/industry-pacs-spent-nearly-250m-on-federal-races-as-candidates-lost",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T19:07:46.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "About $74.7 million in general-election super PAC funds backed losing candidates, Tech Influence Watch reported.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/industry-pacs-spent-nearly-250m-on-federal-races-as-candidates-lost",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Enough Phone begins preorders for compact 5.3-inch smartphone",
+      "canonical_url": "https://www.siliconreport.com/enough-phone-begins-preorders-for-compact-5-3-inch-smartphone",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T18:43:04.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "The compact Android smartphone includes a user-replaceable battery and is scheduled to ship in May 2027.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/enough-phone-begins-preorders-for-compact-5-3-inch-smartphone",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI stocks slip as Democrats win key data center hubs",
+      "canonical_url": "https://www.siliconreport.com/ai-stocks-slip-as-democrats-win-key-data-center-hubs",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T18:39:33.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "A projected Texas moratorium puts planned gigawatts at risk, prompting Elon Musk to pitch space-based computing.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/ai-stocks-slip-as-democrats-win-key-data-center-hubs",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple will check public iCloud links for harmful content",
+      "canonical_url": "https://www.siliconreport.com/apple-will-check-public-icloud-links-for-harmful-content",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T18:39:23.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "Items shared via open links will lose end-to-end encryption even if users enable Advanced Data Protection.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-will-check-public-icloud-links-for-harmful-content",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Titan OS raises $46 million in equity and debt",
+      "canonical_url": "https://www.siliconreport.com/titan-os-raises-46-million-in-equity-and-debt",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-04T18:07:26.000Z",
+      "fetched_at": "2026-11-05T18:37:00.848Z",
+      "excerpt": "BlackRock-managed funds backed the round as the European platform expands to 30 million smart TV users.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/titan-os-raises-46-million-in-equity-and-debt",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
