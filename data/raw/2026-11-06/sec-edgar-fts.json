@@ -1,0 +1,200 @@
+{
+  "adapter": "sec-edgar",
+  "source": "sec-edgar-fts",
+  "fetched_at": "2026-11-06T17:52:04.617Z",
+  "items": [
+    {
+      "headline": "8-K — WhiteFiber, Inc. (WYFI)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2042022/000121390026115575/0001213900-26-115575-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:06.533Z",
+      "excerpt": "PRESS RELEASE, DATED NOVEMBER 3, 2026; items 1.01, 2.01, 7.01, 9.01; filed by WhiteFiber, Inc. (WYFI)",
+      "source_ids": {
+        "edgar_accession": "0001213900-26-115575",
+        "edgar_cik": "0002042022",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Eva Live Inc (GOAI)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1983736/000149315226050298/0001493152-26-050298-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-06T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:06.533Z",
+      "excerpt": "EX-99.1; items 1.01, 8.01, 9.01; filed by Eva Live Inc (GOAI)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-050298",
+        "edgar_cik": "0001983736",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — XMax Inc. (XMAX)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1473334/000149315226049569/0001493152-26-049569-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:06.533Z",
+      "excerpt": "EX-99.1; items 1.01, 8.01, 9.01; filed by XMax Inc. (XMAX)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-049569",
+        "edgar_cik": "0001473334",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — Holvek Technologies Corp",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2161470/000216147026000002/0002161470-26-000002-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:06.533Z",
+      "excerpt": "FORM S-1; filed by Holvek Technologies Corp",
+      "source_ids": {
+        "edgar_accession": "0002161470-26-000002",
+        "edgar_cik": "0002161470",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — GBT Technologies Inc. (GTCH)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1471781/000173112226001407/0001731122-26-001407-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:06.533Z",
+      "excerpt": "EXHIBIT 99.1; items 1.01, 2.03, 3.02, 5.02, 7.01, 8.01, 9.01; filed by GBT Technologies Inc. (GTCH)",
+      "source_ids": {
+        "edgar_accession": "0001731122-26-001407",
+        "edgar_cik": "0001471781",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.03,3.02,5.02,7.01,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — iSpecimen Inc. (ISPC)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1558569/000121390026116431/0001213900-26-116431-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:06.533Z",
+      "excerpt": "PRESS RELEASE, DATED NOVEMBER 5, 2026; items 1.01, 2.01, 3.02, 5.01, 7.01, 9.01; filed by iSpecimen Inc. (ISPC)",
+      "source_ids": {
+        "edgar_accession": "0001213900-26-116431",
+        "edgar_cik": "0001558569",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.01,3.02,5.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — TERAWULF INC. (WULF)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1083301/000162828026069810/0001628280-26-069810-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-04T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:06.533Z",
+      "excerpt": "EX-99.1; items 1.01, 7.01, 8.01, 9.01; filed by TERAWULF INC. (WULF)",
+      "source_ids": {
+        "edgar_accession": "0001628280-26-069810",
+        "edgar_cik": "0001083301",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,7.01,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Theriva Biologics, Inc. (TOVX)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/894158/000110465926121318/0001104659-26-121318-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:07.147Z",
+      "excerpt": "EXHIBIT 99.1; items 1.01, 2.01, 7.01, 9.01; filed by Theriva Biologics, Inc. (TOVX)",
+      "source_ids": {
+        "edgar_accession": "0001104659-26-121318",
+        "edgar_cik": "0000894158",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — Ja-Lika Corp",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2158764/000117152026000318/0001171520-26-000318-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:07.147Z",
+      "excerpt": "FORM S-1; filed by Ja-Lika Corp",
+      "source_ids": {
+        "edgar_accession": "0001171520-26-000318",
+        "edgar_cik": "0002158764",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Alphega Innovations Corp",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2038564/000203856426000018/0002038564-26-000018-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:07.147Z",
+      "excerpt": "IP & BUSINESS ASSET ACQUISITION, STRATEGIC COMMERCIALIZATION & SHARE CONSIDERATION AGREEMENT; items 1.01, 3.02, 9.01; filed by Alphega Innovations Corp",
+      "source_ids": {
+        "edgar_accession": "0002038564-26-000018",
+        "edgar_cik": "0002038564",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,3.02,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — NCR Voyix Corp (VYX, NCRRP)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/70866/000007086626000038/0000070866-26-000038-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:07.147Z",
+      "excerpt": "EX-99.1; items 2.01, 7.01, 9.01; filed by NCR Voyix Corp (VYX, NCRRP)",
+      "source_ids": {
+        "edgar_accession": "0000070866-26-000038",
+        "edgar_cik": "0000070866",
+        "edgar_form": "8-K",
+        "edgar_items": "2.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D/A — 360 ONE Multi Stage Artificial Intelligence Fund Series 1",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2151907/000215190726000002/0002151907-26-000002-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-04T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:07.147Z",
+      "excerpt": "FORM D/A; items 06B, 3C, 3C.1, 3C.7; filed by 360 ONE Multi Stage Artificial Intelligence Fund Series 1",
+      "source_ids": {
+        "edgar_accession": "0002151907-26-000002",
+        "edgar_cik": "0002151907",
+        "edgar_form": "D/A",
+        "edgar_items": "06B,3C,3C.1,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Enhanced Group Inc. (ENHA)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1956439/000162828026070679/0001628280-26-070679-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:07.147Z",
+      "excerpt": "EX-99.2; items 1.01, 3.02, 5.07, 7.01, 9.01; filed by Enhanced Group Inc. (ENHA)",
+      "source_ids": {
+        "edgar_accession": "0001628280-26-070679",
+        "edgar_cik": "0001956439",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,3.02,5.07,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    }
+  ]
+}

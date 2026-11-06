@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-ai-blog",
+  "fetched_at": "2026-11-06T17:52:04.617Z",
+  "items": [
+    {
+      "headline": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:04.650Z",
+      "excerpt": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "The latest AI news we announced in October 2026",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:04.650Z",
+      "excerpt": "Here are Google’s latest AI updates from October 2026",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
