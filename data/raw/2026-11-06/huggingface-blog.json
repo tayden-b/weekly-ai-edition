@@ -1,0 +1,103 @@
+{
+  "adapter": "lab-blogs",
+  "source": "huggingface-blog",
+  "fetched_at": "2026-11-06T17:52:04.617Z",
+  "items": [
+    {
+      "headline": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "canonical_url": "https://huggingface.co/blog/allenai/toyblocks",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-06T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:04.659Z",
+      "excerpt": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/allenai/toyblocks"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "canonical_url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-06T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:04.659Z",
+      "excerpt": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "canonical_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:04.659Z",
+      "excerpt": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "canonical_url": "https://huggingface.co/blog/phonon-tts",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:04.659Z",
+      "excerpt": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/phonon-tts"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "canonical_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-04T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:04.659Z",
+      "excerpt": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Palette: teaching a small model to build decks in your design language",
+      "canonical_url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:04.659Z",
+      "excerpt": "Palette: teaching a small model to build decks in your design language",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-research/palette-deck-building"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "CWE-bench v2: More coverage, quality, and transparency",
+      "canonical_url": "https://huggingface.co/blog/cwe-bench",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:04.659Z",
+      "excerpt": "CWE-bench v2: More coverage, quality, and transparency",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/cwe-bench"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Transformers Model Integration Contracts",
+      "canonical_url": "https://huggingface.co/blog/transformers-mic",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-06T17:52:04.659Z",
+      "excerpt": "Transformers Model Integration Contracts",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/transformers-mic"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
