@@ -1,0 +1,335 @@
+{
+  "adapter": "reddit-json",
+  "source": "reddit-artificial",
+  "fetched_at": "2026-11-07T16:47:01.700Z",
+  "items": [
+    {
+      "headline": "Grok Bot users ran out of a week’s usage overnight, and Elon Musk says the agent was costing too much",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xlfd9v/grok_bot_users_ran_out_of_a_weeks_usage_overnight/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-01T21:44:18.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "975845th reason why I'd never use Grok...",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xlfd9v",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://madrobot.blog/2026/11/01/grok-bot-usage-limit-100-overnight-musk-cost/"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Almost half of all new Steam games use AI now",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xm0tga/almost_half_of_all_new_steam_games_use_ai_now/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-02T15:50:53.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Almost half of all new Steam games use AI now",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xm0tga",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://www.dexerto.com/gaming/almost-half-of-all-new-steam-games-use-ai-now-3423933/"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Trump’s achilles heel is turning his own voters against him",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xl4wds/trumps_achilles_heel_is_turning_his_own_voters/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-01T14:48:18.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Trump’s achilles heel is turning his own voters against him",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xl4wds",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://inews.co.uk/news/world/destroying-homes-trump-voters-turn-against-data-centres-4862641"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Microsoft files patent for AI that can alter what people say during live broadcasts",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xp3pww/microsoft_files_patent_for_ai_that_can_alter_what/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-06T04:25:28.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Microsoft files patent for AI that can alter what people say during live broadcasts",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xp3pww",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://www.computerworld.com/article/4244752/microsoft-files-patent-for-ai-that-can-alter-what-people-say-during-live-broadcasts.html"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "ChatGPT's search volume is now roughly 20% of Google's. Wow, people were really sick of Google, huh?",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xng7ur/chatgpts_search_volume_is_now_roughly_20_of/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-04T05:38:58.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "ChatGPT's search volume is now roughly 20% of Google's. Wow, people were really sick of Google, huh?",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xng7ur",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://tech.yahoo.com/ai/chatgpt/articles/chatgpts-search-volume-now-roughly-204510905.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cucmVkZGl0LmNvbS8&guce_referrer_sig=AQAAANy0RModkKsLyARqY6lqMPmtivd1CCMgna0IdrKqIsarmAbO19gMY1fHjZfcXchRmKZfCO8LJw5jmpZ6jA48LS83X0itLoUODWr8OAXnugut3tMTcCeuQuyu-PqSTui9NQz4WsR_ZQEf1yfCQiA-goPObb6Nid3HP_a72DiuIXf3"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Apple Watch now listens to in-person conversations & lets you rewind them",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xntvml/apple_watch_now_listens_to_inperson_conversations/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-04T17:15:02.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Apple Watch now listens to in-person conversations & lets you rewind them",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xntvml",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://www.dexerto.com/entertainment/apple-watch-now-listens-to-in-person-conversations-lets-you-rewind-them-3424859/"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Hideo Kojima says AI lacks what makes the creative process fun, despite its efficiency. “It’s not a form of creation I find particularly interesting” - AUTOMATON WEST",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xor677/hideo_kojima_says_ai_lacks_what_makes_the/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-05T19:02:25.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Hideo Kojima says AI lacks what makes the creative process fun, despite its efficiency. “It’s not a form of creation I find particularly interesting” - AUTOMATON WEST",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xor677",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://automaton-media.com/en/news/hideo-kojima-says-ai-lacks-what-makes-the-creative-process-fun-despite-its-efficiency-its-not-a-form-of-creation-i-find-particularly-interesting/"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Apple is cutting employee AI spending budgets even as it pushes workers to use the technology more. Engineers have seen daily limits cut from $300 to $200, with further reductions to $100 planned. Other teams could see limits fall to $25.",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xocwcy/apple_is_cutting_employee_ai_spending_budgets/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-05T07:50:01.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xocwcy",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://i.redd.it/o8l9f1ml1rzh1.jpeg"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Google to shut off search for schools that opt-out of AI",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xn22y7/google_to_shut_off_search_for_schools_that_optout/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-03T19:10:47.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Google to shut off search for schools that opt-out of AI",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xn22y7",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://www.nbcnews.com/tech/tech-news/google-shut-search-schools-opt-ai-rcna607280"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "OpenAI lowers funding goals as investors cool on AI",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xm7eyb/openai_lowers_funding_goals_as_investors_cool_on/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-02T19:47:27.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "OpenAI lowers funding goals as investors cool on AI",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xm7eyb",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://www.linkedin.com/news/story/openai-lowers-funding-goals-as-investors-cool-on-ai-7741572/?utm_source=share&utm_campaign=reddit&utm_content=storyline&utm_term=artificial"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Congressional Progressive Caucus Chair calls for AI to be a top issue next year and for testimony from CEOs",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xnf3ks/congressional_progressive_caucus_chair_calls_for/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-04T04:38:12.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "https://fixupx.com/BenBrodyDC/status/2117821832317534519",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xnf3ks",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://i.redd.it/dzm9o9cgyizh1.jpeg"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Turkey Uses AI and Other Tech to Claw Back 100 Looted Antiquities from the US",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xpk0wl/turkey_uses_ai_and_other_tech_to_claw_back_100/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-06T18:19:32.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "This is just cool! Goes to show you that AI is not inherently bad. Great news!",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xpk0wl",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://www.artnews.com/art-news/news/turkey-uses-ai-tech-100-looted-antiquities-us-1234804634/"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "OpenAI is now capping how many paid ChatGPT accounts you can have per device and payment card",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xlfdof/openai_is_now_capping_how_many_paid_chatgpt/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-01T21:44:45.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "OpenAI is now capping how many paid ChatGPT accounts you can have per device and payment card",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xlfdof",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "ok AI assistants are getting kinda out of hand",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xmtn3k/ok_ai_assistants_are_getting_kinda_out_of_hand/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-03T13:59:06.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "So i've been reading about AI agent stuff and this week was actually insane. this guy in japan asked some AI assistant called Pickle to look up hotels for new years and it just... called the hotel by itself?? Twice. first time it said it was an AI and gave his full name, then the call dropped so it",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xmtn3k",
+        "reddit_subreddit": "artificial"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "The UK Government Asked 14,000 Children About AI. It Ignored Their Answer.",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xpcsds/the_uk_government_asked_14000_children_about_ai/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-06T13:28:15.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "The UK Government Asked 14,000 Children About AI. It Ignored Their Answer.",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xpcsds",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://theslowai.substack.com/p/uk-children-asked-ai-labels-ignored?r=4725ox&utm_medium=ios"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Bank of England pours cold water on AI productivity boom",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xq34um/bank_of_england_pours_cold_water_on_ai/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-07T10:18:56.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Bank of England pours cold water on AI productivity boom",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xq34um",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://www.theregister.com/ai-and-ml/2026/11/06/bank-of-england-pours-cold-water-on-ai-productivity-boom/5308059"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Marvell inks record-breaking $115B AI deal",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xmkk63/marvell_inks_recordbreaking_115b_ai_deal/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-03T05:26:41.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Marvell inks record-breaking $115B AI deal",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xmkk63",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://www.linkedin.com/news/story/marvell-inks-record-breaking-115b-ai-deal-7753420/?utm_source=share&utm_campaign=reddit&utm_content=storyline&utm_term=artificial"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Palantir Made $2.3 Billion Last Quarter and Calls Itself Antiwar",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xozbic/palantir_made_23_billion_last_quarter_and_calls/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-06T00:43:33.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Palantir Made $2.3 Billion Last Quarter and Calls Itself Antiwar",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xozbic",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://finance.yahoo.com/markets/stocks/articles/palantir-made-2-3-billion-171727666.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cucmVkZGl0LmNvbS8&guce_referrer_sig=AQAAAEVBsLqcecHC6WDduhb27k-_N6UHKU_dum-zuMbVpPBxwcQwi6lEtwfUEZKDcFn4MU6gbSYqd1ld-sWx4GMkX8u68tCi-5mXPUpXZ8ckcayb-yg6vhj3QG7Y1xM82YtuW2khqxi9HL2M_8LGKn1LALm2RjPsaeUtgb6l64oktlsk"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "How to stop Meta, OpenAI, and Apple from training AI on your data in the UK",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xlu9ui/how_to_stop_meta_openai_and_apple_from_training/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-02T11:03:37.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "How to stop Meta, OpenAI, and Apple from training AI on your data in the UK",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xlu9ui",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://hotminute.co.uk/2026/11/02/how-to-stop-meta-openai-and-apple-from-training-ai-on-your-data-in-the-uk/"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Tech stocks plunge on worries about AI and Democrats' midterm landslide",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xp7ym7/tech_stocks_plunge_on_worries_about_ai_and/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-06T08:45:09.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Tech stocks plunge on worries about AI and Democrats' midterm landslide",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xp7ym7",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Claude helped solve the first 3D structure of a mysterious 'vault' particle, a hollow protein shell encoded by a bacteriophage virus",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xprvev/claude_helped_solve_the_first_3d_structure_of_a/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-06T23:48:05.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Anthropic reported on November 5 that Claude helped determine the first three-dimensional structure of a vault particle: a hollow protein shell built from a protein encoded by a bacteriophage, a virus that infects bacteria. The work is posted as a preprint on bioRxiv, so it has not been",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xprvev",
+        "reddit_subreddit": "artificial"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Anthropic’s FlashProve could prove an AI provider used the model you paid for without exposing its weights",
+      "canonical_url": "https://www.reddit.com/r/artificial/comments/1xnrvak/anthropics_flashprove_could_prove_an_ai_provider/",
+      "publisher": "r/artificial",
+      "published_at": "2026-11-04T15:58:57.000Z",
+      "fetched_at": "2026-11-07T16:47:01.753Z",
+      "excerpt": "Users currently have no independent way to confirm whether an AI provider served the requested model or quietly substituted a cheaper one. FlashProve addresses this by using zero-knowledge cryptography to prove that a particular model generated a response while keeping its proprietary weights",
+      "source_ids": {
+        "reddit_feed": "reddit-artificial",
+        "reddit_id": "t3_1xnrvak",
+        "reddit_subreddit": "artificial",
+        "reddit_url": "https://interestingengineering.com/ai-robotics/anthropic-flashprove-cryptographic-model-verification"
+      },
+      "adapter": "reddit-json"
+    }
+  ]
+}
