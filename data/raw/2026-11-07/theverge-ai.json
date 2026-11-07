@@ -1,0 +1,201 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "theverge-ai",
+  "fetched_at": "2026-11-07T16:47:01.700Z",
+  "items": [
+    {
+      "headline": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "canonical_url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "publisher": "The Verge",
+      "published_at": "2026-11-07T15:50:00.000Z",
+      "fetched_at": "2026-11-07T16:47:02.752Z",
+      "excerpt": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently,",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/1029489/nyt-cookings-ai-assistant-saved-my-weeknight-chicken-but-almost-ruined-my-cake",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Reviews",
+        "Smart Home Reviews",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The US let Nvidia sell chips to an empty office in China",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "publisher": "The Verge",
+      "published_at": "2026-11-07T15:43:45.000Z",
+      "fetched_at": "2026-11-07T16:47:02.752Z",
+      "excerpt": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029483",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI broke the cybersecurity world. What’s next?",
+      "canonical_url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "publisher": "The Verge",
+      "published_at": "2026-11-07T15:00:00.000Z",
+      "fetched_at": "2026-11-07T16:47:02.752Z",
+      "excerpt": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029038",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Decoder",
+        "Linux",
+        "Podcasts",
+        "Security",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "publisher": "The Verge",
+      "published_at": "2026-11-07T12:30:00.000Z",
+      "fetched_at": "2026-11-07T16:47:02.752Z",
+      "excerpt": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029126",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "publisher": "The Verge",
+      "published_at": "2026-11-06T23:46:18.000Z",
+      "fetched_at": "2026-11-07T16:47:02.752Z",
+      "excerpt": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029380",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Business",
+        "News",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "canonical_url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "publisher": "The Verge",
+      "published_at": "2026-11-06T23:00:44.000Z",
+      "fetched_at": "2026-11-07T16:47:02.752Z",
+      "excerpt": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029338",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "All the latest updates on AI data centers",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "publisher": "The Verge",
+      "published_at": "2026-11-06T20:02:22.000Z",
+      "fetched_at": "2026-11-07T16:47:02.752Z",
+      "excerpt": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?post_type=vm_stream&#038;p=902546",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Energy",
+        "Environment",
+        "News",
+        "Science"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+      "canonical_url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "publisher": "The Verge",
+      "published_at": "2026-11-06T18:10:10.000Z",
+      "fetched_at": "2026-11-07T16:47:02.752Z",
+      "excerpt": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1028871",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Meta",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI is the new dating dealbreaker",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "publisher": "The Verge",
+      "published_at": "2026-11-06T17:00:00.000Z",
+      "fetched_at": "2026-11-07T16:47:02.752Z",
+      "excerpt": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1028609",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Culture",
+        "Entertainment",
+        "Internet Culture"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Big Tech lost big in the 2026 election",
+      "canonical_url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+      "publisher": "The Verge",
+      "published_at": "2026-11-06T16:38:02.000Z",
+      "fetched_at": "2026-11-07T16:47:02.752Z",
+      "excerpt": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode of The Vergecast,",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1028731",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "OpenAI",
+        "Podcasts",
+        "Policy",
+        "Vergecast"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
