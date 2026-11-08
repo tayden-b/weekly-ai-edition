@@ -1,0 +1,19 @@
+{
+  "adapter": "hf-hub",
+  "source": "hf-hub-models",
+  "fetched_at": "2026-11-08T16:58:01.363Z",
+  "items": [
+    {
+      "headline": "moonshotai/Kimi-K3.1-Pro",
+      "canonical_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "publisher": "moonshotai",
+      "published_at": "2026-11-02T04:13:51.000Z",
+      "fetched_at": "2026-11-08T16:58:01.410Z",
+      "excerpt": "moonshotai/Kimi-K3.1-Pro — image-text-to-text",
+      "source_ids": {
+        "hf_model_id": "moonshotai/Kimi-K3.1-Pro"
+      },
+      "adapter": "hf-hub"
+    }
+  ]
+}
