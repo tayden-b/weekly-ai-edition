@@ -1,0 +1,202 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "theverge-ai",
+  "fetched_at": "2026-11-09T21:21:48.188Z",
+  "items": [
+    {
+      "headline": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "canonical_url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "publisher": "The Verge",
+      "published_at": "2026-11-09T19:09:58.000Z",
+      "fetched_at": "2026-11-09T21:21:49.022Z",
+      "excerpt": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1030084",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Apple",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+      "publisher": "The Verge",
+      "published_at": "2026-11-09T19:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.022Z",
+      "excerpt": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1030005",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "News"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "canonical_url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "publisher": "The Verge",
+      "published_at": "2026-11-09T18:07:23.000Z",
+      "fetched_at": "2026-11-09T21:21:49.022Z",
+      "excerpt": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1030061",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Creators",
+        "Instagram",
+        "Meta",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The future of AI hinges on… Jensen Huang’s sex life?",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "publisher": "The Verge",
+      "published_at": "2026-11-09T17:36:08.000Z",
+      "fetched_at": "2026-11-09T21:21:49.022Z",
+      "excerpt": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang -",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029990",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "publisher": "The Verge",
+      "published_at": "2026-11-09T15:50:38.000Z",
+      "fetched_at": "2026-11-09T21:21:49.022Z",
+      "excerpt": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody […]",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029802",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "Policy",
+        "Politics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Disney and Adobe are building generative AI tools together",
+      "canonical_url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "publisher": "The Verge",
+      "published_at": "2026-11-09T15:38:56.000Z",
+      "fetched_at": "2026-11-09T21:21:49.022Z",
+      "excerpt": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029773",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "Adobe",
+        "AI",
+        "Creators",
+        "Disney",
+        "Entertainment",
+        "News",
+        "Streaming",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Hold up — I had a great time talking to the RIAA guy",
+      "canonical_url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
+      "publisher": "The Verge",
+      "published_at": "2026-11-09T15:30:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.022Z",
+      "excerpt": "Today, I’m talking with Mitch Glazier, who is CEO and chairman of the RIAA. This conversation was a real full-circle moment for me: I was in college when Napster hit, and the RIAA became everyone’s villain for suing kids for downloading music. That was when I decided to go be a copyright lawyer,",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029684",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Decoder",
+        "Entertainment",
+        "Music",
+        "Podcasts"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jonathan Kanter is using AI to take on Big Tech",
+      "canonical_url": "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+      "publisher": "The Verge",
+      "published_at": "2026-11-09T14:30:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.022Z",
+      "excerpt": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside former acting Antitrust",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029652",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Antitrust",
+        "Policy",
+        "Report"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "publisher": "The Verge",
+      "published_at": "2026-11-08T22:54:50.000Z",
+      "fetched_at": "2026-11-09T21:21:49.022Z",
+      "excerpt": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029595",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "publisher": "The Verge",
+      "published_at": "2026-11-08T20:22:39.000Z",
+      "fetched_at": "2026-11-09T21:21:49.022Z",
+      "excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1029562",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

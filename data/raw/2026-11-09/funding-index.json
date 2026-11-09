@@ -1,0 +1,615 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "funding-index",
+  "fetched_at": "2026-11-09T21:21:48.188Z",
+  "items": [
+    {
+      "headline": "OpenAI raised $11B (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/openai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "OpenAI develops advanced artificial intelligence models. Valued at $1250B.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/openai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Shield AI raised $2B (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/shield-ai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Shield AI develops autonomous defense technology and AI pilots for military systems.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/shield-ai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Zipline International raised $1.5B (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/zipline-international-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Zipline International builds autonomous drone delivery systems.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/zipline-international-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nadhi AI raised $21M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/nadhi-ai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Known from its SEC Form D filing, not from an announcement.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/nadhi-ai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Vensum Power raised $11M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/vensum-power-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Finnish deeptech companyVensum Power has raised €9 million in a Series A funding round co-led byLifeline Ventures, Larsen & Toubro Group and Eviny Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/vensum-power-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Physicl raised $10M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/physicl-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Physicl develops sim-to-real software technology for robotics.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/physicl-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bioliberty raised $3.5M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/bioliberty-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Bioliberty, an Edinburgh- and Boston-based rehabilitation technology startup, has raised a €2.95 million ($3.3 million) Series A extension, bringing its total funding to €12.07 million ($13.5 million).",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/bioliberty-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Fathom Therapeutics raised Undisclosed (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/fathom-therapeutics-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Fathom Therapeutics develops a physics- and AI-powered drug discovery platform. Led by Kos Biotechnology Partners.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/fathom-therapeutics-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Harbinger raised $240M (Series D) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/harbinger-series-d-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Fidelity Management & Research Company, Capricorn, Greycroft, Ridgeline, and PanaceaVC also participated in the round The new funds will support Harbinger's growth as a manufacturing platform powering the AI economy and electrification acro",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/harbinger-series-d-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ocient raised $100M (Series C) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/ocient-series-c-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Ocient Inc., the maker of a speedy data analytics platform, today said it has raised $100 million in a Series C funding to expand its agentic artificial intelligence analytics business.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/ocient-series-c-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Kalepa raised $75M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/kalepa-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Five years after its Series A, insurance AI startup Kalepa raises $75M at $470M valuation Led by Updata Partners.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/kalepa-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Analytics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Uranium Digital raised $17M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/uranium-digital-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "As Big Tech bets on nuclear power, startup Uranium Digital raises $16.5 million to modernize uranium trading Led by Blockchain Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/uranium-digital-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Green Voltis raised $16M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/green-voltis-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Stockholm’s Green Voltis raises €13.5 million to operate and trade battery storage across European power markets using AI",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/green-voltis-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Databases"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Kabilio raised $12M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/kabilio-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Spanish AI accountingplatform Kabilio has raised €10 million in a funding round led by Picus Capitaland Visionaries, with participation from CDTI, Spain's public agency fortechnological innovation. Led by Picus Capitaland Visionaries.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/kabilio-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "RadianX raised $9M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/radianx-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Seed round co-led by SOSV and Twynam, together with a dedicated production line from partner Pacific Union, supports the company's expansion into sensors, devices, and Physical AI as it moves from certified product to production and deploym Led by SOSV.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/radianx-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Siggy raised $6M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/siggy-pre-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Siggy provides an AI-powered mental health service to collect patient history and track progress.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/siggy-pre-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trinity AI Boston raised $6M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/trinity-ai-boston-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Known from its SEC Form D filing, not from an announcement.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/trinity-ai-boston-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Shackleton AI raised $5M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/shackleton-ai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Shackleton AI develops an agentic operating system for the construction industry. Led by Battery Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/shackleton-ai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Mindmax raised $3.3M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/mindmax-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Mindmax builds an AI-powered learning platform. Led by Concept Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/mindmax-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Potential Sciences raised Undisclosed (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/potential-sciences-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Potential Sciences builds AI infrastructure for scientific drug discovery.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/potential-sciences-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nayara raised Undisclosed (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/nayara-pre-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-05T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Nayara develops an AI platform for patient care. Led by SFC Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/nayara-pre-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nooks raised $500M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/nooks-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-04T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "General Catalyst's Customer Value Fund commits $500 million in growth capital to accelerate demand for Nooks' revenue agents The Nooks Revenue Agent Platform lets sales teams work with AI agents across the revenue lifecycle, from finding ne",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/nooks-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Applied Compute raised $350M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/applied-compute-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-04T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Applied Compute Inc., a fast-growing provider of artificial intelligence infrastructure, has raised $350 million in funding at a $3.25 billion valuation.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/applied-compute-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sentra raised $150M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/sentra-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-04T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Strategic capital investment led by Capital One Ventures will expand Sentra's platform for protecting data at rest, where it lives, and controlling what AI agents can reach.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/sentra-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Traversal raised $120M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/traversal-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-04T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Traversal Inc., a startup that’s trying to automate site reliability engineering tasks with artificial intelligence agents, seems to be closing in on that goal after raising $120 million in fresh funding, bringing its valuation to $1 billio Led by Kleiner Perkins.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/traversal-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Supa raised $28M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/supa-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-04T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "UK-based proptechcompany Supa has raised £21 million in seed funding to expand its AI-poweredproperty management platform.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/supa-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Phaze raised $8.8M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/phaze-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-04T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Phaze turns expensive, underused workstations into computing power on demand for people and AI agents.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/phaze-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Crediflow AI raised $2.1M (Debt) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/crediflow-ai-debt-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-04T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Crediflow AI, a Manchester-based FinTech aiming to remove manual work from commercial loan processing, has secured €1.8 million (£1.5 million) in funding.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/crediflow-ai-debt-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tremont AI raised $2M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/tremont-ai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-04T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Known from its SEC Form D filing, not from an announcement.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/tremont-ai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tutor Intelligence raised $75M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/tutor-intelligence-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-03T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Warehouse automation provider Tutor Intelligence Inc.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/tutor-intelligence-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Step Into AI raised $8.2M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/step-into-ai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-03T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Known from its SEC Form D filing, not from an announcement.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/step-into-ai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Conlio raised $7.5M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/conlio-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-03T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Conlio, a German AI-powered financial operations platform for road freight forwarders, today announces a €6.4 million fundraise to expand across Europe - accelerating the automation of financial systems across freight. Led by Piton Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/conlio-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Vitroscope raised $7M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/vitroscope-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-03T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Vitroscope, a biotech company developing perfusion platforms to study immune activity, treatment responses and disease mechanisms in real time, has raised $7 million, comprising a $5 million seed roun...",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/vitroscope-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Other"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tallia raised $4.7M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/tallia-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-03T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "London-based AI startup Tallia, formerly known as Revax, has secured €4 million ($4.5 million) in Seed funding to expand its AI-powered research and drafting platform for tax and accountancy professionals. Led by Outward VC.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/tallia-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "CyberKord raised $3.2M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/cyberkord-pre-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-03T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Italian cybersecuritystartup CyberKord has raised €2.7 million in a pre-seed funding round tosupport the development of its AI-powered platform for automating IT andcybersecurity operations.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/cyberkord-pre-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "1nhaler raised $3M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/1nhaler-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-03T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "1nhaler, a Scotland-based drug delivery device developer, has secured £2.2 million in follow-on funding to progress its novel pop-up cardboard inhaler towards first regulatory approval.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/1nhaler-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Developer tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Athena raised $2.5M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/athena-pre-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-03T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Athena Circle Corp., an artificial intelligence-native legal technology startup that’s automating the nitty gritty of commercial real estate deals, said today it has raised $2.5 million in pre-seed funding.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/athena-pre-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Granter raised $1.9M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/granter-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-03T12:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:49.426Z",
+      "excerpt": "Portuguese startup Granter has raised €1.6 million in a funding round toexpand its AI-powered platform that simplifies access to European fundingprogrammes.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/granter-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

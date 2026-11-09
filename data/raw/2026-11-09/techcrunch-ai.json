@@ -1,0 +1,404 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "techcrunch-ai",
+  "fetched_at": "2026-11-09T21:21:48.188Z",
+  "items": [
+    {
+      "headline": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "canonical_url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T20:09:06.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186477",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "ElevenLabs",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "canonical_url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T19:24:51.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186369",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Claude"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "canonical_url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T18:09:52.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186336",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Government & Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "canonical_url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T18:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186298",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "TC",
+        "Meta",
+        "meta superintelligence lab",
+        "muse"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "canonical_url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T16:56:54.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186273",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Climate",
+        "Anthropic",
+        "data centers",
+        "natural gas"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "canonical_url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T16:12:28.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186240",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "TC",
+        "Medium",
+        "Publishing"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "canonical_url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T14:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Automattic aims to compete with the likes of Lovable with Spacefast.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186097",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "TC",
+        "Automattic",
+        "Lovable",
+        "WordPress"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s ‘about a 50-50’",
+      "canonical_url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T05:26:29.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186150",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "TC",
+        "Jensen Huang"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "canonical_url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-08T21:00:11.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "In a memo to the company, Huang admitted that he had an affair.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186128",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "canonical_url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-07T22:07:22.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186091",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "data centers",
+        "Elon Musk",
+        "Equity podcast",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "canonical_url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-07T21:17:08.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186087",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "canonical_url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-07T04:16:43.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186018",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "big tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Crusoe sells troubled Wyoming data center project to Google",
+      "canonical_url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-07T01:40:28.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "The deal highlights the challenges of developing massive AI data centers.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186051",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "ai infrastructure",
+        "crusoe",
+        "datacenter",
+        "Google"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "canonical_url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-06T22:53:46.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186034",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "fundraising",
+        "In Brief",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "canonical_url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-06T18:44:38.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185905",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "cybersecurity",
+        "cyberattack",
+        "artex"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "canonical_url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-06T18:44:20.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185929",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "agents",
+        "Mark Zuckerberg",
+        "Meta",
+        "muse"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "How a Blue Wave midterm might reshape the AI industry",
+      "canonical_url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-06T18:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3185898",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "Startups",
+        "AI",
+        "marvell",
+        "CrowdStrike",
+        "OpenAI",
+        "Equity podcast",
+        "midterms"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "After the midterms, is the AI industry in for a rough two years?",
+      "canonical_url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-06T17:23:52.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?post_type=tc_video&#038;p=3185895",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "CrowdStrike",
+        "data center",
+        "midterms",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+      "canonical_url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-06T15:54:47.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185848",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Anthropic",
+        "Enterprise AI spend",
+        "OpenAI",
+        "Ramp"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+      "canonical_url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-06T14:10:00.000Z",
+      "fetched_at": "2026-11-09T21:21:48.984Z",
+      "excerpt": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185780",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "Amazon",
+        "eCommerce"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

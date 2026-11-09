@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "microsoft-ai",
+  "fetched_at": "2026-11-09T21:21:48.188Z",
+  "items": [
+    {
+      "headline": "Building Medical Superintelligence",
+      "canonical_url": "https://microsoft.ai/news/building-medical-superintelligence/",
+      "publisher": "Microsoft AI",
+      "published_at": "2026-11-05T13:37:46.000Z",
+      "fetched_at": "2026-11-09T21:21:48.230Z",
+      "excerpt": "Building Medical Superintelligence",
+      "source_ids": {
+        "slug": "building-medical-superintelligence"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Health Check How People Use Copilot For Health",
+      "canonical_url": "https://microsoft.ai/news/health-check-how-people-use-copilot-for-health/",
+      "publisher": "Microsoft AI",
+      "published_at": "2026-11-09T17:37:13.000Z",
+      "fetched_at": "2026-11-09T21:21:48.230Z",
+      "excerpt": "Health Check How People Use Copilot For Health",
+      "source_ids": {
+        "slug": "health-check-how-people-use-copilot-for-health"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
