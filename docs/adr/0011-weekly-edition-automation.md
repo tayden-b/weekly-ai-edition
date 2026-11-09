@@ -25,7 +25,7 @@ Split the loop at the tool boundary:
   `run_as: organization`, `devin_mode: swe-2-max` (fallback `normal`),
   email notification on every dispatch.
 - **Publish = GitHub workflow.** `edition-publish.yml` (cron Sundays 21:00 +
-  22:00 UTC, script gates on 17:00 in `America/New_York`) arms
+  22:00 UTC, script skips runs before 17:00 Sunday in `America/New_York`) arms
   `gh pr merge --auto --squash` on the open `edition`-labelled PR. Publish is
   literally "GitHub's auto-merge merges to main → Vercel deploys". Failing PRs
   are not armed — a comment names the failing checks for the Supervisor's

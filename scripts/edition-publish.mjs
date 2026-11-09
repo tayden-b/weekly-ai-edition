@@ -16,8 +16,8 @@
  *   GH_TOKEN    token for `gh`
  *
  * Cron gating: GitHub cron is UTC-only, so the workflow books both 21:00 and
- * 22:00 UTC Sundays; this gate admits only the run landing at 17:00 in
- * America/New_York (handles EST/EDT without workflow edits).
+ * 22:00 UTC Sundays; this gate skips any run landing before 17:00 Sunday in
+ * America/New_York (handles EST/EDT and GitHub's late cron delivery).
  *
  * Decisions per open `edition` PR:
  *   green   → arm auto-merge (merges immediately — that is the publish)
@@ -40,14 +40,20 @@ function gh(args) {
 
 // --- ET gate ---------------------------------------------------------------
 
+// Scheduled runs routinely land hours late (observed +3.5 h every Sunday), so
+// an exact-hour match never fires. Reject only runs before 17:00 ET on Sunday
+// (the early EST slot); any later admitted run is idempotent (already armed →
+// no-op).
 if (onCron) {
-  const etHour = execFileSync("date", ["+%H"], {
+  const [etDay, etHour] = execFileSync("date", ["+%u %H"], {
     encoding: "utf8",
     env: { ...process.env, TZ: "America/New_York" },
-  }).trim();
-  if (etHour !== "17") {
+  })
+    .trim()
+    .split(" ");
+  if (etDay === "7" && etHour < "17") {
     console.log(
-      `edition-publish: ${etHour}:00 ET — not the publish hour; the other UTC slot covers this Sunday`,
+      `edition-publish: ${etHour}:00 ET Sunday — before the publish hour; the later UTC slot covers this Sunday`,
     );
     process.exit(0);
   }
