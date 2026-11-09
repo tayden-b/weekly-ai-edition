@@ -26,8 +26,9 @@ Sun 17:00 ET   .github/workflows/edition-publish.yml arms `gh pr merge --auto --
 ## The publish mechanism, exactly
 
 - GitHub cron is UTC-only, so `edition-publish.yml` is booked at **both** 21:00
-  and 22:00 UTC on Sundays; the script's `TZ=America/New_York` gate admits only
-  the run that lands at 17:00 ET. Correct through EST/EDT with no edits.
+  and 22:00 UTC on Sundays; the script's `TZ=America/New_York` gate skips any run
+  landing before 17:00 ET Sunday and admits the rest (GitHub delivers scheduled
+  runs hours late; re-runs are idempotent). Correct through EST/EDT with no edits.
 - On the open `edition` PR: **green → arm auto-merge** (merges immediately —
   that is the publish); **pending → arm auto-merge** (GitHub merges it the
   moment required checks go green); **failing → not armed**, the script
