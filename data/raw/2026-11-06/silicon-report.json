@@ -1,0 +1,807 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "silicon-report",
+  "fetched_at": "2026-11-06T17:52:04.617Z",
+  "items": [
+    {
+      "headline": "Select customers can now text Alexa for Shopping to make purchases",
+      "canonical_url": "https://www.siliconreport.com/select-customers-can-now-text-alexa-for-shopping-to-make-purchases",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T16:39:42.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The invite-only feature begins rolling out to a small group of US users before widening over the coming weeks.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/select-customers-can-now-text-alexa-for-shopping-to-make-purchases",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia reportedly ties Southeast Asia partner status to chip tracking",
+      "canonical_url": "https://www.siliconreport.com/nvidia-reportedly-ties-southeast-asia-partner-status-to-chip-tracking",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T16:10:25.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Bloomberg reported the rule aims to monitor accelerator locations as US scrutiny over smuggling into China grows.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-reportedly-ties-southeast-asia-partner-status-to-chip-tracking",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia adds DLSS 5 neural rendering to Hogwarts Legacy on GeForce NOW",
+      "canonical_url": "https://www.siliconreport.com/nvidia-adds-dlss-5-neural-rendering-to-hogwarts-legacy-on-geforce-now",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T15:42:39.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The cloud gaming update includes ray reconstruction and offers RTX 5080-class performance for Ultimate members.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-adds-dlss-5-neural-rendering-to-hogwarts-legacy-on-geforce-now",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple has undisclosed iOS keyboard list of tens of thousands of words",
+      "canonical_url": "https://www.siliconreport.com/apple-has-undisclosed-ios-keyboard-list-of-tens-of-thousands-of-words",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T15:40:54.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The list excludes roughly 100,000 terms from autocomplete and swipe-typing without preventing manual entry.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-has-undisclosed-ios-keyboard-list-of-tens-of-thousands-of-words",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Taiwan activates market-stabilization measures to stem AI selloff",
+      "canonical_url": "https://www.siliconreport.com/taiwan-activates-market-stabilization-measures-to-stem-ai-selloff",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T15:10:48.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Officials authorized deploying up to $15 billion from the stabilization fund and tightened short-selling rules.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/taiwan-activates-market-stabilization-measures-to-stem-ai-selloff",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "NIST tests INSIGHT to turn building scans into structured data",
+      "canonical_url": "https://www.siliconreport.com/nist-tests-insight-to-turn-building-scans-into-structured-data",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T15:07:32.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The system uses foundation models and depth data to identify fixtures like exit signs and alarm panels.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nist-tests-insight-to-turn-building-scans-into-structured-data",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Oppo confirms its next foldable will launch in Europe",
+      "canonical_url": "https://www.siliconreport.com/oppo-confirms-its-next-foldable-will-launch-in-europe",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T14:11:52.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The Find N7 will bring the company's foldable lineup to the European market for the first time.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/oppo-confirms-its-next-foldable-will-launch-in-europe",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "TeraWulf HPC leases hit $63 million as mining fell about 69%",
+      "canonical_url": "https://www.siliconreport.com/terawulf-hpc-leases-hit-63-million-as-mining-fell-about-69",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T14:10:10.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Total revenue rose 51% to $76.2 million, with computing leases making up approximately 83% of third-quarter sales.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/terawulf-hpc-leases-hit-63-million-as-mining-fell-about-69",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google commits $17 billion to build its first Wyoming data center",
+      "canonical_url": "https://www.siliconreport.com/google-commits-17-billion-to-build-its-first-wyoming-data-center",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T14:08:27.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "A 702-megawatt Bloom Energy fuel cell system paired with carbon capture will supply power to the Cheyenne site.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-commits-17-billion-to-build-its-first-wyoming-data-center",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google rolls out left-behind alerts for Find Hub trackers",
+      "canonical_url": "https://www.siliconreport.com/google-rolls-out-left-behind-alerts-for-find-hub-trackers",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T13:36:15.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Android users receive notifications when tags are left behind, with an exception for home addresses.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-rolls-out-left-behind-alerts-for-find-hub-trackers",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "EU accuses TikTok of failing to prevent algorithm rabbit holes",
+      "canonical_url": "https://www.siliconreport.com/eu-accuses-tiktok-of-failing-to-prevent-algorithm-rabbit-holes",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T13:06:32.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Preliminary findings under the Digital Services Act put the platform at risk of fines up to 6% of global revenue.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/eu-accuses-tiktok-of-failing-to-prevent-algorithm-rabbit-holes",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tesla will wind down Cybertruck production in Texas, Musk says",
+      "canonical_url": "https://www.siliconreport.com/tesla-will-wind-down-cybertruck-production-in-texas-musk-says",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T11:11:51.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The automaker plans to halt assembly around mid-2027 to reallocate factory space to its Cybercab robotaxi.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/tesla-will-wind-down-cybertruck-production-in-texas-musk-says",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI releases GPT-6 Cyber security model",
+      "canonical_url": "https://www.siliconreport.com/openai-releases-gpt-6-cyber-security-model",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T11:11:34.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The gated vulnerability-research model costs $20 per million input tokens.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-releases-gpt-6-cyber-security-model",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia claims Vera CPU delivers 1.6x more agents per watt than x86",
+      "canonical_url": "https://www.siliconreport.com/nvidia-claims-vera-cpu-delivers-1-6x-more-agents-per-watt-than-x86",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T10:40:01.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The company reported the chip also achieves double the execution speed of energy-efficient x86 processors.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-claims-vera-cpu-delivers-1-6x-more-agents-per-watt-than-x86",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Moonshot AI discussed European Nvidia Blackwell leases, CNBC reported",
+      "canonical_url": "https://www.siliconreport.com/moonshot-ai-discussed-european-nvidia-blackwell-leases-cnbc-reported",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T09:37:40.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Private talks reportedly explored renting potential clusters of 8,000 or more GPUs from European neocloud operators.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/moonshot-ai-discussed-european-nvidia-blackwell-leases-cnbc-reported",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Kalepa raises $75 million Series B for insurance AI workflows",
+      "canonical_url": "https://www.siliconreport.com/kalepa-raises-75-million-series-b-for-insurance-ai-workflows",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T08:09:35.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The financing values the New York startup at $470 million in a round led by Updata Partners.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/kalepa-raises-75-million-series-b-for-insurance-ai-workflows",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Local governments move to curb or drop Flock surveillance cameras",
+      "canonical_url": "https://www.siliconreport.com/local-governments-move-to-curb-or-drop-flock-surveillance-cameras",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T08:08:59.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "At least 10 U.S. municipalities have acted since summer following data sharing and privacy pushback.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/local-governments-move-to-curb-or-drop-flock-surveillance-cameras",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Palo Alto Networks in talks to buy Clutch Security for about $500M",
+      "canonical_url": "https://www.siliconreport.com/palo-alto-networks-in-talks-to-buy-clutch-security-for-about-500m",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T06:40:47.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The proposed cash deal would value the AI agent credential startup at about 50 times its annual recurring revenue.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/palo-alto-networks-in-talks-to-buy-clutch-security-for-about-500m",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Cloudflare posts 39% Q3 revenue growth to $782.5 million",
+      "canonical_url": "https://www.siliconreport.com/cloudflare-posts-39-q3-revenue-growth-to-782-5-million",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T06:37:39.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Shares jumped over 14% late as the company lifted full-year 2026 revenue guidance to over $2.96 billion.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/cloudflare-posts-39-q3-revenue-growth-to-782-5-million",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Airbnb discloses $7.1 million deal with Brian Chesky's AI lab",
+      "canonical_url": "https://www.siliconreport.com/airbnb-discloses-7-1-million-deal-with-brian-chesky-s-ai-lab",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T05:41:37.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The transaction gives the company rights to license technology internally and invest in future financing of the AI lab.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/airbnb-discloses-7-1-million-deal-with-brian-chesky-s-ai-lab",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Potential Sciences raises seed funding from UK sovereign AI fund",
+      "canonical_url": "https://www.siliconreport.com/potential-sciences-raises-seed-funding-from-uk-sovereign-ai-fund",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T05:37:59.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The London startup plans to simulate atomic physics on state compute to create synthetic data for drug discovery.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/potential-sciences-raises-seed-funding-from-uk-sovereign-ai-fund",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "US agencies warn hackers are targeting refrigeration systems",
+      "canonical_url": "https://www.siliconreport.com/us-agencies-warn-hackers-are-targeting-refrigeration-systems",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T04:08:34.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Officials urged operators to disconnect cooling devices from the web after hacks caused food spoilage in Europe.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/us-agencies-warn-hackers-are-targeting-refrigeration-systems",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Serve Robotics introduces Physical AI Services for other robot makers",
+      "canonical_url": "https://www.siliconreport.com/serve-robotics-introduces-physical-ai-services-for-other-robot-makers",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T04:07:13.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The suite offers connectivity tools, data curation and sidewalk training data to outside robotics developers.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/serve-robotics-introduces-physical-ai-services-for-other-robot-makers",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DOJ launches task force to police foreign and criminal AI abuse",
+      "canonical_url": "https://www.siliconreport.com/doj-launches-task-force-to-police-foreign-and-criminal-ai-abuse",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T03:40:02.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The unit will target unlawful tech operations while seeking tighter corporate risk reporting and internal safeguards.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/doj-launches-task-force-to-police-foreign-and-criminal-ai-abuse",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Phone by Google receives redesigned gradient icon in beta",
+      "canonical_url": "https://www.siliconreport.com/phone-by-google-receives-redesigned-gradient-icon-in-beta",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T03:08:08.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Version 246 introduces a flatter handset graphic and lighter shading ahead of a wider Android rollout.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/phone-by-google-receives-redesigned-gradient-icon-in-beta",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta pauses commercial terms update after backlash",
+      "canonical_url": "https://www.siliconreport.com/meta-pauses-commercial-terms-update-after-backlash",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T03:07:46.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The shelved rules would have allowed Meta to use content from business accounts' websites to train its AI models.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/meta-pauses-commercial-terms-update-after-backlash",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "FAA begins phasing out floppy disks in air traffic control",
+      "canonical_url": "https://www.siliconreport.com/faa-begins-phasing-out-floppy-disks-in-air-traffic-control",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T03:06:12.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The agency plans to install modern digital display systems at 435 facilities by September 2028.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/faa-begins-phasing-out-floppy-disks-in-air-traffic-control",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nasdaq 100 drops 6.3% and erases $2.3 trillion in market value",
+      "canonical_url": "https://www.siliconreport.com/nasdaq-100-drops-6-3-and-erases-2-3-trillion-in-market-value",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T02:41:39.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "A 12.3% plunge in chip stocks led Wall Street's sharpest decline since April 2025 as election results hit AI spending.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nasdaq-100-drops-6-3-and-erases-2-3-trillion-in-market-value",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "New York Times reportedly in talks to buy Letterboxd for $330M",
+      "canonical_url": "https://www.siliconreport.com/new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330m",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T02:10:10.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The prospective deal values the movie social network at more than 20 times its projected 2026 earnings.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330m",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Starlight removal boosts Webb exoplanet sensitivity up to 15 times",
+      "canonical_url": "https://www.siliconreport.com/starlight-removal-boosts-webb-exoplanet-sensitivity-up-to-15-times",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T02:07:57.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The FLIP framework applies machine learning optimization to telescope models to reveal faint exoplanets.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/starlight-removal-boosts-webb-exoplanet-sensitivity-up-to-15-times",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "WhatsApp tests Meta AI photo expansion on iOS, WABetaInfo reports",
+      "canonical_url": "https://www.siliconreport.com/whatsapp-tests-meta-ai-photo-expansion-on-ios-wabetainfo-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T01:38:18.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The editing feature generates image content beyond original borders for chats and status updates.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/whatsapp-tests-meta-ai-photo-expansion-on-ios-wabetainfo-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Thinking Machines Lab is raising $5B at $40B valuation",
+      "canonical_url": "https://www.siliconreport.com/thinking-machines-lab-is-raising-5b-at-40b-valuation",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T01:36:40.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Accel is leading the round, which could close as soon as this week, Business Insider reported.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/thinking-machines-lab-is-raising-5b-at-40b-valuation",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Shield AI agrees to buy radar maker Echodyne for $5.3B",
+      "canonical_url": "https://www.siliconreport.com/shield-ai-agrees-to-buy-radar-maker-echodyne-for-5-3b",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T01:36:13.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The transaction values the defense tech startup at $28.8 billion as it raises debt and equity to fund the takeover.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/shield-ai-agrees-to-buy-radar-maker-echodyne-for-5-3b",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Asian tech stocks tumble as Wall Street sell-off hits Nasdaq",
+      "canonical_url": "https://www.siliconreport.com/asian-tech-stocks-tumble-as-wall-street-sell-off-hits-nasdaq",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T01:10:27.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "SK Hynix dropped over 8% and Samsung fell 7% after AI data-center spending fears pushed the Nasdaq into correction.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/asian-tech-stocks-tumble-as-wall-street-sell-off-hits-nasdaq",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sony gaming division posts solid quarter with 83% profit jump",
+      "canonical_url": "https://www.siliconreport.com/sony-gaming-division-posts-solid-quarter-with-83-profit-jump",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T00:40:55.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Network services and software sales drove operating income to ¥220 billion as Sony raised full-year gaming forecasts.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/sony-gaming-division-posts-solid-quarter-with-83-profit-jump",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bose recalls lithium-ion battery packs over fire risks",
+      "canonical_url": "https://www.siliconreport.com/bose-recalls-lithium-ion-battery-packs-over-fire-risks",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T00:39:21.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Bose received seven reports of batteries melting, smoking or catching fire, with six cases of property damage.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/bose-recalls-lithium-ion-battery-packs-over-fire-risks",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Thinking Machines Lab introduces Inkling 2 Small model",
+      "canonical_url": "https://www.siliconreport.com/thinking-machines-lab-introduces-inkling-2-small-model",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T00:35:05.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The Mixture-of-Experts model carries 594 billion total parameters and initially runs through Tinker.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/thinking-machines-lab-introduces-inkling-2-small-model",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "CleanMyMac adds inbox and browser cleanup tools",
+      "canonical_url": "https://www.siliconreport.com/cleanmymac-adds-inbox-and-browser-cleanup-tools",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T00:07:38.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The update targets Gmail inboxes and Google Chrome tabs for active CleanMyMac subscribers at no added cost.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/cleanmymac-adds-inbox-and-browser-cleanup-tools",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sony revives Walkman MDR-3 headphones with USB-C for $60",
+      "canonical_url": "https://www.siliconreport.com/sony-revives-walkman-mdr-3-headphones-with-usb-c-for-60",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-06T00:07:23.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The $59.99 MDR-3R on-ear headset adds an in-line remote, microphone and recycled plastic to the lightweight design.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/sony-revives-walkman-mdr-3-headphones-with-usb-c-for-60",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Airbnb will launch an AI travel agent in first half of 2027",
+      "canonical_url": "https://www.siliconreport.com/airbnb-will-launch-an-ai-travel-agent-in-first-half-of-2027",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T23:10:13.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The company plans a dynamic interface of maps, photos and itineraries instead of a conventional text chatbot.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/airbnb-will-launch-an-ai-travel-agent-in-first-half-of-2027",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Reuters reports about 600,000 Nvidia H200 chips stored in Hong Kong",
+      "canonical_url": "https://www.siliconreport.com/reuters-reports-about-600-000-nvidia-h200-chips-stored-in-hong-kong",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T23:09:36.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Unofficial server prices jumped threefold to over 6 million yuan as mainland tech firms face tight supply.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/reuters-reports-about-600-000-nvidia-h200-chips-stored-in-hong-kong",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Perplexity takes on OpenAI and Anthropic with work-focused AI agents",
+      "canonical_url": "https://www.siliconreport.com/perplexity-takes-on-openai-and-anthropic-with-work-focused-ai-agents",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T22:40:15.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The startup's new Teammates feature requires a $200 monthly Max subscription and integrates with Slack.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/perplexity-takes-on-openai-and-anthropic-with-work-focused-ai-agents",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "IREN pushes $4B in recurring revenue to 2027",
+      "canonical_url": "https://www.siliconreport.com/iren-pushes-4b-in-recurring-revenue-to-2027",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T22:39:49.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Iren co-CEO Daniel Roberts said Microsoft requested network upgrades for 200 megawatts of capacity.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/iren-pushes-4b-in-recurring-revenue-to-2027",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple asks suppliers for 16 million MacBook Neo laptops in 2027",
+      "canonical_url": "https://www.siliconreport.com/apple-asks-suppliers-for-16-million-macbook-neo-laptops-in-2027",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T21:41:13.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The order would double 2026 production following strong demand for the entry-level computer.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-asks-suppliers-for-16-million-macbook-neo-laptops-in-2027",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple ships first public betas for iPadOS 27.3 and tvOS 27.3",
+      "canonical_url": "https://www.siliconreport.com/apple-ships-first-public-betas-for-ipados-27-3-and-tvos-27-3",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T21:09:39.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The test builds bring vertical Safari tabs, camera Siri mode, and watchOS Siri Recap to non-developer testers.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-ships-first-public-betas-for-ipados-27-3-and-tvos-27-3",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Appeals courts reject Kalshi bids to block state gambling laws",
+      "canonical_url": "https://www.siliconreport.com/appeals-courts-reject-kalshi-bids-to-block-state-gambling-laws",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T21:09:16.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Arkansas sued the prediction market over illegal wagering as New York pushed to enforce a subpoena in a potential deceptive advertising probe.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/appeals-courts-reject-kalshi-bids-to-block-state-gambling-laws",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple rolls out first macOS 27.3 public beta",
+      "canonical_url": "https://www.siliconreport.com/apple-rolls-out-first-macos-27-3-public-beta",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T20:42:26.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The update expands Siri AI to four more languages and adds vertical tabs to Safari.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-rolls-out-first-macos-27-3-public-beta",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Warby Parker sets Nov. 12 pre-order date for Android XR glasses",
+      "canonical_url": "https://www.siliconreport.com/warby-parker-sets-nov-12-pre-order-date-for-android-xr-glasses",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T20:40:46.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "Hardware manufactured by Samsung with Qualcomm chips will ship to customers during the holiday season.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/warby-parker-sets-nov-12-pre-order-date-for-android-xr-glasses",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Chipmakers plunge as election results raise AI slowdown fears",
+      "canonical_url": "https://www.siliconreport.com/chipmakers-plunge-as-election-results-raise-ai-slowdown-fears",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T20:39:03.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The Nasdaq entered correction territory while semiconductor and computing infrastructure shares dropped sharply.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/chipmakers-plunge-as-election-results-raise-ai-slowdown-fears",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "X rolls out updated web app country by country",
+      "canonical_url": "https://www.siliconreport.com/x-rolls-out-updated-web-app-country-by-country",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-05T19:43:33.000Z",
+      "fetched_at": "2026-11-06T17:52:06.007Z",
+      "excerpt": "The update consolidates three backend server roles into one to cut load times for signed-in users.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/x-rolls-out-updated-web-app-country-by-country",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "adapter": "lab-blogs",
+  "source": "mistral-news",
+  "fetched_at": "2026-11-02T20:40:50.470Z",
+  "items": [
+    {
+      "headline": "News",
+      "canonical_url": "https://mistral.ai/fr/news/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-02T15:55:24.869Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "News",
+      "source_ids": {
+        "slug": "news"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 4 Oss",
+      "canonical_url": "https://mistral.ai/fr/news/mistral-large-4-oss/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-02T15:55:24.869Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "Mistral Large 4 Oss",
+      "source_ids": {
+        "slug": "mistral-large-4-oss"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 4",
+      "canonical_url": "https://mistral.ai/fr/news/mistral-large-4/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-29T14:44:39.701Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "Mistral Large 4",
+      "source_ids": {
+        "slug": "mistral-large-4"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Ocr",
+      "canonical_url": "https://mistral.ai/fr/news/mistral-ocr/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-02T15:23:33.683Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "Mistral Ocr",
+      "source_ids": {
+        "slug": "mistral-ocr"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "News",
+      "canonical_url": "https://mistral.ai/it/news/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-02T15:55:24.869Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "News",
+      "source_ids": {
+        "slug": "news"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 4 Oss",
+      "canonical_url": "https://mistral.ai/it/news/mistral-large-4-oss/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-02T15:55:24.869Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "Mistral Large 4 Oss",
+      "source_ids": {
+        "slug": "mistral-large-4-oss"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 4",
+      "canonical_url": "https://mistral.ai/it/news/mistral-large-4/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-29T14:44:39.701Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "Mistral Large 4",
+      "source_ids": {
+        "slug": "mistral-large-4"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Ocr",
+      "canonical_url": "https://mistral.ai/it/news/mistral-ocr/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-02T15:23:33.683Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "Mistral Ocr",
+      "source_ids": {
+        "slug": "mistral-ocr"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "News",
+      "canonical_url": "https://mistral.ai/news/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-02T15:55:24.869Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "News",
+      "source_ids": {
+        "slug": "news"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 4 Oss",
+      "canonical_url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-02T15:55:24.869Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "Mistral Large 4 Oss",
+      "source_ids": {
+        "slug": "mistral-large-4-oss"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 4",
+      "canonical_url": "https://mistral.ai/news/mistral-large-4/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-10-29T14:44:39.701Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "Mistral Large 4",
+      "source_ids": {
+        "slug": "mistral-large-4"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Ocr",
+      "canonical_url": "https://mistral.ai/news/mistral-ocr/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-02T15:23:33.683Z",
+      "fetched_at": "2026-11-02T20:40:50.507Z",
+      "excerpt": "Mistral Ocr",
+      "source_ids": {
+        "slug": "mistral-ocr"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

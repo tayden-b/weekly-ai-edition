@@ -1,0 +1,499 @@
+{
+  "adapter": "arxiv",
+  "source": "arxiv-lab-papers",
+  "fetched_at": "2026-11-08T16:58:01.363Z",
+  "items": [
+    {
+      "headline": "The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
+      "canonical_url": "https://arxiv.org/abs/2611.08412",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T18:17:18.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "The growing use of AI in mathematics raises a question: can we detect AI involvement in proofs, separately from AI assistance with writing? Historical arXiv papers, recent papers disclosing substantive AI use, and manuscripts released by OpenAI provide a rich empirical basis for studying this",
+      "source_ids": {
+        "arxiv_id": "2611.08412"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Iterated creation, grading, and revision of data science projects by language models",
+      "canonical_url": "https://arxiv.org/abs/2611.05548",
+      "publisher": "arXiv",
+      "published_at": "2026-11-03T19:39:03.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "We evaluate the extent to which agentic AI models can complete an end-to-end data science project, and how this improves with feedback. A 'writer' model with specific tools creates a complete data science project including downloading, cleaning, and analyzing a dataset, and writing a short paper",
+      "source_ids": {
+        "arxiv_id": "2611.05548"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "The Agent Board: Kanban for Machines; Durable Coordination for Agents That Outlive the Conversation",
+      "canonical_url": "https://arxiv.org/abs/2611.04100",
+      "publisher": "arXiv",
+      "published_at": "2026-11-03T00:21:54.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Harnesses for large language models have converged on a single-threaded shape: one agent, one history, one machine, one sitting. That shape fails work that spans many agents, outlives any one model call, or waits on systems that are not agents. We describe the Agent Board, the coordination",
+      "source_ids": {
+        "arxiv_id": "2611.04100"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Subpolynomial-Query Proximal Sampling Beyond Log-Concavity",
+      "canonical_url": "https://arxiv.org/abs/2611.03442",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T16:55:28.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "We study the gradient query complexity of sampling from a density $π(x)\\propto\\mathrm{e}^{-V(x)}$ on $\\mathbb{R}^d$, where $V$ has a $β$-Lipschitz gradient but need not be convex. Our approach uses the proximal sampler, which alternates Gaussian perturbation with sampling a position conditional on",
+      "source_ids": {
+        "arxiv_id": "2611.03442"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Can We Stop the Backtest Yet? Anytime-Valid Promotion Tests for Adaptive Financial Research Agents",
+      "canonical_url": "https://arxiv.org/abs/2611.03384",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T16:24:43.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Financial research agents can generate and monitor trading rules faster than a human can document the resulting selection process. Candidates appear at data-dependent times, weak rules are abandoned, and promising ones are watched until they cross a reporting threshold. We introduce PROMOTE, a",
+      "source_ids": {
+        "arxiv_id": "2611.03384"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Smartphone-Aided VR Exergames for HIIT: Gamifying Fitness with Real-Time Pose Estimation",
+      "canonical_url": "https://arxiv.org/abs/2611.06734",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T16:18:35.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "This paper introduces an innovative virtual reality (VR) exergame system designed to gamify High-Intensity Interval Training (HIIT) workouts through 11 predefined combo moves, including squat-punch combinations, bilateral arm strikes, and diagonal stretch combos. Unlike conventional tracking",
+      "source_ids": {
+        "arxiv_id": "2611.06734"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "canonical_url": "https://arxiv.org/abs/2611.08453",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T18:47:05.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group",
+      "source_ids": {
+        "arxiv_id": "2611.08453"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents",
+      "canonical_url": "https://arxiv.org/abs/2611.07825",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T11:05:53.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Goal interpretation is to translate a natural language instruction into a formal symbolic goal that a planner can execute. It is critical for embodied agents because any error here propagates to every downstream planning and action step. Doing it well requires both generating suitable candidates",
+      "source_ids": {
+        "arxiv_id": "2611.07825"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "ZYFA: Speed and Accuracy of FP8 FlashAttention on AMD CDNA4",
+      "canonical_url": "https://arxiv.org/abs/2611.07496",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T05:58:36.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Attention is a core building block of frontier models and often dominates compute-bound prefill at long context. FP8 matrix instructions offer twice the peak throughput of BF16, but they accelerate only matrix multiplication, and the softmax between the two matrix multiplications of attention runs",
+      "source_ids": {
+        "arxiv_id": "2611.07496"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "KOSMOS: Self-scheduling Persistent Kernels for Communication-Compute Overlap",
+      "canonical_url": "https://arxiv.org/abs/2611.07477",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T05:36:08.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Tensor and sequence parallelism (TP+SP) and expert parallelism (EP) put collectives on the critical path of transformer layers. State-of-the-art fused kernels mitigate this with fixed roles or schedules, but this rigidity leaves large idle windows. Predicting a communication-computation split does",
+      "source_ids": {
+        "arxiv_id": "2611.07477"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving",
+      "canonical_url": "https://arxiv.org/abs/2611.06147",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T08:31:01.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Mixture-of-Experts (MoE) language models send each token through a few of many expert subnetworks. Serving methods make these models faster by running even fewer experts per token, and they are validated on accuracy benchmarks. We show that these methods can weaken the model's refusal of harmful",
+      "source_ids": {
+        "arxiv_id": "2611.06147"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "How Well Can Large Language Models Impersonate Individual Authors? A Comparative Evaluation",
+      "canonical_url": "https://arxiv.org/abs/2611.05771",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T00:22:54.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "This study investigates the authorship impersonation capacity of six widely used large language models (LLMs): Gemini 3 Pro, Claude Opus, GPT 5.2, GPT 5.2 Pro, DeepSeek 3.2, and Grok 4.1 Fast. The evaluation was conducted using short product review texts selected to ensure high within author",
+      "source_ids": {
+        "arxiv_id": "2611.05771"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "GC-MoE: Overlapping Expert-Parallel Token Dispatch with FP8/FP4 Grouped GEMM via CUDA Green Contexts",
+      "canonical_url": "https://arxiv.org/abs/2611.04222",
+      "publisher": "arXiv",
+      "published_at": "2026-11-03T03:04:04.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Under expert parallelism, mixture-of-experts (MoE) layers pay all-to-all token dispatch, grouped GEMMs, and a combine step in every layer. In decode each rank holds only 1-256 tokens: dispatch latency and weight traffic dominate while tensor-core utilization is inherently low. In fused operators",
+      "source_ids": {
+        "arxiv_id": "2611.04222"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Recursa: Toward Recursively Self-Improving Foundation Model Systems",
+      "canonical_url": "https://arxiv.org/abs/2611.04035",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T22:30:12.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Foundation models in changing environments can encounter unfamiliar domain knowledge that their original training did not cover. However, new domains rarely provide large amounts of expert-created training data or reliable supervisory signals for further training. We introduce Recursa, a foundation",
+      "source_ids": {
+        "arxiv_id": "2611.04035"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Multi-layer Indexer: Overlapping Selection and Attention in DeepSeek Sparse Attention",
+      "canonical_url": "https://arxiv.org/abs/2611.03768",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T15:46:01.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Sparse attention cuts the cost of long-context inference by making the attention matrix sparse: each query attends only a subset of the sequence, chosen by a fixed pattern or, in recent production LLMs, learned per query. In DeepSeek Sparse Attention (DSA), the attention of DeepSeek-V3.2 and the",
+      "source_ids": {
+        "arxiv_id": "2611.03768"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Quantifying out-of-distribution data severity with Wasserstein distances: benchmarking large language models for alloy property prediction",
+      "canonical_url": "https://arxiv.org/abs/2611.03767",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T15:31:50.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "As general-purpose Large Language Models (LLMs), such as Gemini and DeepSeek, exhibit increasingly advanced reasoning capabilities, a critical question arises: how do their property prediction abilities compare to those of domain-specific pretrained materials models? In this study, we evaluate",
+      "source_ids": {
+        "arxiv_id": "2611.03767"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Can Coding Agents Sustain Continual Evolution without Forgetting?",
+      "canonical_url": "https://arxiv.org/abs/2611.03219",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T14:43:37.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Recently, harness self-evolution has emerged as an important paradigm for improving agent performance. Prior studies show that evolving the agent harness can effectively enhance agent capabilities without modifying the foundation model's parameters. We find that existing approaches largely study",
+      "source_ids": {
+        "arxiv_id": "2611.03219"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+      "canonical_url": "https://arxiv.org/abs/2611.03178",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T14:15:11.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over",
+      "source_ids": {
+        "arxiv_id": "2611.03178"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Reimagining computational quantum research with AI scientists",
+      "canonical_url": "https://arxiv.org/abs/2611.02833",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T09:32:13.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "AI scientists are expanding automated research across scientific domains, yet their ability to turn the scientific record into a foundation for autonomous discovery remains elusive. Here we uncover a fundamental barrier to this transition and demonstrate a route to overcome it in computational",
+      "source_ids": {
+        "arxiv_id": "2611.02833"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "RLVR Sharpens the Pencil, Not the Mind",
+      "canonical_url": "https://arxiv.org/abs/2611.02574",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T05:58:57.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Models like DeepSeek-R1 made Reinforcement Learning with Verifiable Rewards (RLVR) famous: reward a model for correct answers and it gets dramatically better at reasoning without being taught how. The leading explanation is sharpening---that the base model already knows how to solve these problems",
+      "source_ids": {
+        "arxiv_id": "2611.02574"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "AttentionIndex: Accelerating Learned Sparse Attention with a Causal Inverted-File Index",
+      "canonical_url": "https://arxiv.org/abs/2611.02508",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T04:29:41.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Learned sparse attention, used in production models such as DeepSeek-V4 and GLM-5, lets each query attend to only k keys chosen by a lightweight indexer, but the indexer still scores every key in the prefix. At one million tokens, this selection takes more than half of prefill time. Two-stage",
+      "source_ids": {
+        "arxiv_id": "2611.02508"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+      "canonical_url": "https://arxiv.org/abs/2611.08433",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T18:27:20.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated",
+      "source_ids": {
+        "arxiv_id": "2611.08433"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation",
+      "canonical_url": "https://arxiv.org/abs/2611.08315",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T17:12:58.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank,",
+      "source_ids": {
+        "arxiv_id": "2611.08315"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Localization Does Not Imply Steerability: A Mechanistic Study of Sign Errors in LLM Mathematics",
+      "canonical_url": "https://arxiv.org/abs/2611.07478",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T05:36:28.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "When large language models do multi-step mathematics, a characteristic failure recurs: the model writes one wrong sign token mid-computation -- a cofactor sign, the minus of a recursive integration-by-parts step -- then executes the rest of the arithmetic correctly, and the answer comes out wrong.",
+      "source_ids": {
+        "arxiv_id": "2611.07478"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+      "canonical_url": "https://arxiv.org/abs/2611.07392",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T03:41:53.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "We present \\textbf{WeLM-Image}, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes",
+      "source_ids": {
+        "arxiv_id": "2611.07392"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Adapting LLM Judges to Observed Human Annotation Policy through Soft Prompt Tuning",
+      "canonical_url": "https://arxiv.org/abs/2611.07126",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T20:48:34.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Large Language Models (LLMs) are increasingly employed as automated judges for evaluating chatbot responses. While proprietary models can achieve high agreement with human annotators, they remain costly and difficult to deploy in practical settings. Lightweight open-source LLM judges provide an",
+      "source_ids": {
+        "arxiv_id": "2611.07126"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Same Layout, Different Count: What Number Words Do Past Ten in Text-to-Image Models",
+      "canonical_url": "https://arxiv.org/abs/2611.06840",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T17:57:53.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Ask SD3.5-Medium for twelve of an object and then, from the same starting noise, for twenty-five. The picture keeps its layout, but the count changes about as much as it would under a new random seed, and in no consistent direction. We study what number words do once a request passes about ten",
+      "source_ids": {
+        "arxiv_id": "2611.06840"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces",
+      "canonical_url": "https://arxiv.org/abs/2611.06760",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T16:39:17.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Scientific image-analysis workflows require agents to select among diverse capabilities like description, detection, counting, and segmentation. Current multi-tool architectures conflate intent interpretation with visual execution, masking whether a failure arises from flawed reasoning (misrouting)",
+      "source_ids": {
+        "arxiv_id": "2611.06760"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "canonical_url": "https://arxiv.org/abs/2611.06741",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T16:23:24.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts,",
+      "source_ids": {
+        "arxiv_id": "2611.06741"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "PAYWORTHY: Can LLMs Predict Which Freelance Jobs an AI Agent Will Complete?",
+      "canonical_url": "https://arxiv.org/abs/2611.05759",
+      "publisher": "arXiv",
+      "published_at": "2026-11-03T23:59:53.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Before an AI agent takes on a paid job, someone has to judge whether it is likely to succeed. We test whether frontier language models can make this call before any attempt. We propose PAYWORTHY which contains 1{,}494 real freelance job postings, sampled from 18.8M postings made between 2020 and",
+      "source_ids": {
+        "arxiv_id": "2611.05759"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Evaluating LLMs as Judges of Counterspeech Quality Against Online Hate Speech",
+      "canonical_url": "https://arxiv.org/abs/2611.04627",
+      "publisher": "arXiv",
+      "published_at": "2026-11-03T10:17:27.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Prolonged exposure to hate speech on social media can cause lasting psychological distress among users. Counterspeech has emerged as an effective, non-censorial mitigation strategy, but its deployment requires rigorous quality assessment. Manual assessment is unscalable due to the large volume of",
+      "source_ids": {
+        "arxiv_id": "2611.04627"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "BtsPruner: Role-Aware Visual Token Pruning for Large Vision-Language Models",
+      "canonical_url": "https://arxiv.org/abs/2611.04537",
+      "publisher": "arXiv",
+      "published_at": "2026-11-03T09:07:57.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Large Vision-Language Models (LVLMs) often process hundreds or thousands of visual tokens, resulting in substantial computational and memory overhead during inference. Existing training-free pruning methods typically estimate token importance using language-model attention, visual attention, or",
+      "source_ids": {
+        "arxiv_id": "2611.04537"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "FP4Quant: Efficient 4-Bit Communication Compression for Model-Parallel LLM Training",
+      "canonical_url": "https://arxiv.org/abs/2611.04323",
+      "publisher": "arXiv",
+      "published_at": "2026-11-03T05:03:38.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "The rapid scaling of large language models (LLMs) has made communication overhead a critical bottleneck in distributed model-parallel training. Although existing low-precision compression methods can effectively reduce communication costs, further reducing the communication footprint to",
+      "source_ids": {
+        "arxiv_id": "2611.04323"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Co-Occurrence Priors Override Visual Spatial Evidence: Understanding False Alarms in Vision-Language Models for Construction Struck-By Hazard Detection",
+      "canonical_url": "https://arxiv.org/abs/2611.04112",
+      "publisher": "arXiv",
+      "published_at": "2026-11-03T00:39:35.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Vision-language models (VLMs) increasingly support construction hazard monitoring, yet their frequent false alarms remain poorly understood. This study investigates whether false struck-by hazard warnings arise from failures in object recognition, spatial relation encoding, or hazard decisions",
+      "source_ids": {
+        "arxiv_id": "2611.04112"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Follow the Features: SAE Feature-Guided Data-Efficient Instruction-Tuning of Large Language Models",
+      "canonical_url": "https://arxiv.org/abs/2611.04085",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T23:50:56.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Selecting small, effective instruction-tuning datasets requires identifying which aspects of the original data to retain. We introduce Follow the Features (FtF), a data-selection method that uses sparse autoencoder (SAE) features to characterize training data and guide subset construction. FtF",
+      "source_ids": {
+        "arxiv_id": "2611.04085"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "PianoBench: Evaluating Musical Perception and Reasoning in Language Models",
+      "canonical_url": "https://arxiv.org/abs/2611.03839",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T19:11:56.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Multimodal language models continue to improve on broad music understanding benchmarks, but which musical features can they perceive and reason about? We investigate this question by introducing PianoBench, a benchmark that tasks language models with reasoning about musical performances across",
+      "source_ids": {
+        "arxiv_id": "2611.03839"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+      "canonical_url": "https://arxiv.org/abs/2611.03634",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T18:57:36.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environments for training often",
+      "source_ids": {
+        "arxiv_id": "2611.03634"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "MultiInpaintCOCO: Fine-Grained Visual Understanding in Multiple Languages",
+      "canonical_url": "https://arxiv.org/abs/2611.03309",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T15:39:35.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Previous research shows that vision-language (VL) models struggle to understand fine-grained image details and tend to focus on the overall layout. Moreover, any weakness in English tends to be further amplified in the multilingual setting. To study that, we extend InpaintCOCO, an English dataset",
+      "source_ids": {
+        "arxiv_id": "2611.03309"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Beyond Accuracy: How Quantization Affects Coding Agents",
+      "canonical_url": "https://arxiv.org/abs/2611.02368",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T01:30:27.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Agents are increasingly used for coding tasks, but the inference cost of large language models (LLMs) limits where they can run. Quantization reduces model size, but its effects on coding agents that execute and revise programs remain underexplored. We compare BF16 with 4-bit AWQ and GPTQ for",
+      "source_ids": {
+        "arxiv_id": "2611.02368"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "LEANGUARD: Lean-Verified Guardrails for Tool-Using Agents",
+      "canonical_url": "https://arxiv.org/abs/2611.02332",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T00:26:48.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Tool-using language-model agents often execute actions that their domain policies forbid. We present LeanGuard, a runtime that checks every proposed tool call against a policy written in Lean4 before the call reaches the environment. Policies combine state predicates with scoped past-time temporal",
+      "source_ids": {
+        "arxiv_id": "2611.02332"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "A Capitulation Direction Emerges With Scale and Is Causally Load-Bearing Where Validation Is Strong: Eight Models, Two Families, and Five Measurement Hazards",
+      "canonical_url": "https://arxiv.org/abs/2611.02318",
+      "publisher": "arXiv",
+      "published_at": "2026-11-02T00:09:34.000Z",
+      "fetched_at": "2026-11-08T16:58:01.418Z",
+      "excerpt": "Sycophancy in language models is well documented as a behaviour but poorly localised as a mechanism. We ask whether capitulation under user pushback, the abandonment of a correct answer when a user objects, corresponds to a linear direction in the residual stream, and whether such a direction",
+      "source_ids": {
+        "arxiv_id": "2611.02318"
+      },
+      "adapter": "arxiv"
+    }
+  ]
+}

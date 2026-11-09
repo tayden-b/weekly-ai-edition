@@ -1,0 +1,33 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-10-31T15:59:31.570Z",
+  "items": [
+    {
+      "headline": "OpenAI slashes funding target by $10bn as tech anxieties mount",
+      "canonical_url": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-31T00:05:08.000Z",
+      "fetched_at": "2026-10-31T15:59:31.620Z",
+      "excerpt": "OpenAI slashes funding target by $10bn as tech anxieties mount",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "7a3ad950-1b3b-4d9e-8c15-65a61ae6180f"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "canonical_url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-10-30T18:19:08.000Z",
+      "fetched_at": "2026-10-31T15:59:31.620Z",
+      "excerpt": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "59383c7f-8d82-493f-bf01-d2e862a1018f"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

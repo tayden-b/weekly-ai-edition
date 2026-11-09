@@ -1,0 +1,91 @@
+{
+  "adapter": "lab-blogs",
+  "source": "huggingface-blog",
+  "fetched_at": "2026-10-31T15:59:31.570Z",
+  "items": [
+    {
+      "headline": "nemotron-halloween",
+      "canonical_url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-30T00:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:31.602Z",
+      "excerpt": "nemotron-halloween",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/nvidia/nemotron-halloween"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Granite Switch 4.1.1 — Update models like you update software",
+      "canonical_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:31.602Z",
+      "excerpt": "Granite Switch 4.1.1 — Update models like you update software",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "canonical_url": "https://huggingface.co/blog/announcing-project-protostar",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:31.602Z",
+      "excerpt": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/announcing-project-protostar"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/mistral-large4",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:31.602Z",
+      "excerpt": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/mistral-large4"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "canonical_url": "https://huggingface.co/blog/anydecisionmodel",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-29T00:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:31.602Z",
+      "excerpt": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/anydecisionmodel"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Build specialized multimodal models with LFM3",
+      "canonical_url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-27T00:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:31.602Z",
+      "excerpt": "Build specialized multimodal models with LFM3",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/LiquidAI/lfm3"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Can we trust LLMs to judge whether a research idea is novel?",
+      "canonical_url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "publisher": "Hugging Face",
+      "published_at": "2026-10-27T00:00:00.000Z",
+      "fetched_at": "2026-10-31T15:59:31.602Z",
+      "excerpt": "Can we trust LLMs to judge whether a research idea is novel?",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/allenai/novelty-bench"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

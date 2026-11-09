@@ -1,0 +1,807 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "silicon-report",
+  "fetched_at": "2026-10-31T15:59:31.570Z",
+  "items": [
+    {
+      "headline": "Nvidia in talks on Nscale data center debt guarantee, report says",
+      "canonical_url": "https://www.siliconreport.com/nvidia-in-talks-on-nscale-data-center-debt-guarantee-report-says",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T15:17:24.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "A proposed guarantee would back construction loans for an Anthropic site in West Virginia.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-in-talks-on-nscale-data-center-debt-guarantee-report-says",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Intel reallocates chip capacity from client to server CPUs",
+      "canonical_url": "https://www.siliconreport.com/intel-reallocates-chip-capacity-from-client-to-server-cpus",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T13:46:14.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The chipmaker is converting Oregon 18A lines to Intel 3 and expanding sites in Ireland and Arizona for server chips.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/intel-reallocates-chip-capacity-from-client-to-server-cpus",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple CEO John Ternus sits down for interview with Wired",
+      "canonical_url": "https://www.siliconreport.com/apple-ceo-john-ternus-sits-down-for-interview-with-wired",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T13:39:50.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The executive said Apple will not ship AI for its own sake and noted Tim Cook remains available to assist on policy.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-ceo-john-ternus-sits-down-for-interview-with-wired",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Microsoft offers voluntary severance to about 60,000 employees",
+      "canonical_url": "https://www.siliconreport.com/microsoft-offers-voluntary-severance-to-about-60-000-employees",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T13:11:49.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The buyout program covers a quarter of staff while exempting data center, cybersecurity and quantum teams.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/microsoft-offers-voluntary-severance-to-about-60-000-employees",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Five tech giants commit over $3T to data centers, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/five-tech-giants-commit-over-3t-to-data-centers-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T13:09:55.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Alphabet leads the commitments with more than $1 trillion, followed by Meta with over $800 billion.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/five-tech-giants-commit-over-3t-to-data-centers-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI raises less than half of $30 billion target",
+      "canonical_url": "https://www.siliconreport.com/openai-raises-less-than-half-of-30-billion-target",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T10:48:18.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The company secured about $11 billion in commitments at a $1.25 trillion valuation as investors cut allocations.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-raises-less-than-half-of-30-billion-target",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Chainalysis reports automated laundering patterns in Binance hack",
+      "canonical_url": "https://www.siliconreport.com/chainalysis-reports-automated-laundering-patterns-in-binance-hack",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T03:19:57.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Thousands of rapid transactions circulated funds across addresses as hackers raced to evade token freezes.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/chainalysis-reports-automated-laundering-patterns-in-binance-hack",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI tightens ChatGPT teen weapons limits and plans safety reports",
+      "canonical_url": "https://www.siliconreport.com/openai-tightens-chatgpt-teen-weapons-limits-and-plans-safety-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T02:39:29.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The guardrails also restrict mass attack reconstructions, with the first biannual report due in early 2027.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-tightens-chatgpt-teen-weapons-limits-and-plans-safety-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Reddit shares plunge 30% after warning over Google AI search",
+      "canonical_url": "https://www.siliconreport.com/reddit-shares-plunge-30-after-warning-over-google-ai-search",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T02:11:10.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Weekly Google search referrals fell by over one million in October, threatening fourth-quarter user growth.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/reddit-shares-plunge-30-after-warning-over-google-ai-search",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ludo Robotics debuts Ludi 0.2 robot intelligence system",
+      "canonical_url": "https://www.siliconreport.com/ludo-robotics-debuts-ludi-0-2-robot-intelligence-system",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T01:46:21.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The Krafton unit presented the update at UC Berkeley to improve gesture interpretation and social intelligence.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/ludo-robotics-debuts-ludi-0-2-robot-intelligence-system",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic expected to receive high junk rating post-IPO, FT reports",
+      "canonical_url": "https://www.siliconreport.com/anthropic-expected-to-receive-high-junk-rating-post-ipo-ft-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T01:44:12.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Blackstone reportedly expects a double-B rating for the AI lab after its public debut, reversing an earlier forecast.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-expected-to-receive-high-junk-rating-post-ipo-ft-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI, Google, Microsoft, Anthropic back AI opt-out token",
+      "canonical_url": "https://www.siliconreport.com/openai-google-microsoft-anthropic-back-ai-opt-out-token",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T01:41:40.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "A shared robots.txt policy token lets publishers block AI model training across crawlers in a single step.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-google-microsoft-anthropic-back-ai-opt-out-token",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Salesforce agrees to buy Rune for $375M, Resilience Media reports",
+      "canonical_url": "https://www.siliconreport.com/salesforce-agrees-to-buy-rune-for-375m-resilience-media-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T01:08:32.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The cash-and-stock deal pushes the software giant's Missionforce unit into frontline military operations.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/salesforce-agrees-to-buy-rune-for-375m-resilience-media-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta, TikTok and X lose UK data challenge, Reuters reports",
+      "canonical_url": "https://www.siliconreport.com/meta-tiktok-and-x-lose-uk-data-challenge-reuters-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T01:07:58.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The platforms had argued collecting the data would place an unusually heavy burden on operations, Reuters reported.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/meta-tiktok-and-x-lose-uk-data-challenge-reuters-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Alphabet, Amazon, Meta and Microsoft plan over $740B in capex",
+      "canonical_url": "https://www.siliconreport.com/alphabet-amazon-meta-and-microsoft-plan-over-740b-in-capex",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T00:46:42.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Heavy AI spending pushed major tech firms into cash deficits as combined debt issuance tripled to $326 billion.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/alphabet-amazon-meta-and-microsoft-plan-over-740b-in-capex",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "North Korean hackers blamed for record Binance theft",
+      "canonical_url": "https://www.siliconreport.com/north-korean-hackers-blamed-for-record-binance-theft",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T00:42:10.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Blockchain tracing firms linked the $6.3 billion theft to TraderTraitor after an engineer's laptop was breached.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/north-korean-hackers-blamed-for-record-binance-theft",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Cursor pulls malicious Claude Code extension from marketplace",
+      "canonical_url": "https://www.siliconreport.com/cursor-pulls-malicious-claude-code-extension-from-marketplace",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T00:11:55.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The tampered package attempted to install SSH backdoors and harvest data on up to 5,000 affected machines.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/cursor-pulls-malicious-claude-code-extension-from-marketplace",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Powerlattice raises $86 million for AI power delivery chips",
+      "canonical_url": "https://www.siliconreport.com/powerlattice-raises-86-million-for-ai-power-delivery-chips",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-31T00:09:25.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The chiplet developer is seeking up to $111 million as datacenter processors run into severe electricity constraints.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/powerlattice-raises-86-million-for-ai-power-delivery-chips",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "UK probes Meta over potential publisher content terms for AI",
+      "canonical_url": "https://www.siliconreport.com/uk-probes-meta-over-potential-publisher-content-terms-for-ai",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T23:34:55.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The Competition and Markets Authority said Meta's paused terms could unfairly harm publishers and advertisers.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/uk-probes-meta-over-potential-publisher-content-terms-for-ai",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Fujifilm to invest roughly ¥10B to boost magnetic tape output fivefold",
+      "canonical_url": "https://www.siliconreport.com/fujifilm-to-invest-roughly-10b-to-boost-magnetic-tape-output-fivefold",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T18:11:54.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The Odawara plant expansion targets soaring cloud archiving demand driven by generative AI models.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/fujifilm-to-invest-roughly-10b-to-boost-magnetic-tape-output-fivefold",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google's prototype space data center is online and communicating",
+      "canonical_url": "https://www.siliconreport.com/google-s-prototype-space-data-center-is-online-and-communicating",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T17:40:48.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The satellite runs DeepMind's Gemma 4 on an onboard TPU during roughly 20-minute operating bursts.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-s-prototype-space-data-center-is-online-and-communicating",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Binance reserves over $6.34B in company funds to cover hack",
+      "canonical_url": "https://www.siliconreport.com/binance-reserves-over-6-34b-in-company-funds-to-cover-hack",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T17:35:44.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The exchange holds $5 billion in the affected tokens and expects to resume customer withdrawals within 45 hours.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/binance-reserves-over-6-34b-in-company-funds-to-cover-hack",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Wikimedia pushes courts to protect AI training, not regurgitation",
+      "canonical_url": "https://www.siliconreport.com/wikimedia-pushes-courts-to-protect-ai-training-not-regurgitation",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T16:16:12.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "A proposed amicus brief in the OpenAI copyright litigation argues retrieval-augmented generation requires licenses.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/wikimedia-pushes-courts-to-protect-ai-training-not-regurgitation",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Agents steer the Allen Telescope Array from natural language requests",
+      "canonical_url": "https://www.siliconreport.com/agents-steer-the-allen-telescope-array-from-natural-language-requests",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T15:41:28.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Breakthrough Listen and the SETI Institute deployed Nvidia Holoscan to process radio telescope data in flight.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/agents-steer-the-allen-telescope-array-from-natural-language-requests",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Intel shares plummeted 28% after warning of AI supply shortages",
+      "canonical_url": "https://www.siliconreport.com/intel-shares-plummeted-28-after-warning-of-ai-supply-shortages",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T14:10:14.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Intel warned the PC market could stay weak into the first half of 2027 and guided revenue below Wall Street estimates.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/intel-shares-plummeted-28-after-warning-of-ai-supply-shortages",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic becomes SpaceX's biggest customer",
+      "canonical_url": "https://www.siliconreport.com/anthropic-becomes-spacex-s-biggest-customer",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T14:05:49.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The AI lab accounted for a third of the space company's quarterly sales, Semafor reported.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-becomes-spacex-s-biggest-customer",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ravical raises $17M seed to scale accounting AI workflows",
+      "canonical_url": "https://www.siliconreport.com/ravical-raises-17m-seed-to-scale-accounting-ai-workflows",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T11:40:02.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "MMC Ventures led the round, bringing total funding to $25 million as the firm prepares to enter the United States.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/ravical-raises-17m-seed-to-scale-accounting-ai-workflows",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Dream launches with $17M from a16z to generate building designs",
+      "canonical_url": "https://www.siliconreport.com/dream-launches-with-17m-from-a16z-to-generate-building-designs",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T11:17:34.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The startup trains AI world models on 100 million square feet of permit records to automate structural blueprints.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/dream-launches-with-17m-from-a16z-to-generate-building-designs",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Binance reportedly hit in estimated $6.3 billion cyberattack",
+      "canonical_url": "https://www.siliconreport.com/binance-reportedly-hit-in-estimated-6-3-billion-cyberattack",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T11:13:00.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The exchange traced the breach to an engineer's laptop as partners froze roughly $3 billion in affected assets.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/binance-reportedly-hit-in-estimated-6-3-billion-cyberattack",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Polymarket resumes trading after third-party software compromise",
+      "canonical_url": "https://www.siliconreport.com/polymarket-resumes-trading-after-third-party-software-compromise",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T09:16:45.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Hackers reportedly siphoned $2.65 million from user wallets as the platform promised full reimbursements to traders.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/polymarket-resumes-trading-after-third-party-software-compromise",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google announces Gemini 4 Carbon frontier model",
+      "canonical_url": "https://www.siliconreport.com/google-announces-gemini-4-carbon-frontier-model",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T09:11:29.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Google set introductory launch pricing at $2 per million input tokens and $10 per million output tokens.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-announces-gemini-4-carbon-frontier-model",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jassy dismisses outside AI shopping agents as inconvenient",
+      "canonical_url": "https://www.siliconreport.com/jassy-dismisses-outside-ai-shopping-agents-as-inconvenient",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T07:47:45.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Andy Jassy said more than 400 million customers used Alexa for shopping over the past year.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/jassy-dismisses-outside-ai-shopping-agents-as-inconvenient",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "&Truth raises $70M to verify any programming language",
+      "canonical_url": "https://www.siliconreport.com/truth-raises-70m-to-verify-any-programming-language",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T07:42:36.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The startup uses generative AI to automate formal software verification and eliminate bugs.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/truth-raises-70m-to-verify-any-programming-language",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Coinbase reports $719 million profit on crypto market recovery",
+      "canonical_url": "https://www.siliconreport.com/coinbase-reports-719-million-profit-on-crypto-market-recovery",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T07:18:31.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Subscription and services reached 49% of net revenue as crypto investment portfolio gains offset weak trading volume.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/coinbase-reports-719-million-profit-on-crypto-market-recovery",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Waymo will test autonomous Toyota bZ4X fleet in Japan",
+      "canonical_url": "https://www.siliconreport.com/waymo-will-test-autonomous-toyota-bz4x-fleet-in-japan",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T07:14:23.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Toyota will manufacture the electric vehicles and integrate self-driving systems at its Takaoka plant.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/waymo-will-test-autonomous-toyota-bz4x-fleet-in-japan",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia pushes back on report of surveillance tied to Jensen Huang",
+      "canonical_url": "https://www.siliconreport.com/nvidia-pushes-back-on-report-of-surveillance-tied-to-jensen-huang",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T07:11:28.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The company called ties to Megaspeed routine and said prior chip diversion allegations were thoroughly debunked.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-pushes-back-on-report-of-surveillance-tied-to-jensen-huang",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "ASE expects packaging and testing margins to stay above 30% in 2027",
+      "canonical_url": "https://www.siliconreport.com/ase-expects-packaging-and-testing-margins-to-stay-above-30-in-2027",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T06:46:38.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Third-quarter net revenue rose 44.8% year over year to NT$244.16 billion as advanced packaging lifted returns.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/ase-expects-packaging-and-testing-margins-to-stay-above-30-in-2027",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "CrowdStrike says VAPOR PANDA targeted over 200 organizations with AI",
+      "canonical_url": "https://www.siliconreport.com/crowdstrike-says-vapor-panda-targeted-over-200-organizations-with-ai",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T06:40:32.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "CrowdStrike Intelligence confirmed post-exploitation activity at nine organizations after an 11-day campaign.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/crowdstrike-says-vapor-panda-targeted-over-200-organizations-with-ai",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Mistral releases open weights for Mistral Large 4",
+      "canonical_url": "https://www.siliconreport.com/mistral-releases-open-weights-for-mistral-large-4",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T04:42:06.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The 1-trillion-parameter model cuts token usage by 47% on coding agent tasks while matching leading open benchmarks.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/mistral-releases-open-weights-for-mistral-large-4",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Gemini app lets users create and edit files inside chats",
+      "canonical_url": "https://www.siliconreport.com/gemini-app-lets-users-create-and-edit-files-inside-chats",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T03:13:22.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "An accompanying Android update brings a refreshed translucent overlay design to all supported devices.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/gemini-app-lets-users-create-and-edit-files-inside-chats",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Reddit will start requiring users to log in",
+      "canonical_url": "https://www.siliconreport.com/reddit-will-start-requiring-users-to-log-in",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T03:11:16.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "CEO Steve Huffman said tests will start in select non-US markets to curb alleged unauthorized scraping and improve ad targeting.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/reddit-will-start-requiring-users-to-log-in",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Humanist secures religious exemption from workplace AI use",
+      "canonical_url": "https://www.siliconreport.com/humanist-secures-religious-exemption-from-workplace-ai-use",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T03:07:03.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "University of Kentucky research administrator David Durman received Title VII protection against mandated AI tools.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/humanist-secures-religious-exemption-from-workplace-ai-use",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "TradeXYZ partners with ICE to bring Hyperliquid futures to US",
+      "canonical_url": "https://www.siliconreport.com/tradexyz-partners-with-ice-to-bring-hyperliquid-futures-to-us",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T02:40:31.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The companies said they are seeking regulatory approvals to launch domestic crypto perpetual contracts.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/tradexyz-partners-with-ice-to-bring-hyperliquid-futures-to-us",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta quietly launches AI fashion app Style Sketch",
+      "canonical_url": "https://www.siliconreport.com/meta-quietly-launches-ai-fashion-app-style-sketch",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T02:18:05.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The mobile app connects with Instagram and is available in Indonesia, Singapore, and Thailand.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/meta-quietly-launches-ai-fashion-app-style-sketch",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Utah files criminal charges against Kalshi and its executives",
+      "canonical_url": "https://www.siliconreport.com/utah-files-criminal-charges-against-kalshi-and-its-executives",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T02:14:41.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The prediction market and two co-founders face 13 felony charges and one misdemeanor over sports betting contracts.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/utah-files-criminal-charges-against-kalshi-and-its-executives",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI will point robotics at data centers, Altman says",
+      "canonical_url": "https://www.siliconreport.com/openai-will-point-robotics-at-data-centers-altman-says",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T02:07:56.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Altman also cautioned that sandboxing models far smarter than humans remains an unresolved security challenge.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-will-point-robotics-at-data-centers-altman-says",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sandisk reports $11B revenue, up 378%, and sets 8-for-1 stock split",
+      "canonical_url": "https://www.siliconreport.com/sandisk-reports-11b-revenue-up-378-and-sets-8-for-1-stock-split",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T01:44:43.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The storage maker forecast up to $12.6 billion in revenue for the December quarter, topping FactSet analyst estimates.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/sandisk-reports-11b-revenue-up-378-and-sets-8-for-1-stock-split",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AWS third-quarter revenue rises 39% to $45.98 billion",
+      "canonical_url": "https://www.siliconreport.com/aws-third-quarter-revenue-rises-39-to-45-98-billion",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T01:42:00.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Capital expenditures are projected at about $220 billion as trailing free cash flow dropped to negative $42.4 billion.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/aws-third-quarter-revenue-rises-39-to-45-98-billion",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Binance investigates possible hack as damage remains unclear",
+      "canonical_url": "https://www.siliconreport.com/binance-investigates-possible-hack-as-damage-remains-unclear",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-30T00:06:28.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "Tether froze over 1.567 billion USDT tied to the potential incident while Binance stated user funds are safe.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/binance-investigates-possible-hack-as-damage-remains-unclear",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google fixes Photos bug that hid edited pictures from Android apps",
+      "canonical_url": "https://www.siliconreport.com/google-fixes-photos-bug-that-hid-edited-pictures-from-android-apps",
+      "publisher": "SiliconReport",
+      "published_at": "2026-10-29T20:41:39.000Z",
+      "fetched_at": "2026-10-31T15:59:32.956Z",
+      "excerpt": "The update restores access to edited pictures in third-party pickers for apps such as Telegram and WhatsApp.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-fixes-photos-bug-that-hid-edited-pictures-from-android-apps",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Startups"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "adapter": "lab-blogs",
+  "source": "openai-news",
+  "fetched_at": "2026-11-05T18:36:59.027Z",
+  "items": [
+    {
+      "headline": "Setting a new standard for responsible AI infrastructure",
+      "canonical_url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "source_ids": {
+        "guid": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "canonical_url": "https://openai.com/index/openai-to-acquire-pierre",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-04T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "source_ids": {
+        "guid": "https://openai.com/index/openai-to-acquire-pierre"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "canonical_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-04T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "source_ids": {
+        "guid": "https://openai.com/index/daybreak-red-aws-govcloud"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "A thousand fewer paths to root",
+      "canonical_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-04T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "source_ids": {
+        "guid": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing Images 2.6",
+      "canonical_url": "https://openai.com/index/introducing-images-2-6",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-04T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "source_ids": {
+        "guid": "https://openai.com/index/introducing-images-2-6"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "canonical_url": "https://openai.com/index/devrev-enterprise-self-service",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-04T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "source_ids": {
+        "guid": "https://openai.com/index/devrev-enterprise-self-service"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Accelerating engineering for the physical world",
+      "canonical_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "source_ids": {
+        "guid": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How Cisco defends at machine speed with OpenAI",
+      "canonical_url": "https://openai.com/index/cisco-cyber",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "source_ids": {
+        "guid": "https://openai.com/index/cisco-cyber"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Heimstaden is changing residential real estate management with AI",
+      "canonical_url": "https://openai.com/index/heimstaden",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "source_ids": {
+        "guid": "https://openai.com/index/heimstaden"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "canonical_url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "source_ids": {
+        "guid": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Scaling Git at OpenAI",
+      "canonical_url": "https://openai.com/index/scaling-git-at-openai",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "source_ids": {
+        "guid": "https://openai.com/index/scaling-git-at-openai"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing the Grid Protectors Program",
+      "canonical_url": "https://openai.com/index/grid-protectors-program",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "source_ids": {
+        "guid": "https://openai.com/index/grid-protectors-program"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Rewarding defenders with bigger bug bounties",
+      "canonical_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "source_ids": {
+        "guid": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Preparing our next security sprint to harden OpenAI",
+      "canonical_url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "source_ids": {
+        "guid": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "LifeVal",
+      "canonical_url": "https://openai.com/index/lifeval",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "source_ids": {
+        "guid": "https://openai.com/index/lifeval"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Qodo builds context into AI code review with Codex",
+      "canonical_url": "https://openai.com/index/qodo-codex-plugin",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "source_ids": {
+        "guid": "https://openai.com/index/qodo-codex-plugin"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "canonical_url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "source_ids": {
+        "guid": "https://openai.com/index/dan-driscoll-joins-openai"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Making it easier for websites to express AI training preferences",
+      "canonical_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "publisher": "OpenAI",
+      "published_at": "2026-10-30T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "source_ids": {
+        "guid": "https://openai.com/index/helping-websites-express-ai-training-preferences"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Community safety report and new protections for teens",
+      "canonical_url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "publisher": "OpenAI",
+      "published_at": "2026-10-30T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "source_ids": {
+        "guid": "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Fair use benefits everyone",
+      "canonical_url": "https://openai.com/index/fair-use-benefits-everyone",
+      "publisher": "OpenAI",
+      "published_at": "2026-10-30T00:00:00.000Z",
+      "fetched_at": "2026-11-05T18:36:59.027Z",
+      "excerpt": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "source_ids": {
+        "guid": "https://openai.com/index/fair-use-benefits-everyone"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "mit-tr-ai",
+  "fetched_at": "2026-11-08T16:58:01.363Z",
+  "items": [
+    {
+      "headline": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "canonical_url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-06T10:00:00.000Z",
+      "fetched_at": "2026-11-08T16:58:02.653Z",
+      "excerpt": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148090",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "Summary"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "canonical_url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-04T18:50:55.000Z",
+      "fetched_at": "2026-11-08T16:58:02.653Z",
+      "excerpt": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148043",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "Summary"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Securing the agentic enterprise with data lineage",
+      "canonical_url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-04T13:00:00.000Z",
+      "fetched_at": "2026-11-08T16:58:02.653Z",
+      "excerpt": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147596",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "How “reverse game theory” could keep AI agents in check",
+      "canonical_url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-03T10:43:41.000Z",
+      "fetched_at": "2026-11-08T16:58:02.653Z",
+      "excerpt": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147934",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "Summary"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "canonical_url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-03T04:18:47.000Z",
+      "fetched_at": "2026-11-08T16:58:02.653Z",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147932",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "The Algorithm"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Raising the quality of insights in agentic analytics",
+      "canonical_url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-02T17:00:00.000Z",
+      "fetched_at": "2026-11-08T16:58:02.653Z",
+      "excerpt": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147660",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Stop counting tokens, start counting what ships",
+      "canonical_url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-02T13:10:32.000Z",
+      "fetched_at": "2026-11-08T16:58:02.653Z",
+      "excerpt": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls…",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147702",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The agentic web is here",
+      "canonical_url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-02T09:35:19.000Z",
+      "fetched_at": "2026-11-08T16:58:02.653Z",
+      "excerpt": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147846",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

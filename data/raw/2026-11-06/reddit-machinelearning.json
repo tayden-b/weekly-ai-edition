@@ -1,0 +1,345 @@
+{
+  "adapter": "reddit-json",
+  "source": "reddit-machinelearning",
+  "fetched_at": "2026-11-06T17:52:04.617Z",
+  "items": [
+    {
+      "headline": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xm89ef/sparks_of_weightspace_programming_llms_can/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T20:18:26.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "Link: https://rikiyat.github.io/blog/weight-space-programming/ Snippet: “We find that frontier LLMs are surprisingly good at natively reading and writing neural network weights , well past what we’d expect from humans or conventional algorithms. This might be a big deal for both optimization and",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xm89ef",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "A message to top tier conferences [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-04T09:55:50.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "TL;DR: Please be hard in desk rejecting AI generated papers Recently I went to two AI conferences (A and A*) and I was surprised that \"AI cheaters\" didn't even read their own paper before presentation! For example, a guy couldn't even answer the question of how he represented knowledge graphs in",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xnkbeu",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "To all ML PhDs, how are you guys doing these days? [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xm5w5i/to_all_ml_phds_how_are_you_guys_doing_these_days_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T18:52:17.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "Given how competitive AI research has become, and how much luck is involved in landing an actual research role at Big Tech or an AI startup, do you still think your PhD was worth it? Yes, i know a PhD should primarily be about enjoying research, not getting an industry job. But realistically, we",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xm5w5i",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "ICLR 2027 Reviews Discussion [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xo6yzo/iclr_2027_reviews_discussion_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-05T02:17:59.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "The ICLR 2027 reviews will be released soon. Share your results here, and keep a lookout on papercopilot to judge your odds. I also found paperScorer quite interesting for the same. Of course, these are only for amusement and should not be taken seriously. Good luck to all.",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xo6yzo",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "We turned 10 years of ML papers into one page per topic: benchmark records, what got tried, what reviewers expect [P]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-03T05:09:18.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "We've been working on this for a while and shipped it today. We took every accepted paper from ICML, NeurIPS, ICLR, CVPR and AAAI since 2016 (about 109k), grouped them into ~1,260 topics, and pulled the results tables and ablations out of the full text of 79k of them. The research map just shows",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xmk8rx",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "ICLR 2027 review results [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xm8vik/iclr_2027_review_results_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T20:41:35.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "The reviews will be out this week. What are the expectations with 60K+ submissions and the small scale of review rating?",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xm8vik",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "ML PhDs: Would you rather have done your PhD before or after the rise of AI chatbots? [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xlt9wm/ml_phds_would_you_rather_have_done_your_phd/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T10:04:25.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "For those doing or having completed a PhD in ML, I’m curious: If you had the choice, would you rather have done your PhD before ChatGPT and other AI chatbots became widely available, or in today’s AI era?",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xlt9wm",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Why can't conferences just reasonably reduce the cap on number of submissions? [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xnscvr/why_cant_conferences_just_reasonably_reduce_the/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-04T16:17:39.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "As per the the 2027 CVPR guidelines: \"Maximum number of submissions (continuing from CVPR 2026): Each author may submit at most 25 papers. If an author enrolls more than 25 papers, the Program Chairs (PCs) will desk-reject the submissions that exceed this limit (see the Desk Rejection Policy in",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xnscvr",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "ICLR 2027 Review Scores [N]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xpedgc/iclr_2027_review_scores_n/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-06T14:37:41.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "ICLR 2027 Review Scores [N]",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xpedgc",
+        "reddit_subreddit": "MachineLearning",
+        "reddit_url": "https://i.redd.it/hypo5l1a700i1.png"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Why do all NN optimizers have weird names? [d]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xl7yv0/why_do_all_nn_optimizers_have_weird_names_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-01T16:51:18.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "SOAP, Shampoo, FOAM. Muon is a bit better but it has the same name as the particle from physics. Whenever I want to search about these tones of completely irrelevant results come up because of their non-unqiue names. Adam would have the same problem if it wasn't so famous. This has been giving me a",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xl7yv0",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "What is now considered a “reasonable” publication rate (papers/year) for a PhD student to be considered “productive”? [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xo7q89/what_is_now_considered_a_reasonable_publication/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-05T02:55:15.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "I would assume LLMs have bumped this number, or maybe not. Which is why I am asking. If there are PIs on here, how many papers before you let your students graduate? Is the number different now than it was a year ago? And the same question for “rate of publication” for you to deem the student as",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xo7q89",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "The Ultimate MoE Training Handbook: training Mixture-of-Experts models with Megatron-LM, setting by setting [P]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xorgq0/the_ultimate_moe_training_handbook_training/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-05T19:13:51.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "Handbook: https://huggingface.co/spaces/huggingface/moe-blogpost Hello, I'm Nouamane, one of the authors. I'm at Hugging Face and also worked on the Ultra-Scale and Smol Training Playbooks, if you've read those. This handbook is for people who have trained a dense model and want to train an MoE",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xorgq0",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Couldn't reproduce a published paper's numbers with its own code and settings. How do I present this? [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xm64of/couldnt_reproduce_a_published_papers_numbers_with/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T19:00:24.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "I'm writing a machine learning paper. One of my baselines is a published method. I reran it with the authors' released code and the exact hyperparameters listed in their paper. On most benchmarks my numbers match theirs within noise, but on two benchmarks my reproduction is clearly lower, by",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xm64of",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Publication expectations for ML PhDs at top-10 US schools / top ML groups? [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xoc358/publication_expectations_for_ml_phds_at_top10_us/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-05T06:56:48.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "From what I’ve read on Reddit so far, I’m getting the impression that around 4 first-author papers at top ML conferences (NeurIPS, ICML, ICLR, etc.) is a fairly standard expectation for graduating from a top ML PhD program. Of course, my impression could be biased by the posts I’ve seen. For people",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xoc358",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "What did Ilya Sutskever mean when he said \"The models, they just want to learn\"? [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xlyr77/what_did_ilya_sutskever_mean_when_he_said_the/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T14:32:14.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "It was just before OpenAI started that I met Ilya, who you interviewed . One of the first things he said to me was — “ Look. The models, they just want to learn. You have to understand this. The models, they just want to learn. ” And it was a bit like a Zen Koan. I listened to this and I became",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xlyr77",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "ICLR 2027 Reviews are out [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xpc9sh/iclr_2027_reviews_are_out_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-06T13:03:09.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "How did it go? I will start: 3/3/2",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xpc9sh",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Small-scale check of \"good views beat next-token prediction\" (Balestriero & LeCun 2026): human captions only, 11M-param encoders [P]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xlzoze/smallscale_check_of_good_views_beat_nexttoken/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-02T15:08:41.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "The paper claims text models align with image models faster when trained on \"good views\" (two different captions of one photo) than on bad views (one caption, words hidden) or next-token prediction. Its largest run used captions written by an image captioner, so image information could have leaked",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xlzoze",
+        "reddit_subreddit": "MachineLearning",
+        "reddit_url": "https://i.redd.it/j2humdsjq7zh1.png"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Are there fundamental repeating patterns in ML techniques across modalities (text, image, audio) that let us group them? [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-01T00:07:04.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "I’ve been noticing that a lot of techniques seem to repeat across modalities with just a different name. For example, tokenisation, masking (MLM / MAE / audio masking), diffusion, next-token / next-frame prediction, etc. Is there an existing taxonomy or mental model that groups ML techniques by",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xkp8e9",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Visa Situation for NeurIPS Sydney Attendees [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xnh0uh/visa_situation_for_neurips_sydney_attendees_d/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-04T06:24:54.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "I'm just wondering about visa processing situation for NeurIPS sydney attendees. Invitation letter and all valid docs are not really helping (one friend got rejected), processing time is tooo long (almost a month). and organizers not responding in case visa is not approved for conference. Anyone",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xnh0uh",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Hydrogen-1.0: open-weight scientific model beats GPT-6 Astra on FSR with 72% lower estimated output cost [P]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-04T09:00:29.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "Hey everyone— we’re the Deep Principle team behind Mira AI Scientist. We just released Hydrogen-1.0 , an open-weight model post-trained from GLM-5.3 for chemistry, materials science, and life sciences. Here’s how it performed in our evaluations: FrontierScience Research: 38.3% pass rate vs. 33.3%",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xnjhdd",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "A new, open-weights 278M PII detection model and reference benchmark [R]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xn2lro/a_new_openweights_278m_pii_detection_model_and/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-03T19:29:54.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "Hi everyone, I wanted to share a new open-weights PII detection model, benchmark and research paper. It's a fine-tune of RoBERTa using 1.2B samples of synthetically generated text that contain a variety of PII. The benchmark, PII-SCOPE (Synthetic Context and Ontology for PII Extraction), was built",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xn2lro",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "ICLR27: Reviewer says my paper is too close to the same paper that I previously had in a workshop. [D]",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xpf4t6/iclr27_reviewer_says_my_paper_is_too_close_to_the/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-06T15:09:18.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "I submitted my paper to ICLR, after improving and correcting since I \"published\" it previously in a workshop/arXiv. In this process, I changed the name of the method and title. Now a reviewer, pointed out that my method is very closely related to basically an old version of my paper, and wants me",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xpf4t6",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "[D] Simple Questions Thread",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xl6og2/d_simple_questions_thread/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-11-01T16:00:36.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. Thanks to everyone for answering questions in the previous thread!",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xl6og2",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "canonical_url": "https://www.reddit.com/r/MachineLearning/comments/1xjyo89/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+      "publisher": "r/MachineLearning",
+      "published_at": "2026-10-31T02:30:21.000Z",
+      "fetched_at": "2026-11-06T17:52:04.684Z",
+      "excerpt": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this template Want to be Hired: [Location], Salary Expectation:[], [Remote |",
+      "source_ids": {
+        "reddit_feed": "reddit-machinelearning",
+        "reddit_id": "t3_1xjyo89",
+        "reddit_subreddit": "MachineLearning"
+      },
+      "adapter": "reddit-json"
+    }
+  ]
+}

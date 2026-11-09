@@ -1,0 +1,31 @@
+{
+  "adapter": "hf-hub",
+  "source": "hf-hub-models",
+  "fetched_at": "2026-10-31T15:59:31.570Z",
+  "items": [
+    {
+      "headline": "microsoft/Mage-VL-Cowork",
+      "canonical_url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+      "publisher": "microsoft",
+      "published_at": "2026-10-30T12:13:24.000Z",
+      "fetched_at": "2026-10-31T15:59:31.604Z",
+      "excerpt": "microsoft/Mage-VL-Cowork — image-text-to-text",
+      "source_ids": {
+        "hf_model_id": "microsoft/Mage-VL-Cowork"
+      },
+      "adapter": "hf-hub"
+    },
+    {
+      "headline": "microsoft/CogACT-v2-RoboDojo",
+      "canonical_url": "https://huggingface.co/microsoft/CogACT-v2-RoboDojo",
+      "publisher": "microsoft",
+      "published_at": "2026-10-25T14:35:41.000Z",
+      "fetched_at": "2026-10-31T15:59:31.604Z",
+      "excerpt": "microsoft/CogACT-v2-RoboDojo",
+      "source_ids": {
+        "hf_model_id": "microsoft/CogACT-v2-RoboDojo"
+      },
+      "adapter": "hf-hub"
+    }
+  ]
+}

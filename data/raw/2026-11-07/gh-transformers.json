@@ -1,0 +1,20 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-transformers",
+  "fetched_at": "2026-11-07T16:47:01.700Z",
+  "items": [
+    {
+      "headline": "Patch release v5.22.2",
+      "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.22.2",
+      "publisher": "GitHub: huggingface/transformers",
+      "published_at": "2026-11-06T15:43:27Z",
+      "fetched_at": "2026-11-07T16:47:01.738Z",
+      "excerpt": "# Patch release v5.22.2 Some in between patch for security and distributed fixes. See the included commits :hugs: - [Distributed] Set device_id only for NCCL (#50281) by @michaelbenayoun and @3outeille - Harden our Jinja sandboxing (#50431) by @Rocketknight1 **Full Changelog**:",
+      "source_ids": {
+        "github_repo": "huggingface/transformers",
+        "github_release_tag": "v5.22.2"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

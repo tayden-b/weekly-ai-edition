@@ -1,0 +1,79 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ars-ai",
+  "fetched_at": "2026-11-08T16:58:01.363Z",
+  "items": [
+    {
+      "headline": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "canonical_url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-05T21:40:36.000Z",
+      "fetched_at": "2026-11-08T16:58:03.081Z",
+      "excerpt": "Google is technically offering schools more choice but not the choices anyone wants.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "ai search",
+        "Artificial Intelligence",
+        "google",
+        "search"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-04T20:55:50.000Z",
+      "fetched_at": "2026-11-08T16:58:03.081Z",
+      "excerpt": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Policy",
+        "ai data center",
+        "ai election",
+        "ai race",
+        "Artificial Intelligence",
+        "china",
+        "data center moratoriums",
+        "Donald Trump",
+        "Elon Musk",
+        "midterm elections",
+        "SpaceXAI",
+        "texas",
+        "trump administration"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google will let schools skip AI tools, but they have to give up search, too",
+      "canonical_url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-03T17:54:43.000Z",
+      "fetched_at": "2026-11-08T16:58:03.081Z",
+      "excerpt": "Google will offer schools AI tools that purportedly don't give away the answers.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "AI education",
+        "Artificial Intelligence",
+        "education",
+        "google",
+        "search"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

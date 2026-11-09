@@ -1,0 +1,475 @@
+{
+  "adapter": "benchmarks",
+  "source": "epoch-ai-data",
+  "fetched_at": "2026-11-08T16:58:01.363Z",
+  "items": [
+    {
+      "headline": "GPQA Diamond: kimi-k3.1-pro-together_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=gpqa_diamond&model=kimi-k3.1-pro-together_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-06T00:59:23.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.9419191919191919 · Best score (across scorers): 0.9419191919191919 · Organization: Moonshot · Release date: 2026-10-23",
+      "source_ids": {
+        "epoch_eval_id": "2bhYPjF6VRWc5CeERGq8g5",
+        "epoch_benchmark": "gpqa_diamond"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "GPQA Diamond: doubao-seed-evolving_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=gpqa_diamond&model=doubao-seed-evolving_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T20:57:35.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.9311868686868687 · Best score (across scorers): 0.9311868686868687 · Organization: ByteDance · Release date: 2026-11-02",
+      "source_ids": {
+        "epoch_eval_id": "KWK3fWVchTtVXd4kAEhwK5",
+        "epoch_benchmark": "gpqa_diamond"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "GPQA Diamond: mistral-large-4-0-oss_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=gpqa_diamond&model=mistral-large-4-0-oss_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T13:47:17.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.9015151515151515 · Best score (across scorers): 0.9015151515151515 · Organization: Mistral AI · Release date: 2026-10-29",
+      "source_ids": {
+        "epoch_eval_id": "brFy5AcCtkxoccgJToWYmR",
+        "epoch_benchmark": "gpqa_diamond"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "OTIS Mock AIME 2024/2025: kimi-k3.1-pro-together_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=otis_mock_aime_2024_2025&model=kimi-k3.1-pro-together_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-06T00:59:23.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 1.0 · Best score (across scorers): 1.0 · Organization: Moonshot · Release date: 2026-10-23",
+      "source_ids": {
+        "epoch_eval_id": "8Qe2qf4Eg77PMfp2Eh7V6K",
+        "epoch_benchmark": "otis_mock_aime_2024_2025"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "OTIS Mock AIME 2024/2025: doubao-seed-evolving_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=otis_mock_aime_2024_2025&model=doubao-seed-evolving_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T20:57:35.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.9916666666666667 · Best score (across scorers): 0.9916666666666667 · Organization: ByteDance · Release date: 2026-11-02",
+      "source_ids": {
+        "epoch_eval_id": "RG3zEJdwgXxoYZjFkHc6pa",
+        "epoch_benchmark": "otis_mock_aime_2024_2025"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "OTIS Mock AIME 2024/2025: mistral-large-4-0-oss_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=otis_mock_aime_2024_2025&model=mistral-large-4-0-oss_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T13:47:17.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.9944444444444445 · Best score (across scorers): 0.9944444444444445 · Organization: Mistral AI · Release date: 2026-10-29",
+      "source_ids": {
+        "epoch_eval_id": "gmJrht9jW92sRXiYyfSqEP",
+        "epoch_benchmark": "otis_mock_aime_2024_2025"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "FrontierMath Tiers 1–3 v2: kimi-k3.1-pro-together_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_tiers_1_3_v2&model=kimi-k3.1-pro-together_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-06T00:59:23.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.7824561403508772 · Best score (across scorers): 0.7824561403508772 · Organization: Moonshot · Release date: 2026-10-23",
+      "source_ids": {
+        "epoch_eval_id": "9iqojBnRuywLNkMDSVdwpJ",
+        "epoch_benchmark": "frontiermath_tiers_1_3_v2"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "FrontierMath Tier 4 v2: kimi-k3.1-pro-together_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_tier_4_v2&model=kimi-k3.1-pro-together_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-06T00:59:23.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.6585365853658537 · Best score (across scorers): 0.6585365853658537 · Organization: Moonshot · Release date: 2026-10-23",
+      "source_ids": {
+        "epoch_eval_id": "o7TxEhAxnN2qKUqqhFgp5H",
+        "epoch_benchmark": "frontiermath_tier_4_v2"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "EBR-Bench: mistral-large-4-0-oss_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=ebr_bench&model=mistral-large-4-0-oss_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T14:05:31.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.18095238095238095 · Best score (across scorers): 0.18095238095238095 · Organization: Mistral AI · Release date: 2026-10-29",
+      "source_ids": {
+        "epoch_eval_id": "Xhk47x2m6incQifzec3pqC",
+        "epoch_benchmark": "ebr_bench"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "SimpleQA Verified: kimi-k3.1-pro-together_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simpleqa_verified&model=kimi-k3.1-pro-together_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-06T00:59:23.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.622 · Best score (across scorers): 0.622 · Organization: Moonshot · Release date: 2026-10-23",
+      "source_ids": {
+        "epoch_eval_id": "HumfsXVh5BZWuTo6Z8Gqnf",
+        "epoch_benchmark": "simpleqa_verified"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "SimpleQA Verified: doubao-seed-evolving_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simpleqa_verified&model=doubao-seed-evolving_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T20:57:35.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.419 · Best score (across scorers): 0.419 · Organization: ByteDance · Release date: 2026-11-02",
+      "source_ids": {
+        "epoch_eval_id": "PWieWgMJqvCcm7zkN9iYqH",
+        "epoch_benchmark": "simpleqa_verified"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "SimpleQA Verified: mistral-large-4-0-oss_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simpleqa_verified&model=mistral-large-4-0-oss_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T13:47:17.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.224 · Best score (across scorers): 0.224 · Organization: Mistral AI · Release date: 2026-10-29",
+      "source_ids": {
+        "epoch_eval_id": "JYSfRXRddi6hYzpnSD3G7V",
+        "epoch_benchmark": "simpleqa_verified"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "Chess Puzzles: kimi-k3.1-pro-together_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=chess_puzzles&model=kimi-k3.1-pro-together_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-06T00:59:23.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.45 · Best score (across scorers): 0.45 · Organization: Moonshot · Release date: 2026-10-23",
+      "source_ids": {
+        "epoch_eval_id": "8eSYUWwajdBjKiiM9CwnKu",
+        "epoch_benchmark": "chess_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "Chess Puzzles: doubao-seed-evolving_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=chess_puzzles&model=doubao-seed-evolving_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T20:57:35.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.4 · Best score (across scorers): 0.4 · Organization: ByteDance · Release date: 2026-11-02",
+      "source_ids": {
+        "epoch_eval_id": "DDxB37H4uXfuBeSeD3UJWJ",
+        "epoch_benchmark": "chess_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "Chess Puzzles: mistral-large-4-0-oss_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=chess_puzzles&model=mistral-large-4-0-oss_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T13:47:17.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.29 · Best score (across scorers): 0.29 · Organization: Mistral AI · Release date: 2026-10-29",
+      "source_ids": {
+        "epoch_eval_id": "PuHzUbC9C2fJAq7iA5wQpv",
+        "epoch_benchmark": "chess_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "mystery game puzzles: kimi-k3.1-pro-together_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=mystery_game_puzzles&model=kimi-k3.1-pro-together_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-06T00:59:23.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.42 · Best score (across scorers): 0.42 · Organization: Moonshot · Release date: 2026-10-23",
+      "source_ids": {
+        "epoch_eval_id": "ba7BQr2N7kTuzakT8fZ3WU",
+        "epoch_benchmark": "mystery_game_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "mystery game puzzles: mistral-large-4-0-oss_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=mystery_game_puzzles&model=mistral-large-4-0-oss_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T13:47:17.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.2 · Best score (across scorers): 0.2 · Organization: Mistral AI · Release date: 2026-10-29",
+      "source_ids": {
+        "epoch_eval_id": "bsKLyeEUqxgEFd9ZV6PfSx",
+        "epoch_benchmark": "mystery_game_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "furniture assembly: kimi-k3.1-pro-together_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=furniture_assembly&model=kimi-k3.1-pro-together_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-06T11:34:34.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.5583333333333333 · Best score (across scorers): 0.5583333333333333 · Organization: Moonshot · Release date: 2026-10-23",
+      "source_ids": {
+        "epoch_eval_id": "UNKjzcpUBaxGsrr7zZZZWC",
+        "epoch_benchmark": "furniture_assembly"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "furniture assembly: mistral-large-4-0-oss_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=furniture_assembly&model=mistral-large-4-0-oss_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-02T13:47:12.000Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.30833333333333335 · Best score (across scorers): 0.30833333333333335 · Organization: Mistral AI · Release date: 2026-10-29",
+      "source_ids": {
+        "epoch_eval_id": "KHGiQxkc3Xh4BiQAaBUizx",
+        "epoch_benchmark": "furniture_assembly"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: gpt-6-sol_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=gpt-6-sol_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-05T15:14:53.647Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.09166666666666667 · Best score (across scorers): 0.09166666666666667 · Organization: OpenAI · Release date: 2026-09-22",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-831fe00153e0f0b1+steambench-sts2-a10-edacf7bb0ae31edf",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: claude-fable-5-1_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=claude-fable-5-1_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-05T15:14:53.017Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.02 · Best score (across scorers): 0.02 · Organization: Anthropic · Release date: 2026-09-01",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-2057a494867d184c+steambench-sts2-a10-413d1cc930f6d4c6",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: claude-sonnet-5-5_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=claude-sonnet-5-5_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-05T15:14:37.615Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.013333333333333334 · Best score (across scorers): 0.013333333333333334 · Organization: Anthropic · Release date: 2026-09-28",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-e8f930bf4d4f1a14+steambench-sts2-a10-5db0e95e99f6b21c",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: gpt-6-luna_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=gpt-6-luna_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-05T15:14:35.795Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.0 · Best score (across scorers): 0.0 · Organization: OpenAI · Release date: 2026-09-22",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-f7325d71b8b16f57+steambench-sts2-a10-0e148062f8e47c4a",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: claude-opus-5-5_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=claude-opus-5-5_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-04T19:04:14.742Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.058333333333333334 · Best score (across scorers): 0.058333333333333334 · Organization: Anthropic · Release date: 2026-09-22",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-789f946c67a789f5+steambench-sts2-a10-ef454c368767b2a0",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: gpt-6.1-sol_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=gpt-6.1-sol_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-04T18:36:01.058Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.23833333333333334 · Best score (across scorers): 0.23833333333333334 · Organization: OpenAI · Release date: 2026-09-29",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-e795fd781f73bd66+steambench-sts2-a10-9a23c8dea53b6755",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: gpt-6-astra_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=gpt-6-astra_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-04T18:35:57.934Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.33999999999999997 · Best score (across scorers): 0.33999999999999997 · Organization: OpenAI · Release date: 2026-09-03",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-cd6cd8bb290a7ae3+steambench-sts2-a10-cdf1c9fa85cb6300",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: gpt-6.1-terra_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=gpt-6.1-terra_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-04T18:35:54.875Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.22333333333333333 · Best score (across scorers): 0.22333333333333333 · Organization: OpenAI · Release date: 2026-10-26",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-263bd0e64b156075+steambench-sts2-a10-1102b0b9cf1785f6",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: gpt-6-sol_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=gpt-6-sol_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-05T15:14:53.647Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.05 · Best score (across scorers): 0.05 · Organization: OpenAI · Release date: 2026-09-22",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-831fe00153e0f0b1",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: claude-fable-5-1_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=claude-fable-5-1_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-05T15:14:53.017Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.0 · Best score (across scorers): 0.0 · Organization: Anthropic · Release date: 2026-09-01",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-2057a494867d184c",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: claude-sonnet-5-5_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=claude-sonnet-5-5_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-05T15:14:37.615Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.0 · Best score (across scorers): 0.0 · Organization: Anthropic · Release date: 2026-09-28",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-e8f930bf4d4f1a14",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: gpt-6-luna_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=gpt-6-luna_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-05T15:14:35.795Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.0 · Best score (across scorers): 0.0 · Organization: OpenAI · Release date: 2026-09-22",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-f7325d71b8b16f57",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: claude-opus-5-5_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=claude-opus-5-5_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-04T19:04:14.742Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.05 · Best score (across scorers): 0.05 · Organization: Anthropic · Release date: 2026-09-22",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-789f946c67a789f5",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: gpt-6.1-sol_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=gpt-6.1-sol_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-04T18:36:01.058Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.18333333333333332 · Best score (across scorers): 0.18333333333333332 · Organization: OpenAI · Release date: 2026-09-29",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-e795fd781f73bd66",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: gpt-6-astra_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=gpt-6-astra_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-04T18:35:57.934Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.3333333333333333 · Best score (across scorers): 0.3333333333333333 · Organization: OpenAI · Release date: 2026-09-03",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-cd6cd8bb290a7ae3",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: gpt-6.1-terra_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=gpt-6.1-terra_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-04T18:35:54.875Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.1 · Best score (across scorers): 0.1 · Organization: OpenAI · Release date: 2026-10-26",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-263bd0e64b156075",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts2 a10: gpt-6.1-terra_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts2_a10&model=gpt-6.1-terra_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-03T21:06:29.333Z",
+      "fetched_at": "2026-11-08T16:58:01.417Z",
+      "excerpt": "mean_score: 0.3466666666666667 · Best score (across scorers): 0.3466666666666667 · Organization: OpenAI · Release date: 2026-10-26",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts2-a10-1102b0b9cf1785f6",
+        "epoch_benchmark": "spireclimb_sts2_a10"
+      },
+      "adapter": "benchmarks"
+    }
+  ]
+}

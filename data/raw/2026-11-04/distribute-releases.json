@@ -1,0 +1,86 @@
+{
+  "adapter": "distribute-software",
+  "source": "distribute-releases",
+  "fetched_at": "2026-11-04T18:31:26.209Z",
+  "items": [
+    {
+      "headline": "Kimi K3.1 released on Hugging Face",
+      "canonical_url": "https://huggingface.co/models?author=moonshotai&search=Kimi-K3.1",
+      "publisher": "Moonshot",
+      "published_at": "2026-11-04T15:45:13.843Z",
+      "fetched_at": "2026-11-04T18:31:28.204Z",
+      "excerpt": "Kimi K3.1 released on Hugging Face",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1106",
+        "distribute_url": "https://distribute.software/?show=labs&lab=moonshot",
+        "distribute_source": "lab"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "canonical_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-04T07:00:00.000Z",
+      "fetched_at": "2026-11-04T18:31:28.204Z",
+      "excerpt": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1105",
+        "distribute_url": "https://distribute.software/companies/openai",
+        "distribute_source": "lab",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Introducing the Grid Protectors Program",
+      "canonical_url": "https://openai.com/index/grid-protectors-program",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-02T15:00:00.000Z",
+      "fetched_at": "2026-11-04T18:31:28.204Z",
+      "excerpt": "Introducing the Grid Protectors Program",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1090",
+        "distribute_url": "https://distribute.software/companies/openai",
+        "distribute_source": "lab",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "dsh-superagent: Super-agent prototype for DeepSeek Harness",
+      "canonical_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "publisher": "DeepSeek",
+      "published_at": "2026-10-31T12:05:39.000Z",
+      "fetched_at": "2026-11-04T18:31:28.204Z",
+      "excerpt": "dsh-superagent: Super-agent prototype for DeepSeek Harness",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1088",
+        "distribute_url": "https://distribute.software/companies/deepseek",
+        "distribute_source": "lab",
+        "distribute_companies": "deepseek"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How we detect frontier model misalignment",
+      "canonical_url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "publisher": "OpenAI",
+      "published_at": "2026-10-29T09:00:00.000Z",
+      "fetched_at": "2026-11-04T18:31:28.204Z",
+      "excerpt": "How we detect frontier model misalignment",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1080",
+        "distribute_url": "https://distribute.software/companies/openai",
+        "distribute_source": "lab",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    }
+  ]
+}

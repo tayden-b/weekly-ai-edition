@@ -1,0 +1,132 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "the-morning-build",
+  "fetched_at": "2026-11-08T16:58:01.363Z",
+  "items": [
+    {
+      "headline": "The Morning Build for November 8, 2026: Meta's Muse Spaces, tiny 32MB speech model, and why coding agents still need humans",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-08/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-08T00:00:00.000Z",
+      "fetched_at": "2026-11-08T16:58:02.892Z",
+      "excerpt": "Meta ships Spaces for Muse agents; Underdog demos a 32MB speech model; Claude Code leaks secrets; Microsoft ends AI Frontiers; Co-Design Bench shows agents finish only 26.4% of tasks.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-08/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 7, 2026: OpenAI's $11B Round, Airbnb's 2027 Agent, and Google’s Video and Health AI",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-07/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-07T00:00:00.000Z",
+      "fetched_at": "2026-11-08T16:58:02.892Z",
+      "excerpt": "OpenAI raises $11B at a $1.25T valuation; Airbnb vows an AI travel agent H1 2027; Ripple: 65B hits Hugging Face under Apache 2.0; Google publishes cuffless BP study and ships Gemini Omni 1.2 Flash.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-07/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 6, 2026: GPT-6 Cyber, Palo Alto Talks for Clutch, and Baidu’s ERNIE 5.5 Flash",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-06/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-06T00:00:00.000Z",
+      "fetched_at": "2026-11-08T16:58:02.892Z",
+      "excerpt": "OpenAI’s GPT-6 Cyber finds and exploits real bugs; Palo Alto in talks to buy Clutch for $500M; Baidu open-sources ERNIE 5.5 Flash base (280B params).",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-06/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 5, 2026: GPT-6 Astra Weight Editing, OpenAI Images 2.6 GIFs, Meta Buys Conductor",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-05/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-08T16:58:02.892Z",
+      "excerpt": "GPT-6 Astra edits model weights; OpenAI adds GIFs with Images 2.6; Meta buys Conductor and ends its cloud on Nov 20; CloudOpsBench flags reasoning failures; Lehane probes 2028 AI policy.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-05/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools",
+        "policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 4, 2026: OpenAI's GPT-6 Astra Hardware, Anthropic's FlashProve, and Fal's $1.3B Raise",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-04/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-04T00:00:00.000Z",
+      "fetched_at": "2026-11-08T16:58:02.892Z",
+      "excerpt": "OpenAI says GPT-6 Astra designed hardware in under a week; Anthropic releases FlashProve spec and code; Fal raises $1.3B; Stanford shows rapid LLM claim decay; economists pitch mechanism design.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-04/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 3, 2026: OpenAI Unifies Chat and Work, Squarespace Cuts 19%, and Weight-Space Editing by Astra",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-03/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-08T16:58:02.892Z",
+      "excerpt": "OpenAI merges Chat and Work tabs; Squarespace cuts ~300 roles; Astra edits weights; OpenAI raises bounties to $172k; Anthropic blocks game-cloning in Claude Code.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-03/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 2, 2026: OpenAI's compute rebrand and funding reset, Adobe's EditAgent, and JS framework AI costs",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-02/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-02T00:00:00.000Z",
+      "fetched_at": "2026-11-08T16:58:02.892Z",
+      "excerpt": "OpenAI plans a post-midterm PR blitz and rebrand of data centers; it also lowered a funding target to $20B. Adobe's EditAgent improves verified image edits. A JS-agent benchmark compares framework costs.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-02/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools",
+        "policy"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

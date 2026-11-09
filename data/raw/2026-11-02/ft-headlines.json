@@ -1,0 +1,20 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-02T20:40:50.470Z",
+  "items": [
+    {
+      "headline": "Anthropic reveals $900bn AI spending commitments ahead of IPO",
+      "canonical_url": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-02T16:31:21.000Z",
+      "fetched_at": "2026-11-02T20:40:50.538Z",
+      "excerpt": "Anthropic reveals $900bn AI spending commitments ahead of IPO",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "4d91dbab-6fe4-45ab-beee-d77e091cb37f"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

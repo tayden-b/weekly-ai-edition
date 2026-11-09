@@ -1,0 +1,33 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-ollama",
+  "fetched_at": "2026-11-03T18:18:55.743Z",
+  "items": [
+    {
+      "headline": "v0.40.14",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-11-03T01:40:40Z",
+      "fetched_at": "2026-11-03T18:18:55.793Z",
+      "excerpt": "## What's Changed * `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap * Cloud web search responses on `/api/chat` are now decoded correctly, including compressed responses * OpenAI-compatible endpoints no",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.14"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "v0.40.13",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.13",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-10-28T19:55:04Z",
+      "fetched_at": "2026-11-03T18:18:55.793Z",
+      "excerpt": "## LFM3 on Linux and Windows Liquid AI's [LFM3](https://ollama.com/library/lfm3) models, including text-to-speech in [lfm3-audio](https://ollama.com/library/lfm3-audio) and [lfm3-omni](https://ollama.com/library/lfm3-omni), now run on Linux and Windows as well as Apple silicon. **Full Changelog**:",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.13"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}
