@@ -1,0 +1,46 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-ollama",
+  "fetched_at": "2026-11-09T21:21:48.188Z",
+  "items": [
+    {
+      "headline": "v0.40.16",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.16-rc0",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-11-09T18:21:19Z",
+      "fetched_at": "2026-11-09T21:21:48.234Z",
+      "excerpt": "## What's Changed * openai: forward truncation option in responses requests by @marlonferreira1800-hue in https://github.com/ollama/ollama/pull/19501 * openai: return an empty array for /v1/models when no models are installed by @liangliang205 in https://github.com/ollama/ollama/pull/19539 *",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.16-rc0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "v0.40.15",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.15",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-11-03T22:52:31Z",
+      "fetched_at": "2026-11-09T21:21:48.234Z",
+      "excerpt": "## MiMo V2.6 Xiaomi MiMo's [mimo-v2.6](https://ollama.com/library/mimo-v2.6), a 9B model built for code and agent workflows, is now supported in Ollama. ```sh ollama run mimo-v2.6 ``` ## AutoTrust decision models [AutoTrust](https://ollama.com/library/autotrust-jev) decision models read text and",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.15"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "v0.40.14",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.14",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-11-03T01:40:40Z",
+      "fetched_at": "2026-11-09T21:21:48.234Z",
+      "excerpt": "## What's Changed * `ollama launch claude` now applies the model's output token limit for Claude Code, so cloud models no longer run into the 128k default cap * Cloud web search responses on `/api/chat` are now decoded correctly, including compressed responses * OpenAI-compatible endpoints no",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.14"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

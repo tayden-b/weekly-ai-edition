@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-deepmind-blog",
+  "fetched_at": "2026-11-09T21:21:48.188Z",
+  "items": [
+    {
+      "headline": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "canonical_url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:48.219Z",
+      "excerpt": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Agentic cheminformatics with Google Antigravity",
+      "canonical_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-03T00:00:00.000Z",
+      "fetched_at": "2026-11-09T21:21:48.219Z",
+      "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
