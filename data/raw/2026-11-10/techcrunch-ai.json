@@ -1,0 +1,408 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "techcrunch-ai",
+  "fetched_at": "2026-11-10T18:32:31.957Z",
+  "items": [
+    {
+      "headline": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "canonical_url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T17:30:00.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186876",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+      "canonical_url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T17:04:19.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186475",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "China",
+        "Donald Trump",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google broadens its AI hardware portfolio with two new specialized chips",
+      "canonical_url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T15:54:08.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186193",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Hardware",
+        "AI chips",
+        "Google",
+        "nvidia",
+        "tensor processing unit",
+        "TPUs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+      "canonical_url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T15:29:30.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186827",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "AI agents",
+        "Meta",
+        "muse"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+      "canonical_url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T14:05:10.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186771",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Adobe",
+        "photoshop",
+        "Adobe Firefly",
+        "AI agents"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "canonical_url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T14:01:39.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186772",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "anthropic ipo",
+        "Claude",
+        "IPO"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "canonical_url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T14:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186334",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "AI agents",
+        "Circle Ventures",
+        "Cyanogen",
+        "Kora",
+        "microsoft windows",
+        "Polychain Capital",
+        "samsung next",
+        "square enix",
+        "VanEck"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+      "canonical_url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T14:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186535",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Media & Entertainment",
+        "ai dj",
+        "Spotify",
+        "Spotify's AI DJ",
+        "streaming music"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+      "canonical_url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T13:30:00.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186635",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Robotics",
+        "Amazon",
+        "drones",
+        "Ring"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+      "canonical_url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T13:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185992",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "cyberattacks",
+        "Equity podcast",
+        "Hugging Face",
+        "open source"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Otter AI can now follow conversations across 30+ languages",
+      "canonical_url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T07:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3185546",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "otter ai",
+        "transcription"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic reportedly plans to move forward with IPO plans",
+      "canonical_url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-10T01:27:12.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186715",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "IPO",
+        "valuation",
+        "Anthropic",
+        "In Brief"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang reportedly engaged a PR firm with a history of handling  high-profile sex scandals a year ago",
+      "canonical_url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T23:28:37.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186628",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "China",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "canonical_url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T22:46:09.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Six months before Nvidia's spy scandal erupted, Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186581",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "nvidia",
+        "Jensen Huang"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The race is on to sue Nvidia",
+      "canonical_url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T22:23:42.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186479",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "TC",
+        "Jensen Huang",
+        "Litigation",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "canonical_url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T20:09:06.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186477",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "ElevenLabs",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "canonical_url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T19:24:51.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186369",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Claude"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "canonical_url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T18:09:52.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186336",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Enterprise",
+        "Government & Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "canonical_url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T18:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186298",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "TC",
+        "Meta",
+        "meta superintelligence lab",
+        "muse"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "canonical_url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-09T16:56:54.000Z",
+      "fetched_at": "2026-11-10T18:32:32.850Z",
+      "excerpt": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3186273",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Climate",
+        "Anthropic",
+        "data centers",
+        "natural gas"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

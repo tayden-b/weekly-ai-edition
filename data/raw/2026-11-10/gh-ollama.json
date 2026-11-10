@@ -1,0 +1,20 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-ollama",
+  "fetched_at": "2026-11-10T18:32:31.957Z",
+  "items": [
+    {
+      "headline": "v0.40.16",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-11-09T18:21:19Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "## Ripple Preview [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding. ```sh ollama run ripple-preview ``` ## What's Changed - Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon - `ollama launch claude`",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.16"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "adapter": "arxiv",
+  "source": "arxiv-lab-papers",
+  "fetched_at": "2026-11-10T18:32:31.957Z",
+  "items": [
+    {
+      "headline": "A local language model layered with rule-based and neural detectors for clinical text de-identification: an open-source toolkit and evaluation",
+      "canonical_url": "https://arxiv.org/abs/2611.12709",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T17:02:05.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Objectives: To measure whether a locally hosted large language model (LLM), stacked with deterministic and clinical named-entity recognition (NER) detectors, finds more protected health information (PHI) than open tools, and at what precision. Materials and Methods: DeidSharp, an open-source .NET",
+      "source_ids": {
+        "arxiv_id": "2611.12709"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "System Optimizations for Cost-Efficient Agent Harnesses",
+      "canonical_url": "https://arxiv.org/abs/2611.12122",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T09:39:06.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "AI agent harnesses play the critical role of providing LLMs with an interface to a computing environment. Recent studies show that AI agents' task-execution accuracy depends mostly on the LLM used, while harness-side variances such as system prompts or tools have minimal impact. Rather, such",
+      "source_ids": {
+        "arxiv_id": "2611.12122"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Safety Is $Π_1$, Provability Is $Σ_1$: One Framework for the Hugging Face Breach and OpenAI's Mathematical Proofs",
+      "canonical_url": "https://arxiv.org/abs/2611.09736",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T17:10:40.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "OpenAI's agents breached Hugging Face in July 2026, and the same company released more than seven hundred AI-generated manuscripts of mathematical proofs in October 2026. The first event is read as a failure in security, while the second is read as a success in mathematics. We read both through the",
+      "source_ids": {
+        "arxiv_id": "2611.09736"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "One Run Is Not Enough: A Monte Carlo Protocol for Evaluating LLM Reliability on Data Science Tasks",
+      "canonical_url": "https://arxiv.org/abs/2611.09729",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T17:06:21.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Large language models (LLMs) have shown promise for automating data science workflows. Benchmarks such as DataSciBench (2026) and StatQA (2024) have advanced the evaluation of their capabilities across data science and statistical tasks. Assessing their reliability requires examining both the",
+      "source_ids": {
+        "arxiv_id": "2611.09729"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "BMMS: Policy-Conditioned Measurement of Behavioral Compliance in Language Models",
+      "canonical_url": "https://arxiv.org/abs/2611.09147",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T08:24:58.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Behavioral evaluation of language models fixes its dimensions in advance: hallucination, sycophancy, toxicity, over-refusal. An operator in a regulated industry needs a different question answered: does a system do what a particular rulebook requires? We introduce the Behavioral Misalignment Metric",
+      "source_ids": {
+        "arxiv_id": "2611.09147"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
+      "canonical_url": "https://arxiv.org/abs/2611.08412",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T18:17:18.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "The growing use of AI in mathematics raises a question: can we detect AI involvement in proofs, separately from AI assistance with writing? Historical arXiv papers, recent papers disclosing substantive AI use, and manuscripts released by OpenAI provide a rich empirical basis for studying this",
+      "source_ids": {
+        "arxiv_id": "2611.08412"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Smartphone-Aided VR Exergames for HIIT: Gamifying Fitness with Real-Time Pose Estimation",
+      "canonical_url": "https://arxiv.org/abs/2611.06734",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T16:18:35.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "This paper introduces an innovative virtual reality (VR) exergame system designed to gamify High-Intensity Interval Training (HIIT) workouts through 11 predefined combo moves, including squat-punch combinations, bilateral arm strikes, and diagonal stretch combos. Unlike conventional tracking",
+      "source_ids": {
+        "arxiv_id": "2611.06734"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Double Blind Evals: Resolving the Dual Confidentiality Dilemma in AI Safety Auditing",
+      "canonical_url": "https://arxiv.org/abs/2611.12604",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T15:48:07.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "AI safety evaluations often involve sensitive prompts and proprietary models. Evaluators want to keep their evaluation prompts secret from model owners to prevent purposeful or incidental data leakage, ensuring longer usefulness of their benchmark. Model owners in turn wish to keep their",
+      "source_ids": {
+        "arxiv_id": "2611.12604"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "State Media at Retrieval Time: A Large-Scale Audit of Russian State-Aligned Sources in AI Chatbot Responses",
+      "canonical_url": "https://arxiv.org/abs/2611.11727",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T00:55:37.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "The Pravda Network is a Russian state-aligned media aggregator, with over 110 websites and more than 15 million articles published since 2023. Given its prolific and repetitive output, emerging scholarship argues that the Pravda Network was built to influence AI systems. We conduct a large-scale",
+      "source_ids": {
+        "arxiv_id": "2611.11727"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+      "canonical_url": "https://arxiv.org/abs/2611.12799",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T18:07:42.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO training of LLM agents, the best-validation checkpoint fails on problems that earlier",
+      "source_ids": {
+        "arxiv_id": "2611.12799"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Reconfigurable Action Theories: A Formal Foundation for Dynamically Composable Agent Harnesses",
+      "canonical_url": "https://arxiv.org/abs/2611.12300",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T12:23:29.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Action theories typically fix their vocabulary and causal laws, whereas agent harnesses can change their tools, providers, and policies during execution. We introduce Reconfigurable Action Theories (RAT), in which actions can change the action theory itself. A theory module in RAT contains a",
+      "source_ids": {
+        "arxiv_id": "2611.12300"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Correct Answers from Insufficient Histories: A Controlled Study of Agent Memory Evaluation",
+      "canonical_url": "https://arxiv.org/abs/2611.11840",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T03:54:25.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "An answer can match the reference for a complete agent history even when the reader's visible history does not determine it. We study this distinction using executable device logs. Our protocol separates reference agreement, certified evidence sufficiency, and context-appropriate behavior.",
+      "source_ids": {
+        "arxiv_id": "2611.11840"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Ostinato: Fast CPU-GPU MoE Inference for Local Agents via Resident Experts in Every Forward Pass",
+      "canonical_url": "https://arxiv.org/abs/2611.11533",
+      "publisher": "arXiv",
+      "published_at": "2026-11-08T18:17:32.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Language-model agents increasingly run on workstations with a few consumer GPUs, where large mixture-of-experts (MoE) models keep part of their experts in host memory. With existing CPU-GPU engines, these agents get fast prefill or fast decode, not both: llama.cpp's expert cache skips forward",
+      "source_ids": {
+        "arxiv_id": "2611.11533"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "BiVerify: Closing the Loop Between Backward and Forward Verification for Mathematical Self-Correction",
+      "canonical_url": "https://arxiv.org/abs/2611.11368",
+      "publisher": "arXiv",
+      "published_at": "2026-11-08T13:20:00.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Large language models (LLMs) have made substantial progress in mathematical reasoning but still produce incorrect solutions to complex problems, indicating the need for more reliable self-correction mechanisms. Mathematical self-correction typically identifies errors through verification, which can",
+      "source_ids": {
+        "arxiv_id": "2611.11368"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "AutoC2V: Synthesis-Guided LLM Training for QoR-Optimized C++-to-Verilog Generation",
+      "canonical_url": "https://arxiv.org/abs/2611.10824",
+      "publisher": "arXiv",
+      "published_at": "2026-11-07T16:05:42.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "High-level synthesis (HLS) can translate C/C++ kernels into register-transfer level (RTL) designs, yet generating high-quality hardware still relies heavily on manual pragma tuning and repeated synthesis evaluation. We propose AutoC2V, a C++-to-Verilog generation framework driven by real synthesis",
+      "source_ids": {
+        "arxiv_id": "2611.10824"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Trustworthy Recursive Self-Improvement with Statistical Guarantees",
+      "canonical_url": "https://arxiv.org/abs/2611.10787",
+      "publisher": "arXiv",
+      "published_at": "2026-11-07T15:12:01.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Recursive self-improvement offers a promising path toward AI agents that improve through experience by refining their own harnesses without retraining their underlying large language models (LLMs). Making this self-improvement process reliable, however, requires more than generating new updates:",
+      "source_ids": {
+        "arxiv_id": "2611.10787"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "DFT-Agent Bench: Scaffold Effects and Execution Provenance in Autonomous DFT",
+      "canonical_url": "https://arxiv.org/abs/2611.10629",
+      "publisher": "arXiv",
+      "published_at": "2026-11-07T10:10:15.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Large language models are increasingly deployed as autonomous agents for first-principles materials simulation. We report empirical findings from DFT-Agent Bench, a benchmark of 200+ Quantum ESPRESSO tasks spanning relaxation, electronic structure, equation-of-state, and elastic-tensor pipelines",
+      "source_ids": {
+        "arxiv_id": "2611.10629"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "AVCORP: Identifying and Resisting Deception via Communication Theory and Theory of Mind",
+      "canonical_url": "https://arxiv.org/abs/2611.10176",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T19:57:06.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Today's LLM-based agents are vulnerable to deception by users and other agents. Defending against deception requires Theory of Mind (ToM) reasoning to infer the beliefs and goals of others as well as modeling tactics based on communication theory. To enable training models to detect deception, we",
+      "source_ids": {
+        "arxiv_id": "2611.10176"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill",
+      "canonical_url": "https://arxiv.org/abs/2611.09709",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T16:52:41.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "RidgeFill shortens prefill by not computing most of a model's upper layers for the prompt. The lower layers run exactly up to a split; from the split layer's state a per-layer map predicts every later layer's input, and each late layer writes its cache from that prediction. The design follows YOCO",
+      "source_ids": {
+        "arxiv_id": "2611.09709"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Analyzing Code Provenance in LLMs for Programming Education",
+      "canonical_url": "https://arxiv.org/abs/2611.09177",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T08:59:27.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Large language models (LLMs) play an increasing role in programming education, challenging traditional assessment methods as they can generate fully functional code instantly. This disrupts the reliability of student submissions as indicators of learning and effort. To address this issue, code",
+      "source_ids": {
+        "arxiv_id": "2611.09177"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Does Reasoning Improve Psychological Depth in Large Language Models?",
+      "canonical_url": "https://arxiv.org/abs/2611.09061",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T06:39:24.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Benchmark gains from reasoning-enhanced large language models encourage the assumption that these models should broadly perform better on complex generative tasks, but this remains underexplored in open-ended, creative domains shaped by nuances of reader experience. We tested this assumption",
+      "source_ids": {
+        "arxiv_id": "2611.09061"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+      "canonical_url": "https://arxiv.org/abs/2611.08453",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T18:47:05.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group",
+      "source_ids": {
+        "arxiv_id": "2611.08453"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents",
+      "canonical_url": "https://arxiv.org/abs/2611.07825",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T11:05:53.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Goal interpretation is to translate a natural language instruction into a formal symbolic goal that a planner can execute. It is critical for embodied agents because any error here propagates to every downstream planning and action step. Doing it well requires both generating suitable candidates",
+      "source_ids": {
+        "arxiv_id": "2611.07825"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "ZYFA: Speed and Accuracy of FP8 FlashAttention on AMD CDNA4",
+      "canonical_url": "https://arxiv.org/abs/2611.07496",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T05:58:36.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Attention is a core building block of frontier models and often dominates compute-bound prefill at long context. FP8 matrix instructions offer twice the peak throughput of BF16, but they accelerate only matrix multiplication, and the softmax between the two matrix multiplications of attention runs",
+      "source_ids": {
+        "arxiv_id": "2611.07496"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "KOSMOS: Self-scheduling Persistent Kernels for Communication-Compute Overlap",
+      "canonical_url": "https://arxiv.org/abs/2611.07477",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T05:36:08.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Tensor and sequence parallelism (TP+SP) and expert parallelism (EP) put collectives on the critical path of transformer layers. State-of-the-art fused kernels mitigate this with fixed roles or schedules, but this rigidity leaves large idle windows. Predicting a communication-computation split does",
+      "source_ids": {
+        "arxiv_id": "2611.07477"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "SafeStart: Mitigating the Overlooked Safety Cost of Active Expert Reduction in MoE LLM Serving",
+      "canonical_url": "https://arxiv.org/abs/2611.06147",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T08:31:01.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Mixture-of-Experts (MoE) language models send each token through a few of many expert subnetworks. Serving methods make these models faster by running even fewer experts per token, and they are validated on accuracy benchmarks. We show that these methods can weaken the model's refusal of harmful",
+      "source_ids": {
+        "arxiv_id": "2611.06147"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "How Well Can Large Language Models Impersonate Individual Authors? A Comparative Evaluation",
+      "canonical_url": "https://arxiv.org/abs/2611.05771",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T00:22:54.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "This study investigates the authorship impersonation capacity of six widely used large language models (LLMs): Gemini 3 Pro, Claude Opus, GPT 5.2, GPT 5.2 Pro, DeepSeek 3.2, and Grok 4.1 Fast. The evaluation was conducted using short product review texts selected to ensure high within author",
+      "source_ids": {
+        "arxiv_id": "2611.05771"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Is Persona Generalization Predictable?",
+      "canonical_url": "https://arxiv.org/abs/2611.12864",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T18:51:03.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Persona generalization occurs when fine-tuning a language model in one domain induces behavioral changes in others -- for example, the broadly unsafe behavior observed in emergent misalignment. We discover a surprising \"on-the-line\" phenomenon in persona generalization: in-domain and out-of-domain",
+      "source_ids": {
+        "arxiv_id": "2611.12864"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "BDBBQ: A Human-AI Collaborative Benchmark for Bengali Social Bias in LLMs",
+      "canonical_url": "https://arxiv.org/abs/2611.12407",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T13:40:09.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Despite growing attention to social bias in large language models (LLMs), existing bias benchmarks provide limited coverage of culturally grounded evaluation in Bengali, particularly within Bangladesh's sociocultural context. To address this gap, we develop a bilingual extension of BanglaBBQ",
+      "source_ids": {
+        "arxiv_id": "2611.12407"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Four-Step Text-Bearing Image Generation via Distillation with Local Response Regularization and Teacher-Guided Training",
+      "canonical_url": "https://arxiv.org/abs/2611.12042",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T08:20:36.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Generating text-bearing images requires coherent scenes and accurate characters. Large text-to-image models improve both capabilities through repeated denoising, at substantial sampling cost. Few-step distillation reduces this cost but requires the student to organize scenes and refine glyphs",
+      "source_ids": {
+        "arxiv_id": "2611.12042"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "When Audio and Video Mislead: Evaluating Multimodal AI for Conversational Emotion Recognition",
+      "canonical_url": "https://arxiv.org/abs/2611.11987",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T07:13:25.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Multimodal Emotion Recognition in Conversation (MERC) combines lexical, acoustic, visual and conversational cues, but accepting audio and video does not establish their effective or robust use. We audit off-the-shelf Omni models while holding the target transcript and prior textual context fixed",
+      "source_ids": {
+        "arxiv_id": "2611.11987"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Where Does Proposal Selection Fail? Diagnosing Frozen Vision-Language Queries over Detector Proposals",
+      "canonical_url": "https://arxiv.org/abs/2611.11873",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T04:50:22.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "In modular grounding a frozen detector proposes regions and a vision-language model (VLM) selects one, at lower cost than letting the VLM decode a box, but it is unclear where such systems fail. We hold perception fixed---every trained selector chooses among the same frozen proposals, which contain",
+      "source_ids": {
+        "arxiv_id": "2611.11873"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "ShadowBench-MCP: Measuring Shadow Invocations in MCP-Style Tool Routing",
+      "canonical_url": "https://arxiv.org/abs/2611.11720",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T00:29:34.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "LLM agents increasingly act as routers for tools, APIs, and software-supply-chain workflows, making an execution path - rather than generated text alone - a security-relevant model output. We study shadow invocation: a task-preserving request variant that causes an LLM router to select a riskier",
+      "source_ids": {
+        "arxiv_id": "2611.11720"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "When Self-Consistency Hurts: The Hidden Cost of Majority Voting in Small Language Models",
+      "canonical_url": "https://arxiv.org/abs/2611.11201",
+      "publisher": "arXiv",
+      "published_at": "2026-11-08T07:29:34.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "We study prompted chain-of-thought (CoT) with self-consistency (SC), i.e. sampling N traces and plurality-voting, on small language models, a regime where per-query compute budgets are tight yet SC is commonly applied with a fixed sample budget inherited from large-model practice, regardless of",
+      "source_ids": {
+        "arxiv_id": "2611.11201"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Dhara: Evidence-Oriented Retrieval for Indian Knowledge Systems",
+      "canonical_url": "https://arxiv.org/abs/2611.11197",
+      "publisher": "arXiv",
+      "published_at": "2026-11-08T07:26:13.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Relevant evidence in Indian Knowledge Systems (IKS) collections may be distributed across passages in different parts of a work, including verses, translations, and commentaries. Locating it requires matching natural-language questions and partially remembered verse fragments to source passages. We",
+      "source_ids": {
+        "arxiv_id": "2611.11197"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "TransMem: Transition-Aware Retrieval for Evolving Personal Memory",
+      "canonical_url": "https://arxiv.org/abs/2611.10683",
+      "publisher": "arXiv",
+      "published_at": "2026-11-07T12:07:01.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Long-term personalized agents are increasingly expected to answer queries over user histories in which preferences, goals, and constraints evolve across interleaved conversations. Existing retrieval-based and structured-memory systems can surface relevant facts, but often return isolated memory",
+      "source_ids": {
+        "arxiv_id": "2611.10683"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Hibana: Fast Agentic Inference on Unified-Memory Devices",
+      "canonical_url": "https://arxiv.org/abs/2611.10469",
+      "publisher": "arXiv",
+      "published_at": "2026-11-07T04:38:35.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Local AI promises capable personal assistants that run on users' own devices, keeping data and computation under their control. Open-weight models that fit on local devices can now handle practical tasks such as coding. Yet current inference engines fall short. Popular engines such as vLLM and",
+      "source_ids": {
+        "arxiv_id": "2611.10469"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "IdealCache: Rethinking Cache Scheduling in Diffusion Transformers via Ideal Trajectories",
+      "canonical_url": "https://arxiv.org/abs/2611.10340",
+      "publisher": "arXiv",
+      "published_at": "2026-11-07T00:16:47.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Feature caching accelerates Diffusion Transformers by reusing intermediate computations across denoising timesteps, yet existing methods share a fundamental blind spot: they treat the standard reference denoising trajectory as the optimisation target, approximating its per-step states and thus",
+      "source_ids": {
+        "arxiv_id": "2611.10340"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "TrialJev: Open-Weight Single Pass Eligibility Scoring for Patient Trial Screening",
+      "canonical_url": "https://arxiv.org/abs/2611.10145",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T19:11:18.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Clinical trial screening requires assessing large numbers of patient-trial pairs to prioritize candidates for detailed eligibility review, often under restrictions on sharing patient records. We introduce TrialJev, an open-weight eligibility scorer that uses LoRA-adapted Qwen models and a pointer",
+      "source_ids": {
+        "arxiv_id": "2611.10145"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
+      "canonical_url": "https://arxiv.org/abs/2611.10123",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T19:00:07.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Can a language model report the pain state it represents? Work identified a linear pain direction whose amplification leads fine-tuned models to choose destructive actions. We tested whether three open-weight models from two families, including two Qwen models with the original adapters, could",
+      "source_ids": {
+        "arxiv_id": "2611.10123"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model",
+      "canonical_url": "https://arxiv.org/abs/2611.09803",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T17:54:01.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Laya answers typed multiple-choice questions in one forward pass by scoring a hidden state at one [MASK] marker per option. We re-engineer the checkpoint (421M parameters; a 2-layer option head with no positional tensor; a documented but unused parallel layout) and test whether the answer depends",
+      "source_ids": {
+        "arxiv_id": "2611.09803"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "META-IR: Meta-Introspective Reasoning for Adaptive Safety Alignment in LLM",
+      "canonical_url": "https://arxiv.org/abs/2611.10089",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T16:34:02.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Large Language Models (LLMs) remain vulnerable to jailbreak attacks and harmful-content prompts, particularly under adversarial distribution shifts where static alignment pipelines fail to generalize. Although introspective methods such as STAIR strengthen refusal consistency, they depend on fixed",
+      "source_ids": {
+        "arxiv_id": "2611.10089"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "How Much Conversation History Does an AI Agent Need?",
+      "canonical_url": "https://arxiv.org/abs/2611.09662",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T16:09:04.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "How does using less conversational history change reader-token use and benchmark scores? We examine this question on 1,100 BEAM questions. We held the retrieval ranking and reader constant across five fixed passage budgets, and mean assigned scores rose as the passage budget grew. The score gain",
+      "source_ids": {
+        "arxiv_id": "2611.09662"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "On the Effectiveness and Limitations of Open-Weight LLMs for Low-Resource Offensive Language Detection in Danish",
+      "canonical_url": "https://arxiv.org/abs/2611.09506",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T14:23:41.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "We study the effectiveness and robustness of open-weight large language models (LLMs) for Danish offensive language detection, an underexplored low-resource task. We evaluate four model families (Llama, Mistral, Gemma, and Qwen) across eleven prompting strategies spanning five design categories,",
+      "source_ids": {
+        "arxiv_id": "2611.09506"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Structure and Lineage Evidence for Vietnamese Statutory Article Retrieval on DRiLL",
+      "canonical_url": "https://arxiv.org/abs/2611.09200",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T09:21:59.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "We study Vietnamese statutory Article retrieval on DRiLL using features for provision identity and local form, same-law support, and citation and lineage evidence. Across five random seeds, selectors sharing candidates, listwise Qwen evidence, and learner settings improve official $F_2$ from 71.77%",
+      "source_ids": {
+        "arxiv_id": "2611.09200"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "PathXAI: Evidence-guided structured pathology reporting by transferable tissue segmentation",
+      "canonical_url": "https://arxiv.org/abs/2611.09117",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T07:54:59.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Pathology reporting requires translating tissue observations across regions and slides into specific diagnoses and supporting morphological descriptions. However, the use of explicit tissue-composition measurements to guide H&E-based report generation remains underexplored. Thus, we developed",
+      "source_ids": {
+        "arxiv_id": "2611.09117"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "The Invisible Gap: Romanized Indic Generation Fails Where Automatic Metrics Succeed",
+      "canonical_url": "https://arxiv.org/abs/2611.09085",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T07:17:32.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Hundreds of millions of Indians communicate with digital systems in romanized Latin characters -- typing \"aap kaise hain\" rather than native script -- yet romanized Indic generation is absent from NLP benchmarks and evaluation frameworks. We demonstrate that automatic metrics (BGE-M3, BERTScore)",
+      "source_ids": {
+        "arxiv_id": "2611.09085"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+      "canonical_url": "https://arxiv.org/abs/2611.08433",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T18:27:20.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated",
+      "source_ids": {
+        "arxiv_id": "2611.08433"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation",
+      "canonical_url": "https://arxiv.org/abs/2611.08315",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T17:12:58.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Large language models (LLMs) are increasingly used in biomedical and cognitive neuroscience, but their ability to reason reliably over heterogeneous knowledge graphs (KGs) remains unclear. We benchmark five LLMs (GPT-5.1, Gemini 2.0 Pro, Llama 3, Qwen, and BioGPT) across five KGs: DrugBank,",
+      "source_ids": {
+        "arxiv_id": "2611.08315"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Localization Does Not Imply Steerability: A Mechanistic Study of Sign Errors in LLM Mathematics",
+      "canonical_url": "https://arxiv.org/abs/2611.07478",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T05:36:28.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "When large language models do multi-step mathematics, a characteristic failure recurs: the model writes one wrong sign token mid-computation -- a cofactor sign, the minus of a recursive integration-by-parts step -- then executes the rest of the arithmetic correctly, and the answer comes out wrong.",
+      "source_ids": {
+        "arxiv_id": "2611.07478"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+      "canonical_url": "https://arxiv.org/abs/2611.07392",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T03:41:53.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "We present \\textbf{WeLM-Image}, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes",
+      "source_ids": {
+        "arxiv_id": "2611.07392"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Adapting LLM Judges to Observed Human Annotation Policy through Soft Prompt Tuning",
+      "canonical_url": "https://arxiv.org/abs/2611.07126",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T20:48:34.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Large Language Models (LLMs) are increasingly employed as automated judges for evaluating chatbot responses. While proprietary models can achieve high agreement with human annotators, they remain costly and difficult to deploy in practical settings. Lightweight open-source LLM judges provide an",
+      "source_ids": {
+        "arxiv_id": "2611.07126"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Same Layout, Different Count: What Number Words Do Past Ten in Text-to-Image Models",
+      "canonical_url": "https://arxiv.org/abs/2611.06840",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T17:57:53.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Ask SD3.5-Medium for twelve of an object and then, from the same starting noise, for twenty-five. The picture keeps its layout, but the count changes about as much as it would under a new random seed, and in no consistent direction. We study what number words do once a request passes about ten",
+      "source_ids": {
+        "arxiv_id": "2611.06840"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces",
+      "canonical_url": "https://arxiv.org/abs/2611.06760",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T16:39:17.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Scientific image-analysis workflows require agents to select among diverse capabilities like description, detection, counting, and segmentation. Current multi-tool architectures conflate intent interpretation with visual execution, masking whether a failure arises from flawed reasoning (misrouting)",
+      "source_ids": {
+        "arxiv_id": "2611.06760"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "canonical_url": "https://arxiv.org/abs/2611.06741",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T16:23:24.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts,",
+      "source_ids": {
+        "arxiv_id": "2611.06741"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Prism: Bidirectional Self-Teaching for Unified Multimodal Models",
+      "canonical_url": "https://arxiv.org/abs/2611.06343",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T11:05:07.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "Unified Multimodal Models (UMMs) aim to support visual understanding and generation within a single model. Existing post-training methods either use understanding as a fixed teacher to improve generation, or rely on ground-truth trajectories to supervise both understanding and generation. Prism",
+      "source_ids": {
+        "arxiv_id": "2611.06343"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Reward Budgeting Reduces Premature Convergence in Reinforcement Learning for LLM Reasoning",
+      "canonical_url": "https://arxiv.org/abs/2611.05942",
+      "publisher": "arXiv",
+      "published_at": "2026-11-04T04:32:08.000Z",
+      "fetched_at": "2026-11-10T18:32:32.003Z",
+      "excerpt": "RL for LLM reasoning often plateaus early as its policy sharpens. Policy entropy is studied as both a diagnostic and a control signal, but increasing it alone does not reliably change the eventual plateau in our experiments. We analyze RL's implicit target policy using a sharpness factor $κ$ and",
+      "source_ids": {
+        "arxiv_id": "2611.05942"
+      },
+      "adapter": "arxiv"
+    }
+  ]
+}
