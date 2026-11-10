@@ -1,0 +1,137 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-langchain",
+  "fetched_at": "2026-11-10T18:32:31.957Z",
+  "items": [
+    {
+      "headline": "langchain-core==1.7.7",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-10T04:08:27Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "Changes since langchain-core==1.7.6 release(core): 1.7.7 (#41776) fix(core): cap nesting depth in `load()` (#41742) chore(deps): patch newer-python security lock resolutions (#41585)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.7.7"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-fireworks==1.7.3",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-09T20:54:19Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "Changes since langchain-fireworks==1.7.2 release(fireworks): 1.7.3 (#41773) fix(fireworks): default `max_tokens` from model profiles (#41772) chore(model-profiles): refresh model profile data (#41762) chore(model-profiles): refresh model profile data (#41745)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-fireworks==1.7.3"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-typesafe==0.0.2",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-05T22:56:58Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "Changes since langchain-typesafe==0.0.1 release(typesafe): 0.0.2 (#41720) feat(typesafe): accept a `classifier` in experimental middleware (#41657)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-typesafe==0.0.2"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-core==1.7.6",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-05T00:22:12Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "Changes since langchain-core==1.7.5 release(core): 1.7.6 (#41698) perf(core): merge streamed `AIMessageChunk`s once when accumulating runnable streams (#41697) perf(core): stop `parse_partial_json` from retrying one character at a time (#41467)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.7.6"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain==1.4.9",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.9",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-04T17:07:37Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "Changes since langchain==1.4.8 release(langchain): 1.4.9 (#41684) chore(deps): require `langchain-core>=1.7.5` for refusal handling (#41682) feat(core): standardize model refusal content blocks (#41582)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain==1.4.9"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-typesafe==0.0.1",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.1",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-04T00:11:25Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "Initial release release(typesafe): 0.0.1 (#41650) chore(infra): relax third-party dependency upper bounds (#41407) chore(deps): bump certifi from 2026.7.22 to 2026.10.19 in /libs/partners/typesafe (#41375) fix: fix dependencies in some partner packages (#41266) release(typesafe): 0.0.1a3 (#40693)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-typesafe==0.0.1"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-openai==1.7.4",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.4",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-04T16:55:54Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "Changes since langchain-openai==1.7.3 release(openai): 1.7.4 (#41683) chore(deps): require `langchain-core>=1.7.5` for refusal handling (#41682) feat(core): standardize model refusal content blocks (#41582) chore(model-profiles): refresh model profile data (#41556)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-openai==1.7.4"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-fireworks==1.7.2",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.2",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-04T20:47:50Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "Changes since langchain-fireworks==1.7.1 fix(fireworks): report streamed token usage once (#41693) release(fireworks): 1.7.2 (#41690) fix(fireworks): report the served model in response metadata (#41686) chore(model-profiles): refresh model profile data (#41669) fix(fireworks): promote reranking",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-fireworks==1.7.2"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-core==1.7.5",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.5",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-04T15:50:04Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "Changes since langchain-core==1.7.4 release(core): 1.7.5 (#41665) feat(core): translate Gemini safety blocks to refusal content blocks (#41658) fix(core): end tool run on cancellation (#41660) feat(core): standardize model refusal content blocks (#41582) fix(core): load RemoveMessage serialized by",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.7.5"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-anthropic==1.7.10",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.10",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-04T16:51:12Z",
+      "fetched_at": "2026-11-10T18:32:31.999Z",
+      "excerpt": "Changes since langchain-anthropic==1.7.9 release(anthropic): 1.7.10 (#41685) chore(deps): require `langchain-core>=1.7.5` for refusal handling (#41682) feat(core): translate Gemini safety blocks to refusal content blocks (#41658) feat(core): standardize model refusal content blocks (#41582)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-anthropic==1.7.10"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-ai-blog",
+  "fetched_at": "2026-11-10T18:32:31.957Z",
+  "items": [
+    {
+      "headline": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "canonical_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:31.989Z",
+      "excerpt": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "source_ids": {
+        "guid": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Google Cloud launches Gemini for healthcare.",
+      "canonical_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:31.989Z",
+      "excerpt": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:31.989Z",
+      "excerpt": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "amazon-science-blog",
+  "fetched_at": "2026-11-10T18:32:31.957Z",
+  "items": [
+    {
+      "headline": "Mitra-v2: Scaling synthetic pretraining for tabular foundation models",
+      "canonical_url": "https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models",
+      "publisher": "Amazon Science",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:31.993Z",
+      "excerpt": "Expanding the mix of synthetic data used to train a tabular foundation model enables it to adapt to new tables without new models and lead the single-model field on the TabArena benchmark.",
+      "source_ids": {
+        "guid": "https://www.amazon.science/blog/mitra-v2-scaling-synthetic-pretraining-for-tabular-foundation-models"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Hamed Karimi wins ECML PKDD Test-of-Time Award",
+      "canonical_url": "https://www.amazon.science/blog/hamed-karimi-wins-ecml-pkdd-test-of-time-award",
+      "publisher": "Amazon Science",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:31.993Z",
+      "excerpt": "Amazon senior applied scientist and coauthors showed that an overlooked mathematical condition from 1963 proves why frequently used machine-learning optimization methods work well.",
+      "source_ids": {
+        "guid": "https://www.amazon.science/blog/hamed-karimi-wins-ecml-pkdd-test-of-time-award"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

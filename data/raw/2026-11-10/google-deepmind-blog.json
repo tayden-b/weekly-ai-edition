@@ -1,0 +1,55 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-deepmind-blog",
+  "fetched_at": "2026-11-10T18:32:31.957Z",
+  "items": [
+    {
+      "headline": "Gemini 4 Carbon is now available",
+      "canonical_url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:31.988Z",
+      "excerpt": "Gemini 4 Carbon is now available",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "canonical_url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:31.988Z",
+      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "canonical_url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:31.988Z",
+      "excerpt": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "canonical_url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-10T18:32:31.988Z",
+      "excerpt": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
