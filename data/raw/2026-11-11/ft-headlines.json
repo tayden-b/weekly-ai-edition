@@ -1,0 +1,33 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-11T18:29:57.353Z",
+  "items": [
+    {
+      "headline": "US tech stocks surge as AI trade revives",
+      "canonical_url": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-11T17:42:08.000Z",
+      "fetched_at": "2026-11-11T18:29:57.404Z",
+      "excerpt": "US tech stocks surge as AI trade revives",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "639de881-6017-454f-abfa-cfb191d1e7cd"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Anthropic’s IPO is too important to fail",
+      "canonical_url": "https://www.ft.com/content/26fd23df-830e-481b-a3bc-19bcab48c5f6",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-11T10:23:49.000Z",
+      "fetched_at": "2026-11-11T18:29:57.404Z",
+      "excerpt": "Anthropic’s IPO is too important to fail",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "26fd23df-830e-481b-a3bc-19bcab48c5f6"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

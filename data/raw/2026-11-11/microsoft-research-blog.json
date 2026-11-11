@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "microsoft-research-blog",
+  "fetched_at": "2026-11-11T18:29:57.353Z",
+  "items": [
+    {
+      "headline": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "publisher": "Microsoft Research",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:57.382Z",
+      "excerpt": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A",
+      "source_ids": {
+        "guid": "https://www.microsoft.com/en-us/research/?p=1194126"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+      "publisher": "Microsoft Research",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:57.382Z",
+      "excerpt": "AI agents can generate code at a scale that’s hard for humans to review line-by-line. PDD Kit helps ensure the code is doing what the developer intended by creating formal specifications and testing against them. It converts developer intent into a Verus specification, proves AI-generated code",
+      "source_ids": {
+        "guid": "https://www.microsoft.com/en-us/research/?p=1191852"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

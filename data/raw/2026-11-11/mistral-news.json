@@ -1,0 +1,187 @@
+{
+  "adapter": "lab-blogs",
+  "source": "mistral-news",
+  "fetched_at": "2026-11-11T18:29:57.353Z",
+  "items": [
+    {
+      "headline": "News",
+      "canonical_url": "https://mistral.ai/fr/news/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-08T08:58:17.864Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "News",
+      "source_ids": {
+        "slug": "news"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Build With Studio",
+      "canonical_url": "https://mistral.ai/fr/news/build-with-studio/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-06T15:10:04.408Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Build With Studio",
+      "source_ids": {
+        "slug": "build-with-studio"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 4 Oss",
+      "canonical_url": "https://mistral.ai/fr/news/mistral-large-4-oss/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-05T16:40:18.312Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Mistral Large 4 Oss",
+      "source_ids": {
+        "slug": "mistral-large-4-oss"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 2407",
+      "canonical_url": "https://mistral.ai/fr/news/mistral-large-2407/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-08T08:58:17.864Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Mistral Large 2407",
+      "source_ids": {
+        "slug": "mistral-large-2407"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large",
+      "canonical_url": "https://mistral.ai/fr/news/mistral-large/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-08T08:56:31.248Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Mistral Large",
+      "source_ids": {
+        "slug": "mistral-large"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "News",
+      "canonical_url": "https://mistral.ai/it/news/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-08T08:58:17.864Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "News",
+      "source_ids": {
+        "slug": "news"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Build With Studio",
+      "canonical_url": "https://mistral.ai/it/news/build-with-studio/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-06T15:10:04.408Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Build With Studio",
+      "source_ids": {
+        "slug": "build-with-studio"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 4 Oss",
+      "canonical_url": "https://mistral.ai/it/news/mistral-large-4-oss/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-05T16:40:18.312Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Mistral Large 4 Oss",
+      "source_ids": {
+        "slug": "mistral-large-4-oss"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 2407",
+      "canonical_url": "https://mistral.ai/it/news/mistral-large-2407/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-08T08:58:17.864Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Mistral Large 2407",
+      "source_ids": {
+        "slug": "mistral-large-2407"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large",
+      "canonical_url": "https://mistral.ai/it/news/mistral-large/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-08T08:56:31.248Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Mistral Large",
+      "source_ids": {
+        "slug": "mistral-large"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "News",
+      "canonical_url": "https://mistral.ai/news/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-08T08:58:17.864Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "News",
+      "source_ids": {
+        "slug": "news"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Build With Studio",
+      "canonical_url": "https://mistral.ai/news/build-with-studio/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-06T15:10:04.408Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Build With Studio",
+      "source_ids": {
+        "slug": "build-with-studio"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 4 Oss",
+      "canonical_url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-05T16:40:18.312Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Mistral Large 4 Oss",
+      "source_ids": {
+        "slug": "mistral-large-4-oss"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large 2407",
+      "canonical_url": "https://mistral.ai/news/mistral-large-2407/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-08T08:58:17.864Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Mistral Large 2407",
+      "source_ids": {
+        "slug": "mistral-large-2407"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mistral Large",
+      "canonical_url": "https://mistral.ai/news/mistral-large/",
+      "publisher": "Mistral AI",
+      "published_at": "2026-11-08T08:56:31.248Z",
+      "fetched_at": "2026-11-11T18:29:57.381Z",
+      "excerpt": "Mistral Large",
+      "source_ids": {
+        "slug": "mistral-large"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

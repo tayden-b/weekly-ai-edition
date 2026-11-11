@@ -1,0 +1,91 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-ai-blog",
+  "fetched_at": "2026-11-11T18:29:57.353Z",
+  "items": [
+    {
+      "headline": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:57.379Z",
+      "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:57.379Z",
+      "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "canonical_url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:57.379Z",
+      "excerpt": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+      "source_ids": {
+        "guid": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Gemini Intelligence: New features, on more devices",
+      "canonical_url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:57.379Z",
+      "excerpt": "Gemini Intelligence is rolling out to more devices. See how expanded capabilities across these devices help you do more.",
+      "source_ids": {
+        "guid": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "canonical_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:57.379Z",
+      "excerpt": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "source_ids": {
+        "guid": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Google Cloud launches Gemini for healthcare.",
+      "canonical_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:57.379Z",
+      "excerpt": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:57.379Z",
+      "excerpt": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
