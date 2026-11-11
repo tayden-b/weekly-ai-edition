@@ -1,0 +1,28 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ars-ai",
+  "fetched_at": "2026-11-11T18:29:57.353Z",
+  "items": [
+    {
+      "headline": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "canonical_url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-05T21:40:36.000Z",
+      "fetched_at": "2026-11-11T18:29:58.589Z",
+      "excerpt": "Google is technically offering schools more choice but not the choices anyone wants.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "ai search",
+        "Artificial Intelligence",
+        "google",
+        "search"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ai-atlas",
+  "fetched_at": "2026-11-11T18:29:57.353Z",
+  "items": [
+    {
+      "headline": "Google DeepMind's AlphaProof Code verified Signal's protocol code in Lean in four weeks",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-10",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-10T21:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:59.091Z",
+      "excerpt": "Google DeepMind says its AlphaProof Code framework formally verified the implementation of Signal's cryptographic protocol in Lean in four weeks, writing over six million lines of proof.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-10",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic released Claude Fable 5.2 at $8 per million input tokens, 20% below version 5.1",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-09",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-09T21:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:59.091Z",
+      "excerpt": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on 9 November, priced at $8 per million input tokens and $40 per million output tokens, 20% below version 5.1.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-09",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Synchopate's llama-modchip runs the 284B DeepSeek-V4-Flash on a 64GB CPU-only machine",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-08",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-08T21:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:59.091Z",
+      "excerpt": "Synchopate released llama-modchip v2.4.0 on 8 November and says it runs DeepSeek-V4-Flash, a 284B-parameter model, on a CPU-only system with 64GB of memory.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-08",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ricursive Intelligence released Ripple-65B Preview, an open model scoring 80.52 on TerminalBench 2.1",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-07",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-07T21:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:59.091Z",
+      "excerpt": "Ricursive Intelligence released Ripple-65B Preview, a 65B dense open-weight model under Apache 2.0 that the company says scores 80.52 on TerminalBench 2.1.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-07",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "PSI says its AI system proved the Aaronson-Ambainis conjecture, open since 2008",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-06",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-06T21:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:59.091Z",
+      "excerpt": "Physical Superintelligence (PSI) said on 6 November that its AI system, running a non-public Anthropic model, proved the Aaronson-Ambainis conjecture, a quantum complexity problem open since 2008.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-06",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI released GPT-6 Cyber, rated Critical, scoring 48.5% on ExploitGym",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-05",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-05T21:00:00.000Z",
+      "fetched_at": "2026-11-11T18:29:59.091Z",
+      "excerpt": "OpenAI released GPT-6 Cyber on 5 November, a security model rated Critical under its Preparedness Framework, which it says scores 48.5% on ExploitGym.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-05",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

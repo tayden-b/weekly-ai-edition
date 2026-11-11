@@ -1,0 +1,362 @@
+{
+  "adapter": "reddit-json",
+  "source": "reddit-localllama",
+  "fetched_at": "2026-11-11T18:29:57.353Z",
+  "items": [
+    {
+      "headline": "Maybe we'll get cheap RAM for Christmas after all!",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xovnaa/maybe_well_get_cheap_ram_for_christmas_after_all/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-05T22:00:25.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Maybe we'll get cheap RAM for Christmas after all!",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xovnaa",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://i.redd.it/8efln1489vzh1.png"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Qwen3.8-27B has become unuseable recently",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoeeyf/qwen3827b_has_become_unuseable_recently/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-05T09:31:10.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "When it came out, I downloaded a Q4 quant of qwen3.8-27b and ran it using llama.cpp on my RTX 4090 and it was incredible. It could handle practically anything I threw at it, the most complex tasks and bugfixes. But lately it just keeps messing up and failing at the most basic of tasks or just",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xoeeyf",
+        "reddit_subreddit": "LocalLLaMA"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Z.ai chief scientist Jie Tang just revealed the training pipeline behind the upcoming GLM-5.5 (32B, 122B, and 256B)",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xossr5/zai_chief_scientist_jie_tang_just_revealed_the/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-05T20:06:15.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Smaller GLM models are coming! GLM 5.5 will have a 32B model!",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xossr5",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://x.com/bebuu_ai/status/2118052769856888892"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "We are cooked. My QFN 3.8 NVFP4 just drew a dog freehand in MS Paint (using new Open WebUI 0.13.0 and Open Terminal 0.17.2)",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmvf2/we_are_cooked_my_qfn_38_nvfp4_just_drew_a_dog/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-06T20:12:07.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Forget stupid pelican on a bike SVG bullshit. Forget cheating by drawing using Python code. I just loaded up QFN 3.8 in the new Open WebUI 0.13.0 and it just said “hold my beer” and started drawing with the friggin’ mouse coordinates inside a VM. I’m going to print this and hang it on my wall like",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xpmvf2",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://i.redd.it/qqc2oz7yu10i1.jpeg"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "\"Does censorship exist in [country]?\", according to various LLMs",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-08T14:56:07.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "I wrote a small program that asks the same Yes/No question about every country to a language model, and generates an SVG world map that visualizes the model's responses: https://github.com/p-e-w/llm-beliefs I'm rather surprised by the results...",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xr09nq",
+        "reddit_subreddit": "LocalLLaMA"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Asking questions to a 0.5b model is hillarious",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8as6/asking_questions_to_a_05b_model_is_hillarious/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-06T09:07:37.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Yes IK it's supposed to be this dumb, but it's still funny (Qwen2 0.5b Q4_K_M)",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xp8as6",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://i.redd.it/dsafx7wakyzh1.png"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Good Luck Getting a Cheap GPU. AMD Is a 'Data Center First Company,' CEO Says",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-07T04:05:32.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "they are all the same and we ... are too emotional! and yes we already knew that.",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xpx0on",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://www.pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Qwen be like",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xobzg3/qwen_be_like/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-05T06:50:27.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Paraphrasing the thinking I saw from Qwen3.8-27B >Hmm, I can take the screenshot, there's a tool for that. But wait, I'm an LLM, I can only read text. >Whatever, let's try calling the tool and see what I can do, maybe I can save the image and parse it programmatically. > >tool_call.exe >Wow, I can",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xobzg3",
+        "reddit_subreddit": "LocalLLaMA"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI.",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr01bj/users_have_started_buying_rtx_5060_ti_16gb/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-08T14:45:22.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Oh look, thats us!",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xr01bj",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://en.gamegpu.com/news/zhelezo/polzovateli-nachali-massovo-skupat-videokarty-rtx-5060-ti-16gb-radi-ii"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Apple has new Mac app coming to make running local AI models easy",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xszbe7/apple_has_new_mac_app_coming_to_make_running/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-10T21:30:36.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Apple has new Mac app coming to make running local AI models easy",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xszbe7",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-07T18:16:41.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Hey r/LocalLLaMA ! I made this quick demo of how Observer can run local models to monitor anything with your phone! These are some crazy things I've monitored: When someone that's not me, approaches my car, send me a picture. When a bird is on the bird's nest, send me a telegram with the picture.",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xqd058",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://v.redd.it/g80qnydhc80i1"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Fable 5.2 not only has guardrails against AI acceleration, its capabilities were capped in training too",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsjfwo/fable_52_not_only_has_guardrails_against_ai/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-10T10:23:52.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "This seems excessive, especially if they trust their classification models for safeguards, why add both? However I guess it is to be expected from a private company. It's also \"yet another reason\" for open weight LLMs",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xsjfwo",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://i.redd.it/8uv4vmjtfr0i1.png"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "NVIDIA reportedly cancels GeForce RTX 5080 24GB launch, brings back 16GB model over GDDR7 costs",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtdwps/nvidia_reportedly_cancels_geforce_rtx_5080_24gb/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-11T09:58:50.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "NVIDIA reportedly cancels GeForce RTX 5080 24GB launch, brings back 16GB model over GDDR7 costs",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xtdwps",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://videocardz.com/newz/nvidia-reportedly-cancels-geforce-rtx-5080-24gb-launch-brings-back-16gb-model-over-gddr7-costs"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Six Pallets of NVIDIA Hardware Worth $11.4 Million Stolen on the Way to Texas",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpqx1p/six_pallets_of_nvidia_hardware_worth_114_million/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-06T23:03:21.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Six Pallets of NVIDIA Hardware Worth $11.4 Million Stolen on the Way to Texas",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xpqx1p",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://www.techpowerup.com/354551/six-pallets-of-nvidia-hardware-worth-usd-11-4-million-stolen-on-the-way-to-texas"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "MiniMax H3-Image Released, an Open-Weight Image Model built on H3",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xso1ie/minimax_h3image_released_an_openweight_image/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-10T14:18:08.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "MiniMax H3-Image Released, an Open-Weight Image Model built on H3",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xso1ie",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://i.redd.it/k6n52ezfns0i1.jpeg"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Is ArtificialAnalysis biased against open weight models?",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs5pkl/is_artificialanalysis_biased_against_open_weight/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-09T22:22:35.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "It seems like whenever open weight models come close to proprietary US models, ArtificialAnalysis conveniently \"re-calibrates\" their benchmarks which then shoves open weight models down the toilet. Then they advertise on X/Twitter this \"intelligence index\" which presents open weight models as dog",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xs5pkl",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://i.redd.it/glw3miqrvn0i1.png"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Latest Open-Source Labs are gutting away cybersecurity and reverse-engineering capabilities",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-06T10:28:37.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Kimi K3.1 and Tencent’s Hy4 are both gutting out cybersecurity, reverse engineering, and vulnerability-patching capabilities from their open-source models. This is becoming a really bad pattern across these latest Chinese open-weight models. If local models are stripped on their security data, we",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xp9jt1",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://i.redd.it/e9368ci3yyzh1.png"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "GPT-5.5 dataset across my used 25 billion tokens!",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3ymf/gpt55_dataset_across_my_used_25_billion_tokens/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-08T17:32:48.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Cheers for u/New_Comfortable7240 for santitisation! 12,121 tool calls here!",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xr3ymf",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://huggingface.co/datasets/israellaguan/codex-tool-use-trajectories"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Got another good reminder why local matters today",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xs3y17/got_another_good_reminder_why_local_matters_today/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-09T21:13:10.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Apparently, they're threatening to ban me for merely red-teaming my own plugin. The appeal was immediately denied without any details.",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xs3y17",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://i.redd.it/xx98ah9dkn0i1.png"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "More interesting and unusual Qwen3.5-4B neurons",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrydgx/more_interesting_and_unusual_qwen354b_neurons/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-09T17:46:55.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "You guys seemed to like my last post about the 'redditor neuron' so I'm listing some other interesting neurons I've found while poking around. L11 N8147: The redditor neuron/ contrarianism neuron. Literally a single neuron that seems to act as a dial between being snarky+contrarian and being",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xrydgx",
+        "reddit_subreddit": "LocalLLaMA"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "The Surprising Effectiveness of Deleting Weights in LLM Post-Training",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-10T19:44:57.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its weights, with no other modification, matches full fine-tuning (FFT) at scale across three LLM post-training regimes: reinforcement learning with",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xswmb7",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://arxiv.org/abs/2611.10866"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation: This will completely change everything!",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr6krp/nextconcept_modeling_fast_parallel_coarsetofine/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-08T19:19:39.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Essentially we could very soon run opus 5.5 level of intelligence on 32gb Vram. Its many folds more efficient in terms of memory bandwidth making compute the real bottleneck. What do you think?",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xr6krp",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://arxiv.org/abs/2610.14162"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "CCORE GLB-3D-Coder 4B final model and full weights are out",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xobe4h/ccore_glb3dcoder_4b_final_model_and_full_weights/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-05T06:14:09.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Hey everyone! Following up on my previous post : the final version of CCORE GLB-3D-Coder is now available, including the full Safetensors weights. It’s a full fine-tune of Qwen3.5-4B for generating reusable 3D assets. Describe what you want, and it writes a complete Three.js HTML scene with an",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xobe4h",
+        "reddit_subreddit": "LocalLLaMA",
+        "reddit_url": "https://v.redd.it/5ya4a2v5fqzh1"
+      },
+      "adapter": "reddit-json"
+    },
+    {
+      "headline": "We are in the golden age of Local LLM",
+      "canonical_url": "https://www.reddit.com/r/LocalLLaMA/comments/1xppbht/we_are_in_the_golden_age_of_local_llm/",
+      "publisher": "r/LocalLLaMA",
+      "published_at": "2026-11-06T21:54:01.000Z",
+      "fetched_at": "2026-11-11T18:29:57.407Z",
+      "excerpt": "Q4 of 2026 has been astronomical for local LLM. Qwen’s 27B and Flash-Next models are pushing local AI further. and most importantly the upcoming Qwen 4 release. We’re getting closer to having frontier-level capabilities in models that WE can run. Break down : Unsloth’s new Dynamic v3.1 quants for",
+      "source_ids": {
+        "reddit_feed": "reddit-localllama",
+        "reddit_id": "t3_1xppbht",
+        "reddit_subreddit": "LocalLLaMA"
+      },
+      "adapter": "reddit-json"
+    }
+  ]
+}

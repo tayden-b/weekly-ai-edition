@@ -1,0 +1,111 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-langchain",
+  "fetched_at": "2026-11-11T18:29:57.353Z",
+  "items": [
+    {
+      "headline": "langchain==1.5.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-11T15:47:22Z",
+      "fetched_at": "2026-11-11T18:29:57.389Z",
+      "excerpt": "**`langchain` 1.5.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0. Users on Python 3.10 will continue to resolve `langchain` 1.4.x. Changes since langchain==1.4.10",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain==1.5.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-typesafe==0.1.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-11T16:14:24Z",
+      "fetched_at": "2026-11-11T18:29:57.389Z",
+      "excerpt": "**`langchain-typesafe` 0.1.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0 (`langchain` 1.5.0 for the `experimental` extra). Users on Python 3.10 will continue to resolve",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-typesafe==0.1.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-core==1.8.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-11T15:22:07Z",
+      "fetched_at": "2026-11-11T18:29:57.389Z",
+      "excerpt": "**`langchain-core` 1.8.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11. Users on Python 3.10 will continue to resolve `langchain-core` 1.7.x. Changes since langchain-core==1.7.7 release(core): 1.8.0 (#41796) feat(core): Remove EOL",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.8.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain==1.4.10",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.10",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-10T18:37:31Z",
+      "fetched_at": "2026-11-11T18:29:57.389Z",
+      "excerpt": "Changes since langchain==1.4.9 release(langchain): 1.4.10 (#41778) fix(langchain): keep middleware-internal model calls off the `messages` stream (#41579) chore(deps): patch newer-python security lock resolutions (#41585) fix(langchain): omit trace inputs from `ModelRefusalMiddleware` (#41689)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain==1.4.10"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-core==1.7.7",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.7",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-10T04:08:27Z",
+      "fetched_at": "2026-11-11T18:29:57.389Z",
+      "excerpt": "Changes since langchain-core==1.7.6 release(core): 1.7.7 (#41776) fix(core): cap nesting depth in `load()` (#41742) chore(deps): patch newer-python security lock resolutions (#41585)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.7.7"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-fireworks==1.7.3",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.3",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-09T20:54:19Z",
+      "fetched_at": "2026-11-11T18:29:57.389Z",
+      "excerpt": "Changes since langchain-fireworks==1.7.2 release(fireworks): 1.7.3 (#41773) fix(fireworks): default `max_tokens` from model profiles (#41772) chore(model-profiles): refresh model profile data (#41762) chore(model-profiles): refresh model profile data (#41745)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-fireworks==1.7.3"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-typesafe==0.0.2",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.0.2",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-05T22:56:58Z",
+      "fetched_at": "2026-11-11T18:29:57.389Z",
+      "excerpt": "Changes since langchain-typesafe==0.0.1 release(typesafe): 0.0.2 (#41720) feat(typesafe): accept a `classifier` in experimental middleware (#41657)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-typesafe==0.0.2"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-core==1.7.6",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.6",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-05T00:22:12Z",
+      "fetched_at": "2026-11-11T18:29:57.389Z",
+      "excerpt": "Changes since langchain-core==1.7.5 release(core): 1.7.6 (#41698) perf(core): merge streamed `AIMessageChunk`s once when accumulating runnable streams (#41697) perf(core): stop `parse_partial_json` from retrying one character at a time (#41467)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.7.6"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

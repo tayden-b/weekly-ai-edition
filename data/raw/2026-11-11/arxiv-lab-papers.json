@@ -1,0 +1,103 @@
+{
+  "adapter": "arxiv",
+  "source": "arxiv-lab-papers",
+  "fetched_at": "2026-11-11T18:29:57.353Z",
+  "items": [
+    {
+      "headline": "Beyond Proxy Metrics: MLLMs as Human Surrogates for Explainable AI Evaluation",
+      "canonical_url": "https://arxiv.org/abs/2611.13926",
+      "publisher": "arXiv",
+      "published_at": "2026-11-10T11:15:28.000Z",
+      "fetched_at": "2026-11-11T18:29:57.394Z",
+      "excerpt": "Explainable AI (XAI) has expanded into a broad and impactful research area, but the fundamental question of how best to evaluate explanation techniques has proven frustratingly elusive. Methodologies typically revolve around either proxy metrics which tell us little about the utility of an",
+      "source_ids": {
+        "arxiv_id": "2611.13926"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Transparency Disclosures for Chain-of-Thought Monitorability",
+      "canonical_url": "https://arxiv.org/abs/2611.13873",
+      "publisher": "arXiv",
+      "published_at": "2026-11-10T10:33:11.000Z",
+      "fetched_at": "2026-11-11T18:29:57.394Z",
+      "excerpt": "Chain-of-thought (CoT) monitoring is one of the most valuable tools for monitoring advanced AI systems, but it is under threat. We argue that frontier AI developers should report specific indicators to make these threats trackable and to better facilitate coordination to preserve CoT",
+      "source_ids": {
+        "arxiv_id": "2611.13873"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "A local language model layered with rule-based and neural detectors for clinical text de-identification: an open-source toolkit and evaluation",
+      "canonical_url": "https://arxiv.org/abs/2611.12709",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T17:02:05.000Z",
+      "fetched_at": "2026-11-11T18:29:57.394Z",
+      "excerpt": "Objectives: To measure whether a locally hosted large language model (LLM), stacked with deterministic and clinical named-entity recognition (NER) detectors, finds more protected health information (PHI) than open tools, and at what precision. Materials and Methods: DeidSharp, an open-source .NET",
+      "source_ids": {
+        "arxiv_id": "2611.12709"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "System Optimizations for Cost-Efficient Agent Harnesses",
+      "canonical_url": "https://arxiv.org/abs/2611.12122",
+      "publisher": "arXiv",
+      "published_at": "2026-11-09T09:39:06.000Z",
+      "fetched_at": "2026-11-11T18:29:57.394Z",
+      "excerpt": "AI agent harnesses play the critical role of providing LLMs with an interface to a computing environment. Recent studies show that AI agents' task-execution accuracy depends mostly on the LLM used, while harness-side variances such as system prompts or tools have minimal impact. Rather, such",
+      "source_ids": {
+        "arxiv_id": "2611.12122"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "Safety Is $Π_1$, Provability Is $Σ_1$: One Framework for the Hugging Face Breach and OpenAI's Mathematical Proofs",
+      "canonical_url": "https://arxiv.org/abs/2611.09736",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T17:10:40.000Z",
+      "fetched_at": "2026-11-11T18:29:57.394Z",
+      "excerpt": "OpenAI's agents breached Hugging Face in July 2026, and the same company released more than seven hundred AI-generated manuscripts of mathematical proofs in October 2026. The first event is read as a failure in security, while the second is read as a success in mathematics. We read both through the",
+      "source_ids": {
+        "arxiv_id": "2611.09736"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "One Run Is Not Enough: A Monte Carlo Protocol for Evaluating LLM Reliability on Data Science Tasks",
+      "canonical_url": "https://arxiv.org/abs/2611.09729",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T17:06:21.000Z",
+      "fetched_at": "2026-11-11T18:29:57.394Z",
+      "excerpt": "Large language models (LLMs) have shown promise for automating data science workflows. Benchmarks such as DataSciBench (2026) and StatQA (2024) have advanced the evaluation of their capabilities across data science and statistical tasks. Assessing their reliability requires examining both the",
+      "source_ids": {
+        "arxiv_id": "2611.09729"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "BMMS: Policy-Conditioned Measurement of Behavioral Compliance in Language Models",
+      "canonical_url": "https://arxiv.org/abs/2611.09147",
+      "publisher": "arXiv",
+      "published_at": "2026-11-06T08:24:58.000Z",
+      "fetched_at": "2026-11-11T18:29:57.394Z",
+      "excerpt": "Behavioral evaluation of language models fixes its dimensions in advance: hallucination, sycophancy, toxicity, over-refusal. An operator in a regulated industry needs a different question answered: does a system do what a particular rulebook requires? We introduce the Behavioral Misalignment Metric",
+      "source_ids": {
+        "arxiv_id": "2611.09147"
+      },
+      "adapter": "arxiv"
+    },
+    {
+      "headline": "The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
+      "canonical_url": "https://arxiv.org/abs/2611.08412",
+      "publisher": "arXiv",
+      "published_at": "2026-11-05T18:17:18.000Z",
+      "fetched_at": "2026-11-11T18:29:57.394Z",
+      "excerpt": "The growing use of AI in mathematics raises a question: can we detect AI involvement in proofs, separately from AI assistance with writing? Historical arXiv papers, recent papers disclosing substantive AI use, and manuscripts released by OpenAI provide a rich empirical basis for studying this",
+      "source_ids": {
+        "arxiv_id": "2611.08412"
+      },
+      "adapter": "arxiv"
+    }
+  ]
+}
