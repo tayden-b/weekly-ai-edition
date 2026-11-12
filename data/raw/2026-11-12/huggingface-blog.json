@@ -1,0 +1,115 @@
+{
+  "adapter": "lab-blogs",
+  "source": "huggingface-blog",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "canonical_url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.369Z",
+      "excerpt": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/3d-lora-finetuning"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "canonical_url": "https://huggingface.co/blog/qvac/botpsy",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.369Z",
+      "excerpt": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/qvac/botpsy"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "canonical_url": "https://huggingface.co/blog/token-pooling",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.369Z",
+      "excerpt": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/token-pooling"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "canonical_url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.369Z",
+      "excerpt": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/hub-gcp-marketplace"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Decision Models in Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/decision",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.369Z",
+      "excerpt": "Decision Models in Hugging Face",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/decision"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "canonical_url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.369Z",
+      "excerpt": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "canonical_url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.369Z",
+      "excerpt": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "canonical_url": "https://huggingface.co/blog/allenai/toyblocks",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-06T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.369Z",
+      "excerpt": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/allenai/toyblocks"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "canonical_url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-06T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.369Z",
+      "excerpt": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

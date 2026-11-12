@@ -1,0 +1,46 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "nyt-tech",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "Amazon and Google Will See Big Paydays from Anthropic IPO",
+      "canonical_url": "https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-google-amazon.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-10T21:54:37.000Z",
+      "fetched_at": "2026-11-12T18:45:36.388Z",
+      "excerpt": "Amazon and Google Will See Big Paydays from Anthropic IPO",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-google-amazon.html"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Anthropic Targets Valuation of Up to $1.4 Trillion for Blockbuster I.P.O.",
+      "canonical_url": "https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-valuation-share-price.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-10T17:32:10.000Z",
+      "fetched_at": "2026-11-12T18:45:36.388Z",
+      "excerpt": "Anthropic Targets Valuation of Up to $1.4 Trillion for Blockbuster I.P.O.",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/11/10/technology/anthropic-ipo-valuation-share-price.html"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Microsoft’s Buyout Offer Sets Its Workforce on Edge",
+      "canonical_url": "https://www.nytimes.com/2026/11/06/technology/microsoft-buyouts.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-06T12:23:09.000Z",
+      "fetched_at": "2026-11-12T18:45:36.388Z",
+      "excerpt": "As Microsoft pours billions into artificial intelligence, the company has offered buyouts to about 60,000 employees. The work force was already on edge.",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/11/06/technology/microsoft-buyouts.html"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

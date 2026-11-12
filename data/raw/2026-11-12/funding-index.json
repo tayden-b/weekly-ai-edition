@@ -1,0 +1,583 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "funding-index",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "Path Robotics raised $300M (Series E) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/path-robotics-series-e-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-11T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Path Robotics Inc., a startup working to automate industrial welding workflows, today announced that it has raised $300 million in funding.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/path-robotics-series-e-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Rox raised $100M (Series B) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/rox-series-b-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-11T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Rox develops AI-powered revenue agents for Global 2000 enterprises. Led by General Catalyst, March Capital. Valued at $1.3B.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/rox-series-b-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Edelbyte raised $70M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/edelbyte-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-11T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Edelbyte develops a data analytics platform optimized for AI agents. Led by Sequoia, Quiet Capital. Valued at $500M.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/edelbyte-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Analytics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tendrils Compute raised $30M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/tendrils-compute-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-11T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Tendrils Compute develops next-generation computer processor chips.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/tendrils-compute-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Plurai raised $13M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/plurai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-11T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Plurai builds simulation infrastructure for trustworthy and self-improving AI agents. Led by Team8.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/plurai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Mistt raised $6.8M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/mistt-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-11T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Defence startup Mistt raises £5m to build the ‘next GPS’ for autonomous systems and AI",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/mistt-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Helix raised $6.2M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/helix-pre-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-11T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Helix provides a voice-powered human verification platform for bot detection and age prediction.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/helix-pre-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anorak raised $5M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/anorak-pre-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-11T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Anorak provides an AI-powered entertainment technology platform to create interactive games. Led by Play Ventures, Backed VC.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/anorak-pre-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Mercor raised $750M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/mercor-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Artificial intelligence training data company Mercor.io Corp.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/mercor-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Calibrant Energy raised $145M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/calibrant-energy-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Investec-led financing recapitalizes operating assets and funds new construction projects BOSTON, Nov.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/calibrant-energy-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Daylight raised $80M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/daylight-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Managed detection and response startup Daylight Security Inc.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/daylight-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Charta Health raised $55M (Series B) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/charta-health-series-b-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Led by Insight Partners, the new funding will support the launch of Charta for Providers and Charta for Payers, bringing one AI standard to both sides of the claim.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/charta-health-series-b-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Dreeze raised $33M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/dreeze-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Dreeze provides software for cloud application revival and recovery.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/dreeze-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nidus raised $30M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/nidus-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Backed by Kleiner Perkins and Costanoa, Nidus brings intelligent, autonomous systems that dramatically increase factory output, beginning with the wire harnesses inside every aircraft, missile, and vehicle NEW YORK, Nov.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/nidus-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sumary raised $25M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/sumary-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Copenhagen-founded AI accounting software startup Sumaryhas raised $25 million in a seed funding round led by Singular, withparticipation from existing investors byFounders, Partech and Tenity. Led by Singular.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/sumary-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lumbra raised $25M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/lumbra-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "When it comes to matters of national security, it’s vitally important to ensure that the right intelligence gets to the right decision-makers, but doing this in today’s complex information technology environments is challenging, to say the",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/lumbra-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "SPARETECH raised $20M (Series B) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/sparetech-series-b-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "SPARETECH aims to cut manufacturers' spare parts inventory by 60% within three years with AI that ensures parts are available when they are needed MUNICH, Nov.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/sparetech-series-b-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "WhiteMatter raised $20M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/whitematter-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Backed by Blumberg Capital, the company formerly known as QuilrAI has grown revenue 5x in six months and now has 2.25 million agents under management for customers including Sentara Health, Alter Domus, and Concentrix SAN FRANCISCO, Nov.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/whitematter-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "PORT raised $17M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/port-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Port, a London-based startup transforms underutilised city spaces into electric vehicle hubs, today announces a €14.5 million funding round to further develop its proprietary AI Driver and autonomous delivery vehicles - building on top of a Led by EBRD.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/port-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "PuppyGraph raised $10M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/puppygraph-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Graph query engine startup PuppyGraph said today it has raised $10 million in new funding to build out its enterprise go-to-market operation.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/puppygraph-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Data infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Agent F raised $4M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/agent-f-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "When a startup's press pitch cites the Draghi report — with a reminder that not a single company with a market value above €100 billion has been built from scratch in the European Union in the past fi...",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/agent-f-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Froncort.AI raised $2.3M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/froncort-ai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-10T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Froncort.AI develops an AI-powered disease surveillance and detection platform. Led by Google.org.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/froncort-ai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nominal raised $240M (Series B) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/nominal-series-b-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-09T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Artificial intelligence-powered hardware-testing and engineering software startup Nominal Inc. Led by Lightspeed Venture Partners.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/nominal-series-b-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Spines raised $64M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/spines-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-09T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Company hits $50M in revenue as agentic AI publishing platform proves a simple principle: AI should empower authors, not replace them TEL AVIV, Israel and NEW YORK, Nov.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/spines-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Coframe raised $35M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/coframe-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-09T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Khosla Ventures and Hanabi Capital co-lead funding for autonomous AI platform that continuously builds, tests and improves digital experiences SAN FRANCISCO, Nov.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/coframe-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Astral raised $5.5M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/astral-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-09T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "AI lab brings its AI tutor to families in all 50 states as every prior institutional investor returns for its newest funding round.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/astral-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ridero raised $2.7M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/ridero-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-09T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Backed by RiverPark Ventures, NY Ventures, Green Egg Ventures, Blackpoint Capital, and Potamkin Ventures, Ridero is expanding access to flexible vehicle financing.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/ridero-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Crowd Threat raised $1.4M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/crowd-threat-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-09T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "A former British Army intelligence operator who has developed a platform that identifies security risks in countries worldwide using reports from local people has secured a £1million investment.Michae...",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/crowd-threat-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI raised $11B (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/openai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "OpenAI develops advanced artificial intelligence models. Valued at $1250B.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/openai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Shield AI raised $2B (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/shield-ai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Shield AI develops autonomous defense technology and AI pilots for military systems.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/shield-ai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Zipline International raised $1.5B (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/zipline-international-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Zipline International builds autonomous drone delivery systems.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/zipline-international-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nadhi AI raised $21M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/nadhi-ai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Known from its SEC Form D filing, not from an announcement.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/nadhi-ai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Vensum Power raised $11M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/vensum-power-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Finnish deeptech companyVensum Power has raised €9 million in a Series A funding round co-led byLifeline Ventures, Larsen & Toubro Group and Eviny Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/vensum-power-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Physicl raised $10M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/physicl-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Physicl develops sim-to-real software technology for robotics. Led by Inovia Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/physicl-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bioliberty raised $3.5M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/bioliberty-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Bioliberty, an Edinburgh- and Boston-based rehabilitation technology startup, has raised a €2.95 million ($3.3 million) Series A extension, bringing its total funding to €12.07 million ($13.5 million).",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/bioliberty-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Fathom Therapeutics raised Undisclosed (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/fathom-therapeutics-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-06T12:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.594Z",
+      "excerpt": "Fathom Therapeutics develops a physics- and AI-powered drug discovery platform. Led by Kos Biotechnology Partners.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/fathom-therapeutics-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

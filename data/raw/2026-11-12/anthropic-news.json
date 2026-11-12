@@ -1,0 +1,151 @@
+{
+  "adapter": "lab-blogs",
+  "source": "anthropic-news",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "Open Call Guest Investigators Life Sciences",
+      "canonical_url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-06T10:22:49.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "Open Call Guest Investigators Life Sciences",
+      "source_ids": {
+        "slug": "open-call-guest-investigators-life-sciences"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Roadshow Launch",
+      "canonical_url": "https://www.anthropic.com/news/roadshow-launch",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-10T11:32:16.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "Roadshow Launch",
+      "source_ids": {
+        "slug": "roadshow-launch"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "S1 Sec",
+      "canonical_url": "https://www.anthropic.com/news/s1-sec",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-12T16:11:50.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "S1 Sec",
+      "source_ids": {
+        "slug": "s1-sec"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Accelerating Scientific Research",
+      "canonical_url": "https://www.anthropic.com/research/accelerating-scientific-research",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-06T10:23:12.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "Accelerating Scientific Research",
+      "source_ids": {
+        "slug": "accelerating-scientific-research"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Electronics Design",
+      "canonical_url": "https://www.anthropic.com/research/claude-electronics-design",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-09T18:51:01.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "Claude Electronics Design",
+      "source_ids": {
+        "slug": "claude-electronics-design"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Components Of Agent Memory",
+      "canonical_url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-06T21:15:32.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "Components Of Agent Memory",
+      "source_ids": {
+        "slug": "components-of-agent-memory"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Early Progress Drug Development",
+      "canonical_url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-06T00:33:28.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "Early Progress Drug Development",
+      "source_ids": {
+        "slug": "early-progress-drug-development"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How Researchers Use Claude",
+      "canonical_url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-06T15:55:34.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "How Researchers Use Claude",
+      "source_ids": {
+        "slug": "how-researchers-use-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Investigating Vault Particles With Claude",
+      "canonical_url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-06T01:53:44.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "Investigating Vault Particles With Claude",
+      "source_ids": {
+        "slug": "investigating-vault-particles-with-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Project Eve Claude Plays Mmorpgs",
+      "canonical_url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-06T17:09:29.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "Project Eve Claude Plays Mmorpgs",
+      "source_ids": {
+        "slug": "project-eve-claude-plays-mmorpgs"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Provable Inference",
+      "canonical_url": "https://www.anthropic.com/research/provable-inference",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-09T09:39:55.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "Provable Inference",
+      "source_ids": {
+        "slug": "provable-inference"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Teaching Ai To Build Scientific Models",
+      "canonical_url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-07T23:12:43.000Z",
+      "fetched_at": "2026-11-12T18:45:36.360Z",
+      "excerpt": "Teaching Ai To Build Scientific Models",
+      "source_ids": {
+        "slug": "teaching-ai-to-build-scientific-models"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

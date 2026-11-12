@@ -1,0 +1,1610 @@
+{
+  "adapter": "distribute-software",
+  "source": "distribute-stories",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "What Do You Want to Know About New York Times Journalism and A.I.?",
+      "canonical_url": "https://www.nytimes.com/2026/11/12/insider/nyt-journalism-ai.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-12T18:05:44.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "What Do You Want to Know About New York Times Journalism and A.I.?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26352",
+        "distribute_url": "https://distribute.software/stories/26352",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Meet the contenders to succeed Jensen Huang",
+      "canonical_url": "https://www.ft.com/content/6f21835f-97a1-4f7a-bbb8-f38609998909",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T17:24:08.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Meet the contenders to succeed Jensen Huang",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26348",
+        "distribute_url": "https://distribute.software/stories/26348",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "We Were Warned of Deceptive A.I. Fakes. We Got Memes.",
+      "canonical_url": "https://www.nytimes.com/2026/11/12/technology/artifical-intelligence-fakes-midterm-memes.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-12T17:13:28.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "We Were Warned of Deceptive A.I. Fakes. We Got Memes.",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26347",
+        "distribute_url": "https://distribute.software/stories/26347",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Zoe Kleinman: How AI visionary Jensen Huang was undone by his own bad decisions",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo",
+      "publisher": "BBC News",
+      "published_at": "2026-11-12T16:43:36.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Zoe Kleinman: How AI visionary Jensen Huang was undone by his own bad decisions",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26345",
+        "distribute_url": "https://distribute.software/stories/26345",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Trump says Apple’s Tim Cook should take over Nvidia",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/12/trump-says-apples-tim-cook-should-take-over-nvidia/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-12T16:19:48.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Trump says Apple’s Tim Cook should take over Nvidia",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26343",
+        "distribute_url": "https://distribute.software/stories/26343",
+        "distribute_source": "media",
+        "distribute_companies": "apple,nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang’s Resignation From Nvidia Could Complicate Billions in Philanthropic Giving",
+      "canonical_url": "https://www.nytimes.com/2026/11/12/technology/jensen-huang-philanthropy-nvidia.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-12T16:16:04.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Jensen Huang’s Resignation From Nvidia Could Complicate Billions in Philanthropic Giving",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26342",
+        "distribute_url": "https://distribute.software/stories/26342",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen jeopardy will disrupt the AI industry",
+      "canonical_url": "https://www.ft.com/content/42bfcbcb-7121-492b-8e1d-0aceacd093e2",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T15:56:31.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Jensen jeopardy will disrupt the AI industry",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26346",
+        "distribute_url": "https://distribute.software/stories/26346",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "I'm making LLMs work on small and old devices",
+      "canonical_url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T15:23:10.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "I'm making LLMs work on small and old devices",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26351",
+        "distribute_url": "https://distribute.software/stories/26351",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50468888"
+      },
+      "hn_points": 121,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "US public workers are fighting to protect their jobs from AI – and some are winning",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/12/us-workers-governments-unions-ai",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T15:00:44.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "US public workers are fighting to protect their jobs from AI – and some are winning",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26339",
+        "distribute_url": "https://distribute.software/stories/26339",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Singapore barred Alice Huang for giving police ‘inaccurate information’",
+      "canonical_url": "https://www.ft.com/content/fa23a8ad-29bf-4971-aa44-6b25b247c193",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T14:32:51.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Singapore barred Alice Huang for giving police ‘inaccurate information’",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26336",
+        "distribute_url": "https://distribute.software/stories/26336",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How Jensen Huang’s downfall unfolded, month by month",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/12/timeline-alleged-spy-drama-engulfing-jensen-huang/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-12T14:24:46.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "How Jensen Huang’s downfall unfolded, month by month",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26330",
+        "distribute_url": "https://distribute.software/stories/26330",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang is gone. Will the AI industry pay the price?",
+      "canonical_url": "https://www.ft.com/content/dd9072bd-e8a3-4f8e-9985-550aa80a2fd4",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T14:22:30.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Jensen Huang is gone. Will the AI industry pay the price?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26337",
+        "distribute_url": "https://distribute.software/stories/26337",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Abandoned Quake 4 expansion finished by modders and now playable",
+      "canonical_url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T14:18:49.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Abandoned Quake 4 expansion finished by modders and now playable",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26341",
+        "distribute_url": "https://distribute.software/stories/26341",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50467618"
+      },
+      "hn_points": 155,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo",
+      "publisher": "BBC News",
+      "published_at": "2026-11-12T14:18:33.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26333",
+        "distribute_url": "https://distribute.software/stories/26333",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Here’s the latest.",
+      "canonical_url": "https://www.nytimes.com/2026/11/12/technology/nvidia-jensen-huang.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-12T14:15:23.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Here’s the latest.",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26329",
+        "distribute_url": "https://distribute.software/stories/26329",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+      "canonical_url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T14:12:37.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Talking Zen 6 with Mike Clark at AMD In-Depth",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26344",
+        "distribute_url": "https://distribute.software/stories/26344",
+        "distribute_source": "hn",
+        "distribute_companies": "amd",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50467460"
+      },
+      "hn_points": 120,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang resigns as Nvidia CEO after alleged affairs",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T14:04:50.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Jensen Huang resigns as Nvidia CEO after alleged affairs",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26331",
+        "distribute_url": "https://distribute.software/stories/26331",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+      "canonical_url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T14:00:54.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26340",
+        "distribute_url": "https://distribute.software/stories/26340",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50467191"
+      },
+      "hn_points": 71,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘To them, we’re just NPCs’: the artists and activists challenging Trump’s video game propaganda",
+      "canonical_url": "https://www.theguardian.com/games/2026/nov/12/trump-video-game-propaganda",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T14:00:43.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "‘To them, we’re just NPCs’: the artists and activists challenging Trump’s video game propaganda",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26332",
+        "distribute_url": "https://distribute.software/stories/26332",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+      "canonical_url": "https://www.nytimes.com/2026/11/12/business/nvidia-stock-price-jensen-huang-ceo-affair.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-12T14:00:12.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Nvidia Stock Plunges After Jensen Huang Resigns as CEO",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26328",
+        "distribute_url": "https://distribute.software/stories/26328",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
+      "canonical_url": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T13:56:38.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26335",
+        "distribute_url": "https://distribute.software/stories/26335",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50467139"
+      },
+      "hn_points": 168,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang resigns as Nvidia CEO immediately",
+      "canonical_url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T13:56:11.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Jensen Huang resigns as Nvidia CEO immediately",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26326",
+        "distribute_url": "https://distribute.software/stories/26326",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50467132"
+      },
+      "hn_points": 373,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "NVIDIA Announces CEO Transition",
+      "canonical_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T13:52:29.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "NVIDIA Announces CEO Transition",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26325",
+        "distribute_url": "https://distribute.software/stories/26325",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50467087"
+      },
+      "hn_points": 1590,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang resigns",
+      "canonical_url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T13:52:29.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Jensen Huang resigns",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26350",
+        "distribute_url": "https://distribute.software/stories/26350",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50467087"
+      },
+      "hn_points": 1719,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang resigns as Nvidia chief executive",
+      "canonical_url": "https://www.ft.com/content/b4a0f3d9-f075-47ea-9a85-77cdade9a06f",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T13:51:15.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Jensen Huang resigns as Nvidia chief executive",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26334",
+        "distribute_url": "https://distribute.software/stories/26334",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
+      "canonical_url": "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T13:14:38.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26324",
+        "distribute_url": "https://distribute.software/stories/26324",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How can we create ‘supercooperative AI’?",
+      "canonical_url": "https://www.ft.com/content/3c9e005f-aaec-4efc-9d75-5102accfaef8",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T12:30:04.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "How can we create ‘supercooperative AI’?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26323",
+        "distribute_url": "https://distribute.software/stories/26323",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "United Airlines blocks AI agents from booking flights",
+      "canonical_url": "https://www.washingtonpost.com/travel/2026/11/12/united-airlines-blocks-ai-agents-booking-flights/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-12T12:30:00.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "United Airlines blocks AI agents from booking flights",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26322",
+        "distribute_url": "https://distribute.software/stories/26322",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Can green cement decarbonise the data centre building boom?",
+      "canonical_url": "https://www.ft.com/content/7f3822b6-b0a1-4fa3-9b9c-fae8ca862afa",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T12:00:03.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Can green cement decarbonise the data centre building boom?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26318",
+        "distribute_url": "https://distribute.software/stories/26318",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Anthropic IPO",
+      "canonical_url": "https://ipo.anthropic.com/us/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T11:46:41.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Anthropic IPO",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26319",
+        "distribute_url": "https://distribute.software/stories/26319",
+        "distribute_source": "hn",
+        "distribute_companies": "anthropic",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50465829"
+      },
+      "hn_points": 644,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T11:00:47.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26316",
+        "distribute_url": "https://distribute.software/stories/26316",
+        "distribute_source": "media",
+        "distribute_companies": "palantir"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Datacentres are deeply unpopular. Has Sweden made one we can all love?",
+      "canonical_url": "https://www.theguardian.com/environment/2026/nov/12/datacentres-unpopular-sweden-ecodatacenter-falun",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T11:00:46.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Datacentres are deeply unpopular. Has Sweden made one we can all love?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26317",
+        "distribute_url": "https://distribute.software/stories/26317",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Maga architects blame Big Tech and AI data centres for midterms rout",
+      "canonical_url": "https://www.ft.com/content/43da75e5-e8fd-4aea-8afb-e3d75c9f176f",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T11:00:04.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Maga architects blame Big Tech and AI data centres for midterms rout",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26314",
+        "distribute_url": "https://distribute.software/stories/26314",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang resigns as Nvidia CEO after affair with alleged spy",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-12T11:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Jensen Huang resigns as Nvidia CEO after affair with alleged spy",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26313",
+        "distribute_url": "https://distribute.software/stories/26313",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "China warns US not to use Nvidia scandal as pretext for tech curbs",
+      "canonical_url": "https://www.ft.com/content/66e7337e-3696-4259-84f4-57533bc185bd",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T10:55:31.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "China warns US not to use Nvidia scandal as pretext for tech curbs",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26315",
+        "distribute_url": "https://distribute.software/stories/26315",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia stood behind Jensen Huang. Now comes the reckoning.",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/12/nvidia-jensen-huang-denied-his-alleged-affair-then-story-changed/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-12T10:54:50.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Nvidia stood behind Jensen Huang. Now comes the reckoning.",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26310",
+        "distribute_url": "https://distribute.software/stories/26310",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Researchers discover rare star system that emits radio signals every 8 minutes",
+      "canonical_url": "https://www.curtin.edu.au/news/media-release/researchers-discover-rare-star-system-that-emits-radio-signals-every-eight-minutes/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T10:46:20.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Researchers discover rare star system that emits radio signals every 8 minutes",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26338",
+        "distribute_url": "https://distribute.software/stories/26338",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50465453"
+      },
+      "hn_points": 61,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o",
+      "publisher": "BBC News",
+      "published_at": "2026-11-12T10:37:00.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26311",
+        "distribute_url": "https://distribute.software/stories/26311",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Why Writing Correct Software Is Hard",
+      "canonical_url": "https://pron.github.io/posts/correctness-and-complexity",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T10:28:26.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Why Writing Correct Software Is Hard",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26320",
+        "distribute_url": "https://distribute.software/stories/26320",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50465352"
+      },
+      "hn_points": 285,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Data Centers Will Continue to Be Built, Despite Midterm Elections",
+      "canonical_url": "https://www.nytimes.com/2026/11/12/technology/voters-data-centers-construction.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-12T10:03:40.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Data Centers Will Continue to Be Built, Despite Midterm Elections",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26307",
+        "distribute_url": "https://distribute.software/stories/26307",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Tanuki: Pon’s Summer review – an adorable raccoon mends the world, one parcel at a time",
+      "canonical_url": "https://www.theguardian.com/games/2026/nov/12/tanuki-pons-summer-review",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T10:00:15.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Tanuki: Pon’s Summer review – an adorable raccoon mends the world, one parcel at a time",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26309",
+        "distribute_url": "https://distribute.software/stories/26309",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Key voices rushed to defend Jensen Huang online. But many commenters were fake.",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/12/elon-musk-bill-ackman-online-bots-defend-jensen-huang-online/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-12T10:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Key voices rushed to defend Jensen Huang online. But many commenters were fake.",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26308",
+        "distribute_url": "https://distribute.software/stories/26308",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Sex, spies and salaries shake up AI chipmakers",
+      "canonical_url": "https://www.ft.com/content/8d2e8ec0-b11e-4458-beed-dcddb720a119",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T07:59:47.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Sex, spies and salaries shake up AI chipmakers",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26304",
+        "distribute_url": "https://distribute.software/stories/26304",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Who could run Nvidia after Jensen Huang?",
+      "canonical_url": "https://www.ft.com/content/e47f7d4a-88d7-41e4-8c77-8ea8e0769353",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T07:54:52.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Who could run Nvidia after Jensen Huang?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26305",
+        "distribute_url": "https://distribute.software/stories/26305",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia board reportedly deciding whether to oust CEO Jensen Huang as stock price plunges",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T07:43:13.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Nvidia board reportedly deciding whether to oust CEO Jensen Huang as stock price plunges",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26302",
+        "distribute_url": "https://distribute.software/stories/26302",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T06:55:44.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26299",
+        "distribute_url": "https://distribute.software/stories/26299",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Humble Bundle just killed most of their security through vibecoding",
+      "canonical_url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T06:52:48.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Humble Bundle just killed most of their security through vibecoding",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26300",
+        "distribute_url": "https://distribute.software/stories/26300",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50463899"
+      },
+      "hn_points": 331,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
+      "canonical_url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T06:43:31.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26301",
+        "distribute_url": "https://distribute.software/stories/26301",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The bond market is starting to choke on AI debt",
+      "canonical_url": "https://www.ft.com/content/2f4d39dd-dee8-4620-996d-3fe978b7522b",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T06:00:02.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "The bond market is starting to choke on AI debt",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26296",
+        "distribute_url": "https://distribute.software/stories/26296",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
+      "canonical_url": "https://www.getlazarus.org/forums/topic/17/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T05:49:34.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26312",
+        "distribute_url": "https://distribute.software/stories/26312",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50463540"
+      },
+      "hn_points": 108,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Can anything derail Anthropic’s IPO?",
+      "canonical_url": "https://www.ft.com/content/b9ad2b19-4f2a-4f26-89b6-940985a0b9d4",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T05:00:22.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Can anything derail Anthropic’s IPO?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26297",
+        "distribute_url": "https://distribute.software/stories/26297",
+        "distribute_source": "media",
+        "distribute_companies": "anthropic"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "You had me at LOL: some notes for the You’ve Got Mail reboot",
+      "canonical_url": "https://www.theguardian.com/film/2026/nov/12/youve-got-mail-reboot-email",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T05:00:10.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "You had me at LOL: some notes for the You’ve Got Mail reboot",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26295",
+        "distribute_url": "https://distribute.software/stories/26295",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Why are gamers driven to destruction?",
+      "canonical_url": "https://www.ft.com/content/b39ab251-3a7e-4b7f-98e9-1ca7b13bf288",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T05:00:03.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Why are gamers driven to destruction?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26298",
+        "distribute_url": "https://distribute.software/stories/26298",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Accelerating Business",
+      "canonical_url": "https://www.ft.com/reports/accelerating-business",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T04:40:43.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Accelerating Business",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26290",
+        "distribute_url": "https://distribute.software/stories/26290",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Crowded legal-tech market requires navigation",
+      "canonical_url": "https://www.ft.com/content/881c1179-67f6-4f56-861f-5bb01fcbafeb",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T04:30:01.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Crowded legal-tech market requires navigation",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26291",
+        "distribute_url": "https://distribute.software/stories/26291",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Huang falls out of favour in Washington",
+      "canonical_url": "https://www.ft.com/content/9ca8ba83-5a3c-409e-96d9-abee1323b688",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T04:19:48.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Huang falls out of favour in Washington",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26292",
+        "distribute_url": "https://distribute.software/stories/26292",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "What to Know About the Turmoil at Nvidia as Jensen Huang Resigns as C.E.O.",
+      "canonical_url": "https://www.nytimes.com/article/nvidia-investigation-jensen-huang.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-12T03:55:11.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "What to Know About the Turmoil at Nvidia as Jensen Huang Resigns as C.E.O.",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26288",
+        "distribute_url": "https://distribute.software/stories/26288",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia shares slide as Huang resigns",
+      "canonical_url": "https://www.ft.com/content/a93307a7-e2cd-4abd-bd89-c38832d8c40e",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T03:39:25.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Nvidia shares slide as Huang resigns",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26293",
+        "distribute_url": "https://distribute.software/stories/26293",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Bad ideas that aren't bad anymore",
+      "canonical_url": "https://devonestes.com/bad-ideas-that-arent-bad-anymore",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T03:18:13.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Bad ideas that aren't bad anymore",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26306",
+        "distribute_url": "https://distribute.software/stories/26306",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50462613"
+      },
+      "hn_points": 81,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Lean Grimoire",
+      "canonical_url": "https://terrytao.wordpress.com/2026/11/11/lean-grimoire/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T02:36:48.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Lean Grimoire",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26321",
+        "distribute_url": "https://distribute.software/stories/26321",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50462375"
+      },
+      "hn_points": 52,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Critical RCE Vulnerability in Apache HTTP Server",
+      "canonical_url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T02:11:11.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Critical RCE Vulnerability in Apache HTTP Server",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26289",
+        "distribute_url": "https://distribute.software/stories/26289",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50462177"
+      },
+      "hn_points": 339,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "I caught Microsoft Defender uploading my unreleased software without asking",
+      "canonical_url": "https://garrettstimpson.ca/posts/2026/11/11/caught-microsoft-red-handed-with-hodometer/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-12T01:27:10.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "I caught Microsoft Defender uploading my unreleased software without asking",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26327",
+        "distribute_url": "https://distribute.software/stories/26327",
+        "distribute_source": "hn",
+        "distribute_companies": "microsoft",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50461786"
+      },
+      "hn_points": 55,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "AI jitters erupt after Democrats threaten data centre build-out",
+      "canonical_url": "https://www.ft.com/content/895a17ab-4fa7-45ab-9347-c6108352c690",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T01:00:02.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "AI jitters erupt after Democrats threaten data centre build-out",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26284",
+        "distribute_url": "https://distribute.software/stories/26284",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Boston leads the way for skilled workforce and intellectual capital",
+      "canonical_url": "https://www.ft.com/content/896af656-09a6-495d-8074-8fd3cffe46be",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T01:00:02.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Boston leads the way for skilled workforce and intellectual capital",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26285",
+        "distribute_url": "https://distribute.software/stories/26285",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Can markets find the AI cash?",
+      "canonical_url": "https://www.ft.com/content/324ba152-0805-485b-94d5-d16bc904a98f",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-12T01:00:02.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Can markets find the AI cash?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26286",
+        "distribute_url": "https://distribute.software/stories/26286",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia board weighs fate of CEO Jensen Huang after affair with alleged Chinese spy",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/11/nvidia-board-weighs-fate-jensen-huang-after-affair-with-alleged-spy/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-12T00:43:15.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Nvidia board weighs fate of CEO Jensen Huang after affair with alleged Chinese spy",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26283",
+        "distribute_url": "https://distribute.software/stories/26283",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Facial recognition errors put ethnic minorities at risk of wrongful arrest, police watchdog warns",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/12/facial-recognition-errors-put-ethnic-minorities-at-risk-of-wrongful-arrest-police-watchdog-warns",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-12T00:01:03.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Facial recognition errors put ethnic minorities at risk of wrongful arrest, police watchdog warns",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26294",
+        "distribute_url": "https://distribute.software/stories/26294",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "United Airlines Blocks A.I. Agents From Booking Flights",
+      "canonical_url": "https://www.nytimes.com/2026/11/11/business/united-airlines-ai-agents-booking-flights.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-11T23:15:31.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "United Airlines Blocks A.I. Agents From Booking Flights",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26349",
+        "distribute_url": "https://distribute.software/stories/26349",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia board to decide Jensen Huang’s fate",
+      "canonical_url": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-11T22:56:26.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Nvidia board to decide Jensen Huang’s fate",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26282",
+        "distribute_url": "https://distribute.software/stories/26282",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang Resigns From Nvidia After Affairs",
+      "canonical_url": "https://www.nytimes.com/2026/11/11/technology/nvidia-jensen-huang.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-11T22:48:55.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Jensen Huang Resigns From Nvidia After Affairs",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26279",
+        "distribute_url": "https://distribute.software/stories/26279",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia is preparing to oust Jensen Huang",
+      "canonical_url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T22:31:06.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Nvidia is preparing to oust Jensen Huang",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26280",
+        "distribute_url": "https://distribute.software/stories/26280",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50459703"
+      },
+      "hn_points": 1206,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Lego marketplace BrickLink offline after 'unusual activity' detected",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/c6rmgw8zynr4o",
+      "publisher": "BBC News",
+      "published_at": "2026-11-11T22:26:18.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Lego marketplace BrickLink offline after 'unusual activity' detected",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26303",
+        "distribute_url": "https://distribute.software/stories/26303",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+      "canonical_url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-11T21:57:50.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26278",
+        "distribute_url": "https://distribute.software/stories/26278",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "canonical_url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T21:24:35.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26281",
+        "distribute_url": "https://distribute.software/stories/26281",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50458900"
+      },
+      "hn_points": 646,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "After Democrats’ midterm wins, Palantir CEO Alex Karp now says he’s a ‘progressive’",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/11/after-democrats-midterm-wins-palantir-ceo-alex-karp-now-says-hes-progressive/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-11T21:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "After Democrats’ midterm wins, Palantir CEO Alex Karp now says he’s a ‘progressive’",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26276",
+        "distribute_url": "https://distribute.software/stories/26276",
+        "distribute_source": "media",
+        "distribute_companies": "palantir"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Court Rules That Sexual Harassment Case Against SpaceX Can Proceed",
+      "canonical_url": "https://www.nytimes.com/2026/11/11/business/sexual-harassment-spacex-elon-musk.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-11T19:24:19.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Court Rules That Sexual Harassment Case Against SpaceX Can Proceed",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26274",
+        "distribute_url": "https://distribute.software/stories/26274",
+        "distribute_source": "media",
+        "distribute_companies": "spacex"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "CoreWeave wants to sit with the credit-market grown-ups",
+      "canonical_url": "https://www.ft.com/content/16d4593e-b9ce-4eab-90af-9835c79eb9f2",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-11T18:57:00.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "CoreWeave wants to sit with the credit-market grown-ups",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26275",
+        "distribute_url": "https://distribute.software/stories/26275",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Gemini Decisions API",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T18:32:42.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Gemini Decisions API",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26287",
+        "distribute_url": "https://distribute.software/stories/26287",
+        "distribute_source": "hn",
+        "distribute_companies": "google",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50456791"
+      },
+      "hn_points": 543,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "AWS emulator",
+      "canonical_url": "https://github.com/aws/aws-emulator",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T18:21:38.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "AWS emulator",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26273",
+        "distribute_url": "https://distribute.software/stories/26273",
+        "distribute_source": "hn",
+        "distribute_companies": "amazon",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50456631"
+      },
+      "hn_points": 951,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Is the job market hibernating?",
+      "canonical_url": "https://www.ft.com/content/10ad78ad-208f-4c7b-8816-ce048a52f605",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-11T17:00:08.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Is the job market hibernating?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26270",
+        "distribute_url": "https://distribute.software/stories/26270",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "canonical_url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T16:38:44.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26272",
+        "distribute_url": "https://distribute.software/stories/26272",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50455394"
+      },
+      "hn_points": 564,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Trump Officials Clashed Over Megaspeed, Firm at Heart of Nvidia Affair",
+      "canonical_url": "https://www.nytimes.com/2026/11/11/business/economy/nvidia-affair-spy-bessent-lutnick.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-11T16:23:11.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Trump Officials Clashed Over Megaspeed, Firm at Heart of Nvidia Affair",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26265",
+        "distribute_url": "https://distribute.software/stories/26265",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Humanoid robot start-up backed by Eric Trump in talks with Israel’s military",
+      "canonical_url": "https://www.ft.com/content/8117b912-ebc7-46b2-90cd-a1ec32e12c5a",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-11T16:00:06.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Humanoid robot start-up backed by Eric Trump in talks with Israel’s military",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26268",
+        "distribute_url": "https://distribute.software/stories/26268",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Thousands of schools in Italy, Scotland and Ireland receive bomb threats",
+      "canonical_url": "https://www.ft.com/content/7bbc0a5e-b7e2-4a3f-874f-a63de94e922d",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-11T15:39:44.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Thousands of schools in Italy, Scotland and Ireland receive bomb threats",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26264",
+        "distribute_url": "https://distribute.software/stories/26264",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Silicon Valley Tech Allies Support Jensen Huang",
+      "canonical_url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-affair-nvidia-support.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-11T15:35:00.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Silicon Valley Tech Allies Support Jensen Huang",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26262",
+        "distribute_url": "https://distribute.software/stories/26262",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "State Dept. official took Mediterranean trip paid for by tech billionaire",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/11/state-dept-official-took-mediterranean-trip-paid-by-tech-billionaire/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-11T15:08:28.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "State Dept. official took Mediterranean trip paid for by tech billionaire",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26257",
+        "distribute_url": "https://distribute.software/stories/26257",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The 37 best Christmas gifts in the UK for tweens – chosen by 10- to 12-year-olds",
+      "canonical_url": "https://www.theguardian.com/thefilter/2026/nov/11/best-christmas-gifts-ideas-tweens-uk",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-11T15:00:52.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "The 37 best Christmas gifts in the UK for tweens – chosen by 10- to 12-year-olds",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26258",
+        "distribute_url": "https://distribute.software/stories/26258",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How years of research built Grand Theft Auto VI’s obsessively detailed world",
+      "canonical_url": "https://www.theguardian.com/games/2026/nov/11/a-world-of-its-own-inside-the-making-of-the-most-detailed-grand-theft-auto-yet",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-11T15:00:51.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "How years of research built Grand Theft Auto VI’s obsessively detailed world",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26259",
+        "distribute_url": "https://distribute.software/stories/26259",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia Scandal Puts Lori Huang, Jensen Huang’s Wife, In the Spotlight",
+      "canonical_url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-affair-lori-huang.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-11T14:46:43.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Nvidia Scandal Puts Lori Huang, Jensen Huang’s Wife, In the Spotlight",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26256",
+        "distribute_url": "https://distribute.software/stories/26256",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Britain should ‘exploit’ NHS data to power AI, says minister",
+      "canonical_url": "https://www.ft.com/content/f95d9298-d27e-4c1b-87e5-ea75f67a1e0c",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-11T14:37:32.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Britain should ‘exploit’ NHS data to power AI, says minister",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26260",
+        "distribute_url": "https://distribute.software/stories/26260",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Apple is killing its Support Community forum next week",
+      "canonical_url": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T14:02:11.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Apple is killing its Support Community forum next week",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26261",
+        "distribute_url": "https://distribute.software/stories/26261",
+        "distribute_source": "hn",
+        "distribute_companies": "apple",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50453555"
+      },
+      "hn_points": 255,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "I asked every TV manufacturer 17 questions about how they spy on you",
+      "canonical_url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T13:56:05.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "I asked every TV manufacturer 17 questions about how they spy on you",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26255",
+        "distribute_url": "https://distribute.software/stories/26255",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50453474"
+      },
+      "hn_points": 351,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Hyper-realistic sand with WebGL2",
+      "canonical_url": "https://av.github.io/safe-sand/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T13:39:29.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Hyper-realistic sand with WebGL2",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26269",
+        "distribute_url": "https://distribute.software/stories/26269",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50453288"
+      },
+      "hn_points": 429,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "UK chip start-up Fractile hits $7bn valuation",
+      "canonical_url": "https://www.ft.com/content/f999a0c2-af52-499f-8008-accbdfd45a25",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-11T13:00:04.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "UK chip start-up Fractile hits $7bn valuation",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26254",
+        "distribute_url": "https://distribute.software/stories/26254",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Open research, stronger privacy: Making Firefox users harder to fingerprint",
+      "canonical_url": "https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T12:44:06.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Open research, stronger privacy: Making Firefox users harder to fingerprint",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26266",
+        "distribute_url": "https://distribute.software/stories/26266",
+        "distribute_source": "hn",
+        "distribute_companies": "mozilla",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50452742"
+      },
+      "hn_points": 136,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Can a Linear Program Do Weight-Space Programming?",
+      "canonical_url": "https://nathan.rs/posts/weight-space-lp/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T12:30:17.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Can a Linear Program Do Weight-Space Programming?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26253",
+        "distribute_url": "https://distribute.software/stories/26253",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50452655"
+      },
+      "hn_points": 182,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "canonical_url": "https://pietromiotti.com/latest/maya-site/?maya",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T12:05:22.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26251",
+        "distribute_url": "https://distribute.software/stories/26251",
+        "distribute_source": "hn",
+        "distribute_companies": "google",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50452455"
+      },
+      "hn_points": 871,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "My AI agents found an unmapped Maya site?",
+      "canonical_url": "https://pietromiotti.com/latest/maya-site",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-11T12:05:22.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "My AI agents found an unmapped Maya site?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26277",
+        "distribute_url": "https://distribute.software/stories/26277",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50452455"
+      },
+      "hn_points": 1023,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "AI datacentres plan on-site power stations on huge scale despite climate risks, research reveals",
+      "canonical_url": "https://www.theguardian.com/world/2026/nov/11/ai-datacentres-on-site-gas-fired-power-stations",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-11T12:00:48.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "AI datacentres plan on-site power stations on huge scale despite climate risks, research reveals",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26244",
+        "distribute_url": "https://distribute.software/stories/26244",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "New Indian mega library rocked by scandal over 'AI-generated books'",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo",
+      "publisher": "BBC News",
+      "published_at": "2026-11-11T11:33:24.000Z",
+      "fetched_at": "2026-11-12T18:45:38.374Z",
+      "excerpt": "New Indian mega library rocked by scandal over 'AI-generated books'",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26242",
+        "distribute_url": "https://distribute.software/stories/26242",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    }
+  ]
+}

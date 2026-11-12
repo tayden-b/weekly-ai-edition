@@ -1,0 +1,1307 @@
+{
+  "adapter": "benchmarks",
+  "source": "lmarena-leaderboard",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "LMArena text — Gemini 4 Carbon (High) (#1)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+4+Carbon+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 1 · rating: 1538.2768191996465 · vote_count: 4282 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 4 Carbon (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 4 Argon (High) (#2)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+4+Argon+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 2 · rating: 1530.160034009476 · vote_count: 19787 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 4 Argon (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 5.5 (High) (#3)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+5.5+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 3 · rating: 1513.0021399366474 · vote_count: 15249 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 5.5 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Fable 5.1 (Max) (#4)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Fable+5.1+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 4 · rating: 1512.3784035606031 · vote_count: 20087 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Fable 5.1 (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 5 (Max) (#5)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+5+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 5 · rating: 1506.3172184201153 · vote_count: 35710 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 5 (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Muse Wonder (Max) (#6)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Muse+Wonder+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 6 · rating: 1503.0484713809174 · vote_count: 12032 · organization: meta · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Muse Wonder (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 5 (High) (#7)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+5+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 7 · rating: 1502.2616064241324 · vote_count: 73697 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 5 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 4.6 (High) (#8)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+4.6+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 8 · rating: 1501.6578583092228 · vote_count: 84424 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 4.6 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 3.8 Flash (High) (#9)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+3.8+Flash+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 9 · rating: 1500.4121268761392 · vote_count: 61143 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 3.8 Flash (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 4.6 (#10)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+4.6",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 10 · rating: 1496.747935344304 · vote_count: 89228 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 4.6",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — MiMo-V2.6-Pro (#11)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=MiMo-V2.6-Pro",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 11 · rating: 1491.7070850560972 · vote_count: 4066 · organization: xiaomi · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "MiMo-V2.6-Pro",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Fable 5 (High) (#12)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Fable+5+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 12 · rating: 1491.5868575384075 · vote_count: 45524 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Fable 5 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Muse Spark 1.3 (Max) (#13)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Muse+Spark+1.3+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 13 · rating: 1491.468287476569 · vote_count: 26111 · organization: meta · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Muse Spark 1.3 (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 4.7 (High) (#14)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+4.7+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 14 · rating: 1489.708157620371 · vote_count: 64308 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 4.7 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 3.7 Flash (High) (#15)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+3.7+Flash+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 15 · rating: 1488.8172106766838 · vote_count: 33300 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 3.7 Flash (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Qwen3.8-Max (#16)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Qwen3.8-Max",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 16 · rating: 1485.2093041935336 · vote_count: 36324 · organization: alibaba · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Qwen3.8-Max",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Muse Spark 1.2 (xHigh) (#17)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Muse+Spark+1.2+%28xHigh%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 17 · rating: 1484.0008497377926 · vote_count: 15004 · organization: meta · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Muse Spark 1.2 (xHigh)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 4.7 (#18)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+4.7",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 18 · rating: 1483.1994040999593 · vote_count: 65369 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 4.7",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 3.5 Flash (High) (#19)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+3.5+Flash+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 19 · rating: 1482.9362147697643 · vote_count: 47642 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 3.5 Flash (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 3.1 Pro Preview (#20)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+3.1+Pro+Preview",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 20 · rating: 1479.9928559278965 · vote_count: 132296 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 3.1 Pro Preview",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 3 Pro (#21)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+3+Pro",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 21 · rating: 1479.5383062894753 · vote_count: 41829 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 3 Pro",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 3.6 Flash (High) (#22)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+3.6+Flash+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 22 · rating: 1479.2630091424253 · vote_count: 35405 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 3.6 Flash (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Muse Spark 1.1 (#23)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Muse+Spark+1.1",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 23 · rating: 1478.7277946321105 · vote_count: 45562 · organization: meta · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Muse Spark 1.1",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 3.5 Flash (Medium) (#24)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+3.5+Flash+%28Medium%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 24 · rating: 1477.882934698183 · vote_count: 46377 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 3.5 Flash (Medium)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GLM-5.3 (Max) (#25)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GLM-5.3+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 25 · rating: 1475.9274416653438 · vote_count: 31017 · organization: zai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GLM-5.3 (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Qwen3.7-Max-Preview (#26)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Qwen3.7-Max-Preview",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 26 · rating: 1474.796238733963 · vote_count: 3904 · organization: alibaba · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Qwen3.7-Max-Preview",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Kimi K3 (Max) (#27)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Kimi+K3+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 27 · rating: 1474.3298939995852 · vote_count: 40867 · organization: moonshot · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Kimi K3 (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Muse Spark (#28)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Muse+Spark",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 28 · rating: 1474.125948560341 · vote_count: 14009 · organization: meta · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Muse Spark",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-5.5 (High) (#29)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-5.5+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 29 · rating: 1471.1840548978962 · vote_count: 68359 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-5.5 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Qwen3.5-Max-Preview (#30)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Qwen3.5-Max-Preview",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 30 · rating: 1470.9469334870282 · vote_count: 22419 · organization: alibaba · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Qwen3.5-Max-Preview",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GLM-5.3-Flash (#31)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GLM-5.3-Flash",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 31 · rating: 1470.6575559766993 · vote_count: 50189 · organization: zai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GLM-5.3-Flash",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GLM-5.2 (Max) (#32)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GLM-5.2+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 32 · rating: 1469.4428527485325 · vote_count: 54173 · organization: zai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GLM-5.2 (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-5.4 (High) (#33)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-5.4+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 33 · rating: 1469.1117050002467 · vote_count: 64103 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-5.4 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Sonnet 5.5 (xHigh) (#34)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Sonnet+5.5+%28xHigh%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 34 · rating: 1468.8173447748545 · vote_count: 13821 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Sonnet 5.5 (xHigh)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — ERNIE 5.1 (#35)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=ERNIE+5.1",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 35 · rating: 1467.7175989009388 · vote_count: 39029 · organization: baidu · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "ERNIE 5.1",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-5.5 (#36)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-5.5",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 36 · rating: 1466.118516989652 · vote_count: 69937 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-5.5",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 3 Flash (#37)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+3+Flash",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 37 · rating: 1465.8447700363245 · vote_count: 31133 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 3 Flash",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — MiMo-V2.5-Pro (#38)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=MiMo-V2.5-Pro",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 38 · rating: 1464.0935084668895 · vote_count: 76793 · organization: xiaomi · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "MiMo-V2.5-Pro",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — DeepSeek-V4.1-Flash-20260910 (Max) (#39)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=DeepSeek-V4.1-Flash-20260910+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 39 · rating: 1463.390381391253 · vote_count: 13580 · organization: deepseek · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "DeepSeek-V4.1-Flash-20260910 (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GLM-5.1 (#40)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GLM-5.1",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 40 · rating: 1462.70651715235 · vote_count: 67074 · organization: zai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GLM-5.1",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 4.8 (High) (#41)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+4.8+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 41 · rating: 1461.4053139922758 · vote_count: 63128 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 4.8 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 2.5 Pro (#42)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+2.5+Pro",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 42 · rating: 1457.8799629992895 · vote_count: 124789 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 2.5 Pro",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Sonnet 4.6 (#43)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Sonnet+4.6",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 43 · rating: 1457.7744544346779 · vote_count: 70017 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Sonnet 4.6",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Kimi K3.1 Pro (Max) (#44)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Kimi+K3.1+Pro+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 44 · rating: 1457.3106116796416 · vote_count: 3443 · organization: moonshot · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Kimi K3.1 Pro (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-5.6 Sol (xHigh) (#45)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-5.6+Sol+%28xHigh%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 45 · rating: 1457.120492040675 · vote_count: 43994 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-5.6 Sol (xHigh)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Kimi K2.6 (#46)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Kimi+K2.6",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 46 · rating: 1455.3543366334475 · vote_count: 39573 · organization: moonshot · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Kimi K2.6",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Qwen3.7-Plus (#47)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Qwen3.7-Plus",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 47 · rating: 1454.2317075855708 · vote_count: 41318 · organization: alibaba · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Qwen3.7-Plus",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 4.8 (#48)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+4.8",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 48 · rating: 1453.7424108187697 · vote_count: 64170 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 4.8",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-5.4 (#49)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-5.4",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 49 · rating: 1452.4739525653604 · vote_count: 67105 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-5.4",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — DeepSeek-V4-Pro (#50)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=DeepSeek-V4-Pro",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 50 · rating: 1451.4484068250058 · vote_count: 56906 · organization: deepseek · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "DeepSeek-V4-Pro",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Grok 4.20 Beta (Reasoning, 0309) (#51)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Grok+4.20+Beta+%28Reasoning%2C+0309%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 51 · rating: 1451.2779689603399 · vote_count: 65713 · organization: xai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Grok 4.20 Beta (Reasoning, 0309)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 4.5 (20251101) (#52)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+4.5+%2820251101%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 52 · rating: 1451.0030369703863 · vote_count: 72313 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 4.5 (20251101)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Grok 4.20 Multi-Agent Beta (0309) (#53)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Grok+4.20+Multi-Agent+Beta+%280309%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 53 · rating: 1450.995456316853 · vote_count: 64252 · organization: xai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Grok 4.20 Multi-Agent Beta (0309)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — MiMo-V2.6-Flash (#54)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=MiMo-V2.6-Flash",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 54 · rating: 1450.3208744557305 · vote_count: 22354 · organization: xiaomi · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "MiMo-V2.6-Flash",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-5.6 Terra (xHigh) (#55)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-5.6+Terra+%28xHigh%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 55 · rating: 1448.7394563793828 · vote_count: 48825 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-5.6 Terra (xHigh)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Dola Seed 2.0 Pro (#56)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Dola+Seed+2.0+Pro",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 56 · rating: 1448.5907054140189 · vote_count: 78230 · organization: bytedance · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Dola Seed 2.0 Pro",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — amazon-nova-experimental-chat (26-02-10) (#57)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=amazon-nova-experimental-chat+%2826-02-10%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 57 · rating: 1448.5666404817503 · vote_count: 3510 · organization: amazon · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "amazon-nova-experimental-chat (26-02-10)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Opus 4.5 (High, 32K, 20251101) (#58)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Opus+4.5+%28High%2C+32K%2C+20251101%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 58 · rating: 1448.2984766669442 · vote_count: 37253 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Opus 4.5 (High, 32K, 20251101)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Grok 4.5 (#59)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Grok+4.5",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 59 · rating: 1448.0478043849753 · vote_count: 39155 · organization: xai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Grok 4.5",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Qwen3.6-Max-Preview (#60)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Qwen3.6-Max-Preview",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 60 · rating: 1446.2114178778434 · vote_count: 5386 · organization: alibaba · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Qwen3.6-Max-Preview",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GLM-5 (#61)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GLM-5",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 61 · rating: 1446.1220835069007 · vote_count: 29020 · organization: zai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GLM-5",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-6.1 Sol (Max) (#62)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-6.1+Sol+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 62 · rating: 1445.9406945198307 · vote_count: 12952 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-6.1 Sol (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4) (#63)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=NVIDIA-Nemotron-3-Ultra-550B-A55B+%28NVFP4%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 63 · rating: 1445.1963134267212 · vote_count: 11399 · organization: nvidia · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — DeepSeek-V4-Pro Preview (High) (#64)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=DeepSeek-V4-Pro+Preview+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 64 · rating: 1445.026522764926 · vote_count: 54233 · organization: deepseek · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "DeepSeek-V4-Pro Preview (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — DeepSeek-V4-Pro (High, 20260813) (#65)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=DeepSeek-V4-Pro+%28High%2C+20260813%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 65 · rating: 1444.9491138023054 · vote_count: 9584 · organization: deepseek · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "DeepSeek-V4-Pro (High, 20260813)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Kimi K2.5 (Thinking) (#66)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Kimi+K2.5+%28Thinking%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 66 · rating: 1444.6866209257523 · vote_count: 73872 · organization: moonshot · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Kimi K2.5 (Thinking)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Grok 4.20 Beta 1 (#67)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Grok+4.20+Beta+1",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 67 · rating: 1444.5440670161574 · vote_count: 27690 · organization: xai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Grok 4.20 Beta 1",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — ERNIE 5.0 (0110) (#68)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=ERNIE+5.0+%280110%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 68 · rating: 1444.236363670187 · vote_count: 36175 · organization: baidu · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "ERNIE 5.0 (0110)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Inkling (#69)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Inkling",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 69 · rating: 1443.546072497843 · vote_count: 50137 · organization: thinky · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Inkling",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Step 5 Preview (#70)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Step+5+Preview",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 70 · rating: 1443.1071976314038 · vote_count: 12362 · organization: stepfun · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Step 5 Preview",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — ERNIE-5.0-Preview (1203) (#71)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=ERNIE-5.0-Preview+%281203%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 71 · rating: 1442.6255914389067 · vote_count: 9740 · organization: baidu · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "ERNIE-5.0-Preview (1203)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-5.1 (High) (#72)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-5.1+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 72 · rating: 1442.5976512522989 · vote_count: 41405 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-5.1 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemma 4 31B (#73)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemma+4+31B",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 73 · rating: 1442.53571459654 · vote_count: 6130 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemma 4 31B",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 3 Flash (Minimal) (#74)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+3+Flash+%28Minimal%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 74 · rating: 1442.4357063738876 · vote_count: 90109 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 3 Flash (Minimal)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Sonnet 5 (High) (#75)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Sonnet+5+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 75 · rating: 1441.891103707937 · vote_count: 53013 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Sonnet 5 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GLM-4.6 (#76)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GLM-4.6",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 76 · rating: 1440.2502905106298 · vote_count: 35652 · organization: zai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GLM-4.6",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-6 Astra (Max) (#77)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-6+Astra+%28Max%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 77 · rating: 1439.895953820857 · vote_count: 18315 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-6 Astra (Max)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Qwen3-Max-Preview (#78)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Qwen3-Max-Preview",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 78 · rating: 1439.0867339668266 · vote_count: 27301 · organization: alibaba · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Qwen3-Max-Preview",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Hy3 (#79)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Hy3",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 79 · rating: 1438.964448790014 · vote_count: 15068 · organization: tencent · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Hy3",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Sonnet 4.5 (20250929) (#80)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Sonnet+4.5+%2820250929%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 80 · rating: 1438.5944728654613 · vote_count: 82119 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Sonnet 4.5 (20250929)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-5.2 Chat (20260210) (#81)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-5.2+Chat+%2820260210%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 81 · rating: 1438.5402747357148 · vote_count: 35708 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-5.2 Chat (20260210)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GLM-5V-Turbo (#82)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GLM-5V-Turbo",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 82 · rating: 1437.863922977916 · vote_count: 10291 · organization: zai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GLM-5V-Turbo",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Qwen3.5-397B-A17B (#83)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Qwen3.5-397B-A17B",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 83 · rating: 1437.5752866772705 · vote_count: 97678 · organization: alibaba · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Qwen3.5-397B-A17B",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Grok 4.1 (Thinking) (#84)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Grok+4.1+%28Thinking%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 84 · rating: 1436.6495875871992 · vote_count: 66074 · organization: xai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Grok 4.1 (Thinking)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — MiMo-V2-Pro (#85)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=MiMo-V2-Pro",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 85 · rating: 1436.575837346993 · vote_count: 25245 · organization: xiaomi · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "MiMo-V2-Pro",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Qwen3.6-Plus (#86)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Qwen3.6-Plus",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 86 · rating: 1436.2087562810798 · vote_count: 47601 · organization: alibaba · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Qwen3.6-Plus",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Grok 4.1 (#87)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Grok+4.1",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 87 · rating: 1436.1979805611008 · vote_count: 68194 · organization: xai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Grok 4.1",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Qwen3.8-27B (#88)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Qwen3.8-27B",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 88 · rating: 1436.1038822396554 · vote_count: 32659 · organization: alibaba · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Qwen3.8-27B",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GLM-4.7 (#89)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GLM-4.7",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 89 · rating: 1435.4321783953014 · vote_count: 12167 · organization: zai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GLM-4.7",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemini 3.5 Flash-Lite (#90)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemini+3.5+Flash-Lite",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 90 · rating: 1434.5444034963316 · vote_count: 35114 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemini 3.5 Flash-Lite",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Claude Sonnet 4.5 (High, 32K, 20250929) (#91)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Claude+Sonnet+4.5+%28High%2C+32K%2C+20250929%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 91 · rating: 1434.5071094805198 · vote_count: 83387 · organization: anthropic · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Claude Sonnet 4.5 (High, 32K, 20250929)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Gemma 4 26B A4B (#92)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Gemma+4+26B+A4B",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 92 · rating: 1434.0558280701962 · vote_count: 6075 · organization: google · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Gemma 4 26B A4B",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — DeepSeek-V4-Flash (#93)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=DeepSeek-V4-Flash",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 93 · rating: 1432.0715129421696 · vote_count: 51368 · organization: deepseek · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "DeepSeek-V4-Flash",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GPT-5.6 Luna (xHigh) (#94)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GPT-5.6+Luna+%28xHigh%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 94 · rating: 1431.009952898797 · vote_count: 40641 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GPT-5.6 Luna (xHigh)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — GLM-4.5 (#95)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=GLM-4.5",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 95 · rating: 1430.1898500000298 · vote_count: 23759 · organization: zai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "GLM-4.5",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Grok 4.6 (High) (#96)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Grok+4.6+%28High%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 96 · rating: 1429.8825897955767 · vote_count: 34616 · organization: xai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Grok 4.6 (High)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — ERNIE-5.0-Preview (1022) (#97)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=ERNIE-5.0-Preview+%281022%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 97 · rating: 1429.7728775176392 · vote_count: 4737 · organization: baidu · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "ERNIE-5.0-Preview (1022)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — Mistral Large 3 (#98)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=Mistral+Large+3",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 98 · rating: 1428.6218230728227 · vote_count: 88641 · organization: mistral · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "Mistral Large 3",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — ChatGPT-4o Latest (20250326) (#99)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=ChatGPT-4o+Latest+%2820250326%29",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 99 · rating: 1428.4869046528047 · vote_count: 81663 · organization: openai · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "ChatGPT-4o Latest (20250326)",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "LMArena text — MiniMax-M3 (#100)",
+      "canonical_url": "https://lmarena.ai/leaderboard?model=MiniMax-M3",
+      "publisher": "LMArena",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.374Z",
+      "excerpt": "rank: 100 · rating: 1428.2232151443436 · vote_count: 72963 · organization: minimax · leaderboard_publish_date: 2026-11-09",
+      "source_ids": {
+        "lmarena_model": "MiniMax-M3",
+        "lmarena_category": "overall"
+      },
+      "adapter": "benchmarks"
+    }
+  ]
+}

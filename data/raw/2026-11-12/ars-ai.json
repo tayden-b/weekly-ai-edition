@@ -1,0 +1,30 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ars-ai",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+      "canonical_url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-12T14:50:17.000Z",
+      "fetched_at": "2026-11-12T18:45:37.232Z",
+      "excerpt": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "android xr",
+        "Artificial Intelligence",
+        "gemini",
+        "google",
+        "Smartglasses",
+        "wearables"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

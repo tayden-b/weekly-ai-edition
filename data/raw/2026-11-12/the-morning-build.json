@@ -1,0 +1,131 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "the-morning-build",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "The Morning Build for November 12, 2026: Databricks' Genie in the C-suite, Nvidia's CEO Under Fire, TSMC's $1B AI Bets, and DeepMind's Signal Proof",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-12/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.856Z",
+      "excerpt": "Databricks expands its Genie agent; Nvidia faces board and congressional scrutiny of CEO Jensen Huang; TSMC approved $1B for OpenAI and Anthropic; DeepMind formal-verified Signal.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-12/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "chips"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 11, 2026: Formal Verification, Robot Vision-to-Act, and Business Profiles in ChatGPT",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-11/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.856Z",
+      "excerpt": "DeepMind formal-verifies Signal's cryptography; Nvidia's GR00T 2 maps human video to robot motion; OpenAI bets on business profiles; Gemini Robotics 2.5 pilots; Modern Web Guidance ships.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-11/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 10, 2026: Anthropic Fable/Mythos 5.2, Meta Muse Ember, and a Claude Code leak",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-10/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.856Z",
+      "excerpt": "Anthropic ships Fable/Mythos 5.2 with benchmark gains and pricing; Meta releases Muse Ember; Claude Code settings files leaked secrets on GitHub.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-10/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 9, 2026: Nvidia's Board Probe, Goldman Locks Claude Code, and IPO, Auditor Limits",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-09/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.856Z",
+      "excerpt": "Nvidia's board launched an independent probe after Jensen Huang's apology; Goldman restricts Claude Code; auditor study shows high false alarms; Anthropic aims to IPO before Thanksgiving.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-09/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 8, 2026: Meta's Muse Spaces, tiny 32MB speech model, and why coding agents still need humans",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-08/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-08T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.856Z",
+      "excerpt": "Meta ships Spaces for Muse agents; Underdog demos a 32MB speech model; Claude Code leaks secrets; Microsoft ends AI Frontiers; Co-Design Bench shows agents finish only 26.4% of tasks.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-08/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 7, 2026: OpenAI's $11B Round, Airbnb's 2027 Agent, and Google’s Video and Health AI",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-07/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-07T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.856Z",
+      "excerpt": "OpenAI raises $11B at a $1.25T valuation; Airbnb vows an AI travel agent H1 2027; Ripple: 65B hits Hugging Face under Apache 2.0; Google publishes cuffless BP study and ships Gemini Omni 1.2 Flash.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-07/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 6, 2026: GPT-6 Cyber, Palo Alto Talks for Clutch, and Baidu’s ERNIE 5.5 Flash",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-06/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-06T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.856Z",
+      "excerpt": "OpenAI’s GPT-6 Cyber finds and exploits real bugs; Palo Alto in talks to buy Clutch for $500M; Baidu open-sources ERNIE 5.5 Flash base (280B params).",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-06/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
