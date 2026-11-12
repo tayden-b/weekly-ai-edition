@@ -1,0 +1,67 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-deepmind-blog",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "Introducing Gemini 4 Hydrogen",
+      "canonical_url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.361Z",
+      "excerpt": "Introducing Gemini 4 Hydrogen",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "canonical_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.361Z",
+      "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Gemini 4 Carbon is now available",
+      "canonical_url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.361Z",
+      "excerpt": "Gemini 4 Carbon is now available",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "canonical_url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.361Z",
+      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "canonical_url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:36.361Z",
+      "excerpt": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

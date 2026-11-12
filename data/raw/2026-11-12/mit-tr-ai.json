@@ -1,0 +1,83 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "mit-tr-ai",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "The backlash about data centers might really just be about electricity",
+      "canonical_url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-09T19:35:33.000Z",
+      "fetched_at": "2026-11-12T18:45:37.182Z",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub.",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148194",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "The Algorithm"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "canonical_url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-09T17:05:43.000Z",
+      "fetched_at": "2026-11-12T18:45:37.182Z",
+      "excerpt": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148182",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "Summary"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Innovating with AI in the special chemicals industry",
+      "canonical_url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-09T13:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.182Z",
+      "excerpt": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1147654",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "canonical_url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-06T10:00:00.000Z",
+      "fetched_at": "2026-11-12T18:45:37.182Z",
+      "excerpt": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148090",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "Subscriber-Only Stories",
+        "Summary",
+        "Your curated reading list"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

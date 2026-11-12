@@ -1,0 +1,72 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "crunchbase-news",
+  "fetched_at": "2026-11-12T18:45:36.332Z",
+  "items": [
+    {
+      "headline": "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
+      "canonical_url": "https://news.crunchbase.com/ai/anthropic-record-ipo-ant-public-market-debut-spcx/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-10T18:51:25.000Z",
+      "fetched_at": "2026-11-12T18:45:36.387Z",
+      "excerpt": "Anthropic is seeking to secure up to $88.5 billion in its planned IPO and a concurrent private placement, potentially making it the largest-ever fundraise tied to a public market debut. On Tuesday, the AI giant submitted an updated S-1 filing for its upcoming public offering, unveiling new details",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94374"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Startup Founders Are Using AI To File Patents. Here&#8217;s Where DIY Becomes A Liability.",
+      "canonical_url": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-10T12:00:16.000Z",
+      "fetched_at": "2026-11-12T18:45:36.387Z",
+      "excerpt": "AI can help startups reduce patent preparation costs, but DIY applications may overlook critical issues. In this guest commentary, attorneys Michael Drapkin and Nathan Mutter of AI-Native law firm Landfall IP, argue that combining AI with legal expertise can produce more efficient, commercially",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94358"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Paper Unicorns Are Cheap. Building A $1B Revenue AI Company Takes A Multimarket Cap Table",
+      "canonical_url": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-09T12:00:32.000Z",
+      "fetched_at": "2026-11-12T18:45:36.387Z",
+      "excerpt": "AI startups should be judged by durable revenue, full-price renewals and healthy margins after delivery costs, with embedded customer workflows providing stronger defensibility as model access gets cheaper, rather than their paper valuation, writes guest author Ilman Shazhaev, founder and CEO of",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94344"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "The Week’s 10 Biggest Funding Rounds: AI, Defense And Space Tech Lead For Large Rounds",
+      "canonical_url": "https://news.crunchbase.com/venture/biggest-startup-rounds-ai-defense-space-tech-shield-zipline/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-06T19:29:06.000Z",
+      "fetched_at": "2026-11-12T18:45:36.387Z",
+      "excerpt": "This week brought another plethora of large funding rounds for startups and growth-stage companies. Shield AI, a defense tech player focused on autonomy and virtual simulations, secured the largest financing, bringing in $2 billion. Next on the list was drone delivery provider Zipline",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94352"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "How To Challenge A Monopoly In The AI Age",
+      "canonical_url": "https://news.crunchbase.com/ai/challenging-monopolies-semiconductors-anand-tensordyn/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-06T12:00:08.000Z",
+      "fetched_at": "2026-11-12T18:45:36.387Z",
+      "excerpt": "AI chip startups can challenge the sector's Goliath's by building substantially better hardware for emerging inference demands, much as Juniper challenged Cisco with a new architecture suited to the internet’s rapid growth. To win customers, writes guest author R K Anand, co-founder and chief",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94339"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}
