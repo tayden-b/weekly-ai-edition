@@ -1,0 +1,19 @@
+{
+  "adapter": "lab-blogs",
+  "source": "deepseek-news",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "DeepSeek Full-Suite App API Release",
+      "canonical_url": "https://api-docs.deepseek.com/news/news261113",
+      "publisher": "DeepSeek",
+      "published_at": "2026-11-13T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.778Z",
+      "excerpt": "DeepSeek Full-Suite App API Release",
+      "source_ids": {
+        "slug": "news261113"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

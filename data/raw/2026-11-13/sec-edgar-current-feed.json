@@ -1,0 +1,22 @@
+{
+  "adapter": "sec-edgar",
+  "source": "sec-edgar-current-feed",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "D — AGC FLM I a Series of AGC AI Nexus Fund LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2154792/000215479226000001/0002154792-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-13T13:33:41.000Z",
+      "fetched_at": "2026-11-13T18:27:23.045Z",
+      "excerpt": "Filed: 2026-11-13 AccNo: 0002154792-26-000001 Size: 6 KB Item 3C: Investment Company Act Section 3(c) Item 3C.1: Section 3(c)(1)",
+      "source_ids": {
+        "edgar_accession": "0002154792-26-000001",
+        "edgar_cik": "0002154792",
+        "edgar_form": "D",
+        "edgar_items": "3C,3C.1"
+      },
+      "adapter": "sec-edgar"
+    }
+  ]
+}

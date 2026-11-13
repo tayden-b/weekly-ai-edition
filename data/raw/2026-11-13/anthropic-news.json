@@ -1,0 +1,475 @@
+{
+  "adapter": "lab-blogs",
+  "source": "anthropic-news",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "2026 Us Midterms",
+      "canonical_url": "https://www.anthropic.com/news/2026-us-midterms",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.448Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "2026 Us Midterms",
+      "source_ids": {
+        "slug": "2026-us-midterms"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude 3 Family",
+      "canonical_url": "https://www.anthropic.com/news/claude-3-family",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.449Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude 3 Family",
+      "source_ids": {
+        "slug": "claude-3-family"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude 4",
+      "canonical_url": "https://www.anthropic.com/news/claude-4",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-12T21:02:17.838Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude 4",
+      "source_ids": {
+        "slug": "claude-4"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Brazil",
+      "canonical_url": "https://www.anthropic.com/news/claude-brazil",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.436Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude Brazil",
+      "source_ids": {
+        "slug": "claude-brazil"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Europe",
+      "canonical_url": "https://www.anthropic.com/news/claude-europe",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.435Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude Europe",
+      "source_ids": {
+        "slug": "claude-europe"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Fable 5 Mythos 5",
+      "canonical_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.424Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude Fable 5 Mythos 5",
+      "source_ids": {
+        "slug": "claude-fable-5-mythos-5"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude For Teachers",
+      "canonical_url": "https://www.anthropic.com/news/claude-for-teachers",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T12:49:52.549Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude For Teachers",
+      "source_ids": {
+        "slug": "claude-for-teachers"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude New Constitution",
+      "canonical_url": "https://www.anthropic.com/news/claude-new-constitution",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.436Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude New Constitution",
+      "source_ids": {
+        "slug": "claude-new-constitution"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Detecting And Countering Malicious Uses Of Claude March 2025",
+      "canonical_url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.437Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Detecting And Countering Malicious Uses Of Claude March 2025",
+      "source_ids": {
+        "slug": "detecting-and-countering-malicious-uses-of-claude-march-2025"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Election Safeguards Update",
+      "canonical_url": "https://www.anthropic.com/news/election-safeguards-update",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.418Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Election Safeguards Update",
+      "source_ids": {
+        "slug": "election-safeguards-update"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Improving Fable 5 S Biology Safeguards",
+      "canonical_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.433Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Improving Fable 5 S Biology Safeguards",
+      "source_ids": {
+        "slug": "improving-fable-5-s-biology-safeguards"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Reflections On Our Responsible Scaling Policy",
+      "canonical_url": "https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.432Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Reflections On Our Responsible Scaling Policy",
+      "source_ids": {
+        "slug": "reflections-on-our-responsible-scaling-policy"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Roadshow Launch",
+      "canonical_url": "https://www.anthropic.com/news/roadshow-launch",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-10T11:32:16.000Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Roadshow Launch",
+      "source_ids": {
+        "slug": "roadshow-launch"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "S1 Sec",
+      "canonical_url": "https://www.anthropic.com/news/s1-sec",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-12T16:11:50.000Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "S1 Sec",
+      "source_ids": {
+        "slug": "s1-sec"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Statement Comments Secretary War",
+      "canonical_url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.421Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Statement Comments Secretary War",
+      "source_ids": {
+        "slug": "statement-comments-secretary-war"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "81k Economics",
+      "canonical_url": "https://www.anthropic.com/research/81k-economics",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.443Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "81k Economics",
+      "source_ids": {
+        "slug": "81k-economics"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Alignment Assessment Cybersecurity Incidents",
+      "canonical_url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.440Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Alignment Assessment Cybersecurity Incidents",
+      "source_ids": {
+        "slug": "alignment-assessment-cybersecurity-incidents"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Building Strong Safety Evaluations",
+      "canonical_url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T18:04:28.959Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Building Strong Safety Evaluations",
+      "source_ids": {
+        "slug": "building-strong-safety-evaluations"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Code Expertise",
+      "canonical_url": "https://www.anthropic.com/research/claude-code-expertise",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.442Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude Code Expertise",
+      "source_ids": {
+        "slug": "claude-code-expertise"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Electronics Design",
+      "canonical_url": "https://www.anthropic.com/research/claude-electronics-design",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-09T18:51:01.000Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude Electronics Design",
+      "source_ids": {
+        "slug": "claude-electronics-design"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Personal Guidance",
+      "canonical_url": "https://www.anthropic.com/research/claude-personal-guidance",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.425Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude Personal Guidance",
+      "source_ids": {
+        "slug": "claude-personal-guidance"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Values Models Languages",
+      "canonical_url": "https://www.anthropic.com/research/claude-values-models-languages",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.435Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Claude Values Models Languages",
+      "source_ids": {
+        "slug": "claude-values-models-languages"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Coding Agents Social Sciences",
+      "canonical_url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.420Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Coding Agents Social Sciences",
+      "source_ids": {
+        "slug": "coding-agents-social-sciences"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Economic Index June 2026 Report",
+      "canonical_url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.447Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Economic Index June 2026 Report",
+      "source_ids": {
+        "slug": "economic-index-june-2026-report"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Economic Index March 2026 Report",
+      "canonical_url": "https://www.anthropic.com/research/economic-index-march-2026-report",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.419Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Economic Index March 2026 Report",
+      "source_ids": {
+        "slug": "economic-index-march-2026-report"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Enabling Independent Research",
+      "canonical_url": "https://www.anthropic.com/research/enabling-independent-research",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.426Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Enabling Independent Research",
+      "source_ids": {
+        "slug": "enabling-independent-research"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Eval Awareness Browsecomp",
+      "canonical_url": "https://www.anthropic.com/research/eval-awareness-browsecomp",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.423Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Eval Awareness Browsecomp",
+      "source_ids": {
+        "slug": "eval-awareness-browsecomp"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Formal Verification",
+      "canonical_url": "https://www.anthropic.com/research/formal-verification",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.414Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Formal Verification",
+      "source_ids": {
+        "slug": "formal-verification"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How Researchers Use Claude",
+      "canonical_url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.413Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "How Researchers Use Claude",
+      "source_ids": {
+        "slug": "how-researchers-use-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How We Contain Claude",
+      "canonical_url": "https://www.anthropic.com/research/how-we-contain-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.432Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "How We Contain Claude",
+      "source_ids": {
+        "slug": "how-we-contain-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Labor Market Impacts",
+      "canonical_url": "https://www.anthropic.com/research/labor-market-impacts",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.422Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Labor Market Impacts",
+      "source_ids": {
+        "slug": "labor-market-impacts"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mapping Mind Language Model",
+      "canonical_url": "https://www.anthropic.com/research/mapping-mind-language-model",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.416Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Mapping Mind Language Model",
+      "source_ids": {
+        "slug": "mapping-mind-language-model"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Measuring Agent Autonomy",
+      "canonical_url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.445Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Measuring Agent Autonomy",
+      "source_ids": {
+        "slug": "measuring-agent-autonomy"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Measuring Model Persuasiveness",
+      "canonical_url": "https://www.anthropic.com/research/measuring-model-persuasiveness",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.417Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Measuring Model Persuasiveness",
+      "source_ids": {
+        "slug": "measuring-model-persuasiveness"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Provable Inference",
+      "canonical_url": "https://www.anthropic.com/research/provable-inference",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-09T09:39:55.000Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Provable Inference",
+      "source_ids": {
+        "slug": "provable-inference"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Reviewing The Evidence On Worker Retraining Programs",
+      "canonical_url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.417Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Reviewing The Evidence On Worker Retraining Programs",
+      "source_ids": {
+        "slug": "reviewing-the-evidence-on-worker-retraining-programs"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Reward Tampering",
+      "canonical_url": "https://www.anthropic.com/research/reward-tampering",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.415Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Reward Tampering",
+      "source_ids": {
+        "slug": "reward-tampering"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Teaching Ai To Build Scientific Models",
+      "canonical_url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-07T23:12:43.000Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "Teaching Ai To Build Scientific Models",
+      "source_ids": {
+        "slug": "teaching-ai-to-build-scientific-models"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "What Work Can Robots Do",
+      "canonical_url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.430Z",
+      "fetched_at": "2026-11-13T18:27:11.767Z",
+      "excerpt": "What Work Can Robots Do",
+      "source_ids": {
+        "slug": "what-work-can-robots-do"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
