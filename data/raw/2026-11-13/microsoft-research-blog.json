@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "microsoft-research-blog",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "Microsoft Research Focus – Edition #98",
+      "canonical_url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98/",
+      "publisher": "Microsoft Research",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.774Z",
+      "excerpt": "What's new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. The post Microsoft Research Focus – Edition #98 appeared first",
+      "source_ids": {
+        "guid": "https://www.microsoft.com/en-us/research/?p=1194401"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+      "publisher": "Microsoft Research",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.774Z",
+      "excerpt": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The threat is especially serious for AI agents with tool or terminal access. A",
+      "source_ids": {
+        "guid": "https://www.microsoft.com/en-us/research/?p=1194126"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

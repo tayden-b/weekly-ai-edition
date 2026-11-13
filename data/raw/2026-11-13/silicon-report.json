@@ -1,0 +1,807 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "silicon-report",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "Chinese AI labs reportedly use Nvidia Blackwell chips, group says",
+      "canonical_url": "https://www.siliconreport.com/chinese-ai-labs-reportedly-use-nvidia-blackwell-chips-group-says",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T18:14:13.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Unemployment Labs says six Chinese models carry hardware traces, citing a forensic analysis of initial model weights.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/chinese-ai-labs-reportedly-use-nvidia-blackwell-chips-group-says",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "US Gemini users can connect Google Wallet for spending responses",
+      "canonical_url": "https://www.siliconreport.com/us-gemini-users-can-connect-google-wallet-for-spending-responses",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T18:08:59.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The read-only integration links bank accounts through Plaid on Android, iOS, and the web.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/us-gemini-users-can-connect-google-wallet-for-spending-responses",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "New Apple TV 4K users see YouTube launch errors, The Verge reports",
+      "canonical_url": "https://www.siliconreport.com/new-apple-tv-4k-users-see-youtube-launch-errors-the-verge-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T17:18:56.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The Verge and 9to5Mac cited user reports of notices that the app is not yet available, alongside manual workarounds.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/new-apple-tv-4k-users-see-youtube-launch-errors-the-verge-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Singapore says US provided little help in Alice Huang probe",
+      "canonical_url": "https://www.siliconreport.com/singapore-says-us-provided-little-help-in-alice-huang-probe",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T17:18:35.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Federal officials confirmed no conclusion has been reached on whether Huang acted for Chinese intelligence.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/singapore-says-us-provided-little-help-in-alice-huang-probe",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "RBI Grants Paytm Unit In-Principle Approval for Digital Wallets",
+      "canonical_url": "https://www.siliconreport.com/rbi-grants-paytm-unit-in-principle-approval-for-digital-wallets",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T17:14:24.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The conditional clearance requires a cybersecurity audit within six months before Paytm can resume operations.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/rbi-grants-paytm-unit-in-principle-approval-for-digital-wallets",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI announces ChatGPT Wallet to let AI agents make purchases",
+      "canonical_url": "https://www.siliconreport.com/openai-announces-chatgpt-wallet-to-let-ai-agents-make-purchases",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T16:45:42.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The tokenized system rolls out to adult U.S. Pro subscribers with cards from Visa, Mastercard, and American Express.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-announces-chatgpt-wallet-to-let-ai-agents-make-purchases",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bessent says agencies favored putting Megaspeed on entity list",
+      "canonical_url": "https://www.siliconreport.com/bessent-says-agencies-favored-putting-megaspeed-on-entity-list",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T15:14:21.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Cabinet departments backed entity list curbs for months, Bessent told CNBC, noting Commerce controls enforcement.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/bessent-says-agencies-favored-putting-megaspeed-on-entity-list",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trump floats Apple's Tim Cook as Nvidia CEO successor",
+      "canonical_url": "https://www.siliconreport.com/trump-floats-apple-s-tim-cook-as-nvidia-ceo-successor",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T14:45:09.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The suggestion follows Jensen Huang's resignation as Nvidia conducts an executive search for a permanent chief.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/trump-floats-apple-s-tim-cook-as-nvidia-ceo-successor",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia staff push board to bring back Jensen Huang, Wired reports",
+      "canonical_url": "https://www.siliconreport.com/nvidia-staff-push-board-to-bring-back-jensen-huang-wired-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T14:42:43.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "An internal thread drew over 1,600 comments, several urging directors to bring him back, Wired reported.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-staff-push-board-to-bring-back-jensen-huang-wired-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI introduces Daybreak security tools to test and fix web apps",
+      "canonical_url": "https://www.siliconreport.com/openai-introduces-daybreak-security-tools-to-test-and-fix-web-apps",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T14:41:15.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Daybreak Red Team offers penetration testing in early access, while Defense Factory prepares code patches in preview.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-introduces-daybreak-security-tools-to-test-and-fix-web-apps",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia could track chips, MIT Technology Review reports",
+      "canonical_url": "https://www.siliconreport.com/nvidia-could-track-chips-mit-technology-review-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T13:50:06.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Bill Foster told MIT Technology Review that Nvidia said it could implement Chip Security Act tracking measures.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-could-track-chips-mit-technology-review-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Huang called Kress 'a deer in the headlights', WSJ reports",
+      "canonical_url": "https://www.siliconreport.com/huang-called-kress-a-deer-in-the-headlights-wsj-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T13:16:39.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The Wall Street Journal reported the clash over data center credit guarantees, citing an anonymous source.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/huang-called-kress-a-deer-in-the-headlights-wsj-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DeepX to spend over $100M on Samsung 2nm AI chip, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/deepx-to-spend-over-100m-on-samsung-2nm-ai-chip-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T13:15:13.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Bloomberg reported DeepX completed design of the DX-M2, targeting 2028 for full mass production.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/deepx-to-spend-over-100m-on-samsung-2nm-ai-chip-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Kalshi in talks to raise at $65B valuation, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/kalshi-in-talks-to-raise-at-65b-valuation-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T13:10:48.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Kalshi chose to seek private funds ahead of an IPO, Bloomberg reported, citing a person familiar with talks.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/kalshi-in-talks-to-raise-at-65b-valuation-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lutnick clashed over Nvidia chip sales to Asia, NYT reports",
+      "canonical_url": "https://www.siliconreport.com/lutnick-clashed-over-nvidia-chip-sales-to-asia-nyt-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T11:46:04.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The New York Times reported, citing officials, that the Commerce chief resisted tighter curbs on AI chip exports.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/lutnick-clashed-over-nvidia-chip-sales-to-asia-nyt-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DOJ moves to seize $1.2B stolen from Binance, disrupts deepfake scheme",
+      "canonical_url": "https://www.siliconreport.com/doj-moves-to-seize-1-2b-stolen-from-binance-disrupts-deepfake-scheme",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T11:41:54.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Federal actions target North Korea’s $6 billion Binance theft and an AI video scheme aimed at software developers.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/doj-moves-to-seize-1-2b-stolen-from-binance-disrupts-deepfake-scheme",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Samsung negotiates to buy US cooling maker Modine, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/samsung-negotiates-to-buy-us-cooling-maker-modine-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T11:14:18.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "A full buyout of Modine is estimated at about $7.5 billion to $8 billion to expand North American production.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/samsung-negotiates-to-buy-us-cooling-maker-modine-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Microsoft Outlook hit by email service outage",
+      "canonical_url": "https://www.siliconreport.com/microsoft-outlook-hit-by-email-service-outage",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T09:48:02.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Server unavailability and elevated load disrupted Outlook, Teams, and broader Microsoft 365 tools on Thursday.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/microsoft-outlook-hit-by-email-service-outage",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Hatz AI raises $24M Series A led by Nadia Partners",
+      "canonical_url": "https://www.siliconreport.com/hatz-ai-raises-24m-series-a-led-by-nadia-partners",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T09:13:24.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The round includes Vestigo Ventures and The Private Shares Fund to scale software for managed service providers.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/hatz-ai-raises-24m-series-a-led-by-nadia-partners",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Social media payouts to teens mostly hit $2M to $2.5M, report says",
+      "canonical_url": "https://www.siliconreport.com/social-media-payouts-to-teens-mostly-hit-2m-to-2-5m-report-says",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T09:11:51.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Bloomberg Businessweek reports Meta also agreed to pay two teens $7 million, citing people familiar with the matter.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/social-media-payouts-to-teens-mostly-hit-2m-to-2-5m-report-says",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Mirendil raises $1B Series A led by Kleiner Perkins and Clearlake",
+      "canonical_url": "https://www.siliconreport.com/mirendil-raises-1b-series-a-led-by-kleiner-perkins-and-clearlake",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T09:10:17.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The round will fund autonomous agent environments designed to automate frontier AI engineering workflows.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/mirendil-raises-1b-series-a-led-by-kleiner-perkins-and-clearlake",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Ukraine reports new Starshield speed caps on frontline defense drones",
+      "canonical_url": "https://www.siliconreport.com/ukraine-reports-new-starshield-speed-caps-on-frontline-defense-drones",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T09:09:52.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Terminals moving faster than 100 mph disconnect, hindering drone interception as envoys arrive in Moscow.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/ukraine-reports-new-starshield-speed-caps-on-frontline-defense-drones",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nscale reports $1.69B Q3 loss on $307.5M revenue in updated IPO filing",
+      "canonical_url": "https://www.siliconreport.com/nscale-reports-1-69b-q3-loss-on-307-5m-revenue-in-updated-ipo-filing",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T08:47:17.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The neocloud's net loss widened from $1.02 billion in the second quarter, when revenue totaled $140.6 million.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nscale-reports-1-69b-q3-loss-on-307-5m-revenue-in-updated-ipo-filing",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI backs China AI chip curbs, Bloomberg Law reports",
+      "canonical_url": "https://www.siliconreport.com/openai-backs-china-ai-chip-curbs-bloomberg-law-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T07:46:36.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The outlet cited people familiar with the matter, who said the lab confirmed to lawmakers that it would support the measures, describing a position not yet public.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-backs-china-ai-chip-curbs-bloomberg-law-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Applied Materials reports Q4 revenue jumped 53% to $10.41B",
+      "canonical_url": "https://www.siliconreport.com/applied-materials-reports-q4-revenue-jumped-53-to-10-41b",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T07:19:18.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Adjusted profit of $4.16 a share beat analyst forecasts as AI demand drove surging chip equipment sales.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/applied-materials-reports-q4-revenue-jumped-53-to-10-41b",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang had separate affair with employee, Reuters reports",
+      "canonical_url": "https://www.siliconreport.com/jensen-huang-had-separate-affair-with-employee-reuters-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T05:47:33.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Reuters reported the intimate relationship, citing two people familiar with the matter while withholding her name.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/jensen-huang-had-separate-affair-with-employee-reuters-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia plans Nov. 18 meeting as board opens CEO search",
+      "canonical_url": "https://www.siliconreport.com/nvidia-plans-nov-18-meeting-as-board-opens-ceo-search",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T05:41:47.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Interim chief Colette Kress and chair Harvey Jones sent internal memos after Jensen Huang resigned.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-plans-nov-18-meeting-as-board-opens-ceo-search",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Cisco reports Q1 revenue of $18.5 billion, raises AI target",
+      "canonical_url": "https://www.siliconreport.com/cisco-reports-q1-revenue-of-18-5-billion-raises-ai-target",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-13T05:11:23.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Full-year revenue guidance climbed to between $74.8 billion and $75.8 billion as networking demand surged 43%.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/cisco-reports-q1-revenue-of-18-5-billion-raises-ai-target",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Cerebras Systems reports revenue beat and touts Microsoft deal",
+      "canonical_url": "https://www.siliconreport.com/cerebras-systems-reports-revenue-beat-and-touts-microsoft-deal",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T22:18:27.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Third-quarter core revenue reached $230.9 million, and the chipmaker forecast up to $330 million for the fourth quarter.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/cerebras-systems-reports-revenue-beat-and-touts-microsoft-deal",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google launches Gemini 4 Hydrogen, replacing Gemini 3.8 Flash",
+      "canonical_url": "https://www.siliconreport.com/google-launches-gemini-4-hydrogen-replacing-gemini-3-8-flash",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T20:17:17.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The model powers Search globally, pricing API access at $1.50 per million input and $7.50 per million output tokens.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-launches-gemini-4-hydrogen-replacing-gemini-3-8-flash",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google introduces Orchestrator in Antigravity to pair Gemini models",
+      "canonical_url": "https://www.siliconreport.com/google-introduces-orchestrator-in-antigravity-to-pair-gemini-models",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T20:16:55.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The feature dynamically switches between Gemini 4 Carbon and Hydrogen during a session to cut token costs.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-introduces-orchestrator-in-antigravity-to-pair-gemini-models",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Whoop launches social network to let members share health data",
+      "canonical_url": "https://www.siliconreport.com/whoop-launches-social-network-to-let-members-share-health-data",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T17:45:01.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Whoop Humans is rolling out at no extra cost to users at every membership tier as an opt-in biometric sharing feed.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/whoop-launches-social-network-to-let-members-share-health-data",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Q-Ctrl raises $290 million led by Salesforce Ventures",
+      "canonical_url": "https://www.siliconreport.com/q-ctrl-raises-290-million-led-by-salesforce-ventures",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T17:43:14.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The Series C round values the quantum software maker at more than $1 billion, according to Bloomberg.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/q-ctrl-raises-290-million-led-by-salesforce-ventures",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Multiple DOJ probes threaten to sweep up Nvidia, Semafor reports",
+      "canonical_url": "https://www.siliconreport.com/multiple-doj-probes-threaten-to-sweep-up-nvidia-semafor-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T17:40:48.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Inquiries include an antitrust probe and reviews of Megaspeed and Supermicro, citing two administration officials.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/multiple-doj-probes-threaten-to-sweep-up-nvidia-semafor-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google and Samsung open smart glasses preorders",
+      "canonical_url": "https://www.siliconreport.com/google-and-samsung-open-smart-glasses-preorders",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T16:21:29.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Frames from Warby Parker start at $395 and Gentle Monster at $449 ahead of store deliveries on Dec. 10.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-and-samsung-open-smart-glasses-preorders",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia CEO Jensen Huang resigns from chipmaker and board",
+      "canonical_url": "https://www.siliconreport.com/nvidia-ceo-jensen-huang-resigns-from-chipmaker-and-board",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T16:13:37.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "CFO Colette Kress takes over as interim chief executive while directors search for a permanent successor.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-ceo-jensen-huang-resigns-from-chipmaker-and-board",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "SE3 raises $30M Series A led by Accel, Fortune reports",
+      "canonical_url": "https://www.siliconreport.com/se3-raises-30m-series-a-led-by-accel-fortune-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T15:42:31.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Fortune reported the round, citing cofounder Lukas Köstler, as the startup expands drone AI software.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/se3-raises-30m-series-a-led-by-accel-fortune-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nebius shares sink 16% on weak guidance despite revenue beat",
+      "canonical_url": "https://www.siliconreport.com/nebius-shares-sink-16-on-weak-guidance-despite-revenue-beat",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T15:39:44.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The neocloud raised its 2026 capital spending forecast to $27 billion while delaying capacity additions into 2027.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nebius-shares-sink-16-on-weak-guidance-despite-revenue-beat",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple's HomeView smart display is here",
+      "canonical_url": "https://www.siliconreport.com/apple-s-homeview-smart-display-is-here",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T14:48:50.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "First reviews evaluated the $299 device's 7-inch screen, Siri AI personal context, and smart home controls.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-s-homeview-smart-display-is-here",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lumbra raises $25 million to expand controlled AI agent platform",
+      "canonical_url": "https://www.siliconreport.com/lumbra-raises-25-million-to-expand-controlled-ai-agent-platform",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T12:44:18.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Point72 Ventures and Ansa co-led the round as the startup brings defense-tested software to finance and healthcare.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/lumbra-raises-25-million-to-expand-controlled-ai-agent-platform",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "SoftBank leads $500M round in Agile Robots at $8.5B valuation",
+      "canonical_url": "https://www.siliconreport.com/softbank-leads-500m-round-in-agile-robots-at-8-5b-valuation",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T12:42:27.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The investment will fund manufacturing and US expansion as the startup aims to build 2,000 humanoids in 2026.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/softbank-leads-500m-round-in-agile-robots-at-8-5b-valuation",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "UFORCE raises $700 million Series A at $6 billion valuation",
+      "canonical_url": "https://www.siliconreport.com/uforce-raises-700-million-series-a-at-6-billion-valuation",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T12:39:00.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Valor Equity Partners and the UK National Wealth Fund co-led the round to scale autonomous defense production.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/uforce-raises-700-million-series-a-at-6-billion-valuation",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google launches Gemini Decisions API for cost-efficient AI queries",
+      "canonical_url": "https://www.siliconreport.com/google-launches-gemini-decisions-api-for-cost-efficient-ai-queries",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T11:45:57.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The Gemini Decision 1 model evaluates up to 1,000 questions in one pass at $0.10 per million input tokens.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-launches-gemini-decisions-api-for-cost-efficient-ai-queries",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Kang Wei reportedly introduced Alice Huang to Nvidia CEO Jensen Huang",
+      "canonical_url": "https://www.siliconreport.com/kang-wei-reportedly-introduced-alice-huang-to-nvidia-ceo-jensen-huang",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T11:45:13.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Kang, Alice Huang's husband, knew the CEO for a decade and reportedly tolerated their two-year relationship.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/kang-wei-reportedly-introduced-alice-huang-to-nvidia-ceo-jensen-huang",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nebuly raises $21 million to measure enterprise AI returns",
+      "canonical_url": "https://www.siliconreport.com/nebuly-raises-21-million-to-measure-enterprise-ai-returns",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T10:12:26.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Planven led the Series A round to expand software tracking agent productivity and revenue impact.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nebuly-raises-21-million-to-measure-enterprise-ai-returns",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Aviation unions drop objections to Google's Spirit Airlines data deal",
+      "canonical_url": "https://www.siliconreport.com/aviation-unions-drop-objections-to-google-s-spirit-airlines-data-deal",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T07:19:51.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Alphabet agreed to exclude employee health and payroll records and tighten de-identification on data for AI training.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/aviation-unions-drop-objections-to-google-s-spirit-airlines-data-deal",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OKXICE sets Nov. 23 launch for tokenized US stock trading",
+      "canonical_url": "https://www.siliconreport.com/okxice-sets-nov-23-launch-for-tokenized-us-stock-trading",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T07:14:28.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The venue will offer more than 70 assets under an SEC exemption despite formal objections from 67 public companies.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/okxice-sets-nov-23-launch-for-tokenized-us-stock-trading",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia directors favor CFO Kress as interim chief if Huang is ousted",
+      "canonical_url": "https://www.siliconreport.com/nvidia-directors-favor-cfo-kress-as-interim-chief-if-huang-is-ousted",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T07:10:23.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "The board briefed the White House on its planned meeting to weigh Huang's future, an administration official said.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-directors-favor-cfo-kress-as-interim-chief-if-huang-is-ousted",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Radical Numerics unveils edge AI model to flag pathogens on laptops",
+      "canonical_url": "https://www.siliconreport.com/radical-numerics-unveils-edge-ai-model-to-flag-pathogens-on-laptops",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T07:07:53.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Omnii Defense runs offline alongside a USB gene sequencer to screen biological sequences in the field.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/radical-numerics-unveils-edge-ai-model-to-flag-pathogens-on-laptops",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "US lawmakers push to approve three chip export control bills",
+      "canonical_url": "https://www.siliconreport.com/us-lawmakers-push-to-approve-three-chip-export-control-bills",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-12T06:15:47.000Z",
+      "fetched_at": "2026-11-13T18:27:13.623Z",
+      "excerpt": "Proposals targeting chip smuggling and overseas compute access are being pushed into the annual defence bill.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/us-lawmakers-push-to-approve-three-chip-export-control-bills",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

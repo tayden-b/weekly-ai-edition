@@ -1,0 +1,127 @@
+{
+  "adapter": "lab-blogs",
+  "source": "huggingface-blog",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "canonical_url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-13T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.779Z",
+      "excerpt": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "XYBench: Helping with the problem behind the question",
+      "canonical_url": "https://huggingface.co/blog/allenai/xybench",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-13T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.779Z",
+      "excerpt": "XYBench: Helping with the problem behind the question",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/allenai/xybench"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "canonical_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-13T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.779Z",
+      "excerpt": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "canonical_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.779Z",
+      "excerpt": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "canonical_url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.779Z",
+      "excerpt": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/3d-lora-finetuning"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "canonical_url": "https://huggingface.co/blog/qvac/botpsy",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.779Z",
+      "excerpt": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/qvac/botpsy"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "canonical_url": "https://huggingface.co/blog/token-pooling",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.779Z",
+      "excerpt": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/token-pooling"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "canonical_url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.779Z",
+      "excerpt": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/hub-gcp-marketplace"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Decision Models in Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/decision",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.779Z",
+      "excerpt": "Decision Models in Hugging Face",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/decision"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "canonical_url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.779Z",
+      "excerpt": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

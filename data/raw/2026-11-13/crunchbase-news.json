@@ -1,0 +1,46 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "crunchbase-news",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "Anthropic Seeks Record $88.5B Tied To Public Market Debut",
+      "canonical_url": "https://news.crunchbase.com/ai/anthropic-record-ipo-ant-public-market-debut-spcx/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-10T18:51:25.000Z",
+      "fetched_at": "2026-11-13T18:27:11.801Z",
+      "excerpt": "Anthropic is seeking to secure up to $88.5 billion in its planned IPO and a concurrent private placement, potentially making it the largest-ever fundraise tied to a public market debut. On Tuesday, the AI giant submitted an updated S-1 filing for its upcoming public offering, unveiling new details",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94374"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Startup Founders Are Using AI To File Patents. Here&#8217;s Where DIY Becomes A Liability.",
+      "canonical_url": "https://news.crunchbase.com/ai/startup-founder-diy-patents-legal-liabiity-drapkin-mutter-landfall/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-10T12:00:16.000Z",
+      "fetched_at": "2026-11-13T18:27:11.801Z",
+      "excerpt": "AI can help startups reduce patent preparation costs, but DIY applications may overlook critical issues. In this guest commentary, attorneys Michael Drapkin and Nathan Mutter of AI-Native law firm Landfall IP, argue that combining AI with legal expertise can produce more efficient, commercially",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94358"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Paper Unicorns Are Cheap. Building A $1B Revenue AI Company Takes A Multimarket Cap Table",
+      "canonical_url": "https://news.crunchbase.com/ai/building-unicorn-multimarket-cap-table-shazhaev-dizzaract/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-09T12:00:32.000Z",
+      "fetched_at": "2026-11-13T18:27:11.801Z",
+      "excerpt": "AI startups should be judged by durable revenue, full-price renewals and healthy margins after delivery costs, with embedded customer workflows providing stronger defensibility as model access gets cheaper, rather than their paper valuation, writes guest author Ilman Shazhaev, founder and CEO of",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94344"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

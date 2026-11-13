@@ -1,0 +1,20 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-transformers",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "Release v5.23.0",
+      "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.23.0",
+      "publisher": "GitHub: huggingface/transformers",
+      "published_at": "2026-11-13T14:10:57Z",
+      "fetched_at": "2026-11-13T18:27:11.784Z",
+      "excerpt": "# Release v5.23.0 ## New Model additions ### Inkling2 <img width=\"1200\" height=\"675\" alt=\"image\" src=\"https://github.com/user-attachments/assets/9115e142-1be3-4f79-a51d-ea0e5c25b152\" /> Inkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates",
+      "source_ids": {
+        "github_repo": "huggingface/transformers",
+        "github_release_tag": "v5.23.0"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

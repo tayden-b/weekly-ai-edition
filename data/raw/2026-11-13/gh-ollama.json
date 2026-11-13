@@ -1,0 +1,33 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-ollama",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "v0.40.17",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc0",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-11-10T22:25:00Z",
+      "fetched_at": "2026-11-13T18:27:11.783Z",
+      "excerpt": "## What's Changed * Improve ChatGPT CLI restore and graceful restart by @hoyyeva in https://github.com/ollama/ollama/pull/19583 * cmd/launch: use thinking metadata for OpenCode settings by @hoyyeva in https://github.com/ollama/ollama/pull/19409 * llm: use mmap for Vulkan integrated GPUs by",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.17-rc0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "v0.40.16",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-11-09T18:21:19Z",
+      "fetched_at": "2026-11-13T18:27:11.783Z",
+      "excerpt": "## Ripple Preview [Ripple Preview](https://ollama.com/library/ripple-preview) from Ricursive Intelligence is a 65B dense model built for agentic coding. ```sh ollama run ripple-preview ``` ## What's Changed - Qwen3.8 Flash Next uses about 27 GiB less memory on Apple silicon - `ollama launch claude`",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.16"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

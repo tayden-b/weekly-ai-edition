@@ -1,0 +1,74 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ars-ai",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "canonical_url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-12T19:23:03.000Z",
+      "fetched_at": "2026-11-13T18:27:12.713Z",
+      "excerpt": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "gemini 4",
+        "google"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-12T18:57:45.000Z",
+      "fetched_at": "2026-11-13T18:27:12.713Z",
+      "excerpt": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Policy",
+        "AI in education",
+        "AI psychosis",
+        "Artificial Intelligence",
+        "gemini",
+        "google",
+        "google workspace"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+      "canonical_url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-12T14:50:17.000Z",
+      "fetched_at": "2026-11-13T18:27:12.713Z",
+      "excerpt": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "android xr",
+        "Artificial Intelligence",
+        "gemini",
+        "google",
+        "Smartglasses",
+        "wearables"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

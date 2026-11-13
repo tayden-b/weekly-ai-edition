@@ -1,0 +1,787 @@
+{
+  "adapter": "benchmarks",
+  "source": "epoch-ai-data",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "frontiermath erdos: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_erdos&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-07T03:14:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "mean_score: 0.0294 · Best score (across scorers): 0.0294 · Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "dQsbXWwGRriSS42sDsjQw6",
+        "epoch_benchmark": "frontiermath_erdos"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "simplebench external: claude-fable-5-2_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simplebench_external&model=claude-fable-5-2_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recN3mZP1yRX5gFSK",
+        "epoch_benchmark": "simplebench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "simplebench external: gemini-4-carbon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simplebench_external&model=gemini-4-carbon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recU9rQyUS6sy1xC5",
+        "epoch_benchmark": "simplebench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "simplebench external: muse-ember-1.0_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simplebench_external&model=muse-ember-1.0_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Meta AI · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recH7lwILVznjNnn8",
+        "epoch_benchmark": "simplebench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "frontierswe external: claude-fable-5-2_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontierswe_external&model=claude-fable-5-2_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "frontierswe_external:claude-fable-5-2_max",
+        "epoch_benchmark": "frontierswe_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "frontierswe external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontierswe_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "frontierswe_external:gemini-4-carbon_high",
+        "epoch_benchmark": "frontierswe_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-carbon_high",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-carbon_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-carbon_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-carbon_medium",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: claude-fable-5-2_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=claude-fable-5-2_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:claude-fable-5-2_max",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-carbon_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-carbon_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-carbon_low",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: claude-fable-5-2_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=claude-fable-5-2_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:claude-fable-5-2_high",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: claude-fable-5-2_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=claude-fable-5-2_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:claude-fable-5-2_xhigh",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: claude-fable-5-2_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=claude-fable-5-2_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:claude-fable-5-2_medium",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: claude-fable-5-2_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=claude-fable-5-2_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:claude-fable-5-2_low",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "scicode external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=scicode_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "scicode_external:gemini-4-carbon_high",
+        "epoch_benchmark": "scicode_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "scicode external: claude-fable-5-2_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=scicode_external&model=claude-fable-5-2_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "scicode_external:claude-fable-5-2_max",
+        "epoch_benchmark": "scicode_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "scicode external: claude-fable-5-2_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=scicode_external&model=claude-fable-5-2_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "scicode_external:claude-fable-5-2_xhigh",
+        "epoch_benchmark": "scicode_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "scicode external: claude-fable-5-2_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=scicode_external&model=claude-fable-5-2_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "scicode_external:claude-fable-5-2_medium",
+        "epoch_benchmark": "scicode_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "scicode external: claude-fable-5-2_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=scicode_external&model=claude-fable-5-2_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "scicode_external:claude-fable-5-2_high",
+        "epoch_benchmark": "scicode_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "scicode external: claude-fable-5-2_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=scicode_external&model=claude-fable-5-2_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "scicode_external:claude-fable-5-2_low",
+        "epoch_benchmark": "scicode_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: claude-fable-5-2_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=claude-fable-5-2_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "rec9xXHJBtfLXV7Rm",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gemini-4-carbon_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gemini-4-carbon_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recbFDEBFtELUJG2Z",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: claude-fable-5-2_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=claude-fable-5-2_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recdyHFzqbQ5r1U7o",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: claude-fable-5-2_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=claude-fable-5-2_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recLHViTF7CVGh2Qm",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: claude-fable-5-2_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=claude-fable-5-2_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recxAnhBWNNgfzekL",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "reckSpVRX0QX6WSPD",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: claude-fable-5-2_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=claude-fable-5-2_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "rec0lA3mF1nxPQOos",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gemini-4-carbon_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gemini-4-carbon_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "rec0IyrbM3uN10GSI",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "apex agents external: gemini-4-carbon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=apex_agents_external&model=gemini-4-carbon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recR6uYlGNAlAslmV",
+        "epoch_benchmark": "apex_agents_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "apex agents external: claude-fable-5-2_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=apex_agents_external&model=claude-fable-5-2_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recmFuByjziezsQSg",
+        "epoch_benchmark": "apex_agents_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "apex agents external: muse-ember-1.0_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=apex_agents_external&model=muse-ember-1.0_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Meta AI · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "reclu4axVayI25ZYs",
+        "epoch_benchmark": "apex_agents_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gemini-4-carbon_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gemini-4-carbon_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recZSWZSa5latGBoC",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: claude-fable-5-2_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=claude-fable-5-2_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "rec1KOsH1k2VdO3Ot",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: claude-fable-5-2_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=claude-fable-5-2_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "rec9JpNV0pwWZNhPq",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recdUqhq4nVKx1P2I",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: claude-fable-5-2_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=claude-fable-5-2_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "rec4VebpHhxAVHMBc",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: claude-fable-5-2_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=claude-fable-5-2_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recQSoQpHvhMROBrG",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: claude-fable-5-2_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=claude-fable-5-2_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "reccNmpb5USiC6Ri8",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gemini-4-carbon_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gemini-4-carbon_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recQQeIYi5kMeezPE",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "rli external: claude-fable-5-2_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=rli_external&model=claude-fable-5-2_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recVlamtcxUfog9vw",
+        "epoch_benchmark": "rli_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "ale bench external: claude-fable-5-2_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=ale_bench_external&model=claude-fable-5-2_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recQTbO5YuBHhJdH6",
+        "epoch_benchmark": "ale_bench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "critpt external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=critpt_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "rec6qQGC98m308hd4",
+        "epoch_benchmark": "critpt_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "critpt external: claude-fable-5-2_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=critpt_external&model=claude-fable-5-2_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "reccN41PKVD6VmqzM",
+        "epoch_benchmark": "critpt_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "critpt external: claude-fable-5-2_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=critpt_external&model=claude-fable-5-2_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recu4ZGht5hOFOkXt",
+        "epoch_benchmark": "critpt_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "critpt external: claude-fable-5-2_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=critpt_external&model=claude-fable-5-2_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recKj5fHioGe2YGfT",
+        "epoch_benchmark": "critpt_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "critpt external: claude-fable-5-2_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=critpt_external&model=claude-fable-5-2_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "reckKGgUOm4oER8d6",
+        "epoch_benchmark": "critpt_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "critpt external: claude-fable-5-2_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=critpt_external&model=claude-fable-5-2_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "recR8pztV6q8B8NI9",
+        "epoch_benchmark": "critpt_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "vending bench 2 external: gemini-4-carbon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=vending_bench_2_external&model=gemini-4-carbon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recgYseBc2iH5xCmj",
+        "epoch_benchmark": "vending_bench_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "blueprint bench 2 external: gemini-4-carbon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=blueprint_bench_2_external&model=gemini-4-carbon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "blueprint_bench_2_external:gemini-4-carbon_unknown",
+        "epoch_benchmark": "blueprint_bench_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "proofbench external: claude-fable-5-2_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=proofbench_external&model=claude-fable-5-2_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "proofbench_external:claude-fable-5-2_max",
+        "epoch_benchmark": "proofbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "lmca external: claude-fable-5-2_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=lmca_external&model=claude-fable-5-2_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "lmca_external:claude-fable-5-2_xhigh",
+        "epoch_benchmark": "lmca_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "lmca external: claude-fable-5-2_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=lmca_external&model=claude-fable-5-2_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "lmca_external:claude-fable-5-2_unknown",
+        "epoch_benchmark": "lmca_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "lmca external: claude-fable-5-2_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=lmca_external&model=claude-fable-5-2_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "lmca_external:claude-fable-5-2_high",
+        "epoch_benchmark": "lmca_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "lmca external: claude-fable-5-2_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=lmca_external&model=claude-fable-5-2_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "lmca_external:claude-fable-5-2_medium",
+        "epoch_benchmark": "lmca_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "lmca external: claude-fable-5-2_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=lmca_external&model=claude-fable-5-2_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "lmca_external:claude-fable-5-2_low",
+        "epoch_benchmark": "lmca_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "dtbench external: claude-fable-5-2_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=dtbench_external&model=claude-fable-5-2_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "dtbench_external:claude-fable-5-2_xhigh",
+        "epoch_benchmark": "dtbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "dtbench external: claude-fable-5-2_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=dtbench_external&model=claude-fable-5-2_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "dtbench_external:claude-fable-5-2_unknown",
+        "epoch_benchmark": "dtbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "dtbench external: claude-fable-5-2_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=dtbench_external&model=claude-fable-5-2_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "dtbench_external:claude-fable-5-2_high",
+        "epoch_benchmark": "dtbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "dtbench external: claude-fable-5-2_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=dtbench_external&model=claude-fable-5-2_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "dtbench_external:claude-fable-5-2_medium",
+        "epoch_benchmark": "dtbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "dtbench external: claude-fable-5-2_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=dtbench_external&model=claude-fable-5-2_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.788Z",
+      "excerpt": "Organization: Anthropic · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "dtbench_external:claude-fable-5-2_low",
+        "epoch_benchmark": "dtbench_external"
+      },
+      "adapter": "benchmarks"
+    }
+  ]
+}

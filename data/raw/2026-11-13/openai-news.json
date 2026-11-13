@@ -1,0 +1,223 @@
+{
+  "adapter": "lab-blogs",
+  "source": "openai-news",
+  "fetched_at": "2026-11-13T18:27:11.735Z",
+  "items": [
+    {
+      "headline": "Introducing ChatGPT Wallet",
+      "canonical_url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-13T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "source_ids": {
+        "guid": "https://openai.com/index/introducing-chatgpt-wallet"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "canonical_url": "https://openai.com/business/customer-stories/amplitude",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "source_ids": {
+        "guid": "https://openai.com/business/customer-stories/amplitude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Gondola doubles revenue as its team builds more with Codex",
+      "canonical_url": "https://openai.com/business/customer-stories/gondola",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "source_ids": {
+        "guid": "https://openai.com/business/customer-stories/gondola"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Holiday Extras is rethinking what it can build with Codex",
+      "canonical_url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "source_ids": {
+        "guid": "https://openai.com/business/customer-stories/holidays-extras-codex"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Supporting research on AI and children’s safety",
+      "canonical_url": "https://openai.com/index/children-first-declaration",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "source_ids": {
+        "guid": "https://openai.com/index/children-first-declaration"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Gilbert + Tobin rethinks the business of law with AI",
+      "canonical_url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "source_ids": {
+        "guid": "https://openai.com/index/gilbert-tobin-sam-nickless"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "ChatGPT Plus for veterans and servicemembers",
+      "canonical_url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "source_ids": {
+        "guid": "https://openai.com/index/chatgpt-plus-for-veterans"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "canonical_url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "source_ids": {
+        "guid": "https://openai.com/index/jiostar-vijay-seshadri"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Helping caregivers use AI in everyday life",
+      "canonical_url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "source_ids": {
+        "guid": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing Businesses in ChatGPT",
+      "canonical_url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "source_ids": {
+        "guid": "https://openai.com/index/introducing-businesses-chatgpt"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Closing the AI guidance gap in education",
+      "canonical_url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "source_ids": {
+        "guid": "https://openai.com/index/closing-ai-guidance-gap-education"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "canonical_url": "https://openai.com/index/singapore-airlines-travel-work",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+      "source_ids": {
+        "guid": "https://openai.com/index/singapore-airlines-travel-work"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Work at the Frontier: AI’s effect on freelance work",
+      "canonical_url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "source_ids": {
+        "guid": "https://openai.com/index/ai-effect-on-freelance-work"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "canonical_url": "https://openai.com/index/cogent-security",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+      "source_ids": {
+        "guid": "https://openai.com/index/cogent-security"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "ChatGPT Enterprise now available in AWS Marketplace",
+      "canonical_url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "source_ids": {
+        "guid": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "canonical_url": "https://openai.com/index/control-room",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "source_ids": {
+        "guid": "https://openai.com/index/control-room"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "CodeRabbit scales agentic software development and ships 20x more",
+      "canonical_url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "source_ids": {
+        "guid": "https://openai.com/index/coderabbit-codex-daybreak"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Kuken Industries searches 70 years of drawings in minutes",
+      "canonical_url": "https://openai.com/index/kuken",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-13T18:27:11.735Z",
+      "excerpt": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "source_ids": {
+        "guid": "https://openai.com/index/kuken"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
