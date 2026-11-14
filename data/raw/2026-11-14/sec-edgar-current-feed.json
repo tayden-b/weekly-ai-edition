@@ -1,0 +1,22 @@
+{
+  "adapter": "sec-edgar",
+  "source": "sec-edgar-current-feed",
+  "fetched_at": "2026-11-14T16:54:20.834Z",
+  "items": [
+    {
+      "headline": "D/A — Brookfield Artificial Intelligence Infrastructure Fund-C, L.P.",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2096210/000209620826000002/0002096208-26-000002-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-13T21:52:23.000Z",
+      "fetched_at": "2026-11-14T16:54:22.931Z",
+      "excerpt": "Filed: 2026-11-13 AccNo: 0002096208-26-000002 Size: 27 KB Item 3C: Investment Company Act Section 3(c) Item 3C.7: Section 3(c)(7)",
+      "source_ids": {
+        "edgar_accession": "0002096208-26-000002",
+        "edgar_cik": "0002096210",
+        "edgar_form": "D/A",
+        "edgar_items": "3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    }
+  ]
+}
