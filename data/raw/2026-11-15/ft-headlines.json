@@ -1,0 +1,20 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-15T17:37:51.438Z",
+  "items": [
+    {
+      "headline": "Anthropic’s IPO is the next big test for AI",
+      "canonical_url": "https://www.ft.com/content/bc8ac781-9837-46de-b7ed-958886ba43af?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-15T11:40:44.000Z",
+      "fetched_at": "2026-11-15T17:37:51.507Z",
+      "excerpt": "Anthropic’s IPO is the next big test for AI",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "bc8ac781-9837-46de-b7ed-958886ba43af"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

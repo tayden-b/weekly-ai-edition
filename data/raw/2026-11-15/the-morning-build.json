@@ -1,0 +1,134 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "the-morning-build",
+  "fetched_at": "2026-11-15T17:37:51.438Z",
+  "items": [
+    {
+      "headline": "The Morning Build for November 15, 2026: ChatGPT Wallet, LangChain's $3B Round, and Meituan's 1.6T Agent Model",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-15/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-15T00:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.965Z",
+      "excerpt": "ChatGPT Wallet launches a limited agent checkout test; LangChain raises $300M at a $3B valuation; Meituan publishes LongCat-2.5 weights and self-hosting guide.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-15/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "dev-tools",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 14, 2026: Nvidia Leadership Shock, Runway Open-Robot Weights, and ggml 1.0",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-14/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-14T00:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.965Z",
+      "excerpt": "Nvidia's CEO exit rattles startup funding; Runway open-sources Praxis: 1 under Apache 2.0; ggml 1.0.0 ships; FAA widens SMART AI; Nvidia confirms chip-tracking feasibility.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-14/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools",
+        "policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 13, 2026: Apple Foundation Models SDK, Gemini 4 Hydrogen in Search, and $40B Nebius Plan",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-13/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-13T00:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.965Z",
+      "excerpt": "Apple released a Foundation Models framework and Private Cloud Compute offer; Google rolled Gemini 4 Hydrogen into Search; Edge0 open-sourced a 145B on-device model; Nebius disclosed $40B capex and Microsoft delays.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-13/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 12, 2026: Databricks' Genie in the C-suite, Nvidia's CEO Under Fire, TSMC's $1B AI Bets, and DeepMind's Signal Proof",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-12/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.965Z",
+      "excerpt": "Databricks expands its Genie agent; Nvidia faces board and congressional scrutiny of CEO Jensen Huang; TSMC approved $1B for OpenAI and Anthropic; DeepMind formal-verified Signal.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-12/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "chips"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 11, 2026: Formal Verification, Robot Vision-to-Act, and Business Profiles in ChatGPT",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-11/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.965Z",
+      "excerpt": "DeepMind formal-verifies Signal's cryptography; Nvidia's GR00T 2 maps human video to robot motion; OpenAI bets on business profiles; Gemini Robotics 2.5 pilots; Modern Web Guidance ships.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-11/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 10, 2026: Anthropic Fable/Mythos 5.2, Meta Muse Ember, and a Claude Code leak",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-10/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.965Z",
+      "excerpt": "Anthropic ships Fable/Mythos 5.2 with benchmark gains and pricing; Meta releases Muse Ember; Claude Code settings files leaked secrets on GitHub.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-10/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 9, 2026: Nvidia's Board Probe, Goldman Locks Claude Code, and IPO, Auditor Limits",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-09/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-09T00:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.965Z",
+      "excerpt": "Nvidia's board launched an independent probe after Jensen Huang's apology; Goldman restricts Claude Code; auditor study shows high false alarms; Anthropic aims to IPO before Thanksgiving.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-09/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

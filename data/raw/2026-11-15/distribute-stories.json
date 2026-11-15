@@ -1,0 +1,1640 @@
+{
+  "adapter": "distribute-software",
+  "source": "distribute-stories",
+  "fetched_at": "2026-11-15T17:37:51.438Z",
+  "items": [
+    {
+      "headline": "Italy fines Meta $887M for accessing Android users’ photos",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/15/meta-fined-887m-by-italy-accessing-android-users-photos/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-15T16:30:00.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Italy fines Meta $887M for accessing Android users’ photos",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26540",
+        "distribute_url": "https://distribute.software/stories/26540",
+        "distribute_source": "media",
+        "distribute_companies": "google,meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo",
+      "publisher": "BBC News",
+      "published_at": "2026-11-15T14:56:21.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26537",
+        "distribute_url": "https://distribute.software/stories/26537",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "All AI-generated code should be Open Source",
+      "canonical_url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T14:46:58.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "All AI-generated code should be Open Source",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26539",
+        "distribute_url": "https://distribute.software/stories/26539",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50507303"
+      },
+      "hn_points": 443,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "SpaceX catches Starship rocket on return to Earth",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/15/spacex-catches-starship-rocket-return-earth/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-15T14:30:00.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "SpaceX catches Starship rocket on return to Earth",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26536",
+        "distribute_url": "https://distribute.software/stories/26536",
+        "distribute_source": "media",
+        "distribute_companies": "spacex"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘Grand Theft Auto Flu’: is the whole world really taking the day off work to play GTA VI?",
+      "canonical_url": "https://www.theguardian.com/games/2026/nov/16/grand-theft-auto-gta-vi-first-new-game-released-in-13-years",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-15T14:00:15.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "‘Grand Theft Auto Flu’: is the whole world really taking the day off work to play GTA VI?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26534",
+        "distribute_url": "https://distribute.software/stories/26534",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "South Korea's top scorer in tax accountancy exam admits cheating",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o",
+      "publisher": "BBC News",
+      "published_at": "2026-11-15T13:37:45.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "South Korea's top scorer in tax accountancy exam admits cheating",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26532",
+        "distribute_url": "https://distribute.software/stories/26532",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
+      "canonical_url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T13:15:22.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26535",
+        "distribute_url": "https://distribute.software/stories/26535",
+        "distribute_source": "hn",
+        "distribute_companies": "apple",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50506719"
+      },
+      "hn_points": 222,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Understanding Positional Embeddings in Modern LLMs",
+      "canonical_url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T12:14:06.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Understanding Positional Embeddings in Modern LLMs",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26538",
+        "distribute_url": "https://distribute.software/stories/26538",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50506376"
+      },
+      "hn_points": 113,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+      "canonical_url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T11:40:51.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26533",
+        "distribute_url": "https://distribute.software/stories/26533",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50506180"
+      },
+      "hn_points": 227,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Anthropic’s IPO is the next big test for AI",
+      "canonical_url": "https://www.ft.com/content/bc8ac781-9837-46de-b7ed-958886ba43af",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-15T11:40:44.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Anthropic’s IPO is the next big test for AI",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26528",
+        "distribute_url": "https://distribute.software/stories/26528",
+        "distribute_source": "media",
+        "distribute_companies": "anthropic"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "From culture war to class war: US Democrats ditch woke politics",
+      "canonical_url": "https://www.ft.com/content/82e2d624-65aa-4a8c-86ec-f99c0ce785ac",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-15T11:00:04.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "From culture war to class war: US Democrats ditch woke politics",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26529",
+        "distribute_url": "https://distribute.software/stories/26529",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Congress moves to pass tighter AI chip export rules following Nvidia scandal",
+      "canonical_url": "https://www.ft.com/content/3062790a-553d-41b8-9c7d-bae17b9d2e29",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-15T11:00:04.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Congress moves to pass tighter AI chip export rules following Nvidia scandal",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26530",
+        "distribute_url": "https://distribute.software/stories/26530",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Ten years, thousands of staff and a billion dollars: the exclusive inside story of Grand Theft Auto VI",
+      "canonical_url": "https://www.theguardian.com/games/ng-interactive/2026/nov/15/grand-theft-auto-vi-inside-rockstar-games",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-15T10:00:10.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Ten years, thousands of staff and a billion dollars: the exclusive inside story of Grand Theft Auto VI",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26525",
+        "distribute_url": "https://distribute.software/stories/26525",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "It’s not just an affair. Nvidia’s bigger issue could be chip smuggling.",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/15/jensen-huang-nvidia-face-questions-over-knowledge-chip-smuggling/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-15T10:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "It’s not just an affair. Nvidia’s bigger issue could be chip smuggling.",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26524",
+        "distribute_url": "https://distribute.software/stories/26524",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Why did some Apollo missions carry a grenade launcher?",
+      "canonical_url": "https://space.stackexchange.com/questions/37775",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T09:06:43.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Why did some Apollo missions carry a grenade launcher?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26526",
+        "distribute_url": "https://distribute.software/stories/26526",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50505271"
+      },
+      "hn_points": 151,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-15T08:56:11.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26520",
+        "distribute_url": "https://distribute.software/stories/26520",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Book list for streetfighting computer scientists",
+      "canonical_url": "https://nick-black.com/dankwiki/index.php?title=Book_list_for_streetfighting_computer_scientists",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T07:08:50.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Book list for streetfighting computer scientists",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26531",
+        "distribute_url": "https://distribute.software/stories/26531",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50504718"
+      },
+      "hn_points": 104,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘Prove you are not a robot’: how the Captcha scam captures your computer",
+      "canonical_url": "https://www.theguardian.com/money/2026/nov/15/captcha-scam-computer-malicious-software",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-15T07:00:06.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "‘Prove you are not a robot’: how the Captcha scam captures your computer",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26519",
+        "distribute_url": "https://distribute.software/stories/26519",
+        "distribute_source": "media",
+        "distribute_companies": "cyber"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/14/jensen-huang-affair-nvidia-nightmare",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-15T06:00:06.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "‘Jensen Huang lost his mind’: how AI’s smartest man fell for the world’s oldest trick",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26517",
+        "distribute_url": "https://distribute.software/stories/26517",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Disk encryption on NetBSD – achieving secrecy",
+      "canonical_url": "https://netbsd.org/~nia/disk-encrypt/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T05:29:54.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Disk encryption on NetBSD – achieving secrecy",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26527",
+        "distribute_url": "https://distribute.software/stories/26527",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50504277"
+      },
+      "hn_points": 78,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "What will Nvidia’s post-Huang era look like?",
+      "canonical_url": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-15T05:00:14.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "What will Nvidia’s post-Huang era look like?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26510",
+        "distribute_url": "https://distribute.software/stories/26510",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "When human judgment is not all it’s cracked up to be",
+      "canonical_url": "https://www.ft.com/content/f8dffb89-99e3-4e9d-ac62-4eb59da4f007",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-15T05:00:04.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "When human judgment is not all it’s cracked up to be",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26511",
+        "distribute_url": "https://distribute.software/stories/26511",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Samsung conquered AI chips. Now it wants to build data centres",
+      "canonical_url": "https://www.ft.com/content/ee5b23b3-89b3-41f7-9158-56c1586759c2",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-15T05:00:04.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Samsung conquered AI chips. Now it wants to build data centres",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26512",
+        "distribute_url": "https://distribute.software/stories/26512",
+        "distribute_source": "media",
+        "distribute_companies": "samsung"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "European energy groups hire security experts after wave of sabotage",
+      "canonical_url": "https://www.ft.com/content/77630912-9e8c-42ab-a7d5-937f3704cc74",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-15T05:00:04.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "European energy groups hire security experts after wave of sabotage",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26513",
+        "distribute_url": "https://distribute.software/stories/26513",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
+      "canonical_url": "https://www.ft.com/content/d5adde7e-68cc-455b-ba78-b39cc3676b7a",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-15T05:00:04.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Data centre construction stocks lose $4.2tn as boom in AI trade unravels",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26514",
+        "distribute_url": "https://distribute.software/stories/26514",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Kiri – The Modern Container Runtime",
+      "canonical_url": "https://runkiri.com/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T04:40:41.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Kiri – The Modern Container Runtime",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26522",
+        "distribute_url": "https://distribute.software/stories/26522",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50504077"
+      },
+      "hn_points": 77,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Show HN: Gawain – Require type hints on all Python variables",
+      "canonical_url": "https://github.com/matheuzgomes/gawain",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T04:39:25.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Show HN: Gawain – Require type hints on all Python variables",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26521",
+        "distribute_url": "https://distribute.software/stories/26521",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50504072"
+      },
+      "hn_points": 64,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+      "canonical_url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T03:05:54.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26508",
+        "distribute_url": "https://distribute.software/stories/26508",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50503588"
+      },
+      "hn_points": 74,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "My favourite modern NES games",
+      "canonical_url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T02:41:25.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "My favourite modern NES games",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26516",
+        "distribute_url": "https://distribute.software/stories/26516",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50503465"
+      },
+      "hn_points": 174,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Italy fines Meta $887m for accessing Android users’ photos and videos",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/15/italy-fines-meta-887m-for-accessing-android-users-photos-and-videos",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-15T02:02:01.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Italy fines Meta $887m for accessing Android users’ photos and videos",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26518",
+        "distribute_url": "https://distribute.software/stories/26518",
+        "distribute_source": "media",
+        "distribute_companies": "google,meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+      "canonical_url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T02:00:54.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26505",
+        "distribute_url": "https://distribute.software/stories/26505",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50503255"
+      },
+      "hn_points": 302,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Court denies motion to dismiss DRAM price fixing case",
+      "canonical_url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T01:18:36.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Court denies motion to dismiss DRAM price fixing case",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26515",
+        "distribute_url": "https://distribute.software/stories/26515",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50502988"
+      },
+      "hn_points": 390,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "US loses measles-free status: Pan American Health Organization (2025)",
+      "canonical_url": "https://www.paho.org/en/news/10-11-2025-paho-calls-regional-action-americas-lose-measles-elimination-status",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-15T00:48:11.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "US loses measles-free status: Pan American Health Organization (2025)",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26507",
+        "distribute_url": "https://distribute.software/stories/26507",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50502768"
+      },
+      "hn_points": 62,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "SpaceX catches returning Starship rocket in breakthrough for Musk",
+      "canonical_url": "https://www.ft.com/content/ce7c8ab1-8337-4c32-8494-5142ec1697dd",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-14T22:33:56.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "SpaceX catches returning Starship rocket in breakthrough for Musk",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26504",
+        "distribute_url": "https://distribute.software/stories/26504",
+        "distribute_source": "media",
+        "distribute_companies": "spacex"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "canonical_url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T22:26:30.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26506",
+        "distribute_url": "https://distribute.software/stories/26506",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50501631"
+      },
+      "hn_points": 436,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How Jensen Huang’s Secret Led to His Downfall at Nvidia",
+      "canonical_url": "https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-board.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-14T21:50:16.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "How Jensen Huang’s Secret Led to His Downfall at Nvidia",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26501",
+        "distribute_url": "https://distribute.software/stories/26501",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "SpaceX Catches the Starship to end Flight 15",
+      "canonical_url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T21:22:24.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "SpaceX Catches the Starship to end Flight 15",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26502",
+        "distribute_url": "https://distribute.software/stories/26502",
+        "distribute_source": "hn",
+        "distribute_companies": "spacex",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50500963"
+      },
+      "hn_points": 454,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "SpaceX catches the Starship to end Flight 15",
+      "canonical_url": "https://www.spacex.com/launches/starship-flight-15",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T21:22:24.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "SpaceX catches the Starship to end Flight 15",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26503",
+        "distribute_url": "https://distribute.software/stories/26503",
+        "distribute_source": "hn",
+        "distribute_companies": "spacex",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50500963"
+      },
+      "hn_points": 1494,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Art ‘must not be sacrificed on the altar of corporate profit’, Liberal senator says as AI policy debate rages",
+      "canonical_url": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-14T19:00:52.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Art ‘must not be sacrificed on the altar of corporate profit’, Liberal senator says as AI policy debate rages",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26509",
+        "distribute_url": "https://distribute.software/stories/26509",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Outlook went down, then air traffic systems. It’s been a bad week of outages.",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/14/bad-week-outages-after-ground-stop-microsoft-outlook-went-down/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-14T18:42:31.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Outlook went down, then air traffic systems. It’s been a bad week of outages.",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26497",
+        "distribute_url": "https://distribute.software/stories/26497",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Tech Leaders Rally Behind Jensen Huang",
+      "canonical_url": "https://www.nytimes.com/2026/11/14/technology/silicon-valley-nvidia-jensen-huang.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-14T18:29:55.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Tech Leaders Rally Behind Jensen Huang",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26496",
+        "distribute_url": "https://distribute.software/stories/26496",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "A family tree of software job titles",
+      "canonical_url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T17:45:19.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "A family tree of software job titles",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26523",
+        "distribute_url": "https://distribute.software/stories/26523",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50499038"
+      },
+      "hn_points": 395,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Lovable apps expose passport details and more than 200K private messages",
+      "canonical_url": "https://www.crissyfield.de/research/lovable-en/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T17:43:10.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Lovable apps expose passport details and more than 200K private messages",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26498",
+        "distribute_url": "https://distribute.software/stories/26498",
+        "distribute_source": "hn",
+        "distribute_companies": "cyber",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50499017"
+      },
+      "hn_points": 945,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Italy fines Meta €805m over accessing users' photos",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o",
+      "publisher": "BBC News",
+      "published_at": "2026-11-14T16:29:48.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Italy fines Meta €805m over accessing users' photos",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26493",
+        "distribute_url": "https://distribute.software/stories/26493",
+        "distribute_source": "media",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "A tech tip: Charge your phone with your laptop or tablet’s charger",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/14/charge-your-phone-with-your-laptop-or-tablets-charger/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-14T14:30:00.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "A tech tip: Charge your phone with your laptop or tablet’s charger",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26491",
+        "distribute_url": "https://distribute.software/stories/26491",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The 143 best holiday gifts in 2026 – obsessively tested by the Guardian US",
+      "canonical_url": "https://www.theguardian.com/thefilter-us/2026/nov/14/best-holiday-gifts-ideas-guide",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-14T14:00:47.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "The 143 best holiday gifts in 2026 – obsessively tested by the Guardian US",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26490",
+        "distribute_url": "https://distribute.software/stories/26490",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Microsoft says all services restored after global outage",
+      "canonical_url": "https://www.washingtonpost.com/the-seven/2026/11/14/microsoft-services-restored-after-global-outage/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-14T14:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Microsoft says all services restored after global outage",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26489",
+        "distribute_url": "https://distribute.software/stories/26489",
+        "distribute_source": "media",
+        "distribute_companies": "microsoft"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Italy fines Meta $887M over Android users' data access",
+      "canonical_url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T13:48:06.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Italy fines Meta $887M over Android users' data access",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26499",
+        "distribute_url": "https://distribute.software/stories/26499",
+        "distribute_source": "hn",
+        "distribute_companies": "google,meta",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50497009"
+      },
+      "hn_points": 391,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "KDE: The documentary [video]",
+      "canonical_url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T13:43:28.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "KDE: The documentary [video]",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26495",
+        "distribute_url": "https://distribute.software/stories/26495",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50496976"
+      },
+      "hn_points": 542,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Tech companies are trying to shift the concept of privacy again",
+      "canonical_url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T12:45:45.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Tech companies are trying to shift the concept of privacy again",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26492",
+        "distribute_url": "https://distribute.software/stories/26492",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50496602"
+      },
+      "hn_points": 584,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Microsoft says services fully restored after global outage hits governments",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-14T11:54:31.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Microsoft says services fully restored after global outage hits governments",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26486",
+        "distribute_url": "https://distribute.software/stories/26486",
+        "distribute_source": "media",
+        "distribute_companies": "microsoft"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall",
+      "canonical_url": "https://www.ft.com/content/4aba8386-35cc-463b-a79c-a0c85c362c89",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-14T11:00:09.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26487",
+        "distribute_url": "https://distribute.software/stories/26487",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The Jensen Huang Scandal Has Shocked Even Scandal-Prone Silicon Valley",
+      "canonical_url": "https://www.nytimes.com/2026/11/14/technology/jensen-huang-nvidia-scandal-silicon-valley.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-14T10:02:08.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "The Jensen Huang Scandal Has Shocked Even Scandal-Prone Silicon Valley",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26484",
+        "distribute_url": "https://distribute.software/stories/26484",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "All the unusual ways Jensen Huang crafted Nvidia in his own image",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/14/nvidia-faces-daunting-challenge-replacing-ceo-jensen-huang/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-14T10:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "All the unusual ways Jensen Huang crafted Nvidia in his own image",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26485",
+        "distribute_url": "https://distribute.software/stories/26485",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Does your child have a side hustle?",
+      "canonical_url": "https://www.ft.com/content/d309eebb-21b7-4b8e-bebd-83de96b0a184",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-14T05:00:37.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Does your child have a side hustle?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26478",
+        "distribute_url": "https://distribute.software/stories/26478",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "China’s beaten-down tech stocks could offer AI with a little less drama",
+      "canonical_url": "https://www.ft.com/content/1505df5d-14e0-4095-8a88-fd23a165a821",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-14T05:00:37.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "China’s beaten-down tech stocks could offer AI with a little less drama",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26479",
+        "distribute_url": "https://distribute.software/stories/26479",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia’s cult of personality was bound to end badly",
+      "canonical_url": "https://www.ft.com/content/546ec5eb-fbc2-4600-9794-12b1749c1a04",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-14T05:00:37.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Nvidia’s cult of personality was bound to end badly",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26480",
+        "distribute_url": "https://distribute.software/stories/26480",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Consumer giants summon armies of influencers to win over Gen Z",
+      "canonical_url": "https://www.ft.com/content/d0d18617-0a59-4435-b659-7a50f6f7aba2",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-14T05:00:09.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Consumer giants summon armies of influencers to win over Gen Z",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26481",
+        "distribute_url": "https://distribute.software/stories/26481",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Monkey Island: all 13 versions side by side",
+      "canonical_url": "https://monkeyisland.pages.dev/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T04:23:30.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Monkey Island: all 13 versions side by side",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26482",
+        "distribute_url": "https://distribute.software/stories/26482",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50493904"
+      },
+      "hn_points": 492,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "canonical_url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T02:52:59.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26473",
+        "distribute_url": "https://distribute.software/stories/26473",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50493251"
+      },
+      "hn_points": 1085,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Ggml v1.0.0",
+      "canonical_url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T02:28:29.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Ggml v1.0.0",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26474",
+        "distribute_url": "https://distribute.software/stories/26474",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50493062"
+      },
+      "hn_points": 412,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+      "canonical_url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T02:21:36.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26472",
+        "distribute_url": "https://distribute.software/stories/26472",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50492993"
+      },
+      "hn_points": 212,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
+      "canonical_url": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T02:15:41.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26477",
+        "distribute_url": "https://distribute.software/stories/26477",
+        "distribute_source": "hn",
+        "distribute_companies": "cyber",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50492950"
+      },
+      "hn_points": 128,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Elephants found to be increasingly isolated leading to fractured social networks",
+      "canonical_url": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T02:02:42.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Elephants found to be increasingly isolated leading to fractured social networks",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26471",
+        "distribute_url": "https://distribute.software/stories/26471",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50492860"
+      },
+      "hn_points": 174,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "FAA lifted National Ground Stop at 0119Z",
+      "canonical_url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&advn=5",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T01:30:01.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "FAA lifted National Ground Stop at 0119Z",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26465",
+        "distribute_url": "https://distribute.software/stories/26465",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50492601"
+      },
+      "hn_points": 209,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Trump will not raise Nvidia spy issue with Xi at summit, officials say",
+      "canonical_url": "https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-14T01:28:36.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Trump will not raise Nvidia spy issue with Xi at summit, officials say",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26468",
+        "distribute_url": "https://distribute.software/stories/26468",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
+      "canonical_url": "https://english.nv.ua/nation/thirteen-day-drone-blitz-paralyzes-36-of-moscow-s-oil-50658616.html",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T01:10:22.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Ukraine knocks out 36% of Russia's oil refining capacity in under two weeks",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26464",
+        "distribute_url": "https://distribute.software/stories/26464",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50492456"
+      },
+      "hn_points": 313,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "India pins hopes on AI start-up to avoid becoming ‘digital colony’",
+      "canonical_url": "https://www.ft.com/content/599cd9ab-dbd0-4c0d-818a-f6270871cd97",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-14T01:00:05.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "India pins hopes on AI start-up to avoid becoming ‘digital colony’",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26469",
+        "distribute_url": "https://distribute.software/stories/26469",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Tech Now",
+      "canonical_url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1",
+      "publisher": "BBC News",
+      "published_at": "2026-11-14T01:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Tech Now",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26463",
+        "distribute_url": "https://distribute.software/stories/26463",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+      "canonical_url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T00:52:29.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26462",
+        "distribute_url": "https://distribute.software/stories/26462",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50492315"
+      },
+      "hn_points": 190,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Even Grand Theft Auto's original creators haven't been able to play GTA 6",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo",
+      "publisher": "BBC News",
+      "published_at": "2026-11-14T00:37:01.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Even Grand Theft Auto's original creators haven't been able to play GTA 6",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26461",
+        "distribute_url": "https://distribute.software/stories/26461",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Anthropic upgrades Claude Code Projects to run parallel AI workers hands-free",
+      "canonical_url": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T00:28:11.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Anthropic upgrades Claude Code Projects to run parallel AI workers hands-free",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26470",
+        "distribute_url": "https://distribute.software/stories/26470",
+        "distribute_source": "hn",
+        "distribute_companies": "anthropic",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50492141"
+      },
+      "hn_points": 62,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+      "canonical_url": "https://claude.com/resources/articles/projects-redesigned",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T00:28:11.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26475",
+        "distribute_url": "https://distribute.software/stories/26475",
+        "distribute_source": "hn",
+        "distribute_companies": "anthropic",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50492141"
+      },
+      "hn_points": 86,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+      "canonical_url": "https://unsloth.ai/docs/models/qwen3.8",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T00:06:04.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26476",
+        "distribute_url": "https://distribute.software/stories/26476",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50491980"
+      },
+      "hn_points": 243,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "First Strike",
+      "canonical_url": "https://geohot.github.io//blog/jekyll/update/2026/11/13/first-strike.html",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-14T00:00:59.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "First Strike",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26460",
+        "distribute_url": "https://distribute.software/stories/26460",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50491944"
+      },
+      "hn_points": 61,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Sam Bankman-Fried would have made nearly $40bn in Anthropic IPO",
+      "canonical_url": "https://www.ft.com/content/0ef40ac9-6d01-428f-98c8-a52bf5b9a787",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-13T23:39:26.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Sam Bankman-Fried would have made nearly $40bn in Anthropic IPO",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26458",
+        "distribute_url": "https://distribute.software/stories/26458",
+        "distribute_source": "media",
+        "distribute_companies": "anthropic"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Terminal borders that don't cost a cell",
+      "canonical_url": "https://www.joshka.net/cell-borders/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-13T23:06:40.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Terminal borders that don't cost a cell",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26494",
+        "distribute_url": "https://distribute.software/stories/26494",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50491423"
+      },
+      "hn_points": 402,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo",
+      "publisher": "BBC News",
+      "published_at": "2026-11-13T23:00:31.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26456",
+        "distribute_url": "https://distribute.software/stories/26456",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "US military responds to ‘suspicious drone activity’ at UK air base",
+      "canonical_url": "https://www.ft.com/content/cf902a58-b694-4357-b1b0-07cf8e36c94e",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-13T22:30:00.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "US military responds to ‘suspicious drone activity’ at UK air base",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26459",
+        "distribute_url": "https://distribute.software/stories/26459",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Musk joins calls for Jensen Huang to be reinstated as CEO of Nvidia",
+      "canonical_url": "https://www.washingtonpost.com/business/2026/11/13/musk-joins-calls-jensen-huang-be-reinstated-ceo-nvidia/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-13T22:21:48.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Musk joins calls for Jensen Huang to be reinstated as CEO of Nvidia",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26454",
+        "distribute_url": "https://distribute.software/stories/26454",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Behind Jensen Huang’s spy scandal, a shadow war for Trump’s ear on China",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/13/behind-jensen-huangs-spy-scandal-shadow-war-trumps-ear-china/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-13T21:45:28.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Behind Jensen Huang’s spy scandal, a shadow war for Trump’s ear on China",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26453",
+        "distribute_url": "https://distribute.software/stories/26453",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Inside Microsoft’s Rush to Get Back Online After a Global Outage",
+      "canonical_url": "https://www.nytimes.com/2026/11/13/business/microsoft-outage.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-13T21:28:58.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Inside Microsoft’s Rush to Get Back Online After a Global Outage",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26500",
+        "distribute_url": "https://distribute.software/stories/26500",
+        "distribute_source": "media",
+        "distribute_companies": "microsoft"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Microsoft outage shakes up companies, schools and local governments across US",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-13T21:13:59.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Microsoft outage shakes up companies, schools and local governments across US",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26483",
+        "distribute_url": "https://distribute.software/stories/26483",
+        "distribute_source": "media",
+        "distribute_companies": "microsoft"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "FAA Issues National Ground Stop",
+      "canonical_url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-13T21:05:53.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "FAA Issues National Ground Stop",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26452",
+        "distribute_url": "https://distribute.software/stories/26452",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50489641"
+      },
+      "hn_points": 992,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "FAA issues national ground stop – lifted 4.5 hours later",
+      "canonical_url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-13T21:05:53.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "FAA issues national ground stop – lifted 4.5 hours later",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26457",
+        "distribute_url": "https://distribute.software/stories/26457",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50489641"
+      },
+      "hn_points": 1635,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Microsoft says services fully restored after day-long global outage",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o",
+      "publisher": "BBC News",
+      "published_at": "2026-11-13T20:49:52.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Microsoft says services fully restored after day-long global outage",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26451",
+        "distribute_url": "https://distribute.software/stories/26451",
+        "distribute_source": "media",
+        "distribute_companies": "microsoft"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Amazon revives deal with troubled data centre venture backed by Rick Perry",
+      "canonical_url": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-13T20:40:40.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Amazon revives deal with troubled data centre venture backed by Rick Perry",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26455",
+        "distribute_url": "https://distribute.software/stories/26455",
+        "distribute_source": "media",
+        "distribute_companies": "amazon"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Anthropic’s Amodei ‘not super fussed’ about market turmoil ahead of IPO",
+      "canonical_url": "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-13T19:41:26.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Anthropic’s Amodei ‘not super fussed’ about market turmoil ahead of IPO",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26449",
+        "distribute_url": "https://distribute.software/stories/26449",
+        "distribute_source": "media",
+        "distribute_companies": "anthropic"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Microsoft outage exposes global reliance on core tech providers",
+      "canonical_url": "https://www.ft.com/content/f385935b-2bb4-4e34-8127-16517e8ceecb",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-13T18:55:13.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Microsoft outage exposes global reliance on core tech providers",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26450",
+        "distribute_url": "https://distribute.software/stories/26450",
+        "distribute_source": "media",
+        "distribute_companies": "microsoft"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "canonical_url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-13T18:40:44.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26466",
+        "distribute_url": "https://distribute.software/stories/26466",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50487864"
+      },
+      "hn_points": 369,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+      "canonical_url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-13T18:18:37.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26467",
+        "distribute_url": "https://distribute.software/stories/26467",
+        "distribute_source": "hn",
+        "distribute_companies": "apple",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50487522"
+      },
+      "hn_points": 388,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Three tremors have shaken AI",
+      "canonical_url": "https://www.ft.com/content/8f50369d-725b-40ac-a72a-306e25f9e76f",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-13T17:55:51.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Three tremors have shaken AI",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26448",
+        "distribute_url": "https://distribute.software/stories/26448",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Microsoft’s Global Outage and Fixes: What We Know",
+      "canonical_url": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-13T17:52:16.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Microsoft’s Global Outage and Fixes: What We Know",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26443",
+        "distribute_url": "https://distribute.software/stories/26443",
+        "distribute_source": "media",
+        "distribute_companies": "microsoft"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Arm boss Rene Haas approached in Nvidia CEO search",
+      "canonical_url": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-13T17:45:54.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Arm boss Rene Haas approached in Nvidia CEO search",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26446",
+        "distribute_url": "https://distribute.software/stories/26446",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Microsoft outage 'stark reminder' of how much we rely on tech",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo",
+      "publisher": "BBC News",
+      "published_at": "2026-11-13T17:38:19.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Microsoft outage 'stark reminder' of how much we rely on tech",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26445",
+        "distribute_url": "https://distribute.software/stories/26445",
+        "distribute_source": "media",
+        "distribute_companies": "microsoft"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "LibreOffice actually works 365 days a year",
+      "canonical_url": "https://twitter.com/LibreOffice/status/2121205272479998268",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-13T17:09:58.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "LibreOffice actually works 365 days a year",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26441",
+        "distribute_url": "https://distribute.software/stories/26441",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50486482"
+      },
+      "hn_points": 927,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "AI believers hold the line after Nvidia ructions",
+      "canonical_url": "https://www.ft.com/content/750e4304-7287-432a-8ac1-36db40d0d968",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-13T16:55:39.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "AI believers hold the line after Nvidia ructions",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26447",
+        "distribute_url": "https://distribute.software/stories/26447",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
+      "canonical_url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-13T16:38:27.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26440",
+        "distribute_url": "https://distribute.software/stories/26440",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+      "canonical_url": "https://www.nytimes.com/2026/11/13/technology/jensen-huang-silicon-valley-start-ups.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-13T16:06:55.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Jensen Huang’s Resignation From Nvidia Worries the A.I. Start-Up World",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26438",
+        "distribute_url": "https://distribute.software/stories/26438",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Wall Street Braces for Anthropic’s Spending",
+      "canonical_url": "https://www.nytimes.com/2026/11/13/technology/anthropic-ipo-spending-plans.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-13T15:09:26.000Z",
+      "fetched_at": "2026-11-15T17:37:53.659Z",
+      "excerpt": "Wall Street Braces for Anthropic’s Spending",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-26434",
+        "distribute_url": "https://distribute.software/stories/26434",
+        "distribute_source": "media",
+        "distribute_companies": "anthropic"
+      },
+      "adapter": "distribute-software"
+    }
+  ]
+}
