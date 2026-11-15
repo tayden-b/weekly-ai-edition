@@ -1,0 +1,205 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "theverge-ai",
+  "fetched_at": "2026-11-15T17:37:51.438Z",
+  "items": [
+    {
+      "headline": "An overview of Jensen Huang’s messy days",
+      "canonical_url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "publisher": "The Verge",
+      "published_at": "2026-11-15T13:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.707Z",
+      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1033943",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Column",
+        "Nvidia",
+        "Security",
+        "Tech",
+        "The Stepback"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "canonical_url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "publisher": "The Verge",
+      "published_at": "2026-11-14T15:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.707Z",
+      "excerpt": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1032907",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Decoder",
+        "OpenAI",
+        "Podcasts",
+        "Policy",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "canonical_url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "publisher": "The Verge",
+      "published_at": "2026-11-14T12:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.707Z",
+      "excerpt": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1033781",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Report",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Amazon has a plan to index the world’s online shopping data",
+      "canonical_url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "publisher": "The Verge",
+      "published_at": "2026-11-13T23:49:11.000Z",
+      "fetched_at": "2026-11-15T17:37:52.707Z",
+      "excerpt": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1033697",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Amazon",
+        "News",
+        "Online Shopping",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "publisher": "The Verge",
+      "published_at": "2026-11-13T20:45:10.000Z",
+      "fetched_at": "2026-11-15T17:37:52.707Z",
+      "excerpt": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1033425",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "What’s really at stake in the Jensen Huang saga",
+      "canonical_url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+      "publisher": "The Verge",
+      "published_at": "2026-11-13T14:47:16.000Z",
+      "fetched_at": "2026-11-15T17:37:52.707Z",
+      "excerpt": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1032866",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Podcasts",
+        "Policy",
+        "Tech",
+        "Vergecast"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "publisher": "The Verge",
+      "published_at": "2026-11-13T14:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.707Z",
+      "excerpt": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1032518",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Hands-on",
+        "Reviews",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Let’s talk about Jensen Huang’s many affairs!",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "publisher": "The Verge",
+      "published_at": "2026-11-13T12:00:00.000Z",
+      "fetched_at": "2026-11-15T17:37:52.707Z",
+      "excerpt": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1032339",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google’s new Gemini model is better at understanding complicated questions",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "publisher": "The Verge",
+      "published_at": "2026-11-12T21:55:32.000Z",
+      "fetched_at": "2026-11-15T17:37:52.707Z",
+      "excerpt": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1032505",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "No, AI agents did not discover a previously unknown Maya site",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "publisher": "The Verge",
+      "published_at": "2026-11-12T19:42:40.000Z",
+      "fetched_at": "2026-11-15T17:37:52.707Z",
+      "excerpt": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1032125",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Science",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
