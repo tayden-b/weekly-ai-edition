@@ -1,0 +1,807 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "silicon-report",
+  "fetched_at": "2026-11-16T20:52:38.155Z",
+  "items": [
+    {
+      "headline": "Nvidia board is not considering Jensen Huang return, CNBC reports",
+      "canonical_url": "https://www.siliconreport.com/nvidia-board-is-not-considering-jensen-huang-return-cnbc-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T20:38:00.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Directors are focusing on a probe into Huang's conduct rather than reinstatement, a person familiar told CNBC.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-board-is-not-considering-jensen-huang-return-cnbc-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Knit Health raises $35M Series A led by NEA",
+      "canonical_url": "https://www.siliconreport.com/knit-health-raises-35m-series-a-led-by-nea",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T19:41:49.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The funding will support the deployment of the startup's Med-BEAM predictive model across health systems.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/knit-health-raises-35m-series-a-led-by-nea",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI announces new tools to combat child sexual abuse material",
+      "canonical_url": "https://www.siliconreport.com/openai-announces-new-tools-to-combat-child-sexual-abuse-material",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T19:40:48.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The rollout includes a free image classifier for partners and 24-hour ChatGPT account pauses for abusive prompts.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-announces-new-tools-to-combat-child-sexual-abuse-material",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Audible launches AI audio discovery feature for book browsing",
+      "canonical_url": "https://www.siliconreport.com/audible-launches-ai-audio-discovery-feature-for-book-browsing",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T19:37:23.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The tool pairs AI-generated synopses with commentary on select U.S. titles while conversational querying expands.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/audible-launches-ai-audio-discovery-feature-for-book-browsing",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia expands CUDA-X suite with cuPhoton, cuPotential and cuSpa",
+      "canonical_url": "https://www.siliconreport.com/nvidia-expands-cuda-x-suite-with-cuphoton-cupotential-and-cuspa",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T18:15:39.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The software additions target scientific data pipelines in astrophysics, materials science, and single-cell biology.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-expands-cuda-x-suite-with-cuphoton-cupotential-and-cuspa",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google Cloud publishes MLPerf results for Ironwood TPUs",
+      "canonical_url": "https://www.siliconreport.com/google-cloud-publishes-mlperf-results-for-ironwood-tpus",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T18:12:19.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "A cluster of 8,192 Ironwood chips reached target model benchmark quality in 1.70 minutes, scaling up to 4,096 chips with 96% efficiency, Google Cloud reported.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-cloud-publishes-mlperf-results-for-ironwood-tpus",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Harvard study estimates emissions from largest US data centers",
+      "canonical_url": "https://www.siliconreport.com/harvard-study-estimates-emissions-from-largest-us-data-centers",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T18:09:33.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The 403 facilities used about 82 terawatt-hours of power, with 54 percent generated from fossil fuels.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/harvard-study-estimates-emissions-from-largest-us-data-centers",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI will embed six Apollo Research safety evaluators",
+      "canonical_url": "https://www.siliconreport.com/openai-will-embed-six-apollo-research-safety-evaluators",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T17:45:20.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The pilot will investigate whether frontier models attempt to subvert alignment or human control mechanisms.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-will-embed-six-apollo-research-safety-evaluators",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Dreamteam raises $53M to take on Salesforce with AI CRM",
+      "canonical_url": "https://www.siliconreport.com/dreamteam-raises-53m-to-take-on-salesforce-with-ai-crm",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T17:42:57.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Seed and Series A funding led by Together Fund and Accel aims to automate enterprise sales pipelines.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/dreamteam-raises-53m-to-take-on-salesforce-with-ai-crm",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lapsus$ hacker Arion Kurtaj pleads guilty to Rockstar Games breach",
+      "canonical_url": "https://www.siliconreport.com/lapsus-hacker-arion-kurtaj-pleads-guilty-to-rockstar-games-breach",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T17:39:22.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The 21-year-old admitted to cyberattacks on Uber and BT after being declared fit to stand trial.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/lapsus-hacker-arion-kurtaj-pleads-guilty-to-rockstar-games-breach",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Baidu revenue falls 1% as search advertising keeps shrinking",
+      "canonical_url": "https://www.siliconreport.com/baidu-revenue-falls-1-as-search-advertising-keeps-shrinking",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T16:18:38.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "AI cloud infrastructure sales nearly doubled, but Bloomberg reported it was Baidu's sixth straight quarterly drop.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/baidu-revenue-falls-1-as-search-advertising-keeps-shrinking",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "US life insurers held $85.2B in AI debt as of June, NYT reports",
+      "canonical_url": "https://www.siliconreport.com/us-life-insurers-held-85-2b-in-ai-debt-as-of-june-nyt-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T16:15:46.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Moody's found debt rose 24% in six months and projected life insurers could hold up to $185 billion by late 2027.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/us-life-insurers-held-85-2b-in-ai-debt-as-of-june-nyt-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AMD completes World Labs purchase, names Fei-Fei Li chief scientist",
+      "canonical_url": "https://www.siliconreport.com/amd-completes-world-labs-purchase-names-fei-fei-li-chief-scientist",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T16:12:41.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Dr. Fei-Fei Li will report to CEO Lisa Su as the startup's team pairs 3D simulation research with chip engineering.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/amd-completes-world-labs-purchase-names-fei-fei-li-chief-scientist",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google finds attackers used AI to turn patches into exploits",
+      "canonical_url": "https://www.siliconreport.com/google-finds-attackers-used-ai-to-turn-patches-into-exploits",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T16:10:02.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The exploit_agent tool analyzed code changes to autonomously write and execute attacks against web targets.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-finds-attackers-used-ai-to-turn-patches-into-exploits",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trump says he would not mind Jensen Huang returning as Nvidia CEO",
+      "canonical_url": "https://www.siliconreport.com/trump-says-he-would-not-mind-jensen-huang-returning-as-nvidia-ceo",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T16:08:00.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The president also questioned whether Alice Huang was a spy as allies lobby for the ousted executive's return.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/trump-says-he-would-not-mind-jensen-huang-returning-as-nvidia-ceo",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "US curbs China's AI chip access via overseas data centers",
+      "canonical_url": "https://www.siliconreport.com/us-curbs-china-s-ai-chip-access-via-overseas-data-centers",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T15:15:00.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The interim rule takes effect in 90 days, requiring operator due diligence and export licenses across five countries.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/us-curbs-china-s-ai-chip-access-via-overseas-data-centers",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Philippine groups protest Pax Silica construction, NYT reports",
+      "canonical_url": "https://www.siliconreport.com/philippine-groups-protest-pax-silica-construction-nyt-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T15:09:25.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Reporting on the ground, The New York Times found a local mayor worried about electricity, water and local farmers.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/philippine-groups-protest-pax-silica-construction-nyt-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Musk will accompany Trump to APEC, The Guardian reports",
+      "canonical_url": "https://www.siliconreport.com/musk-will-accompany-trump-to-apec-the-guardian-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T13:11:42.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "White House officials confirmed Elon Musk will join Donald Trump at the summit, though the reason for his presence has not been explained, The Guardian reported.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/musk-will-accompany-trump-to-apec-the-guardian-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta, Apple, Alphabet fight Canada data bill, Bloomberg Law reports",
+      "canonical_url": "https://www.siliconreport.com/meta-apple-alphabet-fight-canada-data-bill-bloomberg-law-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T12:47:55.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Bloomberg Law reported the bill would require tech firms to retain and hand over user data to law enforcement.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/meta-apple-alphabet-fight-canada-data-bill-bloomberg-law-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Microsoft blames cloud outage on latent July gateway defect",
+      "canonical_url": "https://www.siliconreport.com/microsoft-blames-cloud-outage-on-latent-july-gateway-defect",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T12:43:55.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Internal lock contention crippled multi-core servers when traffic surged and capacity dropped nearly 14%.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/microsoft-blames-cloud-outage-on-latent-july-gateway-defect",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Plural raises €1B for early-stage and follow-on funds",
+      "canonical_url": "https://www.siliconreport.com/plural-raises-1b-for-early-stage-and-follow-on-funds",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T12:39:35.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Two thirds of the capital will target early-stage bets in energy, defense, and AI infrastructure.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/plural-raises-1b-for-early-stage-and-follow-on-funds",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Qwen4 Max scores 43 on Artificial Analysis Intelligence Index",
+      "canonical_url": "https://www.siliconreport.com/qwen4-max-scores-43-on-artificial-analysis-intelligence-index",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T11:43:06.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Evaluation costs average $3.27 per task for Alibaba's closed-weight reasoning model.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/qwen4-max-scores-43-on-artificial-analysis-intelligence-index",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Beijing wants universal school AI literacy by 2030, Reuters reports",
+      "canonical_url": "https://www.siliconreport.com/beijing-wants-universal-school-ai-literacy-by-2030-reuters-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T11:12:40.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Reuters examined blueprints and records, painting one of the most detailed pictures yet of China's school AI drive.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/beijing-wants-universal-school-ai-literacy-by-2030-reuters-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple adds video podcasts section to Apple TV for testing",
+      "canonical_url": "https://www.siliconreport.com/apple-adds-video-podcasts-section-to-apple-tv-for-testing",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T11:09:45.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The feature will soon roll out free to all users on over 1 billion devices with the Apple TV app.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-adds-video-podcasts-section-to-apple-tv-for-testing",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bharat Semi raises $24M seed round for AI image sensors",
+      "canonical_url": "https://www.siliconreport.com/bharat-semi-raises-24m-seed-round-for-ai-image-sensors",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T10:43:54.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The New Delhi startup plans to combine capture, processing, and AI on a single chip to cut edge hardware costs.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/bharat-semi-raises-24m-seed-round-for-ai-image-sensors",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Alibaba launches closed-weight flagship AI model Qwen4-Max",
+      "canonical_url": "https://www.siliconreport.com/alibaba-launches-closed-weight-flagship-ai-model-qwen4-max",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T10:40:09.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The 2.4-trillion-parameter model filters out offensive cyber data and limits chemical and nuclear risks.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/alibaba-launches-closed-weight-flagship-ai-model-qwen4-max",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Huang discussed potential return as Nvidia CEO, FT reports",
+      "canonical_url": "https://www.siliconreport.com/huang-discussed-potential-return-as-nvidia-ceo-ft-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T07:15:24.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Citing people familiar with the matter, the Financial Times said allies are assembling an effort to lobby the board.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/huang-discussed-potential-return-as-nvidia-ceo-ft-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lawmakers push tighter AI chip rules, demand Nvidia testimony",
+      "canonical_url": "https://www.siliconreport.com/lawmakers-push-tighter-ai-chip-rules-demand-nvidia-testimony",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T06:44:21.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Senate Banking Chairman Tim Scott called on former CEO Jensen Huang and Commerce Secretary Howard Lutnick to testify.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/lawmakers-push-tighter-ai-chip-rules-demand-nvidia-testimony",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "US and partners agree to protect AI supply chains from chokepoints",
+      "canonical_url": "https://www.siliconreport.com/us-and-partners-agree-to-protect-ai-supply-chains-from-chokepoints",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T06:40:25.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Ten nations in the San Francisco Declaration will share priority technology lists to reduce supply chain exposure.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/us-and-partners-agree-to-protect-ai-supply-chains-from-chokepoints",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lutnick pushed for weaker chip export curbs, NYT reports",
+      "canonical_url": "https://www.siliconreport.com/lutnick-pushed-for-weaker-chip-export-curbs-nyt-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T04:08:21.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The Times reported the rules would affect a client of his former firm Cantor Fitzgerald operating in Malaysia.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/lutnick-pushed-for-weaker-chip-export-curbs-nyt-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Mount Thor raises $45 million to build Mac cloud infrastructure",
+      "canonical_url": "https://www.siliconreport.com/mount-thor-raises-45-million-to-build-mac-cloud-infrastructure",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T03:38:50.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "CRV and Conviction co-led the Series A as the startup scales Apple silicon clusters for AI agents.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/mount-thor-raises-45-million-to-build-mac-cloud-infrastructure",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Blue J raises $176 million Series E round",
+      "canonical_url": "https://www.siliconreport.com/blue-j-raises-176-million-series-e-round",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T03:13:33.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Growth equity firm JMI Equity led the financing, which values the AI tax software maker at over $700 million.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/blue-j-raises-176-million-series-e-round",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "SK Hynix schedules 874.6 billion won Trinity Fab for May completion",
+      "canonical_url": "https://www.siliconreport.com/sk-hynix-schedules-874-6-billion-won-trinity-fab-for-may-completion",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T03:12:03.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The testbed inside the Yongin memory plant will let suppliers validate equipment on production-grade lines.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/sk-hynix-schedules-874-6-billion-won-trinity-fab-for-may-completion",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple announces study on conversational AI health tools",
+      "canonical_url": "https://www.siliconreport.com/apple-announces-study-on-conversational-ai-health-tools",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T01:37:07.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "A yearlong study with OpenEvidence will evaluate clinical AI responses for up to 200,000 U.S. participants.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-announces-study-on-conversational-ai-health-tools",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Applied Digital seeks billions in tenant guarantees, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/applied-digital-seeks-billions-in-tenant-guarantees-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T01:16:05.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The developer seeks power collateral from Oracle and Meta, Bloomberg said, citing a person familiar with the matter.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/applied-digital-seeks-billions-in-tenant-guarantees-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Over 2,000 attendees converge for AI Day Seoul",
+      "canonical_url": "https://www.siliconreport.com/over-2-000-attendees-converge-for-ai-day-seoul",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T01:08:00.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The COEX gathering highlighted Korean enterprise robotics and agentic software built on Nvidia platforms.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/over-2-000-attendees-converge-for-ai-day-seoul",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Megaspeed brokered $12B in Nvidia chips for China, WSJ reports",
+      "canonical_url": "https://www.siliconreport.com/megaspeed-brokered-12b-in-nvidia-chips-for-china-wsj-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T00:40:25.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Documents reviewed by the newspaper show orders spanned several hundred thousand export-controlled processors.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/megaspeed-brokered-12b-in-nvidia-chips-for-china-wsj-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia raised concerns over charged Taiwan manager, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/nvidia-raised-concerns-over-charged-taiwan-manager-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-16T00:12:42.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Citing people familiar with the matter, Bloomberg reported TSMC declined to advise Nvidia after a manager was charged.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-raised-concerns-over-charged-taiwan-manager-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Italy fines Meta €805m over user photo access",
+      "canonical_url": "https://www.siliconreport.com/italy-fines-meta-805m-over-user-photo-access",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T19:10:44.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Regulators gave Meta 60 days to seek separate consent and disable the Facebook gallery feature by default.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/italy-fines-meta-805m-over-user-photo-access",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple plans non-AR smart glasses for June WWDC, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/apple-plans-non-ar-smart-glasses-for-june-wwdc-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T17:43:52.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Bloomberg reported the details, saying N50 prototypes pair with iPhones to run apps via Siri without visual displays.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-plans-non-ar-smart-glasses-for-june-wwdc-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lutnick is expected to join Trump on China trip, Semafor reports",
+      "canonical_url": "https://www.siliconreport.com/lutnick-is-expected-to-join-trump-on-china-trip-semafor-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T17:39:00.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Citing people familiar with the matter, Semafor reports the trip follows clashes over Nvidia chip controls.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/lutnick-is-expected-to-join-trump-on-china-trip-semafor-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple prototypes iPhone Duo 2 with outer Face ID, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/apple-prototypes-iphone-duo-2-with-outer-face-id-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T17:16:30.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Tight engineering schedules could delay the foldable's biometric upgrade to 2028, Bloomberg reports.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-prototypes-iphone-duo-2-with-outer-face-id-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bessent urges outside Nvidia CEO and questions China chip sales",
+      "canonical_url": "https://www.siliconreport.com/bessent-urges-outside-nvidia-ceo-and-questions-china-chip-sales",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T17:08:59.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The Treasury secretary called for a shakeup and scrutinized company culture after Jensen Huang's resignation.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/bessent-urges-outside-nvidia-ceo-and-questions-china-chip-sales",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DARPA tests four autonomous ground vehicles at Fort Knox",
+      "canonical_url": "https://www.siliconreport.com/darpa-tests-four-autonomous-ground-vehicles-at-fort-knox",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T14:43:12.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The uncrewed vehicles navigated terrain without GPS while human operators retained control of simulated weapons fire.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/darpa-tests-four-autonomous-ground-vehicles-at-fort-knox",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "FAA disables Juniper router feature after overload, WSJ reports",
+      "canonical_url": "https://www.siliconreport.com/faa-disables-juniper-router-feature-after-overload-wsj-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T14:13:53.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "High-rate pings from replacement hardware flooded the agency's legacy copper air traffic communications network.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/faa-disables-juniper-router-feature-after-overload-wsj-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nebuly raises $21M in Series A round led by Planven",
+      "canonical_url": "https://www.siliconreport.com/nebuly-raises-21m-in-series-a-round-led-by-planven",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T10:10:56.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The startup will expand software that measures the financial returns and operational impact of enterprise AI agents.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nebuly-raises-21m-in-series-a-round-led-by-planven",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AUO Mobility Solutions plans Smart Cockpit 2027 showcase",
+      "canonical_url": "https://www.siliconreport.com/auo-mobility-solutions-plans-smart-cockpit-2027-showcase",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T04:39:01.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The automotive subsidiary will preview zonal display architecture and satellite-connected glass at CES 2027.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/auo-mobility-solutions-plans-smart-cockpit-2027-showcase",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Huang exit clouds Nvidia commitment to open-source AI",
+      "canonical_url": "https://www.siliconreport.com/huang-exit-clouds-nvidia-commitment-to-open-source-ai",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T01:08:54.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "His departure leaves a pending $12.3 billion deal for Hugging Face facing uncertain leadership priorities.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/huang-exit-clouds-nvidia-commitment-to-open-source-ai",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google introduces Gemini 4 Hydrogen for coding and agentic workflows",
+      "canonical_url": "https://www.siliconreport.com/google-introduces-gemini-4-hydrogen-for-coding-and-agentic-workflows",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-15T01:08:22.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "The model costs $1.50 per million input tokens and drops the Flash branding in Search and developer tools.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-introduces-gemini-4-hydrogen-for-coding-and-agentic-workflows",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Huang lacked super-voting shares to block ouster, Forbes reports",
+      "canonical_url": "https://www.siliconreport.com/huang-lacked-super-voting-shares-to-block-ouster-forbes-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-14T22:45:08.000Z",
+      "fetched_at": "2026-11-16T20:52:40.058Z",
+      "excerpt": "Huang held 3.6% voting power under a single-class structure, leaving him exposed to board removal, Forbes reported.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/huang-lacked-super-voting-shares-to-block-ouster-forbes-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

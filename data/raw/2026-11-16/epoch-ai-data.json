@@ -1,0 +1,215 @@
+{
+  "adapter": "benchmarks",
+  "source": "epoch-ai-data",
+  "fetched_at": "2026-11-16T20:52:38.155Z",
+  "items": [
+    {
+      "headline": "simplebench external: gemini-4-carbon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simplebench_external&model=gemini-4-carbon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recU9rQyUS6sy1xC5",
+        "epoch_benchmark": "simplebench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "frontierswe external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontierswe_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "frontierswe_external:gemini-4-carbon_high",
+        "epoch_benchmark": "frontierswe_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-carbon_high",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-carbon_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-carbon_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-carbon_medium",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-carbon_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-carbon_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-carbon_low",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "scicode external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=scicode_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "scicode_external:gemini-4-carbon_high",
+        "epoch_benchmark": "scicode_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gemini-4-carbon_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gemini-4-carbon_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recbFDEBFtELUJG2Z",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "reckSpVRX0QX6WSPD",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gemini-4-carbon_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gemini-4-carbon_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "rec0IyrbM3uN10GSI",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "apex agents external: gemini-4-carbon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=apex_agents_external&model=gemini-4-carbon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recR6uYlGNAlAslmV",
+        "epoch_benchmark": "apex_agents_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gemini-4-carbon_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gemini-4-carbon_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recZSWZSa5latGBoC",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recdUqhq4nVKx1P2I",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gemini-4-carbon_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gemini-4-carbon_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recQQeIYi5kMeezPE",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "critpt external: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=critpt_external&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "rec6qQGC98m308hd4",
+        "epoch_benchmark": "critpt_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "vending bench 2 external: gemini-4-carbon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=vending_bench_2_external&model=gemini-4-carbon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "recgYseBc2iH5xCmj",
+        "epoch_benchmark": "vending_bench_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "blueprint bench 2 external: gemini-4-carbon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=blueprint_bench_2_external&model=gemini-4-carbon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-10T00:00:00.000Z",
+      "fetched_at": "2026-11-16T20:52:38.187Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "blueprint_bench_2_external:gemini-4-carbon_unknown",
+        "epoch_benchmark": "blueprint_bench_2_external"
+      },
+      "adapter": "benchmarks"
+    }
+  ]
+}
