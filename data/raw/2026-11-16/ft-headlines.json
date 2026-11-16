@@ -1,0 +1,20 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-16T20:52:38.155Z",
+  "items": [
+    {
+      "headline": "‘Success and fame’ undermine tech leaders, warns Nvidia and Tesla investor",
+      "canonical_url": "https://www.ft.com/content/5b39e975-b9f5-4ff9-a7d2-ce6a30c4fdbd?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-16T11:00:03.000Z",
+      "fetched_at": "2026-11-16T20:52:38.196Z",
+      "excerpt": "‘Success and fame’ undermine tech leaders, warns Nvidia and Tesla investor",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "5b39e975-b9f5-4ff9-a7d2-ce6a30c4fdbd"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}
