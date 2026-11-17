@@ -1,0 +1,95 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "mit-tr-ai",
+  "fetched_at": "2026-11-17T19:42:07.869Z",
+  "items": [
+    {
+      "headline": "Research Reports",
+      "canonical_url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-17T14:39:46.000Z",
+      "fetched_at": "2026-11-17T19:42:09.261Z",
+      "excerpt": "To access a report, click on the corresponding image below.",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148203",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The open-source movement wants Jensen Huang back",
+      "canonical_url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-16T18:38:47.000Z",
+      "fetched_at": "2026-11-17T19:42:09.261Z",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148624",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "The Algorithm"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Building trustworthy AI by fencing it in, not predicting it",
+      "canonical_url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-16T16:04:28.000Z",
+      "fetched_at": "2026-11-17T19:42:09.261Z",
+      "excerpt": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148565",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Building AI that can work across the enterprise",
+      "canonical_url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-16T13:00:00.000Z",
+      "fetched_at": "2026-11-17T19:42:09.261Z",
+      "excerpt": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1146070",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "canonical_url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-12T20:16:24.000Z",
+      "fetched_at": "2026-11-17T19:42:09.261Z",
+      "excerpt": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148483",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "AI",
+        "App",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

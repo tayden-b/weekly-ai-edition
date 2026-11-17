@@ -1,0 +1,20 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-vllm",
+  "fetched_at": "2026-11-17T19:42:07.869Z",
+  "items": [
+    {
+      "headline": "v0.34.0",
+      "canonical_url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "publisher": "GitHub: vllm-project/vllm",
+      "published_at": "2026-11-16T23:22:00Z",
+      "fetched_at": "2026-11-17T19:42:07.916Z",
+      "excerpt": "# v0.34.0 **1,061 commits from 412 contributors (120 new).** Thank you! ## TL;DR - **10 new models** (Mistral Large 4, MiniMax-M3.1-Flash, Nemotron-3.5-Transcribe, and more!) - **Extensible KV cache is on by default:** vLLM sizes the KV cache from memory actually free after warmup, so most models",
+      "source_ids": {
+        "github_repo": "vllm-project/vllm",
+        "github_release_tag": "v0.34.0"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

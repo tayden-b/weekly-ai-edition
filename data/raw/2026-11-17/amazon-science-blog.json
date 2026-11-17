@@ -1,0 +1,19 @@
+{
+  "adapter": "lab-blogs",
+  "source": "amazon-science-blog",
+  "fetched_at": "2026-11-17T19:42:07.869Z",
+  "items": [
+    {
+      "headline": "Using mathematics to validate network configurations",
+      "canonical_url": "https://www.amazon.science/blog/using-mathematics-to-validate-network-configurations",
+      "publisher": "Amazon Science",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-17T19:42:07.909Z",
+      "excerpt": "Static analysis of deployed networks helps reduce the risk that sensitive data leaks across partitions, supporting the security and reliability of global-scale networking.",
+      "source_ids": {
+        "guid": "https://www.amazon.science/blog/using-mathematics-to-validate-network-configurations"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
