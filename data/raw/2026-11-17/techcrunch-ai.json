@@ -1,0 +1,401 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "techcrunch-ai",
+  "fetched_at": "2026-11-17T19:42:07.869Z",
+  "items": [
+    {
+      "headline": "Model ML raises $250M to automate investment banking grunt work",
+      "canonical_url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T19:32:11.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "The three-year-old Model ML was valued at $1.5 billion in a new round co-led by General Atlantic and QED Investors.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189688",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Fintech",
+        "general atlantic",
+        "investment banking"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "canonical_url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T19:02:20.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189640",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "gemini",
+        "Google",
+        "In Brief"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "canonical_url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T18:48:23.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189652",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "gemini",
+        "Google",
+        "google gemini"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "As decision model use skyrockets, is customization the next frontier?",
+      "canonical_url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T18:10:00.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189001",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Exclusive",
+        "Microsoft"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "canonical_url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T18:04:16.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189612",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "AI agents"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "canonical_url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T17:32:25.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189535",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Security",
+        "cybersecurity",
+        "privacy",
+        "Proton"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+      "canonical_url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T17:20:41.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189496",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "defense",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+      "canonical_url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T16:44:15.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189502",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+      "canonical_url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T16:32:55.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189498",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Commerce",
+        "ai agent",
+        "Daydream",
+        "e-commerce",
+        "online shopping",
+        "shopping"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+      "canonical_url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T15:00:00.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3188450",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "AI assistant",
+        "Google Maps",
+        "travel"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "canonical_url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T14:50:58.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189440",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Biotech & Health",
+        "Fundraising",
+        "AI drug discovery",
+        "DeepMind",
+        "drug research",
+        "In Brief",
+        "isomorphic labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+      "canonical_url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T14:26:46.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189451",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Biotech & Health",
+        "Startups",
+        "Brain",
+        "In Brief",
+        "science",
+        "Science Corporation"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+      "canonical_url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T14:05:30.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189442",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "In Brief",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
+      "canonical_url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-17T14:00:00.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189147",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Media & Entertainment",
+        "Spotify"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "canonical_url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-16T23:32:32.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189297",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Fundraising",
+        "Security",
+        "Startups",
+        "cybersecurity",
+        "In Brief"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+      "canonical_url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-16T22:03:02.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189019",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "TC",
+        "Colette Kress",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "California state AG sues OpenAI over rogue agent incidents",
+      "canonical_url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-16T20:07:13.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189115",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+      "canonical_url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-16T19:12:02.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189047",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Government & Policy",
+        "Jensen Huang",
+        "nvidia",
+        "Trump"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+      "canonical_url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-16T18:11:10.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189053",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia",
+        "OpenAI",
+        "sam altman"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "canonical_url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-16T17:36:43.000Z",
+      "fetched_at": "2026-11-17T19:42:09.314Z",
+      "excerpt": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3188979",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "artex",
+        "cyberattacks",
+        "cybersecurity",
+        "penetration testing"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

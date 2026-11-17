@@ -1,0 +1,124 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-langchain",
+  "fetched_at": "2026-11-17T19:42:07.869Z",
+  "items": [
+    {
+      "headline": "langchain-xai==1.4.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-15T21:35:20Z",
+      "fetched_at": "2026-11-17T19:42:07.918Z",
+      "excerpt": "Changes since langchain-xai==1.3.0 fix(groq,mistralai,xai): bump deps (#41884) release(xai): 1.4.0 (#41857) feat(xai): route `ChatXAI` through LangSmith gateway (#41838) feat(partners): Remove EOL'd Python 3.10 from partner packages (#41268) chore(model-profiles): refresh model profile data",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-xai==1.4.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-mistralai==1.2.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.2.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-15T22:38:03Z",
+      "fetched_at": "2026-11-17T19:42:07.918Z",
+      "excerpt": "Changes since langchain-mistralai==1.1.6 fix(mistralai): fix streaming behavior for reasoning models (#41887) fix(groq,mistralai,xai): bump deps (#41884) chore(model-profiles): refresh model profile data (#41861) release(mistralai): 1.2.0 (#41859) feat(mistralai): route `ChatMistralAI` through",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-mistralai==1.2.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-groq==1.2.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-15T21:49:09Z",
+      "fetched_at": "2026-11-17T19:42:07.918Z",
+      "excerpt": "Changes since langchain-groq==1.1.3 fix(groq): specify reasoning_effort in integration tests (#41886) fix(groq,mistralai,xai): bump deps (#41884) release(groq): 1.2.0 (#41856) feat(groq): route `ChatGroq` through LangSmith gateway (#41837) feat(partners): Remove EOL'd Python 3.10 from partner",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-groq==1.2.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-deepseek==1.2.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-15T21:34:41Z",
+      "fetched_at": "2026-11-17T19:42:07.918Z",
+      "excerpt": "Changes since langchain-deepseek==1.1.1 release(deepseek): 1.2.0 (#41858) feat(deepseek): route `ChatDeepSeek` through LangSmith gateway (#41839) feat(partners): Remove EOL'd Python 3.10 from partner packages (#41268) chore(infra): relax third-party dependency upper bounds (#41407) chore(deps):",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-deepseek==1.2.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-core==1.8.1",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-15T14:57:11Z",
+      "fetched_at": "2026-11-17T19:42:07.918Z",
+      "excerpt": "Changes since langchain-core==1.8.0 release(core): 1.8.1 (#41855) chore(deps): bump soupsieve from 4.0 to 4.1 in /libs/core (#41850) feat(core): per-context LangSmith gateway override via `langsmith_gateway` (#41836) chore(deps): bump soupsieve from 2.9 to 4.0 in /libs/core (#41833)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.8.1"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-openai==1.8.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-13T16:48:27Z",
+      "fetched_at": "2026-11-17T19:42:07.918Z",
+      "excerpt": "**`langchain-openai` 1.8.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0. Users on Python 3.10 will continue to resolve `langchain-openai` 1.7.x. Changes since",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-openai==1.8.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain==1.5.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-11T15:47:22Z",
+      "fetched_at": "2026-11-17T19:42:07.918Z",
+      "excerpt": "**`langchain` 1.5.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0. Users on Python 3.10 will continue to resolve `langchain` 1.4.x. Changes since langchain==1.4.10",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain==1.5.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-typesafe==0.1.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-11T16:14:24Z",
+      "fetched_at": "2026-11-17T19:42:07.918Z",
+      "excerpt": "**`langchain-typesafe` 0.1.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.0 (`langchain` 1.5.0 for the `experimental` extra). Users on Python 3.10 will continue to resolve",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-typesafe==0.1.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-core==1.8.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-11T15:22:07Z",
+      "fetched_at": "2026-11-17T19:42:07.918Z",
+      "excerpt": "**`langchain-core` 1.8.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11. Users on Python 3.10 will continue to resolve `langchain-core` 1.7.x. Changes since langchain-core==1.7.7 release(core): 1.8.0 (#41796) feat(core): Remove EOL",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.8.0"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

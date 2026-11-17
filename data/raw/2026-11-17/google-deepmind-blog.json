@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-deepmind-blog",
+  "fetched_at": "2026-11-17T19:42:07.869Z",
+  "items": [
+    {
+      "headline": "Introducing Gemini 4 Hydrogen",
+      "canonical_url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-17T19:42:07.902Z",
+      "excerpt": "Introducing Gemini 4 Hydrogen",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "canonical_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-11T00:00:00.000Z",
+      "fetched_at": "2026-11-17T19:42:07.902Z",
+      "excerpt": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
