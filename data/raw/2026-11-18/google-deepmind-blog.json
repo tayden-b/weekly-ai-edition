@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-deepmind-blog",
+  "fetched_at": "2026-11-18T19:18:23.939Z",
+  "items": [
+    {
+      "headline": "Genie 4 is now available",
+      "canonical_url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.974Z",
+      "excerpt": "Genie 4 is now available",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/genie-4-is-now-available/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing Gemini 4 Hydrogen",
+      "canonical_url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.974Z",
+      "excerpt": "Introducing Gemini 4 Hydrogen",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
