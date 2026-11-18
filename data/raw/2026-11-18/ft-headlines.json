@@ -1,0 +1,59 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-18T19:18:23.939Z",
+  "items": [
+    {
+      "headline": "AI borrowing binge has ‘historic parallels’ with subprime bubble, says ECB",
+      "canonical_url": "https://www.ft.com/content/d16475ce-efce-4dc1-b5a3-2f7c79e9dea9?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-18T09:00:07.000Z",
+      "fetched_at": "2026-11-18T19:18:24.005Z",
+      "excerpt": "AI borrowing binge has ‘historic parallels’ with subprime bubble, says ECB",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "d16475ce-efce-4dc1-b5a3-2f7c79e9dea9"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Low-profile VCs set for $100bn windfall from Anthropic IPO",
+      "canonical_url": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-18T05:00:26.000Z",
+      "fetched_at": "2026-11-18T19:18:24.005Z",
+      "excerpt": "Low-profile VCs set for $100bn windfall from Anthropic IPO",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "a3430f0d-0080-4970-8eec-2c14c8438b3d"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "SoftBank regrets ‘mistake’ of not backing Anthropic, says Son",
+      "canonical_url": "https://www.ft.com/content/08086201-6359-47ec-8854-70462ad5a4c0?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-18T07:56:06.000Z",
+      "fetched_at": "2026-11-18T19:18:24.005Z",
+      "excerpt": "SoftBank regrets ‘mistake’ of not backing Anthropic, says Son",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "08086201-6359-47ec-8854-70462ad5a4c0"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Democrats probe whether Lutnick helped Cantor avoid Nvidia losses",
+      "canonical_url": "https://www.ft.com/content/71e39ecd-03ef-4078-a34e-34ea6b45f674?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-18T09:45:07.000Z",
+      "fetched_at": "2026-11-18T19:18:24.005Z",
+      "excerpt": "Democrats probe whether Lutnick helped Cantor avoid Nvidia losses",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "71e39ecd-03ef-4078-a34e-34ea6b45f674"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

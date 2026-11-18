@@ -1,0 +1,127 @@
+{
+  "adapter": "lab-blogs",
+  "source": "huggingface-blog",
+  "fetched_at": "2026-11-18T19:18:23.939Z",
+  "items": [
+    {
+      "headline": "Why your fine-tuning job takes longer than the FLOPs say",
+      "canonical_url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.984Z",
+      "excerpt": "Why your fine-tuning job takes longer than the FLOPs say",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "canonical_url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.984Z",
+      "excerpt": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "canonical_url": "https://huggingface.co/blog/moe-expert-streaming",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.984Z",
+      "excerpt": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/moe-expert-streaming"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "canonical_url": "https://huggingface.co/blog/rumble-2-flash",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.984Z",
+      "excerpt": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/rumble-2-flash"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "canonical_url": "https://huggingface.co/blog/openrouter",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-16T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.984Z",
+      "excerpt": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/openrouter"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "canonical_url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-13T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.984Z",
+      "excerpt": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "XYBench: Helping with the problem behind the question",
+      "canonical_url": "https://huggingface.co/blog/allenai/xybench",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-13T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.984Z",
+      "excerpt": "XYBench: Helping with the problem behind the question",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/allenai/xybench"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "canonical_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-13T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.984Z",
+      "excerpt": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "canonical_url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.984Z",
+      "excerpt": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "canonical_url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-12T00:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:23.984Z",
+      "excerpt": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/3d-lora-finetuning"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

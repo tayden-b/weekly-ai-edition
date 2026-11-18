@@ -1,0 +1,85 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ai-atlas",
+  "fetched_at": "2026-11-18T19:18:23.939Z",
+  "items": [
+    {
+      "headline": "Microsoft says MAI Code 2 matches 98% of GPT-6.1 Sol at 40% of cost",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-17",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-17T21:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:25.784Z",
+      "excerpt": "Microsoft released MAI Code 2 at its Ignite conference on 17 November and says the model gives 98% of GPT-6.1 Sol's coding performance at 40% of the price.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-17",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "NVIDIA's Vera Rubin posts up to 2x GB300's per-GPU training speed on MLPerf",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-16",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-16T21:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:25.784Z",
+      "excerpt": "NVIDIA reported on 16 November that its Vera Rubin NVL72 system delivered up to 2x the per-GPU training performance of GB300 NVL72 in MLPerf Training v6.1.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-16",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bland released Tofu-1, a full-duplex voice model for phone calls",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-15",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-15T21:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:25.784Z",
+      "excerpt": "Bland released Tofu-1 on 15 November, a full-duplex speech-to-speech model for phone calls, and says over 92% of listeners in its screenings could not tell it was a model.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-15",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DeepSeek opened its app's search, file reading and voice tools to API developers",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-14",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-14T21:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:25.784Z",
+      "excerpt": "DeepSeek opened its chatbot's web search, file input and URL reading inside its APIs on 13 November, with search billed at $0.75 per 1,000 calls.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-14",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI launched ChatGPT Wallet so agents can buy for US Pro subscribers",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-13",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-13T21:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:25.784Z",
+      "excerpt": "OpenAI launched ChatGPT Wallet on 13 November, which lets ChatGPT agents check out and pay for orders for US ChatGPT Pro subscribers once the user approves each purchase biometrically.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-13",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google released Gemini 4 Hydrogen and made it the model behind Search",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-12",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-12T21:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:25.784Z",
+      "excerpt": "Google released Gemini 4 Hydrogen on 12 November at $1.50 per million input tokens and $7.50 per million output tokens, and made it the model behind Search for all users.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-12",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

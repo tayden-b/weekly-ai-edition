@@ -1,0 +1,207 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "theverge-ai",
+  "fetched_at": "2026-11-18T19:18:23.939Z",
+  "items": [
+    {
+      "headline": "What is Nvidia without AI’s sugar daddy in charge?",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+      "publisher": "The Verge",
+      "published_at": "2026-11-18T18:34:15.000Z",
+      "fetched_at": "2026-11-18T19:18:24.672Z",
+      "excerpt": "If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technology as I had previously been led to believe. Nonetheless, chunks of Silicon Valley are now insisting he is indispensable. For instance, if Elon Musk is telling the truth, then Jensen",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1036776",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Analysis",
+        "Business",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Report",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Disney’s new Star Wars animatronics interact with guests using AI",
+      "canonical_url": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+      "publisher": "The Verge",
+      "published_at": "2026-11-18T17:50:57.000Z",
+      "fetched_at": "2026-11-18T19:18:24.672Z",
+      "excerpt": "As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney Imagineering R&D has",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1036729",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Amazon",
+        "Disney",
+        "Entertainment",
+        "Film",
+        "News",
+        "Robot",
+        "Star Wars",
+        "Streaming",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Remember the frontier AI pause? Chip companies don’t either",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "publisher": "The Verge",
+      "published_at": "2026-11-18T15:44:02.000Z",
+      "fetched_at": "2026-11-18T19:18:24.672Z",
+      "excerpt": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1036549",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Will Wright’s next game uses AI to map your memories",
+      "canonical_url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+      "publisher": "The Verge",
+      "published_at": "2026-11-18T14:00:00.000Z",
+      "fetched_at": "2026-11-18T19:18:24.672Z",
+      "excerpt": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explore worlds they",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1036140",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Gaming",
+        "News"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia isn’t selling any more AI chips to China",
+      "canonical_url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "publisher": "The Verge",
+      "published_at": "2026-11-18T13:01:05.000Z",
+      "fetched_at": "2026-11-18T19:18:24.672Z",
+      "excerpt": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1036445",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "Nvidia",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Suno now lets you make AI videos for your AI music",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "publisher": "The Verge",
+      "published_at": "2026-11-18T11:16:53.000Z",
+      "fetched_at": "2026-11-18T19:18:24.672Z",
+      "excerpt": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descriptions that can be",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1036415",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Audio",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Satya Nadella says he’s AGI-pilled now",
+      "canonical_url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "publisher": "The Verge",
+      "published_at": "2026-11-17T23:41:18.000Z",
+      "fetched_at": "2026-11-18T19:18:24.672Z",
+      "excerpt": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1036111",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Microsoft",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+      "canonical_url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+      "publisher": "The Verge",
+      "published_at": "2026-11-17T21:40:59.000Z",
+      "fetched_at": "2026-11-18T19:18:24.672Z",
+      "excerpt": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1036032",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Business",
+        "News",
+        "Nvidia",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+      "canonical_url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+      "publisher": "The Verge",
+      "published_at": "2026-11-17T21:00:55.000Z",
+      "fetched_at": "2026-11-18T19:18:24.672Z",
+      "excerpt": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1035957",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Meta",
+        "News",
+        "OpenAI",
+        "Report",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "canonical_url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "publisher": "The Verge",
+      "published_at": "2026-11-17T18:58:01.000Z",
+      "fetched_at": "2026-11-18T19:18:24.672Z",
+      "excerpt": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1035756",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

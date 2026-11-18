@@ -1,0 +1,36 @@
+{
+  "adapter": "sec-edgar",
+  "source": "sec-edgar-current-feed",
+  "fetched_at": "2026-11-18T19:18:23.939Z",
+  "items": [
+    {
+      "headline": "D — GlassHat AI, Inc.",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2165663/000216566326000001/0002165663-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-18T18:07:36.000Z",
+      "fetched_at": "2026-11-18T19:18:25.705Z",
+      "excerpt": "Filed: 2026-11-18 AccNo: 0002165663-26-000001 Size: 7 KB",
+      "source_ids": {
+        "edgar_accession": "0002165663-26-000001",
+        "edgar_cik": "0002165663",
+        "edgar_form": "D"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — GhostWing AI Inc",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2165764/000216576426000001/0002165764-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-18T17:31:22.000Z",
+      "fetched_at": "2026-11-18T19:18:25.705Z",
+      "excerpt": "Filed: 2026-11-18 AccNo: 0002165764-26-000001 Size: 6 KB Item 04: Rule 504(b)(1) (not (i), (ii) or (iii))",
+      "source_ids": {
+        "edgar_accession": "0002165764-26-000001",
+        "edgar_cik": "0002165764",
+        "edgar_form": "D",
+        "edgar_items": "04"
+      },
+      "adapter": "sec-edgar"
+    }
+  ]
+}
