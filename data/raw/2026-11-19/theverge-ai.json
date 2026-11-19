@@ -1,0 +1,209 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "theverge-ai",
+  "fetched_at": "2026-11-19T19:25:45.610Z",
+  "items": [
+    {
+      "headline": "Gemini on Mac can now use your computer",
+      "canonical_url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "publisher": "The Verge",
+      "published_at": "2026-11-19T18:21:13.000Z",
+      "fetched_at": "2026-11-19T19:25:46.419Z",
+      "excerpt": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations,",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1037902",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic starts trading on Wall Street",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "publisher": "The Verge",
+      "published_at": "2026-11-19T16:52:01.000Z",
+      "fetched_at": "2026-11-19T19:25:46.419Z",
+      "excerpt": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1035384",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Business",
+        "News"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "ChatGPT can transcribe as you speak now with Live Dictation",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "publisher": "The Verge",
+      "published_at": "2026-11-19T15:16:45.000Z",
+      "fetched_at": "2026-11-19T19:25:46.419Z",
+      "excerpt": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1037634",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "OpenAI",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "publisher": "The Verge",
+      "published_at": "2026-11-19T14:25:37.000Z",
+      "fetched_at": "2026-11-19T19:25:46.419Z",
+      "excerpt": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1037459",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Policy",
+        "Report"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "I let Apple’s always-listening AI summarize my life for two weeks",
+      "canonical_url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "publisher": "The Verge",
+      "published_at": "2026-11-19T13:00:00.000Z",
+      "fetched_at": "2026-11-19T19:25:46.419Z",
+      "excerpt": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can […]",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1037100",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Apple",
+        "Gadgets",
+        "Hands-on",
+        "Reviews",
+        "Smartwatch",
+        "Smartwatch Reviews",
+        "Tech",
+        "Wearable"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Canva adds an AI ‘off’ button",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "publisher": "The Verge",
+      "published_at": "2026-11-19T12:30:00.000Z",
+      "fetched_at": "2026-11-19T19:25:46.419Z",
+      "excerpt": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1037126",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Creators",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The nation’s largest school districts consider ditching Google Search",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "publisher": "The Verge",
+      "published_at": "2026-11-18T23:18:35.000Z",
+      "fetched_at": "2026-11-19T19:25:46.419Z",
+      "excerpt": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1037151",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trump’s latest land grab is an AI hub in the Philippines",
+      "canonical_url": "https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+      "publisher": "The Verge",
+      "published_at": "2026-11-18T19:40:36.000Z",
+      "fetched_at": "2026-11-19T19:25:46.419Z",
+      "excerpt": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump rallies, as more girls",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1036749",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Climate",
+        "Energy",
+        "Environment",
+        "Policy",
+        "Science"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia’s rise, visualized",
+      "canonical_url": "https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang",
+      "publisher": "The Verge",
+      "published_at": "2026-11-18T19:30:00.000Z",
+      "fetched_at": "2026-11-19T19:25:46.419Z",
+      "excerpt": "If someone handed you $8,300 every second, what would you do? That's how much pure profit Nvidia now makes. By the time you finish reading this paragraph, Nvidia will likely have cleared $45,000 and change. It's easy to look at Nvidia, a company that just lost its visionary founder CEO due to a",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1035924",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Report",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tech lawsuits defined 2026 — and lawmakers want more",
+      "canonical_url": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+      "publisher": "The Verge",
+      "published_at": "2026-11-18T19:07:29.000Z",
+      "fetched_at": "2026-11-19T19:25:46.419Z",
+      "excerpt": "With just a few weeks remaining, lawmakers are trying to pass new protections for victims of online harm before the end of 2026, targeting deepfake creators and online platforms that block users from filing lawsuits. On Tuesday, members of a Senate Judiciary subcommittee hosted a hearing calling",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1036935",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Gaming",
+        "Policy",
+        "Politics",
+        "Social Media",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

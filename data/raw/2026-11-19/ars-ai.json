@@ -1,0 +1,52 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ars-ai",
+  "fetched_at": "2026-11-19T19:25:45.610Z",
+  "items": [
+    {
+      "headline": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-18T19:19:33.000Z",
+      "fetched_at": "2026-11-19T19:25:46.842Z",
+      "excerpt": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Policy",
+        "AI Agent",
+        "ai hallucinations",
+        "Artificial Intelligence",
+        "chat logs",
+        "meta",
+        "muse ai agent",
+        "online privacy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google makes it easier to use Gemini without training AI on your data",
+      "canonical_url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-17T16:50:10.000Z",
+      "fetched_at": "2026-11-19T19:25:46.842Z",
+      "excerpt": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "gemini",
+        "google",
+        "privacy"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

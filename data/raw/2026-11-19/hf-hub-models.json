@@ -1,0 +1,31 @@
+{
+  "adapter": "hf-hub",
+  "source": "hf-hub-models",
+  "fetched_at": "2026-11-19T19:25:45.610Z",
+  "items": [
+    {
+      "headline": "microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU",
+      "canonical_url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU",
+      "publisher": "microsoft",
+      "published_at": "2026-11-18T17:08:25.000Z",
+      "fetched_at": "2026-11-19T19:25:45.648Z",
+      "excerpt": "microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU — text-generation",
+      "source_ids": {
+        "hf_model_id": "microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU"
+      },
+      "adapter": "hf-hub"
+    },
+    {
+      "headline": "microsoft/Aion-1.0-Instruct-2.3B",
+      "canonical_url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
+      "publisher": "microsoft",
+      "published_at": "2026-11-18T17:05:50.000Z",
+      "fetched_at": "2026-11-19T19:25:45.648Z",
+      "excerpt": "microsoft/Aion-1.0-Instruct-2.3B — text-generation",
+      "source_ids": {
+        "hf_model_id": "microsoft/Aion-1.0-Instruct-2.3B"
+      },
+      "adapter": "hf-hub"
+    }
+  ]
+}

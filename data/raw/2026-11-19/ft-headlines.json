@@ -1,0 +1,46 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-19T19:25:45.610Z",
+  "items": [
+    {
+      "headline": "Anthropic soars in Wall Street debut",
+      "canonical_url": "https://www.ft.com/content/7a6b211d-c73b-4953-97ee-ed92dab8ee07?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-19T16:19:06.000Z",
+      "fetched_at": "2026-11-19T19:25:45.665Z",
+      "excerpt": "Anthropic soars in Wall Street debut",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "7a6b211d-c73b-4953-97ee-ed92dab8ee07"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "The key to Anthropic’s value",
+      "canonical_url": "https://www.ft.com/content/aa8290dc-a20a-45af-97ab-1e71f97f236a?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-19T13:47:00.000Z",
+      "fetched_at": "2026-11-19T19:25:45.665Z",
+      "excerpt": "The key to Anthropic’s value",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "aa8290dc-a20a-45af-97ab-1e71f97f236a"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Anthropic stock begins trading after record $81bn IPO",
+      "canonical_url": "https://www.ft.com/content/7a6b211d-c73b-4953-97ee-ed92dab8ee07?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-19T10:10:00.000Z",
+      "fetched_at": "2026-11-19T19:25:45.665Z",
+      "excerpt": "Anthropic stock begins trading after record $81bn IPO",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "ba45f1bd-4962-4592-bcb7-80192cb0e256"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

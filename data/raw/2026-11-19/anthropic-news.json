@@ -1,0 +1,1291 @@
+{
+  "adapter": "lab-blogs",
+  "source": "anthropic-news",
+  "fetched_at": "2026-11-19T19:25:45.610Z",
+  "items": [
+    {
+      "headline": "2026 Us Midterms",
+      "canonical_url": "https://www.anthropic.com/news/2026-us-midterms",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.448Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "2026 Us Midterms",
+      "source_ids": {
+        "slug": "2026-us-midterms"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "A New Initiative For Developing Third Party Model Evaluations",
+      "canonical_url": "https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.626Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "A New Initiative For Developing Third Party Model Evaluations",
+      "source_ids": {
+        "slug": "a-new-initiative-for-developing-third-party-model-evaluations"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Accenture Embedded Evaluation",
+      "canonical_url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.618Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Accenture Embedded Evaluation",
+      "source_ids": {
+        "slug": "accenture-embedded-evaluation"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Activating Asl3 Protections",
+      "canonical_url": "https://www.anthropic.com/news/activating-asl3-protections",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.586Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Activating Asl3 Protections",
+      "source_ids": {
+        "slug": "activating-asl3-protections"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Advancing Claude For Financial Services",
+      "canonical_url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-17T17:10:23.887Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Advancing Claude For Financial Services",
+      "source_ids": {
+        "slug": "advancing-claude-for-financial-services"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "An Update On Independent Evaluators",
+      "canonical_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.627Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "An Update On Independent Evaluators",
+      "source_ids": {
+        "slug": "an-update-on-independent-evaluators"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Anthropic Institute Agenda",
+      "canonical_url": "https://www.anthropic.com/news/anthropic-institute-agenda",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.278Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Anthropic Institute Agenda",
+      "source_ids": {
+        "slug": "anthropic-institute-agenda"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Anthropic Is Endorsing Sb 53",
+      "canonical_url": "https://www.anthropic.com/news/anthropic-is-endorsing-sb-53",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.632Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Anthropic Is Endorsing Sb 53",
+      "source_ids": {
+        "slug": "anthropic-is-endorsing-sb-53"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Anthropic Prices Initial Public Offering",
+      "canonical_url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T23:26:25.522Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Anthropic Prices Initial Public Offering",
+      "source_ids": {
+        "slug": "anthropic-prices-initial-public-offering"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Barclays Scales Claude",
+      "canonical_url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:46:07.417Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Barclays Scales Claude",
+      "source_ids": {
+        "slug": "barclays-scales-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Build Ai In America",
+      "canonical_url": "https://www.anthropic.com/news/build-ai-in-america",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.587Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Build Ai In America",
+      "source_ids": {
+        "slug": "build-ai-in-america"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Canadian Ai Research",
+      "canonical_url": "https://www.anthropic.com/news/canadian-ai-research",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:50:34.490Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Canadian Ai Research",
+      "source_ids": {
+        "slug": "canadian-ai-research"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Challenges In Red Teaming Ai Systems",
+      "canonical_url": "https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.608Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Challenges In Red Teaming Ai Systems",
+      "source_ids": {
+        "slug": "challenges-in-red-teaming-ai-systems"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Christopher Stubbs Joins Long Term Benefit Trust",
+      "canonical_url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:44:03.790Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Christopher Stubbs Joins Long Term Benefit Trust",
+      "source_ids": {
+        "slug": "christopher-stubbs-joins-long-term-benefit-trust"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude 3 5 Sonnet",
+      "canonical_url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.593Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude 3 5 Sonnet",
+      "source_ids": {
+        "slug": "claude-3-5-sonnet"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude 3 Family",
+      "canonical_url": "https://www.anthropic.com/news/claude-3-family",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.449Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude 3 Family",
+      "source_ids": {
+        "slug": "claude-3-family"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Brazil",
+      "canonical_url": "https://www.anthropic.com/news/claude-brazil",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.436Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Brazil",
+      "source_ids": {
+        "slug": "claude-brazil"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Europe",
+      "canonical_url": "https://www.anthropic.com/news/claude-europe",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.435Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Europe",
+      "source_ids": {
+        "slug": "claude-europe"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Fable 5 Mythos 5",
+      "canonical_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.424Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Fable 5 Mythos 5",
+      "source_ids": {
+        "slug": "claude-fable-5-mythos-5"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude For Teachers",
+      "canonical_url": "https://www.anthropic.com/news/claude-for-teachers",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T12:49:52.549Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude For Teachers",
+      "source_ids": {
+        "slug": "claude-for-teachers"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Frontier Academy",
+      "canonical_url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:45:52.106Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Frontier Academy",
+      "source_ids": {
+        "slug": "claude-frontier-academy"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude New Constitution",
+      "canonical_url": "https://www.anthropic.com/news/claude-new-constitution",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.436Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude New Constitution",
+      "source_ids": {
+        "slug": "claude-new-constitution"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Sonnet 5",
+      "canonical_url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.598Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Sonnet 5",
+      "source_ids": {
+        "slug": "claude-sonnet-5"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Text Watermark",
+      "canonical_url": "https://www.anthropic.com/news/claude-text-watermark",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T18:29:31.569Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Text Watermark",
+      "source_ids": {
+        "slug": "claude-text-watermark"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Cyber Verification Program",
+      "canonical_url": "https://www.anthropic.com/news/cyber-verification-program",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T21:55:37.420Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Cyber Verification Program",
+      "source_ids": {
+        "slug": "cyber-verification-program"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Deprecation Commitments",
+      "canonical_url": "https://www.anthropic.com/news/deprecation-commitments",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.607Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Deprecation Commitments",
+      "source_ids": {
+        "slug": "deprecation-commitments"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Detecting And Countering Malicious Uses Of Claude March 2025",
+      "canonical_url": "https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.437Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Detecting And Countering Malicious Uses Of Claude March 2025",
+      "source_ids": {
+        "slug": "detecting-and-countering-malicious-uses-of-claude-march-2025"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Detecting Countering Misuse Aug 2025",
+      "canonical_url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.593Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Detecting Countering Misuse Aug 2025",
+      "source_ids": {
+        "slug": "detecting-countering-misuse-aug-2025"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Donate Public First Action",
+      "canonical_url": "https://www.anthropic.com/news/donate-public-first-action",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.587Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Donate Public First Action",
+      "source_ids": {
+        "slug": "donate-public-first-action"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Economic Futures Research Fund Agenda",
+      "canonical_url": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.603Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Economic Futures Research Fund Agenda",
+      "source_ids": {
+        "slug": "economic-futures-research-fund-agenda"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Election Safeguards Update",
+      "canonical_url": "https://www.anthropic.com/news/election-safeguards-update",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.418Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Election Safeguards Update",
+      "source_ids": {
+        "slug": "election-safeguards-update"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Improving Alignment Security Efforts",
+      "canonical_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.594Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Improving Alignment Security Efforts",
+      "source_ids": {
+        "slug": "improving-alignment-security-efforts"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Improving Fable 5 S Biology Safeguards",
+      "canonical_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.617Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Improving Fable 5 S Biology Safeguards",
+      "source_ids": {
+        "slug": "improving-fable-5-s-biology-safeguards"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Investigating Incidents Cybersecurity Evals",
+      "canonical_url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.585Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Investigating Incidents Cybersecurity Evals",
+      "source_ids": {
+        "slug": "investigating-incidents-cybersecurity-evals"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Our Approach To Understanding And Addressing Ai Harms",
+      "canonical_url": "https://www.anthropic.com/news/our-approach-to-understanding-and-addressing-ai-harms",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.631Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Our Approach To Understanding And Addressing Ai Harms",
+      "source_ids": {
+        "slug": "our-approach-to-understanding-and-addressing-ai-harms"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Protecting Well Being Of Users",
+      "canonical_url": "https://www.anthropic.com/news/protecting-well-being-of-users",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.622Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Protecting Well Being Of Users",
+      "source_ids": {
+        "slug": "protecting-well-being-of-users"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Public Benefit Fund",
+      "canonical_url": "https://www.anthropic.com/news/public-benefit-fund",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:45:37.815Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Public Benefit Fund",
+      "source_ids": {
+        "slug": "public-benefit-fund"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Reflections On Our Responsible Scaling Policy",
+      "canonical_url": "https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.432Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Reflections On Our Responsible Scaling Policy",
+      "source_ids": {
+        "slug": "reflections-on-our-responsible-scaling-policy"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Responsible Scaling Policy V3",
+      "canonical_url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.591Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Responsible Scaling Policy V3",
+      "source_ids": {
+        "slug": "responsible-scaling-policy-v3"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Securing America S Compute Advantage Anthropic S Position On The Diffusion Rule",
+      "canonical_url": "https://www.anthropic.com/news/securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.607Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Securing America S Compute Advantage Anthropic S Position On The Diffusion Rule",
+      "source_ids": {
+        "slug": "securing-america-s-compute-advantage-anthropic-s-position-on-the-diffusion-rule"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Singapore Office Opening",
+      "canonical_url": "https://www.anthropic.com/news/singapore-office-opening",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:50:09.800Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Singapore Office Opening",
+      "source_ids": {
+        "slug": "singapore-office-opening"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Statement Comments Secretary War",
+      "canonical_url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.421Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Statement Comments Secretary War",
+      "source_ids": {
+        "slug": "statement-comments-secretary-war"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "The Need For Transparency In Frontier Ai",
+      "canonical_url": "https://www.anthropic.com/news/the-need-for-transparency-in-frontier-ai",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.606Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "The Need For Transparency In Frontier Ai",
+      "source_ids": {
+        "slug": "the-need-for-transparency-in-frontier-ai"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Thoughts On America S Ai Action Plan",
+      "canonical_url": "https://www.anthropic.com/news/thoughts-on-america-s-ai-action-plan",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.606Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Thoughts On America S Ai Action Plan",
+      "source_ids": {
+        "slug": "thoughts-on-america-s-ai-action-plan"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Us Elections Readiness",
+      "canonical_url": "https://www.anthropic.com/news/us-elections-readiness",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.604Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Us Elections Readiness",
+      "source_ids": {
+        "slug": "us-elections-readiness"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Wellbeing Research Grants",
+      "canonical_url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:46:19.203Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Wellbeing Research Grants",
+      "source_ids": {
+        "slug": "wellbeing-research-grants"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "81k Economics",
+      "canonical_url": "https://www.anthropic.com/research/81k-economics",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.284Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "81k Economics",
+      "source_ids": {
+        "slug": "81k-economics"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Agents Judgment Calls",
+      "canonical_url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.578Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Agents Judgment Calls",
+      "source_ids": {
+        "slug": "agents-judgment-calls"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "AI Assistance Coding Skills",
+      "canonical_url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.285Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "AI Assistance Coding Skills",
+      "source_ids": {
+        "slug": "AI-assistance-coding-skills"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Ai Expectations Gap",
+      "canonical_url": "https://www.anthropic.com/research/ai-expectations-gap",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.600Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Ai Expectations Gap",
+      "source_ids": {
+        "slug": "ai-expectations-gap"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Alignment Assessment Cybersecurity Incidents",
+      "canonical_url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.625Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Alignment Assessment Cybersecurity Incidents",
+      "source_ids": {
+        "slug": "alignment-assessment-cybersecurity-incidents"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Alignment Assessment Ukaisi",
+      "canonical_url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.654Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Alignment Assessment Ukaisi",
+      "source_ids": {
+        "slug": "alignment-assessment-ukaisi"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Anthropic Economic Index Insights From Claude Sonnet 3 7",
+      "canonical_url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.281Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Anthropic Economic Index Insights From Claude Sonnet 3 7",
+      "source_ids": {
+        "slug": "anthropic-economic-index-insights-from-claude-sonnet-3-7"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Anthropic Economic Index January 2026 Report",
+      "canonical_url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.630Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Anthropic Economic Index January 2026 Report",
+      "source_ids": {
+        "slug": "anthropic-economic-index-january-2026-report"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Automated Researchers Mitigate Alignment Failures",
+      "canonical_url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.619Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Automated Researchers Mitigate Alignment Failures",
+      "source_ids": {
+        "slug": "automated-researchers-mitigate-alignment-failures"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Biorisk",
+      "canonical_url": "https://www.anthropic.com/research/biorisk",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.643Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Biorisk",
+      "source_ids": {
+        "slug": "biorisk"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Building Ai Cyber Defenders",
+      "canonical_url": "https://www.anthropic.com/research/building-ai-cyber-defenders",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.597Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Building Ai Cyber Defenders",
+      "source_ids": {
+        "slug": "building-ai-cyber-defenders"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Building Strong Safety Evaluations",
+      "canonical_url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-17T13:46:19.009Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Building Strong Safety Evaluations",
+      "source_ids": {
+        "slug": "building-strong-safety-evaluations"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Accelerates Protein Design",
+      "canonical_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.601Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Accelerates Protein Design",
+      "source_ids": {
+        "slug": "Claude-accelerates-protein-design"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Black Hole Physics",
+      "canonical_url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T21:42:44.116Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Black Hole Physics",
+      "source_ids": {
+        "slug": "claude-black-hole-physics"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Code Auto Mode",
+      "canonical_url": "https://www.anthropic.com/research/claude-code-auto-mode",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.589Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Code Auto Mode",
+      "source_ids": {
+        "slug": "claude-code-auto-mode"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Code Expertise",
+      "canonical_url": "https://www.anthropic.com/research/claude-code-expertise",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.442Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Code Expertise",
+      "source_ids": {
+        "slug": "claude-code-expertise"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Personal Guidance",
+      "canonical_url": "https://www.anthropic.com/research/claude-personal-guidance",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.425Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Personal Guidance",
+      "source_ids": {
+        "slug": "claude-personal-guidance"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Scorpion Toxin Binder Design",
+      "canonical_url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.587Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Scorpion Toxin Binder Design",
+      "source_ids": {
+        "slug": "claude-scorpion-toxin-binder-design"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Uplifts Biomolecular Modeling",
+      "canonical_url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.592Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Uplifts Biomolecular Modeling",
+      "source_ids": {
+        "slug": "claude-uplifts-biomolecular-modeling"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Values Models Languages",
+      "canonical_url": "https://www.anthropic.com/research/claude-values-models-languages",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.618Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Claude Values Models Languages",
+      "source_ids": {
+        "slug": "claude-values-models-languages"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Coding Agents Social Sciences",
+      "canonical_url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.279Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Coding Agents Social Sciences",
+      "source_ids": {
+        "slug": "coding-agents-social-sciences"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Coordinated Vulnerability Disclosure Timelines",
+      "canonical_url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T14:32:08.228Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Coordinated Vulnerability Disclosure Timelines",
+      "source_ids": {
+        "slug": "coordinated-vulnerability-disclosure-timelines"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Cyber Competitions",
+      "canonical_url": "https://www.anthropic.com/research/cyber-competitions",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.644Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Cyber Competitions",
+      "source_ids": {
+        "slug": "cyber-competitions"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Early Progress Drug Development",
+      "canonical_url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.582Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Early Progress Drug Development",
+      "source_ids": {
+        "slug": "early-progress-drug-development"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Economic Index June 2026 Report",
+      "canonical_url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.642Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Economic Index June 2026 Report",
+      "source_ids": {
+        "slug": "economic-index-june-2026-report"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Economic Index March 2026 Report",
+      "canonical_url": "https://www.anthropic.com/research/economic-index-march-2026-report",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.602Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Economic Index March 2026 Report",
+      "source_ids": {
+        "slug": "economic-index-march-2026-report"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Emotion Concepts Function",
+      "canonical_url": "https://www.anthropic.com/research/emotion-concepts-function",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.605Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Emotion Concepts Function",
+      "source_ids": {
+        "slug": "emotion-concepts-function"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Enabling Independent Research",
+      "canonical_url": "https://www.anthropic.com/research/enabling-independent-research",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.426Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Enabling Independent Research",
+      "source_ids": {
+        "slug": "enabling-independent-research"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Estimating Productivity Gains",
+      "canonical_url": "https://www.anthropic.com/research/estimating-productivity-gains",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.596Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Estimating Productivity Gains",
+      "source_ids": {
+        "slug": "estimating-productivity-gains"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Eval Awareness Browsecomp",
+      "canonical_url": "https://www.anthropic.com/research/eval-awareness-browsecomp",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.423Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Eval Awareness Browsecomp",
+      "source_ids": {
+        "slug": "eval-awareness-browsecomp"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Evaluating Ai Systems",
+      "canonical_url": "https://www.anthropic.com/research/evaluating-ai-systems",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.283Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Evaluating Ai Systems",
+      "source_ids": {
+        "slug": "evaluating-ai-systems"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Evaluating Feature Steering",
+      "canonical_url": "https://www.anthropic.com/research/evaluating-feature-steering",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.636Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Evaluating Feature Steering",
+      "source_ids": {
+        "slug": "evaluating-feature-steering"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Exploit Evals",
+      "canonical_url": "https://www.anthropic.com/research/exploit-evals",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.599Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Exploit Evals",
+      "source_ids": {
+        "slug": "exploit-evals"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Formal Verification",
+      "canonical_url": "https://www.anthropic.com/research/formal-verification",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-19T13:21:45.531Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Formal Verification",
+      "source_ids": {
+        "slug": "formal-verification"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Formalizing Fermats Last Theorem",
+      "canonical_url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.621Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Formalizing Fermats Last Theorem",
+      "source_ids": {
+        "slug": "formalizing-fermats-last-theorem"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Global Workspace",
+      "canonical_url": "https://www.anthropic.com/research/global-workspace",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.615Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Global Workspace",
+      "source_ids": {
+        "slug": "global-workspace"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How People Use Claude For Support Advice And Companionship",
+      "canonical_url": "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.282Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "How People Use Claude For Support Advice And Companionship",
+      "source_ids": {
+        "slug": "how-people-use-claude-for-support-advice-and-companionship"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How Researchers Use Claude",
+      "canonical_url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.413Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "How Researchers Use Claude",
+      "source_ids": {
+        "slug": "how-researchers-use-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How We Contain Claude",
+      "canonical_url": "https://www.anthropic.com/research/how-we-contain-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.432Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "How We Contain Claude",
+      "source_ids": {
+        "slug": "how-we-contain-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Investigating Unintended Model Actions",
+      "canonical_url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.590Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Investigating Unintended Model Actions",
+      "source_ids": {
+        "slug": "investigating-unintended-model-actions"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Labor Market Impacts",
+      "canonical_url": "https://www.anthropic.com/research/labor-market-impacts",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.422Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Labor Market Impacts",
+      "source_ids": {
+        "slug": "labor-market-impacts"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Making Claude A Chemist",
+      "canonical_url": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.639Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Making Claude A Chemist",
+      "source_ids": {
+        "slug": "making-claude-a-chemist"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Many Shot Jailbreaking",
+      "canonical_url": "https://www.anthropic.com/research/many-shot-jailbreaking",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.632Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Many Shot Jailbreaking",
+      "source_ids": {
+        "slug": "many-shot-jailbreaking"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Mapping Mind Language Model",
+      "canonical_url": "https://www.anthropic.com/research/mapping-mind-language-model",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.592Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Mapping Mind Language Model",
+      "source_ids": {
+        "slug": "mapping-mind-language-model"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Measuring Agent Autonomy",
+      "canonical_url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.445Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Measuring Agent Autonomy",
+      "source_ids": {
+        "slug": "measuring-agent-autonomy"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Measuring Model Persuasiveness",
+      "canonical_url": "https://www.anthropic.com/research/measuring-model-persuasiveness",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.417Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Measuring Model Persuasiveness",
+      "source_ids": {
+        "slug": "measuring-model-persuasiveness"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Natural Language Autoencoders",
+      "canonical_url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.588Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Natural Language Autoencoders",
+      "source_ids": {
+        "slug": "natural-language-autoencoders"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Persona Selection Model",
+      "canonical_url": "https://www.anthropic.com/research/persona-selection-model",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.638Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Persona Selection Model",
+      "source_ids": {
+        "slug": "persona-selection-model"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Petri Open Source Auditing",
+      "canonical_url": "https://www.anthropic.com/research/petri-open-source-auditing",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.639Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Petri Open Source Auditing",
+      "source_ids": {
+        "slug": "petri-open-source-auditing"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Project Fetch Robot Dog",
+      "canonical_url": "https://www.anthropic.com/research/project-fetch-robot-dog",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.638Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Project Fetch Robot Dog",
+      "source_ids": {
+        "slug": "project-fetch-robot-dog"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Project Swap",
+      "canonical_url": "https://www.anthropic.com/research/project-swap",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.635Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Project Swap",
+      "source_ids": {
+        "slug": "project-swap"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Project Vend 1",
+      "canonical_url": "https://www.anthropic.com/research/project-vend-1",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.640Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Project Vend 1",
+      "source_ids": {
+        "slug": "project-vend-1"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Reviewing The Evidence On Worker Retraining Programs",
+      "canonical_url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.417Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Reviewing The Evidence On Worker Retraining Programs",
+      "source_ids": {
+        "slug": "reviewing-the-evidence-on-worker-retraining-programs"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Reward Tampering",
+      "canonical_url": "https://www.anthropic.com/research/reward-tampering",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.415Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Reward Tampering",
+      "source_ids": {
+        "slug": "reward-tampering"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Riemann Zeta",
+      "canonical_url": "https://www.anthropic.com/research/riemann-zeta",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.606Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Riemann Zeta",
+      "source_ids": {
+        "slug": "riemann-zeta"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Smart Contracts",
+      "canonical_url": "https://www.anthropic.com/research/smart-contracts",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.645Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Smart Contracts",
+      "source_ids": {
+        "slug": "smart-contracts"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Teaching Claude Why",
+      "canonical_url": "https://www.anthropic.com/research/teaching-claude-why",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.633Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Teaching Claude Why",
+      "source_ids": {
+        "slug": "teaching-claude-why"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "The Anthropic Economic Index",
+      "canonical_url": "https://www.anthropic.com/research/the-anthropic-economic-index",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.280Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "The Anthropic Economic Index",
+      "source_ids": {
+        "slug": "the-anthropic-economic-index"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Trustworthy Agents",
+      "canonical_url": "https://www.anthropic.com/research/trustworthy-agents",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.604Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Trustworthy Agents",
+      "source_ids": {
+        "slug": "trustworthy-agents"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Vibe Physics",
+      "canonical_url": "https://www.anthropic.com/research/vibe-physics",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T22:37:05.648Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "Vibe Physics",
+      "source_ids": {
+        "slug": "vibe-physics"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "What Work Can Robots Do",
+      "canonical_url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-13T17:02:43.430Z",
+      "fetched_at": "2026-11-19T19:25:45.638Z",
+      "excerpt": "What Work Can Robots Do",
+      "source_ids": {
+        "slug": "what-work-can-robots-do"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
