@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-deepmind-blog",
+  "fetched_at": "2026-11-19T19:25:45.610Z",
+  "items": [
+    {
+      "headline": "Introducing Gemini 4 Neon",
+      "canonical_url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-19T19:25:45.639Z",
+      "excerpt": "Introducing Gemini 4 Neon",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Genie 4 is now available",
+      "canonical_url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-19T19:25:45.639Z",
+      "excerpt": "Genie 4 is now available",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/genie-4-is-now-available/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

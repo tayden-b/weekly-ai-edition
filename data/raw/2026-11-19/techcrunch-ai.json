@@ -1,0 +1,401 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "techcrunch-ai",
+  "fetched_at": "2026-11-19T19:25:45.610Z",
+  "items": [
+    {
+      "headline": "Anthropic’s IPO could deliver $156 billion to charity",
+      "canonical_url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-19T19:10:45.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190534",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "IPO",
+        "philanthropy",
+        "Anthropic",
+        "anthropic ipo"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google gives Gemini the ability to use your Mac for you",
+      "canonical_url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-19T18:09:11.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190514",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "ai agent",
+        "gemini",
+        "Google"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta’s AI agent Muse is mixing up conversations and exposing private data, report says",
+      "canonical_url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-19T17:38:40.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190466",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "In Brief",
+        "Meta",
+        "muse"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "canonical_url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-19T17:00:00.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190407",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "alibaba",
+        "Asia",
+        "China",
+        "retailers",
+        "San Francisco",
+        "Singapore",
+        "supply chain"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "canonical_url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-19T16:59:23.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190451",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "In Brief",
+        "IPO"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "canonical_url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-19T16:19:41.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190440",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "dario amodei",
+        "IPO"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "canonical_url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-19T14:54:39.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190277",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "anthropic ipo",
+        "IPO"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Superhuman pushes its Go assistant everywhere",
+      "canonical_url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-19T14:00:00.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3188332",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "productivity",
+        "superhuman"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "canonical_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-19T00:42:56.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190274",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Enterprise",
+        "TC",
+        "buyouts",
+        "Microsoft"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "canonical_url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T23:45:00.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190239",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "cyberattacks",
+        "Microsoft",
+        "Outlook"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+      "canonical_url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T23:25:17.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190290",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Elon Musk",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "canonical_url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T23:17:28.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190266",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "Microsoft",
+        "Satya Nadella"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "canonical_url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T22:58:11.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190264",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "In Brief",
+        "Microsoft",
+        "Satya Nadella"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic prices IPO at $83 a share, above projected range",
+      "canonical_url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T22:11:15.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190228",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "IPO",
+        "Anthropic",
+        "anthropic ipo"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+      "canonical_url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T21:57:40.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190087",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "TC",
+        "nvidia",
+        "SEC"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+      "canonical_url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T21:34:13.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190121",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "cyberattacks",
+        "Palmer Luckey",
+        "security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+      "canonical_url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T21:31:21.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190132",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "anduril",
+        "Jensen Huang",
+        "nvidia",
+        "Palmer Luckey"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "canonical_url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T20:07:01.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190063",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Media & Entertainment",
+        "OpenAI",
+        "sam altman"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+      "canonical_url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T19:56:39.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3189677",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Social",
+        "Snapchat"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google’s AI feature in Search gets its own incognito mode",
+      "canonical_url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-18T18:04:05.000Z",
+      "fetched_at": "2026-11-19T19:25:46.381Z",
+      "excerpt": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190009",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Privacy",
+        "ai mode",
+        "Google",
+        "Search"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
