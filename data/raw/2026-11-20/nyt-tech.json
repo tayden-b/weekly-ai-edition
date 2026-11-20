@@ -1,0 +1,33 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "nyt-tech",
+  "fetched_at": "2026-11-20T19:00:36.129Z",
+  "items": [
+    {
+      "headline": "Why Is the Stock Market Down After Anthropic’s Successful IPO?",
+      "canonical_url": "https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-stock-market.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-19T22:17:42.000Z",
+      "fetched_at": "2026-11-20T19:00:36.189Z",
+      "excerpt": "Why Is the Stock Market Down After Anthropic’s Successful IPO?",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-stock-market.html"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Anthropic Sells $81.3 Billion in Shares for a Record IPO",
+      "canonical_url": "https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-19T00:41:26.000Z",
+      "fetched_at": "2026-11-20T19:00:36.189Z",
+      "excerpt": "Anthropic Sells $81.3 Billion in Shares for a Record IPO",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/11/18/technology/anthropic-ipo-pricing.html"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

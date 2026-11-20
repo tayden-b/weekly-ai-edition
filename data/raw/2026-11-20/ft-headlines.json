@@ -1,0 +1,20 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-20T19:00:36.129Z",
+  "items": [
+    {
+      "headline": "‘A necessary evil’: how Anthropic pulled off its IPO",
+      "canonical_url": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-20T12:02:46.000Z",
+      "fetched_at": "2026-11-20T19:00:36.189Z",
+      "excerpt": "‘A necessary evil’: how Anthropic pulled off its IPO",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "149d497e-0567-4467-bcfb-269b8b8eb157"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

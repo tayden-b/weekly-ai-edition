@@ -1,0 +1,807 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "silicon-report",
+  "fetched_at": "2026-11-20T19:00:36.129Z",
+  "items": [
+    {
+      "headline": "AI-exposed China job ads fell faster, Bloomberg News reports",
+      "canonical_url": "https://www.siliconreport.com/ai-exposed-china-job-ads-fell-faster-bloomberg-news-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T17:10:34.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Bloomberg News analyzed nearly 10 million postings, finding exposed roles fell about 10 percentage points more.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/ai-exposed-china-job-ads-fell-faster-bloomberg-news-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Linq raises $90M in round led by Andreessen Horowitz",
+      "canonical_url": "https://www.siliconreport.com/linq-raises-90m-in-round-led-by-andreessen-horowitz",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T17:06:12.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Ben Horowitz will join the board as the startup expands voice and computer-use tools for AI agents.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/linq-raises-90m-in-round-led-by-andreessen-horowitz",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Microsoft will shut down its To Do app in June 2027",
+      "canonical_url": "https://www.siliconreport.com/microsoft-will-shut-down-its-to-do-app-in-june-2027",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T16:17:41.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Enterprise users will transition to Planner, but personal accounts receive no direct replacement.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/microsoft-will-shut-down-its-to-do-app-in-june-2027",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic shares fall over 10% on second day of trading",
+      "canonical_url": "https://www.siliconreport.com/anthropic-shares-fall-over-10-on-second-day-of-trading",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T16:12:54.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The premarket decline followed a 17% debut jump as broader tech equities dropped globally.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-shares-fall-over-10-on-second-day-of-trading",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic underwriters exercise greenshoe, lifting IPO to $93.5B",
+      "canonical_url": "https://www.siliconreport.com/anthropic-underwriters-exercise-greenshoe-lifting-ipo-to-93-5b",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T14:45:26.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Total capital secured reached $119.5 billion after including a concurrent $26 billion private placement.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-underwriters-exercise-greenshoe-lifting-ipo-to-93-5b",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "DayOne pauses US IPO on AI valuation concerns, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/dayone-pauses-us-ipo-on-ai-valuation-concerns-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T14:43:43.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "DayOne aimed to raise up to $5 billion, Bloomberg News reported, citing people familiar with the matter.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/dayone-pauses-us-ipo-on-ai-valuation-concerns-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Uber launches Uber Kids ride pilot in three U.S. cities",
+      "canonical_url": "https://www.siliconreport.com/uber-launches-uber-kids-ride-pilot-in-three-u-s-cities",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T14:40:52.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The service allows unaccompanied children aged 10 to 12 to ride with required video streaming and extra driver pay.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/uber-launches-uber-kids-ride-pilot-in-three-u-s-cities",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "BrightAI raises $97M to detect industrial equipment malfunctions",
+      "canonical_url": "https://www.siliconreport.com/brightai-raises-97m-to-detect-industrial-equipment-malfunctions",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T13:37:53.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Smith Point Capital led the Series A round valuing the company at $750 million, bringing total funding to $184 million.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/brightai-raises-97m-to-detect-industrial-equipment-malfunctions",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Signal will restrict screenshots on Android and iOS",
+      "canonical_url": "https://www.siliconreport.com/signal-will-restrict-screenshots-on-android-and-ios",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T13:36:25.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The messaging service aims to prevent operating-system AI agents from scanning private chats on smartphones.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/signal-will-restrict-screenshots-on-android-and-ios",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Samsung names Choi Won-Joon head of mobile division",
+      "canonical_url": "https://www.siliconreport.com/samsung-names-choi-won-joon-head-of-mobile-division",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T11:08:37.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "TM Roh steps down from the MX unit after nearly seven years while remaining co-CEO alongside Jeon Young-hyun.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/samsung-names-choi-won-joon-head-of-mobile-division",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic closes debut trading session at $97.17, up 17%",
+      "canonical_url": "https://www.siliconreport.com/anthropic-closes-debut-trading-session-at-97-17-up-17",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T07:44:47.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The Claude maker raised $81.3 billion through 980 million shares in the largest initial public offering on record.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-closes-debut-trading-session-at-97-17-up-17",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google rolls out desktop Search sidebar for AI Mode chats",
+      "canonical_url": "https://www.siliconreport.com/google-rolls-out-desktop-search-sidebar-for-ai-mode-chats",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T07:41:14.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The collapsible panel lets users reopen previous query threads and connect notes directly from the home screen.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-rolls-out-desktop-search-sidebar-for-ai-mode-chats",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI built Performance Factory to fix regressions, VentureBeat says",
+      "canonical_url": "https://www.siliconreport.com/openai-built-performance-factory-to-fix-regressions-venturebeat-says",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T02:14:22.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "VentureBeat cited an internal engineering report showing the Codex tool found root causes in over 600 ChatGPT cases.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-built-performance-factory-to-fix-regressions-venturebeat-says",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple is hiring engineers for autonomous AI agent, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/apple-is-hiring-engineers-for-autonomous-ai-agent-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T02:11:17.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Job listings cited by Bloomberg describe software that browses the web, writes code and controls computer apps.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-is-hiring-engineers-for-autonomous-ai-agent-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Intuit agrees to sell Mailchimp to Bending Spoons for $3.68B",
+      "canonical_url": "https://www.siliconreport.com/intuit-agrees-to-sell-mailchimp-to-bending-spoons-for-3-68b",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T02:10:45.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The cash and stock divestment recoups less than one-third of the $12 billion Intuit paid to buy the platform in 2021.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/intuit-agrees-to-sell-mailchimp-to-bending-spoons-for-3-68b",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic raises $1.95 billion for its seven founders in IPO",
+      "canonical_url": "https://www.siliconreport.com/anthropic-raises-1-95-billion-for-its-seven-founders-in-ipo",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T01:10:55.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Each founder pocketed about $280 million before underwriting fees and taxes by selling shares at $83 apiece.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-raises-1-95-billion-for-its-seven-founders-in-ipo",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic IPO could yield $156 billion for philanthropy",
+      "canonical_url": "https://www.siliconreport.com/anthropic-ipo-could-yield-156-billion-for-philanthropy",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T01:10:22.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "A 5% Public Benefit Fund share allotment and matched employee stock pledges drive the windfall.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-ipo-could-yield-156-billion-for-philanthropy",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "House lawmakers launch bipartisan AI safety caucus",
+      "canonical_url": "https://www.siliconreport.com/house-lawmakers-launch-bipartisan-ai-safety-caucus",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T00:43:08.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The 26-member coalition includes seven Republicans seeking targeted guardrails against autonomous model threats.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/house-lawmakers-launch-bipartisan-ai-safety-caucus",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta plans to price Muse Charm at $300, The Information reports",
+      "canonical_url": "https://www.siliconreport.com/meta-plans-to-price-muse-charm-at-300-the-information-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T00:41:55.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The handheld device will include 12 months of free Verizon 5G data, according to The Information.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/meta-plans-to-price-muse-charm-at-300-the-information-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia Vera Rubin NVL72 systems run in Azure data centers",
+      "canonical_url": "https://www.siliconreport.com/nvidia-vera-rubin-nvl72-systems-run-in-azure-data-centers",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T00:40:23.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The companies are expanding virtual machine access and bringing Nemotron 3.5 models to Microsoft Foundry.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-vera-rubin-nvl72-systems-run-in-azure-data-centers",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Everful raises $48.5 million in Series A funding",
+      "canonical_url": "https://www.siliconreport.com/everful-raises-48-5-million-in-series-a-funding",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T00:37:37.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Vertex Ventures Southeast Asia & India and January Capital led the round, joined by Square Peg and Lightspeed.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/everful-raises-48-5-million-in-series-a-funding",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Amazon uses app and website to fight New York City bill",
+      "canonical_url": "https://www.siliconreport.com/amazon-uses-app-and-website-to-fight-new-york-city-bill",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-20T00:11:25.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The retailer warned customers that the Delivery Protection Act could add up to $5 per order and disrupt operations.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/amazon-uses-app-and-website-to-fight-new-york-city-bill",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic shares open at $111.50, approximately 33% above IPO price",
+      "canonical_url": "https://www.siliconreport.com/anthropic-shares-open-at-111-50-approximately-33-above-ipo-price",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T19:09:08.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The first public trade pushed the Claude maker's implied market valuation past $2 trillion.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-shares-open-at-111-50-approximately-33-above-ipo-price",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Motorola Razr Flex wide foldable leaks in photos, SammyGuru reports",
+      "canonical_url": "https://www.siliconreport.com/motorola-razr-flex-wide-foldable-leaks-in-photos-sammyguru-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T18:49:37.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Photos shared by SammyGuru and regulatory records detail a dual-camera folding phone ahead of a supposed 2027 debut.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/motorola-razr-flex-wide-foldable-leaks-in-photos-sammyguru-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple camera software VP Jon McCormack leaves, Bloomberg reports",
+      "canonical_url": "https://www.siliconreport.com/apple-camera-software-vp-jon-mccormack-leaves-bloomberg-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T18:45:54.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The executive retired in October after over eight years, Bloomberg reports, citing people familiar with the matter.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/apple-camera-software-vp-jon-mccormack-leaves-bloomberg-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google will expand app verification globally, Ars Technica reports",
+      "canonical_url": "https://www.siliconreport.com/google-will-expand-app-verification-globally-ars-technica-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T18:44:08.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Citing Google, Ars Technica reports sideloading will require a registered ID and a $25 fee starting in January 2027.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-will-expand-app-verification-globally-ars-technica-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google launches computer use in Gemini app for Mac",
+      "canonical_url": "https://www.siliconreport.com/google-launches-computer-use-in-gemini-app-for-mac",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T18:39:50.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The feature automates tasks in local files and desktop apps in an isolated background window for U.S. users.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-launches-computer-use-in-gemini-app-for-mac",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "MegaRobo raises $200 million to expand automated lab robotics",
+      "canonical_url": "https://www.siliconreport.com/megarobo-raises-200-million-to-expand-automated-lab-robotics",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T17:40:47.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The Oman Investment Authority and CMB International joined the round, bringing total funding to about $600 million.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/megarobo-raises-200-million-to-expand-automated-lab-robotics",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google details Mirror Dimension to test Chrome AI browsing agents",
+      "canonical_url": "https://www.siliconreport.com/google-details-mirror-dimension-to-test-chrome-ai-browsing-agents",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T17:37:37.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The isolated web environment simulates banks and social platforms to harden agents against prompt injections.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-details-mirror-dimension-to-test-chrome-ai-browsing-agents",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lenovo reports 48% revenue jump on AI sales",
+      "canonical_url": "https://www.siliconreport.com/lenovo-reports-48-revenue-jump-on-ai-sales",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T17:17:05.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "China's Lenovo posted $30.2 billion in revenue alongside a $640 million net loss driven by warrant revaluations.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/lenovo-reports-48-revenue-jump-on-ai-sales",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Canva lets users turn off its generative AI features",
+      "canonical_url": "https://www.siliconreport.com/canva-lets-users-turn-off-its-generative-ai-features",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T17:12:47.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Free and paid accounts can disable tools like Magic Expand and reduce AI-generated content in library searches.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/canva-lets-users-turn-off-its-generative-ai-features",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia expands GeForce NOW to Amazon Vega OS Fire TV sticks",
+      "canonical_url": "https://www.siliconreport.com/nvidia-expands-geforce-now-to-amazon-vega-os-fire-tv-sticks",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T17:09:26.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The service lands on three streaming models alongside 30% discounts on six-month memberships.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/nvidia-expands-geforce-now-to-amazon-vega-os-fire-tv-sticks",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Binance secures $6.5B Abu Dhabi freezing order over hack",
+      "canonical_url": "https://www.siliconreport.com/binance-secures-6-5b-abu-dhabi-freezing-order-over-hack",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T16:20:15.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The injunction can be served directly via the blockchain, with market participants to be notified of a list of 26,000 wallet addresses, Gibson Dunn partner Kendall Day said.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/binance-secures-6-5b-abu-dhabi-freezing-order-over-hack",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI details how deeply AI agents are embedded in model development",
+      "canonical_url": "https://www.siliconreport.com/openai-details-how-deeply-ai-agents-are-embedded-in-model-development",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T16:12:52.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Theoretical token costs now surpass researcher base salaries as autonomous agents tackle routine monitoring tasks.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/openai-details-how-deeply-ai-agents-are-embedded-in-model-development",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "PyPI hack potentially exposed cloud credentials, SecurityWeek says",
+      "canonical_url": "https://www.siliconreport.com/pypi-hack-potentially-exposed-cloud-credentials-securityweek-says",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T16:10:05.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "SecurityWeek reports poisoned Microsoft AI packages targeted Azure tokens before PyPI quarantined them.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/pypi-hack-potentially-exposed-cloud-credentials-securityweek-says",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google mandates foldable app support for Android by April 2027",
+      "canonical_url": "https://www.siliconreport.com/google-mandates-foldable-app-support-for-android-by-april-2027",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T14:50:18.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Developers who fail to meet baseline Tier 3 rules risk losing the ability to publish or update on Google Play.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-mandates-foldable-app-support-for-android-by-april-2027",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Hardware"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google partners with Blue Origin to launch AI satellites in 2029",
+      "canonical_url": "https://www.siliconreport.com/google-partners-with-blue-origin-to-launch-ai-satellites-in-2029",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T14:46:12.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Blue Origin's New Glenn rocket will carry rack-scale TPU payloads into sun-synchronous orbit under Project Suncatcher.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-partners-with-blue-origin-to-launch-ai-satellites-in-2029",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Data centers to double power use by 2030, Guardian reports",
+      "canonical_url": "https://www.siliconreport.com/data-centers-to-double-power-use-by-2030-guardian-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T14:43:08.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The Guardian reported the agency expects emissions to rise 70% as fossil fuels meet soaring AI demand.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/data-centers-to-double-power-use-by-2030-guardian-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Datacenters"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "UK must admit serving Apple encryption order, FT reports",
+      "canonical_url": "https://www.siliconreport.com/uk-must-admit-serving-apple-encryption-order-ft-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T14:40:38.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The Financial Times reported a tribunal ruling rejected Home Office secrecy, sending Apple's appeal into open court.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/uk-must-admit-serving-apple-encryption-order-ft-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Snap introduces Easy Lens CLI for AI coding assistants",
+      "canonical_url": "https://www.siliconreport.com/snap-introduces-easy-lens-cli-for-ai-coding-assistants",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T12:08:37.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The free command-line tool connects editors like Cursor and Claude Code to build AR Lenses on Mac, Windows, and Linux.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/snap-introduces-easy-lens-cli-for-ai-coding-assistants",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "US students and faculty resist campus AI adoption, NYT reports",
+      "canonical_url": "https://www.siliconreport.com/us-students-and-faculty-resist-campus-ai-adoption-nyt-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T12:07:07.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The New York Times cited campus petitions and rallies demanding opt-out rights and an end to enterprise AI licensing.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/us-students-and-faculty-resist-campus-ai-adoption-nyt-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "New York, LA and Chicago weigh Google alternatives, NYT reports",
+      "canonical_url": "https://www.siliconreport.com/new-york-la-and-chicago-weigh-google-alternatives-nyt-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T11:19:33.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Google will reportedly cut off Search next year for school districts that disable bundled Gemini AI tools.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/new-york-la-and-chicago-weigh-google-alternatives-nyt-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Senate Commerce panel advances Trump FCC pick Danielle Thumann 15-0",
+      "canonical_url": "https://www.siliconreport.com/senate-commerce-panel-advances-trump-fcc-pick-danielle-thumann-15-0",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T03:42:10.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Republicans overrode a Democratic quorum boycott sparked by disputes over agency pairing and past testimony.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/senate-commerce-panel-advances-trump-fcc-pick-danielle-thumann-15-0",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google adds YouTube Premium Family to AI Ultra, 9to5Google reports",
+      "canonical_url": "https://www.siliconreport.com/google-adds-youtube-premium-family-to-ai-ultra-9to5google-reports",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T03:39:08.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "9to5Google reported that the $26.99 monthly household plan joins subscriptions starting at $99.99.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-adds-youtube-premium-family-to-ai-ultra-9to5google-reports",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Musk says ousting Jensen Huang as Nvidia CEO was not a smart decision",
+      "canonical_url": "https://www.siliconreport.com/musk-says-ousting-jensen-huang-as-nvidia-ceo-was-not-a-smart-decision",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T03:17:41.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The executive cited growing AI and chip overlaps between Tesla and SpaceX that could support a potential merger.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/musk-says-ousting-jensen-huang-as-nvidia-ceo-was-not-a-smart-decision",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Researchers disclose five NGINX vulnerabilities with exploits",
+      "canonical_url": "https://www.siliconreport.com/researchers-disclose-five-nginx-vulnerabilities-with-exploits",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T03:14:40.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Cybersecurity startup Xint found four of the flaws using an automated testing harness without human guidance.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/researchers-disclose-five-nginx-vulnerabilities-with-exploits",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google introduces Gemini 4 Neon for complex software workflows",
+      "canonical_url": "https://www.siliconreport.com/google-introduces-gemini-4-neon-for-complex-software-workflows",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T03:10:54.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The model costs $3 per million input tokens and $15 per million output tokens with a 1 million-token context window.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-introduces-gemini-4-neon-for-complex-software-workflows",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Foundation Labs"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic prices IPO at $83 per share above target range",
+      "canonical_url": "https://www.siliconreport.com/anthropic-prices-ipo-at-83-per-share-above-target-range",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T02:42:21.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The Claude maker raised $81.3 billion, valuing the company above $1.4 trillion ahead of its Nasdaq debut.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/anthropic-prices-ipo-at-83-per-share-above-target-range",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Capital"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google updates Gemini assistant to handle multi-step tasks",
+      "canonical_url": "https://www.siliconreport.com/google-updates-gemini-assistant-to-handle-multi-step-tasks",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T01:41:03.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "Task mode switches to the Gemini 4 Hydrogen model and rolls out free of charge in six countries.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/google-updates-gemini-assistant-to-handle-multi-step-tasks",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "AI & Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Newsom panel backs state power to shut down dangerous AI",
+      "canonical_url": "https://www.siliconreport.com/newsom-panel-backs-state-power-to-shut-down-dangerous-ai",
+      "publisher": "SiliconReport",
+      "published_at": "2026-11-19T01:40:44.000Z",
+      "fetched_at": "2026-11-20T19:00:38.395Z",
+      "excerpt": "The proposal also urges mandatory third-party audits and cutting incident reporting deadlines to 48 hours.",
+      "source_ids": {
+        "rss_guid": "https://www.siliconreport.com/newsom-panel-backs-state-power-to-shut-down-dangerous-ai",
+        "newsroom_feed": "silicon-report"
+      },
+      "categories": [
+        "Policy"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

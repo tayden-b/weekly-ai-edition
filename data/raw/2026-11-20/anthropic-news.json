@@ -1,0 +1,283 @@
+{
+  "adapter": "lab-blogs",
+  "source": "anthropic-news",
+  "fetched_at": "2026-11-20T19:00:36.129Z",
+  "items": [
+    {
+      "headline": "Advancing Claude For Financial Services",
+      "canonical_url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-17T17:10:23.887Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Advancing Claude For Financial Services",
+      "source_ids": {
+        "slug": "advancing-claude-for-financial-services"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Anthropic Institute Agenda",
+      "canonical_url": "https://www.anthropic.com/news/anthropic-institute-agenda",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.278Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Anthropic Institute Agenda",
+      "source_ids": {
+        "slug": "anthropic-institute-agenda"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Anthropic Prices Initial Public Offering",
+      "canonical_url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T23:26:25.522Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Anthropic Prices Initial Public Offering",
+      "source_ids": {
+        "slug": "anthropic-prices-initial-public-offering"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Barclays Scales Claude",
+      "canonical_url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:46:07.417Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Barclays Scales Claude",
+      "source_ids": {
+        "slug": "barclays-scales-claude"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Canadian Ai Research",
+      "canonical_url": "https://www.anthropic.com/news/canadian-ai-research",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:50:34.490Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Canadian Ai Research",
+      "source_ids": {
+        "slug": "canadian-ai-research"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Christopher Stubbs Joins Long Term Benefit Trust",
+      "canonical_url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:44:03.790Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Christopher Stubbs Joins Long Term Benefit Trust",
+      "source_ids": {
+        "slug": "christopher-stubbs-joins-long-term-benefit-trust"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Frontier Academy",
+      "canonical_url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:45:52.106Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Claude Frontier Academy",
+      "source_ids": {
+        "slug": "claude-frontier-academy"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Cyber Verification Program",
+      "canonical_url": "https://www.anthropic.com/news/cyber-verification-program",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T21:55:37.420Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Cyber Verification Program",
+      "source_ids": {
+        "slug": "cyber-verification-program"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Ipo Close",
+      "canonical_url": "https://www.anthropic.com/news/ipo-close",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-20T12:41:01.161Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Ipo Close",
+      "source_ids": {
+        "slug": "ipo-close"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Public Benefit Fund",
+      "canonical_url": "https://www.anthropic.com/news/public-benefit-fund",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:45:37.815Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Public Benefit Fund",
+      "source_ids": {
+        "slug": "public-benefit-fund"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Singapore Office Opening",
+      "canonical_url": "https://www.anthropic.com/news/singapore-office-opening",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:50:09.800Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Singapore Office Opening",
+      "source_ids": {
+        "slug": "singapore-office-opening"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Wellbeing Research Grants",
+      "canonical_url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T20:46:19.203Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Wellbeing Research Grants",
+      "source_ids": {
+        "slug": "wellbeing-research-grants"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "81k Economics",
+      "canonical_url": "https://www.anthropic.com/research/81k-economics",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.284Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "81k Economics",
+      "source_ids": {
+        "slug": "81k-economics"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "AI Assistance Coding Skills",
+      "canonical_url": "https://www.anthropic.com/research/AI-assistance-coding-skills",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.285Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "AI Assistance Coding Skills",
+      "source_ids": {
+        "slug": "AI-assistance-coding-skills"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Anthropic Economic Index Insights From Claude Sonnet 3 7",
+      "canonical_url": "https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.281Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Anthropic Economic Index Insights From Claude Sonnet 3 7",
+      "source_ids": {
+        "slug": "anthropic-economic-index-insights-from-claude-sonnet-3-7"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Building Strong Safety Evaluations",
+      "canonical_url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-17T13:46:19.009Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Building Strong Safety Evaluations",
+      "source_ids": {
+        "slug": "building-strong-safety-evaluations"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Claude Black Hole Physics",
+      "canonical_url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T21:42:44.116Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Claude Black Hole Physics",
+      "source_ids": {
+        "slug": "claude-black-hole-physics"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Coding Agents Social Sciences",
+      "canonical_url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.279Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Coding Agents Social Sciences",
+      "source_ids": {
+        "slug": "coding-agents-social-sciences"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Coordinated Vulnerability Disclosure Timelines",
+      "canonical_url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-16T14:32:08.228Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Coordinated Vulnerability Disclosure Timelines",
+      "source_ids": {
+        "slug": "coordinated-vulnerability-disclosure-timelines"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Evaluating Ai Systems",
+      "canonical_url": "https://www.anthropic.com/research/evaluating-ai-systems",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.283Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Evaluating Ai Systems",
+      "source_ids": {
+        "slug": "evaluating-ai-systems"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Formal Verification",
+      "canonical_url": "https://www.anthropic.com/research/formal-verification",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-20T18:45:25.849Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "Formal Verification",
+      "source_ids": {
+        "slug": "formal-verification"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How People Use Claude For Support Advice And Companionship",
+      "canonical_url": "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.282Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "How People Use Claude For Support Advice And Companionship",
+      "source_ids": {
+        "slug": "how-people-use-claude-for-support-advice-and-companionship"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "The Anthropic Economic Index",
+      "canonical_url": "https://www.anthropic.com/research/the-anthropic-economic-index",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-18T17:12:33.280Z",
+      "fetched_at": "2026-11-20T19:00:36.158Z",
+      "excerpt": "The Anthropic Economic Index",
+      "source_ids": {
+        "slug": "the-anthropic-economic-index"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
