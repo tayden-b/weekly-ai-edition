@@ -1,0 +1,136 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "the-morning-build",
+  "fetched_at": "2026-11-20T19:00:36.129Z",
+  "items": [
+    {
+      "headline": "The Morning Build for November 20, 2026: OpenSSL CVE Fix, Gemini 4 Neon, Apple and Agent Controls",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-20/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-20T19:00:37.955Z",
+      "excerpt": "OpenSSL merges CVE-2026-121481 fix; Google ships Gemini 4 Neon and Tool Retrieval; Apple signals an in-house Mac agent; Hermes adds Collective Wisdom in Teams.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-20/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 19, 2026: Google rolls Gemini 4 Neon, critical NGINX RCEs, Nadella on 60k buyouts, and Nvidia delays a 10-Q",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-19/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-19T00:00:00.000Z",
+      "fetched_at": "2026-11-20T19:00:37.955Z",
+      "excerpt": "Google launches Gemini 4 Neon with 1M-token context; two critical NGINX HTTP/2 RCEs fixed in recent NGINX releases; Nadella defends 60k buyouts; Nvidia delays 10-Q.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-19/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 18, 2026: OpenAI ships GPT-6.2 Astra and Sol, Nvidia pulls H200 from China, and Copilot becomes the work OS",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-18/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-20T19:00:37.955Z",
+      "excerpt": "OpenAI ships GPT-6.2 Astra and Sol with lower API pricing; Nvidia stops H200 sales to China; Microsoft embeds Office in Copilot; a travel-agent seed and a surge in AI CSAM reports.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-18/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "policy",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 17, 2026: OpenAI embeds external evaluators, new CSAM tools, and Qwen4-Max price/scale moves",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-17/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-20T19:00:37.955Z",
+      "excerpt": "OpenAI embeds third-party evaluators and adds CSAM image classification; GPT-6 aids a lattice proof; US export rules tighten in 90 days; Alibaba launches Qwen4-Max.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-17/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 16, 2026: Anthropic’s Fable Paints with Code, and Nvidia Faces Leadership, Security, and Geopolitics Tests",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-16/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-16T00:00:00.000Z",
+      "fetched_at": "2026-11-20T19:00:37.955Z",
+      "excerpt": "Anthropic shows brushstroke-based image synthesis in Claude Fable 5.2; CEO Amodei warns of compute risk ahead of Nov 19 IPO; Nvidia’s leadership exit raises security and geopolitical questions.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-16/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "policy",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 15, 2026: ChatGPT Wallet, LangChain's $3B Round, and Meituan's 1.6T Agent Model",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-15/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-15T00:00:00.000Z",
+      "fetched_at": "2026-11-20T19:00:37.955Z",
+      "excerpt": "ChatGPT Wallet launches a limited agent checkout test; LangChain raises $300M at a $3B valuation; Meituan publishes LongCat-2.5 weights and self-hosting guide.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-15/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "dev-tools",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 14, 2026: Nvidia Leadership Shock, Runway Open-Robot Weights, and ggml 1.0",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-14/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-14T00:00:00.000Z",
+      "fetched_at": "2026-11-20T19:00:37.955Z",
+      "excerpt": "Nvidia's CEO exit rattles startup funding; Runway open-sources Praxis: 1 under Apache 2.0; ggml 1.0.0 ships; FAA widens SMART AI; Nvidia confirms chip-tracking feasibility.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-14/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools",
+        "policy"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
