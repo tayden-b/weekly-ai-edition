@@ -1,0 +1,132 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "mit-tr-ai",
+  "fetched_at": "2026-11-21T17:55:13.366Z",
+  "items": [
+    {
+      "headline": "The most misunderstood graph in AI just got a major update",
+      "canonical_url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-20T18:15:15.000Z",
+      "fetched_at": "2026-11-21T17:55:14.500Z",
+      "excerpt": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1149399",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "Summary"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The AI Hype Index: AI is everywhere",
+      "canonical_url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-18T14:42:44.000Z",
+      "fetched_at": "2026-11-21T17:55:14.500Z",
+      "excerpt": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148650",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "AI",
+        "AI Hype Index",
+        "App"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "This smell startup says its AI nose is as good as a human’s",
+      "canonical_url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-18T10:20:30.000Z",
+      "fetched_at": "2026-11-21T17:55:14.500Z",
+      "excerpt": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148816",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "Summary"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Research Reports",
+      "canonical_url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-17T14:39:46.000Z",
+      "fetched_at": "2026-11-21T17:55:14.500Z",
+      "excerpt": "To access a report, click on the corresponding image below.",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148203",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The open-source movement wants Jensen Huang back",
+      "canonical_url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-16T18:38:47.000Z",
+      "fetched_at": "2026-11-21T17:55:14.500Z",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148624",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "artificial intelligence",
+        "The Algorithm"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Building trustworthy AI by fencing it in, not predicting it",
+      "canonical_url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-16T16:04:28.000Z",
+      "fetched_at": "2026-11-21T17:55:14.500Z",
+      "excerpt": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1148565",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Building AI that can work across the enterprise",
+      "canonical_url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-16T13:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:14.500Z",
+      "excerpt": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1146070",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "sponsored"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

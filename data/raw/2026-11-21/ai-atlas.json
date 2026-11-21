@@ -1,0 +1,85 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ai-atlas",
+  "fetched_at": "2026-11-21T17:55:13.366Z",
+  "items": [
+    {
+      "headline": "Simplex AI open-sourced Linger, running a 125B model on a 12GB GPU",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-20",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-20T21:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:15.019Z",
+      "excerpt": "Simplex AI, founded by former DeepSeek-VL lead Zhang Bo, open-sourced Linger on 19 November, a local agent it says runs a 125B model on a 12GB GPU at 45.5 tokens per second.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-20",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google released Gemini 4 Neon, scoring 61 on the Artificial Analysis Intelligence Index",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-19",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-19T21:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:15.019Z",
+      "excerpt": "Google DeepMind released Gemini 4 Neon on 18 November, a mid-tier Gemini 4 model that scores 61 on the Artificial Analysis Intelligence Index at $3 per million input tokens.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-19",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "SenseTime released open-weight SenseNova-Loop-9B, a looped model with 512K context",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-18",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-18T21:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:15.019Z",
+      "excerpt": "SenseTime released the final SenseNova-Loop-9B on 17 November as open weights and code, a model of about 9 billion parameters that it says scores 69.90 on GAIA.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-18",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Microsoft says MAI Code 2 matches 98% of GPT-6.1 Sol at 40% of cost",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-17",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-17T21:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:15.019Z",
+      "excerpt": "Microsoft released MAI Code 2 at its Ignite conference on 17 November and says the model gives 98% of GPT-6.1 Sol's coding performance at 40% of the price.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-17",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "NVIDIA's Vera Rubin posts up to 2x GB300's per-GPU training speed on MLPerf",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-16",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-16T21:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:15.019Z",
+      "excerpt": "NVIDIA reported on 16 November that its Vera Rubin NVL72 system delivered up to 2x the per-GPU training performance of GB300 NVL72 in MLPerf Training v6.1.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-16",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Bland released Tofu-1, a full-duplex voice model for phone calls",
+      "canonical_url": "https://atlas.prashish.com/daily/2026-11-15",
+      "publisher": "AI Atlas",
+      "published_at": "2026-11-15T21:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:15.019Z",
+      "excerpt": "Bland released Tofu-1 on 15 November, a full-duplex speech-to-speech model for phone calls, and says over 92% of listeners in its screenings could not tell it was a model.",
+      "source_ids": {
+        "rss_guid": "https://atlas.prashish.com/daily/2026-11-15",
+        "newsroom_feed": "ai-atlas"
+      },
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

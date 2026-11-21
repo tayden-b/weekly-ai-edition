@@ -1,0 +1,20 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-21T17:55:13.366Z",
+  "items": [
+    {
+      "headline": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+      "canonical_url": "https://www.ft.com/content/dc7749dc-0f40-44a6-80bc-7f747d383616?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-21T17:21:36.000Z",
+      "fetched_at": "2026-11-21T17:55:13.432Z",
+      "excerpt": "Amazon closes in on $7.5bn deal to buy AI start-up Decart",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "dc7749dc-0f40-44a6-80bc-7f747d383616"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

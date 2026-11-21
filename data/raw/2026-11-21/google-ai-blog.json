@@ -1,0 +1,67 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-ai-blog",
+  "fetched_at": "2026-11-21T17:55:13.366Z",
+  "items": [
+    {
+      "headline": "Introducing Tool Retrieval in the Gemini API",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-19T00:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:13.401Z",
+      "excerpt": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-19T00:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:13.401Z",
+      "excerpt": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "The Gemini app is now available on lower-memory Android devices.",
+      "canonical_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:13.401Z",
+      "excerpt": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Put Gemini to work for you",
+      "canonical_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:13.401Z",
+      "excerpt": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "New Ask Maps features to help with holiday travel and prep",
+      "canonical_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-16T00:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:13.401Z",
+      "excerpt": "Plan holiday road trips, get route tips, find local appointments, and search your saved lists with new Ask Maps features.",
+      "source_ids": {
+        "guid": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
