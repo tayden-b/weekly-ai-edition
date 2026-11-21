@@ -1,0 +1,93 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ars-ai",
+  "fetched_at": "2026-11-21T17:55:13.366Z",
+  "items": [
+    {
+      "headline": "Google rolls out new search homepage with AI chat history and no search button",
+      "canonical_url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-20T21:58:29.000Z",
+      "fetched_at": "2026-11-21T17:55:14.611Z",
+      "excerpt": "Google search is making it even easier to access AI tools on the search page.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "google",
+        "search"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-19T20:19:28.000Z",
+      "fetched_at": "2026-11-21T17:55:14.611Z",
+      "excerpt": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Policy",
+        "ai gun detection",
+        "ai in schools",
+        "Artificial Intelligence",
+        "Omnilert"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Muse privacy invasions are freaking out Meta staffers, internal chats show",
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-18T19:19:33.000Z",
+      "fetched_at": "2026-11-21T17:55:14.611Z",
+      "excerpt": "Erratic Muse outputs sharing random bank, bitcoin balances aren’t real, Meta says.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Policy",
+        "AI Agent",
+        "ai hallucinations",
+        "Artificial Intelligence",
+        "chat logs",
+        "meta",
+        "muse ai agent",
+        "online privacy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google makes it easier to use Gemini without training AI on your data",
+      "canonical_url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-17T16:50:10.000Z",
+      "fetched_at": "2026-11-21T17:55:14.611Z",
+      "excerpt": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "gemini",
+        "google",
+        "privacy"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

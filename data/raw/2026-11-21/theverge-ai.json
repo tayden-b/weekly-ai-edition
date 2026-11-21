@@ -1,0 +1,210 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "theverge-ai",
+  "fetched_at": "2026-11-21T17:55:13.366Z",
+  "items": [
+    {
+      "headline": "Can Anthropic afford to put safety first?",
+      "canonical_url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "publisher": "The Verge",
+      "published_at": "2026-11-21T15:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:14.508Z",
+      "excerpt": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1038701",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "Business",
+        "Decoder",
+        "OpenAI",
+        "Podcasts",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "canonical_url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "publisher": "The Verge",
+      "published_at": "2026-11-21T14:00:00.000Z",
+      "fetched_at": "2026-11-21T17:55:14.508Z",
+      "excerpt": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1038099",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Gaming",
+        "News",
+        "Tech",
+        "Web"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "canonical_url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "publisher": "The Verge",
+      "published_at": "2026-11-20T18:50:19.000Z",
+      "fetched_at": "2026-11-21T17:55:14.508Z",
+      "excerpt": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1038892",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "News",
+        "Policy",
+        "Politics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "publisher": "The Verge",
+      "published_at": "2026-11-20T16:34:13.000Z",
+      "fetched_at": "2026-11-21T17:55:14.508Z",
+      "excerpt": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1010051",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "News",
+        "Science"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The week everything fell apart",
+      "canonical_url": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast",
+      "publisher": "The Verge",
+      "published_at": "2026-11-20T14:06:59.000Z",
+      "fetched_at": "2026-11-21T17:55:14.508Z",
+      "excerpt": "There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technological world simply collapsed. And it felt like this might be the beginning of",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1038419",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Podcasts",
+        "Policy",
+        "Tech",
+        "Vergecast"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "publisher": "The Verge",
+      "published_at": "2026-11-20T12:30:47.000Z",
+      "fetched_at": "2026-11-21T17:55:14.508Z",
+      "excerpt": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1038390",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Android",
+        "Apple",
+        "Google",
+        "iOS",
+        "News",
+        "Security",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Apple is hiring engineers to build its own AI agent",
+      "canonical_url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "publisher": "The Verge",
+      "published_at": "2026-11-19T22:31:41.000Z",
+      "fetched_at": "2026-11-21T17:55:14.508Z",
+      "excerpt": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which said Apple is looking for an engineer to lead the creation",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1038227",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Apple",
+        "Apple Rumors",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "A brief history of Nvidia’s recent stock fluctuations",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "publisher": "The Verge",
+      "published_at": "2026-11-19T21:59:35.000Z",
+      "fetched_at": "2026-11-21T17:55:14.508Z",
+      "excerpt": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1038063",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Business",
+        "Nvidia",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta’s Muse Charm might cost $300",
+      "canonical_url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "publisher": "The Verge",
+      "published_at": "2026-11-19T20:22:17.000Z",
+      "fetched_at": "2026-11-21T17:55:14.508Z",
+      "excerpt": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1038087",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Meta",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google is putting AI chats right on the homepage",
+      "canonical_url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "publisher": "The Verge",
+      "published_at": "2026-11-19T20:05:06.000Z",
+      "fetched_at": "2026-11-21T17:55:14.508Z",
+      "excerpt": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the […]",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1038059",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "News",
+        "Tech",
+        "Web"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

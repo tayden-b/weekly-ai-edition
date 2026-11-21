@@ -1,0 +1,19 @@
+{
+  "adapter": "benchmarks",
+  "source": "arc-prize-leaderboard",
+  "fetched_at": "2026-11-21T17:55:13.366Z",
+  "items": [
+    {
+      "headline": "ARC Prize - Leaderboard",
+      "canonical_url": "https://arcprize.org/leaderboard",
+      "publisher": "ARC Prize",
+      "published_at": "2026-11-21T17:55:13.418Z",
+      "fetched_at": "2026-11-21T17:55:13.418Z",
+      "excerpt": "The ARC-AGI Leaderboard.",
+      "source_ids": {
+        "benchmark_source": "arc-prize-leaderboard"
+      },
+      "adapter": "benchmarks"
+    }
+  ]
+}
