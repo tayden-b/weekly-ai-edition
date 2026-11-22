@@ -1,0 +1,33 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-22T18:21:53.921Z",
+  "items": [
+    {
+      "headline": "Did Anthropic and its bankers get a key call wrong after IPO?",
+      "canonical_url": "https://www.ft.com/content/d501198c-14a4-4b96-8880-c3997545902e",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-22T11:00:05.000Z",
+      "fetched_at": "2026-11-22T18:21:53.973Z",
+      "excerpt": "Did Anthropic and its bankers get a key call wrong after IPO?",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "d501198c-14a4-4b96-8880-c3997545902e"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "Tech suppliers raise AI server prices up to 45% months after deals are signed",
+      "canonical_url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-22T05:00:06.000Z",
+      "fetched_at": "2026-11-22T18:21:53.973Z",
+      "excerpt": "Tech suppliers raise AI server prices up to 45% months after deals are signed",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "dd2a6594-6146-4ff1-ac8e-54749c1fc99f"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

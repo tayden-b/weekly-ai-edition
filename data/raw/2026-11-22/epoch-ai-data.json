@@ -1,0 +1,631 @@
+{
+  "adapter": "benchmarks",
+  "source": "epoch-ai-data",
+  "fetched_at": "2026-11-22T18:21:53.921Z",
+  "items": [
+    {
+      "headline": "GPQA Diamond: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=gpqa_diamond&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "mean_score: 0.9627525252525253 · Best score (across scorers): 0.9627525252525253 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "oRxFiWKdd7DmcfFkg999ph",
+        "epoch_benchmark": "gpqa_diamond"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "OTIS Mock AIME 2024/2025: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=otis_mock_aime_2024_2025&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "mean_score: 1.0 · Best score (across scorers): 1.0 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "YsAqrfCM6uNnSuhZn6VWg5",
+        "epoch_benchmark": "otis_mock_aime_2024_2025"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "FrontierMath Tiers 1–3 v2: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_tiers_1_3_v2&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "mean_score: 0.9122807017543859 · Best score (across scorers): 0.9122807017543859 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "QyysSvXXsJYV5iW59pXS6M",
+        "epoch_benchmark": "frontiermath_tiers_1_3_v2"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "FrontierMath Tier 4 v2: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_tier_4_v2&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "mean_score: 0.975609756097561 · Best score (across scorers): 0.975609756097561 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "ggBaj5NDWieo5AzqCGA8DL",
+        "epoch_benchmark": "frontiermath_tier_4_v2"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "EBR-Bench: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=ebr_bench&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T22:21:33.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "mean_score: 0.980952380952381 · Best score (across scorers): 0.980952380952381 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "GZkNcLrqhgysFJgkGAofNw",
+        "epoch_benchmark": "ebr_bench"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "SimpleQA Verified: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simpleqa_verified&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "mean_score: 0.752 · Best score (across scorers): 0.752 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "oNv3qiZwkezTmFHngNKsne",
+        "epoch_benchmark": "simpleqa_verified"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "Chess Puzzles: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=chess_puzzles&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "mean_score: 0.83 · Best score (across scorers): 0.83 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "fFyrzqsFMrDAqvwRpBvJga",
+        "epoch_benchmark": "chess_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "mystery game puzzles: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=mystery_game_puzzles&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "mean_score: 0.85 · Best score (across scorers): 0.85 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "mJRYugfe4i489xxrkjRLtK",
+        "epoch_benchmark": "mystery_game_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "mirrorcode: kimi-k3.1-pro-together_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=mirrorcode&model=kimi-k3.1-pro-together_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T15:49:09.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "mean_score: 0.43333333333333335 · Best score (across scorers): 0.43333333333333335 · Organization: Moonshot · Release date: 2026-10-23",
+      "source_ids": {
+        "epoch_eval_id": "S2mVtBattZSe5WZPkXNicA",
+        "epoch_benchmark": "mirrorcode"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "furniture assembly: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=furniture_assembly&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:52.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "mean_score: 0.8916666666666667 · Best score (across scorers): 0.8916666666666667 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "YPjCpLePrMUYrSLAUtKcVb",
+        "epoch_benchmark": "furniture_assembly"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "simplebench external: gemini-4-neon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simplebench_external&model=gemini-4-neon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "recbPninPo45f6Vpe",
+        "epoch_benchmark": "simplebench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "simplebench external: gpt-6.2-astra_promax",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simplebench_external&model=gpt-6.2-astra_promax",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "rec4tFw65PnV16Am8",
+        "epoch_benchmark": "simplebench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "simplebench external: gpt-6.2-astra_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simplebench_external&model=gpt-6.2-astra_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recNJbGgE2NzeWWcx",
+        "epoch_benchmark": "simplebench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "simplebench external: gpt-6.2-sol_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simplebench_external&model=gpt-6.2-sol_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recQbyyitfCkdzIAQ",
+        "epoch_benchmark": "simplebench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "gdp pdf external: gemini-4-neon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=gdp_pdf_external&model=gemini-4-neon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "recEFPQtT7U5Fz8m6",
+        "epoch_benchmark": "gdp_pdf_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "gdp pdf external: gpt-6.2-astra_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=gdp_pdf_external&model=gpt-6.2-astra_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recEQg4tW6YOLQBjZ",
+        "epoch_benchmark": "gdp_pdf_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "gdp pdf external: gpt-6.2-sol_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=gdp_pdf_external&model=gpt-6.2-sol_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recbtTCv0lWsW1eIv",
+        "epoch_benchmark": "gdp_pdf_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-neon_xhigh",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-neon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-neon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-neon_high",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-neon_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-neon_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-neon_medium",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-neon_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-neon_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-neon_low",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gpt-6.2-astra_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gpt-6.2-astra_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recDQ7UwQFp2TVlBg",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gpt-6.2-astra_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gpt-6.2-astra_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recPMNCTNzanJ0cCD",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gpt-6.2-astra_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gpt-6.2-astra_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recW9NqL7WdllJANW",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gpt-6.2-astra_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gpt-6.2-astra_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recZHI3YBsgtvhxiy",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gpt-6.2-astra_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gpt-6.2-astra_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recwbqKpI7cGwtBaT",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gpt-6.2-sol_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gpt-6.2-sol_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "reccYb71RSEeyeLZJ",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gpt-6.2-sol_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gpt-6.2-sol_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recdc7ct93FlQChTR",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gpt-6.2-sol_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gpt-6.2-sol_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "rec0dhaPi60soJwBy",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gpt-6.2-sol_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gpt-6.2-sol_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recJKPUzkvBbtD02X",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi external: gpt-6.2-sol_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_external&model=gpt-6.2-sol_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recKHNZuA927JGN77",
+        "epoch_benchmark": "arc_agi_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "apex agents external: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=apex_agents_external&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "rec9YdMYfCNljZ7RO",
+        "epoch_benchmark": "apex_agents_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "apex agents external: gemini-4-neon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=apex_agents_external&model=gemini-4-neon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "rec0gHY2LSfDKLVDo",
+        "epoch_benchmark": "apex_agents_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "apex agents external: gpt-6.2-astra_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=apex_agents_external&model=gpt-6.2-astra_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recsqgjVWEICCIkzD",
+        "epoch_benchmark": "apex_agents_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "apex agents external: gpt-6.2-sol_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=apex_agents_external&model=gpt-6.2-sol_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "rec6FHye6omYQVfM8",
+        "epoch_benchmark": "apex_agents_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gpt-6.2-astra_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gpt-6.2-astra_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "rec0g5XAlqz7vUCQL",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gpt-6.2-astra_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gpt-6.2-astra_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recxaEqpDJVylXV7T",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gpt-6.2-astra_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gpt-6.2-astra_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recNNNWbUAC22BIa7",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gpt-6.2-astra_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gpt-6.2-astra_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "rec2vqdbr8etSWHBE",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gpt-6.2-astra_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gpt-6.2-astra_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recufnfrva2rVDmLZ",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gpt-6.2-sol_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gpt-6.2-sol_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "rec5lqGNsoDucTM8P",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gpt-6.2-sol_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gpt-6.2-sol_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "reccLSFAErzxM5dI2",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gpt-6.2-sol_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gpt-6.2-sol_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recpfDJJ021BMHNWb",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gpt-6.2-sol_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gpt-6.2-sol_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "rec8c7q0fRKI0gVcz",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "arc agi 2 external: gpt-6.2-sol_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=arc_agi_2_external&model=gpt-6.2-sol_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "recSVTK4yR3RCzvCL",
+        "epoch_benchmark": "arc_agi_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "vending bench 2 external: gemini-4-neon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=vending_bench_2_external&model=gemini-4-neon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "recN6kHWGy5V2JLkG",
+        "epoch_benchmark": "vending_bench_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "blueprint bench 2 external: gpt-6.2-astra_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=blueprint_bench_2_external&model=gpt-6.2-astra_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "blueprint_bench_2_external:gpt-6.2-astra_unknown",
+        "epoch_benchmark": "blueprint_bench_2_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "blueprint bench 2 external: gpt-6.2-sol_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=blueprint_bench_2_external&model=gpt-6.2-sol_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-22T18:21:53.962Z",
+      "excerpt": "Organization: OpenAI · Release date: 2026-11-17",
+      "source_ids": {
+        "epoch_eval_id": "blueprint_bench_2_external:gpt-6.2-sol_unknown",
+        "epoch_benchmark": "blueprint_bench_2_external"
+      },
+      "adapter": "benchmarks"
+    }
+  ]
+}
