@@ -1,0 +1,215 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-langchain",
+  "fetched_at": "2026-11-22T18:21:53.921Z",
+  "items": [
+    {
+      "headline": "langchain-openrouter==0.3.0",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.3.0",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-19T15:03:19Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "**`langchain-openrouter` 0.3.0 drops support for Python 3.10**, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum `langchain-core` version is now 1.8.3. Users on Python 3.10 will continue to resolve `langchain-openrouter` 0.2.x. Changes since",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-openrouter==0.3.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-openai==1.8.5",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.5",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-19T23:16:20Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-openai==1.8.4 release(openai): 1.8.5 (#41969) fix(openai): preserve streamed Responses tool call arguments (#41963) feat(core): standardize finish reason on message-finish events (#41926)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-openai==1.8.5"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-openai==1.8.4",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.4",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-19T21:36:51Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-openai==1.8.3 release(openai): 1.8.4 (#41962) chore(langchain): require `langgraph` 1.2.16 or newer (#41959) fix(openai): classify in-stream server errors as retryable (#41952)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-openai==1.8.4"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-openai==1.8.3",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.3",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-19T00:38:57Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-openai==1.8.2 release(openai): 1.8.3 (#41950) fix(openai): enable Codex prompt caching on GPT-6.2 (#41949)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-openai==1.8.3"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-core==1.8.4",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.4",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-19T22:35:57Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-core==1.8.3 release(core): 1.8.4 (#41964) feat(core): standardize finish reason on message-finish events (#41926) feat(langchain): tag synthetic HITL tool messages with source metadata (#41928)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.8.4"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-anthropic==1.7.12",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.12",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-19T23:00:20Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-anthropic==1.7.11 release(anthropic): 1.7.12 (#41966) feat(core): standardize finish reason on message-finish events (#41926) chore(langchain): require `langgraph` 1.2.16 or newer (#41959) fix(anthropic): preserve `caller` on `tool_search_tool_result` blocks (#41958)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-anthropic==1.7.12"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain==1.5.2",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.2",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-18T22:30:43Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain==1.5.1 release(langchain): 1.5.2 (#41948) feat(langchain): tag synthetic HITL tool messages with source metadata (#41928)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain==1.5.2"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain==1.5.1",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.1",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-18T15:45:13Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain==1.5.0 release(langchain): 1.5.1 (#41943) fix(core): keep warning suppression context-local (#41881) fix(langchain): avoid warning-filter races in provider inference (#41880) fix(langchain): avoid warning-filter races in `ModelRequest` (#41879) chore(deps): bump",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain==1.5.1"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-xai==1.4.1",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.1",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-18T17:29:52Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-xai==1.4.0 release(xai): 1.4.1 (#41931) feat(xai): send `langsmith_gateway` headers from the client (#41904)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-xai==1.4.1"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-openai==1.8.2",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.2",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-18T16:53:05Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-openai==1.8.1 fix(openai): don't share the async HTTP client between models (#41944) feat(openai): support GPT-6.2 Astra and Sol (#41922) feat(openai): send `langsmith_gateway` headers from the client (#41901)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-openai==1.8.2"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-groq==1.2.1",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.2.1",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-18T17:27:22Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-groq==1.2.0 release(groq): 1.2.1 (#41930) feat(groq): send `langsmith_gateway` headers from the client (#41903)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-groq==1.2.1"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-deepseek==1.2.1",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-deepseek%3D%3D1.2.1",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-18T17:27:44Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-deepseek==1.2.0 release(deepseek): 1.2.1 (#41932) feat(deepseek): send `langsmith_gateway` headers from the client (#41905)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-deepseek==1.2.1"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-core==1.8.3",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.3",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-18T15:38:35Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-core==1.8.2 release(core): 1.8.3 (#41942) fix(core): keep warning suppression context-local (#41881) chore(infra): update vulnerable development dependencies (#41933)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.8.3"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-anthropic==1.7.11",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.11",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-18T15:20:19Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-anthropic==1.7.10 release(anthropic): 1.7.11 (#41929) feat(anthropic): send `langsmith_gateway` headers from the client (#41902) feat(anthropic): support Claude Fable and Mythos 5.2 (#41770) fix(anthropic): emit a chunk when an empty thinking block starts (#41907)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-anthropic==1.7.11"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-openai==1.8.1",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.1",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-17T20:39:43Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-openai==1.8.0 release(openai): 1.8.1 (#41924) fix(openai): recover function call args from done events (#41923)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-openai==1.8.1"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "langchain-core==1.8.2",
+      "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.2",
+      "publisher": "GitHub: langchain-ai/langchain",
+      "published_at": "2026-11-17T22:42:53Z",
+      "fetched_at": "2026-11-22T18:21:53.959Z",
+      "excerpt": "Changes since langchain-core==1.8.1 feat(core): add `headers` to `langsmith_gateway` and ignore proxies (#41900) docs(core): clarify when to override `aparse_result` (#41894) fix(core): avoid warning-filter races during schema creation (#41882)",
+      "source_ids": {
+        "github_repo": "langchain-ai/langchain",
+        "github_release_tag": "langchain-core==1.8.2"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}
