@@ -1,0 +1,43 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-deepmind-blog",
+  "fetched_at": "2026-11-23T22:29:50.699Z",
+  "items": [
+    {
+      "headline": "Finding faster quantum algorithms with agents and formal verification",
+      "canonical_url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.731Z",
+      "excerpt": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing Gemini 4 Neon",
+      "canonical_url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.731Z",
+      "excerpt": "Introducing Gemini 4 Neon",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/introducing-gemini-4-neon/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Genie 4 is now available",
+      "canonical_url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.731Z",
+      "excerpt": "Genie 4 is now available",
+      "source_ids": {
+        "guid": "https://deepmind.google/blog/genie-4-is-now-available/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

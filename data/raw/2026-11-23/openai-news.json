@@ -1,0 +1,295 @@
+{
+  "adapter": "lab-blogs",
+  "source": "openai-news",
+  "fetched_at": "2026-11-23T22:29:50.699Z",
+  "items": [
+    {
+      "headline": "OpenAI and Cisco introduce Shirudo",
+      "canonical_url": "https://openai.com/index/introducing-shirudo",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "source_ids": {
+        "guid": "https://openai.com/index/introducing-shirudo"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Connected intelligence for in-house legal",
+      "canonical_url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "source_ids": {
+        "guid": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Richpanel helps companies automate 50% of support in 30 days",
+      "canonical_url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "source_ids": {
+        "guid": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Perplexity and Intelligence",
+      "canonical_url": "https://openai.com/index/perplexity-and-intelligence",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-22T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "source_ids": {
+        "guid": "https://openai.com/index/perplexity-and-intelligence"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Combatting adversarial distillation",
+      "canonical_url": "https://openai.com/index/combatting-adversarial-distillation",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "source_ids": {
+        "guid": "https://openai.com/index/combatting-adversarial-distillation"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "canonical_url": "https://openai.com/business/customer-stories/hebbia",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "source_ids": {
+        "guid": "https://openai.com/business/customer-stories/hebbia"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Can AI help scientists identify promising drug candidates?",
+      "canonical_url": "https://openai.com/index/introducing-medchembench",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "source_ids": {
+        "guid": "https://openai.com/index/introducing-medchembench"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "canonical_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-19T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "source_ids": {
+        "guid": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "See PR scans in action",
+      "canonical_url": "https://openai.com/business/learn/pr-scans-demo",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-19T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "source_ids": {
+        "guid": "https://openai.com/business/learn/pr-scans-demo"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Get started with Daybreak Blue",
+      "canonical_url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-19T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "source_ids": {
+        "guid": "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Explore the Codex Security Plugin",
+      "canonical_url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-19T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "source_ids": {
+        "guid": "https://openai.com/business/learn/codex-security-plugin-demo"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Deploying Daybreak Red",
+      "canonical_url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-19T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "source_ids": {
+        "guid": "https://openai.com/business/learn/deploying-daybreak-red"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "The Silent Consensus",
+      "canonical_url": "https://openai.com/index/the-silent-consensus",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "source_ids": {
+        "guid": "https://openai.com/index/the-silent-consensus"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Research acceleration: The jagged frontier",
+      "canonical_url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "source_ids": {
+        "guid": "https://openai.com/index/research-acceleration-jagged-frontier"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "canonical_url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "source_ids": {
+        "guid": "https://openai.com/business/customer-stories/sumitomo-life"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Inside the Codex sandbox",
+      "canonical_url": "https://openai.com/index/inside-the-codex-sandbox",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "source_ids": {
+        "guid": "https://openai.com/index/inside-the-codex-sandbox"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Managing frontier AI risk: From training to deployment",
+      "canonical_url": "https://openai.com/index/managing-frontier-ai-risk",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "source_ids": {
+        "guid": "https://openai.com/index/managing-frontier-ai-risk"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "canonical_url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "source_ids": {
+        "guid": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Advancing chip design with OpenAI models",
+      "canonical_url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "source_ids": {
+        "guid": "https://openai.com/index/advancing-chip-design-with-our-models"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing GPT-6.2 Astra and Sol",
+      "canonical_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "source_ids": {
+        "guid": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Strengthening NATO and allied cyber defenses with AI",
+      "canonical_url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "source_ids": {
+        "guid": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing ChatGPT for Sales",
+      "canonical_url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "source_ids": {
+        "guid": "https://openai.com/index/introducing-chatgpt-for-sales"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Astra for Law leads in legal intelligence",
+      "canonical_url": "https://openai.com/index/astra-law-6-2",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "source_ids": {
+        "guid": "https://openai.com/index/astra-law-6-2"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing OpenAI for Chile",
+      "canonical_url": "https://openai.com/index/introducing-openai-for-chile",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-17T00:00:00.000Z",
+      "fetched_at": "2026-11-23T22:29:50.700Z",
+      "excerpt": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "source_ids": {
+        "guid": "https://openai.com/index/introducing-openai-for-chile"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
