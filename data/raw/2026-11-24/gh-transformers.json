@@ -1,0 +1,33 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-transformers",
+  "fetched_at": "2026-11-24T21:02:32.614Z",
+  "items": [
+    {
+      "headline": "Patch release v5.24.1",
+      "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.24.1",
+      "publisher": "GitHub: huggingface/transformers",
+      "published_at": "2026-11-24T16:13:08Z",
+      "fetched_at": "2026-11-24T21:02:32.666Z",
+      "excerpt": "# Patch release v5.24.1 A patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list ### vLLM related - Fix backward compatibility of the cache rename for remote code (#51085) by @hmellor - Restore modeling_attn_mask_utils for remote",
+      "source_ids": {
+        "github_repo": "huggingface/transformers",
+        "github_release_tag": "v5.24.1"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "Release v5.24.0",
+      "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+      "publisher": "GitHub: huggingface/transformers",
+      "published_at": "2026-11-21T12:28:26Z",
+      "fetched_at": "2026-11-24T21:02:32.666Z",
+      "excerpt": "# Release v5.24.0 ## New Model additions ### Inkling 2 Mini <img width=\"80%\" alt=\"image\" src=\"https://github.com/user-attachments/assets/beefb5e0-39a9-4205-ab07-0ee707af95f2\" /> Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text",
+      "source_ids": {
+        "github_repo": "huggingface/transformers",
+        "github_release_tag": "v5.24.0"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

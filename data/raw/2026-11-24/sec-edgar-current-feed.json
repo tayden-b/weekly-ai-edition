@@ -1,0 +1,37 @@
+{
+  "adapter": "sec-edgar",
+  "source": "sec-edgar-current-feed",
+  "fetched_at": "2026-11-24T21:02:32.614Z",
+  "items": [
+    {
+      "headline": "D — AGP INVICTA SHIELD AI I LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2138637/000213863726000003/0002138637-26-000003-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T20:58:19.000Z",
+      "fetched_at": "2026-11-24T21:02:33.892Z",
+      "excerpt": "Filed: 2026-11-24 AccNo: 0002138637-26-000003 Size: 10 KB Item 3C: Investment Company Act Section 3(c) Item 3C.7: Section 3(c)(7)",
+      "source_ids": {
+        "edgar_accession": "0002138637-26-000003",
+        "edgar_cik": "0002138637",
+        "edgar_form": "D",
+        "edgar_items": "3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — SHIELD AI II - IC LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2166508/000216650826000001/0002166508-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T20:50:16.000Z",
+      "fetched_at": "2026-11-24T21:02:33.892Z",
+      "excerpt": "Filed: 2026-11-24 AccNo: 0002166508-26-000001 Size: 9 KB Item 3C: Investment Company Act Section 3(c) Item 3C.7: Section 3(c)(7)",
+      "source_ids": {
+        "edgar_accession": "0002166508-26-000001",
+        "edgar_cik": "0002166508",
+        "edgar_form": "D",
+        "edgar_items": "3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    }
+  ]
+}
