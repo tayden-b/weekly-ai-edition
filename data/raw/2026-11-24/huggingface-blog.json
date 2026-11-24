@@ -1,0 +1,127 @@
+{
+  "adapter": "lab-blogs",
+  "source": "huggingface-blog",
+  "fetched_at": "2026-11-24T21:02:32.614Z",
+  "items": [
+    {
+      "headline": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "canonical_url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.660Z",
+      "excerpt": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "canonical_url": "https://huggingface.co/blog/allenai/robotrack",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.660Z",
+      "excerpt": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/allenai/robotrack"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How to build and maintain an agentic evaluation",
+      "canonical_url": "https://huggingface.co/blog/agentic-evals",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.660Z",
+      "excerpt": "How to build and maintain an agentic evaluation",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/agentic-evals"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "canonical_url": "https://huggingface.co/blog/inkling2mini",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.660Z",
+      "excerpt": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/inkling2mini"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "canonical_url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.660Z",
+      "excerpt": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/harness-adapters-at-scale"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "canonical_url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.660Z",
+      "excerpt": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Why your fine-tuning job takes longer than the FLOPs say",
+      "canonical_url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.660Z",
+      "excerpt": "Why your fine-tuning job takes longer than the FLOPs say",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "canonical_url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.660Z",
+      "excerpt": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "canonical_url": "https://huggingface.co/blog/moe-expert-streaming",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.660Z",
+      "excerpt": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/moe-expert-streaming"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "canonical_url": "https://huggingface.co/blog/rumble-2-flash",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.660Z",
+      "excerpt": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/rumble-2-flash"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

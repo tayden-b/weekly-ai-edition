@@ -1,0 +1,164 @@
+{
+  "adapter": "distribute-software",
+  "source": "distribute-releases",
+  "fetched_at": "2026-11-24T21:02:32.614Z",
+  "items": [
+    {
+      "headline": "Hy MT3 released on Hugging Face",
+      "canonical_url": "https://huggingface.co/models?author=tencent&search=Hy-MT3",
+      "publisher": "Tencent HY",
+      "published_at": "2026-11-24T06:15:14.180Z",
+      "fetched_at": "2026-11-24T21:02:34.613Z",
+      "excerpt": "Hy MT3 released on Hugging Face",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1303",
+        "distribute_url": "https://distribute.software/?show=labs&lab=tencent",
+        "distribute_source": "lab"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Introducing Muse in the UK: A Personal AI Agent You Control",
+      "canonical_url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+      "publisher": "Meta",
+      "published_at": "2026-11-24T06:00:40.000Z",
+      "fetched_at": "2026-11-24T21:02:34.613Z",
+      "excerpt": "Introducing Muse in the UK: A Personal AI Agent You Control",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1304",
+        "distribute_url": "https://distribute.software/companies/meta",
+        "distribute_source": "lab",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "OpenAI and Cisco introduce Shirudo",
+      "canonical_url": "https://openai.com/index/introducing-shirudo",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-23T21:20:00.000Z",
+      "fetched_at": "2026-11-24T21:02:34.613Z",
+      "excerpt": "OpenAI and Cisco introduce Shirudo",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1302",
+        "distribute_url": "https://distribute.software/companies/openai",
+        "distribute_source": "lab",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
+      "canonical_url": "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/",
+      "publisher": "Meta",
+      "published_at": "2026-11-23T18:00:01.000Z",
+      "fetched_at": "2026-11-24T21:02:34.613Z",
+      "excerpt": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1299",
+        "distribute_url": "https://distribute.software/companies/meta",
+        "distribute_source": "lab",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Introducing file slicing controls in the Gemini API",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-23T16:12:00.000Z",
+      "fetched_at": "2026-11-24T21:02:34.613Z",
+      "excerpt": "Introducing file slicing controls in the Gemini API",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1298",
+        "distribute_url": "https://distribute.software/companies/google",
+        "distribute_source": "lab",
+        "distribute_companies": "google"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Advancing Science Together: Highlights From the Open Source AI for Science Summit",
+      "canonical_url": "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/",
+      "publisher": "Meta",
+      "published_at": "2026-11-20T18:30:45.000Z",
+      "fetched_at": "2026-11-24T21:02:34.613Z",
+      "excerpt": "Advancing Science Together: Highlights From the Open Source AI for Science Summit",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1290",
+        "distribute_url": "https://distribute.software/companies/meta",
+        "distribute_source": "lab",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Introducing video ad variants and localization in Ads Engine",
+      "canonical_url": "https://elevenlabs.io/blog/video-variants-localization-ads-engine",
+      "publisher": "ElevenLabs",
+      "published_at": "2026-11-20T12:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:34.613Z",
+      "excerpt": "Introducing video ad variants and localization in Ads Engine",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1288",
+        "distribute_url": "https://distribute.software/?show=labs&lab=elevenlabs",
+        "distribute_source": "lab"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Introducing Inkling 2 Mini",
+      "canonical_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "publisher": "Thinking Machines",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:34.613Z",
+      "excerpt": "Introducing Inkling 2 Mini",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1293",
+        "distribute_url": "https://distribute.software/?show=labs&lab=thinking-machines",
+        "distribute_source": "lab"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "canonical_url": "https://blog.cloudflare.com/open-clairic/",
+      "publisher": "Cloudflare",
+      "published_at": "2026-11-18T22:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:34.613Z",
+      "excerpt": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1274",
+        "distribute_url": "https://distribute.software/companies/cloudflare",
+        "distribute_source": "lab",
+        "distribute_companies": "cloudflare"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Genie 4 is now available",
+      "canonical_url": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-18T18:13:42.000Z",
+      "fetched_at": "2026-11-24T21:02:34.613Z",
+      "excerpt": "Genie 4 is now available",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1271",
+        "distribute_url": "https://distribute.software/companies/google",
+        "distribute_source": "lab",
+        "distribute_companies": "google"
+      },
+      "adapter": "distribute-software"
+    }
+  ]
+}

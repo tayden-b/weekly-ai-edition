@@ -1,0 +1,644 @@
+{
+  "adapter": "benchmarks",
+  "source": "epoch-ai-data",
+  "fetched_at": "2026-11-24T21:02:32.614Z",
+  "items": [
+    {
+      "headline": "GPQA Diamond: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=gpqa_diamond&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T18:07:43.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.9400252525252525 · Best score (across scorers): 0.9400252525252525 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "JymHNEjNLezBkB7xketUQW",
+        "epoch_benchmark": "gpqa_diamond"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "GPQA Diamond: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=gpqa_diamond&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.9627525252525253 · Best score (across scorers): 0.9627525252525253 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "oRxFiWKdd7DmcfFkg999ph",
+        "epoch_benchmark": "gpqa_diamond"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "OTIS Mock AIME 2024/2025: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=otis_mock_aime_2024_2025&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T18:07:43.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 1.0 · Best score (across scorers): 1.0 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "KLBQVMFLGR3k2FuoHcKho8",
+        "epoch_benchmark": "otis_mock_aime_2024_2025"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "OTIS Mock AIME 2024/2025: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=otis_mock_aime_2024_2025&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 1.0 · Best score (across scorers): 1.0 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "YsAqrfCM6uNnSuhZn6VWg5",
+        "epoch_benchmark": "otis_mock_aime_2024_2025"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "OTIS Mock AIME 2024/2025: muse-ember-1.0_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=otis_mock_aime_2024_2025&model=muse-ember-1.0_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T08:36:43.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.9888888888888889 · Best score (across scorers): 0.9888888888888889 · Organization: Meta AI · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "nZUF7ahsSbH2hAZGWixCza",
+        "epoch_benchmark": "otis_mock_aime_2024_2025"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "FrontierMath Tiers 1–3 v2: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_tiers_1_3_v2&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T18:07:43.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.7859649122807018 · Best score (across scorers): 0.7859649122807018 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "ZUTEQztvH2dfhDZ2gPSCaq",
+        "epoch_benchmark": "frontiermath_tiers_1_3_v2"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "FrontierMath Tiers 1–3 v2: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_tiers_1_3_v2&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.9122807017543859 · Best score (across scorers): 0.9122807017543859 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "QyysSvXXsJYV5iW59pXS6M",
+        "epoch_benchmark": "frontiermath_tiers_1_3_v2"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "FrontierMath Tier 4 v2: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_tier_4_v2&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T18:07:43.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.5365853658536586 · Best score (across scorers): 0.5365853658536586 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "2toDZjjqhYrKfjvZsBXb9n",
+        "epoch_benchmark": "frontiermath_tier_4_v2"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "FrontierMath Tier 4 v2: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_tier_4_v2&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.975609756097561 · Best score (across scorers): 0.975609756097561 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "ggBaj5NDWieo5AzqCGA8DL",
+        "epoch_benchmark": "frontiermath_tier_4_v2"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "EBR-Bench: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=ebr_bench&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-21T20:39:13.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.39999999999999997 · Best score (across scorers): 0.39999999999999997 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "ABXhrAyb7iy97kejN8U5jr",
+        "epoch_benchmark": "ebr_bench"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "EBR-Bench: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=ebr_bench&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T22:21:33.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.980952380952381 · Best score (across scorers): 0.980952380952381 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "GZkNcLrqhgysFJgkGAofNw",
+        "epoch_benchmark": "ebr_bench"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "EBR-Bench: muse-ember-1.0_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=ebr_bench&model=muse-ember-1.0_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T08:38:55.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.17142857142857143 · Best score (across scorers): 0.17142857142857143 · Organization: Meta AI · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "G5dYmKPxTmbQiqPR397pxU",
+        "epoch_benchmark": "ebr_bench"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "SimpleQA Verified: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simpleqa_verified&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T18:07:43.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.541 · Best score (across scorers): 0.541 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "kJsZPr4qVFgYzKv39fBRk6",
+        "epoch_benchmark": "simpleqa_verified"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "SimpleQA Verified: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simpleqa_verified&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.752 · Best score (across scorers): 0.752 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "oNv3qiZwkezTmFHngNKsne",
+        "epoch_benchmark": "simpleqa_verified"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "Chess Puzzles: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=chess_puzzles&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T18:07:43.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.36 · Best score (across scorers): 0.36 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "fkbBqRDJusguA3zFh6vsu7",
+        "epoch_benchmark": "chess_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "Chess Puzzles: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=chess_puzzles&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.83 · Best score (across scorers): 0.83 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "fFyrzqsFMrDAqvwRpBvJga",
+        "epoch_benchmark": "chess_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "Chess Puzzles: muse-ember-1.0_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=chess_puzzles&model=muse-ember-1.0_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T08:36:43.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.43 · Best score (across scorers): 0.43 · Organization: Meta AI · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "kyJEu8dSd6wXiVaRdJjh4b",
+        "epoch_benchmark": "chess_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "mystery game puzzles: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=mystery_game_puzzles&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T18:07:43.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.36 · Best score (across scorers): 0.36 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "8simJX6sBUqgsZDwjw3o68",
+        "epoch_benchmark": "mystery_game_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "mystery game puzzles: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=mystery_game_puzzles&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:50.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.85 · Best score (across scorers): 0.85 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "mJRYugfe4i489xxrkjRLtK",
+        "epoch_benchmark": "mystery_game_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "mystery game puzzles: muse-ember-1.0_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=mystery_game_puzzles&model=muse-ember-1.0_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T08:36:43.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.28 · Best score (across scorers): 0.28 · Organization: Meta AI · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "GzfUepSXaYVHs4BpSDeXLo",
+        "epoch_benchmark": "mystery_game_puzzles"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "frontiermath erdos: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_erdos&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T20:15:40.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.07352941176470588 · Best score (across scorers): 0.07352941176470588 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "gem4neon-xh-bloom68-72owyabc3jtrx646",
+        "epoch_benchmark": "frontiermath_erdos"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "frontiermath erdos: gemini-4-hydrogen_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=frontiermath_erdos&model=gemini-4-hydrogen_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T08:15:59.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.029411764705882353 · Best score (across scorers): 0.029411764705882353 · Organization: Google DeepMind · Release date: 2026-11-12",
+      "source_ids": {
+        "epoch_eval_id": "gem4hydrogen-xh-bloom68-4xocsoq6ac9ylwg4",
+        "epoch_benchmark": "frontiermath_erdos"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "furniture assembly: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=furniture_assembly&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T18:07:55.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.3416666666666667 · Best score (across scorers): 0.3416666666666667 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "kMmqVC2ykQbP458ZheJkuv",
+        "epoch_benchmark": "furniture_assembly"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "furniture assembly: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=furniture_assembly&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T21:24:52.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.8916666666666667 · Best score (across scorers): 0.8916666666666667 · Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "YPjCpLePrMUYrSLAUtKcVb",
+        "epoch_benchmark": "furniture_assembly"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "furniture assembly: muse-ember-1.0_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=furniture_assembly&model=muse-ember-1.0_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T08:36:34.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.48333333333333334 · Best score (across scorers): 0.48333333333333334 · Organization: Meta AI · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "BkQafyqYdLPVwUUL5YBaeK",
+        "epoch_benchmark": "furniture_assembly"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-23T14:59:24.222Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.0 · Best score (across scorers): 0.0 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-d254f3abf608da56+steambench-sts2-a10-684481e7f711bd56",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: gemini-4-hydrogen_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=gemini-4-hydrogen_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-22T22:24:43.965Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.135 · Best score (across scorers): 0.135 · Organization: Google DeepMind · Release date: 2026-11-12",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-e607bf3772540bf1+steambench-sts2-a10-cf0e9d9d7ade6d3b",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: gemini-4-argon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=gemini-4-argon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T22:28:59.258Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.16666666666666669 · Best score (across scorers): 0.16666666666666669 · Organization: Google DeepMind · Release date: 2026-10-13",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-21986d9aacca92b8+steambench-sts2-a10-e3e17d749bc7b148",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T22:22:12.327Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.31166666666666665 · Best score (across scorers): 0.31166666666666665 · Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-3f481e4a9fb63ead+steambench-sts2-a10-a5ee6b7b2156a7e5",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb: muse-ember-1.0_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb&model=muse-ember-1.0_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T08:44:31.904Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.0 · Best score (across scorers): 0.0 · Organization: Meta AI · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-7a5d2ae2a1c649b1+steambench-sts2-a10-fae60a813e93a1f2",
+        "epoch_benchmark": "spireclimb"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-23T14:59:17.419Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.0 · Best score (across scorers): 0.0 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-d254f3abf608da56",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: gemini-4-hydrogen_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=gemini-4-hydrogen_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-22T22:24:32.898Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.15 · Best score (across scorers): 0.15 · Organization: Google DeepMind · Release date: 2026-11-12",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-e607bf3772540bf1",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: gemini-4-argon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=gemini-4-argon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T22:28:46.352Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.13333333333333333 · Best score (across scorers): 0.13333333333333333 · Organization: Google DeepMind · Release date: 2026-10-13",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-21986d9aacca92b8",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T22:21:55.012Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.25 · Best score (across scorers): 0.25 · Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-3f481e4a9fb63ead",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts1 a20 heart: muse-ember-1.0_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts1_a20_heart&model=muse-ember-1.0_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T08:44:27.414Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.0 · Best score (across scorers): 0.0 · Organization: Meta AI · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts1-a20h-7a5d2ae2a1c649b1",
+        "epoch_benchmark": "spireclimb_sts1_a20_heart"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts2 a10: qwen4-max_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts2_a10&model=qwen4-max_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-23T14:59:24.222Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.0 · Best score (across scorers): 0.0 · Organization: Alibaba · Release date: 2026-11-16",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts2-a10-684481e7f711bd56",
+        "epoch_benchmark": "spireclimb_sts2_a10"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts2 a10: gemini-4-hydrogen_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts2_a10&model=gemini-4-hydrogen_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-22T22:24:43.965Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.12 · Best score (across scorers): 0.12 · Organization: Google DeepMind · Release date: 2026-11-12",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts2-a10-cf0e9d9d7ade6d3b",
+        "epoch_benchmark": "spireclimb_sts2_a10"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts2 a10: gemini-4-argon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts2_a10&model=gemini-4-argon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T22:28:59.258Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.2 · Best score (across scorers): 0.2 · Organization: Google DeepMind · Release date: 2026-10-13",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts2-a10-e3e17d749bc7b148",
+        "epoch_benchmark": "spireclimb_sts2_a10"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts2 a10: gemini-4-carbon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts2_a10&model=gemini-4-carbon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-20T22:22:12.327Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.37333333333333335 · Best score (across scorers): 0.37333333333333335 · Organization: Google DeepMind · Release date: 2026-11-10",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts2-a10-a5ee6b7b2156a7e5",
+        "epoch_benchmark": "spireclimb_sts2_a10"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "spireclimb sts2 a10: muse-ember-1.0_max",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=spireclimb_sts2_a10&model=muse-ember-1.0_max",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-19T08:44:31.904Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "mean_score: 0.0 · Best score (across scorers): 0.0 · Organization: Meta AI · Release date: 2026-11-09",
+      "source_ids": {
+        "epoch_eval_id": "steambench-sts2-a10-fae60a813e93a1f2",
+        "epoch_benchmark": "spireclimb_sts2_a10"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "simplebench external: gemini-4-neon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=simplebench_external&model=gemini-4-neon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "recbPninPo45f6Vpe",
+        "epoch_benchmark": "simplebench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "gdp pdf external: gemini-4-neon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=gdp_pdf_external&model=gemini-4-neon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "recEFPQtT7U5Fz8m6",
+        "epoch_benchmark": "gdp_pdf_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-neon_xhigh",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-neon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-neon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-neon_high",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-neon_medium",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-neon_medium",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-neon_medium",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "cursorbench external: gemini-4-neon_low",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=cursorbench_external&model=gemini-4-neon_low",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "cursorbench_external:gemini-4-neon_low",
+        "epoch_benchmark": "cursorbench_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "apex agents external: gemini-4-neon_xhigh",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=apex_agents_external&model=gemini-4-neon_xhigh",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "rec9YdMYfCNljZ7RO",
+        "epoch_benchmark": "apex_agents_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "apex agents external: gemini-4-neon_high",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=apex_agents_external&model=gemini-4-neon_high",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "rec0gHY2LSfDKLVDo",
+        "epoch_benchmark": "apex_agents_external"
+      },
+      "adapter": "benchmarks"
+    },
+    {
+      "headline": "vending bench 2 external: gemini-4-neon_unknown",
+      "canonical_url": "https://epoch.ai/benchmarks?benchmark=vending_bench_2_external&model=gemini-4-neon_unknown",
+      "publisher": "Epoch AI",
+      "published_at": "2026-11-18T00:00:00.000Z",
+      "fetched_at": "2026-11-24T21:02:32.670Z",
+      "excerpt": "Organization: Google DeepMind · Release date: 2026-11-18",
+      "source_ids": {
+        "epoch_eval_id": "recN6kHWGy5V2JLkG",
+        "epoch_benchmark": "vending_bench_2_external"
+      },
+      "adapter": "benchmarks"
+    }
+  ]
+}

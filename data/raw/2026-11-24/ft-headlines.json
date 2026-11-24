@@ -1,0 +1,20 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-24T21:02:32.614Z",
+  "items": [
+    {
+      "headline": "Anthropic falls below IPO price as tech rally fades",
+      "canonical_url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-24T20:07:51.000Z",
+      "fetched_at": "2026-11-24T21:02:32.683Z",
+      "excerpt": "Anthropic falls below IPO price as tech rally fades",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "c0cb932a-076e-4471-8009-91749fde5f47"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}
