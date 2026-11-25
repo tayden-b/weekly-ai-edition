@@ -1,0 +1,367 @@
+{
+  "adapter": "markets",
+  "source": "yahoo-weekly",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "NVDA weekly close 125.53 (-22.9% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/NVDA",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "NVIDIA (NVDA) week ending 2026-11-20: close 125.53, -22.9% vs prior weekly close 162.85 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "NVDA",
+        "yahoo_symbol": "NVDA",
+        "week_ending": "2026-11-20",
+        "weekly_close": "125.53",
+        "prior_weekly_close": "162.85",
+        "wow_delta_pct": "-22.9"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "NVDA weekly close 148.11 (+18.0% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/NVDA",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "NVIDIA (NVDA) week ending 2026-11-25: close 148.11, +18.0% vs prior weekly close 125.53 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "NVDA",
+        "yahoo_symbol": "NVDA",
+        "week_ending": "2026-11-25",
+        "weekly_close": "148.11",
+        "prior_weekly_close": "125.53",
+        "wow_delta_pct": "18.0"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "MSFT weekly close 484.52 (-7.5% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/MSFT",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Microsoft (MSFT) week ending 2026-11-20: close 484.52, -7.5% vs prior weekly close 523.88 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "MSFT",
+        "yahoo_symbol": "MSFT",
+        "week_ending": "2026-11-20",
+        "weekly_close": "484.52",
+        "prior_weekly_close": "523.88",
+        "wow_delta_pct": "-7.5"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "MSFT weekly close 489.61 (+1.1% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/MSFT",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Microsoft (MSFT) week ending 2026-11-25: close 489.61, +1.1% vs prior weekly close 484.52 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "MSFT",
+        "yahoo_symbol": "MSFT",
+        "week_ending": "2026-11-25",
+        "weekly_close": "489.61",
+        "prior_weekly_close": "484.52",
+        "wow_delta_pct": "1.1"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "GOOGL weekly close 265.29 (-10.3% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/GOOGL",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Alphabet (GOOGL) week ending 2026-11-20: close 265.29, -10.3% vs prior weekly close 295.77 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "GOOGL",
+        "yahoo_symbol": "GOOGL",
+        "week_ending": "2026-11-20",
+        "weekly_close": "265.29",
+        "prior_weekly_close": "295.77",
+        "wow_delta_pct": "-10.3"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "GOOGL weekly close 272.23 (+2.6% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/GOOGL",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Alphabet (GOOGL) week ending 2026-11-25: close 272.23, +2.6% vs prior weekly close 265.29 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "GOOGL",
+        "yahoo_symbol": "GOOGL",
+        "week_ending": "2026-11-25",
+        "weekly_close": "272.23",
+        "prior_weekly_close": "265.29",
+        "wow_delta_pct": "2.6"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "META weekly close 560.84 (-12.6% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/META",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Meta (META) week ending 2026-11-20: close 560.84, -12.6% vs prior weekly close 641.69 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "META",
+        "yahoo_symbol": "META",
+        "week_ending": "2026-11-20",
+        "weekly_close": "560.84",
+        "prior_weekly_close": "641.69",
+        "wow_delta_pct": "-12.6"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "META weekly close 604.90 (+7.9% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/META",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Meta (META) week ending 2026-11-25: close 604.90, +7.9% vs prior weekly close 560.84 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "META",
+        "yahoo_symbol": "META",
+        "week_ending": "2026-11-25",
+        "weekly_close": "604.90",
+        "prior_weekly_close": "560.84",
+        "wow_delta_pct": "7.9"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "AMZN weekly close 246.82 (-7.4% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/AMZN",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Amazon (AMZN) week ending 2026-11-20: close 246.82, -7.4% vs prior weekly close 266.66 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "AMZN",
+        "yahoo_symbol": "AMZN",
+        "week_ending": "2026-11-20",
+        "weekly_close": "246.82",
+        "prior_weekly_close": "266.66",
+        "wow_delta_pct": "-7.4"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "AMZN weekly close 245.12 (-0.7% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/AMZN",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Amazon (AMZN) week ending 2026-11-25: close 245.12, -0.7% vs prior weekly close 246.82 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "AMZN",
+        "yahoo_symbol": "AMZN",
+        "week_ending": "2026-11-25",
+        "weekly_close": "245.12",
+        "prior_weekly_close": "246.82",
+        "wow_delta_pct": "-0.7"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "AMD weekly close 424.39 (-20.5% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/AMD",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "AMD (AMD) week ending 2026-11-20: close 424.39, -20.5% vs prior weekly close 534.06 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "AMD",
+        "yahoo_symbol": "AMD",
+        "week_ending": "2026-11-20",
+        "weekly_close": "424.39",
+        "prior_weekly_close": "534.06",
+        "wow_delta_pct": "-20.5"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "AMD weekly close 404.04 (-4.8% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/AMD",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "AMD (AMD) week ending 2026-11-25: close 404.04, -4.8% vs prior weekly close 424.39 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "AMD",
+        "yahoo_symbol": "AMD",
+        "week_ending": "2026-11-25",
+        "weekly_close": "404.04",
+        "prior_weekly_close": "424.39",
+        "wow_delta_pct": "-4.8"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "TSM weekly close 318.71 (-20.1% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/TSM",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "TSMC (TSM) week ending 2026-11-20: close 318.71, -20.1% vs prior weekly close 398.73 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "TSM",
+        "yahoo_symbol": "TSM",
+        "week_ending": "2026-11-20",
+        "weekly_close": "318.71",
+        "prior_weekly_close": "398.73",
+        "wow_delta_pct": "-20.1"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "TSM weekly close 340.97 (+7.0% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/TSM",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "TSMC (TSM) week ending 2026-11-25: close 340.97, +7.0% vs prior weekly close 318.71 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "TSM",
+        "yahoo_symbol": "TSM",
+        "week_ending": "2026-11-25",
+        "weekly_close": "340.97",
+        "prior_weekly_close": "318.71",
+        "wow_delta_pct": "7.0"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "AVGO weekly close 304.41 (-12.3% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/AVGO",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Broadcom (AVGO) week ending 2026-11-20: close 304.41, -12.3% vs prior weekly close 347.01 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "AVGO",
+        "yahoo_symbol": "AVGO",
+        "week_ending": "2026-11-20",
+        "weekly_close": "304.41",
+        "prior_weekly_close": "347.01",
+        "wow_delta_pct": "-12.3"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "AVGO weekly close 297.87 (-2.1% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/AVGO",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Broadcom (AVGO) week ending 2026-11-25: close 297.87, -2.1% vs prior weekly close 304.41 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "AVGO",
+        "yahoo_symbol": "AVGO",
+        "week_ending": "2026-11-25",
+        "weekly_close": "297.87",
+        "prior_weekly_close": "304.41",
+        "wow_delta_pct": "-2.1"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "PLTR weekly close 143.49 (-14.6% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/PLTR",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Palantir (PLTR) week ending 2026-11-20: close 143.49, -14.6% vs prior weekly close 167.99 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "PLTR",
+        "yahoo_symbol": "PLTR",
+        "week_ending": "2026-11-20",
+        "weekly_close": "143.49",
+        "prior_weekly_close": "167.99",
+        "wow_delta_pct": "-14.6"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "PLTR weekly close 163.70 (+14.1% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/PLTR",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Palantir (PLTR) week ending 2026-11-25: close 163.70, +14.1% vs prior weekly close 143.49 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "PLTR",
+        "yahoo_symbol": "PLTR",
+        "week_ending": "2026-11-25",
+        "weekly_close": "163.70",
+        "prior_weekly_close": "143.49",
+        "wow_delta_pct": "14.1"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "ARM weekly close 152.20 (-20.1% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/ARM",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Arm (ARM) week ending 2026-11-20: close 152.20, -20.1% vs prior weekly close 190.53 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "ARM",
+        "yahoo_symbol": "ARM",
+        "week_ending": "2026-11-20",
+        "weekly_close": "152.20",
+        "prior_weekly_close": "190.53",
+        "wow_delta_pct": "-20.1"
+      },
+      "adapter": "markets"
+    },
+    {
+      "headline": "ARM weekly close 160.92 (+5.7% WoW)",
+      "canonical_url": "https://finance.yahoo.com/quote/ARM",
+      "publisher": "Yahoo Finance",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.737Z",
+      "excerpt": "Arm (ARM) week ending 2026-11-25: close 160.92, +5.7% vs prior weekly close 152.20 (Yahoo Finance daily closes, last trading day per week).",
+      "source_ids": {
+        "provider": "yahoo-weekly",
+        "ticker": "ARM",
+        "yahoo_symbol": "ARM",
+        "week_ending": "2026-11-25",
+        "weekly_close": "160.92",
+        "prior_weekly_close": "152.20",
+        "wow_delta_pct": "5.7"
+      },
+      "adapter": "markets"
+    }
+  ]
+}

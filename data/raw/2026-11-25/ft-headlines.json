@@ -1,0 +1,33 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "US stocks endure volatile session as AI trade remains under pressure",
+      "canonical_url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T19:39:04.000Z",
+      "fetched_at": "2026-11-25T20:25:04.736Z",
+      "excerpt": "US stocks endure volatile session as AI trade remains under pressure",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "705eb84c-801d-4a96-b908-e366511e886a"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "‘Anflopic’ bodes badly for OpenAI’s IPO prospects",
+      "canonical_url": "https://www.ft.com/content/1c62dcfe-826f-4638-a9ee-c3b3009bc45d",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T06:00:02.000Z",
+      "fetched_at": "2026-11-25T20:25:04.736Z",
+      "excerpt": "‘Anflopic’ bodes badly for OpenAI’s IPO prospects",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "1c62dcfe-826f-4638-a9ee-c3b3009bc45d"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ars-ai",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "canonical_url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-24T17:34:34.000Z",
+      "fetched_at": "2026-11-25T20:25:05.763Z",
+      "excerpt": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Artificial Intelligence",
+        "music streaming",
+        "tidal"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google rolls out new search homepage with AI chat history and no search button",
+      "canonical_url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-20T21:58:29.000Z",
+      "fetched_at": "2026-11-25T20:25:05.763Z",
+      "excerpt": "Google search is making it even easier to access AI tools on the search page.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Google",
+        "Artificial Intelligence",
+        "google",
+        "search"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "publisher": "Ars Technica",
+      "published_at": "2026-11-19T20:19:28.000Z",
+      "fetched_at": "2026-11-25T20:25:05.763Z",
+      "excerpt": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
+      "source_ids": {
+        "rss_guid": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+        "newsroom_feed": "ars-ai"
+      },
+      "categories": [
+        "AI",
+        "Policy",
+        "ai gun detection",
+        "ai in schools",
+        "Artificial Intelligence",
+        "Omnilert"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

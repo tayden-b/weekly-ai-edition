@@ -1,0 +1,20 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-ollama",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "v0.40.18",
+      "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.18",
+      "publisher": "GitHub: ollama/ollama",
+      "published_at": "2026-11-24T04:18:13Z",
+      "fetched_at": "2026-11-25T20:25:04.722Z",
+      "excerpt": "## What's Changed * mlx: fuse Inkling residual mixing on Metal by @dhiltgen in https://github.com/ollama/ollama/pull/19808 * mlxrunner: share tensor helpers and model setup across architectures by @jaingaurav in https://github.com/ollama/ollama/pull/19805 * llama.cpp: version bump b12651 + remove",
+      "source_ids": {
+        "github_repo": "ollama/ollama",
+        "github_release_tag": "v0.40.18"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

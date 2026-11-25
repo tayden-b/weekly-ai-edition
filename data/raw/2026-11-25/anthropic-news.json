@@ -1,0 +1,79 @@
+{
+  "adapter": "lab-blogs",
+  "source": "anthropic-news",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "Ipo Close",
+      "canonical_url": "https://www.anthropic.com/news/ipo-close",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-20T12:41:01.161Z",
+      "fetched_at": "2026-11-25T20:25:04.710Z",
+      "excerpt": "Ipo Close",
+      "source_ids": {
+        "slug": "ipo-close"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Formal Verification",
+      "canonical_url": "https://www.anthropic.com/research/formal-verification",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-20T18:45:25.849Z",
+      "fetched_at": "2026-11-25T20:25:04.710Z",
+      "excerpt": "Formal Verification",
+      "source_ids": {
+        "slug": "formal-verification"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Migrating Api To Rust",
+      "canonical_url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-25T16:27:43.869Z",
+      "fetched_at": "2026-11-25T20:25:04.710Z",
+      "excerpt": "Migrating Api To Rust",
+      "source_ids": {
+        "slug": "migrating-api-to-rust"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Alignment",
+      "canonical_url": "https://www.anthropic.com/research/team/alignment",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-24T17:02:51.779Z",
+      "fetched_at": "2026-11-25T20:25:04.710Z",
+      "excerpt": "Alignment",
+      "source_ids": {
+        "slug": "alignment"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Interpretability",
+      "canonical_url": "https://www.anthropic.com/research/team/interpretability",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-24T06:56:52.923Z",
+      "fetched_at": "2026-11-25T20:25:04.710Z",
+      "excerpt": "Interpretability",
+      "source_ids": {
+        "slug": "interpretability"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Working With Ai",
+      "canonical_url": "https://www.anthropic.com/research/working-with-ai",
+      "publisher": "Anthropic",
+      "published_at": "2026-11-23T22:13:27.525Z",
+      "fetched_at": "2026-11-25T20:25:04.710Z",
+      "excerpt": "Working With Ai",
+      "source_ids": {
+        "slug": "working-with-ai"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-ai-blog",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "How Gemini is changing the game for Golden State's organization and fans.",
+      "canonical_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.712Z",
+      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "source_ids": {
+        "guid": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "A more tailored Google Search that’s uniquely yours",
+      "canonical_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.712Z",
+      "excerpt": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "source_ids": {
+        "guid": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing Tool Retrieval in the Gemini API",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-19T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.712Z",
+      "excerpt": "Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-19T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.712Z",
+      "excerpt": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "source_ids": {
+        "guid": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
