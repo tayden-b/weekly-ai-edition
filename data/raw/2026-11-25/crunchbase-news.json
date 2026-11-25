@@ -1,0 +1,85 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "crunchbase-news",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "Your AI Startup’s Exit Is Being Shaped By The Deals You Sign Today",
+      "canonical_url": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-25T12:00:09.000Z",
+      "fetched_at": "2026-11-25T20:25:04.736Z",
+      "excerpt": "When everything moves that fast, the terms of your financings and of your contracts for compute, data and distribution get set early and in a hurry. Some of those terms will later slow a sale, add cost and erode value.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94444"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "AI Bias In HR: Why Polished Work Gets Overrated And What to Do About It",
+      "canonical_url": "https://news.crunchbase.com/workplace/ai-bias-in-hr-hiring-job-applications/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-24T12:00:48.000Z",
+      "fetched_at": "2026-11-25T20:25:04.736Z",
+      "excerpt": "Employees and job-seekers alike are all using AI to create polished work and applications that appear perfect. In that environment, how can we promote and hire the right people?",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94439"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "The Week’s 10 Biggest Funding Rounds: $400M For Neurotech Leads, Followed By Big Deals For AI, Fintech, Biotech And More",
+      "canonical_url": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-20T20:15:54.000Z",
+      "fetched_at": "2026-11-25T20:25:04.736Z",
+      "excerpt": "U.S. startups continued to secure sizable rounds, led by brain-computer interface company Science securing a fresh $400 million.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94434"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "5 Interesting Startup Deals You May Have Missed: Reflecting Sunlight From Space, Better Breathing And Smarter Garbage Trucks",
+      "canonical_url": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-solar-healthcare-space-tech/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-20T12:00:25.000Z",
+      "fetched_at": "2026-11-25T20:25:04.736Z",
+      "excerpt": "What if solar farms could keep generating electricity after sunset with a little help from mirrors orbiting Earth? Or researchers could send an experiment into space for less than the price of a car? Our latest roundup also includes a company bringing AI to the old-school business of garbage",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94408"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "What The Telecom Bust Taught Me About AI’s Debt Boom",
+      "canonical_url": "https://news.crunchbase.com/venture/telecom-bust-ai-startup-debt-boom-spreng-runway-growth/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-20T12:00:01.000Z",
+      "fetched_at": "2026-11-25T20:25:04.736Z",
+      "excerpt": "The AI buildout’s growing reliance on debt echoes the telecom bubble, raising the risk that infrastructure spending will outpace the revenue needed to meet fixed repayment obligations. According to guest author David Spreng of Runway Growth Capital, even if AI fulfills its technological promise,",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94419"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "What’s Next For Recruiting, Job Hunting And HR? More AI, Of Course",
+      "canonical_url": "https://news.crunchbase.com/venture/data-recruiting-job-hunting-hr-ai-startups-mercor/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-19T12:00:23.000Z",
+      "fetched_at": "2026-11-25T20:25:04.736Z",
+      "excerpt": "So far this year, venture backers have poured close to $4 billion into an assortment of global companies focused on recruiting, finding jobs and streamlining processes associated with HR and payroll management, Crunchbase data shows. Not surprisingly, the vast majority are also incorporating a",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94414"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

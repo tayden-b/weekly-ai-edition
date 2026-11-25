@@ -1,0 +1,455 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "funding-index",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "Bound raised $54M (Debt) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/bound-debt-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-25T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Bound, a London-based AI-powered foreign exchange risk management platform for mid-market companies, has secured a €45.72 million ($50 million) three-year revolving debt facility.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/bound-debt-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Data infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sequent raised $2.2M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/sequent-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-25T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Formal verification startup Sequent Inc.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/sequent-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Etched raised $300M (Series C) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/etched-series-c-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-24T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "AI chip startup Etched raises $300 million at $10.3 billion valuation, ETManufacturing",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/etched-series-c-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Marlowe raised $277M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/marlowe-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-24T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Artificial intelligence infrastructure startup Marlowe AI Inc. Led by Accel. Bessemer.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/marlowe-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Zipher raised $53M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/zipher-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-24T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Data infrastructure startup Zipher Technologies Ltd.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/zipher-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Data infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AidenAi raised $32M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/aidenai-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-24T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Investment will accelerate AidenAI's AI Builder Platform, frontier AI engineering and global expansion, including a team of more than 1,000 frontier AI engineers.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/aidenai-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Intelligent Legal Solutions raised $11M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/intelligent-legal-solutions-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-24T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Legaltech company Intelligent Legal Solutions (ILS), developer ofthe ProVision platform for private investment funds lawyers, has raised $11million in a Series A round co-led by Aquiline and BlackFin ... Led by Aquiline.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/intelligent-legal-solutions-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Developer tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Playbook raised $9.4M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/playbook-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-24T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "AI agents taking on tasks in pharmaceutical companies must follow the same procedures as human employees.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/playbook-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "WearOptimo raised $7.8M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/wearoptimo-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-24T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "- Investment from Synthesis Capital, including on behalf of HESTA, will support WearOptimo's next phase of technology development and commercialization plans BRISBANE, Australia and NEW YORK, Nov.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/wearoptimo-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Maple raised $5.3M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/maple-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-24T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/maple-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Verra raised $5M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/verra-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-24T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Verra, an artificial intelligence startup building the institutional memory layer for consulting firms, said today it has raised $5 million in seed funding to help those companies overcome their amnesia and make their decades of knowledge a Led by Kearny Jackson.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/verra-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Sierra raised $1.8B (Series F) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/sierra-series-f-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-23T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Six months after its last funding round, artificial intelligence startup Sierra Technologies Inc.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/sierra-series-f-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Agon raised $75M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/agon-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-23T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Agon, a London-based defence AI startup building sovereign infrastructure for autonomous military systems, has raised a €63.87 million ($70 million) Series A round at a valuation of €411.3 million ($450 million). Led by Northzone.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/agon-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Supertake raised $20M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/supertake-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-23T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Think you know where the market is headed?",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/supertake-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Matters.AI raised $12M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/matters-ai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-23T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Enterprise data security startup Matters.AI today announced that it has raised $12 million in new funding as it expands its business in North America.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/matters-ai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Acorda raised $2.5M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/acorda-pre-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-23T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Acorda, a London-based FinTech startup helping payment providers stop financial scams through shared risk data, has raised €2.15 million (£1.8 million) in a pre-Seed funding round. Led by Concept Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/acorda-pre-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Archer raised $10M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/archer-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-20T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Archer (formerly hackajob) has raised$10 million in new funding in a round led by Volition Capital, withparticipation from existing investor AVP. Led by Volition Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/archer-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Wilco raised $2.9M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/wilco-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-20T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Wilco, a Madrid-based startup building AI voice and messaging agents for healthcare clinic groups, has announced its launch and a new €2.5 million funding round. Led by Samaipata.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/wilco-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "MegaRobo raised $200M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/megarobo-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-19T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Chinese biotech robotics firm MegaRobo Co.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/megarobo-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Boltz raised $110M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/boltz-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-19T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "London-based AI drug discovery startup Boltz has raised a $110m Series A funding round, less than a year after emerging out of stealth.Boltz is an AI research startup that develops AI models to speed ...",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/boltz-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Linq raised $90M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/linq-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-19T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Every business and every person will have an agent.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/linq-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Everful raised $49M (Series A) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/everful-series-a-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-19T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Everful Raises $48.5 Million Series A to Build the AI Infrastructure Layer for Global Commerce",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/everful-series-a-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Data infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nodal Networks raised $11M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/nodal-networks-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-19T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Nodal Networks Inc., a company that builds artificial intelligence decision networks to manage the world’s shipping container terminals, announced today that it has raised $11.3 million in seed funding to help port and rail hubs reduce cong",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/nodal-networks-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Disseqt AI raised $8M (Undisclosed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/disseqt-ai-undisclosed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-19T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Disseqt AI Raises $8 Mn To Scale International Operations Led by Gresham House Ventures.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/disseqt-ai-undisclosed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Vetaion raised $6.7M (Pre-seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/vetaion-pre-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-19T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Vetaion, a Munich-based company that automates the manufacturing of custom electrical control cabinets, has closed a €5.7 million pre-Seed financing round to scale its production in Munich and grow its team. Led by Visionaries Tomorrow.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/vetaion-pre-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "LATO raised $4.7M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/lato-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-19T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "AI-poweredmarket research platform LATO has raised $4.7 million in a seed funding roundco-led by Air Street Capital and Axiom Partners. Led by Air Street Capital.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/lato-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "IntelliProve raised $3.2M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/intelliprove-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-19T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Belgian healthtech company IntelliProve hasraised €2.7 million in a seed funding round led by Miles Ahead, withparticipation from Wit-Gele Kruis, imec.istart and several business angels. Led by Miles Ahead.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/intelliprove-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "Robotics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Wilgot raised $3M (Seed) [unverified]",
+      "canonical_url": "https://funding.fru.dev/rounds/wilgot-seed-2026-11",
+      "publisher": "Funding Index",
+      "published_at": "2026-11-19T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.978Z",
+      "excerpt": "Stockholm-based startup Wilgot, which develops technology to help brandsimprove their product visibility in AI assistants, has raised $3 million in aseed funding round led by Industrifonden. Led by Industrifonden.",
+      "source_ids": {
+        "rss_guid": "https://funding.fru.dev/rounds/wilgot-seed-2026-11",
+        "newsroom_feed": "funding-index"
+      },
+      "categories": [
+        "AI apps"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

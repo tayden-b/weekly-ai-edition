@@ -1,0 +1,209 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "theverge-ai",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "canonical_url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "publisher": "The Verge",
+      "published_at": "2026-11-25T17:44:51.000Z",
+      "fetched_at": "2026-11-25T20:25:05.510Z",
+      "excerpt": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin,",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1042278",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Elon Musk",
+        "News",
+        "Science",
+        "Space",
+        "SpaceX",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nothing offers a full look at its AI earbuds and charging case",
+      "canonical_url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "publisher": "The Verge",
+      "published_at": "2026-11-25T16:00:59.000Z",
+      "fetched_at": "2026-11-25T20:25:05.510Z",
+      "excerpt": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1042162",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Gadgets",
+        "News",
+        "Tech",
+        "Wearable"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "canonical_url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "publisher": "The Verge",
+      "published_at": "2026-11-25T14:12:33.000Z",
+      "fetched_at": "2026-11-25T20:25:05.510Z",
+      "excerpt": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1042071",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Amazon",
+        "Meta",
+        "News",
+        "Online Shopping",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Has vibe coding made open source the new normal for synths?",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+      "publisher": "The Verge",
+      "published_at": "2026-11-25T13:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.510Z",
+      "excerpt": "The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has caused chaos in the music gear world, leaving companies scrambling to figure out how to respond. While some, like Roland, have remained silent for now, others have embraced the modding community. In the last",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1040081",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+      "canonical_url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+      "publisher": "The Verge",
+      "published_at": "2026-11-24T20:02:03.000Z",
+      "fetched_at": "2026-11-25T20:25:05.510Z",
+      "excerpt": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1041571",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Business",
+        "News",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "David Fincher is being dragged for suspected use of AI in his latest film",
+      "canonical_url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "publisher": "The Verge",
+      "published_at": "2026-11-24T18:15:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.510Z",
+      "excerpt": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1041417",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Film",
+        "Netflix",
+        "Streaming"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tidal will start banning AI-generated music next month",
+      "canonical_url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "publisher": "The Verge",
+      "published_at": "2026-11-24T17:17:09.000Z",
+      "fetched_at": "2026-11-25T20:25:05.510Z",
+      "excerpt": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1041362",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Entertainment",
+        "Music",
+        "News",
+        "Tidal"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang deepfakes are the hot new AI slop",
+      "canonical_url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "publisher": "The Verge",
+      "published_at": "2026-11-24T16:30:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.510Z",
+      "excerpt": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1041222",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Nvidia",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The New York Times warns photographers not to update Photoshop over AI features",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "publisher": "The Verge",
+      "published_at": "2026-11-24T16:09:23.000Z",
+      "fetched_at": "2026-11-25T20:25:05.510Z",
+      "excerpt": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1041227",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "Adobe",
+        "AI",
+        "Creators",
+        "News",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trump engineered a risky comeback for Jensen Huang",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+      "publisher": "The Verge",
+      "published_at": "2026-11-23T22:25:12.000Z",
+      "fetched_at": "2026-11-25T20:25:05.510Z",
+      "excerpt": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that",
+      "source_ids": {
+        "atom_id": "https://www.theverge.com/?p=1040652",
+        "newsroom_feed": "theverge-ai"
+      },
+      "categories": [
+        "AI",
+        "Analysis",
+        "Nvidia",
+        "Policy",
+        "Politics",
+        "Report",
+        "Tech"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

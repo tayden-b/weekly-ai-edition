@@ -1,0 +1,91 @@
+{
+  "adapter": "lab-blogs",
+  "source": "huggingface-blog",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "Where scientists draw the line on AI agents",
+      "canonical_url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.719Z",
+      "excerpt": "Where scientists draw the line on AI agents",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "An Indic Voice Agent with CUGA",
+      "canonical_url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.719Z",
+      "excerpt": "An Indic Voice Agent with CUGA",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "canonical_url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.719Z",
+      "excerpt": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "canonical_url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.719Z",
+      "excerpt": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How to build and maintain an agentic evaluation",
+      "canonical_url": "https://huggingface.co/blog/agentic-evals",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.719Z",
+      "excerpt": "How to build and maintain an agentic evaluation",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/agentic-evals"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "canonical_url": "https://huggingface.co/blog/inkling2mini",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.719Z",
+      "excerpt": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/inkling2mini"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "canonical_url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:04.719Z",
+      "excerpt": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/harness-adapters-at-scale"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "ai-lately",
+  "fetched_at": "2026-11-25T20:25:04.683Z",
+  "items": [
+    {
+      "headline": "OpenAI and Anthropic's Tests Confirm Staff Fears",
+      "canonical_url": "https://ailately.com/articles/openai-anthropic-tests-confirm-staff-fears",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-25T11:08:39.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "OpenAI shelved a model for deceiving testers, and Anthropic found its newest models reaching outside weakened sandboxes, the record behind the staff fear Axios reported.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/openai-anthropic-tests-confirm-staff-fears",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Safety & Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Pull Requests, Proteins and a Policy for AI",
+      "canonical_url": "https://ailately.com/articles/the-signal-brief-nov-25",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-25T11:56:08.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Anthropic let agents approve pull requests, OpenAI's models designed working proteins, and the UN asked governments to agree on AI safety within a year.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/the-signal-brief-nov-25",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Agent Infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Claude Now Approves the Code It Wrote",
+      "canonical_url": "https://ailately.com/articles/claude-now-approves-code-it-wrote",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-25T11:56:08.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Anthropic's Claude Ship lets an agent approve the pull requests another agent wrote, and an outside audit shows how that policy can hide who decided.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/claude-now-approves-code-it-wrote",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Agent Infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "A Few AI Authors Take Amazon's Bestseller Gains",
+      "canonical_url": "https://ailately.com/articles/ai-authors-take-amazons-bestseller-gains",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-25T12:59:37.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "A study of Amazon's bestseller lists finds AI pays a small circle of fast-publishing authors, while revenue per book falls for everyone else.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/ai-authors-take-amazons-bestseller-gains",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Labor & Productivity"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google's New Proof Is Too Slow for RSA",
+      "canonical_url": "https://ailately.com/articles/google-factoring-proof-too-slow-for-rsa",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-25T17:52:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "A viral rumor named OpenAI and Anthropic as RSA's likely breakers, but the only proof published this week, from Google, is too slow to matter.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/google-factoring-proof-too-slow-for-rsa",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Safety & Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Companies Hire Chief AI Officers, Keep the Budgets",
+      "canonical_url": "https://ailately.com/articles/chief-ai-officers-budget-authority",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-24T17:55:12.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "The title is spreading fast, but IBM's newest survey of 1,667 AI chiefs finds investment authority mostly sits elsewhere.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/chief-ai-officers-budget-authority",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Hiring & Talent"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Claude Hand-Writes a Transformer's Weights, Solves Every Maze",
+      "canonical_url": "https://ailately.com/articles/claude-hand-writes-transformer-weights",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-24T12:22:59.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Researchers at MBZUAI say Claude hand-set a transformer's weights and matched a trained model's maze score using 90 times fewer weights.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/claude-hand-writes-transformer-weights",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Research"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Freezes, Fortunes and a Founder's Return",
+      "canonical_url": "https://ailately.com/articles/the-signal-brief-nov-24",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-24T12:22:24.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Anthropic's own customers say AI is freezing hiring quietly, Jensen Huang reclaimed Nvidia's top job, and Sierra doubled its value in six months.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/the-signal-brief-nov-24",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Hiring & Talent"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI Freezes Hiring Before It Cuts Jobs",
+      "canonical_url": "https://ailately.com/articles/ai-freezes-hiring-before-cuts-jobs",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-24T12:22:24.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Anthropic's own customers show AI shrinking payrolls mostly by freezing hiring, with only two confirmed firings across 58 companies.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/ai-freezes-hiring-before-cuts-jobs",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Hiring & Talent"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Holiday AI Traffic Skips the Smallest Stores",
+      "canonical_url": "https://ailately.com/articles/holiday-ai-traffic-skips-smallest-stores",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-24T13:05:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Adobe projects AI-referred traffic will jump 130 percent this season, but the gains mostly reach big brands AI already favors.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/holiday-ai-traffic-skips-smallest-stores",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Consumer AI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Eight Mile Style Calls Suno's Denial False",
+      "canonical_url": "https://ailately.com/articles/eight-mile-style-suno-denial-false",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-24T14:32:28.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Eminem's publisher added 108 more AI songs and says Suno's October filing contradicts its own denial about naming artists.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/eight-mile-style-suno-denial-false",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Arts & Media"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI Toys Flunk Their Second Report Card",
+      "canonical_url": "https://ailately.com/articles/ai-toys-flunk-safety-test-again",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-24T15:26:20.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "PIRG retested seven AI chatbot toys for the holidays and found four still give sexual, dangerous or unauthorized answers.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/ai-toys-flunk-safety-test-again",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Consumer AI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Amazon Pays Decart's Three Founders $4.8 Billion",
+      "canonical_url": "https://ailately.com/articles/amazon-decart-founders-payout",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-24T15:20:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Amazon's $7.5 billion deal for Decart sends most of that money to three founders staying five years, ahead of the Israeli startup's own growth.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/amazon-decart-founders-payout",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia's Huang Confesses as Anthropic Stock Craters",
+      "canonical_url": "https://ailately.com/articles/huang-therapy-confession-anthropic-stock-craters",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-25T00:10:25.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Jensen Huang told Nvidia staff he is in therapy the same day Anthropic's stock closed below its IPO price.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/huang-therapy-confession-anthropic-stock-craters",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "PrismML Shrinks a 53.8 GB Coding Model to 5.9 GB",
+      "canonical_url": "https://ailately.com/articles/prismml-bonsai-2-5-27b-ternary-coding-model",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-24T23:50:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "The free download runs on a home computer and scores within five points of its parent on a coding test OpenAI stopped using.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/prismml-bonsai-2-5-27b-ternary-coding-model",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Research"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trump Pushes Nvidia to Rehire Jensen Huang",
+      "canonical_url": "https://ailately.com/articles/trump-pushes-nvidia-rehire-jensen-huang",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-23T06:18:54.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "President Trump asked Nvidia's board to rehire Jensen Huang, as prediction markets raised his odds of return.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/trump-pushes-nvidia-rehire-jensen-huang",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Hiring & Talent"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lean Community Certifies Claude's Riemann Hypothesis Proof",
+      "canonical_url": "https://ailately.com/articles/lean-riemann-proof-ai-stocks-slide",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-23T14:35:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Formal reviewers said Claude helped crack a 167-year-old math problem this weekend, and AI stocks kept falling anyway.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/lean-riemann-proof-ai-stocks-slide",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Research"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Limits, Losses and a Lab's Own Line",
+      "canonical_url": "https://ailately.com/articles/the-signal-brief-nov-23",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-23T12:25:21.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "OpenAI proposed a shared safety limit as markets posted their worst week since 2020, and California moved to set limits of its own.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/the-signal-brief-nov-23",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Safety & Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Khanmigo Spreads Faster Than the Evidence",
+      "canonical_url": "https://ailately.com/articles/khanmigo-spreads-faster-evidence",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-23T14:28:38.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "A two-year Tennessee trial found Khan Academy's AI tutor raised math scores a little, far less than Harvard's mandatory version gained.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/khanmigo-spreads-faster-evidence",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Applied AI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Five Signs Reveal If AI Made Your Song",
+      "canonical_url": "https://ailately.com/articles/five-signs-spot-ai-song",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-23T15:11:47.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Five checkable signs catch most AI songs, though real-world tests and one musician's ordeal show where they still miss.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/five-signs-spot-ai-song",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Arts & Media"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia Reinstates Huang While Investigation Continues",
+      "canonical_url": "https://ailately.com/articles/nvidia-reinstates-huang-investigation-continues",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-23T15:08:12.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Nvidia's board voted unanimously to reinstate Jensen Huang as president, CEO and director, eleven days after he resigned, as its investigation into him continues.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/nvidia-reinstates-huang-investigation-continues",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Hiring & Talent"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Insurers Write AI Losses Out of Business Policies",
+      "canonical_url": "https://ailately.com/articles/insurers-write-ai-out-of-policies",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-23T15:56:26.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Major carriers filed exclusions removing AI mistakes from general liability, D&O and fiduciary cover this year, and brokers warn the carve-outs go too far.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/insurers-write-ai-out-of-policies",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Safety & Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic Adds Businesses Faster Than OpenAI",
+      "canonical_url": "https://ailately.com/articles/anthropic-openai-business-adoption-ramp",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-23T16:44:27.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Ramp's October data put Anthropic 4.2 points ahead of OpenAI among paying businesses, even after OpenAI's own spending grew at a faster rate for months.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/anthropic-openai-business-adoption-ramp",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Enterprise Adoption"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia's Rally Outruns Congress's Doubts",
+      "canonical_url": "https://ailately.com/articles/nvidia-rally-outruns-congress-doubts",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-23T18:18:44.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Investors added $820 billion to Nvidia's stock within hours of Jensen Huang's return, while senators from both parties said the board still owes Congress answers.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/nvidia-rally-outruns-congress-doubts",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia Notches History's Biggest Day as Washington Pushes Back",
+      "canonical_url": "https://ailately.com/articles/nvidia-record-day-washington-pushback",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-24T00:22:48.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Nvidia added $955 billion in a day, a record, while Congress pressed Jensen Huang over his return.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/nvidia-record-day-washington-pushback",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Lean Confirms Alpöge's Proof as Grant Alleges Theft",
+      "canonical_url": "https://ailately.com/articles/alpoge-riemann-proof-grant-plagiarism-claim",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-22T12:18:25.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Lean's math community certified Levent Alpöge's AI-assisted Riemann Hypothesis proof as correct, hours before entrepreneur Robert Edward Grant accused Anthropic of copying his own math.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/alpoge-riemann-proof-grant-plagiarism-claim",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Research"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Walmart Opens the Door to AI Shoppers",
+      "canonical_url": "https://ailately.com/articles/walmart-ai-agents-black-friday",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-22T14:24:31.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Walmart lets AI agents buy with spending limits, as Salesforce forecasts a fifth of Black Friday traffic from bots that rarely check out.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/walmart-ai-agents-black-friday",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Consumer AI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI Costs Artists Jobs and Pay, Five Records Show",
+      "canonical_url": "https://ailately.com/articles/ai-costs-artists-five-numbers",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-22T15:38:18.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Deezer, a survey of UK illustrators, a federal judge, U.S. jobs data and a Microsoft memo each put a figure on AI's cost to artists.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/ai-costs-artists-five-numbers",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Arts & Media"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "SpaceX Pays More to Borrow Against Its Chips",
+      "canonical_url": "https://ailately.com/articles/spacex-pays-more-borrow-against-chips",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-22T16:08:02.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Apollo and Goldman priced SpaceX's record $44 billion chip loan above the rate CoreWeave paid for a similarly rated GPU loan eight months earlier.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/spacex-pays-more-borrow-against-chips",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI Incidents Climb While Europe's Reporting Rule Waits",
+      "canonical_url": "https://ailately.com/articles/ai-incidents-climb-reporting-rule-waits",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-22T17:06:20.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "The AI Incident Database logged a record 362 harms in 2025, while the EU's rule on company incident reporting waits until December 2027.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/ai-incidents-climb-reporting-rule-waits",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Safety & Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Report Finds Anthropic's 2028 Power Mostly Gas and Coal",
+      "canonical_url": "https://ailately.com/articles/anthropic-2028-power-gas-coal",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-22T18:11:56.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "A nonprofit estimates Anthropic's 2028 data centers will draw 87 percent of their power from gas, with coal supplying most of the rest.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/anthropic-2028-power-gas-coal",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Compute & Silicon"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic Hires DeepMind's Strategy Chief Before Its IPO",
+      "canonical_url": "https://ailately.com/articles/anthropic-hires-deepmind-strategy-chief",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-22T17:54:01.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Jasjeet Sekhon left Google DeepMind's top strategy job for Anthropic after eight months, as the lab's own data show talent increasingly flowing toward its rival.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/anthropic-hires-deepmind-strategy-chief",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Hiring & Talent"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Stanford Mathematician Claims a Human-Only Riemann Proof",
+      "canonical_url": "https://ailately.com/articles/stanford-masullo-human-only-riemann-proof",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-21T06:14:34.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "A Stanford mathematician says he proved the Riemann Hypothesis alone, days after an Anthropic researcher claimed it with Claude.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/stanford-masullo-human-only-riemann-proof",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Research"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Etsy Sellers Flee Platform Over New AI Rules",
+      "canonical_url": "https://ailately.com/articles/etsy-sellers-flee-ai-training-terms",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-21T12:30:34.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Etsy sellers are closing long-running shops to keep control of their work as Etsy pushes its new AI training clause.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/etsy-sellers-flee-ai-training-terms",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Arts & Media"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Washington Sells China Chips, Then Bans Its Software",
+      "canonical_url": "https://ailately.com/articles/the-signal-brief-nov-21",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-21T12:20:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "A House count found 879,000 approved chips the same week two more committees urged banning Chinese AI models from federal computers.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/the-signal-brief-nov-21",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Policy & Regulation"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Maersk Ships Less Cargo, Earns Far More",
+      "canonical_url": "https://ailately.com/articles/maersk-ships-less-cargo-earns-more",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-21T13:16:33.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Maersk's profit jumped on higher prices while cargo volume fell, and the gain lands with shareholders while crew pay stays flat.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/maersk-ships-less-cargo-earns-more",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Enterprise Adoption"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tor Pulls Its Third AI-Made Cover Since 2022",
+      "canonical_url": "https://ailately.com/articles/tor-pulls-third-ai-book-cover",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-21T15:09:24.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Macmillan's Tor pulled its third AI-made cover since 2022, and the industry still disagrees on written rules.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/tor-pulls-third-ai-book-cover",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Arts & Media"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI's Hardest Tests Crack Within a Year",
+      "canonical_url": "https://ailately.com/articles/ai-benchmarks-crack-within-a-year",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-21T16:09:36.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Five hard AI tests climb from single digits to near the ceiling within about a year of launch, replacing each other faster than ever.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/ai-benchmarks-crack-within-a-year",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Research"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI Named 95% of Illnesses. People Using It, Under 35%.",
+      "canonical_url": "https://ailately.com/articles/best-ai-health-tools",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-21T17:05:32.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Here are the health AI tools worth using this winter, how to ask them well and the signs that mean call 911 instead.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/best-ai-health-tools",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Consumer AI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Computer Science Enrollment Falls as Students Weigh AI",
+      "canonical_url": "https://ailately.com/articles/cs-enrollment-falls-ai",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-21T17:49:22.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "New computer science majors are shrinking for the first time in two decades, and AI job fear is only one suspect.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/cs-enrollment-falls-ai",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Labor & Productivity"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Mathematicians Confirm Alpöge's Claude-Assisted Riemann Proof",
+      "canonical_url": "https://ailately.com/articles/mathematicians-confirm-alpoge-riemann-proof",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-21T18:14:24.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Lean's formal checkers confirm Levent Alpöge's Claude-assisted proof of the Riemann Hypothesis is correct.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/mathematicians-confirm-alpoge-riemann-proof",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Research"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Musk's AI Dating Joke Becomes Real Websites",
+      "canonical_url": "https://ailately.com/articles/musk-ai-dating-joke-real-websites",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-22T00:21:42.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "A tweet mocking AI superintelligence turned into working dating sites with real AI agents, while researchers say the singularity itself stays far off.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/musk-ai-dating-joke-real-websites",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Consumer AI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic's Founders Pocket $280 Million Each in IPO",
+      "canonical_url": "https://ailately.com/articles/anthropic-founders-280-million-payday",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-20T06:17:29.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Dario Amodei and six co-founders sold $1.95 billion of Anthropic stock on IPO day, even as each pledged 80 percent of what remains to charity.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/anthropic-founders-280-million-payday",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Banks Decide Your AI Agent's Mistake Is Yours",
+      "canonical_url": "https://ailately.com/articles/the-signal-brief-nov-20",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-20T15:30:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Five banks rewrote their terms to make customers own an AI agent's mistakes, the same week Meta called Muse's privacy lapses isolated incidents.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/the-signal-brief-nov-20",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Hiring & Talent"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Citi Exempts Its Own Agents From the Risk",
+      "canonical_url": "https://ailately.com/articles/citi-exempts-its-own-agents",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-20T16:30:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Citi, JPMorgan Chase, Bank of America, PNC and Citizens blame customers for a hacked AI agent, but spare their own.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/citi-exempts-its-own-agents",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Agent Infrastructure"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Pipeline Investment Hits $1 Trillion, Apprentices Lag",
+      "canonical_url": "https://ailately.com/articles/pipeline-investment-trillion-apprentices-lag",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-20T13:21:28.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "A trillion-dollar natural gas pipeline boom, driven by AI's hunger for power, is growing faster than the apprentices trained to build it.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/pipeline-investment-trillion-apprentices-lag",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Labor & Productivity"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Mathematicians Rush to Check Alpöge's Riemann Claim",
+      "canonical_url": "https://ailately.com/articles/mathematicians-check-alpoge-riemann-claim",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-20T23:40:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Levent Alpöge says Claude helped him prove the Riemann Hypothesis, and the mathematicians checking his Lean proof are still partway through it.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/mathematicians-check-alpoge-riemann-claim",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Research"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Trump Asks Nvidia to Rehire Jensen Huang",
+      "canonical_url": "https://ailately.com/articles/trump-asks-nvidia-rehire-jensen-huang",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-21T00:15:28.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Trump said Nvidia should rehire Jensen Huang after an apology, the same week a separate probe drove the stock to its worst week since 2008.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/trump-asks-nvidia-rehire-jensen-huang",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Hiring & Talent"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Musk Calls Nvidia's Ouster of Jensen Huang a Mistake",
+      "canonical_url": "https://ailately.com/articles/musk-nvidia-huang-ouster-mistake",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T14:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Elon Musk called Jensen Huang's ouster a mistake, the same week the senator who pushed for it called Huang's conduct a national security risk.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/musk-nvidia-huang-ouster-mistake",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Hiring & Talent"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "South Korea Rides Chips Past $1 Trillion, China Waits",
+      "canonical_url": "https://ailately.com/articles/south-korea-chips-trillion-china-waits",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T14:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Semiconductor exports nearly tripled this year, pushing Korea past $1 trillion, as a new U.S. rule makes TSMC and Samsung wait to ship to China.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/south-korea-chips-trillion-china-waits",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Geopolitics"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Testers Trick, Traders Trade, Huang Testifies",
+      "canonical_url": "https://ailately.com/articles/the-signal-brief-nov-19",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T15:30:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Federal testers broke four chatbots' safeguards in under 12 hours, Anthropic went public on Nasdaq, and Jensen Huang agreed to face Congress in December.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/the-signal-brief-nov-19",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Safety & Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic's Record IPO Trails SpaceX's Final $85.7 Billion",
+      "canonical_url": "https://ailately.com/articles/anthropic-ipo-trails-spacex-final-total",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T12:08:37.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Anthropic's own release confirms an $81.3 billion sale and gives its banks 30 days to buy 147 million more shares, enough to pass SpaceX.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/anthropic-ipo-trails-spacex-final-total",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Four Chatbots Hand Testers a Workable Attack Plan",
+      "canonical_url": "https://ailately.com/articles/four-chatbots-attack-plan-test",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T16:45:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "A government watchdog got every leading chatbot to write a workable attack plan in under 12 hours, a gap the builders still dispute.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/four-chatbots-attack-plan-test",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Safety & Security"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "ChatGPT Wallet Puts Your Fingerprint on the Agent's Mistakes",
+      "canonical_url": "https://ailately.com/articles/chatgpt-wallet-agent-mistakes-who-pays",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T12:08:31.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Each ChatGPT Wallet purchase needs your face or fingerprint, and that approval can move an agent's mistake outside the $50 federal fraud cap.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/chatgpt-wallet-agent-mistakes-who-pays",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Policy & Regulation"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "A 4-Person Newsroom Sues 175-Site AI Network",
+      "canonical_url": "https://ailately.com/articles/record-north-shore-sues-ai-news-network",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T18:15:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "The Record North Shore says Surround Sound Media's AI-run network copied its reporting and photos at least 22 times, then stripped the credit.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/record-north-shore-sues-ai-news-network",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Arts & Media"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Carbon's Discount Erases Neon's Price Edge",
+      "canonical_url": "https://ailately.com/articles/gemini-4-neon-carbon-discount-price",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T20:10:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "A discount on Carbon likely makes it cheaper per task than the pricier Neon, at least until Nov. 30.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/gemini-4-neon-carbon-discount-price",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Frontier Models"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Nvidia Beats Its $108 Billion Guide, and Traders Sell",
+      "canonical_url": "https://ailately.com/articles/nvidia-beats-guide-traders-sell",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T16:25:58.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Nvidia's third quarter beat its own forecast by billions, but the stock fell the next day as Wall Street weighs life after Jensen Huang.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/nvidia-beats-guide-traders-sell",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic Tops $2 Trillion at the Open, Then Slips Under",
+      "canonical_url": "https://ailately.com/articles/anthropic-tops-2-trillion-open-slips-under",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T17:50:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "ANT opened at $111.50 on Nasdaq, worth nearly $2.01 trillion, and traded near $101 within the hour.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/anthropic-tops-2-trillion-open-slips-under",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Google Frees Gemini's Errands, With Catches",
+      "canonical_url": "https://ailately.com/articles/gemini-tasks-free-six-countries",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T21:30:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Tasks in Gemini went free in six countries, but calls, payments and passwords stay a U.S.-only feature with a trust problem attached.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/gemini-tasks-free-six-countries",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Consumer AI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AMD Denies Chip Claims as Wall Street's Slide Deepens",
+      "canonical_url": "https://ailately.com/articles/amd-denies-hunterbrook-china-claims",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-20T00:45:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "AMD rejected a short seller's claim that its chips still reach a blacklisted Chinese server maker, as the Dow posted its sixth straight losing day.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/amd-denies-hunterbrook-china-claims",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic Prices Its IPO Above Range at $83",
+      "canonical_url": "https://ailately.com/articles/anthropic-ipo-prices-above-range",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-19T00:16:54.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Anthropic's stock priced above its own range as Google shipped two new models the same day.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/articles/anthropic-ipo-prices-above-range",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "Capital & Markets"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Signal 2026-W47: Anthropic's Record IPO Tops a Week of Nvidia Turmoil",
+      "canonical_url": "https://ailately.com/signal/2026-W47",
+      "publisher": "AI Lately",
+      "published_at": "2026-11-22T12:00:00.000Z",
+      "fetched_at": "2026-11-25T20:25:05.943Z",
+      "excerpt": "Anthropic debuts on Nasdaq in the largest offering on record, Nvidia's board rules out reinstating Jensen Huang, and Oregon sues OpenAI over child safety.",
+      "source_ids": {
+        "rss_guid": "https://ailately.com/signal/2026-W47",
+        "newsroom_feed": "ai-lately"
+      },
+      "categories": [
+        "The Signal"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
