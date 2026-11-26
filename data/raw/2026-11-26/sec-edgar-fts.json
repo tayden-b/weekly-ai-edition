@@ -1,0 +1,920 @@
+{
+  "adapter": "sec-edgar",
+  "source": "sec-edgar-fts",
+  "fetched_at": "2026-11-26T20:02:19.300Z",
+  "items": [
+    {
+      "headline": "S-1 — Kalohexis, Inc.",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2135148/000149315226054198/0001493152-26-054198-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EX-10.8; filed by Kalohexis, Inc.",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-054198",
+        "edgar_cik": "0002135148",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Five9, Inc. (FIVN)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1288847/000119312526475778/0001193125-26-475778-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EX-2.1; items 2.01, 7.01, 9.01; filed by Five9, Inc. (FIVN)",
+      "source_ids": {
+        "edgar_accession": "0001193125-26-475778",
+        "edgar_cik": "0001288847",
+        "edgar_form": "8-K",
+        "edgar_items": "2.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Research Solutions, Inc. (RSSS)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1386301/000110465926131619/0001104659-26-131619-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EXHIBIT 2.1; items 1.01, 5.02, 9.01; filed by Research Solutions, Inc. (RSSS)",
+      "source_ids": {
+        "edgar_accession": "0001104659-26-131619",
+        "edgar_cik": "0001386301",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,5.02,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Applied Digital Corp. (APLD)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226054002/0001493152-26-054002-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EX-99.2; items 1.01, 3.02, 7.01, 9.01; filed by Applied Digital Corp. (APLD)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-054002",
+        "edgar_cik": "0001144879",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,3.02,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — GridAI Power Corp. (GRDX)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1604191/000110465926131673/0001104659-26-131673-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EXHIBIT 99.1; items 1.01, 2.01, 3.02, 5.01, 5.02, 5.03, 7.01, 9.01; filed by GridAI Power Corp. (GRDX)",
+      "source_ids": {
+        "edgar_accession": "0001104659-26-131673",
+        "edgar_cik": "0001604191",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.01,3.02,5.01,5.02,5.03,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — ALTA EQUIPMENT GROUP INC. (ALTG, ALTG-PA)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1759824/000119312526472368/0001193125-26-472368-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EX-2.1; items 1.01, 3.02, 5.02, 7.01, 8.01, 9.01; filed by ALTA EQUIPMENT GROUP INC. (ALTG, ALTG-PA)",
+      "source_ids": {
+        "edgar_accession": "0001193125-26-472368",
+        "edgar_cik": "0001759824",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,3.02,5.02,7.01,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — NOCERA, INC. (NCRA)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1756180/000168316826009032/0001683168-26-009032-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "PRESS RELEASE, DATED NOVEMBER 23, 2026.; items 1.01, 7.01, 9.01; filed by NOCERA, INC. (NCRA)",
+      "source_ids": {
+        "edgar_accession": "0001683168-26-009032",
+        "edgar_cik": "0001756180",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — ALPHA DIGITAL VOLTZ INC. (ADVI)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1985554/000168316826008986/0001683168-26-008986-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "FORM S-1; filed by ALPHA DIGITAL VOLTZ INC. (ADVI)",
+      "source_ids": {
+        "edgar_accession": "0001683168-26-008986",
+        "edgar_cik": "0001985554",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Aether Holdings, Inc. (ATHR)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2026353/000149315226053364/0001493152-26-053364-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EX-99.1; items 1.01, 8.01, 9.01; filed by Aether Holdings, Inc. (ATHR)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-053364",
+        "edgar_cik": "0002026353",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Vyome Holdings, Inc (HIND)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1427570/000121390026123699/0001213900-26-123699-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "PRESS RELEASE ISSUED NOVEMBER 24, 2026; items 1.01, 2.01, 8.01, 9.01; filed by Vyome Holdings, Inc (HIND)",
+      "source_ids": {
+        "edgar_accession": "0001213900-26-123699",
+        "edgar_cik": "0001427570",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.01,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — PELOTON INTERACTIVE, INC. (PTON)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1639825/000163982526000052/0001639825-26-000052-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EX-99.1; items 1.01, 2.03, 7.01, 9.01; filed by PELOTON INTERACTIVE, INC. (PTON)",
+      "source_ids": {
+        "edgar_accession": "0001639825-26-000052",
+        "edgar_cik": "0001639825",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.03,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — VisionWave Holdings, Inc. (VWAV, VWAVW)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2038439/000173112226001470/0001731122-26-001470-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EXHIBIT 99.1; items 1.01, 2.01, 2.03, 9.01; filed by VisionWave Holdings, Inc. (VWAV, VWAVW)",
+      "source_ids": {
+        "edgar_accession": "0001731122-26-001470",
+        "edgar_cik": "0002038439",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.01,2.03,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1/A — Patriot Mobile Inc.",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2148546/000110465926131695/0001104659-26-131695-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "S-1/A; filed by Patriot Mobile Inc.",
+      "source_ids": {
+        "edgar_accession": "0001104659-26-131695",
+        "edgar_cik": "0002148546",
+        "edgar_form": "S-1/A"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Tempus AI, Inc. (TEM)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526478564/0001193125-26-478564-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "8-K; items 1.01, 2.03, 8.01; filed by Tempus AI, Inc. (TEM)",
+      "source_ids": {
+        "edgar_accession": "0001193125-26-478564",
+        "edgar_cik": "0001717115",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.03,8.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — Earlens Corp",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1490171/000119312526472933/0001193125-26-472933-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EX-10.8; filed by Earlens Corp",
+      "source_ids": {
+        "edgar_accession": "0001193125-26-472933",
+        "edgar_cik": "0001490171",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Zscaler, Inc. (ZS)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1713683/000119312526471211/0001193125-26-471211-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EX-2.1; items 1.01, 7.01, 9.01; filed by Zscaler, Inc. (ZS)",
+      "source_ids": {
+        "edgar_accession": "0001193125-26-471211",
+        "edgar_cik": "0001713683",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — CrowdStrike Holdings, Inc. (CRWD)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1535527/000110465926130785/0001104659-26-130785-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EXHIBIT 2.1; items 1.01, 7.01, 9.01; filed by CrowdStrike Holdings, Inc. (CRWD)",
+      "source_ids": {
+        "edgar_accession": "0001104659-26-130785",
+        "edgar_cik": "0001535527",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1/A — Compute AI Acquisition Corp. (AICP)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2158099/000149315226054294/0001493152-26-054294-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "S-1/A; filed by Compute AI Acquisition Corp. (AICP)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-054294",
+        "edgar_cik": "0002158099",
+        "edgar_form": "S-1/A"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1/A — ConnectM Technology Solutions, Inc. (CNTM)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1895249/000110465926130675/0001104659-26-130675-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "S-1/A; filed by ConnectM Technology Solutions, Inc. (CNTM)",
+      "source_ids": {
+        "edgar_accession": "0001104659-26-130675",
+        "edgar_cik": "0001895249",
+        "edgar_form": "S-1/A"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — zSpace, Inc. (ZSPC)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1637147/000110465926131065/0001104659-26-131065-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EXHIBIT 2.1; items 1.01, 2.03, 3.02, 9.01; filed by zSpace, Inc. (ZSPC)",
+      "source_ids": {
+        "edgar_accession": "0001104659-26-131065",
+        "edgar_cik": "0001637147",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.03,3.02,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — INSMED Inc (INSM)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1104506/000114036126045364/0001140361-26-045364-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "8-K; items 1.01, 7.01, 9.01; filed by INSMED Inc (INSM)",
+      "source_ids": {
+        "edgar_accession": "0001140361-26-045364",
+        "edgar_cik": "0001104506",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Valor Energy Inc (VAI)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1711012/000121390026122707/0001213900-26-122707-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "CURRENT REPORT; items 2.01, 7.01, 9.01; filed by Valor Energy Inc (VAI)",
+      "source_ids": {
+        "edgar_accession": "0001213900-26-122707",
+        "edgar_cik": "0001711012",
+        "edgar_form": "8-K",
+        "edgar_items": "2.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — bioAffinity Technologies, Inc. (BIAF, BIAFW)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1712762/000149315226053519/0001493152-26-053519-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "S-1; filed by bioAffinity Technologies, Inc. (BIAF, BIAFW)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-053519",
+        "edgar_cik": "0001712762",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1/A — bioAffinity Technologies, Inc. (BIAF, BIAFW)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1712762/000149315226054208/0001493152-26-054208-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "S-1/A; filed by bioAffinity Technologies, Inc. (BIAF, BIAFW)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-054208",
+        "edgar_cik": "0001712762",
+        "edgar_form": "S-1/A"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — Inmune Bio Inc. (INMB)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1711754/000121390026122693/0001213900-26-122693-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "REGISTRATION STATEMENT; filed by Inmune Bio Inc. (INMB)",
+      "source_ids": {
+        "edgar_accession": "0001213900-26-122693",
+        "edgar_cik": "0001711754",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Arrive AI Inc. (ARAI)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1818274/000149315226053650/0001493152-26-053650-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.795Z",
+      "excerpt": "EX-99.1; items 1.01, 3.02, 9.01; filed by Arrive AI Inc. (ARAI)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-053650",
+        "edgar_cik": "0001818274",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,3.02,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D/A — Magnetar AI Ventures Fund LP",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2032191/000090514826005154/0000905148-26-005154-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D/A; items 06B, 3C, 3C.7; filed by Magnetar AI Ventures Fund LP",
+      "source_ids": {
+        "edgar_accession": "0000905148-26-005154",
+        "edgar_cik": "0002032191",
+        "edgar_form": "D/A",
+        "edgar_items": "06B,3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — Ashlar Capital AI Growth LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2166335/000216633526000001/0002166335-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.1; filed by Ashlar Capital AI Growth LLC",
+      "source_ids": {
+        "edgar_accession": "0002166335-26-000001",
+        "edgar_cik": "0002166335",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — XMax Inc. (XMAX)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1473334/000149315226053780/0001493152-26-053780-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "EX-10.1; items 1.01, 2.03, 9.01; filed by XMax Inc. (XMAX)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-053780",
+        "edgar_cik": "0001473334",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.03,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — SHIELD AI II - IC LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2166508/000216650826000001/0002166508-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.7; filed by SHIELD AI II - IC LLC",
+      "source_ids": {
+        "edgar_accession": "0002166508-26-000001",
+        "edgar_cik": "0002166508",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Vertical Data Inc. (VDTA)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2033264/000149315226053832/0001493152-26-053832-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "EX-99.1; items 1.01, 2.01, 7.01, 9.01; filed by Vertical Data Inc. (VDTA)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-053832",
+        "edgar_cik": "0002033264",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — AI-D I Co-Investment Limited Partnership",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2166009/000216600926000001/0002166009-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.1, 3C.7; filed by AI-D I Co-Investment Limited Partnership",
+      "source_ids": {
+        "edgar_accession": "0002166009-26-000001",
+        "edgar_cik": "0002166009",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.1,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — AGP INVICTA SHIELD AI I LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2138637/000213863726000003/0002138637-26-000003-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.7; filed by AGP INVICTA SHIELD AI I LLC",
+      "source_ids": {
+        "edgar_accession": "0002138637-26-000003",
+        "edgar_cik": "0002138637",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — TEN Holdings, Inc. (XHLD)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2030954/000149315226053498/0001493152-26-053498-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "EX-99.1; items 1.01, 7.01, 9.01; filed by TEN Holdings, Inc. (XHLD)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-053498",
+        "edgar_cik": "0002030954",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — KIDZ AI Inc. (KIDZ, KIDZW)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2022308/000147793226007215/0001477932-26-007215-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM 8-K; items 1.01, 9.01; filed by KIDZ AI Inc. (KIDZ, KIDZW)",
+      "source_ids": {
+        "edgar_accession": "0001477932-26-007215",
+        "edgar_cik": "0002022308",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — Tenacity Partners, LLC - Series AI",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2158729/000215872926000001/0002158729-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.1; filed by Tenacity Partners, LLC - Series AI",
+      "source_ids": {
+        "edgar_accession": "0002158729-26-000001",
+        "edgar_cik": "0002158729",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — Rizvi AI V LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2165386/000216538626000001/0002165386-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.7; filed by Rizvi AI V LLC",
+      "source_ids": {
+        "edgar_accession": "0002165386-26-000001",
+        "edgar_cik": "0002165386",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — Bear Creek Ai, Inc.",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2166601/000216660126000001/0002166601-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B; filed by Bear Creek Ai, Inc.",
+      "source_ids": {
+        "edgar_accession": "0002166601-26-000001",
+        "edgar_cik": "0002166601",
+        "edgar_form": "D",
+        "edgar_items": "06B"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — CI AI 36, a Series of CIM Funds, LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2160910/000216091026000001/0002160910-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.7; filed by CI AI 36, a Series of CIM Funds, LLC",
+      "source_ids": {
+        "edgar_accession": "0002160910-26-000001",
+        "edgar_cik": "0002160910",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — Luwian AI Inc",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2160625/000216062526000001/0002160625-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B; filed by Luwian AI Inc",
+      "source_ids": {
+        "edgar_accession": "0002160625-26-000001",
+        "edgar_cik": "0002160625",
+        "edgar_form": "D",
+        "edgar_items": "06B"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D/A — MVP Ventures Select Fund I AI LP",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2098545/000209854526000002/0002098545-26-000002-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D/A; items 06B, 3C, 3C.1; filed by MVP Ventures Select Fund I AI LP",
+      "source_ids": {
+        "edgar_accession": "0002098545-26-000002",
+        "edgar_cik": "0002098545",
+        "edgar_form": "D/A",
+        "edgar_items": "06B,3C,3C.1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D/A — Magnetar AI Opportunity LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2031002/000090514826005146/0000905148-26-005146-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D/A; items 06B, 3C, 3C.7; filed by Magnetar AI Opportunity LLC",
+      "source_ids": {
+        "edgar_accession": "0000905148-26-005146",
+        "edgar_cik": "0002031002",
+        "edgar_form": "D/A",
+        "edgar_items": "06B,3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — GSBackers Overland AI Fund II a Series of CGF2026 LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2163249/000216324926000001/0002163249-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.1; filed by GSBackers Overland AI Fund II a Series of CGF2026 LLC",
+      "source_ids": {
+        "edgar_accession": "0002163249-26-000001",
+        "edgar_cik": "0002163249",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — Rizvi AI Special Opportunities LLC",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2165399/000216539926000001/0002165399-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.7; filed by Rizvi AI Special Opportunities LLC",
+      "source_ids": {
+        "edgar_accession": "0002165399-26-000001",
+        "edgar_cik": "0002165399",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — Elemental AI Argon-3, L.P.",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2165438/000110465926130848/0001104659-26-130848-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.7; filed by Elemental AI Argon-3, L.P.",
+      "source_ids": {
+        "edgar_accession": "0001104659-26-130848",
+        "edgar_cik": "0002165438",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.7"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "D — FI Silicon Valley AI Fund I, a Series of Decile Start Fund, LP",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2166679/000216667926000001/0002166679-26-000001-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "FORM D; items 06B, 3C, 3C.1; filed by FI Silicon Valley AI Fund I, a Series of Decile Start Fund, LP",
+      "source_ids": {
+        "edgar_accession": "0002166679-26-000001",
+        "edgar_cik": "0002166679",
+        "edgar_form": "D",
+        "edgar_items": "06B,3C,3C.1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — Forge Nano Holdings, Inc. (NANO, NANOW)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2101833/000110465926130613/0001104659-26-130613-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "S-1; filed by Forge Nano Holdings, Inc. (NANO, NANOW)",
+      "source_ids": {
+        "edgar_accession": "0001104659-26-130613",
+        "edgar_cik": "0002101833",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — DarkPulse, Inc. (DPLS)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/866439/000168316826009139/0001683168-26-009139-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "REGISTRATION STATEMENT; filed by DarkPulse, Inc. (DPLS)",
+      "source_ids": {
+        "edgar_accession": "0001683168-26-009139",
+        "edgar_cik": "0000866439",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — BILL Holdings, Inc. (BILL)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1786352/000119312526469396/0001193125-26-469396-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "EX-99.1; items 1.01, 8.01, 9.01; filed by BILL Holdings, Inc. (BILL)",
+      "source_ids": {
+        "edgar_accession": "0001193125-26-469396",
+        "edgar_cik": "0001786352",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Vesicor Therapeutics Holdings, Inc. (BKHA, VESI, BKHAR, BKHAU)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2000775/000182912626012883/0001829126-26-012883-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "EXHIBIT 99.1; items 1.01, 2.01, 3.03, 4.01, 5.01, 5.02, 5.03, 5.05, 5.06, 8.01, 9.01; filed by Vesicor Therapeutics Holdings, Inc. (BKHA, VESI, BKHAR, BKHAU)",
+      "source_ids": {
+        "edgar_accession": "0001829126-26-012883",
+        "edgar_cik": "0002000775",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.01,3.03,4.01,5.01,5.02,5.03,5.05,5.06,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — ZEBRA TECHNOLOGIES CORP (ZBRA)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/877212/000162828026075724/0001628280-26-075724-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:22.993Z",
+      "excerpt": "EX-99.1; items 1.01, 2.03, 8.01, 9.01; filed by ZEBRA TECHNOLOGIES CORP (ZBRA)",
+      "source_ids": {
+        "edgar_accession": "0001628280-26-075724",
+        "edgar_cik": "0000877212",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,2.03,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — EagleRock Land, LLC (EROK)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2104882/000119312526472614/0001193125-26-472614-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "EX-2.1; items 1.01, 7.01, 9.01; filed by EagleRock Land, LLC (EROK)",
+      "source_ids": {
+        "edgar_accession": "0001193125-26-472614",
+        "edgar_cik": "0002104882",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,7.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Texas Pacific Land Corp (TPL)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1811074/000119312526472518/0001193125-26-472518-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "EX-2.1; items 1.01, 7.01, 8.01, 9.01; filed by Texas Pacific Land Corp (TPL)",
+      "source_ids": {
+        "edgar_accession": "0001193125-26-472518",
+        "edgar_cik": "0001811074",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,7.01,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Marwynn Holdings, Inc. (MWYN)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2030522/000121390026123307/0001213900-26-123307-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "CURRENT REPORT; items 1.01, 9.01; filed by Marwynn Holdings, Inc. (MWYN)",
+      "source_ids": {
+        "edgar_accession": "0001213900-26-123307",
+        "edgar_cik": "0002030522",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — LIBERTYSTREAM INFRASTRUCTURE PARTNERS INC.",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2107904/000162828026075512/0001628280-26-075512-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "EX-4.9; filed by LIBERTYSTREAM INFRASTRUCTURE PARTNERS INC.",
+      "source_ids": {
+        "edgar_accession": "0001628280-26-075512",
+        "edgar_cik": "0002107904",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — BIOTRICITY INC. (BTCY)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1630113/000149315226054303/0001493152-26-054303-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "S-1; filed by BIOTRICITY INC. (BTCY)",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-054303",
+        "edgar_cik": "0001630113",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — CSTS Enterprises Inc.",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2101280/000149315226054262/0001493152-26-054262-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "S-1; filed by CSTS Enterprises Inc.",
+      "source_ids": {
+        "edgar_accession": "0001493152-26-054262",
+        "edgar_cik": "0002101280",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — Anthropic, PBC (ANT)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026075973/0001628280-26-075973-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "EX-10.1; items 1.01, 3.02, 3.03, 5.03, 7.01, 8.01, 9.01; filed by Anthropic, PBC (ANT)",
+      "source_ids": {
+        "edgar_accession": "0001628280-26-075973",
+        "edgar_cik": "0002130357",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,3.02,3.03,5.03,7.01,8.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — Elmet Group Co. (ELMT)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026123658/0001213900-26-123658-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "REGISTRATION STATEMENT; filed by Elmet Group Co. (ELMT)",
+      "source_ids": {
+        "edgar_accession": "0001213900-26-123658",
+        "edgar_cik": "0002101698",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1/A — Kartoon Studios Acquisition Corp (KACQ)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2160422/000110465926131085/0001104659-26-131085-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "S-1/A; filed by Kartoon Studios Acquisition Corp (KACQ)",
+      "source_ids": {
+        "edgar_accession": "0001104659-26-131085",
+        "edgar_cik": "0002160422",
+        "edgar_form": "S-1/A"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "S-1 — ContextLogic Holdings Inc. (LOGC)",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2064307/000119312526470479/0001193125-26-470479-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-20T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "S-1; filed by ContextLogic Holdings Inc. (LOGC)",
+      "source_ids": {
+        "edgar_accession": "0001193125-26-470479",
+        "edgar_cik": "0002064307",
+        "edgar_form": "S-1"
+      },
+      "adapter": "sec-edgar"
+    },
+    {
+      "headline": "8-K — BMO 2026-C15 Mortgage Trust",
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/2063009/000153949726003102/0001539497-26-003102-index.htm",
+      "publisher": "SEC EDGAR",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:23.724Z",
+      "excerpt": "BENCHMARK 2026-B44 POOLING AND SERVICING AGREEMENT; items 1.01, 9.01; filed by BMO 2026-C15 Mortgage Trust",
+      "source_ids": {
+        "edgar_accession": "0001539497-26-003102",
+        "edgar_cik": "0002063009",
+        "edgar_form": "8-K",
+        "edgar_items": "1.01,9.01"
+      },
+      "adapter": "sec-edgar"
+    }
+  ]
+}

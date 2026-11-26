@@ -1,0 +1,412 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "techcrunch-ai",
+  "fetched_at": "2026-11-26T20:02:19.300Z",
+  "items": [
+    {
+      "headline": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "canonical_url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-26T16:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3190829",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Gaming",
+        "Anthropic",
+        "grand theft auto"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "canonical_url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-25T22:44:32.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192614",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "credit rating",
+        "In Brief",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "canonical_url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-25T20:03:27.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192524",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "OpenAI",
+        "ChatGPT",
+        "openai chatgpt"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "canonical_url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-25T19:54:57.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192475",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "corporate culture",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "canonical_url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-25T19:44:24.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192506",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Anthropic",
+        "dario amodei",
+        "OpenAI"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "canonical_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-25T18:11:46.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192412",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Commerce",
+        "Gadgets",
+        "Government & Policy",
+        "AI chatbot",
+        "kathy hochul"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "canonical_url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-25T17:35:58.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192361",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Privacy",
+        "Startups",
+        "lawsuit",
+        "character.ai"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "canonical_url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-25T15:41:43.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3192333",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "AI data center",
+        "Chamath Palihapitiya",
+        "Equity podcast",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "canonical_url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-25T14:10:18.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192253",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Commerce",
+        "Amazon",
+        "e-commerce",
+        "In Brief",
+        "Meta",
+        "muse"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+      "canonical_url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-25T13:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang's affair with a Megaspeed executive gave the company reason to doubt Megaspeed's assurances.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3191841",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "Megaspeed",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "canonical_url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-25T00:12:02.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3191990",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "canonical_url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-24T22:27:52.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192058",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "canonical_url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-24T21:48:27.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192009",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Donald Trump",
+        "Jensen Huang",
+        "nvidia"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Even the best AI agents struggle with everyday life",
+      "canonical_url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-24T21:33:29.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192038",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "Anthropic",
+        "Hugging Face",
+        "Meta",
+        "muse",
+        "OpenAI",
+        "openclaw",
+        "personal assistant"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "canonical_url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-24T21:32:38.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3192047",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Commerce",
+        "AI agents",
+        "black friday",
+        "Meta",
+        "Walmart"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "canonical_url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-24T21:19:52.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3191989",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Privacy",
+        "Security",
+        "Startups",
+        "AI agents",
+        "ai apps",
+        "Exclusive"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "canonical_url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-24T18:30:42.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3191971",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Startups",
+        "Venture",
+        "Anthropic",
+        "In Brief",
+        "IPO"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "canonical_url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-24T18:02:59.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3191956",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Security",
+        "cyberattacks",
+        "cybersecurity",
+        "data breaches",
+        "UK government"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "canonical_url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-24T17:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3191770",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Social",
+        "Instagram",
+        "muse"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "canonical_url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+      "publisher": "TechCrunch",
+      "published_at": "2026-11-24T16:46:00.000Z",
+      "fetched_at": "2026-11-26T20:02:19.927Z",
+      "excerpt": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+      "source_ids": {
+        "rss_guid": "https://techcrunch.com/?p=3191757",
+        "newsroom_feed": "techcrunch-ai"
+      },
+      "categories": [
+        "AI",
+        "Apps",
+        "Media & Entertainment",
+        "ai music",
+        "ai slop",
+        "music streaming",
+        "tidal"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

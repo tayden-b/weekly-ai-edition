@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "google-ai-blog",
+  "fetched_at": "2026-11-26T20:02:19.300Z",
+  "items": [
+    {
+      "headline": "How Gemini is changing the game for Golden State's organization and fans.",
+      "canonical_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:19.328Z",
+      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "source_ids": {
+        "guid": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "A more tailored Google Search that’s uniquely yours",
+      "canonical_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+      "publisher": "Google AI",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:19.328Z",
+      "excerpt": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "source_ids": {
+        "guid": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}
