@@ -1,0 +1,1604 @@
+{
+  "adapter": "distribute-software",
+  "source": "distribute-stories",
+  "fetched_at": "2026-11-26T20:02:19.300Z",
+  "items": [
+    {
+      "headline": "SAP explores at least 10,000 job cuts",
+      "canonical_url": "https://www.ft.com/content/ef05b4ab-7944-44ae-ad00-15475f8c1ec9",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T18:24:34.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "SAP explores at least 10,000 job cuts",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27267",
+        "distribute_url": "https://distribute.software/stories/27267",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Tracking Diseases Cured by AI",
+      "canonical_url": "https://diseasescuredbyai.com/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T17:16:41.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Tracking Diseases Cured by AI",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27266",
+        "distribute_url": "https://distribute.software/stories/27266",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50657307"
+      },
+      "hn_points": 279,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Andrew Bailey says unreleased AI models have raised encryption concerns",
+      "canonical_url": "https://www.ft.com/content/450920b9-82b8-4a66-960b-5740aa7f94ae",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T17:13:40.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Andrew Bailey says unreleased AI models have raised encryption concerns",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27265",
+        "distribute_url": "https://distribute.software/stories/27265",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Jensen Huang Is Back, and So Is His Plaque at Denny’s",
+      "canonical_url": "https://www.nytimes.com/2026/11/26/business/dennys-jensen-huang-nvidia-plaque.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-26T16:30:58.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Jensen Huang Is Back, and So Is His Plaque at Denny’s",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27264",
+        "distribute_url": "https://distribute.software/stories/27264",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "FCC approves 1 million SpaceX data centers in space. Astronomers are dismayed.",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/26/fcc-approves-1-million-spacex-data-centers-space-astronomers-are-dismayed/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-26T14:53:27.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "FCC approves 1 million SpaceX data centers in space. Astronomers are dismayed.",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27261",
+        "distribute_url": "https://distribute.software/stories/27261",
+        "distribute_source": "media",
+        "distribute_companies": "spacex"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Tell HN: Happy Thanksgiving",
+      "canonical_url": "https://news.ycombinator.com/item?id=50655664",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T14:26:54.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Tell HN: Happy Thanksgiving",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27262",
+        "distribute_url": "https://distribute.software/stories/27262",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50655664"
+      },
+      "hn_points": 485,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "45°C inlets just killed the chiller. Most people haven't noticed yet",
+      "canonical_url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T13:48:11.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "45°C inlets just killed the chiller. Most people haven't noticed yet",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27263",
+        "distribute_url": "https://distribute.software/stories/27263",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50655278"
+      },
+      "hn_points": 224,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia’s ‘great man theory’ is flawed",
+      "canonical_url": "https://www.ft.com/content/6a01bdc9-f242-4272-b5e3-a147af5b125c",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T12:56:10.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Nvidia’s ‘great man theory’ is flawed",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27259",
+        "distribute_url": "https://distribute.software/stories/27259",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Can AI replace economics PhDs?",
+      "canonical_url": "https://www.ft.com/content/e4d14f96-c223-4c80-ad93-28a8a545beb1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T12:30:06.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Can AI replace economics PhDs?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27260",
+        "distribute_url": "https://distribute.software/stories/27260",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
+      "canonical_url": "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-26T12:04:01.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27252",
+        "distribute_url": "https://distribute.software/stories/27252",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Dressmaker review – delightful business sim is a cut above",
+      "canonical_url": "https://www.theguardian.com/games/2026/nov/26/dressmaker-review-delightful-business-sim-is-a-cut-above",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-26T12:00:34.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Dressmaker review – delightful business sim is a cut above",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27253",
+        "distribute_url": "https://distribute.software/stories/27253",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Texas resumes data centre permitting before Democrats take over",
+      "canonical_url": "https://www.ft.com/content/e0a1bf7a-7c28-4a20-8ca8-86dc7d5097b3",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T12:00:10.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Texas resumes data centre permitting before Democrats take over",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27254",
+        "distribute_url": "https://distribute.software/stories/27254",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nintendo and Sony ready for a two-level battle with AI",
+      "canonical_url": "https://www.ft.com/content/2e618ea7-e91f-40f3-903e-9ce355b0308c",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T11:59:32.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Nintendo and Sony ready for a two-level battle with AI",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27255",
+        "distribute_url": "https://distribute.software/stories/27255",
+        "distribute_source": "media",
+        "distribute_companies": "nintendo,sony"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Fifa hit by cyber attack",
+      "canonical_url": "https://www.ft.com/content/3a97fa7f-c173-4fe9-ad23-093f27550529",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T11:59:16.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Fifa hit by cyber attack",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27256",
+        "distribute_url": "https://distribute.software/stories/27256",
+        "distribute_source": "media",
+        "distribute_companies": "cyber"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nextcloud Office Desktop app",
+      "canonical_url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T11:50:49.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Nextcloud Office Desktop app",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27257",
+        "distribute_url": "https://distribute.software/stories/27257",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50654289"
+      },
+      "hn_points": 359,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "BoE to cut capital requirements for banks as it warns of AI risks",
+      "canonical_url": "https://www.ft.com/content/cf30cef5-0e35-4ebd-a456-797dbd1ad132",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T11:09:58.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "BoE to cut capital requirements for banks as it warns of AI risks",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27249",
+        "distribute_url": "https://distribute.software/stories/27249",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Backlash over AI power costs threatens $67bn NextEra-Dominion deal",
+      "canonical_url": "https://www.ft.com/content/1f4095cb-c032-414f-9858-554c8b82b145",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T11:00:06.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Backlash over AI power costs threatens $67bn NextEra-Dominion deal",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27247",
+        "distribute_url": "https://distribute.software/stories/27247",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "VC investors dump old funds at steep discounts to chase AI riches",
+      "canonical_url": "https://www.ft.com/content/0278cbea-a0b6-4a30-80f2-f31ac6657f11",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T11:00:06.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "VC investors dump old funds at steep discounts to chase AI riches",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27248",
+        "distribute_url": "https://distribute.software/stories/27248",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "A vocal cohort of tech leaders celebrates Huang’s Nvidia return, but others are keeping quiet",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/26/jensen-huang-nvidia-tech",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-26T10:00:52.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "A vocal cohort of tech leaders celebrates Huang’s Nvidia return, but others are keeping quiet",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27246",
+        "distribute_url": "https://distribute.software/stories/27246",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-26T10:00:51.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27244",
+        "distribute_url": "https://distribute.software/stories/27244",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How Elon Musk paved the way for Jensen Huang’s return",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/26/how-elon-musk-paved-way-jensen-huangs-return/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-26T10:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "How Elon Musk paved the way for Jensen Huang’s return",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27241",
+        "distribute_url": "https://distribute.software/stories/27241",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "canonical_url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T09:44:23.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27250",
+        "distribute_url": "https://distribute.software/stories/27250",
+        "distribute_source": "hn",
+        "distribute_companies": "google",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50653477"
+      },
+      "hn_points": 87,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘Chicken nuggets’ meme ensnares both Burnham and Badenoch",
+      "canonical_url": "https://www.ft.com/content/bddce920-71a7-40b5-9c03-e01a4102a341",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T09:30:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "‘Chicken nuggets’ meme ensnares both Burnham and Badenoch",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27242",
+        "distribute_url": "https://distribute.software/stories/27242",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Musk's plan to send a million SpaceX data satellites into space approved",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo",
+      "publisher": "BBC News",
+      "published_at": "2026-11-26T09:27:44.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Musk's plan to send a million SpaceX data satellites into space approved",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27238",
+        "distribute_url": "https://distribute.software/stories/27238",
+        "distribute_source": "media",
+        "distribute_companies": "spacex"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Seven beautiful places to visit in GTA VI, from mountains trails to an afternoon at the zoo",
+      "canonical_url": "https://www.theguardian.com/games/2026/nov/26/seven-beautiful-places-to-visit-in-gta-vi-from-mountains-trails-to-an-afternoon-at-the-zoo",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-26T09:20:50.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Seven beautiful places to visit in GTA VI, from mountains trails to an afternoon at the zoo",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27240",
+        "distribute_url": "https://distribute.software/stories/27240",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "China made Shenzhen a showcase for tech prowess at Apec summit",
+      "canonical_url": "https://www.ft.com/content/05a51863-48f4-44f5-90a0-3fbaebb72c79",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T08:27:59.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "China made Shenzhen a showcase for tech prowess at Apec summit",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27237",
+        "distribute_url": "https://distribute.software/stories/27237",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Elon Musk pledges to give two SpaceX shares to every child in the US",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-26T07:02:37.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Elon Musk pledges to give two SpaceX shares to every child in the US",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27236",
+        "distribute_url": "https://distribute.software/stories/27236",
+        "distribute_source": "media",
+        "distribute_companies": "spacex"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Moat: Your OpenRouter Replacement",
+      "canonical_url": "https://commandcode.ai/moat",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T06:32:48.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Moat: Your OpenRouter Replacement",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27239",
+        "distribute_url": "https://distribute.software/stories/27239",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50652184"
+      },
+      "hn_points": 197,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "An algebraic quantization of gravity from the null cone",
+      "canonical_url": "https://arxiv.org/abs/2611.34924",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T05:37:51.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "An algebraic quantization of gravity from the null cone",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27251",
+        "distribute_url": "https://distribute.software/stories/27251",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50651863"
+      },
+      "hn_points": 124,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+      "canonical_url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T05:12:59.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27235",
+        "distribute_url": "https://distribute.software/stories/27235",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50651719"
+      },
+      "hn_points": 241,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Software stocks spared in tech rout as AI narrative shifts",
+      "canonical_url": "https://www.ft.com/content/90b82a64-4f58-45d7-8a6a-4c2730545b65",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T05:00:29.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Software stocks spared in tech rout as AI narrative shifts",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27226",
+        "distribute_url": "https://distribute.software/stories/27226",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Ministers explore NHS-built alternative to Palantir’s software",
+      "canonical_url": "https://www.ft.com/content/b99613ab-a130-4b9f-8c15-c41db7cd8894",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T05:00:29.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Ministers explore NHS-built alternative to Palantir’s software",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27227",
+        "distribute_url": "https://distribute.software/stories/27227",
+        "distribute_source": "media",
+        "distribute_companies": "palantir"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Meta’s AI assistant is a fluffy frenemy to UK’s consumer finance brands",
+      "canonical_url": "https://www.ft.com/content/7f81ffd9-c259-4f36-9e22-77269244de1b",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T05:00:29.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Meta’s AI assistant is a fluffy frenemy to UK’s consumer finance brands",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27228",
+        "distribute_url": "https://distribute.software/stories/27228",
+        "distribute_source": "media",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Huang’s return is a terrible signal for US capitalism",
+      "canonical_url": "https://www.ft.com/content/cd688a72-04ed-40fb-9c26-5cae522a0abd",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T05:00:19.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Huang’s return is a terrible signal for US capitalism",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27229",
+        "distribute_url": "https://distribute.software/stories/27229",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia halts chip shipments to south-east Asia",
+      "canonical_url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T05:00:19.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Nvidia halts chip shipments to south-east Asia",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27230",
+        "distribute_url": "https://distribute.software/stories/27230",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Europe’s rearmament drive and its obsession with sovereignty",
+      "canonical_url": "https://www.ft.com/content/651b89f5-7262-43e8-a022-a068b935950b",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T05:00:12.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Europe’s rearmament drive and its obsession with sovereignty",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27231",
+        "distribute_url": "https://distribute.software/stories/27231",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "'Jensanity' sweeps China and Taiwan",
+      "canonical_url": "https://www.ft.com/content/33772353-35dd-4e5a-89e4-b75dccbd9eca",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T05:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "'Jensanity' sweeps China and Taiwan",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27232",
+        "distribute_url": "https://distribute.software/stories/27232",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Unconditional Integer Factorization in Subexponential Time",
+      "canonical_url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T04:59:56.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Unconditional Integer Factorization in Subexponential Time",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27245",
+        "distribute_url": "https://distribute.software/stories/27245",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50651627"
+      },
+      "hn_points": 66,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Qualcomm's Oryon 3 Reaches the Top",
+      "canonical_url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T03:43:24.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Qualcomm's Oryon 3 Reaches the Top",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27243",
+        "distribute_url": "https://distribute.software/stories/27243",
+        "distribute_source": "hn",
+        "distribute_companies": "qualcomm",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50651158"
+      },
+      "hn_points": 53,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "canonical_url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T03:36:58.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27225",
+        "distribute_url": "https://distribute.software/stories/27225",
+        "distribute_source": "hn",
+        "distribute_companies": "openai",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50651117"
+      },
+      "hn_points": 437,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Minipg: PostgreSQL as a Single Executable",
+      "canonical_url": "https://progrium.github.io/minipg/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T03:00:48.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Minipg: PostgreSQL as a Single Executable",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27233",
+        "distribute_url": "https://distribute.software/stories/27233",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50650892"
+      },
+      "hn_points": 268,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Bank of Korea raises interest rates amid AI chip boom",
+      "canonical_url": "https://www.ft.com/content/823af978-e22b-49a4-a2a1-52867a6520fa",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T02:27:04.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Bank of Korea raises interest rates amid AI chip boom",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27223",
+        "distribute_url": "https://distribute.software/stories/27223",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Global stocks climb after volatile US trading over AI risks",
+      "canonical_url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T00:57:14.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Global stocks climb after volatile US trading over AI risks",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27220",
+        "distribute_url": "https://distribute.software/stories/27220",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘Jensanity’ erupts in Taiwan and China on Nvidia founder’s comeback",
+      "canonical_url": "https://www.ft.com/content/368c4526-a0ce-4951-a847-f039af2a51af",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T00:45:54.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "‘Jensanity’ erupts in Taiwan and China on Nvidia founder’s comeback",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27221",
+        "distribute_url": "https://distribute.software/stories/27221",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Tell HN: Lots of Ask HNs again",
+      "canonical_url": "https://news.ycombinator.com/item?id=50649864",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T00:43:34.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Tell HN: Lots of Ask HNs again",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27222",
+        "distribute_url": "https://distribute.software/stories/27222",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50649864"
+      },
+      "hn_points": 383,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Collection of preserved UI style guides",
+      "canonical_url": "https://aresluna.org/ui-style-guides/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-26T00:40:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Collection of preserved UI style guides",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27224",
+        "distribute_url": "https://distribute.software/stories/27224",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50649834"
+      },
+      "hn_points": 367,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Hegseth, Pentagon officials floated using wartime law to reappoint Nvidia CEO",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/25/hegseth-pentagon-officials-floated-using-wartime-law-reappoint-nvidia-ceo/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-25T22:32:48.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Hegseth, Pentagon officials floated using wartime law to reappoint Nvidia CEO",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27219",
+        "distribute_url": "https://distribute.software/stories/27219",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Much shorter version of GRH Lean verification from Anthropic",
+      "canonical_url": "https://github.com/lsernau/grh-lean",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T21:48:10.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Much shorter version of GRH Lean verification from Anthropic",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27234",
+        "distribute_url": "https://distribute.software/stories/27234",
+        "distribute_source": "hn",
+        "distribute_companies": "anthropic",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50648050"
+      },
+      "hn_points": 527,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "A Man in Denver Has Been Throwing Eggs at Waymo Vehicles",
+      "canonical_url": "https://www.nytimes.com/2026/11/25/us/waymo-denver-egg-throwing.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-25T21:36:34.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "A Man in Denver Has Been Throwing Eggs at Waymo Vehicles",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27218",
+        "distribute_url": "https://distribute.software/stories/27218",
+        "distribute_source": "media",
+        "distribute_companies": "waymo"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The New York Times warns photographers not to update Photoshop over AI features",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T21:18:02.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "The New York Times warns photographers not to update Photoshop over AI features",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27258",
+        "distribute_url": "https://distribute.software/stories/27258",
+        "distribute_source": "hn",
+        "distribute_companies": "adobe",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50647673"
+      },
+      "hn_points": 616,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Which gaming headsets are worth the cost? I put 20 to the test – here are the best for 2026",
+      "canonical_url": "https://www.theguardian.com/thefilter/2026/nov/25/best-gaming-headsets-tested-uk",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T20:00:35.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Which gaming headsets are worth the cost? I put 20 to the test – here are the best for 2026",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27216",
+        "distribute_url": "https://distribute.software/stories/27216",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "canonical_url": "https://scottaaronson.blog/?p=10379",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T19:11:27.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27217",
+        "distribute_url": "https://distribute.software/stories/27217",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50646108"
+      },
+      "hn_points": 1915,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The fund manager’s dilemma over AI",
+      "canonical_url": "https://www.ft.com/content/c62ca4c2-dfc4-4943-86a4-fee8fd5a1f4a",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T18:05:53.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "The fund manager’s dilemma over AI",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27215",
+        "distribute_url": "https://distribute.software/stories/27215",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "US Treasury financial crime watchdog hit by suspected cyber attack",
+      "canonical_url": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T17:45:30.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "US Treasury financial crime watchdog hit by suspected cyber attack",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27212",
+        "distribute_url": "https://distribute.software/stories/27212",
+        "distribute_source": "media",
+        "distribute_companies": "cyber"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "1Password Security Incident",
+      "canonical_url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T17:18:26.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "1Password Security Incident",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27213",
+        "distribute_url": "https://distribute.software/stories/27213",
+        "distribute_source": "hn",
+        "distribute_companies": "cyber",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50644817"
+      },
+      "hn_points": 1617,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Nvidia fallout exposes China’s fragility on frontier AI",
+      "canonical_url": "https://www.ft.com/content/e6557cf5-1c02-4ff7-abdd-f0682298b8c1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T16:00:04.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Nvidia fallout exposes China’s fragility on frontier AI",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27210",
+        "distribute_url": "https://distribute.software/stories/27210",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "New Meta settlement changes will affect only 8 percent of teens, study says",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/25/new-meta-settlement-changes-will-only-affect-8-percent-teens-study-says/",
+      "publisher": "The Washington Post",
+      "published_at": "2026-11-25T16:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "New Meta settlement changes will affect only 8 percent of teens, study says",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27208",
+        "distribute_url": "https://distribute.software/stories/27208",
+        "distribute_source": "media",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Anthropic’s Stock Debut Could Hurt Tech Start-Ups",
+      "canonical_url": "https://www.nytimes.com/2026/11/25/technology/anthropic-stock-tech-start-ups.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-25T15:43:55.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Anthropic’s Stock Debut Could Hurt Tech Start-Ups",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27205",
+        "distribute_url": "https://distribute.software/stories/27205",
+        "distribute_source": "media",
+        "distribute_companies": "anthropic"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "New York bans AI toys, including those using internet to talk to children",
+      "canonical_url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T15:29:21.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "New York bans AI toys, including those using internet to talk to children",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27206",
+        "distribute_url": "https://distribute.software/stories/27206",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Is grandma asking rude questions at the dinner table again? This Instagram account can help",
+      "canonical_url": "https://www.theguardian.com/wellness/2026/nov/25/life100-viral-instagram-series-susan-thau-sondra-goldstein",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T15:21:38.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Is grandma asking rude questions at the dinner table again? This Instagram account can help",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27207",
+        "distribute_url": "https://distribute.software/stories/27207",
+        "distribute_source": "media",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+      "canonical_url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T15:14:32.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27211",
+        "distribute_url": "https://distribute.software/stories/27211",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50643129"
+      },
+      "hn_points": 487,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Botty? AI helps resurrect voice of John Motson for football video game",
+      "canonical_url": "https://www.theguardian.com/media/2026/nov/25/ai-helps-resurrect-voice-john-motson-football-video-game-fc27",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T15:13:10.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Botty? AI helps resurrect voice of John Motson for football video game",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27202",
+        "distribute_url": "https://distribute.software/stories/27202",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Rumors swirling that labs might have cracked Factoring in P",
+      "canonical_url": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T15:08:44.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Rumors swirling that labs might have cracked Factoring in P",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27214",
+        "distribute_url": "https://distribute.software/stories/27214",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50643065"
+      },
+      "hn_points": 503,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The unexpected joy hiding in Grand Theft Auto VI’s chaos? A little routine",
+      "canonical_url": "https://www.theguardian.com/games/2026/nov/25/the-secret-to-grand-theft-auto-vi-routine-rockstar-games",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T15:00:28.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "The unexpected joy hiding in Grand Theft Auto VI’s chaos? A little routine",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27203",
+        "distribute_url": "https://distribute.software/stories/27203",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Why do economists struggle to forecast the impact of AI?",
+      "canonical_url": "https://www.ft.com/content/4d330eab-0dda-4d70-be7f-22b9538e0b29",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T14:49:44.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Why do economists struggle to forecast the impact of AI?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27199",
+        "distribute_url": "https://distribute.software/stories/27199",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Amazon to start selling cars in the UK next year",
+      "canonical_url": "https://www.theguardian.com/uk-news/2026/nov/25/amazon-motors-into-uk-car-market",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T14:37:26.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Amazon to start selling cars in the UK next year",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27209",
+        "distribute_url": "https://distribute.software/stories/27209",
+        "distribute_source": "media",
+        "distribute_companies": "amazon"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Spanish defence giant Indra joins Europe’s push for ‘sovereign AI’",
+      "canonical_url": "https://www.ft.com/content/05d6c6b6-80ce-4331-9bed-5835991fba2e",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T14:22:29.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Spanish defence giant Indra joins Europe’s push for ‘sovereign AI’",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27200",
+        "distribute_url": "https://distribute.software/stories/27200",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Aidan didn’t expect a spoken-word component in his thesis - but universities hope it will help tackle AI",
+      "canonical_url": "https://www.theguardian.com/australia-news/2026/nov/25/australian-universities-tackle-ai-plagiarism-oral-assessment-honours-masters-phd",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T14:00:29.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Aidan didn’t expect a spoken-word component in his thesis - but universities hope it will help tackle AI",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27197",
+        "distribute_url": "https://distribute.software/stories/27197",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘Nobody showed up but me’: will Friendsgiving survive gen Z?",
+      "canonical_url": "https://www.theguardian.com/lifeandstyle/2026/nov/25/friendsgiving-gen-z",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T14:00:29.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "‘Nobody showed up but me’: will Friendsgiving survive gen Z?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27198",
+        "distribute_url": "https://distribute.software/stories/27198",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+      "canonical_url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T13:33:07.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27204",
+        "distribute_url": "https://distribute.software/stories/27204",
+        "distribute_source": "hn",
+        "distribute_companies": "google",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50642086"
+      },
+      "hn_points": 501,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "canonical_url": "https://github.com/xoxorwr/pw-loudness-eq",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T11:34:25.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27201",
+        "distribute_url": "https://distribute.software/stories/27201",
+        "distribute_source": "hn",
+        "distribute_companies": "cyber,microsoft",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50641171"
+      },
+      "hn_points": 248,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The investigations facing Nvidia and Jensen Huang",
+      "canonical_url": "https://www.ft.com/content/b68742ac-f7b9-4aca-b4d9-48245e749b60",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T11:25:34.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "The investigations facing Nvidia and Jensen Huang",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27195",
+        "distribute_url": "https://distribute.software/stories/27195",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Our ‘Paris manifesto’ proposes how to deal with extreme wealth in the AI age | Open letter",
+      "canonical_url": "https://www.theguardian.com/commentisfree/2026/nov/25/paris-manifesto-open-letter-ai-oligarchy",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T11:00:47.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Our ‘Paris manifesto’ proposes how to deal with extreme wealth in the AI age | Open letter",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27193",
+        "distribute_url": "https://distribute.software/stories/27193",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "EA adds AI-generated John Motson to FC 27 video game",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo",
+      "publisher": "BBC News",
+      "published_at": "2026-11-25T10:11:34.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "EA adds AI-generated John Motson to FC 27 video game",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27191",
+        "distribute_url": "https://distribute.software/stories/27191",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How to Talk to Your Family About A.I. Doom at Thanksgiving",
+      "canonical_url": "https://www.nytimes.com/2026/11/25/technology/thanksgiving-ai-doom-family.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-25T10:04:13.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "How to Talk to Your Family About A.I. Doom at Thanksgiving",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27186",
+        "distribute_url": "https://distribute.software/stories/27186",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How to Use Your Apps With Fewer Taps",
+      "canonical_url": "https://www.nytimes.com/2026/11/25/technology/personaltech/apps-widgets.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-25T10:03:55.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "How to Use Your Apps With Fewer Taps",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27187",
+        "distribute_url": "https://distribute.software/stories/27187",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Zoe Kleinman: Nobody is irreplaceable - unless you're Jensen Huang",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/c3rrgqj2zx5yo",
+      "publisher": "BBC News",
+      "published_at": "2026-11-25T10:03:12.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Zoe Kleinman: Nobody is irreplaceable - unless you're Jensen Huang",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27192",
+        "distribute_url": "https://distribute.software/stories/27192",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The Web May Be Dying. Can Net Art Save It?",
+      "canonical_url": "https://www.nytimes.com/2026/11/25/arts/design/artport-whitney-museum-digital-art-ai-paul.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-25T10:02:18.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "The Web May Be Dying. Can Net Art Save It?",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27188",
+        "distribute_url": "https://distribute.software/stories/27188",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘A godsend’: the best hair straighteners in the UK for foolproof styling",
+      "canonical_url": "https://www.theguardian.com/thefilter/2025/mar/18/best-hair-straighteners",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T10:00:03.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "‘A godsend’: the best hair straighteners in the UK for foolproof styling",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27189",
+        "distribute_url": "https://distribute.software/stories/27189",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Britain’s schoolchildren need AI guidance",
+      "canonical_url": "https://www.ft.com/content/c94bb595-e83f-45c6-98d6-d09a3183c13b",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T08:00:02.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Britain’s schoolchildren need AI guidance",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27181",
+        "distribute_url": "https://distribute.software/stories/27181",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘It’s been really a mess’: Meta insiders concerned over push to AI content moderation",
+      "canonical_url": "https://www.theguardian.com/technology/2026/nov/25/meta-insiders-concerned-push-to-ai-content-moderation",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T07:00:08.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "‘It’s been really a mess’: Meta insiders concerned over push to AI content moderation",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27179",
+        "distribute_url": "https://distribute.software/stories/27179",
+        "distribute_source": "media",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "India as AI play",
+      "canonical_url": "https://www.ft.com/content/f3e59769-6b74-4dfc-913a-985286847ff0",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T06:30:02.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "India as AI play",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27180",
+        "distribute_url": "https://distribute.software/stories/27180",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "China-linked battery projects could receive UK funding despite security warnings",
+      "canonical_url": "https://www.theguardian.com/business/2026/nov/25/china-battery-projects-uk-funding-security-warnings",
+      "publisher": "The Guardian",
+      "published_at": "2026-11-25T06:00:07.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "China-linked battery projects could receive UK funding despite security warnings",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27184",
+        "distribute_url": "https://distribute.software/stories/27184",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "British drone developers hampered by outdated laws, industry warns",
+      "canonical_url": "https://www.ft.com/content/7693f1a2-58ec-46e0-b798-bcea394862c0",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T05:00:32.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "British drone developers hampered by outdated laws, industry warns",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27165",
+        "distribute_url": "https://distribute.software/stories/27165",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "‘Tech bros strike back’ as Trump rescues Nvidia’s Huang",
+      "canonical_url": "https://www.ft.com/content/a1374617-d3a2-415a-8490-72b164eefc0e",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T05:00:32.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "‘Tech bros strike back’ as Trump rescues Nvidia’s Huang",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27166",
+        "distribute_url": "https://distribute.software/stories/27166",
+        "distribute_source": "media",
+        "distribute_companies": "nvidia"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Brussels presses porn sites to introduce tougher age checks",
+      "canonical_url": "https://www.ft.com/content/049151e8-f97f-4d63-9a6e-5a6d1fcc9dd8",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T05:00:22.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Brussels presses porn sites to introduce tougher age checks",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27167",
+        "distribute_url": "https://distribute.software/stories/27167",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "AI is not the cure-all for drug development",
+      "canonical_url": "https://www.ft.com/content/86cef5ab-ce61-4b50-8511-164aa3e5f499",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T05:00:22.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "AI is not the cure-all for drug development",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27168",
+        "distribute_url": "https://distribute.software/stories/27168",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "EU plans €50bn tech fund to close gap with US and China",
+      "canonical_url": "https://www.ft.com/content/53d4b629-7ae4-4d63-ac37-e773b1dd3af0",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T05:00:22.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "EU plans €50bn tech fund to close gap with US and China",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27169",
+        "distribute_url": "https://distribute.software/stories/27169",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The secretive Iranian cyber unit behind Europe’s freezer hacks",
+      "canonical_url": "https://www.ft.com/content/5f3a85ad-e621-4189-bada-989f41702ed9",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T05:00:12.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "The secretive Iranian cyber unit behind Europe’s freezer hacks",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27170",
+        "distribute_url": "https://distribute.software/stories/27170",
+        "distribute_source": "media",
+        "distribute_companies": "cyber"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "How friction helps, and hinders, in the workplace",
+      "canonical_url": "https://www.ft.com/content/c979e30c-e012-4efe-92d8-a4bd63776226",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T05:00:03.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "How friction helps, and hinders, in the workplace",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27171",
+        "distribute_url": "https://distribute.software/stories/27171",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The hidden costs of AI adoption",
+      "canonical_url": "https://www.ft.com/content/c845e6a2-76a1-488b-8cdc-89dddb9a5213",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T05:00:03.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "The hidden costs of AI adoption",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27172",
+        "distribute_url": "https://distribute.software/stories/27172",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Creativity at work thrives with a sprinkling of friction",
+      "canonical_url": "https://www.ft.com/content/933ae91e-49b5-46dd-8a66-ff3481cb95cb",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T05:00:03.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Creativity at work thrives with a sprinkling of friction",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27173",
+        "distribute_url": "https://distribute.software/stories/27173",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "The tech bros strike back",
+      "canonical_url": "https://www.ft.com/content/a9f39daf-718d-46b5-a8b9-41980b8c67c0",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-25T05:00:00.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "The tech bros strike back",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27174",
+        "distribute_url": "https://distribute.software/stories/27174",
+        "distribute_source": "media"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Treasury CIO is too busy vibecoding instead of doing his job #147",
+      "canonical_url": "https://github.com/samcorcos/legatum/issues/147",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T04:56:36.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Treasury CIO is too busy vibecoding instead of doing his job #147",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27176",
+        "distribute_url": "https://distribute.software/stories/27176",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50638647"
+      },
+      "hn_points": 131,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "canonical_url": "https://gpu-demo-gallery.pages.dev/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T04:31:48.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27178",
+        "distribute_url": "https://distribute.software/stories/27178",
+        "distribute_source": "hn",
+        "distribute_companies": "nvidia",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50638503"
+      },
+      "hn_points": 309,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Taking over US Treasury subdomains for $3 each",
+      "canonical_url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T04:27:55.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Taking over US Treasury subdomains for $3 each",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27196",
+        "distribute_url": "https://distribute.software/stories/27196",
+        "distribute_source": "hn",
+        "distribute_companies": "cyber",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50638478"
+      },
+      "hn_points": 157,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+      "canonical_url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T04:03:33.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27175",
+        "distribute_url": "https://distribute.software/stories/27175",
+        "distribute_source": "hn",
+        "distribute_companies": "google",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50638320"
+      },
+      "hn_points": 203,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "canonical_url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T03:47:42.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27177",
+        "distribute_url": "https://distribute.software/stories/27177",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50638220"
+      },
+      "hn_points": 185,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "canonical_url": "https://buttons.joshwcomeau.com/",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T03:23:07.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27162",
+        "distribute_url": "https://distribute.software/stories/27162",
+        "distribute_source": "hn",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50638032"
+      },
+      "hn_points": 878,
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "canonical_url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "publisher": "Hacker News",
+      "published_at": "2026-11-25T03:04:37.000Z",
+      "fetched_at": "2026-11-26T20:02:21.355Z",
+      "excerpt": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+      "source_ids": {
+        "feed": "distribute-stories",
+        "distribute_id": "story-27164",
+        "distribute_url": "https://distribute.software/stories/27164",
+        "distribute_source": "hn",
+        "distribute_companies": "apple",
+        "hn_discussion_url": "https://news.ycombinator.com/item?id=50637890"
+      },
+      "hn_points": 461,
+      "adapter": "distribute-software"
+    }
+  ]
+}

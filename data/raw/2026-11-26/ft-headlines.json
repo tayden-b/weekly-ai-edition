@@ -1,0 +1,20 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "ft-headlines",
+  "fetched_at": "2026-11-26T20:02:19.300Z",
+  "items": [
+    {
+      "headline": "Andrew Bailey says unreleased AI models have raised encryption concerns",
+      "canonical_url": "https://www.ft.com/content/450920b9-82b8-4a66-960b-5740aa7f94ae?syn-25a6b1a6=1",
+      "publisher": "Financial Times",
+      "published_at": "2026-11-26T17:13:40.000Z",
+      "fetched_at": "2026-11-26T20:02:19.352Z",
+      "excerpt": "Andrew Bailey says unreleased AI models have raised encryption concerns",
+      "source_ids": {
+        "feed": "ft-headlines",
+        "guid": "450920b9-82b8-4a66-960b-5740aa7f94ae"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "adapter": "hf-hub",
+  "source": "hf-hub-models",
+  "fetched_at": "2026-11-26T20:02:19.300Z",
+  "items": [
+    {
+      "headline": "microsoft/CogACT2-RoboDojo",
+      "canonical_url": "https://huggingface.co/microsoft/CogACT2-RoboDojo",
+      "publisher": "microsoft",
+      "published_at": "2026-11-26T15:53:40.000Z",
+      "fetched_at": "2026-11-26T20:02:19.337Z",
+      "excerpt": "microsoft/CogACT2-RoboDojo",
+      "source_ids": {
+        "hf_model_id": "microsoft/CogACT2-RoboDojo"
+      },
+      "adapter": "hf-hub"
+    },
+    {
+      "headline": "microsoft/CogACT2-RoboTwin-CleanRandom",
+      "canonical_url": "https://huggingface.co/microsoft/CogACT2-RoboTwin-CleanRandom",
+      "publisher": "microsoft",
+      "published_at": "2026-11-26T15:53:39.000Z",
+      "fetched_at": "2026-11-26T20:02:19.337Z",
+      "excerpt": "microsoft/CogACT2-RoboTwin-CleanRandom",
+      "source_ids": {
+        "hf_model_id": "microsoft/CogACT2-RoboTwin-CleanRandom"
+      },
+      "adapter": "hf-hub"
+    },
+    {
+      "headline": "microsoft/CogACT2-RoboTwin-Clean",
+      "canonical_url": "https://huggingface.co/microsoft/CogACT2-RoboTwin-Clean",
+      "publisher": "microsoft",
+      "published_at": "2026-11-26T15:53:38.000Z",
+      "fetched_at": "2026-11-26T20:02:19.337Z",
+      "excerpt": "microsoft/CogACT2-RoboTwin-Clean",
+      "source_ids": {
+        "hf_model_id": "microsoft/CogACT2-RoboTwin-Clean"
+      },
+      "adapter": "hf-hub"
+    },
+    {
+      "headline": "microsoft/CogACT2-LIBERO",
+      "canonical_url": "https://huggingface.co/microsoft/CogACT2-LIBERO",
+      "publisher": "microsoft",
+      "published_at": "2026-11-26T15:53:37.000Z",
+      "fetched_at": "2026-11-26T20:02:19.337Z",
+      "excerpt": "microsoft/CogACT2-LIBERO",
+      "source_ids": {
+        "hf_model_id": "microsoft/CogACT2-LIBERO"
+      },
+      "adapter": "hf-hub"
+    }
+  ]
+}

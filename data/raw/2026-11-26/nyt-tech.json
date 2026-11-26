@@ -1,0 +1,20 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "nyt-tech",
+  "fetched_at": "2026-11-26T20:02:19.300Z",
+  "items": [
+    {
+      "headline": "Trump’s Own Stock Portfolio Likely Benefits From Nvidia’s Rise",
+      "canonical_url": "https://www.nytimes.com/2026/11/23/technology/trump-nvidia-stock-purchases.html",
+      "publisher": "The New York Times",
+      "published_at": "2026-11-24T21:29:57.000Z",
+      "fetched_at": "2026-11-26T20:02:19.353Z",
+      "excerpt": "It’s not possible to determine the size of the president’s stake in the chip maker because there is a lag between when trades occur and when they are disclosed.",
+      "source_ids": {
+        "feed": "nyt-tech",
+        "guid": "https://www.nytimes.com/2026/11/23/technology/trump-nvidia-stock-purchases.html"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}
