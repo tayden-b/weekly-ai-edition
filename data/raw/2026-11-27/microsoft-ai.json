@@ -1,0 +1,31 @@
+{
+  "adapter": "lab-blogs",
+  "source": "microsoft-ai",
+  "fetched_at": "2026-11-27T19:51:15.952Z",
+  "items": [
+    {
+      "headline": "Rl Infrastructure At Microsoft Ai",
+      "canonical_url": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "publisher": "Microsoft AI",
+      "published_at": "2026-11-24T14:25:56.000Z",
+      "fetched_at": "2026-11-27T19:51:15.987Z",
+      "excerpt": "Rl Infrastructure At Microsoft Ai",
+      "source_ids": {
+        "slug": "rl-infrastructure-at-microsoft-ai"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing Mai Licensed Weights",
+      "canonical_url": "https://microsoft.ai/news/introducing-mai-licensed-weights/",
+      "publisher": "Microsoft AI",
+      "published_at": "2026-11-24T21:37:50.000Z",
+      "fetched_at": "2026-11-27T19:51:15.987Z",
+      "excerpt": "Introducing Mai Licensed Weights",
+      "source_ids": {
+        "slug": "introducing-mai-licensed-weights"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

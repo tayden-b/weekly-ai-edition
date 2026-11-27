@@ -1,0 +1,115 @@
+{
+  "adapter": "lab-blogs",
+  "source": "openai-news",
+  "fetched_at": "2026-11-27T19:51:15.952Z",
+  "items": [
+    {
+      "headline": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "canonical_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.953Z",
+      "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "source_ids": {
+        "guid": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Searching for distant planets with Astra",
+      "canonical_url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.953Z",
+      "excerpt": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "source_ids": {
+        "guid": "https://openai.com/index/searching-for-distant-planets-with-astra"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How Intentful uses dots to make more time for growth",
+      "canonical_url": "https://openai.com/business/customer-stories/intentful-dots",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.953Z",
+      "excerpt": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "source_ids": {
+        "guid": "https://openai.com/business/customer-stories/intentful-dots"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How iFood scales coding agents across 15,000 repositories",
+      "canonical_url": "https://openai.com/business/customer-stories/ifood",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.953Z",
+      "excerpt": "How iFood scales coding agents across 15,000 repositories",
+      "source_ids": {
+        "guid": "https://openai.com/business/customer-stories/ifood"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Clay helps sales teams win with Codex and ChatGPT",
+      "canonical_url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.953Z",
+      "excerpt": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "source_ids": {
+        "guid": "https://openai.com/business/customer-stories/clay-plugins-openai"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "OpenAI and Cisco introduce Shirudo",
+      "canonical_url": "https://openai.com/index/introducing-shirudo",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.953Z",
+      "excerpt": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "source_ids": {
+        "guid": "https://openai.com/index/introducing-shirudo"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Connected intelligence for in-house legal",
+      "canonical_url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.953Z",
+      "excerpt": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "source_ids": {
+        "guid": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Richpanel helps companies automate 50% of support in 30 days",
+      "canonical_url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.953Z",
+      "excerpt": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "source_ids": {
+        "guid": "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Perplexity and Intelligence",
+      "canonical_url": "https://openai.com/index/perplexity-and-intelligence",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-22T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.953Z",
+      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "source_ids": {
+        "guid": "https://openai.com/index/perplexity-and-intelligence"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

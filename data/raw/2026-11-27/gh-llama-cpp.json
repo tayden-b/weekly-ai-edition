@@ -1,0 +1,1515 @@
+{
+  "adapter": "github-releases",
+  "source": "gh-llama-cpp",
+  "fetched_at": "2026-11-27T19:51:15.952Z",
+  "items": [
+    {
+      "headline": "b12816",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12816",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T17:02:01Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> graph : read recurrent states in place instead of copying (#28841) (#30139) * graph : read recurrent states in place instead of copying (#28841) This is a graph only change that speeds up token output in the majority of cases and backends by removing state copy steps. Where possible,",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12816"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12815",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12815",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T14:09:06Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> cuda : fix NVFP4 MMQ y_scale over-read in the stream-k fixup (#33136) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/73139901> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12815"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12814",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12814",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T13:27:51Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> moe-cache : support experts selected on another backend (#33133) When the experts are selected on another backend than the cache, e.g. the loop passes of inkling2_loop with a layer split, the lookup reads a copy of the ids made by the scheduler, which has no source to read the shape",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12814"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12812",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12812",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T13:06:01Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> metal : check all fused nodes for concurrency (#33175) * metal : check all fused nodes for concurrency The concurrency check for a fused group only examined the last node, so intermediate outputs (e.g. the TOPK_MOE ids/weights) and the group's sources (e.g. the router logits) were",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12812"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12811",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12811",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T11:14:55Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ui: share conversations to Hugging Face datasets as agent traces (#32608) * ui: add @ggml-org/llama-huggingface, a Hugging Face account as a package A package in ui/lib that gives an app running in the browser, with no server of its own, a Hugging Face account. Its plain entry holds",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12811"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12810",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12810",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T08:11:21Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> hex-hmx: fix accuracy issues in act and weight scaling, drop w8a8+f16 hybrid mode (no longer needed) (#33166) Co-authored-by: Max Krasnyansky <maxk@qti.qualcomm.com> </details> **Website:** - <https://llama.app> **Attestations:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12810"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12809",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12809",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T07:14:49Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> vulkan: add FA compact bias support for Inkling 2 Mini (#32898) * vulkan: add FA compact bias support for Inkling 2 Mini * fix xe condition and function signature * fix RDNA regression * batch loads to allow overlap and coalescing </details> **Website:** - <https://llama.app>",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12809"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12808",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12808",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T06:02:01Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> sycl: dequantize reordered q6_K in f32 like the canonical kernel (#32726) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72959070> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12808"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12807",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12807",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T05:42:54Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml-openvino: CI op-test fixes and NPU improvements (#33088) * ggml-openvino: KV-only prefill on the static path, with one decode step for the outputs On the static path (NPU, or any device with GGML_OPENVINO_FORCE_STATIC=1) the prefill model of a graph with KV-shared attention",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12807"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "v1.1.0",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T09:16:47Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "## Overview llama.cpp v1.1.0 adds the Inkling 2 family (base, Mini and DSpark), Domyn Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash, splits DFlash speculative decoding into separate draft methods, and deprecates the old `llama_batch` API in favour of `llama_batch_ext`. It brings a large set of TTS",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "v1.1.0"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12806",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12806",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T05:22:40Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> sycl: route BMG D=256 single-query decode to the FA vector kernel (#30606) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72950637> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12806"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12805",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12805",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T04:52:28Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> opencl: add multi token f32 GEMV for spec verify (#33098) * opencl: add multi token F32 GEMV Co-authored-by: Hongqiang Wang <wangh@qti.qualcomm.com> Assisted-by: Codex * opencl: let ne01 > 512 still use tiled GEMM --------- Co-authored-by: Hongqiang Wang <wangh@qti.qualcomm.com>",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12805"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12804",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12804",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T04:19:37Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> hip : fix bf16 MFMA operand vector type for CDNA (#33086) Follow-up to ggml-org/llama.cpp#30885: the CDNA MFMA bf16 builtins also take short vectors, so LLVM 23 rejects __bf16 for gfx908, gfx90a, gfx942 and gfx950. </details> **Website:** - <https://llama.app> **Attestations:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12804"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12803",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12803",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T02:05:21Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> bailingmoe3 : fuse ssm_conv + silu and remove redundant copies (#33081) * bailingmoe3 : apply silu before reshape to enable fused conv kernel * bailingmoe3 : avoid redundant copies before attention output projection </details> **Website:** - <https://llama.app> **Attestations:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12803"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12801",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12801",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-27T01:51:44Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml/CUDA+HIP: Flash Attention with indexed bias (#33063) * cuda : port indexed bias FA onto the refactored loaders Replays the #32740 bias support on the shared typed tile loader, adds bias in F32 to match the CPU reference and routes rows via KV_indirection. * cuda : return zeros",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12801"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12800",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12800",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T23:08:22Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> opencl: add MoE int8 bin kernel host side changes for Adreno A850 (#33069) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72871281> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12800"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12798",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12798",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T22:48:45Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> tests : relax the DEPTH_MIX tolerance to the mul_mat one (#33141) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72867873> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12798"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12793",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12793",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T22:30:32Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> CUDA: fuse the Inkling 2 short conv, depth mix, loop controller, L2 clip and situ chains (#33060) * model : inkling2 order the conv ops so backends can fuse them * CUDA: fuse the Inkling 2 short conv, depth mix, loop controller, L2 clip and situ chains </details> **Website:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12793"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12791",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12791",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T22:10:09Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> vulkan: fix Windows driver RDNA1 architecture misclassification (#33123) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72858637> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12791"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12785",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12785",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T21:31:09Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> DFlash2: support Inkling-2-Mini DFlash2 (#33073) * support inkling2 DFlash2 * address review comments Assisted-by: Claude Opus 5.5 Co-authored-by: Nikita Belokopytov <belokopytov.n@gmail.com> --------- Co-authored-by: Nikita Belokopytov <belokopytov.n@gmail.com> </details>",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12785"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12784",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12784",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T21:09:03Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> tests : take the test-fusion moe flag from the fixture name (#33104) * tests : take the test-fusion moe flag from the fixture name The moe flag came from the arch name, so the dense and MoE fixtures of an arch shared a baseline key, and MoE-only archs were keyed as dense. Read it",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12784"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12782",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12782",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T20:47:21Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> CUDA: move the fusion code out of ggml-cuda.cu (#33087) Move the fusion matchers, ggml_cuda_can_fuse, ggml_cuda_try_fuse and the fusion alloc deps of graph_optimize into fusion.cu, unchanged. fusion.cuh exports ggml_cuda_try_fuse and ggml_cuda_fusion_add_alloc_deps. The",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12782"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12780",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12780",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T17:36:39Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml : support a BF16 src1 in MUL_MAT and MUL_MAT_ID (CPU, CUDA) (#32533) * ggml : support a BF16 src1 in MUL_MAT and MUL_MAT_ID (CPU, CUDA) * ggml : fix MMVF expert offset overflow and tighten BF16 src1 gates * ggml : strided BF16 src1 tests, explicit MUSA Q2_K rule, MMVF offset fix",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12780"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12779",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12779",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T17:01:37Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> llama : refuse SPLIT_MODE_TENSOR for Hadamard-folded models (#33080) Prism Bonsai models (prism.hadamard) aborted in the meta backend with GGML_ASSERT(split_state.ne[j] % div == 0) when loaded with -sm tensor: the ssm_out input permutation from tiled to grouped GDN head order",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12779"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12778",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12778",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T16:33:04Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> CUDA: fuse the top-k MoE weight norm with an additive sum bias (#32943) Assisted-by: Claude Opus 5.5 </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72757804> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12778"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12777",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12777",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T14:17:35Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> CUDA: loop over ne2/ne3 in non-contiguous concat (#33006) The non-contiguous concat kernel mapped dst ne[2] and ne[3] directly to gridDim.y and gridDim.z, which are limited to 65535. Larger tensors made the launch fail with \"invalid configuration argument\". Cap the grid and loop over",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12777"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12776",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12776",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T11:48:37Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> CUDA: fix ROCm CI, do not pick the tile FA kernel for DKQ 576 with a GQA ratio not divisible by 4 (#33045) * CUDA: flash attention tile kernel for DKQ 576 with a GQA ratio of 2 The tile kernel for 576/512 only had variants for GQA ratios that are multiples of 4, while the kernel",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12776"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12774",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12774",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T09:13:58Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> sync : ggml </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72575758> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12774"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12760",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12760",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T07:27:13Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> opencl: Adreno E17 compiler quirks off by default (#33013) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72537722> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12760"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12758",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12758",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T07:09:24Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> model : add RAON-1-mini-preview support (#32176) * vocab : add RAON pre-tokenizer and NFC normalization * model : add RAON hybrid attention and mHC graph * convert : add MXFP8 weight dequantization * convert : add RAON HF to GGUF conversion and schema * chat : add the RAON chat",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12758"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12757",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12757",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T06:43:39Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> model: use the indexed bias in the Inkling 2 graph (#33053) * use the indexed bias in the Inkling 2 graph * Remove RPC check </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72525428> **macOS/iOS:** - [macOS Apple",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12757"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12756",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12756",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T05:07:54Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> CUDA: refactor & deduplicate FA data loading (#32901) * CUDA: refactor & deduplicate FA data loading * fix float2 indexing * fix hip quality check </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72501768>",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12756"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12755",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12755",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T03:22:36Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> model : add hy_v4_flash on the DSA iSWA cache (#32960) * model : add hy_v4_flash on the DSA iSWA cache Tencent Hy4 flash is a hy_v4 trunk (iHC, gated MLA, sinks) with sparse and sliding-window MLA layers, sandwich norms, latent routed experts and deepseek41 Engram tables. The sparse",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12755"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12754",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12754",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T02:46:51Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml-openvino: fix CI op tests and improve KV cache decode (#33002) * ggml-openvino: write back consumed in-place nodes of op-test graphs On the naive path every node of an op-test graph is a model output, except an in-place node that another node reads: it got no output, so its",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12754"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12753",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12753",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T02:17:03Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> llama : fix seq state restore with ON_DEVICE (#30318) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72458381> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12753"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12752",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12752",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-26T01:58:24Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> llama.cpp : bump version to 1.1.0 (#33043) * llama.cpp : bump version to 1.1.0 * authors : update </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72452862> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12752"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12751",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12751",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T23:29:28Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> vocab : implement Metaspace prepend_scheme always for BPE (#33038) * vocab : implement Metaspace prepend_scheme always for BPE * Drop test-tokenizer-mmbert </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72410348>",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12751"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12738",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12738",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T22:35:44Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> server : handle CTRL_BREAK_EVENT on Windows for clean shutdown (#32080) Windows can't send SIGINT to a child process, so scripts that launch llama-server could only kill it, which skips the clean shutdown. The console control handler only handled CTRL_C_EVENT, so a CTRL_BREAK_EVENT",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12738"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12734",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12734",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T22:14:54Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> metal : commit the graph in chunks with one command buffer thread (#32947) Assisted-by: Claude Opus 5.5 </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72386571> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12734"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12732",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12732",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T21:51:00Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml: allow input async copies (#30685) * ggml: allow input async copies Copy the host inputs of a split with set_tensor_async followed by a single synchronize, instead of one blocking copy per input. This is opt-in per device through the new async_host_input cap, which only CUDA",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12732"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12728",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12728",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T15:18:35Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml: allow reserving scratch memory in graph_optimize (#31898) * ggml: allow reserving scratch memory in graph_optimize Add add_scratch to ggml_backend_graph_optimize_params. A backend can reserve compute buffer memory that is allocated before a node `first` and kept until a node",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12728"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12726",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12726",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T14:42:12Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> sycl: F8 e4m3 initial support SET_ROWS, CPY, ADD, MUL_MAT, MUL_MAT_ID (#31871) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72206079> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12726"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12723",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12723",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T14:00:27Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> model : inkling2 graph with fewer ops in mix() and control() (#32948) Assisted-by: Claude Opus 5.5 </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72185389> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12723"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12722",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12722",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T10:37:37Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> opencl: add clc coopmat moe kernel for q4_0/q4_1/q4_k/q5_0/q5_1/q5_k/q6_k/mxfp4 (#32971) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72098564> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12722"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12721",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12721",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T07:48:02Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> tests : fix MSVC static build of test-batch-alloc and test-server-component (#32870) Fixes #32868 </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/72030425> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12721"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12720",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12720",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T06:44:26Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> feat: Inkling 2 DSpark support (#32218) * conversion * init cpp side * handle temp > 0 * dspark : fix Inkling2 draft state width, reseeding and draw order * spec: align Inkling2 DSpark with n_max draft tokens same as the other DSparks * unify rnn condition with markov_head_type *",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12720"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12719",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12719",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T05:59:50Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> cuda : fix int overflow of the MMVF matrix offsets (#32965) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/71997699> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12719"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12716",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12716",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T04:27:39Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> cmake : include the llguidance header from the source tree (#32928) Cargo 1.100 changed the build directory layout for intermediate artifacts, so the header destination llguidance derives from $OUT_DIR no longer resolves to target/release, and the build fails on a missing",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12716"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12711",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12711",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T04:04:20Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml-cpu: repack kernels for targets without dotprod (ARMv8.0 64-bit) for Q4_0/Q8_0 (#32142) * ggml-cpu: optimized kernels for ARM v8.0 (without dotprod) * ggml-cpu: fix comment and align to implementation * ggml-cpu: exclude new kernels for apple arch </details> **Website:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12711"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12709",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12709",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T03:50:38Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml-cpu: add SVE-optimized q5_0 and q5_1 dot-product kernels (#30867) * Merged PR 5925: SVE suooprt for ggml_vec_dot_q5_0_q8_0, ggml_vec_dot_q5_1_q8_1 SVE suooprt for ggml_vec_dot_q5_0_q8_0, ggml_vec_dot_q5_1_q8_1 * perf(arm): optimize q5_0 q8_0 dot products with SVE - Load high-bit",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12709"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12708",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12708",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T03:35:55Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> server : include MCP image and audio data in tool results (#32064) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/71959162> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12708"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12707",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12707",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T03:21:51Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> context : prevent excessive CPU polling without OpenMP (#32378) * common : prevent polling while GPU computes (on Metal or without OpenMP) * use AudioWorkIntervalCreate to keep the thread on P-cores * Revert \"use AudioWorkIntervalCreate to keep the thread on P-cores\" This reverts",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12707"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12706",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12706",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T03:07:24Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> metal : reserve the top-k scratch only for short rows (#32942) The bitonic top-k path is only faster for short rows. On M5 and M2 Ultra it wins up to 128 columns; above that the radix path is faster. Use the radix path for ncols > 128. The radix path selects in place and needs no",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12706"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12704",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12704",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T02:53:12Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> vulkan: add chunked GDN replay support (#32721) * vulkan: add replay support to chunked GDN shaders * use atomicStore instead of atomicExchange for readability </details> **Website:** - <https://llama.app> **Attestations:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12704"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12703",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12703",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T02:41:40Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> cuda : fuse RMS_NORM + MUL + MROPE/IMROPE and tune block size (#32500) * cuda : support MROPE/IMROPE and tune block size in rms_norm_mul_rope * cuda : use 64 threads for multi-token ncols <= 256 in rms_norm_mul_rope Assisted-by: Antigravity </details> **Website:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12703"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12701",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12701",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-25T02:24:02Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> model : Inkling 2 Mini mix() weighted sum with the scores as src0 (#32855) * model : Inkling 2 Mini mix() weighted sum with the scores as src0 The weighted sum over the depth states has K = # of states so the old operand order ran one small mat-vec per token. Putting scores first",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12701"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12686",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12686",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T22:45:15Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> server : fix skipped prompt cache lookups (#28992) * server : fix skipped prompt cache lookups Assisted-by: Claude Opus 5 * server : let the slot scheduler ask the prompt cache Move the prompt cache lookup into server_slot_sched::select() so the plan alone decides whether the cache",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12686"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12683",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12683",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T22:30:42Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> rpc : reuse one context for request tensors on the server (#32896) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/71859743> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12683"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12682",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12682",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T22:11:58Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml : use a range-reduced log1p for softplus (#32655) * metal : use a range-reduced log1p for softplus Use the atanh series for x in [-0.5, 1] and precise::log(1 + x) otherwise. This avoids the cancellation in log(1 + exp(x)) for negative inputs and does not rely on fast-math",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12682"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12681",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12681",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T19:12:13Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> vulkan: support state size 96 in ssm_scan (#32162) * vulkan: support state size 96 in ssm_scan Assisted-by: Claude Code * vulkan: specialize ssm_scan state size Assisted-by: Codex * vulkan: clarify ssm_scan constant names Assisted-by: Codex </details> **Website:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12681"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12680",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12680",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T18:41:10Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> opencl: fix GDN QK offsets (#32747) Assisted-by: Codex </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/71765735> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12680"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12679",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12679",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T18:24:27Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> opencl: add c8 q6_k coopk GEMM for up to n=8 spec verify (#32909) Assisted-by: Codex Co-authored-by: Hongqiang Wang <wangh@qti.qualcomm.com> </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/71759211> **macOS/iOS:**",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12679"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12678",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12678",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T18:07:00Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> fix editor config in master (#32914) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/71752017> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12678"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12676",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12676",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T13:24:35Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> GDN: use replay instead of rollback (#31669) * GDN: use replay instead of rollback [WIP] * memory : move rs_max with the sequence when find_slot swaps cells find_slot swapped pos/src/rs_pend/seq_id of the cell it moves out of the way, but not rs_max, so that sequence inherited the",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12676"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12675",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12675",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T09:55:33Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> server : preserve a prompt-cache entry until restores succeed (#32828) Assisted-by: Codex </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/71542828> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12675"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12674",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12674",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T08:25:32Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> opencl: fetch the Adreno binary kernel library at configure time for Windows on Snapdragon (#31759) * opencl: fetch the Adreno binary kernel library at configure time Make GGML_OPENCL_USE_ADRENO_BIN_KERNELS an option, default ON, and add GGML_OPENCL_ADRENO_BIN_KERNELS_FETCH, default",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12674"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12671",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12671",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T07:02:04Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> metal : batch concat rows and copy them in vector chunks (#32824) * metal : batch concat rows and copy them in vector chunks The concat kernel copied one element per thread, so wide rows with many rows ran at a fraction of the memory bandwidth. Batch several rows per threadgroup and",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12671"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12670",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12670",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T06:13:13Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml: compact bias on the existing FLASH_ATTN_EXT (#32740) * compact bias on the existing FLASH_ATTN_EXT for CUDA, ROCm and Vulkan * fixup! compact bias on the existing FLASH_ATTN_EXT for CUDA, ROCm and Vulkan * remove the Vulkan support from this PR * move the CUDA/HIP and Inkling 2",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12670"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12669",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12669",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T02:38:41Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> quantize: add option to automatically choose optimal quant types to reach a file/bpw target size at lowest error (#15550) * Refactor pareto optimise and convexify * Refactor lagrange_penalty() * Refactor quantisation checks into its own function * Exit loop if no better solution",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12669"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12668",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12668",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T02:14:27Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> metal : support BF16/F32 src1 for MUL_MAT and MUL_MAT_ID (#32677) * llama, metal : support BF16 src1 for MUL_MAT and MUL_MAT_ID Add GGML_PREC_BF16 handling for src1 on the Metal backend when the tensor API is available: MUL_MAT with an F32 src0 stages the A tile as bfloat, and",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12668"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12667",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12667",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T01:52:17Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> server: ask exec_shell_command for a short description of the command (#32894) The shell tool's schema gains a required `description` argument, listed first: a short plain-language line on what the command does. The tool ignores it, as before; clients can show it in place of the raw",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12667"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12662",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12662",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T01:34:31Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> metal: resolve gpu timeout on iPhone for Bonsai (#31815) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/71394236> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12662"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12659",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12659",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T01:13:17Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml-openvino: CI fixes, new model support, fixes and improvements. (#32861) * ggml-openvino: keep the rope angle in f32 under the f16 inference hint * ggml-openvino: add a GGML_OP_ARGMAX translator * ggml-openvino: keep the token dim dynamic for a 2-D activation graph input *",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12659"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12658",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12658",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T00:56:59Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> rpc : typed request helpers and a single validation step on the server (#32651) * rpc : typed request helpers and a single validation step on the server Client and server share one table (rpc_msg_types) that maps each fixed-size command to its request and response structs. The client",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12658"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12657",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12657",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-24T00:38:04Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml-cuda : handle zero blocks in few-row MMQ quantization (#32566) Assisted-by: ChatGPT (GPT-6) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/71378179> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12657"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12655",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12655",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T23:18:35Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> cmake: treat kleidiai files as vendored (#32605) * cmake: treat kleidiai files as vendored Signed-off-by: Aaron Teo <aaron.teo1@ibm.com> * cmake: use quotes and semicolon separators Signed-off-by: Aaron Teo <aaron.teo1@ibm.com> --------- Signed-off-by: Aaron Teo <aaron.teo1@ibm.com>",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12655"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12651",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12651",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T08:52:50Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> webgpu : add ROLL support (#31887) * webgpu : add ROLL support * tests : keep ROLL cases portable across backends </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/71003574> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12651"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12650",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12650",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T08:36:57Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> chat : improve inkling parser/grammar (#32833) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70997558> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12650"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12649",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12649",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T06:55:55Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> opencl: add xielu (#32791) Assisted-by: Codex </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70965633> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12649"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12648",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12648",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T03:32:10Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> opencl: add q4_k coop-k c8 GEMM for spec verify (#32716) * opencl: add q4_k coop-k c8 GEMM for spec verify Co-authored-by: Hongqiang Wang <wangh@qti.qualcomm.com> Assisted-by: Codex * opencl: enable q4_k c8 GEMM for n >= 2 for X2 --------- Co-authored-by: Hongqiang Wang",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12648"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12647",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12647",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T03:18:13Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> tests : compare only the guaranteed GDN snapshot slots (#32820) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70920365> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12647"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12646",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12646",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T03:00:02Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml-backend : generic fallback in ggml_backend_tensor_memset (#32574) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70916521> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12646"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12645",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12645",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T02:32:03Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> chat: fix LFM2.5-VL template detection (#32843) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70910857> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12645"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12644",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12644",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T02:15:54Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> mtmd: speed up shared audio FFT (#32815) * mtmd: speed up shared audio FFT Replace recursive radix-2 splitting with iterative stages and batch the existing odd-size DFT across subsequences, preserving the previous operation order. Input buffers now hold only N real values for FFT or",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12644"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12643",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12643",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T02:01:24Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> mtmd: fix qwen3a audio tail (#32697) * add: test to reporduce error reported in https://github.com/ggml-org/llama.cpp/issues/32689 * fix: remove extra tokens from zero-padding of Qwen3-Omni / Qwen3-ASR audio * add: qwen3a_tokens_for_frames instead of magic numbers * refactor: only",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12643"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12642",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12642",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T01:47:24Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> llama : copy all experts of a host weight shared by several nodes (#32807) * llama : copy all experts of a host weight shared by several nodes The scheduler copies a host weight to the device once per graph, so a partial expert copy made for the first MUL_MAT_ID is stale for the",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12642"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12641",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12641",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T01:34:25Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> vocab: enable ignore_merges for inkling2 (#32799) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70898119> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12641"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12640",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12640",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T01:19:17Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> server : add offset pagination to grep_search tool (#32792) Signed-off-by: Adrien Gallouët <angt@huggingface.co> </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70894511> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12640"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12638",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12638",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-23T00:49:23Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> chat : implement token aware parsing (#29307) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70888244> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12638"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12635",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12635",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T23:55:51Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml : add SIGMOID backward pass (#32126) * ggml : add SIGMOID backward pass Sigmoid is used in Qwen3.5 hybrid models and had no backward pass. Bump RPC protocol patch version for the new op. Signed-off-by: gianni-cor <gianfranco.cordella@tether.io> * replace assert with ggml_assert",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12635"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12633",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12633",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T14:53:42Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml : fix nonzero clear on WebGPU and non-UMA devices (#32727) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70776484> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12633"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12632",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12632",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T14:37:40Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> HIP: fix double halving of NVFP4 scales on CDNA3 (#32790) Fixes #32789 </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70773688> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12632"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12631",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12631",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T09:03:19Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> webgpu : update GDN supports_op check (#32782) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70718174> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12631"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12629",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T08:43:35Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> opencl: add coopmat GEMM for Adreno 850 (Q4_0, Q5_0, Q8_0, Q4_K, Q5_K, Q6_K) (#32686) * opencl: add Q4_0 coopmat GEMM for Adreno 850 Assisted-by: Claude Opus 5.5 * opencl: add Q5_0 coopmat GEMM for Adreno 850 * opencl: add Q8_0 coopmat GEMM for Adreno 850 * opencl: add Q4_K coopmat",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12629"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12628",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12628",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T06:53:42Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> vulkan : support non-contiguous src in SCALE (#32735) Assisted-By: Opus 5.5 </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70699278> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12628"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12627",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T03:51:24Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> server : fit non-causal batches in one ubatch (#32713) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70673562> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12627"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12626",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12626",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T02:20:06Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> vulkan : fix memset for unaligned ranges for non-UMA devices (#32725) See https://github.com/ggml-org/llama.cpp/pull/32574 </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70660507> **macOS/iOS:** - [macOS Apple",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12626"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12625",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12625",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T02:01:35Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> model: fix no_realloc for clef and vllm-decision2 (#32754) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70657345> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12625"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12624",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12624",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T01:47:52Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> chat : pass reasoning_effort = none if supported (#32763) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70655398> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12624"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12623",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12623",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T01:11:05Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> mtmd : merge Parakeet rel-pos views to avoid OOB (#32722) Assisted-by: Grok Bot </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70649736> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12623"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12622",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12622",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T00:49:57Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> model: apply .scale tensors automatically + fix correctness (#32669) * model: apply .scale tensors automatically * rm build_moe_ffn \"_s\" overload * use llama_prec_policy * fix ci * build_lora_mm_id: rm w_s </details> **Website:** - <https://llama.app> **Attestations:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12622"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12621",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12621",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T00:37:17Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> sycl: bound CONV_TRANSPOSE_1D input iteration (#31109) Used angelX to optimize SYCL/drama 3 coordination, results are as follows Each output reads only inputs with i*s0 <= idx < i*s0 + K, in the same ascending order as before. Arc Pro B70, oneAPI 2026.1, test-backend-ops perf, base",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12621"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12620",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12620",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-22T00:16:20Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml : improvements to the memory access pattern in `ggml_compute_forward_mul_mat_one_chunk` (#30846) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70641771> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12620"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12619",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12619",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T23:45:36Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> mtmd: support kyutai/hibiki realtime full-duplex (#32491) * mtmd: support hibiki realtime duplex * fix and clean up * fix long session quality * fix ci * tests : add the moshi fusion baseline for Metal The Metal fusion check found 5 RMS_NORM+MUL fusions in the new moshi arch and no",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12619"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12618",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12618",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T23:30:57Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> sycl: add IQ4_NL and IQ4_XS weight reorder (#31998) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70634674> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12618"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12617",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12617",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T23:04:00Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> sycl: column-blocked gated_delta_net kernel (#32456) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70630354> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12617"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12615",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12615",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T22:47:34Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> sycl: add fused ADD, RMS_NORM, MUL and vectorize rms norm (#31753) * sycl: vectorize contiguous rms norm * sycl: add fused ADD, RMS_NORM, MUL * tests: test fused ADD, RMS_NORM, MUL at decode widths </details> **Website:** - <https://llama.app> **Attestations:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12615"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12613",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12613",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T19:40:37Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> vulkan: unroll FA coopmat1 array due to a driver bug on AMD Windows (#32466) * vulkan: unroll FA coopmat1 array due to a driver bug on AMD Windows * simplify code to make it clearer </details> **Website:** - <https://llama.app> **Attestations:** -",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12613"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12612",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12612",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T19:28:39Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> vulkan: improve RDNA4 MMVQ performance for Q3_K, Q5_K and IQ4_XS (#31804) * vulkan: keep default MMVQ rows for Q3_K, Q5_K, IQ4_XS on RDNA4 AMD proprietary driver Assisted-by: Claude Opus 5.5 * clean up mmvq shader load logic --------- Co-authored-by: Ruben Ortlam <rortlam@redhat.com>",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12612"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12611",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12611",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T19:12:42Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> model : inkling2_loop share the loop slots after the scale pass (#32704) The loop slots copied the physical layers at the end of load_arch_tensors, before the generic pass attaches the optional .scale tensors, so the later passes through the core ran NVFP4 experts without their",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12611"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12609",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12609",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T18:59:46Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml-zdnn: fix ztensor load race condition (#32279) Signed-off-by: Aaron Teo <aaron.teo1@ibm.com> </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70591271> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12609"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12608",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12608",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T16:05:19Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> ggml-cpu: fix nc aligment in tinyBLAS_PPC_Q0 (#32659) Fixes https://github.com/ggml-org/llama.cpp/issues/31680 The matmul_tiled() implementation in tinyBLAS_Q0_PPC requires nc to be a multiple of 8 to perform matrix multiplication correctly. The previous alignment logic contained a",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12608"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12606",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12606",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T10:28:59Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> llama : remove fused lightning indexer gating (#32650) The fused lightning indexer is always used now, so drop the cparams flags, the auto probe and the non-fused fallbacks. Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB) </details>",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12606"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12604",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12604",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T10:05:49Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> llama-grammar: Fix integer overflow (#32551) * llama-grammar: Fix integer overflow * Check incorrect values at parsing and bail out nicely * fix style </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70497297>",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12604"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12603",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12603",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T09:29:12Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> llama : score only the k-pools of the ubatch sequences in QSA (#32519) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70490159> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12603"
+      },
+      "adapter": "github-releases"
+    },
+    {
+      "headline": "b12602",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12602",
+      "publisher": "GitHub: ggml-org/llama.cpp",
+      "published_at": "2026-11-21T04:28:53Z",
+      "fetched_at": "2026-11-27T19:51:15.989Z",
+      "excerpt": "<details open> sycl: Improve Grouped XMX GEMM by avoiding SLM staging (#31428) </details> **Website:** - <https://llama.app> **Attestations:** - <https://github.com/ggml-org/llama.cpp/attestations/70439764> **macOS/iOS:** - [macOS Apple Silicon",
+      "source_ids": {
+        "github_repo": "ggml-org/llama.cpp",
+        "github_release_tag": "b12602"
+      },
+      "adapter": "github-releases"
+    }
+  ]
+}

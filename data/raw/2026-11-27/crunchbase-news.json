@@ -1,0 +1,33 @@
+{
+  "adapter": "press-wire-rss",
+  "source": "crunchbase-news",
+  "fetched_at": "2026-11-27T19:51:15.952Z",
+  "items": [
+    {
+      "headline": "Your AI Startup’s Exit Is Being Shaped By The Deals You Sign Today",
+      "canonical_url": "https://news.crunchbase.com/ma/your-ai-startups-exit-is-being-shaped-by-the-deals-you-sign-today/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-25T12:00:09.000Z",
+      "fetched_at": "2026-11-27T19:51:16.003Z",
+      "excerpt": "When everything moves that fast, the terms of your financings and of your contracts for compute, data and distribution get set early and in a hurry. Some of those terms will later slow a sale, add cost and erode value.",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94444"
+      },
+      "adapter": "press-wire-rss"
+    },
+    {
+      "headline": "AI Bias In HR: Why Polished Work Gets Overrated And What to Do About It",
+      "canonical_url": "https://news.crunchbase.com/workplace/ai-bias-in-hr-hiring-job-applications/",
+      "publisher": "Crunchbase News",
+      "published_at": "2026-11-24T12:00:48.000Z",
+      "fetched_at": "2026-11-27T19:51:16.003Z",
+      "excerpt": "Employees and job-seekers alike are all using AI to create polished work and applications that appear perfect. In that environment, how can we promote and hire the right people?",
+      "source_ids": {
+        "feed": "crunchbase-news",
+        "guid": "https://news.crunchbase.com/?p=94439"
+      },
+      "adapter": "press-wire-rss"
+    }
+  ]
+}

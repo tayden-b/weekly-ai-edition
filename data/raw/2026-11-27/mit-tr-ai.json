@@ -1,0 +1,43 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "mit-tr-ai",
+  "fetched_at": "2026-11-27T19:51:15.952Z",
+  "items": [
+    {
+      "headline": "AI is straining America’s open records systems",
+      "canonical_url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-25T10:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.059Z",
+      "excerpt": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1149702",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "canonical_url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "publisher": "MIT Technology Review",
+      "published_at": "2026-11-23T17:36:08.000Z",
+      "fetched_at": "2026-11-27T19:51:17.059Z",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we",
+      "source_ids": {
+        "rss_guid": "https://www.technologyreview.com/?p=1149569",
+        "newsroom_feed": "mit-tr-ai"
+      },
+      "categories": [
+        "Artificial intelligence",
+        "App",
+        "Summary",
+        "The Algorithm"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}
