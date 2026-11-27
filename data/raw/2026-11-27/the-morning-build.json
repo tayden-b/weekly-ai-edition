@@ -1,0 +1,133 @@
+{
+  "adapter": "newsroom-rss",
+  "source": "the-morning-build",
+  "fetched_at": "2026-11-27T19:51:15.952Z",
+  "items": [
+    {
+      "headline": "The Morning Build for November 27, 2026: Google Workspace MCP, Nvidia Shipments, and Photonic Chips",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-27/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-27T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.344Z",
+      "excerpt": "Google routes agents to MCP servers with 30-day caps; Nvidia pauses SE Asia shipments; OpenAI fixed GPT-6.2 billing; Q.ANT photonic pilot at IONOS; Nvidia faces Dec. 3 hearing.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-27/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "big-tech",
+        "chips",
+        "dev-tools",
+        "policy"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 26, 2026: OpenAI merges Chat and Work, Anthropic publishes GRH proof, Microsoft flags ARTEX",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-26/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-26T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.344Z",
+      "excerpt": "OpenAI merges Chat and Work (December rollout), Anthropic publishes GRH Lean proof (Apache 2.0), Microsoft details ARTEX attacks, and DeepMind runs agents on Gemini compute.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-26/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 25, 2026: Meta's Muse in DMs, ShellBench Limits, and AI Math Proofs",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-25/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.344Z",
+      "excerpt": "Meta's Muse connects to Walmart shopping; ShellBench finds one-third failure rate for agents; GPT-6 Astra solves most physics benchmark problems; Claude-assisted Riemann proof under review.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-25/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 24, 2026: Anthropic's Claude Ship, Google Personal Intelligence, and Z.ai's GLM-5.4 loop model",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-24/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-24T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.344Z",
+      "excerpt": "Anthropic launches Claude Ship for agentic PR reviews and approvals; Google links Wallet, Drive, and Gemini to Search AI Mode; Z.ai unveils looped GLM-5.4; Amazon reports agent-driven 0-day.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-24/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 23, 2026: GPT-6.2 Astra's Proof, Anthropic's IPO, and Signal's Screenshot Limits",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-23/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.344Z",
+      "excerpt": "GPT-6.2 Astra produced a machine-verifiable proof; Anthropic IPOed; coding agents fail most simulated workplace tasks; OpenAI pushes perplexity reporting; Signal blocks screenshots.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-23/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "dev-tools",
+        "policy",
+        "startups"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 22, 2026: Inkling: 2-Mini Compresses to 5.4 GB, Google Reworks Search, and Two Riemann Proofs",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-22/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-22T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.344Z",
+      "excerpt": "Inkling: 2-Mini builds fit 5.4 GB with trellis quantization; Google converts search homepage to AI-first; competing Riemann proofs and Nvidia governance frictions dominate.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-22/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech",
+        "chips"
+      ],
+      "adapter": "newsroom-rss"
+    },
+    {
+      "headline": "The Morning Build for November 21, 2026: Nvidia CEO Resigns, Anthropic IPO Reaffirms Pacing, Meta Rewrites Net-Zero",
+      "canonical_url": "https://themorningbuild.com/digest/2026-11-21/",
+      "publisher": "The Morning Build",
+      "published_at": "2026-11-21T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.344Z",
+      "excerpt": "Nvidia’s CEO resignation and congressional testifying deadline, Anthropic’s IPO and pacing pledge, and Meta’s 2030 net-zero rethink after record data center emissions.",
+      "source_ids": {
+        "rss_guid": "https://themorningbuild.com/digest/2026-11-21/",
+        "newsroom_feed": "the-morning-build"
+      },
+      "categories": [
+        "ai",
+        "big-tech"
+      ],
+      "adapter": "newsroom-rss"
+    }
+  ]
+}

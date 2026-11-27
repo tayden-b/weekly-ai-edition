@@ -1,0 +1,103 @@
+{
+  "adapter": "lab-blogs",
+  "source": "huggingface-blog",
+  "fetched_at": "2026-11-27T19:51:15.952Z",
+  "items": [
+    {
+      "headline": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "canonical_url": "https://huggingface.co/blog/video-trainium3",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-27T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.986Z",
+      "excerpt": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/video-trainium3"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "canonical_url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-26T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.986Z",
+      "excerpt": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "canonical_url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-26T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.986Z",
+      "excerpt": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "canonical_url": "https://huggingface.co/blog/training-swarms",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-26T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.986Z",
+      "excerpt": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/training-swarms"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Where scientists draw the line on AI agents",
+      "canonical_url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.986Z",
+      "excerpt": "Where scientists draw the line on AI agents",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "An Indic Voice Agent with CUGA",
+      "canonical_url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.986Z",
+      "excerpt": "An Indic Voice Agent with CUGA",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "canonical_url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-25T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.986Z",
+      "excerpt": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"
+      },
+      "adapter": "lab-blogs"
+    },
+    {
+      "headline": "How to build and maintain an agentic evaluation",
+      "canonical_url": "https://huggingface.co/blog/agentic-evals",
+      "publisher": "Hugging Face",
+      "published_at": "2026-11-23T00:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:15.986Z",
+      "excerpt": "How to build and maintain an agentic evaluation",
+      "source_ids": {
+        "guid": "https://huggingface.co/blog/agentic-evals"
+      },
+      "adapter": "lab-blogs"
+    }
+  ]
+}

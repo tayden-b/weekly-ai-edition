@@ -1,0 +1,118 @@
+{
+  "adapter": "distribute-software",
+  "source": "distribute-releases",
+  "fetched_at": "2026-11-27T19:51:15.952Z",
+  "items": [
+    {
+      "headline": "Introducing Search for Agents",
+      "canonical_url": "https://blog.cloudflare.com/search-for-agents/",
+      "publisher": "Cloudflare",
+      "published_at": "2026-11-25T14:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.984Z",
+      "excerpt": "Introducing Search for Agents",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1313",
+        "distribute_url": "https://distribute.software/companies/cloudflare",
+        "distribute_source": "lab",
+        "distribute_companies": "cloudflare"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "canonical_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-24T13:00:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.984Z",
+      "excerpt": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1310",
+        "distribute_url": "https://distribute.software/companies/openai",
+        "distribute_source": "lab",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Hy MT3 released on Hugging Face",
+      "canonical_url": "https://huggingface.co/models?author=tencent&search=Hy-MT3",
+      "publisher": "Tencent HY",
+      "published_at": "2026-11-24T06:15:14.180Z",
+      "fetched_at": "2026-11-27T19:51:17.984Z",
+      "excerpt": "Hy MT3 released on Hugging Face",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1303",
+        "distribute_url": "https://distribute.software/?show=labs&lab=tencent",
+        "distribute_source": "lab"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Introducing Muse in the UK: A Personal AI Agent You Control",
+      "canonical_url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+      "publisher": "Meta",
+      "published_at": "2026-11-24T06:00:40.000Z",
+      "fetched_at": "2026-11-27T19:51:17.984Z",
+      "excerpt": "Introducing Muse in the UK: A Personal AI Agent You Control",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1304",
+        "distribute_url": "https://distribute.software/companies/meta",
+        "distribute_source": "lab",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "OpenAI and Cisco introduce Shirudo",
+      "canonical_url": "https://openai.com/index/introducing-shirudo",
+      "publisher": "OpenAI",
+      "published_at": "2026-11-23T21:20:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.984Z",
+      "excerpt": "OpenAI and Cisco introduce Shirudo",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1302",
+        "distribute_url": "https://distribute.software/companies/openai",
+        "distribute_source": "lab",
+        "distribute_companies": "openai"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
+      "canonical_url": "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/",
+      "publisher": "Meta",
+      "published_at": "2026-11-23T18:00:01.000Z",
+      "fetched_at": "2026-11-27T19:51:17.984Z",
+      "excerpt": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1299",
+        "distribute_url": "https://distribute.software/companies/meta",
+        "distribute_source": "lab",
+        "distribute_companies": "meta"
+      },
+      "adapter": "distribute-software"
+    },
+    {
+      "headline": "Introducing file slicing controls in the Gemini API",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+      "publisher": "Google DeepMind",
+      "published_at": "2026-11-23T16:12:00.000Z",
+      "fetched_at": "2026-11-27T19:51:17.984Z",
+      "excerpt": "Introducing file slicing controls in the Gemini API",
+      "source_ids": {
+        "feed": "distribute-releases",
+        "distribute_id": "release-1298",
+        "distribute_url": "https://distribute.software/companies/google",
+        "distribute_source": "lab",
+        "distribute_companies": "google"
+      },
+      "adapter": "distribute-software"
+    }
+  ]
+}
